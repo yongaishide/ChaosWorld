@@ -14,6 +14,14 @@ visualcrafting/
 PCL/
 Chaos_world-natives/
 config/yes_steve_model/cache/
+oeb/
+oef/
+oei/
+CustomSkinLoader/
+patchouli_books/
+skyblockbuilder/
+shaderpacks/
+*.zip
 
 # launcher / personal
 .hmcl/
@@ -25,3 +33,6 @@ usercache.json
 usernamecache.json
 command_history.txt
 options.txt
+emi.json
+patchouli_data.json
+ponders_watched.json
