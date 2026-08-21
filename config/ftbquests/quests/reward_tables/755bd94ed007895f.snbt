@@ -1,0 +1,23 @@
+{
+	icon: {
+		components: {
+			"ftbquests:icon": "extrahnn:block/loot_fabricator_north_v2"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "755BD94ED007895F"
+	loot_crate: {
+		color: 11600577
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "史诗奖励箱"
+		string_id: "shishi"
+	}
+	loot_size: 1
+	order_index: 5
+	rewards: [ ]
+}

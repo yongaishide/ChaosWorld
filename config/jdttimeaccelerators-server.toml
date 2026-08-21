@@ -1,0 +1,14 @@
+#Limits shared by standalone Time Accelerators and AE2 card hosts.
+[acceleration]
+	#Maximum multiplier available to JDT Time Accelerators.
+	#0 follows Just Dire Things' Time Wand maximum.
+	#Other values are capped by the Time Wand maximum and rounded down
+	#to the nearest power of two.
+	# Default: 0
+	# Range: 0 ~ 1073741824
+	maxMultiplier = 0
+	#How many JDT Time Accelerator machines and AE2 cards may accelerate
+	#the same target during one server tick. 1 disables stacked acceleration.
+	# Default: 1
+	# Range: 1 ~ 64
+	maxStacksPerTarget = 1

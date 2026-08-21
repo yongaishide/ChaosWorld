@@ -1,0 +1,230 @@
+#AutoEMC - recipe-first EMC generator for items ProjectE leaves unmapped
+[general]
+	#Master switch. If false, AutoEMC does nothing.
+	enabled = true
+	#Log every generated EMC entry. Leave false for large modpacks.
+	logAddedItems = false
+	#Run a fresh AutoEMC scan every server start, ignoring the saved scan signature.
+	alwaysRescan = false
+	#Automatically run /reload after writing custom_emc.json.
+	#Default false; restart instead unless your pack reliably reloads all recipes.
+	reloadProjectEAfterWrite = false
+
+#Progress messages. Every status message is always written to latest.log.
+#With chatNotifications enabled, the same status is also sent to all online players.
+[progress]
+	#Show AutoEMC start, skip, progress, warning, and completion messages in Minecraft chat.
+	chatNotifications = true
+	#How many registry items or recipes AutoEMC processes per server tick.
+	#Lower values make startup smoother; higher values finish sooner.
+	# Default: 500
+	# Range: 1 ~ 5000
+	itemsPerTick = 500
+	#Send a progress update every N percent. Use 25 for 25%, 50%, 75%, 100%.
+	#Only applies in chat when chatVerbosity is set to 2 (verbose).
+	# Default: 5
+	# Range: 1 ~ 100
+	progressUpdatePercent = 5
+	#How much detail AutoEMC sends to in-game chat. The full detail is always
+	#written to latest.log and config/autoemc/autoemc-debug.log regardless of this setting.
+	#0 = minimal: only start, finish, and warnings/errors.
+	#1 = normal (default): the above, plus one short update per stage (recommended).
+	#2 = verbose: everything, including percent progress and every recipe-solving pass.
+	# Default: 1
+	# Range: 0 ~ 2
+	chatVerbosity = 1
+	#Automatically reduce AutoEMC work per tick when the server is busy, then recover when ticks are healthy.
+	adaptiveBatchSizing = true
+	#Target AutoEMC work time per server tick when adaptiveBatchSizing is enabled.
+	# Default: 15.0
+	# Range: 0.25 ~ 100.0
+	adaptiveBatchTargetMs = 15.0
+	#Write a debug-log warning when AutoEMC generates an EMC value at or above this amount.
+	#This is only a warning, not a cap. Use 0 to disable.
+	# Default: 1000000000000
+	# Range: 0 ~ 9223372036854775807
+	highEmcWarningThreshold = 1000000000000
+
+#Recipe solving. AutoEMC tries recipes before fallback.
+#Only recipes whose ingredients already have EMC can produce a recipe-derived EMC value.
+[recipeSolving]
+	#Calculate missing EMC values from loaded recipes before using fallback.
+	solveRecipes = true
+	#Run AutoEMC's ProjectE-style mapper framework before recipe solving.
+	#This is where bundled and mod-specific mapper behavior plugs into the solver graph.
+	useMapperFramework = true
+	#Use bundled ProjectE/ProjectE Integration style conversion mappings as extra recipe edges.
+	#These are backported from a ProjectE 1.20.1 mapping dump plus ProjectE Integration custom conversions,
+	#and are applied only when matching items/tags exist.
+	useBundledProjectEMappingConversions = true
+	#Maximum dependency-solving passes.
+	# Default: 25
+	# Range: 1 ~ 500
+	maxRecipePasses = 25
+	#For recipe ingredients with multiple matching items: true uses the highest known EMC;
+	#false uses the lowest known EMC. False is generally safer.
+	allowRecipeValueIncrease = false
+	#Safety guard: if fewer recipes than this load, normal fallback does not run.
+	#Set to 0 to disable this guard.
+	# Default: 50
+	# Range: 0 ~ 1000000
+	minimumUsableRecipesBeforeFallback = 50
+	#Only write full EMC-CONSISTENCY detail when current EMC is at least this many
+	#times higher than the recipe-derived EMC. Smaller mismatches are counted in
+	#the scan summary without flooding the debug log.
+	# Default: 1.1
+	# Range: 1.0 ~ 1000000.0
+	consistencyWarnMinRatio = 1.1
+	#Also write full EMC-CONSISTENCY detail when current EMC exceeds recipe-derived EMC
+	#by at least this many EMC, even if the ratio is small. Set to 0 to log every
+	#positive mismatch by absolute delta.
+	# Default: 1000
+	# Range: 0 ~ 9223372036854775807
+	consistencyWarnMinAbsoluteDelta = 1000
+	#How close a live ProjectE value can be to AutoEMC's last generated value before AutoEMC releases ownership.
+	#Example: 1.15 means differences within 15% are treated as normal noise or manual adjustment.
+	# Default: 1.15
+	# Range: 1.0 ~ 1.7976931348623157E308
+	ownershipSmallDifferenceRatio = 1.15
+	#Previous AutoEMC value must be at least this high before large-drop protection can block a lower recompute.
+	#This prevents tiny normal corrections from being quarantined.
+	# Default: 1000000
+	# Range: 1 ~ 9223372036854775807
+	largeDropProtectionThreshold = 1000000
+	#Maximum allowed drop for an AutoEMC-owned value before the old value is kept instead.
+	#Example: 50 means a recompute more than 50x lower than the previous value is blocked and reported.
+	# Default: 50.0
+	# Range: 1.0 ~ 1.7976931348623157E308
+	maxAllowedDropRatio = 50.0
+
+#Normal fallback. This is used only when ProjectE and recipe solving both fail.
+[normalFallback]
+	#Give items that still cannot be recipe-priced a fallback EMC value. Enabled by default.
+	useFallbackForUnsolvable = true
+	#Use fallback EMC only for missing items with no loaded recipe output, then run recipe solving again.
+	#This lets smelting, smithing, crafting, stonecutting, blasting, smoking, campfire,
+	#and compatible custom recipes build sensible values from raw/source materials.
+	seedFallbackMaterialsForRecipes = true
+	#After final fallback values are assigned, reprice each fallback output from every loaded recipe.
+	#Only raises a fallback value; it never changes an existing ProjectE value or lowers EMC.
+	#Example: eight 64-EMC shards craft into a 512-EMC block.
+	postFallbackRecipeUpgrade = true
+	# Default: 8
+	# Range: 0 ~ 9223372036854775807
+	commonBase = 8
+	# Default: 64
+	# Range: 0 ~ 9223372036854775807
+	uncommonBase = 64
+	# Default: 512
+	# Range: 0 ~ 9223372036854775807
+	rareBase = 512
+	# Default: 4096
+	# Range: 0 ~ 9223372036854775807
+	epicBase = 4096
+	#Multiplier for items with max stack size 1.
+	# Default: 4.0
+	# Range: 0.0 ~ 1000.0
+	unstackableMultiplier = 4.0
+	#Multiplier for items that stack below lowStackThreshold but above 1.
+	# Default: 2.0
+	# Range: 0.0 ~ 1000.0
+	lowStackMultiplier = 2.0
+	#Maximum stack size that receives lowStackMultiplier.
+	# Default: 16
+	# Range: 1 ~ 64
+	lowStackThreshold = 16
+	#Fallback EMC added per point of max durability.
+	# Default: 0.75
+	# Range: 0.0 ~ 1000.0
+	durabilityPerPoint = 0.75
+	#Lowest possible normal fallback value.
+	# Default: 1
+	# Range: 1 ~ 9223372036854775807
+	minimumEmc = 1
+	#Use Forge item tags before rarity fallback for unknown source materials.
+	#This keeps tagged modded ores/gems/ingots/dusts from collapsing to the same value as dirt.
+	useForgeTagFallback = true
+	#Use bundled values harvested from ProjectE Integration/ProjectE defaults as recipe-solving anchors.
+	#These entries seed missing items before recipe solving, and still act as fallback before generic tag values.
+	useProjectEIntegrationBaselines = true
+	#ProjectE Integration style baseline values. Format: item_or_#tag=value.
+	#Examples: allthemodium:allthemodium_ingot=122800 or #forge:ingots/zinc=128.
+	projectEIntegrationBaselines = ["#actuallyadditions:coffee_beans=4", "#ars_nouveau:shady_wizard_fruits=64", "#bloodmagic:crystals/demon=512", "#forge:bones/dragon=156", "#forge:bones/wither=156", "#forge:crops=16", "#forge:crops/beetroot=64", "#forge:crops/cabbage=32", "#forge:crops/carrot=64", "#forge:crops/grain=1", "#forge:crops/nether_wart=24", "#forge:crops/onion=32", "#forge:crops/potato=64", "#forge:crops/rice=1", "#forge:crops/tomato=32", "#forge:crops/wheat=24", "#forge:dusts/draconium=2048", "#forge:dusts/glowstone=384", "#forge:dusts/nitrate=8", "#forge:dusts/redstone=64", "#forge:dusts/sulfur=8", "#forge:dusts/wood=1", "#forge:fiber_hemp=4", "#forge:gems/amethyst=32", "#forge:gems/aquamarine=128", "#forge:gems/black_quartz=16", "#forge:gems/diamond=8192", "#forge:gems/emerald=16384", "#forge:gems/peridot=2048", "#forge:gems/quartz=256", "#forge:gems/ruby=2048", "#forge:gems/sapphire=2048", "#forge:heart=262144", "#forge:ingots/aluminium=256", "#forge:ingots/chromium=256", "#forge:ingots/cobalt=412", "#forge:ingots/gallium=256", "#forge:ingots/hop_graphite=12", "#forge:ingots/iesnium=512", "#forge:ingots/iridium=4096", "#forge:ingots/iron=256", "#forge:ingots/magnesium=256", "#forge:ingots/manganese=256", "#forge:ingots/thallium=256", "#forge:ingots/titanium=256", "#forge:ingots/tungsten=356", "#forge:ingots/uranium=4096", "#forge:ingots/zinc=128", "#forge:marble=32", "#forge:nether_stars=139264", "#forge:pumpkins/normal=144", "#forge:rawfish=64", "#forge:rawfish/rawtofishitem=64", "#forge:rawmeats/rawtofishitem=64", "#forge:rods/blaze=1536", "#forge:rods/breeze=2304", "#forge:rods/wooden=4", "#forge:salt=1", "#forge:salt/salt=1", "#forge:scales/dragon=512", "#forge:scales/sea_serpent=256", "#forge:seeds=16", "#forge:seeds/beetroot=16", "#forge:seeds/wheat=16", "#forge:water/freshwater=1", "#iceandfire:bones/dragon=156", "#iceandfire:bones/wither=156", "#iceandfire:dragon_skulls=624", "#iceandfire:mob_skulls=320", "#iceandfire:myrmex_harvestables=32", "#iceandfire:scales/dragon=512", "#iceandfire:scales/sea_serpent=256", "#minecraft:creeper_drop_music_discs=2048", "#minecraft:decorated_pot_sherds=216", "#minecraft:foods/milk=16", "#minecraft:leaves=1", "#minecraft:logs=32", "#minecraft:planks=8", "#minecraft:saplings=32", "#minecraft:small_flowers=16", "#minecraft:tall_flowers=32", "#minecraft:wool=48", "actuallyadditions:bats_wing=16", "actuallyadditions:canola=4", "ae2:certus_quartz_crystal=256", "ae2:sky_stone_block=16", "alexscaves:galena=4", "alexscaves:raw_azure_neodymium=32", "alexscaves:raw_scarlet_neodymium=32", "allthemodium:allthemodium_ingot=122800", "allthemodium:allthemodium_upgrade_smithing_template=24000", "allthemodium:ancient_cavevines_plant=16", "allthemodium:ancient_dirt=8", "allthemodium:ancient_grass=8", "allthemodium:ancient_podzol=8", "allthemodium:ancient_soulberries=16", "allthemodium:ancient_stone=8", "allthemodium:piglich_heart=1024", "allthemodium:unobtainium_ingot=491200", "allthemodium:unobtainium_upgrade_smithing_template=96000", "allthemodium:vibranium_ingot=245600", "allthemodium:vibranium_upgrade_smithing_template=48000", "appliedenergistics2:certus_quartz_crystal=256", "appliedenergistics2:singularity=256000", "ars_nouveau:experience_gem=16", "ars_nouveau:whirlisprig_shards=16", "ars_nouveau:wilden_horn=96", "ars_nouveau:wilden_spike=64", "ars_nouveau:wilden_tribute=96", "ars_nouveau:wilden_wing=72", "ars_nouveau:wixie_shards=32", "astralsorcery:celestial_crystal=512", "astralsorcery:marble_raw=32", "astralsorcery:rock_crystal=256", "avaritia:blaze_cube=30568", "avaritia:neutron_pile=512", "avaritia:neutronium_pile=512", "bloodmagic:weakbloodshard=256", "blue_skies:aquatic_arc=96", "blue_skies:azulfo_horn=24", "blue_skies:black_brewberry=32", "blue_skies:brewberry=32", "blue_skies:bug_guts=1", "blue_skies:carabeef=64", "blue_skies:charscale_moki=64", "blue_skies:cherry=16", "blue_skies:crescent_fruit=32", "blue_skies:diopside_gem=96", "blue_skies:fox_pelt=8", "blue_skies:grittle_flatfish=64", "blue_skies:horizofin_tunid=64", "blue_skies:monitor_tail=64", "blue_skies:moonstone_shard=96", "blue_skies:municipal_monkfish=64", "blue_skies:pearl=128", "blue_skies:pink_brewberry=32", "blue_skies:pyrope_gem=96", "blue_skies:raw_aquite=128", "blue_skies:raw_charoite=128", "blue_skies:raw_falsite=128", "blue_skies:raw_horizonite=128", "blue_skies:raw_ventium=128", "blue_skies:snowcap_pinhead=1", "blue_skies:soul_fragment=156", "blue_skies:venison=64", "botania:ender_air_bottle=1024", "botania:life_essence=256", "botania:living_root=1", "botania:pebble=1", "create:bar_of_chocolate=32", "draconicevolution:chaos_shard=4096000", "draconicevolution:dragon_heart=262144", "elementalcraft:air_shard=8", "elementalcraft:earth_shard=8", "elementalcraft:fire_shard=8", "elementalcraft:inert_crystal=8", "elementalcraft:water_shard=8", "enderio:enderman_head=2048", "enderio:grains_of_infinity=4", "enderio:suspicious_seed=8", "endless:blaze_cube=30568", "endless:neutronium_pile=512", "evilcraft:dark_gem=64", "evilcraft:ender_tear=1024", "evilcraft:poison_sac=16", "evilcraft:vengeance_essence=512", "evilcraft:werewolf_bone=144", "farmersdelight:brown_mushroom_colony=32", "farmersdelight:ham=64", "farmersdelight:red_mushroom_colony=32", "farmersdelight:rice_panicle=1", "farmersdelight:straw=1", "iceandfire:cyclops_eye=96", "iceandfire:dread_shard=144", "iceandfire:fire_dragon_blood=256", "iceandfire:hippocampus_fin=512", "iceandfire:hippogryph_talon=128", "iceandfire:ice_dragon_blood=256", "iceandfire:lightning_dragon_blood=256", "iceandfire:pixie_dust=1", "iceandfire:pixie_wings=1", "iceandfire:shiny_scales=512", "iceandfire:siren_tear=768", "immersiveengineering:slag=8", "industrialforegoing:dryrubber=12", "industrialforegoing:pink_slime=16", "industrialforegoing:tinydryrubber=1", "industrialupgrade:crafting_elements/crafting_290_element=8", "industrialupgrade:crafting_elements/crafting_448_element=8", "industrialupgrade:itemdust/calcium_fluoride_dust=16", "industrialupgrade:itemdust/calcium_sulfate_dust=16", "industrialupgrade:itemingots/adamantium=256", "industrialupgrade:itemingots/arsenic=256", "industrialupgrade:itemingots/barium=256", "industrialupgrade:itemingots/bismuth=256", "industrialupgrade:itemingots/bloodstone=256", "industrialupgrade:itemingots/cadmium=256", "industrialupgrade:itemingots/draconid=256", "industrialupgrade:itemingots/gadolinium=256", "industrialupgrade:itemingots/germanium_ingot=256", "industrialupgrade:itemingots/meteoric_iron=256", "industrialupgrade:itemingots/mikhail_ingot=256", "industrialupgrade:itemingots/mithril=256", "industrialupgrade:itemingots/molybdenum=256", "industrialupgrade:itemingots/orichalcum=256", "industrialupgrade:itemingots/polonium=256", "industrialupgrade:itemingots/strontium=256", "industrialupgrade:itemingots/tantalum=256", "industrialupgrade:itemingots/vanadium_ingot=256", "industrialupgrade:itemingots/yttrium=256", "industrialupgrade:itemingots/zirconium=256", "industrialupgrade:nuclearresource/americium_dust=4192", "industrialupgrade:nuclearresource/curium_dust=4192", "industrialupgrade:nuclearresource/neptunium_dust=4192", "industrialupgrade:nuclearresource/thorium_shard=465", "industrialupgrade:nuclearresource/unprocessed_radioactive_uranium=4192", "industrialupgrade:spacecobblestone/ariel_cobblestone=16", "industrialupgrade:spacecobblestone/asteroids_cobblestone=16", "industrialupgrade:spacecobblestone/callisto_cobblestone=16", "industrialupgrade:spacecobblestone/ceres_cobblestone=16", "industrialupgrade:spacecobblestone/charon_cobblestone=16", "industrialupgrade:spacecobblestone/deimos_cobblestone=16", "industrialupgrade:spacecobblestone/dione_cobblestone=16", "industrialupgrade:spacecobblestone/enceladus_cobblestone=16", "industrialupgrade:spacecobblestone/eris_cobblestone=16", "industrialupgrade:spacecobblestone/europe_cobblestone=16", "industrialupgrade:spacecobblestone/ganymede_cobblestone=16", "industrialupgrade:spacecobblestone/haumea_cobblestone=16", "industrialupgrade:spacecobblestone/io_cobblestone=16", "industrialupgrade:spacecobblestone/makemake_cobblestone=16", "industrialupgrade:spacecobblestone/mars_cobblestone=16", "industrialupgrade:spacecobblestone/mercury_cobblestone=16", "industrialupgrade:spacecobblestone1/mimas_cobblestone=16", "industrialupgrade:spacecobblestone1/miranda_cobblestone=16", "industrialupgrade:spacecobblestone1/moon_cobblestone=16", "industrialupgrade:spacecobblestone1/oberon_cobblestone=16", "industrialupgrade:spacecobblestone1/phobos_cobblestone=16", "industrialupgrade:spacecobblestone1/pluto_cobblestone=16", "industrialupgrade:spacecobblestone1/proteus_cobblestone=16", "industrialupgrade:spacecobblestone1/rhea_cobblestone=16", "industrialupgrade:spacecobblestone1/tethys_cobblestone=16", "industrialupgrade:spacecobblestone1/titan_cobblestone=16", "industrialupgrade:spacecobblestone1/titania_cobblestone=16", "industrialupgrade:spacecobblestone1/triton_cobblestone=16", "industrialupgrade:spacecobblestone1/umbriel_cobblestone=16", "industrialupgrade:spacecobblestone1/venus_cobblestone=16", "mana-and-artifice:vinteum_dust=32", "megamanarmormod:ceratanium=16000", "minecraft:andesite=16", "minecraft:apple=128", "minecraft:armadillo_scute=48", "minecraft:bamboo=32", "minecraft:basalt=4", "minecraft:beef=64", "minecraft:big_dripleaf=32", "minecraft:blackstone=4", "minecraft:bolt_armor_trim_smithing_template=10176", "minecraft:bone=144", "minecraft:brain_coral=16", "minecraft:brain_coral_block=64", "minecraft:brain_coral_fan=16", "minecraft:brown_mushroom=32", "minecraft:bubble_coral=16", "minecraft:bubble_coral_block=64", "minecraft:bubble_coral_fan=16", "minecraft:cactus=8", "minecraft:calcite=32", "minecraft:chicken=64", "minecraft:chorus_flower=96", "minecraft:chorus_fruit=192", "minecraft:chorus_plant=64", "minecraft:clay_ball=16", "minecraft:coal=128", "minecraft:coast_armor_trim_smithing_template=12271", "minecraft:cobbled_deepslate=2", "minecraft:cobblestone=1", "minecraft:cobweb=12", "minecraft:cocoa_beans=64", "minecraft:cod=64", "minecraft:creeper_head=256", "minecraft:crimson_fungus=32", "minecraft:crimson_roots=1", "minecraft:crying_obsidian=768", "minecraft:dead_brain_coral=1", "minecraft:dead_brain_coral_block=4", "minecraft:dead_brain_coral_fan=1", "minecraft:dead_bubble_coral=1", "minecraft:dead_bubble_coral_block=4", "minecraft:dead_bubble_coral_fan=1", "minecraft:dead_bush=1", "minecraft:dead_fire_coral=1", "minecraft:dead_fire_coral_block=4", "minecraft:dead_fire_coral_fan=1", "minecraft:dead_horn_coral=1", "minecraft:dead_horn_coral_block=4", "minecraft:dead_horn_coral_fan=1", "minecraft:dead_tube_coral=1", "minecraft:dead_tube_coral_block=4", "minecraft:dead_tube_coral_fan=1", "minecraft:diorite=16", "minecraft:dirt=1", "minecraft:disc_fragment_5=192", "minecraft:dragon_egg=262144", "minecraft:dune_armor_trim_smithing_template=53898", "minecraft:echo_shard=192", "minecraft:egg=32", "minecraft:end_stone=1", "minecraft:ender_pearl=1024", "minecraft:eye_armor_trim_smithing_template=23017", "minecraft:feather=48", "minecraft:fern=1", "minecraft:filled_map=1472", "minecraft:fire_coral=16", "minecraft:fire_coral_block=64", "minecraft:fire_coral_fan=16", "minecraft:flint=4", "minecraft:flow_armor_trim_smithing_template=30528", "minecraft:flow_banner_pattern=20480", "minecraft:ghast_tear=4096", "minecraft:glow_berries=16", "minecraft:glow_lichen=8", "minecraft:goat_horn=192", "minecraft:granite=16", "minecraft:gravel=4", "minecraft:gunpowder=192", "minecraft:guster_banner_pattern=12224", "minecraft:heart_of_the_sea=32768", "minecraft:heavy_core=40960", "minecraft:honey_bottle=48", "minecraft:horn_coral=16", "minecraft:horn_coral_block=64", "minecraft:horn_coral_fan=16", "minecraft:host_armor_trim_smithing_template=10176", "minecraft:ice=1", "minecraft:ink_sac=16", "minecraft:kelp=1", "minecraft:lapis_lazuli=864", "minecraft:large_fern=1", "minecraft:lily_pad=16", "minecraft:magma_block=128", "minecraft:mangrove_roots=4", "minecraft:melon_slice=16", "minecraft:moss_block=12", "minecraft:music_disc_creator=40960", "minecraft:music_disc_creator_music_box=8192", "minecraft:music_disc_otherside=6144", "minecraft:music_disc_pigstep=8192", "minecraft:music_disc_precipice=12224", "minecraft:music_disc_relic=10176", "minecraft:mutton=64", "minecraft:name_tag=192", "minecraft:nautilus_shell=1024", "minecraft:nether_sprouts=1", "minecraft:netherite_scrap=12288", "minecraft:netherite_upgrade_smithing_template=7497", "minecraft:netherrack=1", "minecraft:obsidian=64", "minecraft:phantom_membrane=192", "minecraft:piglin_banner_pattern=512", "minecraft:piglin_head=256", "minecraft:pink_petals=4", "minecraft:pointed_dripstone=16", "minecraft:poisonous_potato=64", "minecraft:porkchop=64", "minecraft:prismarine_crystals=512", "minecraft:prismarine_shard=256", "minecraft:pufferfish=64", "minecraft:rabbit=64", "minecraft:rabbit_foot=128", "minecraft:rabbit_hide=16", "minecraft:raiser_armor_trim_smithing_template=10176", "minecraft:red_mushroom=32", "minecraft:red_sand=1", "minecraft:rib_armor_trim_smithing_template=10310", "minecraft:rotten_flesh=32", "minecraft:saddle=192", "minecraft:salmon=64", "minecraft:sand=1", "minecraft:sculk_catalyst=8040", "minecraft:sculk_vein=4", "minecraft:sea_pickle=16", "minecraft:seagrass=1", "minecraft:sentry_armor_trim_smithing_template=57345", "minecraft:shaper_armor_trim_smithing_template=10176", "minecraft:short_grass=1", "minecraft:shulker_shell=2048", "minecraft:silence_armor_trim_smithing_template=39465", "minecraft:skeleton_skull=256", "minecraft:slime_ball=32", "minecraft:small_dripleaf=24", "minecraft:sniffer_egg=2048", "minecraft:snout_armor_trim_smithing_template=7533", "minecraft:snow=1", "minecraft:snowball=1", "minecraft:soul_sand=49", "minecraft:spider_eye=128", "minecraft:spire_armor_trim_smithing_template=18588", "minecraft:sponge=128", "minecraft:spore_blossom=64", "minecraft:string=12", "minecraft:sugar_cane=32", "minecraft:sweet_berries=16", "minecraft:tall_grass=1", "minecraft:tide_armor_trim_smithing_template=22116", "minecraft:totem_of_undying=1000", "minecraft:trident=16398", "minecraft:tropical_fish=64", "minecraft:tube_coral=16", "minecraft:tube_coral_block=64", "minecraft:tube_coral_fan=16", "minecraft:tuff=4", "minecraft:turtle_egg=192", "minecraft:turtle_scute=96", "minecraft:twisting_vines=8", "minecraft:vex_armor_trim_smithing_template=51917", "minecraft:vine=8", "minecraft:ward_armor_trim_smithing_template=19677", "minecraft:warped_fungus=32", "minecraft:warped_roots=1", "minecraft:wayfinder_armor_trim_smithing_template=10176", "minecraft:weeping_vines=8", "minecraft:wild_armor_trim_smithing_template=42641", "minecraft:zombie_head=256", "mna:chimerite_gem=96", "mna:vinteum_dust=32", "modern_industrialization:antimony_ingot=512", "modern_industrialization:bauxite_dust=32", "modern_industrialization:chromium_ingot=512", "modern_industrialization:iridium_ingot=512", "modern_industrialization:manganese_dust=32", "modern_industrialization:monazite_dust=32", "modern_industrialization:titanium_ingot=512", "mysticalagriculture:cognizant_dust=16384", "mysticalagriculture:inferium_essence=32", "mysticalagriculture:prosperity_shard=128", "mysticalagriculture:soulium_dust=128", "mysticalagriculture:soulstone_cobble=16", "naturesaura:end_flower=32", "naturesaura:gold_leaf=2", "occultism:afrit_essence=64", "occultism:tallow=16"]
+	#Material values used with Forge tags like forge:ores/tin, forge:ingots/copper, forge:gems/diamond.
+	#Format: material=value. Add aliases as separate entries, e.g. aluminium=256 and aluminum=256.
+	tagFallbackMaterials = ["charcoal=32", "coal=128", "sulfur=128", "sulphur=128", "niter=128", "saltpeter=128", "apatite=256", "quartz=256", "certus_quartz=256", "charged_certus_quartz=512", "fluix=512", "fluorite=256", "copper=85", "tin=256", "zinc=256", "aluminum=256", "aluminium=256", "bauxite=256", "lead=512", "silver=512", "nickel=1024", "ferrous=1024", "osmium=1024", "iesnium=4096", "iron=256", "gold=2048", "lapis=864", "redstone=64", "glowstone=384", "diamond=8192", "emerald=8192", "netherite=16384", "steel=512", "bronze=384", "brass=384", "electrum=1280", "invar=768", "constantan=768", "signalum=2048", "lumium=2048", "enderium=4096", "uranium=4096", "yellorium=4096", "cyanite=2048", "platinum=4096", "iridium=8192", "titanium=4096", "tungsten=8192", "tungstensteel=8192", "chrome=4096", "chromium=4096", "cobalt=2048", "ardite=2048", "manyullyn=4096", "mithril=4096", "orichalcum=4096", "adamantite=8192", "cinnabar=512", "ruby=4096", "sapphire=4096", "peridot=4096", "topaz=4096", "amethyst=4096", "carnelian=4096", "malachite=4096", "moonstone=4096", "onyx=4096", "aquamarine=4096", "mana=4096", "bitumen=128", "prosperity=512", "inferium=512", "prudentium=2048", "tertium=8192", "imperium=32768", "supremium=131072", "insanium=524288", "draconium=2048", "awakened_draconium=262144", "allthemodium=122800", "vibranium=1000000000", "unobtainium=1000000000000"]
+	#Form multipliers used with Forge material tags.
+	#Format: tag_folder=multiplier. Examples: storage_blocks=9, nuggets=0.111111, gears=4.
+	tagFallbackForms = ["ores=1.0", "raw_ores=1.0", "raw_materials=1.0", "gems=1.0", "ingots=1.0", "dusts=1.0", "crystals=1.0", "shards=0.25", "clumps=1.0", "clusters=1.0", "chunks=1.0", "pieces=1.0", "nuggets=0.111111", "storage_blocks=9.0", "raw_storage_blocks=9.0", "blocks=9.0", "plates=1.0", "gears=4.0", "rods=0.5", "wires=0.5", "coins=0.111111"]
+	#Tag namespaces accepted by material fallback.
+	#Forge tags are the normal path, but some mods expose useful material tags under their own namespace.
+	tagFallbackNamespaces = ["forge", "mekanism", "create"]
+	#Extra multipliers for ore item ids when tag fallback prices an ore.
+	#This is a rarity/progression heuristic, not exact worldgen math.
+	#Format: item_id_fragment=multiplier. Examples: nether_=1.5, end_=2.0, deepslate_=1.25.
+	oreVariantMultipliers = ["deepslate_=1.25", "nether_=1.5", "end_=2.0"]
+	#Give creative/no-recipe items exactly 1 EMC.
+	#This applies only to items AutoEMC's creative-no-recipe safety bucket would price at 1 EMC.
+	#Turn this off to leave those items unpriced instead.
+	giveCreativeNoRecipeItemsOneEmc = true
+	#Item id fragments that must never receive cheap rarity/tag fallback.
+	#Use this for creative, infinite, or endgame-cycle items. NBT variants for these ids are only written when a material resolver prices them.
+	#Matching is case-insensitive substring matching against the normalized item id.
+	protectedCheapFallbackPatterns = ["creative", "infinity", "allthemodium:_alloy_", "allthemodium:molten_", "allthemodium:vapor_", "draconicadditions:chaos_"]
+
+#Progression tiers. Higher tiers override lower tiers and keep powerful items out of cheap fallback ranges.
+[progressionTiers]
+	strongNamespaces = ["allthemodium"]
+	strongItems = ["allthemodium:allthemodium_helmet", "allthemodium:allthemodium_chestplate", "allthemodium:allthemodium_leggings", "allthemodium:allthemodium_boots"]
+	strongKeywords = ["allthemodium", "wyvern"]
+	# Default: 1000000
+	# Range: 1 ~ 9223372036854775807
+	strongMinimumEmc = 1000000
+	# Default: 999999999
+	# Range: 1 ~ 9223372036854775807
+	strongMaximumFallbackEmc = 999999999
+	veryStrongNamespaces = []
+	veryStrongItems = []
+	veryStrongKeywords = ["vibranium", "draconic", "draconium", "awakened"]
+	# Default: 1000000000
+	# Range: 1 ~ 9223372036854775807
+	veryStrongMinimumEmc = 1000000000
+	# Default: 999999999999
+	# Range: 1 ~ 9223372036854775807
+	veryStrongMaximumFallbackEmc = 999999999999
+	opNamespaces = []
+	opItems = []
+	opKeywords = ["chaos", "chaotic", "chaot", "infin", "inifin", "infiniet", "creative", "creativ", "unobtainium"]
+	# Default: 1000000000000
+	# Range: 1 ~ 9223372036854775807
+	opMinimumEmc = 1000000000000
+	# Default: 9000000000000000
+	# Range: 1 ~ 9223372036854775807
+	opMaximumFallbackEmc = 9000000000000000
+
+#Optional NBT fallback pass. Recipe solving uses normal item IDs.
+#NBT scanning uses variants exposed by each item's creative tab listing.
+[nbt]
+	#Include NBT-distinct fallback entries such as potions, enchanted books, and material-tagged items.
+	scanNbtVariants = false
+	#Legacy alias for scanNbtVariants. Kept for old configs; prefer scanNbtVariants.
+	runNbtPassAfterBasicPass = false
+	#Maximum creative-tab NBT variants AutoEMC will write for one item id.
+	#Prevents buggy or combinatorial item variant lists from bloating custom_emc.json.
+	# Default: 64
+	# Range: 1 ~ 4096
+	maxNbtVariantsPerItem = 64
+	#Use mod-specific NBT material resolvers before plain tag/rarity fallback.
+	#This lets one item id with material NBT, such as Avaritia singularities, get material-specific EMC.
+	useNbtMaterialResolvers = true
+	#Register AutoEMC's NBT material resolvers with ProjectE's live NBT value processor.
+	#This lets supported tagged stacks resolve on demand when ProjectE asks for their EMC.
+	useLiveNbtMaterialResolution = true
+	#Tiny base EMC value seeded for supported NBT material item ids so ProjectE calls the live NBT processor.
+	#The live processor replaces this value for tagged stacks and does not override higher exact values.
+	# Default: 1
+	# Range: 1 ~ 9223372036854775807
+	liveNbtResolverSeedValue = 1
+	#NBT material resolver multipliers. Format: resolver_id=multiplier.
+	#Example: avaritia_singularity=512 prices singularities as 512 of the resolved material.
+	nbtMaterialMultipliers = ["avaritia_singularity=512.0"]

@@ -1,0 +1,19 @@
+cosmic_crucible_item_rendering = true
+cosmic_crucible_black_hole_event_horizon_rendering = true
+embed_a_child_soul_in_the_item_tooltip = true
+creature_soul_rendering = true
+item_render_scaling = true
+show_soul_tooltip = true
+# Default: 0.75
+# Range: 0.01 ~ 2.0
+show_soul_tooltip_scale = 0.75
+# Default: 0
+# Range: -1000 ~ 1000
+show_soul_tooltip_x_offset = 0
+# Default: 0
+# Range: -1000 ~ 1000
+show_soul_tooltip_y_offset = 0
+# Default: 10
+# Range: 1 ~ 100
+information_interval = 10
+resident_show_soul_information = false

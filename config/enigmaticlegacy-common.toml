@@ -1,0 +1,94 @@
+#Defines how much damage bearers of the ring receive from any source. Measured as percentage.
+# Default: 200
+# Range: > 100
+PainModifier = 200
+#How much knockback bearers of the ring take, measured in percents.
+# Default: 200
+# Range: > 0
+KnockbackDebuff = 200
+#How much damage monsters receive from bearers of the ring will be decreased, in percents.
+# Default: 50
+# Range: 0 ~ 100
+MonsterDamageDebuff = 50
+#How much less effective armor will be for those who bear the ring. Measured as percetage.
+# Default: 30
+# Range: 0 ~ 100
+ArmorDebuff = 30
+#How many bonus Fortune levels ring provides
+# Default: 1
+# Range: > 0
+FortuneBonus = 1
+#How many bonus Looting levels ring provides
+# Default: 1
+# Range: > 0
+LootingBonus = 1
+#How many bonus Block Interaction Range ring provides
+# Default: 2.5
+# Range: 0.0 ~ 2.147483647E9
+BlockInteractionRangeBonus = 2.5
+#How much experience will drop from mobs to bearers of the ring, measured in percents.
+# Default: 400
+# Range: > 0
+ExperienceBonus = 400
+#How much additional Enchanting Power ring provides in Enchanting Table.
+# Default: 10
+# Range: > 0
+EnchantingBonus = 10
+#Set to true to prevent curse of insomnia from actually doing anything.
+DisableInsomnia = false
+#Allows to adjust how frequently Endermen will try to randomly teleport to player bearing the ring, even if they can't see the player and are not angered yet. Lower value = less probability of this happening.
+# Default: 1.0
+# Range: 0.0 ~ 500.0
+EndermenRandomportFrequency = 1.0
+#Range in which Endermen can try to randomly teleport to bearers of the ring.
+# Default: 32.0
+# Range: 0.0 ~ 120.0
+EndermenRandomportRange = 32.0
+#Range in which neutral creatures are angered against bearers of the ring.
+# Default: 24.0
+# Range: 0.0 ~ 120.0
+NeutralAngerRange = 24.0
+#Range in which neutral creatures can see and target bearers of the ring even if they can't directly see them.
+# Default: 4.0
+# Range: 0.0 ~ 120.0
+NeutralXRayRange = 4.0
+#A list of neutral mobs that will be aggressive towards the player.
+NeutralAngerWhitelist = ["minecraft:iron_golem", "minecraft:enderman"]
+#Maximum amount of Soul Crystals a player can lose before they won't drop anymore. If set to 10 - player can loose all of them, and doing so will result in permadeath. Each crystal lost subtracts 10% of from their maximum possible health value.
+# Default: 9
+# Range: 1 ~ 10
+MaxSoulCrystalLoss = 9
+#Soul Crystals mechanic mode. 0 - disabled unless enforced by specific in-game items; 1 - also enabled when keepInventory is true; 2 - always enabled; 3 - always disabled.
+# Default: 0
+# Range: 0 ~ 3
+SoulCrystalsMode = 0
+#If true, disable Extradimensional Vessel.
+DisableVessel = false
+#If true, only original owner of Extradimensional Vessel will be able to pick it up.
+OwnerOnlyVessel = false
+#Whether or not button for accessing Ender Chest should be added to inventory GUI.
+InventoryButtonEnabled = true
+#Allows to set offset for Ender Chest button on X axis.
+# Default: 0
+# Range: 0 ~ 32768
+ButtonOffsetX = 0
+#Allows to set offset for Ender Chest button on Y axis.
+# Default: 0
+# Range: 0 ~ 32768
+ButtonOffsetY = 0
+#Allows to set offset for Ender Chest button on X axis, for creative inventory specifically.
+# Default: 0
+# Range: 0 ~ 32768
+ButtonOffsetXCreative = 0
+#Allows to set offset for Ender Chest button on Y axis, for creative inventory specifically.
+# Default: 0
+# Range: 0 ~ 32768
+ButtonOffsetYCreative = 0
+#A fraction of time the player should bear the Seven Curses to use Abyssal Artifacts.
+# Default: 0.995
+# Range: 0.0 ~ 1.0
+SuperCursedTime = 0.995
+#If true, Ring of the Seven Curses will be equipped into player's ring slot right away when it enters their inventory.
+AutoEquip = false
+#Set to false to disable displaying lore on Ring of the Seven Curses. Useful if you are a modpack developer wanting to have your own.
+EnableLore = true

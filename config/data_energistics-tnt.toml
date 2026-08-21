@@ -1,0 +1,80 @@
+#Chunk-flattening TNT settings.
+#可配置平地TNT设置。
+#Chunk radius uses the center chunk as 0. Example: 1 = 3x3 chunks, 2 = 5x5 chunks.
+#区块半径以中心区块为 0。例如：1 = 3x3 区块，2 = 5x5 区块。
+[flatteningTnt]
+
+	#Settings for the reserved configurable TNT block.
+	#预留的可配置平地TNT方块设置。
+	[flatteningTnt.tntConfigurable]
+		#Chunk radius for the cleared area. 1 = 3x3 chunks.
+		#清除区域的区块半径。1 = 3x3 区块。
+		# Default: 1
+		# Range: 0 ~ 64
+		clearChunkRadius = 1
+		#Vertical offset from the TNT position where clearing starts.
+		#清除起始位置相对 TNT 位置的垂直偏移。
+		# Default: 0
+		# Range: -384 ~ 384
+		clearStartYOffset = 0
+		#Number of vertical blocks to clear.
+		#要清除的垂直方块数量。
+		# Default: 25
+		# Range: 1 ~ 512
+		clearHeight = 25
+		#Chunk radius for the filled floor area. 1 = 3x3 chunks.
+		#填充地板区域的区块半径。1 = 3x3 区块。
+		# Default: 1
+		# Range: 0 ~ 64
+		fillChunkRadius = 1
+		#Vertical offset from the TNT position for the filled floor layer.
+		#填充地板层相对 TNT 位置的垂直偏移。
+		# Default: -1
+		# Range: -384 ~ 384
+		fillYOffset = -1
+		#Block id used for the filled floor layer.
+		#用于填充地板层的方块 ID。
+		fillBlock = "minecraft:dirt"
+		#X offset applied to the TNT position before calculating clear/fill areas.
+		#计算清除/填充区域前，对 TNT 位置应用的 X 偏移。
+		# Default: 0
+		# Range: -512 ~ 512
+		centerOffsetX = 0
+		#Y offset applied to the TNT position before calculating clear/fill areas.
+		#计算清除/填充区域前，对 TNT 位置应用的 Y 偏移。
+		# Default: 0
+		# Range: -512 ~ 512
+		centerOffsetY = 0
+		#Z offset applied to the TNT position before calculating clear/fill areas.
+		#计算清除/填充区域前，对 TNT 位置应用的 Z 偏移。
+		# Default: 0
+		# Range: -512 ~ 512
+		centerOffsetZ = 0
+		#If true, water/lava blocks are not removed by the clearing step.
+		#为 true 时，清除步骤不会移除水/岩浆方块。
+		preserveFluids = false
+		#If true, blocks with negative destroy time can still be removed/replaced.
+		#为 true 时，破坏时间为负数的方块也可以被移除/替换。
+		replaceUnbreakableBlocks = false
+		#Display name shown for the configurable TNT item.
+		#可配置平地TNT物品显示的名称。
+		displayName = "自定义平地TNT"
+
+	#Settings for the data nuke TNT block.
+	#数据核弹 TNT 方块设置。
+	[flatteningTnt.dataNuke]
+		#Server ticks between each block-devouring work cycle.
+		#每次吞噬方块工作周期之间的服务器 tick 间隔。
+		# Default: 1
+		# Range: 1 ~ 1200
+		workIntervalTicks = 1
+		#Maximum spherical radius in blocks that the data nuke can devour. Default 2048 = 128 chunks.
+		#数据核弹可吞噬的最大球形半径（方块）。默认 2048 = 128 区块。
+		# Default: 2048
+		# Range: 1 ~ 8192
+		maxRadius = 2048
+		#Entity-devouring radius around the center checked every tick.
+		#每 tick 检查一次的中心实体吞噬半径。
+		# Default: 4.0
+		# Range: 0.0 ~ 128.0
+		centerEntityConsumeRadius = 4.0

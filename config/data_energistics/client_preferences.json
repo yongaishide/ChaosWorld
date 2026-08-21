@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 3,
+  "preferences": {
+    "uploadEnabled": true,
+    "patternSourceEnabled": true,
+    "lastWorkstation": "enderio_evolution:stellar_alloy_smelter",
+    "previewPanel": {
+      "offsetX": 38,
+      "offsetY": 129
+    }
+  },
+  "serverProfiles": {
+    "sha256:10129470a8a24de19662e59866e243fa36e2e0fd5efd536a52478c5aeda5c19b": {
+      "lastAccessEpochMillis": 1786794575652,
+      "clickStatistics": []
+    },
+    "sha256:1f13dea452a202d5910c2afb12b9322b9814d1eca957422405abf6b61c7ce094": {
+      "lastAccessEpochMillis": 1786777829772,
+      "clickStatistics": []
+    },
+    "sha256:7fa19cdf112a9538d6c426b16b2bdabf2331f3532db9e825fb8192515575f6b4": {
+      "lastAccessEpochMillis": 1787280544059,
+      "clickStatistics": [
+        {
+          "recipeTypeId": "extendedcrafting:ultimate_crafting",
+          "providerDigest": "sha256:6b5eb44ed4f3532e5d15337b31faef517b41935204cd1732e20635e94d507540",
+          "count": 1,
+          "lastUsedEpochMillis": 1786862431608
+        }
+      ]
+    },
+    "sha256:c013bd86500712f5feb555d1057b52ba1aee705bf53c894ca80ba17165bbd7a6": {
+      "lastAccessEpochMillis": 1787243084296,
+      "clickStatistics": [
+        {
+          "recipeTypeId": "ae2lt:overload_processing",
+          "providerDigest": "sha256:e0fbc52f771949193191b475aea031597b593832c1efcb8fa4d160afcb5b5b5c",
+          "count": 1,
+          "lastUsedEpochMillis": 1786978123499
+        },
+        {
+          "recipeTypeId": "create:mixing",
+          "providerDigest": "sha256:37a10bcaf35c17b35f6297c7d395d9ce439282cfd9026400d2adcaf4f13f5d9d",
+          "count": 1,
+          "lastUsedEpochMillis": 1786978110018
+        },
+        {
+          "recipeTypeId": "enderio:alloy_smelting",
+          "providerDigest": "sha256:e0fbc52f771949193191b475aea031597b593832c1efcb8fa4d160afcb5b5b5c",
+          "count": 4,
+          "lastUsedEpochMillis": 1786978116298
+        },
+        {
+          "recipeTypeId": "enderio:sagmilling",
+          "providerDigest": "sha256:37a10bcaf35c17b35f6297c7d395d9ce439282cfd9026400d2adcaf4f13f5d9d",
+          "count": 2,
+          "lastUsedEpochMillis": 1786978101128
+        },
+        {
+          "recipeTypeId": "minecraft:crafting",
+          "providerDigest": "sha256:788132c91f38c0dcd4f45bfaf24f552d8138a3e78114dcbcc20d060aa19d2a98",
+          "count": 3,
+          "lastUsedEpochMillis": 1786807970188
+        },
+        {
+          "recipeTypeId": "minecraft:crafting",
+          "providerDigest": "sha256:e0fbc52f771949193191b475aea031597b593832c1efcb8fa4d160afcb5b5b5c",
+          "count": 2,
+          "lastUsedEpochMillis": 1786978007163
+        }
+      ]
+    },
+    "sha256:f36a8953c299f1426a24b6aa3c5d11f3bc00a0b970c54c024c531351e85d960b": {
+      "lastAccessEpochMillis": 1786689764940,
+      "clickStatistics": []
+    }
+  }
+}

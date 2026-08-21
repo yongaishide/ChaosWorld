@@ -1,0 +1,11 @@
+{
+  "description": "折叠滞留药水物品",
+  "type": "item",
+  "item": "minecraft:lingering_potion",
+  "icon": "minecraft:lingering_potion",
+  "display_name": "jei_tag_groups.group.lingering_potion.name",
+  "tooltip": [
+    "jei_tag_groups.group.lingering_potion.tooltip"
+  ],
+  "border_color": "#55AAFF"
+}

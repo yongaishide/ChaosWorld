@@ -1,0 +1,95 @@
+[mekanism_upgrade]
+	#机器可接受的最大速度/能量升级数量, 重启游戏生效
+	# Default: 16
+	# Range: 1 ~ 64
+	max_upgrade = 24
+	#速度升级增强倍率
+	# Default: 1
+	# Range: > 1
+	time_multiplier = 1
+	#能量升级节电增强倍率
+	# Default: 1
+	# Range: > 1
+	electricity_multiplier = 1
+	#能量升级储电增强倍率
+	# Default: 1
+	# Range: > 1
+	capacity_multiplier = 1
+
+[game_mechanics]
+	#植物盆生长倍率 - 1.0为原版速度, 2.0为2倍速度
+	# Default: 1
+	# Range: > 1
+	botany_pot_growth_multiplier = 1
+	#矩阵样板槽位倍数 - 减少数量时请保持槽位空！否则可能会造成样板丢失
+	# Default: 1
+	# Range: 1 ~ 100
+	matrix_pattern_count = 1
+
+[beef_tool]
+	#是否启用药水效果
+	enable_potion_effects = false
+	#是否启用飞行效果
+	enable_flight_effect = true
+	#牛排工具飞行速度
+	# Default: 0.05
+	# Range: 0.01 ~ 1.0
+	beef_tool_flight_speed = 0.05
+	#自定义药水效果列表, 格式: "modid:effect_name,amplifier"
+	#多个效果用分号(;)分隔
+	#例如: "minecraft:regeneration,5;minecraft:speed,2"
+	#注意: 等级从1开始计算, 1表示I级, 2表示II级, 以此类推
+	custom_potion_effects = "minecraft:saturation,1;minecraft:regeneration,6;minecraft:night_vision,1;minecraft:fire_resistance,1;minecraft:water_breathing,1;minecraft:resistance,6"
+	#连锁挖掘的X轴范围半径
+	# Default: 8
+	# Range: 1 ~ 32
+	chain_mining_range_x = 8
+	#连锁挖掘的Y轴范围半径
+	# Default: 8
+	# Range: 1 ~ 255
+	chain_mining_range_y = 8
+	#连锁挖掘的Z轴范围半径
+	# Default: 8
+	# Range: 1 ~ 32
+	chain_mining_range_z = 8
+	#连锁挖掘的最大方块数量
+	# Default: 1000
+	# Range: 1 ~ 1000000
+	chain_mining_max_blocks = 1000
+	#牛排工具时运附魔等级
+	# Default: 10
+	# Range: 1 ~ 127
+	fortune_level = 10
+	#牛排工具抢夺附魔等级
+	# Default: 10
+	# Range: 1 ~ 127
+	looting_level = 10
+	#战利品大爆发触发概率 (百分比, 1-100%)
+	# Default: 5
+	# Range: 1 ~ 100
+	festive_drop_chance = 5
+	#牛排工具基础挖掘速度
+	# Default: 10.0
+	# Range: 1.0 ~ 1000.0
+	beef_tool_mining_speed = 10.0
+	#牛排工具实体触及范围加成, 重启游戏生效
+	# Default: 8.0
+	# Range: 0.0 ~ 1024.0
+	beef_tool_entity_interaction_range = 8.0
+	#牛排工具方块触及范围加成, 重启游戏生效
+	# Default: 8.0
+	# Range: 0.0 ~ 1024.0
+	beef_tool_block_interaction_range = 8.0
+	#牛排工具强制击杀黑名单, 多个实体ID用分号分隔, 例如 minecraft:wither;modid:boss
+	beef_tool_force_kill_blacklist = ""
+	#牛排工具非生物实体强制击杀白名单, 多个实体ID用分号分隔
+	beef_tool_force_kill_non_living_whitelist = "draconicevolution:guardian_crystal"
+
+[advanced_alloy_furnace]
+	#万象炉是否自动从所在AE网络抽取AppliedFlux(应用通量)存储的FE能量
+	#需要安装AppliedFlux且网络中有通量元件, 每tick抽取量受熔炉最大输入速率限制
+	draw_appflux_energy = true
+	#万象炉是否直接抽取AE网络自身的能量(按 1 AE = 2 FE 折算)
+	#警告: 会与网络中其他设备争抢供电, 网络储能不足时可能导致设备频繁掉线
+	#在AppliedFlux抽取之后作为补充, 每tick总抽取量受熔炉最大输入速率限制
+	draw_ae_energy = true

@@ -1,0 +1,13 @@
+[omniversal_multiblock_alloy_furnace]
+	#ME pattern assembly slots. Values are normalized to pages of 27.
+	# Default: 108
+	# Range: 27 ~ 540
+	pattern_slots = 108
+	#Omniversal mold hub slots. Values are normalized to pages of 27.
+	# Default: 108
+	# Range: 27 ~ 540
+	mold_slots = 108
+	#Passive crafting hatch slots. Higher coil tiers unlock this capacity gradually.
+	# Default: 30
+	# Range: 1 ~ 540
+	passive_pattern_slots = 30

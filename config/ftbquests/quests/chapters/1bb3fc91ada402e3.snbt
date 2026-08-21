@@ -1,0 +1,30 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1bb3fc91ada402e3"
+	group: "7A37A36F45DDAEBC"
+	icon: {
+		id: "data_energistics:trinity_data_core"
+	}
+	id: "1BB3FC91ADA402E3"
+	images: [ ]
+	order_index: 4
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [{
+		id: "0F9A69B7DF8EA973"
+		linked_quest: "61D2EDC385ADAD2C"
+		x: -1.5d
+		y: -1.0d
+	}]
+	quests: [{
+		id: "5FB3495EBECEEEB6"
+		tasks: [{
+			id: "768583B5CDE2A88F"
+			item: { count: 1, id: "data_energistics:data_reassembler" }
+			type: "item"
+		}]
+		x: 3.5d
+		y: -1.0d
+	}]
+}

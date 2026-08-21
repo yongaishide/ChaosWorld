@@ -1,0 +1,18 @@
+#Maximum tier of added multi-slot fluid hatches.\nEach tier has 2^tier slots.\nSet to 0 to disable multi-slot fluid hatches.
+# Default: 5
+# Range: 0 ~ 5
+maxMultiSlotFluidTier = 5
+#Whether to register Bronze multi-slot fluid hatches.
+enableBronzeMultiSlotFluidHatch = true
+#Whether to register Steel multi-slot fluid hatches.
+enableSteelMultiSlotFluidHatch = true
+#Whether to register Advanced multi-slot fluid hatches.
+enableAdvancedMultiSlotFluidHatch = true
+#Whether to register Turbo multi-slot fluid hatches.
+enableTurboMultiSlotFluidHatch = true
+#Whether to register Highly Advanced multi-slot fluid hatches.
+enableHighlyAdvancedMultiSlotFluidHatch = true
+#Allow input single fluid to all multi-slot fluid input hatches' slots.
+allowSingleFluidInputToAllSlots = true
+#Allow output single fluid to all multi-slot fluid output hatches' slots.
+allowSingleFluidOutputToAllSlots = true

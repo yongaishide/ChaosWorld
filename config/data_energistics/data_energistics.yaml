@@ -1,0 +1,300 @@
+# Logs high-frequency runtime calculations and dispatch decisions. Warnings and errors are unaffected.
+# 记录高频运行时计算与发配决策。警告和错误不受影响。
+verboseRuntimeLogging: false
+
+# Data Ripper power and target selection.
+# 数据撕裂器的功耗与目标选择设置。
+dataRipper:
+  # Base power cost for the data ripper power curve.
+  # 数据撕裂器功耗曲线的基础数据流消耗。
+  baseCost: 512
+
+  # Regex patterns for block ids that the data ripper should never accelerate.
+  # 数据撕裂器永远不会加速的方块 ID 正则表达式。
+  blacklist:
+
+  # Power multipliers paired by array index.
+  # 按数组索引配对的功耗倍率。
+  multipliers:
+    # Block id regex patterns. Each index pairs with the value at the same index.
+    # 方块 ID 正则表达式；每项与 values 中相同索引的倍率配对。
+    patterns:
+      - minecraft:hopper
+      - appeng:.*
+
+    # Positive power multipliers paired with patterns by index.
+    # 与 patterns 按索引配对的正功耗倍率。
+    values:
+      - 1.5
+      - 2.0
+
+# Data Distribution Tower chunk coverage.
+# 数据分配塔的区块覆盖设置。
+dataDistributionTower:
+  # Base chunk coverage level. 1=1x1 chunk, 2=3x3 chunks, and so on.
+  # 基础区块覆盖等级。1=1x1 区块，2=3x3 区块，依此类推。
+  range: 1
+
+# Data Sanctum Interface stocking capacities.
+# 数据圣所接口的储备容量设置。
+dataSanctumInterface:
+  # Base stocked item amount per config or stock slot. Each capacity card doubles it.
+  # 每个配置或库存槽的基础物品储备数量。每张容量卡会使其翻倍。
+  itemLimit: 2048
+
+  # Base stocked fluid buckets per config or stock slot. Each capacity card doubles it.
+  # 每个配置或库存槽的基础流体桶数。每张容量卡会使其翻倍。
+  fluidBuckets: 2048
+
+  # Base item amount per return slot. Each capacity card doubles it.
+  # 每个返回槽的基础物品数量。每张容量卡会使其翻倍。
+  returnItemLimit: 2048
+
+  # Base fluid buckets per return slot. Each capacity card doubles it.
+  # 每个返回槽的基础流体桶数。每张容量卡会使其翻倍。
+  returnFluidBuckets: 2048
+
+# Data Extractor work and carrier requirements.
+# 数据提取器的工作与载体需求设置。
+dataExtractor:
+  # Base damage dealt each cycle.
+  # 每次工作造成的基础伤害。
+  baseDamage: 5
+
+  # Seconds between work cycles before speed cards.
+  # 速度卡生效前每次工作之间的秒数。
+  workIntervalSeconds: 5
+
+  # Base data flow generated per cycle.
+  # 每次工作生成的基础数据流。
+  baseDataFlowPerCycle: 100
+
+  # Additional data flow per point of sword or base damage.
+  # 每点剑或基础伤害额外生成的数据流。
+  dataFlowPerSwordDamage: 20
+
+  # Base maximum number of affected targets.
+  # 可影响目标数量的基础上限。
+  baseTargetLimit: 20
+
+  # Additional target limit per capacity card.
+  # 每张容量卡提供的额外目标上限。
+  targetLimitPerCapacityCard: 5
+
+  # Additional data flow multiplier per extra target.
+  # 每个额外目标提供的数据流倍率加成。
+  extraTargetDataFlowMultiplier: 0.25
+
+  # Required total damage for a mob data carrier.
+  # 完成生物数据载体所需的总伤害。
+  mobRequiredDamage: 1024.0
+
+  # Blocked entity ids. Each array element is one registry id.
+  # 禁用的实体 ID；每个数组元素对应一个注册表 ID。
+  mobDataBlacklist:
+
+  # Required total amount for an ore data carrier.
+  # 完成矿石数据载体所需的总数量。
+  oreRequiredAmount: 4096.0
+
+  # Blocked item ids for ore data. Each array element is one registry id.
+  # 矿物数据禁用的物品 ID；每个数组元素对应一个注册表 ID。
+  oreDataBlacklist:
+
+  # Required total amount for a crop data carrier.
+  # 完成农作数据载体所需的总数量。
+  cropRequiredAmount: 4096.0
+
+  # Blocked item ids for crop data. Each array element is one registry id.
+  # 农作数据禁用的物品 ID；每个数组元素对应一个注册表 ID。
+  cropDataBlacklist:
+
+  # Additional allowed crop item ids. Each array element is one registry id.
+  # 额外允许的农作物品 ID；每个数组元素对应一个注册表 ID。
+  cropDataWhitelist:
+
+# Flattening TNT and Data Nuke behavior.
+# 平整 TNT 与数据核弹的行为设置。
+flatteningTnt:
+  # Configurable TNT terrain replacement.
+  # 可配置 TNT 的地形替换设置。
+  tntConfigurable:
+    # Chunk radius for the cleared area. 1 = 3x3 chunks.
+    # 清除区域的区块半径。1 = 3x3 区块。
+    clearChunkRadius: 1
+
+    # Vertical offset where clearing starts.
+    # 清除起始位置的垂直偏移。
+    clearStartYOffset: 0
+
+    # Number of vertical blocks to clear.
+    # 要清除的垂直方块数量。
+    clearHeight: 25
+
+    # Chunk radius for the filled floor. 1 = 3x3 chunks.
+    # 填充地板的区块半径。1 = 3x3 区块。
+    fillChunkRadius: 1
+
+    # Vertical offset for the filled floor layer.
+    # 填充地板层的垂直偏移。
+    fillYOffset: -1
+
+    # Block id used for the filled floor.
+    # 用于填充地板的方块 ID。
+    fillBlock: minecraft:dirt
+
+    # X offset applied to the TNT center.
+    # 应用到 TNT 中心的 X 偏移。
+    centerOffsetX: 0
+
+    # Y offset applied to the TNT center.
+    # 应用到 TNT 中心的 Y 偏移。
+    centerOffsetY: 0
+
+    # Z offset applied to the TNT center.
+    # 应用到 TNT 中心的 Z 偏移。
+    centerOffsetZ: 0
+
+    # Preserve water and lava while clearing.
+    # 清除时保留水和岩浆。
+    preserveFluids: false
+
+    # Allow unbreakable blocks to be removed or replaced.
+    # 允许移除或替换不可破坏方块。
+    replaceUnbreakableBlocks: false
+
+  # Incremental Data Nuke consumption.
+  # 数据核弹的渐进吞噬设置。
+  dataNuke:
+    # Server ticks between block-devouring cycles.
+    # 吞噬方块工作周期之间的服务器 tick。
+    workIntervalTicks: 1
+
+    # Maximum spherical radius in blocks.
+    # 最大球形半径，单位方块。
+    maxRadius: 2048
+
+    # Entity-devouring radius checked every tick.
+    # 每 tick 检查的实体吞噬半径。
+    centerEntityConsumeRadius: 4.0
+
+# Solar generation and upgrade bonuses.
+# 太阳能发电与升级加成设置。
+solarPanel:
+  # Daytime AE generation per tick.
+  # 白天每 tick 生成的 AE。
+  dayGenerationAEPerTick: 3000.0
+
+  # Nighttime AE generation per tick.
+  # 夜晚每 tick 生成的 AE。
+  nightGenerationAEPerTick: 1000.0
+
+  # Additional generation ratio per speed card.
+  # 每张速度卡提供的额外发电倍率。
+  speedCardBonusRatio: 0.75
+
+  # Additional AE storage per energy card.
+  # 每张能量卡提供的额外 AE 存储容量。
+  energyCardCapacityBonusAE: 80000.0
+
+# Trinity planning limits and quantity semantics.
+# 三位一体规划限制与数量语义设置。
+trinityCrafting:
+  # Maximum AEKey count in one strongly connected component.
+  # 单个强连通分量允许的最大 AEKey 数量。
+  maxSccKeys: 64
+
+  # Maximum legal input-binding variants per request.
+  # 单次请求允许的最大合法输入绑定变体数。
+  maxBindingVariants: 32768
+
+  # Maximum compressed scheduling states.
+  # 最大压缩排程状态数。
+  maxScheduleStates: 500000
+
+  # Per-tick graph rebuild budget in milliseconds.
+  # 每 tick 合成图重建预算，单位毫秒。
+  graphRebuildBudgetMs: 4
+
+  # Bounded workers for initial Trinity plan calculations. Default: clamp(CPU / 2, 1, 8). Requires a game restart.
+  # Trinity 初始计划计算的有界工作线程数。默认：clamp(CPU / 2, 1, 8)。需要重启游戏。
+  plannerThreads: 8
+
+  # Bounded workers for Trinity CPU remaining-work replanning. Default: clamp(CPU / 2, 1, 8). Requires a game restart.
+  # Trinity CPU 剩余工作重规划的有界工作线程数。默认：clamp(CPU / 2, 1, 8)。需要重启游戏。
+  cpuPlannerThreads: 8
+
+  # Maximum queued requests per planning lane. Requires a game restart.
+  # 每条规划轨道允许排队的最大请求数。需要重启游戏。
+  plannerQueueCapacity: 128
+
+  # Maximum dynamic-input retry backoff in ticks.
+  # 动态输入重试退避的最大 tick 间隔。
+  dynamicRetryMaxTicks: 200
+
+  # Default quantity semantics for non-player requests.
+  # 非玩家请求使用的默认数量语义。
+  # Allowed values:
+  # - NET_NEW
+  # - FINAL_TOTAL
+  defaultQuantityMode: NET_NEW
+
+# Trinity dispatch governor tuning.
+# 三位一体派发调节器设置。
+trinityDispatch:
+  # Maximum physical provider attempts per grid tick.
+  # 每个网格每 tick 的最大 provider 物理调用次数。
+  hardGridAttempts: 256
+
+  # Maximum attempts per provider and grid tick.
+  # 单个 provider 每个网格 tick 的最大调用次数。
+  hardProviderAttempts: 16
+
+  # Maximum dispatch commit time per grid tick in milliseconds.
+  # 每个网格 tick 的派发提交时间上限，单位毫秒。
+  hardCommitBudgetMs: 30
+
+  # SAFE-mode grid attempts per tick.
+  # SAFE 模式每个网格每 tick 的调用次数。
+  safeGridAttempts: 16
+
+  # SAFE-mode attempts per provider and grid tick.
+  # SAFE 模式单个 provider 每个网格 tick 的调用次数。
+  safeProviderAttempts: 2
+
+  # SAFE-mode commit budget in milliseconds.
+  # SAFE 模式提交预算，单位毫秒。
+  safeCommitBudgetMs: 2
+
+  # Outstanding proposal permits retained by SAFE mode.
+  # SAFE 模式保留的 outstanding proposal permit 数量。
+  safeActorPermits: 1
+
+  # Maximum adaptive and SAFE retry backoff in ticks.
+  # 自适应及 SAFE 重试退避上限，单位 tick。
+  safeRetryBackoffTicks: 8
+
+  # Observation ticks before adaptive decisions.
+  # 允许自适应决策前的观察 tick 数。
+  warmupTicks: 200
+
+  # Ticks aggregated into one metrics window.
+  # 每个指标窗口聚合的 tick 数。
+  metricsWindowTicks: 20
+
+  # EWMA alpha for complete server tick duration.
+  # 完整服务器 tick 耗时使用的 EWMA alpha。
+  ewmaAlpha: 0.25
+
+  # Consecutive windows required for a transition.
+  # 状态切换前要求连续满足条件的窗口数。
+  transitionWindows: 3
+
+  # Cooldown ticks after a budget adjustment.
+  # 预算调整后的 cooldown tick 数。
+  cooldownTicks: 60
+
+  # Ticks retained in SAFE mode before observation.
+  # SAFE 模式返回观察状态前保持的 tick 数。
+  safeHoldTicks: 200
+

@@ -1,0 +1,22 @@
+{
+	icon: {
+		components: {
+			"ftbquests:icon": "extrahnn:block/loot_fabricator_north_v1"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "523B855005586430"
+	loot_crate: {
+		color: 2974207
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "稀有奖励箱"
+		string_id: "xiyou"
+	}
+	loot_size: 1
+	order_index: 7
+	rewards: [ ]
+}

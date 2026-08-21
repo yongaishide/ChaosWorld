@@ -1,0 +1,28 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "416723ba5a07cdd2"
+	group: "7A37A36F45DDAEBC"
+	icon: {
+		components: {
+			"ftbquests:icon": "draconicevolution:item/components/chaotic_core"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "416723BA5A07CDD2"
+	images: [ ]
+	order_index: 7
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [{
+		id: "2D9B54072C00DB80"
+		tasks: [{
+			id: "45CB8EF12A34BA89"
+			item: { count: 1, id: "draconicevolution:chaotic_core" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

@@ -1,0 +1,136 @@
+{
+	icon: {
+		components: {
+			"ftbquests:icon": "extrahnn:block/loot_fabricator_north_v1"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "5079FEB1AD5BDBDA"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "普通奖励箱"
+		string_id: "putong"
+	}
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			count: 10
+			id: "6763A2F2F7388D83"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+		}
+		{
+			count: 32
+			id: "4DFBEDBE8AFE4E6F"
+			item: {
+				count: 1
+				id: "minecraft:raw_iron"
+			}
+		}
+		{
+			count: 32
+			id: "36BF9C876A6077E0"
+			item: {
+				count: 1
+				id: "minecraft:raw_copper"
+			}
+		}
+		{
+			count: 32
+			id: "24A616A2DCD6337F"
+			item: {
+				count: 1
+				id: "minecraft:raw_gold"
+			}
+		}
+		{
+			count: 32
+			id: "26D386548BDC601E"
+			item: {
+				count: 1
+				id: "alltheores:raw_osmium"
+			}
+		}
+		{
+			count: 32
+			id: "02C4AE1B5F2819DC"
+			item: {
+				count: 1
+				id: "alltheores:raw_tin"
+			}
+		}
+		{
+			count: 32
+			id: "0E40B4E107631330"
+			item: {
+				count: 1
+				id: "alltheores:raw_lead"
+			}
+		}
+		{
+			count: 32
+			id: "0B9517040EE95CE1"
+			item: {
+				count: 1
+				id: "alltheores:raw_nickel"
+			}
+		}
+		{ id: "2E0E6F384812E6F2", item: { count: 1, id: "allthemodium:raw_allthemodium" } }
+		{
+			count: 5
+			id: "7F8ADD77D1A2E4C1"
+			item: {
+				count: 1
+				id: "coinsje:iron_coin"
+			}
+		}
+		{
+			count: 5
+			id: "50CE5519D95D9359"
+			item: {
+				count: 1
+				id: "coinsje:iron_coin_pile"
+			}
+		}
+		{
+			count: 5
+			id: "46300D415DBA48D4"
+			item: {
+				count: 1
+				id: "coinsje:copper_coin"
+			}
+		}
+		{
+			count: 5
+			id: "3B0AA8928F893176"
+			item: {
+				count: 1
+				id: "coinsje:copper_coin_pile"
+			}
+		}
+		{
+			count: 5
+			id: "5DE0AF463ADFAB98"
+			item: {
+				count: 1
+				id: "coinsje:gold_coin"
+			}
+		}
+		{
+			count: 5
+			id: "7E0938ECEE3B34C7"
+			item: {
+				count: 1
+				id: "coinsje:gold_coin_pile"
+			}
+		}
+	]
+}

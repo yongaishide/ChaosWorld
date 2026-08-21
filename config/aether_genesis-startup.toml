@@ -1,0 +1,5 @@
+[Gameplay]
+	#Changes the Altar design and functionality to be like how it was in the Aether II. WARNING: Due to config limitations, this must be the same on both server and client to work properly
+	"Changes Altar design" = true
+	#Changes Gold Aercloud and respective parachute behavior to launch entities downwards. WARNING: Due to config limitations, this must be the same on both server and client to work properly
+	"Gold Aerclouds launch entities downwards" = true

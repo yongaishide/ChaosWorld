@@ -1,0 +1,11 @@
+{
+  "description": "折叠墙",
+  "type": "item",
+  "tag": "minecraft:walls",
+  "icon": "minecraft:cobblestone_wall",
+  "display_name": "jei_tag_groups.group.walls.name",
+  "tooltip": [
+    "jei_tag_groups.group.walls.tooltip"
+  ],
+  "border_color": "#55AAFF"
+}

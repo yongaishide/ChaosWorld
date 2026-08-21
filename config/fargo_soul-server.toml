@@ -1,0 +1,23 @@
+# Default: 64
+# Range: 1 ~ 1024
+cosmic_crucible_size = 64
+# Default: 0.01
+# Range: 0.0 ~ 1.0
+soul_chance = 0.01
+# Default: 0.1
+# Range: 0.0 ~ 1.0
+soul_drop_chance = 0.1
+# Default: 5.0
+# Range: 0.0 ~ 1000.0
+soul_hp_increase_per_soul = 5.0
+# Default: 0.5
+# Range: 0.0 ~ 1000.0
+soul_hp_multiplier_per_soul = 0.5
+# Default: 0.05
+# Range: 0.0 ~ 1.0
+soul_size_multiplier_per_soul = 0.05
+allow_creatures_that_spawn_through_unnatural_paths_to_carry_souls = false
+allow_creatures_that_spawn_through_unnatural_paths_to_drop_souls = false
+allow_friendly_mob_soul = true
+allow_hostile_mob_soul = true
+black_soul_list = ["fargo_soul:terra_soul"]

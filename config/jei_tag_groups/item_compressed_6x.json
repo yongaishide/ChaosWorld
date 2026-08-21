@@ -1,0 +1,11 @@
+{
+  "description": "折叠六重压缩物品",
+  "type": "item",
+  "tag": "allthecompressed:6x",
+  "icon": "allthecompressed:diamond_block_6x",
+  "display_name": "jei_tag_groups.group.compressed_6x.name",
+  "tooltip": [
+    "jei_tag_groups.group.compressed_6x.tooltip"
+  ],
+  "border_color": "#FFAA55"
+}

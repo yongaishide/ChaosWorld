@@ -1,0 +1,7 @@
+[oreProcessing]
+	#Enable the integrated grinding, washing and thermal processing chain.
+	enabled = true
+	#Total FE charged per input ore. The three UI stages are visual only.
+	# Default: 12000
+	# Range: 0 ~ 9223372036854775807
+	Cost = 12000

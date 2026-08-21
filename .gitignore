@@ -1,0 +1,27 @@
+# runtime / cache
+saves/
+logs/
+crash-reports/
+backups/
+downloads/
+local/
+temp_mi/
+.cache/
+.mixin.out/
+.sable/
+ldlib2/
+moddata/
+visualcrafting/
+PCL/
+Chaos_world-natives/
+yes_steve_model/cache/
+
+# launcher / personal
+.hmcl/
+.qmenu_opened.marker
+*.log
+*.jar
+usercache.json
+usernamecache.json
+command_history.txt
+options.txt

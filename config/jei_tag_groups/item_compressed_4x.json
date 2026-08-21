@@ -1,0 +1,11 @@
+{
+  "description": "折叠四重压缩物品",
+  "type": "item",
+  "tag": "allthecompressed:4x",
+  "icon": "allthecompressed:diamond_block_4x",
+  "display_name": "jei_tag_groups.group.compressed_4x.name",
+  "tooltip": [
+    "jei_tag_groups.group.compressed_4x.tooltip"
+  ],
+  "border_color": "#FFAA55"
+}

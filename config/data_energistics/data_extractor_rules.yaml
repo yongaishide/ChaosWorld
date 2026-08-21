@@ -1,0 +1,305 @@
+# Carrier rule columns. Values at the same array index form one row.
+# 载体规则列；各数组中相同索引的值组成一行。
+carrierRules:
+  # Carrier slot for each row. All carrier arrays must have the same length.
+  # 每行的载体槽位；所有载体数组的长度必须相同。
+  # Allowed values:
+  # - ORE
+  # - CROP
+  slots:
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - ORE
+
+  # Recorded data type for each row.
+  # 每行记录的数据类型。
+  # Allowed values:
+  # - MOB
+  # - ORE
+  # - CROP
+  dataTypes:
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - ORE
+
+  # Input item registry id for each row.
+  # 每行的输入物品注册表 ID。
+  inputItems:
+    - minecraft:wheat_seeds
+    - minecraft:beetroot_seeds
+    - minecraft:melon
+    - minecraft:melon_seeds
+    - minecraft:melon_slice
+    - minecraft:pumpkin
+    - minecraft:pumpkin_seeds
+    - minecraft:sweet_berries
+    - minecraft:brown_mushroom
+    - minecraft:red_mushroom
+    - minecraft:crimson_fungus
+    - minecraft:warped_fungus
+    - minecraft:cactus
+    - minecraft:sugar_cane
+    - minecraft:bamboo
+    - minecraft:dandelion
+    - minecraft:poppy
+    - minecraft:blue_orchid
+    - minecraft:allium
+    - minecraft:azure_bluet
+    - minecraft:red_tulip
+    - minecraft:orange_tulip
+    - minecraft:white_tulip
+    - minecraft:pink_tulip
+    - minecraft:oxeye_daisy
+    - minecraft:cornflower
+    - minecraft:lily_of_the_valley
+    - minecraft:wither_rose
+    - minecraft:sunflower
+    - minecraft:lilac
+    - minecraft:rose_bush
+    - minecraft:peony
+    - minecraft:pink_petals
+    - minecraft:torchflower
+    - minecraft:open_eyeblossom
+    - minecraft:closed_eyeblossom
+    - minecraft:oak_sapling
+    - minecraft:raw_gold
+
+  # Recorded item registry id for each row.
+  # 每行记录的物品注册表 ID。
+  recordedItems:
+    - minecraft:wheat
+    - minecraft:beetroot
+    - minecraft:melon
+    - minecraft:melon
+    - minecraft:melon
+    - minecraft:pumpkin
+    - minecraft:pumpkin
+    - minecraft:sweet_berries
+    - minecraft:brown_mushroom
+    - minecraft:red_mushroom
+    - minecraft:crimson_fungus
+    - minecraft:warped_fungus
+    - minecraft:cactus
+    - minecraft:sugar_cane
+    - minecraft:bamboo
+    - minecraft:dandelion
+    - minecraft:poppy
+    - minecraft:blue_orchid
+    - minecraft:allium
+    - minecraft:azure_bluet
+    - minecraft:red_tulip
+    - minecraft:orange_tulip
+    - minecraft:white_tulip
+    - minecraft:pink_tulip
+    - minecraft:oxeye_daisy
+    - minecraft:cornflower
+    - minecraft:lily_of_the_valley
+    - minecraft:wither_rose
+    - minecraft:sunflower
+    - minecraft:lilac
+    - minecraft:rose_bush
+    - minecraft:peony
+    - minecraft:pink_petals
+    - minecraft:torchflower
+    - minecraft:open_eyeblossom
+    - minecraft:closed_eyeblossom
+    - minecraft:oak_sapling
+    - minecraft:gold_ore
+
+  # Positive progress contributed by one input item.
+  # 每个输入物品提供的正进度。
+  progressPerItems:
+    - 0.5
+    - 0.5
+    - 1.0
+    - 0.5
+    - 0.5
+    - 1.0
+    - 0.5
+    - 1.0
+    - 1.0
+    - 1.0
+    - 1.0
+    - 1.0
+    - 1.0
+    - 1.0
+    - 1.0
+    - 1.0
+    - 1.0
+    - 1.0
+    - 1.0
+    - 1.0
+    - 1.0
+    - 1.0
+    - 1.0
+    - 1.0
+    - 1.0
+    - 1.0
+    - 1.0
+    - 1.0
+    - 1.0
+    - 1.0
+    - 1.0
+    - 1.0
+    - 1.0
+    - 1.0
+    - 1.0
+    - 1.0
+    - 1.0
+    - 1.0
+
+  # Positive progress required to complete each carrier.
+  # 完成每个载体所需的正进度。
+  requiredAmounts:
+    - 4096.0
+    - 4096.0
+    - 4096.0
+    - 4096.0
+    - 4096.0
+    - 4096.0
+    - 4096.0
+    - 4096.0
+    - 4096.0
+    - 4096.0
+    - 4096.0
+    - 4096.0
+    - 4096.0
+    - 4096.0
+    - 4096.0
+    - 4096.0
+    - 4096.0
+    - 4096.0
+    - 4096.0
+    - 4096.0
+    - 4096.0
+    - 4096.0
+    - 4096.0
+    - 4096.0
+    - 4096.0
+    - 4096.0
+    - 4096.0
+    - 4096.0
+    - 4096.0
+    - 4096.0
+    - 4096.0
+    - 4096.0
+    - 4096.0
+    - 4096.0
+    - 4096.0
+    - 4096.0
+    - 4096.0
+    - 4096.0
+
+# Output rule columns. Values at the same array index form one output stack row.
+# 输出规则列；各数组中相同索引的值组成一行输出。
+outputRules:
+  # Recorded data type for each output row. All output arrays must have the same length.
+  # 每个输出行记录的数据类型；所有输出数组的长度必须相同。
+  # Allowed values:
+  # - MOB
+  # - ORE
+  # - CROP
+  dataTypes:
+    - CROP
+    - CROP
+    - CROP
+    - CROP
+    - ORE
+
+  # Recorded item registry id for each output row.
+  # 每个输出行记录的物品注册表 ID。
+  recordedItems:
+    - minecraft:oak_sapling
+    - minecraft:oak_sapling
+    - minecraft:oak_sapling
+    - minecraft:oak_sapling
+    - minecraft:gold_ore
+
+  # Output item registry id. Repeat data type and recorded item to add another stack to the same rule.
+  # 输出物品注册表 ID；重复数据类型和记录物品即可为同一规则增加另一组输出。
+  items:
+    - minecraft:oak_log
+    - minecraft:oak_leaves
+    - minecraft:stick
+    - minecraft:apple
+    - minecraft:gold_ore
+
+  # Positive output count for each row.
+  # 每个输出行的正整数数量。
+  counts:
+    - 4
+    - 2
+    - 2
+    - 1
+    - 1
+

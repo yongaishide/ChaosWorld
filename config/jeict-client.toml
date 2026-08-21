@@ -1,0 +1,20 @@
+[planning]
+	rememberSelections = true
+	autoMergeMaterials = true
+	computeQuantities = true
+	autoExpandUniqueRecipes = false
+	#Allowed Values: LOCKED, MIX_AVAILABLE, MOST_AVAILABLE, PREFERRED_NAMESPACE, STRICT_COMPONENTS
+	substitutionStrategy = "LOCKED"
+	preferredNamespace = ""
+	#Allowed Values: GLOBAL, SERVER, WORLD
+	memoryScope = "SERVER"
+	memoryProfile = ""
+
+[performance]
+	showFloatingMaterials = true
+	# Default: 32
+	# Range: 1 ~ 512
+	maxAutoExpandStepsPerTick = 32
+	# Default: 512
+	# Range: 16 ~ 8192
+	maxRecipeLookupResults = 512

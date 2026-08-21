@@ -1,0 +1,60 @@
+[rainbow_effects]
+	#万象创世蜜蜂彩虹特效配置（仅客户端生效）
+	#启用彩虹模式（颜色会动态变化）
+	rainbowMode = true
+	#启用彩虹粒子特效
+	particleEffectEnabled = true
+	#每个tick生成的粒子数量
+	# Default: 1
+	# Range: 1 ~ 20
+	particleCount = 1
+	#启用光晕效果
+	glowEnabled = true
+
+#通用机械离心机端口可视化设置
+[mek_port_visualization]
+	#手持配置器时显示端口颜色
+	showPortColors = true
+	#端口颜色渲染范围（方块距离）
+	# Default: 16
+	# Range: 4 ~ 32
+	portColorRenderRange = 16
+
+#PB 自定义窗口位置持久化（独立于 通用机械 配置系统）
+[window_positions]
+
+	[window_positions.window_pb_upgrade]
+		# Default: 2147483647
+		# Range: > -2147483648
+		x = 91
+		# Default: 2147483647
+		# Range: > -2147483648
+		y = 15
+		pinned = false
+
+	[window_positions.window_ae_input]
+		# Default: 2147483647
+		# Range: > -2147483648
+		x = 2147483647
+		# Default: 2147483647
+		# Range: > -2147483648
+		y = 2147483647
+		pinned = false
+
+	[window_positions.window_feeder]
+		# Default: 2147483647
+		# Range: > -2147483648
+		x = 2147483647
+		# Default: 2147483647
+		# Range: > -2147483648
+		y = 2147483647
+		pinned = false
+
+	[window_positions.window_multi_fluid_tanks]
+		# Default: 2147483647
+		# Range: > -2147483648
+		x = 2147483647
+		# Default: 2147483647
+		# Range: > -2147483648
+		y = 2147483647
+		pinned = false

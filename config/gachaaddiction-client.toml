@@ -1,0 +1,80 @@
+[gachaa_screen]
+	#被这个列表匹配的物品将会触发抽奖动画，优先级大于黑名单
+	#可使用稀有度比较 <1 =1 >1 <=1 >=1
+	#物品标签比较 #minecraft:block
+	#物品id比较 minecraft:acacia_planks
+	whitelist_filter_list = []
+	#被这个列表匹配的物品将不会触发抽奖动画
+	#可使用稀有度比较 <1 =1 >1 <=1 >=1
+	#物品标签比较 #minecraft:block
+	#物品id比较 minecraft:acacia_planks
+	blacklist_filter_list = []
+	merge_item = true
+	#开启后按稀有度排序
+	rarity_sorting = true
+	reward_sound_effects = true
+	#开启后同时只出现一次获得奖品的音效，并只播放最高的
+	reward_sound_effects_optimize = true
+	#开启后FTB任务中就算没有开启也会开启抽奖界面
+	ftb_quests_gachaa = true
+	#当抽奖屏幕没有定义时将使用这个类型
+	default_gachaas_type = "gachaaddiction:slot_machine"
+
+	[gachaa_screen.slot_machine]
+		# Default: 0.1
+		# Range: 0.0 ~ 1.0
+		exit_speed = 0.1
+		# Default: 0.6
+		# Range: 0.0 ~ 5.0
+		exit_max_scale = 0.6
+		pass_sound_effects = true
+		#开启后同时只出现一条滚动条的拨片音效
+		pass_sound_effects_optimize = false
+
+		[gachaa_screen.slot_machine.item]
+			# Default: 5.0
+			# Range: 0.1 ~ 10.0
+			items_per_second = 5.0
+			# Default: 18.0
+			# Range: 18.0 ~ 100.0
+			item_spacing = 18.0
+			# Default: 5
+			# Range: 1 ~ 20
+			visible_count = 5
+			# Default: 5
+			# Range: 1 ~ 10
+			slot_size = 5
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			min_alpha = 0.0
+			# Default: 1.0
+			# Range: 0.0 ~ 1.0
+			max_alpha = 1.0
+
+		[gachaa_screen.slot_machine.decel_zone]
+			# Default: 4.0
+			# Range: 0.0 ~ 100.0
+			decel_zone = 4.0
+			# Default: 0.05
+			# Range: 0.0 ~ 1.0
+			min_speed = 0.05
+			# Default: 0.5
+			# Range: 0.0 ~ 10.0
+			decel_zone_variance_min = 0.5
+			# Default: 1.5
+			# Range: 0.0 ~ 10.0
+			decel_zone_variance_max = 1.5
+
+		[gachaa_screen.slot_machine.speed]
+			# Default: 0.5
+			# Range: 0.0 ~ 10.0
+			speed_variance_min = 0.5
+			# Default: 1.5
+			# Range: 0.0 ~ 10.0
+			speed_variance_max = 1.5
+			# Default: 0.5
+			# Range: 0.0 ~ 10.0
+			min_speed_variance_min = 0.5
+			# Default: 1.5
+			# Range: 0.0 ~ 10.0
+			min_speed_variance_max = 1.5

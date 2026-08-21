@@ -1,0 +1,73 @@
+[Config]
+	#Solar sail requirement for a star with one solar radius; actual per-star requirements scale with radius squared and have no fixed cap
+	# Default: 50000000
+	# Range: > 1
+	BASE_SOLAR_SAIL_REQUIREMENT = 50000000
+	#Legacy config key; interpreted as the one-solar-radius base requirement, not a maximum
+	# Default: 50000000
+	# Range: > 1
+	MAX_SOLAR_PANELS = 50000000
+	#How many solar panels each beam can support
+	# Default: 6
+	# Range: > 1
+	BEAM_TO_SOLAR_PANEL_RATIO = 6
+	#The amount of power generated per sail
+	# Default: 20
+	# Range: > 0
+	POWER_PER_SAIL = 20
+	#Always show sphere at max progress
+	SHOW_AT_MAX_PROGRESS = false
+	#The power that the ray receiver can extract from the sphere every tick
+	# Default: 50000000
+	# Range: > 1
+	RAY_RECEIVER_EXTRACT_POWER = 50000000
+	#The power that the ray receiver buffer has
+	# Default: 100000000
+	# Range: > 1
+	RAY_RECEIVER_POWER_BUFFER = 100000000
+	#The power that the em railejector buffer has
+	# Default: 400000
+	# Range: > 1
+	RAIL_EJECTOR_POWER_BUFFER = 400000
+	#The power that the em railejector consumes each tick per sent item
+	# Default: 40
+	# Range: > 1
+	RAIL_EJECTOR_CONSUME = 40
+	#寰宇大道乘算基数（默认 10，每包裹一颗星体 ×10）
+	MULTIPLIER_BASE = 10.0
+	#黑洞解锁阈值（默认 1000，包裹第 1001 颗星体时触发宇宙觉醒）
+	# Default: 1000
+	# Range: > 1
+	BLACKHOLE_UNLOCK_THRESHOLD = 1000
+	#视界放大器倍率基数（默认 173，时间膨胀因子 sqrt(3) ≈ 1.732 × 100）
+	AMPLIFIER_BASE = 173.0
+	#视界放大器损耗速率（损坏度 < 50 时，每 Tick +X，默认 0.1）
+	AMPLIFIER_DAMAGE_RATE_LOW = 0.1
+	#视界放大器损耗速率（损坏度 >= 50 时，每 Tick +X，默认 0.005）
+	AMPLIFIER_DAMAGE_RATE_HIGH = 0.005
+	#视界放大器单次修复减少的损坏度百分比（默认 5%）
+	AMPLIFIER_REPAIR_AMOUNT = 5.0
+	#视界放大器修复所需物品 ID（默认 dysoncubeproject:strange_alloy）
+	AMPLIFIER_REPAIR_ITEM = "dysoncubeproject:strange_alloy"
+	#反物质星体解锁阈值（默认 5000，包裹第 5001 颗星体时触发反物质觉醒）
+	# Default: 5000
+	# Range: > 1
+	ANTIMATTER_UNLOCK_THRESHOLD = 5000
+	#暗物质星解锁阈值（默认 3000）
+	# Default: 3000
+	# Range: > 1
+	DARK_MATTER_UNLOCK_THRESHOLD = 3000
+	#普朗克星解锁阈值（默认 10000）
+	# Default: 10000
+	# Range: > 1
+	PLANCK_STAR_UNLOCK_THRESHOLD = 10000
+	#普朗克星包裹所需量子结构光束数量（默认 64000）
+	# Default: 64000
+	# Range: > 1
+	QUANTUM_BEAM_REQUIRED = 64000
+	#普朗克星包裹所需量子结构光束物品ID（默认 dysoncubeproject:quantum_structure_beam）
+	QUANTUM_BEAM_ITEM = "dysoncubeproject:quantum_structure_beam"
+	#鸿蒙之气解锁所需包裹数（默认 500,000）
+	# Default: 500000
+	# Range: > 1
+	PRIMORDIAL_QI_UNLOCK_THRESHOLD = 500000

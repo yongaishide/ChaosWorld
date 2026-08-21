@@ -1,0 +1,22 @@
+{
+	icon: {
+		components: {
+			"ftbquests:icon": "extrahnn:block/loot_fabricator_north_v3"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "3F79FABB5BBA9B82"
+	loot_crate: {
+		color: 2031406
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "罕见奖励箱"
+		string_id: "hanjian"
+	}
+	loot_size: 1
+	order_index: 8
+	rewards: [ ]
+}

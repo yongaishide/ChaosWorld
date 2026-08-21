@@ -1,0 +1,24 @@
+{
+	empty_weight: 1.0f
+	icon: {
+		components: {
+			"ftbquests:icon": "extrahnn:block/loot_fabricator_north_v2"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "766EAB95D9DE268E"
+	loot_crate: {
+		color: 16771378
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "传奇奖励箱"
+		string_id: "chuanqi"
+	}
+	loot_size: 1
+	order_index: 4
+	rewards: [ ]
+}

@@ -1,0 +1,13 @@
+{
+  "description": "折叠附魔书物品",
+  "type": "item",
+  "items": [
+    "minecraft:enchanted_book"
+  ],
+  "icon": "minecraft:enchanted_book",
+  "display_name": "jei_tag_groups.group.enchanted_book.name",
+  "tooltip": [
+    "jei_tag_groups.group.enchanted_book.tooltip"
+  ],
+  "border_color": "#AA55FF"
+}

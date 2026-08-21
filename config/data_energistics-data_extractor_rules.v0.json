@@ -1,0 +1,413 @@
+{
+  "_comment": "carrier_rules controls extractor input mapping, final carrier item/type, required amount, and optional mimetic outputs.",
+  "carrier_rules": [
+    {
+      "slot": "crop",
+      "final_carrier": "crop",
+      "final_carrier_item": "data_energistics:crop_data_carrier",
+      "input_item": "minecraft:wheat_seeds",
+      "recorded_item": "minecraft:wheat",
+      "progress_per_item": 0.5,
+      "required_amount": 4096.0
+    },
+    {
+      "slot": "crop",
+      "final_carrier": "crop",
+      "final_carrier_item": "data_energistics:crop_data_carrier",
+      "input_item": "minecraft:beetroot_seeds",
+      "recorded_item": "minecraft:beetroot",
+      "progress_per_item": 0.5,
+      "required_amount": 4096.0
+    },
+    {
+      "slot": "crop",
+      "final_carrier": "crop",
+      "final_carrier_item": "data_energistics:crop_data_carrier",
+      "input_item": "minecraft:melon",
+      "recorded_item": "minecraft:melon",
+      "progress_per_item": 1.0,
+      "required_amount": 4096.0
+    },
+    {
+      "slot": "crop",
+      "final_carrier": "crop",
+      "final_carrier_item": "data_energistics:crop_data_carrier",
+      "input_item": "minecraft:melon_seeds",
+      "recorded_item": "minecraft:melon",
+      "progress_per_item": 0.5,
+      "required_amount": 4096.0
+    },
+    {
+      "slot": "crop",
+      "final_carrier": "crop",
+      "final_carrier_item": "data_energistics:crop_data_carrier",
+      "input_item": "minecraft:melon_slice",
+      "recorded_item": "minecraft:melon",
+      "progress_per_item": 0.5,
+      "required_amount": 4096.0
+    },
+    {
+      "slot": "crop",
+      "final_carrier": "crop",
+      "final_carrier_item": "data_energistics:crop_data_carrier",
+      "input_item": "minecraft:pumpkin",
+      "recorded_item": "minecraft:pumpkin",
+      "progress_per_item": 1.0,
+      "required_amount": 4096.0
+    },
+    {
+      "slot": "crop",
+      "final_carrier": "crop",
+      "final_carrier_item": "data_energistics:crop_data_carrier",
+      "input_item": "minecraft:pumpkin_seeds",
+      "recorded_item": "minecraft:pumpkin",
+      "progress_per_item": 0.5,
+      "required_amount": 4096.0
+    },
+    {
+      "slot": "crop",
+      "final_carrier": "crop",
+      "final_carrier_item": "data_energistics:crop_data_carrier",
+      "input_item": "minecraft:sweet_berries",
+      "recorded_item": "minecraft:sweet_berries",
+      "progress_per_item": 1.0,
+      "required_amount": 4096.0
+    },
+    {
+      "slot": "crop",
+      "final_carrier": "crop",
+      "final_carrier_item": "data_energistics:crop_data_carrier",
+      "input_item": "minecraft:brown_mushroom",
+      "recorded_item": "minecraft:brown_mushroom",
+      "progress_per_item": 1.0,
+      "required_amount": 4096.0
+    },
+    {
+      "slot": "crop",
+      "final_carrier": "crop",
+      "final_carrier_item": "data_energistics:crop_data_carrier",
+      "input_item": "minecraft:red_mushroom",
+      "recorded_item": "minecraft:red_mushroom",
+      "progress_per_item": 1.0,
+      "required_amount": 4096.0
+    },
+    {
+      "slot": "crop",
+      "final_carrier": "crop",
+      "final_carrier_item": "data_energistics:crop_data_carrier",
+      "input_item": "minecraft:crimson_fungus",
+      "recorded_item": "minecraft:crimson_fungus",
+      "progress_per_item": 1.0,
+      "required_amount": 4096.0
+    },
+    {
+      "slot": "crop",
+      "final_carrier": "crop",
+      "final_carrier_item": "data_energistics:crop_data_carrier",
+      "input_item": "minecraft:warped_fungus",
+      "recorded_item": "minecraft:warped_fungus",
+      "progress_per_item": 1.0,
+      "required_amount": 4096.0
+    },
+    {
+      "slot": "crop",
+      "final_carrier": "crop",
+      "final_carrier_item": "data_energistics:crop_data_carrier",
+      "input_item": "minecraft:cactus",
+      "recorded_item": "minecraft:cactus",
+      "progress_per_item": 1.0,
+      "required_amount": 4096.0
+    },
+    {
+      "slot": "crop",
+      "final_carrier": "crop",
+      "final_carrier_item": "data_energistics:crop_data_carrier",
+      "input_item": "minecraft:sugar_cane",
+      "recorded_item": "minecraft:sugar_cane",
+      "progress_per_item": 1.0,
+      "required_amount": 4096.0
+    },
+    {
+      "slot": "crop",
+      "final_carrier": "crop",
+      "final_carrier_item": "data_energistics:crop_data_carrier",
+      "input_item": "minecraft:bamboo",
+      "recorded_item": "minecraft:bamboo",
+      "progress_per_item": 1.0,
+      "required_amount": 4096.0
+    },
+    {
+      "slot": "crop",
+      "final_carrier": "crop",
+      "final_carrier_item": "data_energistics:crop_data_carrier",
+      "input_item": "minecraft:dandelion",
+      "recorded_item": "minecraft:dandelion",
+      "progress_per_item": 1.0,
+      "required_amount": 4096.0
+    },
+    {
+      "slot": "crop",
+      "final_carrier": "crop",
+      "final_carrier_item": "data_energistics:crop_data_carrier",
+      "input_item": "minecraft:poppy",
+      "recorded_item": "minecraft:poppy",
+      "progress_per_item": 1.0,
+      "required_amount": 4096.0
+    },
+    {
+      "slot": "crop",
+      "final_carrier": "crop",
+      "final_carrier_item": "data_energistics:crop_data_carrier",
+      "input_item": "minecraft:blue_orchid",
+      "recorded_item": "minecraft:blue_orchid",
+      "progress_per_item": 1.0,
+      "required_amount": 4096.0
+    },
+    {
+      "slot": "crop",
+      "final_carrier": "crop",
+      "final_carrier_item": "data_energistics:crop_data_carrier",
+      "input_item": "minecraft:allium",
+      "recorded_item": "minecraft:allium",
+      "progress_per_item": 1.0,
+      "required_amount": 4096.0
+    },
+    {
+      "slot": "crop",
+      "final_carrier": "crop",
+      "final_carrier_item": "data_energistics:crop_data_carrier",
+      "input_item": "minecraft:azure_bluet",
+      "recorded_item": "minecraft:azure_bluet",
+      "progress_per_item": 1.0,
+      "required_amount": 4096.0
+    },
+    {
+      "slot": "crop",
+      "final_carrier": "crop",
+      "final_carrier_item": "data_energistics:crop_data_carrier",
+      "input_item": "minecraft:red_tulip",
+      "recorded_item": "minecraft:red_tulip",
+      "progress_per_item": 1.0,
+      "required_amount": 4096.0
+    },
+    {
+      "slot": "crop",
+      "final_carrier": "crop",
+      "final_carrier_item": "data_energistics:crop_data_carrier",
+      "input_item": "minecraft:orange_tulip",
+      "recorded_item": "minecraft:orange_tulip",
+      "progress_per_item": 1.0,
+      "required_amount": 4096.0
+    },
+    {
+      "slot": "crop",
+      "final_carrier": "crop",
+      "final_carrier_item": "data_energistics:crop_data_carrier",
+      "input_item": "minecraft:white_tulip",
+      "recorded_item": "minecraft:white_tulip",
+      "progress_per_item": 1.0,
+      "required_amount": 4096.0
+    },
+    {
+      "slot": "crop",
+      "final_carrier": "crop",
+      "final_carrier_item": "data_energistics:crop_data_carrier",
+      "input_item": "minecraft:pink_tulip",
+      "recorded_item": "minecraft:pink_tulip",
+      "progress_per_item": 1.0,
+      "required_amount": 4096.0
+    },
+    {
+      "slot": "crop",
+      "final_carrier": "crop",
+      "final_carrier_item": "data_energistics:crop_data_carrier",
+      "input_item": "minecraft:oxeye_daisy",
+      "recorded_item": "minecraft:oxeye_daisy",
+      "progress_per_item": 1.0,
+      "required_amount": 4096.0
+    },
+    {
+      "slot": "crop",
+      "final_carrier": "crop",
+      "final_carrier_item": "data_energistics:crop_data_carrier",
+      "input_item": "minecraft:cornflower",
+      "recorded_item": "minecraft:cornflower",
+      "progress_per_item": 1.0,
+      "required_amount": 4096.0
+    },
+    {
+      "slot": "crop",
+      "final_carrier": "crop",
+      "final_carrier_item": "data_energistics:crop_data_carrier",
+      "input_item": "minecraft:lily_of_the_valley",
+      "recorded_item": "minecraft:lily_of_the_valley",
+      "progress_per_item": 1.0,
+      "required_amount": 4096.0
+    },
+    {
+      "slot": "crop",
+      "final_carrier": "crop",
+      "final_carrier_item": "data_energistics:crop_data_carrier",
+      "input_item": "minecraft:wither_rose",
+      "recorded_item": "minecraft:wither_rose",
+      "progress_per_item": 1.0,
+      "required_amount": 4096.0
+    },
+    {
+      "slot": "crop",
+      "final_carrier": "crop",
+      "final_carrier_item": "data_energistics:crop_data_carrier",
+      "input_item": "minecraft:sunflower",
+      "recorded_item": "minecraft:sunflower",
+      "progress_per_item": 1.0,
+      "required_amount": 4096.0
+    },
+    {
+      "slot": "crop",
+      "final_carrier": "crop",
+      "final_carrier_item": "data_energistics:crop_data_carrier",
+      "input_item": "minecraft:lilac",
+      "recorded_item": "minecraft:lilac",
+      "progress_per_item": 1.0,
+      "required_amount": 4096.0
+    },
+    {
+      "slot": "crop",
+      "final_carrier": "crop",
+      "final_carrier_item": "data_energistics:crop_data_carrier",
+      "input_item": "minecraft:rose_bush",
+      "recorded_item": "minecraft:rose_bush",
+      "progress_per_item": 1.0,
+      "required_amount": 4096.0
+    },
+    {
+      "slot": "crop",
+      "final_carrier": "crop",
+      "final_carrier_item": "data_energistics:crop_data_carrier",
+      "input_item": "minecraft:peony",
+      "recorded_item": "minecraft:peony",
+      "progress_per_item": 1.0,
+      "required_amount": 4096.0
+    },
+    {
+      "slot": "crop",
+      "final_carrier": "crop",
+      "final_carrier_item": "data_energistics:crop_data_carrier",
+      "input_item": "minecraft:pink_petals",
+      "recorded_item": "minecraft:pink_petals",
+      "progress_per_item": 1.0,
+      "required_amount": 4096.0
+    },
+    {
+      "slot": "crop",
+      "final_carrier": "crop",
+      "final_carrier_item": "data_energistics:crop_data_carrier",
+      "input_item": "minecraft:torchflower",
+      "recorded_item": "minecraft:torchflower",
+      "progress_per_item": 1.0,
+      "required_amount": 4096.0
+    },
+    {
+      "slot": "crop",
+      "final_carrier": "crop",
+      "final_carrier_item": "data_energistics:crop_data_carrier",
+      "input_item": "minecraft:open_eyeblossom",
+      "recorded_item": "minecraft:open_eyeblossom",
+      "progress_per_item": 1.0,
+      "required_amount": 4096.0
+    },
+    {
+      "slot": "crop",
+      "final_carrier": "crop",
+      "final_carrier_item": "data_energistics:crop_data_carrier",
+      "input_item": "minecraft:closed_eyeblossom",
+      "recorded_item": "minecraft:closed_eyeblossom",
+      "progress_per_item": 1.0,
+      "required_amount": 4096.0
+    },
+    {
+      "slot": "crop",
+      "final_carrier": "crop",
+      "final_carrier_item": "data_energistics:crop_data_carrier",
+      "input_item": "minecraft:oak_sapling",
+      "recorded_item": "minecraft:oak_sapling",
+      "progress_per_item": 1.0,
+      "required_amount": 4096.0,
+      "mimetic_outputs": [
+        {
+          "item": "minecraft:oak_log",
+          "count": 4
+        },
+        {
+          "item": "minecraft:oak_leaves",
+          "count": 2
+        },
+        {
+          "item": "minecraft:stick",
+          "count": 2
+        },
+        {
+          "item": "minecraft:apple",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "slot": "ore",
+      "final_carrier": "ore",
+      "final_carrier_item": "data_energistics:ore_data_carrier",
+      "input_item": "minecraft:raw_gold",
+      "recorded_item": "minecraft:gold_ore",
+      "progress_per_item": 1.0,
+      "required_amount": 4096.0,
+      "mimetic_outputs": [
+        {
+          "item": "minecraft:gold_ore",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "_mob_rule_examples": [
+    {
+      "_note": "template only: mob rules are not wired into Data Extractor carrier_rules yet.",
+      "slot": "mob",
+      "final_carrier": "mob",
+      "final_carrier_item": "data_energistics:mob_data_carrier",
+      "input_item": "data_energistics:data_capture_ball",
+      "recorded_item": "minecraft:zombie",
+      "progress_per_item": 4.0,
+      "required_amount": 4096.0,
+      "mimetic_outputs": [
+        {
+          "item": "minecraft:rotten_flesh",
+          "count": 2
+        },
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "_note": "template only: mob rules are not wired into Data Extractor carrier_rules yet.",
+      "slot": "mob",
+      "final_carrier": "mob",
+      "final_carrier_item": "data_energistics:mob_data_carrier",
+      "input_item": "data_energistics:data_capture_ball",
+      "recorded_item": "minecraft:skeleton",
+      "progress_per_item": 4.0,
+      "required_amount": 4096.0,
+      "mimetic_outputs": [
+        {
+          "item": "minecraft:bone",
+          "count": 2
+        },
+        {
+          "item": "minecraft:arrow",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

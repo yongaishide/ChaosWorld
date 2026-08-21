@@ -1,0 +1,4 @@
+#Beheading Config for Casting
+["Beheading Config"]
+	#Mappings in the form: entity_id=item_id
+	heads = ["minecraft:zombie=minecraft:zombie_head", "minecraft:skeleton=minecraft:skeleton_skull", "minecraft:creeper=minecraft:creeper_head", "minecraft:wither_skeleton=minecraft:wither_skeleton_skull", "minecraft:player=minecraft:player_head", "minecraft:ender_dragon=minecraft:dragon_head", "minecraft:enderman=enderio:enderman_head"]

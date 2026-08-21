@@ -1,0 +1,65 @@
+[General]
+	#Enable custom extraction frequency for Item Pipes (1-200 ticks).
+	enableItemCustomFrequency = true
+	#Enable custom extraction frequency for Fluid Pipes (1-200 ticks).
+	enableFluidCustomFrequency = true
+	#Enable custom extraction frequency for Energy Pipes (1-200 ticks).
+	enableEnergyCustomFrequency = true
+	#Enable custom extraction frequency for Gas Pipes (1-200 ticks).
+	enableGasCustomFrequency = true
+
+	[Upgrades.Item]
+		#Transfer rate for ATM Upgrade
+		# Default: 128
+		# Range: > 1
+		itemRateAtm = 128
+		#Transfer rate for Vibranium Upgrade
+		# Default: 256
+		# Range: > 1
+		itemRateVibranium = 256
+		#Transfer rate for Unobtainium Upgrade
+		# Default: 1024
+		# Range: > 1
+		itemRateUnobtainium = 1024
+
+	[Upgrades.Fluid]
+		#Transfer rate for ATM Upgrade
+		# Default: 50000
+		# Range: > 1
+		fluidRateAtm = 50000
+		#Transfer rate for Vibranium Upgrade
+		# Default: 250000
+		# Range: > 1
+		fluidRateVibranium = 250000
+		#Transfer rate for Unobtainium Upgrade
+		# Default: 1000000
+		# Range: > 1
+		fluidRateUnobtainium = 1000000
+
+	[Upgrades.Energy]
+		#Transfer rate for ATM Upgrade
+		# Default: 500000
+		# Range: > 1
+		energyRateAtm = 500000
+		#Transfer rate for Vibranium Upgrade
+		# Default: 2500000
+		# Range: > 1
+		energyRateVibranium = 2500000
+		#Transfer rate for Unobtainium Upgrade
+		# Default: 10000000
+		# Range: > 1
+		energyRateUnobtainium = 10000000
+
+	[Upgrades.Gas]
+		#Transfer rate for ATM Upgrade
+		# Default: 200000
+		# Range: > 1
+		gasRateAtm = 200000
+		#Transfer rate for Vibranium Upgrade
+		# Default: 1000000
+		# Range: > 1
+		gasRateVibranium = 1000000
+		#Transfer rate for Unobtainium Upgrade
+		# Default: 4000000
+		# Range: > 1
+		gasRateUnobtainium = 4000000

@@ -1,0 +1,42 @@
+quoteSubtitles = true
+# Default: 60
+# Range: 0 ~ 100
+deathQuoteChance = 60
+etheriumShieldRenderLayer = true
+etheriumShieldIcon = true
+
+[magnetButton]
+	# Default: 0
+	# Range: -1024 ~ 1024
+	OffsetX = 0
+	# Default: 0
+	# Range: -1024 ~ 1024
+	OffsetY = 0
+	# Default: 0
+	# Range: -1024 ~ 1024
+	OffsetXCreative = 0
+	# Default: 0
+	# Range: -1024 ~ 1024
+	OffsetYCreative = 0
+
+[enderButton]
+	# Default: 0
+	# Range: -1024 ~ 1024
+	OffsetX = 0
+	# Default: 0
+	# Range: -1024 ~ 1024
+	OffsetY = 0
+	# Default: 0
+	# Range: -1024 ~ 1024
+	OffsetXCreative = 0
+	# Default: 0
+	# Range: -1024 ~ 1024
+	OffsetYCreative = 0
+
+[etheriumShieldIconOffset]
+	# Default: 0
+	# Range: -1024 ~ 1024
+	OffsetX = 0
+	# Default: 0
+	# Range: -1024 ~ 1024
+	OffsetY = 0

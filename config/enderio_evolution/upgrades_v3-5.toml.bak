@@ -1,0 +1,142 @@
+#Machine Upgrade Settings
+[Upgrades]
+
+	[Upgrades.basic_batch_upgrade]
+		#Bonus value (e.g. batch counts or extra stacks).
+		# Default: 0.125
+		# Range: 0.0 ~ 10000.0
+		value = 0.125
+		#Max amount of this upgrade that can be installed in a single machine.
+		# Default: 64
+		# Range: 1 ~ 512
+		maxLimit = 64
+		#Energy penalty per installed upgrade (e.g. 0.05 = +5% energy use).
+		# Default: 0.012500000186264515
+		# Range: 0.0 ~ 100.0
+		energyPenalty = 0.012500000186264515
+
+	[Upgrades.crystalline_batch_upgrade]
+		#Bonus value (e.g. batch counts or extra stacks).
+		# Default: 0.25
+		# Range: 0.0 ~ 10000.0
+		value = 0.25
+		#Max amount of this upgrade that can be installed in a single machine.
+		# Default: 64
+		# Range: 1 ~ 512
+		maxLimit = 64
+		#Energy penalty per installed upgrade (e.g. 0.05 = +5% energy use).
+		# Default: 0.012500000186264515
+		# Range: 0.0 ~ 100.0
+		energyPenalty = 0.012500000186264515
+
+	[Upgrades.stellar_batch_upgrade]
+		#Bonus value (e.g. batch counts or extra stacks).
+		# Default: 1.5
+		# Range: 0.0 ~ 10000.0
+		value = 1.5
+		#Max amount of this upgrade that can be installed in a single machine.
+		# Default: 32
+		# Range: 1 ~ 512
+		maxLimit = 32
+		#Energy penalty per installed upgrade (e.g. 0.05 = +5% energy use).
+		# Default: 0.02500000037252903
+		# Range: 0.0 ~ 100.0
+		energyPenalty = 0.02500000037252903
+
+	[Upgrades.basic_stack_upgrade]
+		#Bonus value (e.g. batch counts or extra stacks).
+		# Default: 4.0
+		# Range: 0.0 ~ 10000.0
+		value = 4.0
+		#Max amount of this upgrade that can be installed in a single machine.
+		# Default: 64
+		# Range: 1 ~ 512
+		maxLimit = 64
+		#Energy penalty per installed upgrade (e.g. 0.05 = +5% energy use).
+		# Default: 0.0031250000465661287
+		# Range: 0.0 ~ 100.0
+		energyPenalty = 0.0031250000465661287
+
+	[Upgrades.crystalline_stack_upgrade]
+		#Bonus value (e.g. batch counts or extra stacks).
+		# Default: 8.0
+		# Range: 0.0 ~ 10000.0
+		value = 8.0
+		#Max amount of this upgrade that can be installed in a single machine.
+		# Default: 64
+		# Range: 1 ~ 512
+		maxLimit = 64
+		#Energy penalty per installed upgrade (e.g. 0.05 = +5% energy use).
+		# Default: 0.0031250000465661287
+		# Range: 0.0 ~ 100.0
+		energyPenalty = 0.0031250000465661287
+
+	[Upgrades.stellar_stack_upgrade]
+		#Bonus value (e.g. batch counts or extra stacks).
+		# Default: 32.0
+		# Range: 0.0 ~ 10000.0
+		value = 32.0
+		#Max amount of this upgrade that can be installed in a single machine.
+		# Default: 32
+		# Range: 1 ~ 512
+		maxLimit = 32
+		#Energy penalty per installed upgrade (e.g. 0.05 = +5% energy use).
+		# Default: 0.0062500000931322575
+		# Range: 0.0 ~ 100.0
+		energyPenalty = 0.0062500000931322575
+
+#Machine Utilization Multipliers for Upgrades
+[Utilization]
+
+	[Utilization.SAG_MILL]
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		stackUtilization = 1.0
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		batchUtilization = 1.0
+
+	[Utilization.ALLOY_SMELTER]
+		# Default: 3.0
+		# Range: 0.0 ~ 100.0
+		stackUtilization = 3.0
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		batchUtilization = 1.0
+
+	[Utilization.VAT]
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		stackUtilization = 1.0
+		# Default: 1.5
+		# Range: 0.0 ~ 100.0
+		batchUtilization = 1.5
+
+	[Utilization.SPAWNER]
+		# Default: 0.125
+		# Range: 0.0 ~ 100.0
+		batchUtilization = 0.125
+
+	[Utilization.DRAIN]
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		stackUtilization = 1.0
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		batchUtilization = 1.0
+
+	[Utilization.SOUL_BINDER]
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		stackUtilization = 1.0
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		batchUtilization = 1.0
+
+	[Utilization.SLICER]
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		stackUtilization = 1.0
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		batchUtilization = 1.0

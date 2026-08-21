@@ -1,0 +1,28 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7118d5b36c0a4945"
+	group: "7A37A36F45DDAEBC"
+	icon: {
+		components: {
+			"ftbquests:icon": "avaritia:item/resource/infinity/infinity_ingot"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "7118D5B36C0A4945"
+	images: [ ]
+	order_index: 8
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [{
+		id: "7CE66CFDE2004A8B"
+		tasks: [{
+			id: "0B5FEB5869F15277"
+			item: { count: 1, id: "avaritia:infinity_ingot" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

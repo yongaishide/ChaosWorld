@@ -1,0 +1,6 @@
+#Default recipe output format for newly placed Visual Crafting Tables.
+#Options: KUBEJS, CRT
+default_format = "KUBEJS"
+#Enable Furnace Card synthesis and AE2 integration.
+#1 = enabled, 0 = disabled
+furnace_card_enabled = 1

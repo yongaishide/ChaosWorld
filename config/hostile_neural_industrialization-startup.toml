@@ -1,0 +1,449 @@
+[large_loot_fabricator]
+	#Duration in ticks for generated recipes. Default: 3 minutes
+	# Default: 3600
+	# Range: > 1
+	duration = 3600
+	#Amount of fluid outputted for The End predictions
+	# Default: 1000
+	# Range: > 1
+	end_fluid_output_amount = 1000
+	#Required fluid for Overworld predictions
+	#Leave empty to remove fluid requirement
+	overworld_fluid_input_id = ""
+	#Amount of fluid outputted for Nether predictions
+	# Default: 1000
+	# Range: > 1
+	nether_fluid_output_amount = 1000
+	#Fluid outputted for Nether predictions
+	#Leave empty to remove fluid output
+	nether_fluid_output_id = ""
+	#Amount of fluid required for The End predictions
+	# Default: 1000
+	# Range: > 1
+	end_fluid_input_amount = 1000
+	#Amount of fluid required for Twilight Forest predictions
+	# Default: 1000
+	# Range: > 1
+	twilight_fluid_input_amount = 1000
+	#Fluid outputted for Twilight Forest predictions
+	#Leave empty to remove fluid output
+	twilight_fluid_output_id = ""
+	#For every X amount of possible drops, the amount of predictions required will increase by 1
+	# Default: 4
+	# Range: 0 ~ 64
+	bonus_prediction_amount = 4
+	#Output amount multiplier for generated recipes
+	#i.e. 64x Steaks with a 0.5 multiplier = 32 Steaks
+	# Default: 1.0
+	# Range: 0.01 ~ 2.0
+	output_amount_multiplier = 1.0
+	#Amount of fluid required for Nether predictions
+	# Default: 1000
+	# Range: > 1
+	nether_fluid_input_amount = 1000
+	#Required fluid for Twilight Forest predictions
+	#Leave empty to remove fluid requirement
+	twilight_fluid_input_id = ""
+	#Probability each loot will be generated on generated recipes
+	# Default: 1.0
+	# Range: 0.01 ~ 1.0
+	output_probability = 1.0
+	#Amount of fluid required for Overworld predictions
+	# Default: 1000
+	# Range: > 1
+	overworld_fluid_input_amount = 1000
+	#Required fluid for The End predictions
+	#Leave empty to remove fluid requirement
+	end_fluid_input_id = ""
+	#Amount of fluid outputted for Twilight Forest predictions
+	# Default: 1000
+	# Range: > 1
+	twilight_fluid_output_amount = 1000
+	#Amount of fluid outputted for Overworld predictions
+	# Default: 1000
+	# Range: > 1
+	overworld_fluid_output_amount = 1000
+	#Whether Large Loot Fabricator recipes should be generated automatically at runtime.
+	#Disable this if you're a modpack creator and intend to manually create all recipes.
+	runtime_recipes = true
+	#Required fluid for Nether predictions
+	#Leave empty to remove fluid requirement
+	nether_fluid_input_id = ""
+	#Fluid outputted for The End predictions
+	#Leave empty to remove fluid output
+	end_fluid_output_id = ""
+	#Fluid outputted for Overworld predictions
+	#Leave empty to remove fluid output
+	overworld_fluid_output_id = ""
+	#Minimum amount of possible drops a model must have to generate a recipe
+	# Default: 3
+	# Range: > 1
+	min_loot_for_generated_recipes = 3
+	#Base amount of Predictions required on generated recipes
+	# Default: 1
+	# Range: 1 ~ 64
+	base_prediction_amount = 1
+	#Energy per tick multiplier compared to model's simulation cost for generated recipes
+	#i.e. 1,000RF * 0.1 multiplier = 100 EU/t
+	# Default: 0.45
+	# Range: 0.01 ~ 1.7976931348623157E308
+	energy_multiplier = 0.45
+	#Probability the input fluid for Overworld predictions will be consumed
+	# Default: 1.0
+	# Range: 0.01 ~ 1.0
+	overworld_fluid_input_probability = 1.0
+	#Probability the input fluid for The End predictions will be consumed
+	# Default: 1.0
+	# Range: 0.01 ~ 1.0
+	end_fluid_input_probability = 1.0
+	#Probability the input fluid for Twilight Forest predictions will be consumed
+	# Default: 1.0
+	# Range: 0.01 ~ 1.0
+	twilight_fluid_input_probability = 1.0
+	#Probability the output fluid for Overworld predictions will be produced
+	# Default: 1.0
+	# Range: 0.01 ~ 1.0
+	overworld_fluid_output_probability = 1.0
+	#Probability the output fluid for The End predictions will be produced
+	# Default: 1.0
+	# Range: 0.01 ~ 1.0
+	end_fluid_output_probability = 1.0
+	#Probability the input fluid for Nether predictions will be consumed
+	# Default: 1.0
+	# Range: 0.01 ~ 1.0
+	nether_fluid_input_probability = 1.0
+	#Probability the output fluid for Nether predictions will be produced
+	# Default: 1.0
+	# Range: 0.01 ~ 1.0
+	nether_fluid_output_probability = 1.0
+	#Probability the output fluid for Twilight Forest predictions will be produced
+	# Default: 1.0
+	# Range: 0.01 ~ 1.0
+	twilight_fluid_output_probability = 1.0
+
+[mono_loot_fabricator]
+	#Duration in ticks for generated recipes. Default: 10 seconds
+	# Default: 200
+	# Range: > 1
+	duration = 200
+	#Amount of fluid outputted for The End predictions
+	# Default: 1000
+	# Range: > 1
+	end_fluid_output_amount = 1000
+	#Required fluid for Overworld predictions
+	#Leave empty to remove fluid requirement
+	overworld_fluid_input_id = ""
+	#Amount of fluid outputted for Nether predictions
+	# Default: 1000
+	# Range: > 1
+	nether_fluid_output_amount = 1000
+	#Fluid outputted for Nether predictions
+	#Leave empty to remove fluid output
+	nether_fluid_output_id = ""
+	#Amount of fluid required for The End predictions
+	# Default: 1000
+	# Range: > 1
+	end_fluid_input_amount = 1000
+	#Amount of fluid required for Twilight Forest predictions
+	# Default: 1000
+	# Range: > 1
+	twilight_fluid_input_amount = 1000
+	#Fluid outputted for Twilight Forest predictions
+	#Leave empty to remove fluid output
+	twilight_fluid_output_id = ""
+	#Output amount multiplier for generated recipes
+	#i.e. 64x Steaks with a 0.5 multiplier = 32x Steaks
+	# Default: 1.0
+	# Range: 0.01 ~ 64.0
+	output_amount_multiplier = 1.0
+	#Amount of fluid required for Nether predictions
+	# Default: 1000
+	# Range: > 1
+	nether_fluid_input_amount = 1000
+	#Required fluid for Twilight Forest predictions
+	#Leave empty to remove fluid requirement
+	twilight_fluid_input_id = ""
+	#Amount of fluid required for Overworld predictions
+	# Default: 1000
+	# Range: > 1
+	overworld_fluid_input_amount = 1000
+	#Required fluid for The End predictions
+	#Leave empty to remove fluid requirement
+	end_fluid_input_id = ""
+	#Amount of fluid outputted for Twilight Forest predictions
+	# Default: 1000
+	# Range: > 1
+	twilight_fluid_output_amount = 1000
+	#Amount of fluid outputted for Overworld predictions
+	# Default: 1000
+	# Range: > 1
+	overworld_fluid_output_amount = 1000
+	#Whether Mono Loot Fabricator recipes should be generated automatically at runtime.
+	#Disable this if you're a modpack creator and intend to manually create all recipes.
+	runtime_recipes = true
+	#Required fluid for Nether predictions
+	#Leave empty to remove fluid requirement
+	nether_fluid_input_id = ""
+	#Fluid outputted for The End predictions
+	#Leave empty to remove fluid output
+	end_fluid_output_id = ""
+	#Fluid outputted for Overworld predictions
+	#Leave empty to remove fluid output
+	overworld_fluid_output_id = ""
+	#Amount of energy used for generated recipes
+	#In HNN, Loot Fabricators use 256 RF
+	# Default: 15
+	# Range: > 1
+	energy = 15
+	#Probability the input fluid for Overworld predictions will be consumed
+	# Default: 1.0
+	# Range: 0.01 ~ 1.0
+	overworld_fluid_input_probability = 1.0
+	#Probability the input fluid for The End predictions will be consumed
+	# Default: 1.0
+	# Range: 0.01 ~ 1.0
+	end_fluid_input_probability = 1.0
+	#Probability the input fluid for Twilight Forest predictions will be consumed
+	# Default: 1.0
+	# Range: 0.01 ~ 1.0
+	twilight_fluid_input_probability = 1.0
+	#Probability the output fluid for Overworld predictions will be produced
+	# Default: 1.0
+	# Range: 0.01 ~ 1.0
+	overworld_fluid_output_probability = 1.0
+	#Probability the output fluid for The End predictions will be produced
+	# Default: 1.0
+	# Range: 0.01 ~ 1.0
+	end_fluid_output_probability = 1.0
+	#Probability the input fluid for Nether predictions will be consumed
+	# Default: 1.0
+	# Range: 0.01 ~ 1.0
+	nether_fluid_input_probability = 1.0
+	#Probability the output fluid for Nether predictions will be produced
+	# Default: 1.0
+	# Range: 0.01 ~ 1.0
+	nether_fluid_output_probability = 1.0
+	#Probability the output fluid for Twilight Forest predictions will be produced
+	# Default: 1.0
+	# Range: 0.01 ~ 1.0
+	twilight_fluid_output_probability = 1.0
+
+[electric_simulation_chamber]
+	#Duration in ticks for generated recipes. Default: 17 seconds
+	# Default: 340
+	# Range: > 1
+	duration = 340
+	#Amount of fluid outputted for The End predictions
+	# Default: 1000
+	# Range: > 1
+	end_fluid_output_amount = 1000
+	#Required fluid for Overworld predictions
+	#Leave empty to remove fluid requirement
+	overworld_fluid_input_id = ""
+	#Amount of fluid outputted for Nether predictions
+	# Default: 1000
+	# Range: > 1
+	nether_fluid_output_amount = 1000
+	#Fluid outputted for Nether predictions
+	#Leave empty to remove fluid output
+	nether_fluid_output_id = ""
+	#Amount of fluid required for The End predictions
+	# Default: 1000
+	# Range: > 1
+	end_fluid_input_amount = 1000
+	#Amount of fluid required for Twilight Forest predictions
+	# Default: 1000
+	# Range: > 1
+	twilight_fluid_input_amount = 1000
+	#Fluid outputted for Twilight Forest predictions
+	#Leave empty to remove fluid output
+	twilight_fluid_output_id = ""
+	#Amount of fluid required for Nether predictions
+	# Default: 1000
+	# Range: > 1
+	nether_fluid_input_amount = 1000
+	#Required fluid for Twilight Forest predictions
+	#Leave empty to remove fluid requirement
+	twilight_fluid_input_id = ""
+	#Amount of fluid required for Overworld predictions
+	# Default: 1000
+	# Range: > 1
+	overworld_fluid_input_amount = 1000
+	#Required fluid for The End predictions
+	#Leave empty to remove fluid requirement
+	end_fluid_input_id = ""
+	#Amount of fluid outputted for Twilight Forest predictions
+	# Default: 1000
+	# Range: > 1
+	twilight_fluid_output_amount = 1000
+	#Amount of fluid outputted for Overworld predictions
+	# Default: 1000
+	# Range: > 1
+	overworld_fluid_output_amount = 1000
+	#Whether Electic Simulation Chamber recipes should be generated automatically at runtime.
+	#Disable this if you're a modpack creator and intend to manually create all recipes.
+	runtime_recipes = true
+	#Required fluid for Nether predictions
+	#Leave empty to remove fluid requirement
+	nether_fluid_input_id = ""
+	#Fluid outputted for The End predictions
+	#Leave empty to remove fluid output
+	end_fluid_output_id = ""
+	#Fluid outputted for Overworld predictions
+	#Leave empty to remove fluid output
+	overworld_fluid_output_id = ""
+	#Energy per tick multiplier compared to model's simulation cost for generated recipes
+	#i.e. 1,000RF * 0.1 multiplier = 100 EU/t
+	# Default: 0.25
+	# Range: 0.01 ~ 1.7976931348623157E308
+	energy_multiplier = 0.25
+	#Probability the input fluid for Overworld predictions will be consumed
+	# Default: 1.0
+	# Range: 0.01 ~ 1.0
+	overworld_fluid_input_probability = 1.0
+	#Probability the input fluid for The End predictions will be consumed
+	# Default: 1.0
+	# Range: 0.01 ~ 1.0
+	end_fluid_input_probability = 1.0
+	#Probability the input fluid for Twilight Forest predictions will be consumed
+	# Default: 1.0
+	# Range: 0.01 ~ 1.0
+	twilight_fluid_input_probability = 1.0
+	#Probability the output fluid for Overworld predictions will be produced
+	# Default: 1.0
+	# Range: 0.01 ~ 1.0
+	overworld_fluid_output_probability = 1.0
+	#Probability the output fluid for The End predictions will be produced
+	# Default: 1.0
+	# Range: 0.01 ~ 1.0
+	end_fluid_output_probability = 1.0
+	#Probability the input fluid for Nether predictions will be consumed
+	# Default: 1.0
+	# Range: 0.01 ~ 1.0
+	nether_fluid_input_probability = 1.0
+	#Probability the output fluid for Nether predictions will be produced
+	# Default: 1.0
+	# Range: 0.01 ~ 1.0
+	nether_fluid_output_probability = 1.0
+	#Probability the output fluid for Twilight Forest predictions will be produced
+	# Default: 1.0
+	# Range: 0.01 ~ 1.0
+	twilight_fluid_output_probability = 1.0
+
+[large_simulation_chamber]
+	#Duration in ticks for generated recipes. Default: 1 minute
+	# Default: 1200
+	# Range: > 1
+	duration = 1200
+	#Amount of fluid outputted for The End predictions
+	# Default: 1000
+	# Range: > 1
+	end_fluid_output_amount = 1000
+	#Required fluid for Overworld predictions
+	#Leave empty to remove fluid requirement
+	overworld_fluid_input_id = ""
+	#Determines amount of consumed Prediction Matrixes on generated recipes
+	# Default: 8
+	# Range: 1 ~ 64
+	matrixes_per_recipe = 8
+	#Amount of fluid outputted for Nether predictions
+	# Default: 1000
+	# Range: > 1
+	nether_fluid_output_amount = 1000
+	#Fluid outputted for Nether predictions
+	#Leave empty to remove fluid output
+	nether_fluid_output_id = ""
+	#Amount of fluid required for The End predictions
+	# Default: 1000
+	# Range: > 1
+	end_fluid_input_amount = 1000
+	#Amount of fluid required for Twilight Forest predictions
+	# Default: 1000
+	# Range: > 1
+	twilight_fluid_input_amount = 1000
+	#Fluid outputted for Twilight Forest predictions
+	#Leave empty to remove fluid output
+	twilight_fluid_output_id = ""
+	#Amount of fluid required for Nether predictions
+	# Default: 1000
+	# Range: > 1
+	nether_fluid_input_amount = 1000
+	#Required fluid for Twilight Forest predictions
+	#Leave empty to remove fluid requirement
+	twilight_fluid_input_id = ""
+	#Amount of fluid required for Overworld predictions
+	# Default: 1000
+	# Range: > 1
+	overworld_fluid_input_amount = 1000
+	#Required fluid for The End predictions
+	#Leave empty to remove fluid requirement
+	end_fluid_input_id = ""
+	#Amount of fluid outputted for Twilight Forest predictions
+	# Default: 1000
+	# Range: > 1
+	twilight_fluid_output_amount = 1000
+	#Determines amount of data added to model. Applies to all recipes
+	# Default: 2
+	# Range: 1 ~ 64
+	data_added_per_recipe = 2
+	#Amount of fluid outputted for Overworld predictions
+	# Default: 1000
+	# Range: > 1
+	overworld_fluid_output_amount = 1000
+	#Whether Large Simulation Chamber recipes should be generated automatically at runtime.
+	#Disable this if you're a modpack creator and intend to manually create all recipes.
+	runtime_recipes = true
+	#Required fluid for Nether predictions
+	#Leave empty to remove fluid requirement
+	nether_fluid_input_id = ""
+	#Fluid outputted for The End predictions
+	#Leave empty to remove fluid output
+	end_fluid_output_id = ""
+	#Determines amount of Predictions crafted on generated recipes
+	# Default: 4
+	# Range: 1 ~ 64
+	prediction_amount_per_recipe = 4
+	#Fluid outputted for Overworld predictions
+	#Leave empty to remove fluid output
+	overworld_fluid_output_id = ""
+	#Energy per tick multiplier compared to model's simulation cost for generated recipes
+	#i.e. 1,000RF * 0.1 multiplier = 100 EU/t
+	# Default: 0.5
+	# Range: 0.01 ~ 1.7976931348623157E308
+	energy_multiplier = 0.5
+	#Determines amount of Generalized Predictions crafted on generated recipes
+	# Default: 4
+	# Range: 1 ~ 64
+	generalized_prediction_amount_per_recipe = 4
+	#Probability the input fluid for Overworld predictions will be consumed
+	# Default: 1.0
+	# Range: 0.01 ~ 1.0
+	overworld_fluid_input_probability = 1.0
+	#Probability the input fluid for The End predictions will be consumed
+	# Default: 1.0
+	# Range: 0.01 ~ 1.0
+	end_fluid_input_probability = 1.0
+	#Probability the input fluid for Twilight Forest predictions will be consumed
+	# Default: 1.0
+	# Range: 0.01 ~ 1.0
+	twilight_fluid_input_probability = 1.0
+	#Probability the output fluid for Overworld predictions will be produced
+	# Default: 1.0
+	# Range: 0.01 ~ 1.0
+	overworld_fluid_output_probability = 1.0
+	#Probability the output fluid for The End predictions will be produced
+	# Default: 1.0
+	# Range: 0.01 ~ 1.0
+	end_fluid_output_probability = 1.0
+	#Probability the input fluid for Nether predictions will be consumed
+	# Default: 1.0
+	# Range: 0.01 ~ 1.0
+	nether_fluid_input_probability = 1.0
+	#Probability the output fluid for Nether predictions will be produced
+	# Default: 1.0
+	# Range: 0.01 ~ 1.0
+	nether_fluid_output_probability = 1.0
+	#Probability the output fluid for Twilight Forest predictions will be produced
+	# Default: 1.0
+	# Range: 0.01 ~ 1.0
+	twilight_fluid_output_probability = 1.0

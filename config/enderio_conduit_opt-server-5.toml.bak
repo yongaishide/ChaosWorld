@@ -1,0 +1,7 @@
+[General]
+	#Enable custom extraction frequency for Item Conduits (1-200 ticks).
+	enableItemCustomFrequency = true
+	#Enable custom extraction frequency for Fluid Conduits (1-200 ticks).
+	enableFluidCustomFrequency = true
+	#Enable custom extraction frequency for Chemical Conduits (1-200 ticks).
+	enableChemicalCustomFrequency = true

@@ -1,0 +1,11 @@
+{
+  "description": "折叠普通药水物品",
+  "type": "item",
+  "item": "minecraft:potion",
+  "icon": "minecraft:potion",
+  "display_name": "jei_tag_groups.group.potion.name",
+  "tooltip": [
+    "jei_tag_groups.group.potion.tooltip"
+  ],
+  "border_color": "#55AAFF"
+}

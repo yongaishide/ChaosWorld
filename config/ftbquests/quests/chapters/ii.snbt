@@ -1,0 +1,347 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ii"
+	group: "7A37A36F45DDAEBC"
+	icon: {
+		id: "enderio_evolution:basic_alloy_smelter"
+	}
+	id: "7F14FF34AAA7BB00"
+	images: [
+		{
+			click_action: "none:quest_enhance:text_v3:2.0:17:minecraft:default无线电网"
+			height: 0.4583333333333333d
+			id: "38803990FC15EF21"
+			image: ""
+			rotation: 0.0d
+			width: 1.4166666666666667d
+			x: -3.0d
+			y: -9.0d
+		}
+		{
+			click_action: "none:quest_enhance:text_v3:2.0:17:minecraft:default启动！"
+			height: 0.4583333333333333d
+			id: "28BC9F7AD2995B58"
+			image: ""
+			rotation: 0.0d
+			width: 1.0833333333333333d
+			x: 0.5d
+			y: -9.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "05517B83447BDB31"
+			image: "ftblibrary:icons/back"
+			rotation: -90.0d
+			width: 1.0d
+			x: -1.0d
+			y: -15.0d
+		}
+		{
+			click_action: "none:quest_enhance:text_v3:2.0:17:minecraft:default推荐"
+			height: 0.4583333333333333d
+			id: "4171F9BABCE6E280"
+			image: ""
+			rotation: 0.0d
+			width: 0.75d
+			x: -1.0d
+			y: -16.0d
+		}
+	]
+	order_index: 2
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [{
+		id: "64D50E795E523A89"
+		linked_quest: "6BE7539266AF7C95"
+		x: -3.0d
+		y: -1.0d
+	}]
+	quests: [
+		{
+			dependencies: ["6BE7539266AF7C95"]
+			id: "21F982499C136982"
+			tasks: [{
+				id: "6C1C44DFE99C3A21"
+				item: { count: 1, id: "enderio:alloy_smelter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7942357CDE9B9074"]
+			id: "3F1807D805166D06"
+			tasks: [{
+				id: "167E586747FB74B2"
+				item: { count: 1, id: "industrialforegoing:machine_frame_advanced" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6BE7539266AF7C95"]
+			id: "619CD43B0A5127B6"
+			tasks: [{
+				id: "2D593BD348F922D1"
+				item: { count: 1, id: "mekanism:metallurgic_infuser" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["619CD43B0A5127B6"]
+			id: "3EDD068E6277D551"
+			tasks: [{
+				id: "3E6A58723EF84B74"
+				item: { count: 1, id: "extendedcrafting:enhanced_redstone_ingot" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3EDD068E6277D551"]
+			id: "2FD4EC14E4C6AA6B"
+			tasks: [
+				{
+					count: 2L
+					id: "1172D786A776A3B6"
+					item: { count: 1, id: "extendedcrafting:flux_crafter" }
+					type: "item"
+				}
+				{
+					id: "01158DA513C7695A"
+					item: { count: 1, id: "extendedcrafting:flux_alternator" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2FD4EC14E4C6AA6B"]
+			id: "4D287F13F1870117"
+			tasks: [
+				{
+					id: "65FCB1CF8C8036E0"
+					item: { count: 1, id: "fluxnetworks:flux_core" }
+					type: "item"
+				}
+				{
+					id: "79C1BB752341A1A2"
+					item: { count: 1, id: "fluxnetworks:flux_block" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4D287F13F1870117"]
+			id: "5363061E91654005"
+			tasks: [{
+				id: "591A3810878D7E1D"
+				item: { count: 1, id: "fluxnetworks:flux_controller" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["5363061E91654005"]
+			id: "49D62DB9E3263F9D"
+			tasks: [{
+				id: "7D80DC5420801B9F"
+				item: { count: 1, id: "more_flux_storage:energy_pylon_flux" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["5363061E91654005"]
+			id: "6C4EB991E2A1D634"
+			tasks: [{
+				id: "399269AFE06A5949"
+				item: { count: 1, id: "more_flux_storage:flux_accessor_flux" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["5363061E91654005"]
+			id: "783C7A74612F9848"
+			tasks: [{
+				id: "55E0EF35024CA6BF"
+				item: { count: 1, id: "more_flux_storage:induction_port_flux" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["4F12CF990DC17183"]
+			id: "683CF00B79A9E0FA"
+			tasks: [{
+				id: "3CADBCA8168E472F"
+				item: { count: 1, id: "mekanism:basic_tier_installer" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"619CD43B0A5127B6"
+				"21F982499C136982"
+			]
+			id: "4F12CF990DC17183"
+			tasks: [
+				{
+					id: "03200CFF47C9DFEA"
+					item: { count: 1, id: "mekanism:basic_control_circuit" }
+					type: "item"
+				}
+				{
+					id: "59E1120301718675"
+					item: { count: 1, id: "mekanism:alloy_infused" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6BE7539266AF7C95"]
+			id: "13762B7209A5F19A"
+			tasks: [{
+				id: "158A40D7EF6BAEA6"
+				item: { count: 1, id: "naturesaura:nature_altar" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["13762B7209A5F19A"]
+			id: "1A1A4A2329D1F8A9"
+			tasks: [{
+				id: "3229A5E91702BC23"
+				item: { count: 1, id: "naturesaura:tainted_gold" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1A1A4A2329D1F8A9"
+				"21F982499C136982"
+			]
+			id: "616725ED3318BCB3"
+			tasks: [{
+				id: "567615C3C49033C8"
+				item: { count: 1, id: "enderio:soularium_ingot" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["616725ED3318BCB3"]
+			id: "2EDD6974CFC0D12A"
+			tasks: [{
+				id: "073B47D151E9AA4B"
+				item: { count: 1, id: "enderio:slice_and_splice" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["30575A0B9A63AFC5"]
+			id: "684FD1C745323C2A"
+			tasks: [{
+				id: "556EF22C2B3337DC"
+				item: { count: 1, id: "enderio:soul_binder" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2EDD6974CFC0D12A"]
+			id: "30575A0B9A63AFC5"
+			tasks: [{
+				id: "63B4AE22B11784CD"
+				item: { count: 1, id: "enderio:z_logic_controller" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["684FD1C745323C2A"]
+			id: "7894DBB36933D2B4"
+			tasks: [{
+				id: "344A4D6DB55ABB4D"
+				item: { count: 1, id: "enderio:ender_crystal" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7894DBB36933D2B4"]
+			id: "27939AAD5737C1AC"
+			tasks: [{
+				id: "04C9EDB23B66BBA2"
+				item: { count: 1, id: "alltheores:enderium_ingot" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["27939AAD5737C1AC"]
+			id: "7942357CDE9B9074"
+			tasks: [{
+				id: "148D2799F7EB2C43"
+				item: { count: 1, id: "enderio:vibrant_alloy_ingot" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4F12CF990DC17183"]
+			id: "3970B1ED264E6A14"
+			tasks: [{
+				id: "2AFE81C1AA8DC58F"
+				item: { count: 1, id: "mekanism:advanced_control_circuit" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3970B1ED264E6A14"
+				"2EDD6974CFC0D12A"
+			]
+			id: "5F7F9B62DE4376CA"
+			tasks: [{
+				id: "77C090F2C569501E"
+				item: { count: 1, id: "chaosworld_core:circuit_processor" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+	]
+}

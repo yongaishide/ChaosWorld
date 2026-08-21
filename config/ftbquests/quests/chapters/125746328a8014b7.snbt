@@ -1,0 +1,28 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "125746328a8014b7"
+	group: "7A37A36F45DDAEBC"
+	icon: {
+		components: {
+			"ftbquests:icon": "chaosworld_core:item/dark_matter"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "125746328A8014B7"
+	images: [ ]
+	order_index: 6
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [{
+		id: "27BD73A8D35435EF"
+		tasks: [{
+			id: "7A2284F3AB420BF3"
+			item: { count: 1, id: "chaosworld_core:dark_matter" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

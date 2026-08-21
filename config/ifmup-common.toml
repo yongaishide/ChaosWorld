@@ -1,0 +1,43 @@
+["Unknown Magic Block Generation"]
+	#每个区块的矿脉数量
+	#Number of veins per chunk
+	# Default: 16
+	# Range: 0 ~ 64
+	veinCount = 16
+	#最大矿脉大小
+	#Maximum vein size
+	# Default: 8
+	# Range: 1 ~ 64
+	veinSize = 8
+	#最小生成高度
+	#Minimum generation height
+	# Default: 0
+	# Range: -64 ~ 319
+	minHeight = 0
+	#最大生成高度
+	#Maximum generation height
+	# Default: 128
+	# Range: -64 ~ 319
+	maxHeight = 128
+
+["Nether Shadow Ore Generation"]
+	#每个区块的矿脉数量
+	#Number of veins per chunk
+	# Default: 4
+	# Range: 0 ~ 64
+	veinCount = 4
+	#最大矿脉大小
+	#Maximum vein size
+	# Default: 2
+	# Range: 1 ~ 64
+	veinSize = 2
+	#最小生成高度
+	#Minimum generation height
+	# Default: 32
+	# Range: 0 ~ 128
+	minHeight = 32
+	#最大生成高度
+	#Maximum generation height
+	# Default: 96
+	# Range: 0 ~ 128
+	maxHeight = 96

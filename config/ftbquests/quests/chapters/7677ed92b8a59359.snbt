@@ -1,0 +1,161 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7677ed92b8a59359"
+	group: "7A37A36F45DDAEBC"
+	icon: {
+		id: "industrialforegoing:fluid_extractor"
+	}
+	id: "7677ED92B8A59359"
+	images: [ ]
+	order_index: 1
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [{
+		id: "3D0336BF8FF803AD"
+		linked_quest: "3137548559C85FBA"
+		shape: "gear"
+		size: 2.0d
+		x: -4.0d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["3137548559C85FBA"]
+			id: "31FF1D52F7DAC04D"
+			tasks: [{
+				id: "73E3A1EC4E43C77B"
+				item: { count: 1, id: "industrialforegoing:fluid_extractor" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C988B84724E98E6"]
+			id: "2A8FB643232F6C7C"
+			tasks: [{
+				id: "05A1E6263875138B"
+				item: { count: 1, id: "industrialforegoing:dryrubber" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6EE24CB5B31A45EF"]
+			id: "3C988B84724E98E6"
+			tasks: [{
+				id: "0047DCD5F050F57C"
+				item: { count: 1, id: "industrialforegoing:latex_processing_unit" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31FF1D52F7DAC04D"]
+			id: "6EE24CB5B31A45EF"
+			tasks: [{
+				fluid: {
+					amount: 1000
+					id: "industrialforegoing:latex"
+				}
+				id: "45FFD4F530A4CA1C"
+				type: "fluid"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A8FB643232F6C7C"]
+			id: "27396FAD0E26FAD0"
+			tasks: [{
+				id: "0AD121C534D6466E"
+				item: { count: 1, id: "industrialforegoing:plastic" }
+				type: "item"
+			}]
+			x: -15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3137548559C85FBA"]
+			id: "0AB99936429AE835"
+			tasks: [{
+				id: "605CAA2DDC8ED5C4"
+				item: { count: 1, id: "industrialforegoing:dissolution_chamber" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72D3E36C4197A53D"]
+			id: "6BE7539266AF7C95"
+			tasks: [{
+				id: "74FE490A83943837"
+				item: { count: 1, id: "industrialforegoing:machine_frame_simple" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A86403CA81D5BF3"]
+			id: "72D3E36C4197A53D"
+			tasks: [{
+				id: "33016272618D2191"
+				item: { count: 1, id: "chaosworld_core:dust_tech_4" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7434004913A44270"]
+			id: "4A86403CA81D5BF3"
+			tasks: [{
+				id: "40010C9ADFD85001"
+				item: { count: 1, id: "extendedae:crystal_assembler" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0AB99936429AE835"
+				"67CC881460BC7312"
+			]
+			id: "7434004913A44270"
+			tasks: [{
+				id: "1B6937FA4D1EE9B4"
+				item: { count: 1, id: "extendedae:machine_frame" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			id: "5212F909ACA26A66"
+			tasks: [{
+				id: "168911A7559B6F33"
+				item: { count: 1, id: "extendedae:entro_seed" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5212F909ACA26A66"]
+			id: "67CC881460BC7312"
+			tasks: [{
+				id: "6CC18A31CD92F95A"
+				item: { count: 1, id: "extendedae:entro_dust" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+	]
+}

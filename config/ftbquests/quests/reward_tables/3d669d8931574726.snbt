@@ -1,0 +1,23 @@
+{
+	icon: {
+		components: {
+			"ftbquests:icon": "extrahnn:block/loot_fabricator_north_v4"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "3D669D8931574726"
+	loot_crate: {
+		color: 16727861
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "神话奖励箱"
+		string_id: "shenhua"
+	}
+	loot_size: 1
+	order_index: 3
+	rewards: [{ id: "2EA6382D9D799643", item: { count: 1, id: "draconicevolution:chaotic_core" } }]
+}

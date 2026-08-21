@@ -1,0 +1,92 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "61da5a07406bdb78"
+	group: ""
+	icon: {
+		components: {
+			"ftbquests:icon": "chaosworld_core:item/diqiu"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "61DA5A07406BDB78"
+	images: [ ]
+	order_index: 0
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "chaosworld_core:item/diqiu"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.5d
+			id: "44B1D89C5D74BE65"
+			rewards: [
+				{
+					id: "4E9C3661E456D103"
+					item: {
+						components: {
+							"patchouli:book": "patchouli:chaosworld_books"
+						}
+						count: 1
+						id: "patchouli:guide_book"
+					}
+					type: "item"
+				}
+				{
+					id: "144F6E8782C20574"
+					item: {
+						components: {
+							"extendedcrafting:recipe_maker": {
+								shapeless: 1b
+								type: "Kubejs"
+							}
+						}
+						count: 1
+						id: "extendedcrafting:recipe_maker"
+					}
+					type: "item"
+				}
+			]
+			size: 2.5d
+			tasks: [{
+				id: "7A9F21B8F7084700"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "7DB9BA6022CC4B54"
+			rewards: [{
+				auto: "enabled"
+				command: "/viscript_shop editor chaosworld"
+				id: "2F3B1F4FDB3173AA"
+				type: "command"
+			}]
+			tasks: [{
+				id: "7F97879871631F55"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44B1D89C5D74BE65"]
+			id: "7BE82C704232E651"
+			tasks: [{
+				advancement: "minecraft:story/root"
+				criterion: ""
+				id: "418B17D5CA5820B8"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+}

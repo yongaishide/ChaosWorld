@@ -1,0 +1,48 @@
+#Whether the built-in loot boxes are hidden from the creative tab and JEI.
+hide_default_boxes = false
+#Whether rewards from mekanism are added to built-in loot boxes.
+enable_mekanism_rewards = true
+#Whether rewards from create are added to built-in loot boxes.
+enable_create_rewards = true
+#Whether rewards from irons_spellbooks are added to built-in loot boxes.
+enable_irons_spellbooks_rewards = true
+#Whether rewards from goety are added to built-in loot boxes.
+enable_goety_rewards = true
+#Whether rewards from ae2 are added to built-in loot boxes.
+enable_ae2_rewards = true
+#Whether rewards from terra_entity are added to built-in loot boxes.
+enable_terra_entity_rewards = true
+#Whether rewards from twilightforest are added to built-in loot boxes.
+enable_twilightforest_rewards = true
+#Whether rewards from aether are added to built-in loot boxes.
+enable_aether_rewards = true
+#Whether mobs killed by a player can drop loot boxes.
+mob_drops_enabled = true
+
+#Chance for each tier. Values are between 0 and 1.
+#Tiers are checked from the rarest to the commonest; one kill drops at most one box.
+[mob_drop_chances]
+	#Default: 0.05 (5.0%).
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	common = 0.05
+	#Default: 0.02 (2.0%).
+	# Default: 0.02
+	# Range: 0.0 ~ 1.0
+	unusual = 0.02
+	#Default: 0.01 (1.0%).
+	# Default: 0.01
+	# Range: 0.0 ~ 1.0
+	rare = 0.01
+	#Default: 0.005 (0.5%).
+	# Default: 0.005
+	# Range: 0.0 ~ 1.0
+	epic = 0.005
+	#Default: 0.001 (0.1%).
+	# Default: 0.001
+	# Range: 0.0 ~ 1.0
+	legendary = 0.001
+	#Default: 1.0E-4 (0.01%).
+	# Default: 1.0E-4
+	# Range: 0.0 ~ 1.0
+	endurance = 1.0E-4

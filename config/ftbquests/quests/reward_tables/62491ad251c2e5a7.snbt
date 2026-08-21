@@ -1,0 +1,35 @@
+{
+	icon: {
+		id: "ae2:controller"
+	}
+	id: "62491AD251C2E5A7"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			command: "/ae2 channelmode infinite"
+			id: "24A7DB480FF7ADA0"
+			type: "command"
+		}
+		{
+			command: "/ae2 channelmode x2"
+			id: "0D0C002A288C9A82"
+			type: "command"
+		}
+		{
+			command: "/ae2 channelmode x3"
+			id: "7B28E165E789D7C0"
+			type: "command"
+		}
+		{
+			command: "/ae2 channelmode x4"
+			id: "76D4DDDAB22A425B"
+			type: "command"
+		}
+		{
+			command: "/ae2 channelmode default"
+			id: "51C5437728AD0930"
+			type: "command"
+		}
+	]
+}

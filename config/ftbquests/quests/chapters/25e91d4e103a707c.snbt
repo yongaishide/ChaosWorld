@@ -1,0 +1,25 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "25e91d4e103a707c"
+	group: "7A37A36F45DDAEBC"
+	icon: {
+		id: "draconicevolution:awakened_core"
+	}
+	id: "25E91D4E103A707C"
+	images: [ ]
+	order_index: 5
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [{
+		id: "50019251761B4196"
+		tasks: [{
+			id: "701E6F013C6FE975"
+			item: { count: 1, id: "draconicevolution:awakened_core" }
+			type: "item"
+		}]
+		x: -0.5d
+		y: 0.0d
+	}]
+}

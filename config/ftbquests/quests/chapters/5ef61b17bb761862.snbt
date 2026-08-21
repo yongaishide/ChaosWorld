@@ -1,0 +1,108 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5ef61b17bb761862"
+	group: "7A37A36F45DDAEBC"
+	icon: {
+		id: "mekanism:elite_control_circuit"
+	}
+	id: "5EF61B17BB761862"
+	images: [ ]
+	order_index: 3
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [{
+		id: "7D23B4979AB3738E"
+		linked_quest: "3F1807D805166D06"
+		x: 0.5d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["0D83CD47B45B50B4"]
+			id: "0DD0F6A063F98E47"
+			tasks: [{
+				id: "7715D8EE247E9A75"
+				item: { count: 1, id: "mekanism:enrichment_chamber" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F1807D805166D06"]
+			id: "6CA91BE7AE4CEEA2"
+			tasks: [{
+				id: "0CB1EFF04E57C235"
+				item: { count: 1, id: "ae2lt:lightning_simulation_room" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6CA91BE7AE4CEEA2"]
+			id: "55AEBF82CAD3F5E2"
+			tasks: [{
+				id: "0D71D8CDD2B52F98"
+				item: { count: 1, id: "ae2lt:lightning_assembly_chamber" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["55AEBF82CAD3F5E2"]
+			id: "0D83CD47B45B50B4"
+			tasks: [{
+				id: "4455786A59125F54"
+				item: { count: 1, id: "ae2lt:overload_processing_factory" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0D83CD47B45B50B4"]
+			id: "376BEEA4BEF48DDA"
+			tasks: [{
+				id: "087697FB9CEB71F6"
+				item: { count: 1, id: "ae2lt:basic_topological_lattice" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["376BEEA4BEF48DDA"]
+			id: "4E2B3936137B16FE"
+			tasks: [{
+				id: "39CDE6A4011DC1CB"
+				item: { count: 1, id: "mekanism:alloy_reinforced" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			id: "61D2EDC385ADAD2C"
+			tasks: [{
+				id: "20A8D5484231D290"
+				item: { count: 1, id: "industrialforegoing:machine_frame_supreme" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			id: "40FF64A45A6A88A4"
+			tasks: [{
+				id: "16CC8ECD946966F7"
+				item: { count: 1, id: "draconicevolution:draconium_core" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+	]
+}

@@ -1,0 +1,16 @@
+#Casting Startup Config
+[Casting]
+	#The multiplier for ores, default = 1.5
+	"Ore Multiplier" = 1.5
+	#The amount of experience given when melting a valid ore in the casting:melting_produces_experience tag, default = 25
+	"Experience Given When Melting A Valid Ore" = 25
+	#The fluid used for experience, default = casting:molten_experience
+	"Experience Fluid" = "casting:molten_experience"
+	#The total mb that can be stores in multiblock controller, default = 1000000
+	# Default: 1000000
+	# Range: 1 ~ 512
+	"Max Multiblock Controller Held Items" = 512
+	#The time in ticks that the multiblock controller does a structure check, Multiblock validation is done when blocks are placed near the mutliblock, this check is just to confirm that the blocks are still present, default = 600 (30 seconds)
+	# Default: 600
+	# Range: > 20
+	"Time In Ticks That Multiblock Controller Does A Structure Check" = 600

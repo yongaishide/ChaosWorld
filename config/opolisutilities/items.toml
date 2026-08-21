@@ -1,0 +1,44 @@
+#Sapling Grower Configs
+["Sapling Grower"]
+	#The number of attempts to grow a sapling per right click, default = 128
+	"Total Attempts for Sapling Grower" = 128
+	#The durability of the Sapling Grower, default = 128
+	"Sapling Grower Durability" = 128
+	#Does the Sapling Grower take damage?, default = true
+	"Sapling Grower Takes Damage" = true
+
+#Animal Net Configs
+["Animal Net"]
+	#Can the animal net capture hostile mobs, default = false
+	"Animal Net: Hostile Mobs" = false
+	#Can the animal net capture water mobs, default = true
+	"Animal Net: Water Mobs" = true
+	#Can the animal net capture animal mobs, default = true
+	"Animal Net: Animal Mobs" = true
+	#Can the animal net capture villager mobs, default = false
+	"Animal Net: Villager Mobs" = false
+	#Does the animal net take damage when capturing mobs, default = true
+	"Animal Net: Takes Damage?" = true
+	#The durability of the Animal Net, default = 8
+	"Animal Net Durability" = 8
+
+#Crook Configs
+[Crook]
+	#Additional loot table rolls when using the crook on leaves, default = 3
+	"Additional Crook Rolls" = 3
+	#The durability of the Crook, default = 64
+	"Crook Durability" = 64
+	#Does the Crook take damage when breaking leaves, default = true
+	"Crook Takes Damage" = true
+
+#Death Stone Configs
+["Death Stone"]
+	#Should the player get a death stone on death, default = true
+	"Death Stone: Get on Death" = true
+
+#Home Stone Configs
+["Home Stone"]
+	#Cooldown in ticks of the home stone, default = 6000
+	"Home Stone Cooldown" = 6000
+	#Does the home stone take damge when teleporting, default = true
+	"Home Stone Durability" = true

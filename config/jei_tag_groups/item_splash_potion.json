@@ -1,0 +1,11 @@
+{
+  "description": "折叠喷溅药水物品",
+  "type": "item",
+  "item": "minecraft:splash_potion",
+  "icon": "minecraft:splash_potion",
+  "display_name": "jei_tag_groups.group.splash_potion.name",
+  "tooltip": [
+    "jei_tag_groups.group.splash_potion.tooltip"
+  ],
+  "border_color": "#55AAFF"
+}
