@@ -6,6 +6,9 @@ ItemEvents.modifyTooltips(event =>{
     event.add("extendedae:assembler_matrix_glass",Text.translate("tooltip.kubejs.assembler_matrix_glass"))
     event.add("#minecraft:candles",Text.translate("tooltip.kubejs.candle"))
     event.add("minecraft:diamond",Text.translate("tooltip.kubejs.diamond"))
+    event.modify(["ae2lt:pigmee_storage_cell","ae2lt:pigmee_item_cell_housing","ae2lt:pigmee_storage_component","ae2lt:pigmee_core","ae2lt:pigmee_molecular_assembler","ae2lt:pigmee_pattern_provider","ae2lt:pigmee_mentalmath_unit"], builder =>{
+        builder.insert(1,[Text.translate("tooltip.kubejs.pigmee_storage_cell").color("#FCA2A2")])
+    })
     const omni_cells = /ae2omnicells:(portable_)?(complex_|quantum_)?omni_cell_\d+[km]/
     event.modify(omni_cells,{shift:false}, builder =>{
         builder.insert(1,[Text.translate("tooltip.kubejs.omni_cell.hint")])

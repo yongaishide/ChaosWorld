@@ -416,8 +416,8 @@
 				item: { count: 1, id: "ae2:sky_stone_block" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: -6.0d
+			x: 5.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["004E10BDB05C90E2"]
@@ -427,8 +427,8 @@
 				item: { count: 1, id: "ae2:sky_dust" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -6.0d
+			x: 2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1C2067896E07451A"]
@@ -449,8 +449,8 @@
 				item: { count: 1, id: "ae2cs:meteor_seed" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -6.0d
+			x: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -536,6 +536,7 @@
 			dependencies: [
 				"319A9151928FAF29"
 				"2AFC51C204AAE490"
+				"004E10BDB05C90E2"
 			]
 			icon: {
 				id: "ae2:controller"
@@ -558,12 +559,53 @@
 		{
 			dependencies: ["319A9151928FAF29"]
 			id: "4A9E813977CAC5E2"
+			rewards: [{
+				id: "52815B51461463D9"
+				item: {
+					count: 1
+					id: "ae2lt:pigmee_core"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5CD12F9EB89EB2A0"
 				item: { count: 1, id: "ae2:drive" }
 				type: "item"
 			}]
 			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1E759BD8CC5BEAB1"]
+			id: "76CE2B1D7C026BD9"
+			tasks: [{
+				id: "6EB36C78EAD463F0"
+				item: { count: 1, id: "ae2lt:pigmee_molecular_assembler" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1E759BD8CC5BEAB1"]
+			id: "3DB9A5433772AD7A"
+			tasks: [{
+				id: "68DD10EA0B96F735"
+				item: { count: 1, id: "ae2lt:pigmee_pattern_provider" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E759BD8CC5BEAB1"]
+			id: "00627D73E0613230"
+			tasks: [{
+				id: "1C8DE0A8B61BB666"
+				item: { count: 1, id: "ae2lt:pigmee_mentalmath_unit" }
+				type: "item"
+			}]
+			x: 10.0d
 			y: 2.0d
 		}
 	]

@@ -7,28 +7,16 @@
 		id: "minecraft:writable_book"
 	}
 	id: "009C9C3D60924B27"
-	images: [
-		{
-			click_action: "none:quest_enhance:text_v2:17:minecraft:default频道数量选择"
-			height: 0.4583333333333333d
-			id: "3F3DEA57BD048828"
-			image: ""
-			rotation: 0.0d
-			width: 2.0833333333333335d
-			x: -2.0d
-			y: -3.5d
-		}
-		{
-			click_action: "none:quest_enhance:text_v2:17:minecraft:default死亡不掉落选择"
-			height: 0.4583333333333333d
-			id: "36121174834E16FC"
-			image: ""
-			rotation: 0.0d
-			width: 2.4166666666666665d
-			x: 1.0d
-			y: -3.5d
-		}
-	]
+	images: [{
+		click_action: "none:quest_enhance:text_v2:17:minecraft:default死亡不掉落选择"
+		height: 0.4583333333333333d
+		id: "36121174834E16FC"
+		image: ""
+		rotation: 0.0d
+		width: 2.4166666666666665d
+		x: 1.0d
+		y: -3.5d
+	}]
 	order_index: 1
 	quest_enhance_decorative_lines: [ ]
 	quest_enhance_hidden_dependency_lines: [ ]

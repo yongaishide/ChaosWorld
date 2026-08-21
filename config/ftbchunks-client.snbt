@@ -138,88 +138,88 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:warden": true
-			"twilightforest:boar": true
+			"productivebees:yellow_black_carpenter_bee": true
+			"ferocious_creature:dracula": true
+			"minecraft:cow": true
+			"minecraft:wolf": true
+			"minecraft:blaze": true
+			"productivebees:configurable_bee": true
+			"minecraft:drowned": true
+			"minecraft:skeleton_horse": true
+			"minecraft:phantom": true
+			"quark:wraith": true
+			"twilightforest:raven": true
+			"minecraft:salmon": false
+			"minecraft:sheep": true
+			"minecraft:horse": true
 			"allthemodium:piglich": true
+			"productivebees:chocolate_mining_bee": true
+			"minecraft:slime": true
+			"minecraft:donkey": true
+			"minecraft:warden": true
+			"minecraft:bee": true
+			"minecraft:wandering_trader": true
+			"minecraft:piglin_brute": true
+			"minecraft:pig": true
+			"minecraft:ender_dragon": true
+			"minecraft:turtle": true
+			"twilightforest:deer": true
+			"minecraft:skeleton": true
+			"productivebees:resin_bee": true
+			"minecraft:zombified_piglin": true
+			"minecraft:hoglin": true
+			"productivebees:ashy_mining_bee": true
+			"minecraft:witch": true
+			"twilightforest:yeti": true
+			"minecraft:enderman": true
+			"quark:foxhound": true
+			"minecraft:ghast": true
+			"twilightforest:dwarf_rabbit": true
+			"minecraft:axolotl": true
+			"minecraft:chicken": true
+			"quark:stoneling": true
+			"ferocious_creature:stallion": true
+			"quark:toretoise": true
 			"productivebees:leafcutter_bee": true
 			"productivebees:blue_banded_bee": true
-			"productivebees:yellow_black_carpenter_bee": true
-			"minecraft:spider": true
-			"minecraft:enderman": true
-			"productivebees:mason_bee": true
-			"minecraft:sheep": true
-			"minecraft:bee": true
-			"productivebees:nomad_bee": true
-			"minecraft:squid": true
-			"minecraft:donkey": true
-			"minecraft:magma_cube": true
-			"ferocious_creature:direfang": true
-			"twilightforest:squirrel": true
-			"twilightforest:kobold": true
-			"twilightforest:winter_wolf": true
-			"productivebees:ashy_mining_bee": true
-			"avaritia_expand:extreme_wither": true
 			"minecraft:dolphin": true
+			"productivebees:mason_bee": true
 			"minecraft:bat": true
-			"minecraft:horse": true
-			"ferocious_creature:dracula": true
-			"minecraft:phantom": true
-			"minecraft:strider": true
-			"quark:wraith": true
-			"quark:foxhound": true
-			"quark:forgotten": true
-			"minecraft:zombie": true
-			"minecraft:wither": true
-			"productivebees:configurable_bee": true
-			"ferocious_creature:tiger": true
-			"minecraft:frog": true
-			"minecraft:turtle": true
-			"minecraft:piglin_brute": true
-			"minecraft:bogged": true
-			"minecraft:ender_dragon": true
-			"quark:stoneling": true
-			"minecraft:ghast": true
-			"minecraft:skeleton": true
-			"ferocious_creature:stallion": true
-			"minecraft:creeper": true
-			"productivebees:resin_bee": true
-			"minecraft:glow_squid": true
-			"twilightforest:raven": true
-			"minecraft:drowned": true
-			"minecraft:cod": false
-			"quark:toretoise": true
-			"twilightforest:dwarf_rabbit": true
-			"minecraft:wolf": true
-			"minecraft:slime": true
-			"minecraft:piglin": true
-			"minecraft:pillager": true
-			"minecraft:salmon": false
-			"minecraft:axolotl": true
-			"productivebees:green_carpenter_bee": true
-			"twilightforest:bighorn_sheep": true
-			"minecraft:cow": true
-			"minecraft:zombie_villager": true
-			"minecraft:skeleton_horse": true
-			"minecraft:witch": true
-			"minecraft:pig": true
-			"iceandfire:pixie": true
-			"minecraft:blaze": true
-			"twilightforest:deer": true
-			"ferocious_creature:fenrir": true
 			"iceandfire:hippocampus": true
-			"twilightforest:yeti": true
-			"minecraft:hoglin": true
-			"minecraft:wandering_trader": true
-			"minecraft:tropical_fish": false
+			"avaritia_expand:extreme_wither": true
+			"minecraft:squid": true
+			"quark:forgotten": true
+			"twilightforest:kobold": true
+			"minecraft:cod": false
+			"minecraft:spider": true
+			"minecraft:frog": true
 			"productivebees:neon_cuckoo_bee": true
-			"minecraft:fox": true
+			"minecraft:piglin": true
 			"ferocious_creature:mother_spider": true
-			"minecraft:chicken": true
-			"minecraft:trader_llama": true
+			"twilightforest:squirrel": true
+			"minecraft:zombie_villager": true
+			"minecraft:creeper": true
+			"twilightforest:winter_wolf": true
+			"twilightforest:boar": true
+			"minecraft:magma_cube": true
+			"productivebees:green_carpenter_bee": true
+			"minecraft:strider": true
 			"minecraft:wither_skeleton": true
-			"productivebees:chocolate_mining_bee": true
-			"minecraft:zombified_piglin": true
 			"twilightforest:tiny_bird": true
+			"minecraft:fox": true
+			"ferocious_creature:direfang": true
+			"ferocious_creature:fenrir": true
+			"productivebees:nomad_bee": true
+			"minecraft:pillager": true
+			"minecraft:wither": true
+			"minecraft:glow_squid": true
+			"minecraft:trader_llama": true
+			"twilightforest:bighorn_sheep": true
+			"minecraft:tropical_fish": false
+			"ferocious_creature:tiger": true
+			"minecraft:zombie": true
+			"minecraft:bogged": true
+			"iceandfire:pixie": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

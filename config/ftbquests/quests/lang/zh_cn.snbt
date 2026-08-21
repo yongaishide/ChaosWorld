@@ -14,6 +14,7 @@
 	chapter_group.7A37A36F45DDAEBC.title: "主线"
 	file.0000000000000001.title: "无用之人-乱界"
 	quest.004E10BDB05C90E2.quest_subtitle: "实在找不到可以在商店买"
+	quest.00627D73E0613230.quest_subtitle: "猪咪才会用这个"
 	quest.1E759BD8CC5BEAB1.quest_desc: [
 		"许多网络元件都需要频道才能运转，如终端、驱动器、ME接口等。"
 		""
@@ -22,10 +23,12 @@
 	quest.1E759BD8CC5BEAB1.quest_subtitle: "选择你的频道数量"
 	quest.2AFC51C204AAE490.quest_subtitle: "挖不着紫水晶还想玩AE"
 	quest.2FD4EC14E4C6AA6B.title: "通量合成"
+	quest.3DB9A5433772AD7A.quest_subtitle: "猪咪才会用这个"
 	quest.44B1D89C5D74BE65.quest_desc: ["                  &l这本书应该会包含整合包的所有内容&r"]
 	quest.44B1D89C5D74BE65.quest_subtitle: "看看这本书吧"
 	quest.44B1D89C5D74BE65.title: "整合包介绍"
 	quest.49D62DB9E3263F9D.quest_desc: ["通量能源端口允许你通过通量网络直接访问龙球的存储系统，而无需使用传统的能量塔进行繁琐的中转操作"]
+	quest.4A9E813977CAC5E2.quest_subtitle: "领了默认你是猪咪"
 	quest.5363061E91654005.quest_desc: [
 		"目前只用于无线充能。"
 		""
@@ -61,6 +64,7 @@
 		"所有来自较低级别冶炼炉的配方都可以在更高级别的冶炼炉中使用，并提升冶炼速度。"
 		"{image:kubejs:item/alloy_smelter width:100 height:50 align:center fit:true click_action:none:}"
 	]
+	quest.76CE2B1D7C026BD9.quest_subtitle: "猪咪才会用这个"
 	quest.783C7A74612F9848.quest_desc: ["通量感应端口允许你通过通量网络直接访问感应矩阵的存储系统"]
 	quest.7BE82C704232E651.quest_subtitle: "获得工作台"
 	quest.7BE82C704232E651.title: "游戏的核心与故事"
