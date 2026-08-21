@@ -4,7 +4,7 @@ Minecraft 1.21.1 整合包: KubeJS 魔改 + 多模组配置
 
 ## 整合包介绍
 
-大型科技与魔法整合包,融合工业(Immerse Engineering、Mekanism、工业先锋)与魔法(Natures Aura、神秘农业、暗影森林)两大体系,并通过 AE2 自动化、Extended Crafting 合成矩阵与 ProjectE 等价交换串联全流程。
+大型科技与魔法整合包,融合工业(Immerse Engineering、Mekanism、工业先锋)与魔法(Natures Aura、神秘农业、暗影森林)两大体系,前期以 AE2 自动化与 Extended Crafting 合成矩阵为发展核心,后期解锁 ProjectE 等价交换与无尽合成。
 
 ### 特色
 
