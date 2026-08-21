@@ -1,0 +1,26 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+issueTrackerURL = "https://github.com/VazkiiMods/Zeta"
+license = "https://github.com/VazkiiMods/Zeta/blob/master/LICENSE.md"
+
+[[mods]]
+modId = "zeta"
+displayName = "Zeta"
+version = "1.1-40"
+authors = "Vazkii, quat, IThundxr, Siuol, wiresegal, MehVahdJukaar"
+description="A fully featured Library designed around loading highly configurable, agile developed. modular mods"
+
+[[mixins]]
+config = "zeta.mixins.json"
+
+[[mixins]]
+config = "zeta_forge.mixins.json"
+
+file = "META-INF/accesstransformer.cfg"
+
+[[dependencies.zeta]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.192,)"
+ordering = "AFTER"
+side = "BOTH"

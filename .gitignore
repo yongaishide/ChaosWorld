@@ -9,7 +9,6 @@ temp_mi/
 .cache/
 .mixin.out/
 .sable/
-ldlib2/
 moddata/
 visualcrafting/
 PCL/
@@ -20,7 +19,8 @@ config/yes_steve_model/cache/
 .hmcl/
 .qmenu_opened.marker
 *.log
-*.jar
+/Chaos_world.jar
+/Chaos_world.json
 usercache.json
 usernamecache.json
 command_history.txt
