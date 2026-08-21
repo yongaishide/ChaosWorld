@@ -1,0 +1,30 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "atmospheric"
+        }
+    ],
+    "entity": "atmospheric:cochineal",
+    "name": {
+        "translate": "entity.atmospheric.cochineal",
+        "color": "#B14341"
+    },
+    "display": {
+        "scale": 0.7
+    },
+    "sim_cost": 64,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.cochineal",
+    "fabricator_drops": [
+        {
+            "id": "atmospheric:carmine_husk",
+            "count": 16
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "immersiveengineering:connector_redstone"
+    },
+    "m": {
+      "item": "immersiveengineering:component_iron"
+    },
+    "p": {
+      "tag": "c:plates/iron"
+    }
+  },
+  "pattern": [
+    " c ",
+    "pmp",
+    " p "
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersiveengineering:siren"
+  }
+}

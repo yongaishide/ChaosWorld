@@ -1,0 +1,13 @@
+{
+  "type": "immersiveengineering:crusher",
+  "energy": 6000,
+  "input": {
+    "tag": "c:ores/diamond"
+  },
+  "result": {
+    "basePredicate": {
+      "item": "minecraft:diamond"
+    },
+    "count": 2
+  }
+}

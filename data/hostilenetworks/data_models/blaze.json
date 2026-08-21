@@ -1,0 +1,29 @@
+{
+    "entity": "minecraft:blaze",
+    "variants": [
+		"occultism:possessed_blaze"
+	],
+    "name": {
+        "translate": "entity.minecraft.blaze",
+        "color": "#FFD528"
+    },
+    "sim_cost": 256,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:nether_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.blaze",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:blaze_rod",
+            "count": 16
+        },
+        {
+            "id": "reliquary:molten_core",
+            "optional": true,
+            "count": 2
+        }
+    ]
+}

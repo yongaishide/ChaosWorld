@@ -1,0 +1,15 @@
+{
+	"type":"createaddition:liquid_burning",
+	"input": {
+		"type": "fluid_stack",
+		"fluid_tag": "thermal:heavy_oil",
+		"amount": 1000
+	},
+	"burnTime": 9600,
+	"neoforge:conditions": [
+    {
+    	"type": "neoforge:mod_loaded",
+    	"modid": "thermal"
+  	}
+  ]
+}

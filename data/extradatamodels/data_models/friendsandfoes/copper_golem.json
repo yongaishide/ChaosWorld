@@ -1,0 +1,27 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "friendsandfoes"
+        }
+    ],
+    "entity": "friendsandfoes:copper_golem",
+    "name": {
+        "translate": "entity.friendsandfoes.copper_golem",
+        "color": "#8A4F42"
+    },
+    "sim_cost": 256,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+	"trivia": "custom.trivia.copper_golem",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:copper_ingot",
+            "count": 16
+        }
+    ]
+}

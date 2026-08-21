@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "enderio:conduit_binder"
+    },
+    "C": {
+      "tag": "c:ingots/conductive_alloy"
+    },
+    "I": {
+      "tag": "c:ingots/pulsating_alloy"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "CIC",
+    "BBB"
+  ],
+  "result": {
+    "components": {
+      "enderio:conduit": "enderio:item"
+    },
+    "count": 8,
+    "id": "enderio:conduit"
+  }
+}

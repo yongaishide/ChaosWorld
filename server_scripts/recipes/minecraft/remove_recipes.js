@@ -1,0 +1,44 @@
+ServerEvents.recipes(event => {
+    let recipeTypeall = [
+        'extendedcrafting:redstone_ingot',
+        '#c:plates',
+        "minecraft:netherite_ingot",
+        '#c:dusts',
+        "extendedcrafting:advanced_catalyst",
+        "immersiveengineering:blastbrick_reinforced",
+        "industrialforegoing:machine_frame_pity",
+        "pneumaticcraft:reinforced_stone",
+        "pneumaticcraft:pressure_chamber_interface",
+        "mekanism:metallurgic_infuser",
+        "extendedcrafting:flux_crafter",
+        "extendedcrafting:flux_alternator",
+        "fluxnetworks:flux_core",
+        "fluxnetworks:flux_block",
+        "enderio:soul_binder",
+        "extendedae:machine_frame",
+        "extendedae:crystal_assembler",
+        "extendedae:entro_seed",
+        "ae2cs:crystal_growth_chamber",
+        "extendedcrafting:elite_catalyst",
+        "chaosworld_core:dark_matter",
+        "data_energistics:data_reassembler",
+        'ae2:network/blocks/crystal_processing_charger',
+        "ae2:inscriber"
+        
+    ]
+    recipeTypeall.forEach((item) => {
+        event.remove({ output: item, type: 'minecraft:crafting_shaped' })
+        event.remove({ output: item, type: 'minecraft:crafting_shapeless' })
+    })
+    let coinItems = [
+        'coinsje:copper_coin',
+        'coinsje:iron_coin',
+        'coinsje:gold_coin',
+        'coinsje:diamond_coin',
+        'coinsje:netherite_coin'
+    ]
+    coinItems.forEach((item) => {
+        event.remove({ output: item, type: 'minecraft:smelting' })
+        event.remove({ output: item, type: 'minecraft:blasting' })
+    })
+})

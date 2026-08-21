@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "immersiveengineering:component_iron"
+    },
+    "e": {
+      "item": "immersiveengineering:component_electronic"
+    },
+    "w": {
+      "item": "immersiveengineering:basic_engineering"
+    }
+  },
+  "pattern": [
+    "c",
+    "w",
+    "e"
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersiveengineering:item_batcher"
+  }
+}

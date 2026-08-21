@@ -1,0 +1,22 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "tag": "c:sandstone/blocks"
+    },
+    {
+      "item": "minecraft:brick"
+    }
+  ],
+  "results": [
+    {
+      "id": "immersiveengineering:alloybrick"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ]
+}

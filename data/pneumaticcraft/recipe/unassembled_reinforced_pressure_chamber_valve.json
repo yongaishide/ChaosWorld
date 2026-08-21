@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "pneumaticcraft:pressure_chamber_valve"
+    },
+    {
+      "item": "pneumaticcraft:reinforced_air_canister_array"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "pneumaticcraft:unassembled_reinforced_pressure_chamber_valve"
+  }
+}

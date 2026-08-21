@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "h": {
+      "tag": "immersiveengineering:tools/hammers"
+    },
+    "i": {
+      "tag": "c:ingots/steel"
+    },
+    "s": {
+      "tag": "c:rods/steel"
+    }
+  },
+  "pattern": [
+    "  h",
+    " s ",
+    "i  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersiveengineering:gunpart_barrel"
+  }
+}

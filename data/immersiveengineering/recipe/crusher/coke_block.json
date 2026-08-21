@@ -1,0 +1,13 @@
+{
+  "type": "immersiveengineering:crusher",
+  "energy": 4800,
+  "input": {
+    "tag": "c:storage_blocks/coal_coke"
+  },
+  "result": {
+    "basePredicate": {
+      "tag": "c:dusts/coal_coke"
+    },
+    "count": 9
+  }
+}

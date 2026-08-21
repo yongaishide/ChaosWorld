@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:dusts/zinc"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:raw_materials/zinc"
+      }
+    }
+  ],
+  "type": "immersiveengineering:hammer_crushing",
+  "input": {
+    "tag": "c:raw_materials/zinc"
+  },
+  "result": {
+    "tag": "c:dusts/zinc"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "ae2:quartz_glass"
+    },
+    "B": {
+      "tag": "c:dusts/ender_pearl"
+    },
+    "C": {
+      "item": "ae2omnicells:ender_ingot"
+    },
+    "M": {
+      "item": "ae2omnicells:omni_cell_component_16m"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "BMB",
+    "CCC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ae2omnicells:omni_cell_16m"
+  }
+}

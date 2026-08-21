@@ -1,0 +1,18 @@
+{
+  "type": "immersiveengineering:crusher",
+  "energy": 6000,
+  "input": {
+    "tag": "c:raw_materials/copper"
+  },
+  "result": {
+    "tag": "c:dusts/copper"
+  },
+  "secondaries": [
+    {
+      "chance": 0.33333334,
+      "output": {
+        "tag": "c:dusts/copper"
+      }
+    }
+  ]
+}

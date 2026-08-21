@@ -1,0 +1,56 @@
+{
+  "type": "immersiveengineering:mineral_mix",
+  "biome_predicates": [
+    [
+      "minecraft:is_overworld"
+    ]
+  ],
+  "fail_chance": 0.05,
+  "ores": [
+    {
+      "chance": 0.3,
+      "output": {
+        "id": "minecraft:granite"
+      }
+    },
+    {
+      "chance": 0.3,
+      "output": {
+        "id": "minecraft:diorite"
+      }
+    },
+    {
+      "chance": 0.3,
+      "output": {
+        "id": "minecraft:andesite"
+      }
+    },
+    {
+      "chance": 0.1,
+      "output": {
+        "id": "minecraft:obsidian"
+      }
+    }
+  ],
+  "spoils": [
+    {
+      "chance": 0.2,
+      "output": {
+        "id": "minecraft:gravel"
+      }
+    },
+    {
+      "chance": 0.5,
+      "output": {
+        "id": "minecraft:cobblestone"
+      }
+    },
+    {
+      "chance": 0.3,
+      "output": {
+        "id": "minecraft:cobbled_deepslate"
+      }
+    }
+  ],
+  "weight": 25
+}

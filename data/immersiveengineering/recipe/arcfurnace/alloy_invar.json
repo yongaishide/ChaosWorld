@@ -1,0 +1,33 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/invar"
+      }
+    }
+  ],
+  "type": "immersiveengineering:arc_furnace",
+  "additives": [
+    {
+      "tag": "c:ingots/nickel"
+    }
+  ],
+  "energy": 51200,
+  "input": {
+    "basePredicate": {
+      "tag": "c:ingots/iron"
+    },
+    "count": 2
+  },
+  "results": [
+    {
+      "basePredicate": {
+        "tag": "c:ingots/invar"
+      },
+      "count": 3
+    }
+  ],
+  "time": 100
+}

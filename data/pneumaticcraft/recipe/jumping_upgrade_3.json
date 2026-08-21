@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "pneumaticcraft:pneumatic_cylinder"
+    },
+    "J": {
+      "type": "neoforge:components",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:leaping"
+        }
+      },
+      "items": "minecraft:potion"
+    },
+    "P": {
+      "item": "minecraft:piston"
+    },
+    "U": {
+      "item": "pneumaticcraft:jumping_upgrade_2"
+    }
+  },
+  "pattern": [
+    "PCP",
+    "JUJ",
+    " J "
+  ],
+  "result": {
+    "count": 1,
+    "id": "pneumaticcraft:jumping_upgrade_3"
+  }
+}

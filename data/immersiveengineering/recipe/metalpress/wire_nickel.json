@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:wires/nickel"
+      }
+    }
+  ],
+  "type": "immersiveengineering:metal_press",
+  "energy": 2400,
+  "input": {
+    "tag": "c:ingots/nickel"
+  },
+  "mold": "immersiveengineering:mold_wire",
+  "result": {
+    "basePredicate": {
+      "tag": "c:wires/nickel"
+    },
+    "count": 2
+  }
+}

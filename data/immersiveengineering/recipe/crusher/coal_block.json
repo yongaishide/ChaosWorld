@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:dusts/coal"
+      }
+    }
+  ],
+  "type": "immersiveengineering:crusher",
+  "energy": 4800,
+  "input": {
+    "item": "minecraft:coal_block"
+  },
+  "result": {
+    "basePredicate": {
+      "tag": "c:dusts/coal"
+    },
+    "count": 9
+  }
+}

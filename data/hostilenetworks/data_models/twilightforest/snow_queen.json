@@ -1,0 +1,54 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "twilightforest"
+        }
+    ],
+    "entity": "twilightforest:snow_queen",
+    "name": {
+        "translate": "entity.twilightforest.snow_queen",
+        "color": "#363990"
+    },
+    "sim_cost": 4096,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:twilight_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.snow_queen",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:snowball",
+            "count": 32
+        },
+        {
+            "id": "minecraft:packed_ice",
+            "count": 24
+        },
+		{
+			"optional": true,
+			"id": "biomeswevegone:packed_black_ice",
+			"count": 12
+		},
+		{
+			"optional": true,
+			"id": "biomeswevegone:packed_borealis_ice",
+			"count": 12
+		},
+        {
+            "id": "twilightforest:snow_queen_trophy",
+            "count": 4
+        },
+		{
+			"id": "twilightforest:seeker_bow",
+			"count": 1
+		},
+        {
+            "id": "twilightforest:triple_bow",
+            "count": 1
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "ae2omnicells:cells/housing",
+  "key": {
+    "A": {
+      "item": "ae2:quartz_glass"
+    },
+    "B": {
+      "tag": "c:dusts/ender_pearl"
+    },
+    "C": {
+      "item": "ae2omnicells:charged_ender_ingot"
+    },
+    "D": {
+      "item": "ae2omnicells:complex_link_processor"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "B B",
+    "CDC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ae2omnicells:complex_omni_cell_housing"
+  }
+}

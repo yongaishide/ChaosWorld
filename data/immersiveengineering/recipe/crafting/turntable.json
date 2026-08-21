@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "immersiveengineering:component_iron"
+    },
+    "r": {
+      "tag": "c:dusts/redstone"
+    },
+    "s": {
+      "item": "immersiveengineering:wirecoil_copper"
+    },
+    "w": {
+      "item": "immersiveengineering:basic_engineering"
+    }
+  },
+  "pattern": [
+    " c ",
+    "sws",
+    " r "
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersiveengineering:turntable"
+  }
+}

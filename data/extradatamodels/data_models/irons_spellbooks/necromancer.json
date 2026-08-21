@@ -1,0 +1,27 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "irons_spellbooks"
+        }
+    ],
+    "entity": "irons_spellbooks:necromancer",
+    "name": {
+        "translate": "entity.irons_spellbooks.necromancer",
+        "color": "#413C41"
+    },
+    "sim_cost": 128,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.necromancer",
+    "fabricator_drops": [
+        {
+            "id": "irons_spellbooks:arcane_essence",
+            "count": 8
+        }
+    ]
+}

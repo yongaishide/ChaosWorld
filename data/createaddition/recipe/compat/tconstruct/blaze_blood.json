@@ -1,0 +1,16 @@
+{
+	"type":"createaddition:liquid_burning",
+	"input": {
+		"type": "fluid_stack",
+		"fluid": "tconstruct:blazing_blood",
+      	"amount": 1000
+	},
+	"burnTime": 6400,
+	"superheated": true,
+	"neoforge:conditions": [
+    	{
+    		"type": "neoforge:mod_loaded",
+    		"modid": "tconstruct"
+  		}
+	]
+}

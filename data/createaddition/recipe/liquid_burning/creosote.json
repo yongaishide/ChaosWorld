@@ -1,0 +1,18 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "createaddition:has_fluid_tag",
+      "fluidTag": "c:creosote"
+    }
+  ],
+  "type": "createaddition:liquid_burning",
+  "burn_time": 4800,
+  "ingredients": [
+    {
+      "type": "neoforge:tag",
+      "amount": 1000,
+      "tag": "c:creosote"
+    }
+  ],
+  "results": []
+}

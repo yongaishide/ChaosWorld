@@ -1,0 +1,30 @@
+{
+    "entity": "minecraft:skeleton_horse",
+    "name": {
+        "translate": "entity.minecraft.zombie_horse",
+        "color": "#BABABA"
+    },
+    "sim_cost": 96,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.skeleton_horse",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:bone",
+            "count": 32
+        },
+        {
+            "id": "minecraft:saddle",
+            "count": 1
+        },
+        {
+            "optional": true,
+            "id": "reliquary:rib_bone",
+            "count": 4
+        }
+    ]
+}

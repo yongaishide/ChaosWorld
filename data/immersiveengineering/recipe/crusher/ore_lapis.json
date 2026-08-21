@@ -1,0 +1,30 @@
+{
+  "type": "immersiveengineering:crusher",
+  "energy": 6000,
+  "input": {
+    "tag": "c:ores/lapis"
+  },
+  "result": {
+    "basePredicate": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "count": 9
+  },
+  "secondaries": [
+    {
+      "chance": 0.2,
+      "conditions": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "tag": "c:dusts/sulfur"
+          }
+        }
+      ],
+      "output": {
+        "tag": "c:dusts/sulfur"
+      }
+    }
+  ]
+}

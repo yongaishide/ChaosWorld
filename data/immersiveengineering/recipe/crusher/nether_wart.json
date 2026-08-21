@@ -1,0 +1,11 @@
+{
+  "type": "immersiveengineering:crusher",
+  "energy": 1600,
+  "input": {
+    "item": "minecraft:nether_wart_block"
+  },
+  "result": {
+    "count": 9,
+    "id": "minecraft:nether_wart"
+  }
+}

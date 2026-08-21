@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "tag": "c:wires/copper"
+    },
+    "g": {
+      "tag": "c:dusts/glowstone"
+    },
+    "i": {
+      "tag": "c:nuggets/iron"
+    },
+    "r": {
+      "type": "neoforge:intersection",
+      "children": [
+        {
+          "tag": "c:glass_blocks"
+        },
+        {
+          "tag": "c:dyed/red"
+        }
+      ]
+    }
+  },
+  "pattern": [
+    " c ",
+    "crc",
+    "igi"
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersiveengineering:cagelamp"
+  }
+}

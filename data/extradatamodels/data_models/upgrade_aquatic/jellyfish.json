@@ -1,0 +1,35 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "upgrade_aquatic"
+        }
+    ],
+    "entity": "upgrade_aquatic:immortal_jellyfish",
+	"variants": [
+		"upgrade_aquatic:box_jellyfish",
+		"upgrade_aquatic:cassiopea_jellyfish"
+	],
+    "name": {
+        "translate": "custom.jellyfish",
+        "color": "#96D1D5"
+    },
+    "display": {
+		"x_offset": 0.15,
+		"y_offset": 0.3
+    },
+    "sim_cost": 48,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.jellyfish",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:slime_ball",
+            "count": 8
+        }
+    ]
+}

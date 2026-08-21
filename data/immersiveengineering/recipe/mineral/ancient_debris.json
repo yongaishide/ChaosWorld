@@ -1,0 +1,57 @@
+{
+  "type": "immersiveengineering:mineral_mix",
+  "biome_predicates": [
+    [
+      "minecraft:is_nether"
+    ]
+  ],
+  "fail_chance": 0.5,
+  "ores": [
+    {
+      "chance": 0.4,
+      "output": {
+        "id": "minecraft:polished_blackstone_bricks"
+      }
+    },
+    {
+      "chance": 0.3,
+      "output": {
+        "id": "minecraft:polished_blackstone"
+      }
+    },
+    {
+      "chance": 0.2,
+      "output": {
+        "id": "minecraft:ancient_debris"
+      }
+    },
+    {
+      "chance": 0.1,
+      "output": {
+        "id": "minecraft:gilded_blackstone"
+      }
+    }
+  ],
+  "sample_background": "minecraft:polished_blackstone",
+  "spoils": [
+    {
+      "chance": 0.5,
+      "output": {
+        "id": "minecraft:netherrack"
+      }
+    },
+    {
+      "chance": 0.3,
+      "output": {
+        "id": "minecraft:basalt"
+      }
+    },
+    {
+      "chance": 0.2,
+      "output": {
+        "id": "minecraft:gravel"
+      }
+    }
+  ],
+  "weight": 8
+}

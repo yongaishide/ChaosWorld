@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FS",
+    "SA"
+  ],
+  "key": {
+    "F": {
+      "tag": "c:fabric_hemp"
+    },
+    "S": {
+      "tag": "c:rods/wooden"
+    },
+    "A": {
+      "item": "create:andesite_alloy"
+    }
+  },
+  "result": {
+    "id": "create:white_sail",
+    "count": 2
+  },
+  "neoforge:conditions": [ {
+    "type": "neoforge:mod_loaded",
+    "modid": "immersiveengineering"
+  } ]
+}
+

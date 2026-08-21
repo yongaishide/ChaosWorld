@@ -1,0 +1,18 @@
+{
+	"type":"createaddition:rolling",
+	"ingredients": [
+		{
+			"tag": "c:plates/steel"
+		}
+	],
+	"results": [
+		{
+			"id": "immersiveengineering:wire_steel",
+			"count": 2
+		}
+	],
+	"neoforge:conditions": [ {
+		"type": "neoforge:mod_loaded",
+		"modid": "immersiveengineering"
+	} ]
+}

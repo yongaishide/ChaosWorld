@@ -1,0 +1,49 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "environmental"
+        }
+    ],
+    "entity": "environmental:deer",
+    "variants": [
+		"environmental:reindeer"
+	],
+    "name": {
+        "translate": "entity.environmental.deer",
+        "color": "#9C7C53"
+    },
+    "sim_cost": 64,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.deer",
+    "fabricator_drops": [
+        {
+            "id": "environmental:venison",
+            "count": 32
+        },
+		{
+            "id": "minecraft:leather",
+            "count": 24
+        },
+        {
+            "optional": true,
+            "id": "hexerei:animal_fat",
+            "count": 16
+        },
+        {
+            "id": "naturalist:venison",
+            "optional": true,
+            "count": 32
+        },
+        {
+            "id": "naturalist:antler",
+            "optional": true,
+            "count": 16
+        }
+    ]
+}

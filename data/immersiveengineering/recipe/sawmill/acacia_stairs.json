@@ -1,0 +1,16 @@
+{
+  "type": "immersiveengineering:sawmill",
+  "energy": 1600,
+  "input": {
+    "item": "minecraft:acacia_stairs"
+  },
+  "result": {
+    "id": "minecraft:acacia_planks"
+  },
+  "secondaryOutputs": [],
+  "strippingSecondaries": [
+    {
+      "tag": "c:dusts/wood"
+    }
+  ]
+}

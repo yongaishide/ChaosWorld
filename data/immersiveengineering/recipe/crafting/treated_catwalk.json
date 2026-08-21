@@ -1,0 +1,21 @@
+{
+  "type": "immersiveengineering:shaped_fluid",
+  "category": "misc",
+  "key": {
+    "r": {
+      "tag": "c:rods/treated_wood"
+    },
+    "s": {
+      "tag": "immersiveengineering:treated_wood_slab"
+    }
+  },
+  "pattern": [
+    "rrr",
+    "r r",
+    "sss"
+  ],
+  "result": {
+    "count": 6,
+    "id": "immersiveengineering:treated_catwalk"
+  }
+}

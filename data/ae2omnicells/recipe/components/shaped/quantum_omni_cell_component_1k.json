@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "ae2omnicells:components/quantum",
+  "key": {
+    "C": {
+      "item": "ae2:cell_component_1k"
+    },
+    "E": {
+      "item": "ae2omnicells:charged_ender_ingot"
+    },
+    "N": {
+      "tag": "c:dusts/ender_pearl"
+    },
+    "P": {
+      "item": "ae2omnicells:multidimensional_expansion_processor"
+    }
+  },
+  "pattern": [
+    "NPN",
+    "ECE",
+    "NEN"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ae2omnicells:quantum_omni_cell_component_1k"
+  }
+}

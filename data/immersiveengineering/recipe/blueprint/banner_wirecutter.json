@@ -1,0 +1,15 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "category": "bannerpatterns",
+  "inputs": [
+    {
+      "tag": "c:paper"
+    },
+    {
+      "item": "immersiveengineering:wirecutter"
+    }
+  ],
+  "result": {
+    "id": "immersiveengineering:bannerpattern_wirecutter"
+  }
+}

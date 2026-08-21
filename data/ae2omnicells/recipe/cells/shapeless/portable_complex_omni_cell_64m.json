@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "ae2omnicells:complex_omni_cell_housing"
+    },
+    {
+      "item": "ae2omnicells:complex_omni_cell_component_64m"
+    },
+    {
+      "item": "ae2:chest"
+    },
+    {
+      "item": "ae2:energy_cell"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "ae2omnicells:portable_complex_omni_cell_64m"
+  }
+}

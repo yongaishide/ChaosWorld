@@ -1,0 +1,46 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:dusts/platinum"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ores/platinum"
+      }
+    }
+  ],
+  "type": "immersiveengineering:crusher",
+  "energy": 6000,
+  "input": {
+    "tag": "c:ores/platinum"
+  },
+  "result": {
+    "basePredicate": {
+      "tag": "c:dusts/platinum"
+    },
+    "count": 2
+  },
+  "secondaries": [
+    {
+      "chance": 0.1,
+      "conditions": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "tag": "c:dusts/nickel"
+          }
+        }
+      ],
+      "output": {
+        "tag": "c:dusts/nickel"
+      }
+    }
+  ]
+}

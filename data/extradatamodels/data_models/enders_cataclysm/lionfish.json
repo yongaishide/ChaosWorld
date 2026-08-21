@@ -1,0 +1,31 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "cataclysm"
+		}
+    ],
+    "entity": "cataclysm:lionfish",
+    "name": {
+        "translate": "entity.cataclysm.lionfish",
+        "color": "#1F3143"
+    },
+	"display": {
+        "scale": 0.4,
+        "y_offset": 0.3
+    },
+    "sim_cost": 32,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.lionfish_cataclysm",
+    "fabricator_drops": [
+        {
+            "id": "cataclysm:lionfish",
+            "count": 32
+        }
+    ]
+}

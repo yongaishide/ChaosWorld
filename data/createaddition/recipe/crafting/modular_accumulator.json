@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "B": {
+      "item": "create:brass_casing"
+    },
+    "C": {
+      "item": "createaddition:capacitor"
+    },
+    "R": {
+      "tag": "c:rods/copper"
+    },
+    "W": {
+      "tag": "c:wires/electrum"
+    }
+  },
+  "pattern": [
+    " R ",
+    "CBC",
+    " W "
+  ],
+  "result": {
+    "count": 1,
+    "id": "createaddition:modular_accumulator"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "tag": "createaddition:plants"
+    },
+    {
+      "tag": "createaddition:plants"
+    },
+    {
+      "tag": "createaddition:plants"
+    },
+    {
+      "type": "neoforge:tag",
+      "amount": 100,
+      "tag": "c:plantoil"
+    }
+  ],
+  "results": [
+    {
+      "id": "createaddition:biomass"
+    }
+  ]
+}

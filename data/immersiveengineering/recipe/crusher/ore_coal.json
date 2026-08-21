@@ -1,0 +1,30 @@
+{
+  "type": "immersiveengineering:crusher",
+  "energy": 6000,
+  "input": {
+    "tag": "c:ores/coal"
+  },
+  "result": {
+    "basePredicate": {
+      "item": "minecraft:coal"
+    },
+    "count": 4
+  },
+  "secondaries": [
+    {
+      "chance": 0.15,
+      "conditions": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "tag": "c:dusts/sulfur"
+          }
+        }
+      ],
+      "output": {
+        "tag": "c:dusts/sulfur"
+      }
+    }
+  ]
+}

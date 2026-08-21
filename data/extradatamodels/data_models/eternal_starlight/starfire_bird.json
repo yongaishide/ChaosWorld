@@ -1,0 +1,32 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "eternal_starlight"
+        }
+    ],
+    "entity": "eternal_starlight:starfire_bird",
+    "name": {
+        "translate": "entity.eternal_starlight.starfire_bird",
+        "color": "#571515"
+    },
+    "sim_cost": 64,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+	"trivia": "custom.trivia.starfire_bird",
+    "fabricator_drops": [
+		{
+            "id": "eternal_starlight:starfire_bird_egg",
+            "count": 8
+        },
+        {
+            "optional": true,
+            "id": "hexerei:animal_fat",
+            "count": 8
+        }
+    ]
+}

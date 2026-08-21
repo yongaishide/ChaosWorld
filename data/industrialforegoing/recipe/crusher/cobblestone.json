@@ -1,0 +1,9 @@
+{
+  "type": "industrialforegoing:crusher",
+  "input": {
+    "tag": "c:cobblestones/normal"
+  },
+  "output": {
+    "item": "minecraft:gravel"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "middle": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "top": {
+      "item": "ae2omnicells:complex_link_print_press"
+    }
+  },
+  "mode": "inscribe",
+  "result": {
+    "count": 1,
+    "id": "ae2omnicells:complex_link_circuit_print"
+  }
+}

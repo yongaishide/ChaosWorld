@@ -1,0 +1,892 @@
+[
+  {
+    "matchItems": [
+      "#c:ingots/electrum"
+    ],
+    "resultItems": "alltheores:electrum_ingot"
+  },
+  {
+    "matchItems": [
+      "#c:dusts/electrum"
+    ],
+    "resultItems": "alltheores:electrum_dust"
+  },
+  {
+    "matchItems": [
+      "#c:nuggets/electrum"
+    ],
+    "resultItems": "alltheores:electrum_nugget"
+  },
+  {
+    "matchItems": [
+      "#c:plates/electrum"
+    ],
+    "resultItems": "alltheores:electrum_plate"
+  },
+  {
+    "matchItems": [
+      "#c:gears/electrum"
+    ],
+    "resultItems": "alltheores:electrum_gear"
+  },
+  {
+    "matchItems": [
+      "#c:rods/electrum"
+    ],
+    "resultItems": "alltheores:electrum_rod"
+  },
+  {
+    "matchItems": [
+      "#c:storage_blocks/electrum"
+    ],
+    "resultItems": "alltheores:electrum_block"
+  },
+  {
+    "matchItems": [
+      "#c:ingots/osmium"
+    ],
+    "resultItems": "alltheores:osmium_ingot"
+  },
+  {
+    "matchItems": [
+      "#c:dusts/osmium"
+    ],
+    "resultItems": "alltheores:osmium_dust"
+  },
+  {
+    "matchItems": [
+      "#c:nuggets/osmium"
+    ],
+    "resultItems": "alltheores:osmium_nugget"
+  },
+  {
+    "matchItems": [
+      "#c:plates/osmium"
+    ],
+    "resultItems": "alltheores:osmium_plate"
+  },
+  {
+    "matchItems": [
+      "#c:gears/osmium"
+    ],
+    "resultItems": "alltheores:osmium_gear"
+  },
+  {
+    "matchItems": [
+      "#c:rods/osmium"
+    ],
+    "resultItems": "alltheores:osmium_rod"
+  },
+  {
+    "matchItems": [
+      "#c:storage_blocks/osmium"
+    ],
+    "resultItems": "alltheores:osmium_block"
+  },
+  {
+    "matchItems": [
+      "#c:raw_materials/osmium"
+    ],
+    "resultItems": "alltheores:raw_osmium"
+  },
+  {
+    "matchItems": [
+      "#c:ingots/aluminum"
+    ],
+    "resultItems": "alltheores:aluminum_ingot"
+  },
+  {
+    "matchItems": [
+      "#c:dusts/aluminum"
+    ],
+    "resultItems": "alltheores:aluminum_dust"
+  },
+  {
+    "matchItems": [
+      "#c:nuggets/aluminum"
+    ],
+    "resultItems": "alltheores:aluminum_nugget"
+  },
+  {
+    "matchItems": [
+      "#c:plates/aluminum"
+    ],
+    "resultItems": "alltheores:aluminum_plate"
+  },
+  {
+    "matchItems": [
+      "#c:gears/aluminum"
+    ],
+    "resultItems": "alltheores:aluminum_gear"
+  },
+  {
+    "matchItems": [
+      "#c:rods/aluminum"
+    ],
+    "resultItems": "alltheores:aluminum_rod"
+  },
+  {
+    "matchItems": [
+      "#c:storage_blocks/aluminum"
+    ],
+    "resultItems": "alltheores:aluminum_block"
+  },
+  {
+    "matchItems": [
+      "#c:raw_materials/aluminum"
+    ],
+    "resultItems": "alltheores:raw_aluminum"
+  },
+  {
+    "matchItems": [
+      "#c:ingots/nickel"
+    ],
+    "resultItems": "alltheores:nickel_ingot"
+  },
+  {
+    "matchItems": [
+      "#c:dusts/nickel"
+    ],
+    "resultItems": "alltheores:nickel_dust"
+  },
+  {
+    "matchItems": [
+      "#c:nuggets/nickel"
+    ],
+    "resultItems": "alltheores:nickel_nugget"
+  },
+  {
+    "matchItems": [
+      "#c:plates/nickel"
+    ],
+    "resultItems": "alltheores:nickel_plate"
+  },
+  {
+    "matchItems": [
+      "#c:gears/nickel"
+    ],
+    "resultItems": "alltheores:nickel_gear"
+  },
+  {
+    "matchItems": [
+      "#c:rods/nickel"
+    ],
+    "resultItems": "alltheores:nickel_rod"
+  },
+  {
+    "matchItems": [
+      "#c:storage_blocks/nickel"
+    ],
+    "resultItems": "alltheores:nickel_block"
+  },
+  {
+    "matchItems": [
+      "#c:raw_materials/nickel"
+    ],
+    "resultItems": "alltheores:raw_nickel"
+  },
+  {
+    "matchItems": [
+      "#c:ingots/silver"
+    ],
+    "resultItems": "alltheores:silver_ingot"
+  },
+  {
+    "matchItems": [
+      "#c:dusts/silver"
+    ],
+    "resultItems": "alltheores:silver_dust"
+  },
+  {
+    "matchItems": [
+      "#c:nuggets/silver"
+    ],
+    "resultItems": "alltheores:silver_nugget"
+  },
+  {
+    "matchItems": [
+      "#c:plates/silver"
+    ],
+    "resultItems": "alltheores:silver_plate"
+  },
+  {
+    "matchItems": [
+      "#c:gears/silver"
+    ],
+    "resultItems": "alltheores:silver_gear"
+  },
+  {
+    "matchItems": [
+      "#c:rods/silver"
+    ],
+    "resultItems": "alltheores:silver_rod"
+  },
+  {
+    "matchItems": [
+      "#c:storage_blocks/silver"
+    ],
+    "resultItems": "alltheores:silver_block"
+  },
+  {
+    "matchItems": [
+      "#c:raw_materials/silver"
+    ],
+    "resultItems": "alltheores:raw_silver"
+  },
+  {
+    "matchItems": [
+      "#c:ingots/lumium"
+    ],
+    "resultItems": "alltheores:lumium_ingot"
+  },
+  {
+    "matchItems": [
+      "#c:dusts/lumium"
+    ],
+    "resultItems": "alltheores:lumium_dust"
+  },
+  {
+    "matchItems": [
+      "#c:nuggets/lumium"
+    ],
+    "resultItems": "alltheores:lumium_nugget"
+  },
+  {
+    "matchItems": [
+      "#c:plates/lumium"
+    ],
+    "resultItems": "alltheores:lumium_plate"
+  },
+  {
+    "matchItems": [
+      "#c:gears/lumium"
+    ],
+    "resultItems": "alltheores:lumium_gear"
+  },
+  {
+    "matchItems": [
+      "#c:rods/lumium"
+    ],
+    "resultItems": "alltheores:lumium_rod"
+  },
+  {
+    "matchItems": [
+      "#c:storage_blocks/lumium"
+    ],
+    "resultItems": "alltheores:lumium_block"
+  },
+  {
+    "matchItems": [
+      "#c:ingots/uranium"
+    ],
+    "resultItems": "alltheores:uranium_ingot"
+  },
+  {
+    "matchItems": [
+      "#c:dusts/uranium"
+    ],
+    "resultItems": "alltheores:uranium_dust"
+  },
+  {
+    "matchItems": [
+      "#c:nuggets/uranium"
+    ],
+    "resultItems": "alltheores:uranium_nugget"
+  },
+  {
+    "matchItems": [
+      "#c:plates/uranium"
+    ],
+    "resultItems": "alltheores:uranium_plate"
+  },
+  {
+    "matchItems": [
+      "#c:gears/uranium"
+    ],
+    "resultItems": "alltheores:uranium_gear"
+  },
+  {
+    "matchItems": [
+      "#c:rods/uranium"
+    ],
+    "resultItems": "alltheores:uranium_rod"
+  },
+  {
+    "matchItems": [
+      "#c:raw_materials/uranium"
+    ],
+    "resultItems": "alltheores:raw_uranium"
+  },
+  {
+    "matchItems": [
+      "#c:storage_blocks/uranium"
+    ],
+    "resultItems": "alltheores:uranium_block"
+  },
+  {
+    "matchItems": [
+      "#c:ingots/lead"
+    ],
+    "resultItems": "alltheores:lead_ingot"
+  },
+  {
+    "matchItems": [
+      "#c:dusts/lead"
+    ],
+    "resultItems": "alltheores:lead_dust"
+  },
+  {
+    "matchItems": [
+      "#c:nuggets/lead"
+    ],
+    "resultItems": "alltheores:lead_nugget"
+  },
+  {
+    "matchItems": [
+      "#c:plates/lead"
+    ],
+    "resultItems": "alltheores:lead_plate"
+  },
+  {
+    "matchItems": [
+      "#c:gears/lead"
+    ],
+    "resultItems": "alltheores:lead_gear"
+  },
+  {
+    "matchItems": [
+      "#c:rods/lead"
+    ],
+    "resultItems": "alltheores:lead_rod"
+  },
+  {
+    "matchItems": [
+      "#c:raw_materials/lead"
+    ],
+    "resultItems": "alltheores:raw_lead"
+  },
+  {
+    "matchItems": [
+      "#c:storage_blocks/lead"
+    ],
+    "resultItems": "alltheores:lead_block"
+  },
+  {
+    "matchItems": [
+      "#c:ingots/zinc"
+    ],
+    "resultItems": "alltheores:zinc_ingot"
+  },
+  {
+    "matchItems": [
+      "#c:dusts/zinc"
+    ],
+    "resultItems": "alltheores:zinc_dust"
+  },
+  {
+    "matchItems": [
+      "#c:nuggets/zinc"
+    ],
+    "resultItems": "alltheores:zinc_nugget"
+  },
+  {
+    "matchItems": [
+      "#c:plates/zinc"
+    ],
+    "resultItems": "alltheores:zinc_plate"
+  },
+  {
+    "matchItems": [
+      "#c:gears/zinc"
+    ],
+    "resultItems": "alltheores:zinc_gear"
+  },
+  {
+    "matchItems": [
+      "#c:rods/zinc"
+    ],
+    "resultItems": "alltheores:zinc_rod"
+  },
+  {
+    "matchItems": [
+      "#c:raw_materials/zinc"
+    ],
+    "resultItems": "alltheores:raw_zinc"
+  },
+  {
+    "matchItems": [
+      "#c:storage_blocks/zinc"
+    ],
+    "resultItems": "alltheores:zinc_block"
+  },
+  {
+    "matchItems": [
+      "#c:ingots/zinc"
+    ],
+    "resultItems": "alltheores:zinc_ingot"
+  },
+  {
+    "matchItems": [
+      "#c:dusts/zinc"
+    ],
+    "resultItems": "alltheores:zinc_dust"
+  },
+  {
+    "matchItems": [
+      "#c:nuggets/zinc"
+    ],
+    "resultItems": "alltheores:zinc_nugget"
+  },
+  {
+    "matchItems": [
+      "#c:plates/zinc"
+    ],
+    "resultItems": "alltheores:zinc_plate"
+  },
+  {
+    "matchItems": [
+      "#c:gears/zinc"
+    ],
+    "resultItems": "alltheores:zinc_gear"
+  },
+  {
+    "matchItems": [
+      "#c:rods/zinc"
+    ],
+    "resultItems": "alltheores:zinc_rod"
+  },
+  {
+    "matchItems": [
+      "#c:raw_materials/zinc"
+    ],
+    "resultItems": "alltheores:raw_zinc"
+  },
+  {
+    "matchItems": [
+      "#c:storage_blocks/zinc"
+    ],
+    "resultItems": "alltheores:zinc_block"
+  },
+  {
+    "matchItems": [
+      "#c:ingots/tin"
+    ],
+    "resultItems": "alltheores:tin_ingot"
+  },
+  {
+    "matchItems": [
+      "#c:dusts/tin"
+    ],
+    "resultItems": "alltheores:tin_dust"
+  },
+  {
+    "matchItems": [
+      "#c:nuggets/tin"
+    ],
+    "resultItems": "alltheores:tin_nugget"
+  },
+  {
+    "matchItems": [
+      "#c:plates/tin"
+    ],
+    "resultItems": "alltheores:tin_plate"
+  },
+  {
+    "matchItems": [
+      "#c:gears/tin"
+    ],
+    "resultItems": "alltheores:tin_gear"
+  },
+  {
+    "matchItems": [
+      "#c:rods/tin"
+    ],
+    "resultItems": "alltheores:tin_rod"
+  },
+  {
+    "matchItems": [
+      "#c:raw_materials/tin"
+    ],
+    "resultItems": "alltheores:raw_tin"
+  },
+  {
+    "matchItems": [
+      "#c:ingots/signalum"
+    ],
+    "resultItems": "alltheores:signalum_ingot"
+  },
+  {
+    "matchItems": [
+      "#c:dusts/signalum"
+    ],
+    "resultItems": "alltheores:signalum_dust"
+  },
+  {
+    "matchItems": [
+      "#c:nuggets/signalum"
+    ],
+    "resultItems": "alltheores:signalum_nugget"
+  },
+  {
+    "matchItems": [
+      "#c:plates/signalum"
+    ],
+    "resultItems": "alltheores:signalum_plate"
+  },
+  {
+    "matchItems": [
+      "#c:gears/signalum"
+    ],
+    "resultItems": "alltheores:signalum_gear"
+  },
+  {
+    "matchItems": [
+      "#c:rods/signalum"
+    ],
+    "resultItems": "alltheores:signalum_rod"
+  },
+  {
+    "matchItems": [
+      "#c:ingots/constantan"
+    ],
+    "resultItems": "alltheores:constantan_ingot"
+  },
+  {
+    "matchItems": [
+      "#c:dusts/constantan"
+    ],
+    "resultItems": "alltheores:constantan_dust"
+  },
+  {
+    "matchItems": [
+      "#c:nuggets/constantan"
+    ],
+    "resultItems": "alltheores:constantan_nugget"
+  },
+  {
+    "matchItems": [
+      "#c:plates/constantan"
+    ],
+    "resultItems": "alltheores:constantan_plate"
+  },
+  {
+    "matchItems": [
+      "#c:gears/constantan"
+    ],
+    "resultItems": "alltheores:constantan_gear"
+  },
+  {
+    "matchItems": [
+      "#c:rods/constantan"
+    ],
+    "resultItems": "alltheores:constantan_rod"
+  },
+  {
+    "matchItems": [
+      "#c:ingots/bronze"
+    ],
+    "resultItems": "alltheores:bronze_ingot"
+  },
+  {
+    "matchItems": [
+      "#c:dusts/bronze"
+    ],
+    "resultItems": "alltheores:bronze_dust"
+  },
+  {
+    "matchItems": [
+      "#c:nuggets/bronze"
+    ],
+    "resultItems": "alltheores:bronze_nugget"
+  },
+  {
+    "matchItems": [
+      "#c:plates/bronze"
+    ],
+    "resultItems": "alltheores:bronze_plate"
+  },
+  {
+    "matchItems": [
+      "#c:gears/bronze"
+    ],
+    "resultItems": "alltheores:bronze_gear"
+  },
+  {
+    "matchItems": [
+      "#c:rods/bronze"
+    ],
+    "resultItems": "alltheores:bronze_rod"
+  },
+  {
+    "matchItems": [
+      "#c:ingots/copper"
+    ],
+    "resultItems": "alltheores:copper_ingot"
+  },
+  {
+    "matchItems": [
+      "#c:dusts/copper"
+    ],
+    "resultItems": "alltheores:copper_dust"
+  },
+  {
+    "matchItems": [
+      "#c:nuggets/copper"
+    ],
+    "resultItems": "alltheores:copper_nugget"
+  },
+  {
+    "matchItems": [
+      "#c:plates/copper"
+    ],
+    "resultItems": "alltheores:copper_plate"
+  },
+  {
+    "matchItems": [
+      "#c:gears/copper"
+    ],
+    "resultItems": "alltheores:copper_gear"
+  },
+  {
+    "matchItems": [
+      "#c:rods/copper"
+    ],
+    "resultItems": "alltheores:copper_rod"
+  },
+  {
+    "matchItems": [
+      "exdeorum:compressed_cobblestone"
+    ],
+    "resultItems": "allthecompressed:cobblestone_1x"
+  },
+  {
+    "matchItems": [
+      "#c:dusts/iron"
+    ],
+    "resultItems": "alltheores:iron_dust"
+  },
+  {
+    "matchItems": [
+      "#c:plates/iron"
+    ],
+    "resultItems": "alltheores:iron_plate"
+  },
+  {
+    "matchItems": [
+      "#c:dusts/tin"
+    ],
+    "resultItems": "alltheores:tin_dust"
+  },
+  {
+    "matchItems": [
+      "#c:dusts/lead"
+    ],
+    "resultItems": "alltheores:lead_dust"
+  },
+  {
+    "matchItems": [
+      "#c:dusts/aluminum"
+    ],
+    "resultItems": "alltheores:aluminum_dust"
+  },
+  {
+    "matchItems": [
+      "#c:dusts/invar"
+    ],
+    "resultItems": "alltheores:invar_dust"
+  },
+  {
+    "matchItems": [
+      "#c:dusts/constantan"
+    ],
+    "resultItems": "alltheores:constantan_dust"
+  },
+  {
+    "matchItems": [
+      "#c:dusts/gold"
+    ],
+    "resultItems": "alltheores:gold_dust"
+  },
+  {
+    "matchItems": [
+      "#c:dusts/electrum"
+    ],
+    "resultItems": "alltheores:electrum_dust"
+  },
+  {
+    "matchItems": [
+      "#c:dusts/emerald"
+    ],
+    "resultItems": "thermal:emerald_dust"
+  },
+  {
+    "matchItems": [
+      "#c:dusts/diamond"
+    ],
+    "resultItems": "alltheores:diamond_dust"
+  },
+  {
+    "matchItems": [
+      "#c:ingots/steel"
+    ],
+    "resultItems": "alltheores:steel_ingot"
+  },
+  {
+    "matchItems": [
+      "#c:plates/steel"
+    ],
+    "resultItems": "alltheores:steel_plate"
+  },
+  {
+    "matchItems": [
+      "#c:dusts/steel"
+    ],
+    "resultItems": "alltheores:steel_dust"
+  },
+  {
+    "matchItems": [
+      "#c:storage_blocks/steel"
+    ],
+    "resultItems": "alltheores:steel_block"
+  },
+  {
+    "matchItems": [
+      "#c:ingots/enderium"
+    ],
+    "resultItems": "alltheores:enderium_ingot"
+  },
+  {
+    "matchItems": [
+      "#c:dusts/enderium"
+    ],
+    "resultItems": "alltheores:enderium_dust"
+  },
+  {
+    "matchItems": [
+      "#c:nuggets/enderium"
+    ],
+    "resultItems": "alltheores:enderium_nugget"
+  },
+  {
+    "matchItems": [
+      "#c:plates/enderium"
+    ],
+    "resultItems": "alltheores:enderium_plate"
+  },
+  {
+    "matchItems": [
+      "#c:gears/enderium"
+    ],
+    "resultItems": "alltheores:enderium_gear"
+  },
+  {
+    "matchItems": [
+      "#c:rods/enderium"
+    ],
+    "resultItems": "alltheores:enderium_rod"
+  },
+  {
+    "matchItems": [
+      "quark:charcoal_block"
+    ],
+    "resultItems": "mekanism:block_charcoal"
+  },
+  {
+    "matchItems": [
+      "mekanism:dust_netherite"
+    ],
+    "resultItems": "alltheores:netherite_dust"
+  },
+  {
+    "matchItems": [
+      "avaritia:extreme_crafting_table"
+    ],
+    "resultItems": "extendedcrafting:ultimate_table"
+  },
+  {
+    "matchItems": [
+      "industrialforegoing:iron_gear",
+      "modern_industrialization:iron_gear"
+    ],
+    "resultItems": "alltheores:iron_gear"
+  },
+  {
+    "matchItems": [
+      "enderio:void_chassis"
+    ],
+    "resultItems": "industrialforegoing:machine_frame_simple"
+  },
+  {
+    "matchItems": [
+      "mekanism:steel_casing"
+    ],
+    "resultItems": "industrialforegoing:machine_frame_advanced"
+  },
+  {
+    "matchItems": [
+      "enderio:ensouled_chassis"
+    ],
+    "resultItems": "industrialforegoing:machine_frame_advanced"
+  },
+  {
+    "matchItems": [
+      "ae2:ender_dust"
+    ],
+    "resultItems": "enderio:powdered_ender_pearl"
+  },
+  {
+    "matchItems": [
+      "extendedcrafting:ender_ingot"
+    ],
+    "resultItems": "alltheores:enderium_ingot"
+  },
+  {
+    "matchItems": [
+      "extendedcrafting:ender_ingot_block"
+    ],
+    "resultItems": "alltheores:enderium_block"
+  },
+  {
+    "matchItems": [
+      "mysticalagriculture:copper_alloy_seeds"
+    ],
+    "resultItems": "mysticalagriculture:conductive_alloy_seeds"
+  },
+  {
+    "matchItems": [
+      "mysticalagriculture:copper_alloy_essence"
+    ],
+    "resultItems": "mysticalagriculture:conductive_alloy_essence"
+  },
+  {
+    "matchItems": [
+      "actuallyadditions:ender_star"
+    ],
+    "resultItems": "extendedcrafting:ender_star"
+  },
+  {
+    "matchItems": [
+      "projecte:dark_matter"
+    ],
+    "resultItems": "chaosworld_core:dark_matter"
+  },
+  {
+    "matchItems": [
+      "immersiveengineering:charging_station"
+    ],
+    "resultItems": "ae2:charger"
+  },
+  {
+    "matchItems": [
+      "enderio:silicon"
+    ],
+    "resultItems": "ae2:silicon"
+  },
+  {
+    "matchItems": [
+      "ae2cs:silicon_block",
+      "ae2lt:silicon_block"
+    ],
+    "resultItems": "extendedae:silicon_block"
+  }
+]

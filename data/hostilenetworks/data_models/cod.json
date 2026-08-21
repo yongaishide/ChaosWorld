@@ -1,0 +1,33 @@
+{
+    "entity": "minecraft:cod",
+    "name": {
+		"translate": "entity.minecraft.cod",
+		"color": "#826450"
+    },
+    "display": {
+        "scale": 1
+    },
+    "sim_cost": 32,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.cod",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:cod",
+            "count": 32
+        },
+        {
+            "id": "minecraft:bone_meal",
+            "count": 2
+        },
+        {
+            "id": "croptopia:roe",
+            "optional": true,
+            "count": 32
+        }
+    ]
+}

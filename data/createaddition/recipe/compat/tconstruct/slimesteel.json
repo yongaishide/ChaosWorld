@@ -1,0 +1,27 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:ingots/iron"
+    },
+    {
+      "tag": "c:slimeball/sky"
+    },
+    {
+      "tag": "tconstruct:seared_blocks"
+    }
+  ],
+  "results": [
+    {
+      "id": "tconstruct:slimesteel_ingot",
+      "count": 2
+    }
+  ],
+  "heatRequirement": "heated",
+  "neoforge:conditions": [
+    {
+    	"type": "neoforge:mod_loaded",
+    	"modid": "tconstruct"
+  	}
+  ]
+}

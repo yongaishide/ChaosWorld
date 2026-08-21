@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ae2omnicells:complex_omni_cell_component_16k"
+    },
+    {
+      "item": "ae2omnicells:complex_crafting_unit_block"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "ae2omnicells:complex_crafting_storage_16k_block"
+  }
+}

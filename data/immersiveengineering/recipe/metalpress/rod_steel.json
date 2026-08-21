@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:rods/steel"
+      }
+    }
+  ],
+  "type": "immersiveengineering:metal_press",
+  "energy": 2400,
+  "input": {
+    "tag": "c:ingots/steel"
+  },
+  "mold": "immersiveengineering:mold_rod",
+  "result": {
+    "basePredicate": {
+      "tag": "c:rods/steel"
+    },
+    "count": 2
+  }
+}

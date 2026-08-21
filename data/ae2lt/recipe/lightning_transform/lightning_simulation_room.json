@@ -1,0 +1,40 @@
+{
+  "type": "ae2lt:lightning_transform",
+  "priority": 0,
+  "inputs": [
+    {
+      "ingredient": {
+        "item": "industrialforegoing:machine_frame_advanced"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "ae2lt:overload_processor"
+      },
+      "count": 16
+    },
+    {
+      "ingredient": {
+        "item": "ae2lt:overload_alloy"
+      },
+      "count": 32
+    },
+    {
+      "ingredient": {
+        "item": "powah:charged_snowball"
+      },
+      "count": 64
+    },
+    {
+      "ingredient": {
+        "item": "enderio_evolution:capacitor_crystalline"
+      },
+      "count": 4
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "ae2lt:lightning_simulation_room"
+  }
+}

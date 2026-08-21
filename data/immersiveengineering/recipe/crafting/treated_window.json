@@ -1,0 +1,21 @@
+{
+  "type": "immersiveengineering:shaped_fluid",
+  "category": "misc",
+  "key": {
+    "g": {
+      "tag": "c:glass_panes"
+    },
+    "w": {
+      "tag": "immersiveengineering:treated_wood_slab"
+    }
+  },
+  "pattern": [
+    "wgw",
+    "ggg",
+    "wgw"
+  ],
+  "result": {
+    "count": 8,
+    "id": "immersiveengineering:treated_window"
+  }
+}

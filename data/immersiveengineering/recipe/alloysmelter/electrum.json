@@ -1,0 +1,15 @@
+{
+  "type": "immersiveengineering:alloy",
+  "input0": {
+    "tag": "c:ingots/gold"
+  },
+  "input1": {
+    "tag": "c:ingots/silver"
+  },
+  "result": {
+    "basePredicate": {
+      "tag": "c:ingots/electrum"
+    },
+    "count": 2
+  }
+}

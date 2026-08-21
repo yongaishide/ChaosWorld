@@ -1,0 +1,16 @@
+{
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "middle": {
+      "item": "ae2omnicells:ender_ingot"
+    },
+    "top": {
+      "item": "ae2omnicells:omni_link_print_press"
+    }
+  },
+  "mode": "inscribe",
+  "result": {
+    "count": 1,
+    "id": "ae2omnicells:omni_link_circuit_print"
+  }
+}

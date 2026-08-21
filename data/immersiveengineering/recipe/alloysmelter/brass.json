@@ -1,0 +1,31 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/brass"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/zinc"
+      }
+    }
+  ],
+  "type": "immersiveengineering:alloy",
+  "input0": {
+    "tag": "c:ingots/copper"
+  },
+  "input1": {
+    "tag": "c:ingots/zinc"
+  },
+  "result": {
+    "basePredicate": {
+      "tag": "c:ingots/brass"
+    },
+    "count": 2
+  }
+}

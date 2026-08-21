@@ -1,0 +1,15 @@
+{
+  "type": "createaddition:charging",
+  "energy": 4000,
+  "ingredients": [
+    {
+      "item": "create:oxidized_copper_tile_slab"
+    }
+  ],
+  "max_charge_rate": 200,
+  "results": [
+    {
+      "id": "create:weathered_copper_tile_slab"
+    }
+  ]
+}

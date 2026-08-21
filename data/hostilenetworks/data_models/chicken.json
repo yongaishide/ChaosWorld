@@ -1,0 +1,40 @@
+{
+    "entity": "minecraft:chicken",
+    "variants": [
+		"upgrade_aquatic:goose"
+	],
+    "name": {
+		"translate": "entity.minecraft.chicken",
+		"color": "#F0EAD6"
+    },
+    "display": {
+        "scale": 1
+    },
+    "sim_cost": 64,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.chicken",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:chicken",
+            "count": 32
+        },
+        {
+            "id": "minecraft:feather",
+            "count": 24
+        },
+        {
+            "id": "minecraft:egg",
+            "count": 8
+        },
+        {
+            "optional": true,
+            "id": "hexerei:animal_fat",
+            "count": 8
+        }
+    ]
+}

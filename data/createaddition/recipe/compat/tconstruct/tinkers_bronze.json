@@ -1,0 +1,30 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:ingots/copper"
+    },
+    {
+      "tag": "c:ingots/copper"
+    },
+    {
+      "tag": "c:ingots/copper"
+    },
+    {
+      "tag": "c:glass_blocks"
+    }
+  ],
+  "results": [
+    {
+      "id": "tconstruct:tinkers_bronze_ingot",
+      "count": 3
+    }
+  ],
+  "heatRequirement": "heated",
+  "neoforge:conditions": [
+    {
+    	"type": "neoforge:mod_loaded",
+    	"modid": "tconstruct"
+  	}
+  ]
+}

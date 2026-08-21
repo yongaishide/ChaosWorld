@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "i": {
+      "tag": "immersiveengineering:treated_wood"
+    },
+    "s": {
+      "tag": "c:rods/treated_wood"
+    }
+  },
+  "pattern": [
+    "sis",
+    "sis"
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersiveengineering:treated_fence_gate"
+  }
+}

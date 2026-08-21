@@ -1,0 +1,25 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "additives": [],
+  "energy": 230400,
+  "input": {
+    "tag": "c:storage_blocks/raw_gold"
+  },
+  "results": [
+    {
+      "basePredicate": {
+        "tag": "c:ingots/gold"
+      },
+      "count": 13
+    }
+  ],
+  "secondaries": [
+    {
+      "chance": 0.5,
+      "output": {
+        "tag": "c:ingots/gold"
+      }
+    }
+  ],
+  "time": 900
+}

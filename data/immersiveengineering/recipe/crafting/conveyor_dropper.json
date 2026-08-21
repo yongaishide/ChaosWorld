@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "immersiveengineering:conveyor_basic"
+    },
+    "t": [
+      {
+        "tag": "c:plates/iron"
+      },
+      {
+        "tag": "c:plates/steel"
+      }
+    ]
+  },
+  "pattern": [
+    "c",
+    "t"
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersiveengineering:conveyor_dropper"
+  }
+}

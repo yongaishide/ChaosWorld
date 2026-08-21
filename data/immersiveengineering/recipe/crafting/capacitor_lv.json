@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "tag": "c:plates/lead"
+    },
+    "e": {
+      "tag": "c:ingots/copper"
+    },
+    "r": {
+      "type": "immersiveengineering:fluid_stack",
+      "amount": 1000,
+      "tag": "c:redstone_acid"
+    },
+    "w": {
+      "item": "immersiveengineering:basic_engineering"
+    }
+  },
+  "pattern": [
+    "ere",
+    "awa"
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersiveengineering:capacitor_lv"
+  }
+}

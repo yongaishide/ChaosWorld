@@ -1,0 +1,26 @@
+{
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "immersiveengineering:seed"
+  },
+  "render": {
+    "type": "immersiveengineering:doublecrop",
+    "block": "immersiveengineering:hemp",
+    "doublingAge": 3
+  },
+  "results": [
+    {
+      "id": "immersiveengineering:hemp_fiber"
+    },
+    {
+      "chance": 0.5,
+      "output": {
+        "id": "immersiveengineering:seed"
+      }
+    }
+  ],
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 800
+}

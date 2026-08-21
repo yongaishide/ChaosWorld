@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ae2omnicells:ender_ingot"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "ae2omnicells:ender_nugget"
+  }
+}

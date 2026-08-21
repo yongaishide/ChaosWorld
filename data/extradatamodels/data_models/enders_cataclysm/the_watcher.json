@@ -1,0 +1,34 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "cataclysm"
+		}
+    ],
+    "entity": "cataclysm:the_watcher",
+    "name": {
+        "translate": "entity.cataclysm.the_watcher",
+        "color": "#FFB431"
+    },
+	"display": {
+        "scale": 0.8
+    },
+    "sim_cost": 128,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:nether_prediction"
+    },
+    "trivia": "custom.trivia.the_watcher",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:iron_ingot",
+            "count": 12
+        },
+        {
+            "id": "minecraft:redstone",
+            "count": 12
+        }
+    ]
+}

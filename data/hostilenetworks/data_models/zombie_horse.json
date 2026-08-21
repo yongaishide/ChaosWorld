@@ -1,0 +1,38 @@
+{
+    "entity": "minecraft:zombie_horse",
+    "variants": [
+        "enderzoology:fallen_mount"
+    ],
+    "name": {
+        "translate": "entity.minecraft.zombie_horse",
+        "color": "#406C40"
+    },
+    "sim_cost": 128,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.zombie_horse",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:rotten_flesh",
+            "count": 64
+        },
+        {
+            "id": "minecraft:saddle",
+            "count": 1
+        },
+        {
+            "optional": true,
+            "id": "reliquary:zombie_heart",
+            "count": 3
+        },
+        {
+            "optional": true,
+            "id": "hexerei:animal_fat",
+            "count": 24
+        }
+    ]
+}

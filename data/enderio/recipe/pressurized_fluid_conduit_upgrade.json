@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "enderio:conduit_binder"
+    },
+    "C": {
+      "type": "enderio:conduit",
+      "conduit_type": "enderio:fluid"
+    },
+    "I": {
+      "tag": "c:ingots/energetic_alloy"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "ICI",
+    "BBB"
+  ],
+  "result": {
+    "components": {
+      "enderio:conduit": "enderio:pressurized_fluid"
+    },
+    "count": 8,
+    "id": "enderio:conduit"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:gears/lead"
+      }
+    }
+  ],
+  "type": "immersiveengineering:metal_press",
+  "energy": 2400,
+  "input": {
+    "basePredicate": {
+      "tag": "c:ingots/lead"
+    },
+    "count": 4
+  },
+  "mold": "immersiveengineering:mold_gear",
+  "result": {
+    "tag": "c:gears/lead"
+  }
+}

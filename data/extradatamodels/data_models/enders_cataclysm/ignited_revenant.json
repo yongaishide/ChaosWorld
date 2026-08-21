@@ -1,0 +1,42 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "cataclysm"
+		}
+    ],
+    "entity": "cataclysm:ignited_revenant",
+    "name": {
+        "translate": "entity.cataclysm.ignited_revenant",
+        "color": "#804026"
+    },
+	"display": {
+        "scale": 0.7
+    },
+    "sim_cost": 512,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:nether_prediction"
+    },
+    "trivia": "custom.trivia.ignited_revenant",
+    "fabricator_drops": [
+        {
+            "id": "cataclysm:burning_ashes",
+            "count": 4
+        }
+    ],
+    "tier_data": {
+        "basic": 96,
+        "advanced": 384,
+        "superior": 1536,
+        "self_aware": 6144
+    },
+    "data_per_kill": {
+        "faulty": 24,
+        "basic": 48,
+        "advanced": 96,
+        "superior": 192
+    }
+}

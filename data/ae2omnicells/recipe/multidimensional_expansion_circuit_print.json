@@ -1,0 +1,16 @@
+{
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "middle": {
+      "item": "ae2:singularity"
+    },
+    "top": {
+      "item": "ae2omnicells:multidimensional_expansion_print_press"
+    }
+  },
+  "mode": "inscribe",
+  "result": {
+    "count": 1,
+    "id": "ae2omnicells:multidimensional_expansion_circuit_print"
+  }
+}

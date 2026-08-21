@@ -1,0 +1,34 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "irons_spellbooks"
+        }
+    ],
+    "entity": "irons_spellbooks:citadel_keeper",
+    "name": {
+        "translate": "entity.irons_spellbooks.citadel_keeper",
+        "color": "#413C41"
+    },
+    "display": {
+        "scale": 0.8
+    },
+    "sim_cost": 256,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:nether_prediction"
+    },
+    "trivia": "custom.trivia.ancient_knight",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:netherite_scrap",
+            "count": 4
+        },
+        {
+            "id": "irons_spellbooks:cinder_essence",
+            "count": 8
+        }
+    ]
+}

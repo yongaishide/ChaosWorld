@@ -1,0 +1,25 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "category": "bullet",
+  "inputs": [
+    {
+      "basePredicate": {
+        "item": "immersiveengineering:empty_casing"
+      },
+      "count": 4
+    },
+    {
+      "tag": "c:gunpowders"
+    },
+    {
+      "basePredicate": {
+        "tag": "c:nuggets/netherite"
+      },
+      "count": 3
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "immersiveengineering:bullet_armor_piercing"
+  }
+}

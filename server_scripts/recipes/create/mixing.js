@@ -1,0 +1,12 @@
+ServerEvents.recipes((event) => {
+    event.custom(
+        {"type":"create:mixing",
+            "ingredients":[
+                {"item":"minecraft:sugar"},
+                {"item":"create:cinder_flour"},
+                {"item":"createaddition:biomass"},
+                {"item":"createaddition:biomass"}
+            ],
+            "results":[{"amount":125,"id":"mekanismgenerators:bioethanol"}]}
+    )
+})

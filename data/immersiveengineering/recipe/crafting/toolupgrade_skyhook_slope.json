@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "e": {
+      "item": "immersiveengineering:component_electronic"
+    },
+    "m": {
+      "item": "immersiveengineering:component_steel"
+    },
+    "r": {
+      "tag": "c:rods/steel"
+    },
+    "w": {
+      "item": "immersiveengineering:wirecoil_copper"
+    }
+  },
+  "pattern": [
+    " we",
+    " mw",
+    "r  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersiveengineering:toolupgrade_skyhook_slope"
+  }
+}

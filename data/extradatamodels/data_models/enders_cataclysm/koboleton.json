@@ -1,0 +1,31 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "cataclysm"
+		}
+    ],
+    "entity": "cataclysm:koboleton",
+    "name": {
+        "translate": "entity.cataclysm.koboleton",
+        "color": "#B66802"
+    },
+    "sim_cost": 128,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:nether_prediction"
+    },
+    "trivia": "custom.trivia.koboleton",
+    "fabricator_drops": [
+        {
+            "id": "cataclysm:koboleton_bone",
+            "count": 4
+        },
+		{
+            "id": "cataclysm:ancient_metal_nugget",
+            "count": 3
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:dusts/ardite"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:storage_blocks/raw_ardite"
+      }
+    }
+  ],
+  "type": "immersiveengineering:crusher",
+  "energy": 54000,
+  "input": {
+    "tag": "c:storage_blocks/raw_ardite"
+  },
+  "result": {
+    "basePredicate": {
+      "tag": "c:dusts/ardite"
+    },
+    "count": 12
+  }
+}

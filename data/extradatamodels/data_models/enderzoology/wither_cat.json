@@ -1,0 +1,36 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "enderzoology"
+        }
+    ],
+    "entity": "enderzoology:wither_cat",
+	"name": {
+        "translate": "entity.enderzoology.wither_cat",
+        "color": "#282828"
+    },
+    "sim_cost": 96,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:nether_prediction"
+    },
+    "trivia": "custom.trivia.wither_cat",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:string",
+            "count": 32
+        },
+        {
+            "id": "enderzoology:withering_dust",
+            "count": 16
+        },
+        {
+            "optional": true,
+            "id": "hexerei:animal_fat",
+            "count": 12
+        }
+    ]
+}

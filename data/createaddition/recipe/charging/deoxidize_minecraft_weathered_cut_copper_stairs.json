@@ -1,0 +1,15 @@
+{
+  "type": "createaddition:charging",
+  "energy": 4000,
+  "ingredients": [
+    {
+      "item": "minecraft:weathered_cut_copper_stairs"
+    }
+  ],
+  "max_charge_rate": 200,
+  "results": [
+    {
+      "id": "minecraft:exposed_cut_copper_stairs"
+    }
+  ]
+}

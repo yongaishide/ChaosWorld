@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:dusts/tin"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ores/tin"
+      }
+    }
+  ],
+  "type": "immersiveengineering:hammer_crushing",
+  "input": {
+    "tag": "c:ores/tin"
+  },
+  "result": {
+    "tag": "c:dusts/tin"
+  }
+}

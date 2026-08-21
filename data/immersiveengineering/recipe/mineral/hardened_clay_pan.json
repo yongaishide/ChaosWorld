@@ -1,0 +1,53 @@
+{
+  "type": "immersiveengineering:mineral_mix",
+  "biome_predicates": [
+    [
+      "minecraft:is_overworld"
+    ],
+    [
+      "immersiveengineering:generate_hardened_clay_pan"
+    ]
+  ],
+  "fail_chance": 0.05,
+  "ores": [
+    {
+      "chance": 0.6,
+      "output": {
+        "id": "minecraft:terracotta"
+      }
+    },
+    {
+      "chance": 0.3,
+      "output": {
+        "id": "minecraft:red_sandstone"
+      }
+    },
+    {
+      "chance": 0.1,
+      "output": {
+        "id": "minecraft:red_sand"
+      }
+    }
+  ],
+  "spoils": [
+    {
+      "chance": 0.6,
+      "output": {
+        "id": "minecraft:gravel"
+      }
+    },
+    {
+      "chance": 0.3,
+      "output": {
+        "id": "minecraft:cobblestone"
+      }
+    },
+    {
+      "chance": 0.1,
+      "output": {
+        "id": "minecraft:coarse_dirt"
+      }
+    }
+  ],
+  "weight": 15
+}

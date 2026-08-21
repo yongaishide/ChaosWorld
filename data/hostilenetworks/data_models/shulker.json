@@ -1,0 +1,25 @@
+{
+    "entity": "minecraft:shulker",
+    "variants": [
+		"occultism:possessed_shulker",
+		"occultism:possessed_weak_shulker"
+	],
+    "name": {
+        "translate": "entity.minecraft.shulker",
+        "color": "#976797"
+    },
+    "sim_cost": 512,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:end_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.shulker",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:shulker_shell",
+            "count": 8
+        }
+    ]
+}

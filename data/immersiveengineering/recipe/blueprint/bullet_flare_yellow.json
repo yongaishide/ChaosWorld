@@ -1,0 +1,33 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "category": "specialBullet",
+  "inputs": [
+    {
+      "basePredicate": {
+        "item": "immersiveengineering:empty_shell"
+      },
+      "count": 4
+    },
+    {
+      "tag": "c:gunpowders"
+    },
+    {
+      "tag": "c:dusts/aluminum"
+    },
+    {
+      "tag": "c:dyes/yellow"
+    }
+  ],
+  "result": {
+    "components": {
+      "immersiveengineering:flare": {
+        "a": 1.0,
+        "b": 0.50980395,
+        "g": 1.0,
+        "r": 1.0
+      }
+    },
+    "count": 4,
+    "id": "immersiveengineering:bullet_flare"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "tag": "c:plates/aluminum"
+    },
+    "c": {
+      "tag": "c:plates/hop_graphite"
+    },
+    "e": {
+      "tag": "c:ingots/aluminum"
+    },
+    "r": {
+      "type": "immersiveengineering:fluid_stack",
+      "amount": 1000,
+      "tag": "c:redstone_acid"
+    },
+    "w": {
+      "item": "immersiveengineering:basic_engineering"
+    }
+  },
+  "pattern": [
+    "ere",
+    "awc"
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersiveengineering:capacitor_hv"
+  }
+}

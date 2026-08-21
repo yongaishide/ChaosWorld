@@ -1,0 +1,8 @@
+{
+  "type": "enderio:energy",
+  "description": {
+    "translate": "conduit.enderio.energy"
+  },
+  "texture": "enderio:block/conduit/energy",
+  "transfer_rate": 8000
+}

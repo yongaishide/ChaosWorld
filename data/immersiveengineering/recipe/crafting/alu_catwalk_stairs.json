@@ -1,0 +1,21 @@
+{
+  "type": "immersiveengineering:shaped_fluid",
+  "category": "misc",
+  "key": {
+    "r": {
+      "tag": "c:rods/aluminum"
+    },
+    "s": {
+      "tag": "immersiveengineering:scaffolding_slabs/aluminum"
+    }
+  },
+  "pattern": [
+    "s  ",
+    "rs ",
+    " rs"
+  ],
+  "result": {
+    "count": 4,
+    "id": "immersiveengineering:alu_catwalk_stairs"
+  }
+}

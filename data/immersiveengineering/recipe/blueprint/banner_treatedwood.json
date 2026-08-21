@@ -1,0 +1,15 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "category": "bannerpatterns",
+  "inputs": [
+    {
+      "tag": "c:paper"
+    },
+    {
+      "tag": "immersiveengineering:treated_wood"
+    }
+  ],
+  "result": {
+    "id": "immersiveengineering:bannerpattern_treated_wood"
+  }
+}

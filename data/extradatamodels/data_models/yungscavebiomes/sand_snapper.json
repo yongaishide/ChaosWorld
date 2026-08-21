@@ -1,0 +1,90 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "yungscavebiomes"
+        }
+    ],
+    "entity": "yungscavebiomes:sand_snapper",
+    "name": {
+        "translate": "entity.yungscavebiomes.sand_snapper",
+        "color": "#CBBD98"
+    },
+    "display": {
+        "scale": 0.6
+    },
+    "sim_cost": 64,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.sand_snapper",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:sand",
+            "count": 16
+        },
+        {
+            "id": "minecraft:red_sand",
+            "count": 16
+        },
+        {
+            "id": "yungscavebiomes:ancient_sand",
+            "count": 16
+        },
+        {
+			"optional": true,
+            "id": "biomesoplenty:black_sand",
+            "count": 16
+        },
+        {
+			"optional": true,
+            "id": "biomesoplenty:white_sand",
+            "count": 16
+        },
+        {
+			"optional": true,
+            "id": "biomesoplenty:orange_sand",
+            "count": 16
+        },
+        {
+			"optional": true,
+            "id": "biomeswevegone:black_sand",
+            "count": 16
+        },
+        {
+			"optional": true,
+            "id": "biomeswevegone:white_sand",
+            "count": 16
+        },
+        {
+			"optional": true,
+            "id": "biomeswevegone:purple_sand",
+            "count": 16
+        },
+        {
+			"optional": true,
+            "id": "biomeswevegone:pink_sand",
+            "count": 16
+		},
+		{
+			"optional": true,
+            "id": "biomeswevegone:windswept_sand",
+            "count": 16
+		}
+    ],
+	"tier_data": {
+        "basic": 4,
+        "advanced": 16,
+        "superior": 48,
+        "self_aware": 128
+    },
+    "data_per_kill": {
+        "faulty": 4,
+        "basic": 8,
+        "advanced": 12,
+        "superior": 16
+    }
+}

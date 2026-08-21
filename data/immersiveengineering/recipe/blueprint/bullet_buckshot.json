@@ -1,0 +1,22 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "category": "bullet",
+  "inputs": [
+    {
+      "basePredicate": {
+        "item": "immersiveengineering:empty_shell"
+      },
+      "count": 4
+    },
+    {
+      "tag": "c:gunpowders"
+    },
+    {
+      "tag": "c:dusts/steel"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "immersiveengineering:bullet_buckshot"
+  }
+}

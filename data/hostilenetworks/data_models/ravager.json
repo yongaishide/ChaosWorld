@@ -1,0 +1,46 @@
+{
+    "entity": "minecraft:ravager",
+    "name": {
+        "translate": "entity.minecraft.ravager",
+        "color": "#39342B"
+    },
+	"display": {
+		"scale": 0.5
+	},
+    "sim_cost": 256,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.ravager",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:saddle",
+            "count": 1
+        },
+        {
+            "optional": true,
+            "id": "hexerei:animal_fat",
+            "count": 32
+        },
+        {
+			"optional": true,
+            "id": "quark:ravager_hide",
+            "count": 4
+        }
+	],
+	"data_per_tier": {
+        "faulty": 10,
+        "basic": 114,
+        "advanced": 200,
+        "superior": 666
+	},
+    "data_per_kill": {
+        "faulty": 5,
+        "basic": 14,
+        "advanced": 20,
+        "superior": 50
+    }
+}

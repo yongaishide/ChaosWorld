@@ -1,0 +1,46 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "irons_spellbooks"
+        }
+    ],
+    "entity": "irons_spellbooks:dead_king",
+    "name": {
+        "translate": "entity.irons_spellbooks.dead_king",
+        "color": "#D99413"
+    },
+    "display": {
+        "scale": 0.53
+    },
+    "sim_cost": 1024,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.dead_king",
+    "fabricator_drops": [
+        {
+            "id": "irons_spellbooks:arcane_essence",
+            "count": 32
+        },
+        {
+            "id": "irons_spellbooks:blank_rune",
+            "count": 1
+        }
+	],
+    "data_per_tier": {
+        "faulty": 978,
+        "basic": 1014,
+        "advanced": 2600,
+        "superior": 3100
+	},
+    "data_per_kill": {
+        "faulty": 978,
+        "basic": 507,
+        "advanced": 867,
+        "superior": 775
+    }
+}

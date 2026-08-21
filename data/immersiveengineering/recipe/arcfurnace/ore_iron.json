@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "additives": [],
+  "energy": 102400,
+  "input": {
+    "tag": "c:ores/iron"
+  },
+  "results": [
+    {
+      "basePredicate": {
+        "tag": "c:ingots/iron"
+      },
+      "count": 2
+    }
+  ],
+  "slag": {
+    "tag": "c:slag"
+  },
+  "time": 200
+}

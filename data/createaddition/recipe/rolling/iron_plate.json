@@ -1,0 +1,14 @@
+{
+  "type": "createaddition:rolling",
+  "ingredients": [
+    {
+      "tag": "c:plates/iron"
+    }
+  ],
+  "results": [
+    {
+      "count": 2,
+      "id": "createaddition:iron_wire"
+    }
+  ]
+}

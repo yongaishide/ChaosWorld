@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:dusts/platinum"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:raw_materials/platinum"
+      }
+    }
+  ],
+  "type": "immersiveengineering:hammer_crushing",
+  "input": {
+    "tag": "c:raw_materials/platinum"
+  },
+  "result": {
+    "tag": "c:dusts/platinum"
+  }
+}

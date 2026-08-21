@@ -1,0 +1,35 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "cataclysm"
+		}
+    ],
+    "entity": "cataclysm:drowned_host",
+    "name": {
+        "translate": "entity.cataclysm.drowned_host",
+        "color": "#3B6269"
+    },
+    "sim_cost": 128,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.drowned_host",
+    "fabricator_drops": [
+        {
+            "id": "cataclysm:lacrima",
+            "count": 4
+        },
+		{
+            "id": "minecraft:rotten_flesh",
+            "count": 16
+        },
+		{
+            "id": "minecraft:ink_sac",
+            "count": 12
+        }
+    ]
+}

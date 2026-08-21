@@ -1,0 +1,15 @@
+{
+  "type": "immersiveengineering:refinery",
+  "catalyst": {
+    "tag": "c:plates/silver"
+  },
+  "energy": 120,
+  "input0": {
+    "amount": 8,
+    "tag": "c:ethanol"
+  },
+  "result": {
+    "amount": 8,
+    "id": "immersiveengineering:acetaldehyde"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "t": {
+      "item": "immersiveengineering:electron_tube"
+    },
+    "w": {
+      "item": "immersiveengineering:basic_engineering"
+    }
+  },
+  "pattern": [
+    " t ",
+    "twt",
+    " t "
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersiveengineering:logic_unit"
+  }
+}

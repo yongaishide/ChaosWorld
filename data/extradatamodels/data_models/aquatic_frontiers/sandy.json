@@ -1,0 +1,60 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "aquatic_frontiers"
+        }
+    ],
+    "entity": "aquatic_frontiers:sandy",
+    "variants": [
+		"aquatic_frontiers:sandy_coral",
+		"aquatic_frontiers:sandy_pickle",
+		"aquatic_frontiers:soul_sandy"
+	],
+    "name": {
+        "translate": "entity.aquatic_frontiers.sandy",
+        "color": "#D7CDA1"
+    },
+    "sim_cost": 48,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.sandy",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:sea_pickle",
+            "count": 8
+        },
+        {
+            "id": "minecraft:brain_coral",
+            "count": 6
+        },
+        {
+            "id": "minecraft:bubble_coral",
+            "count": 6
+        },
+        {
+            "id": "minecraft:fire_coral",
+            "count": 6
+        },
+        {
+            "id": "minecraft:horn_coral",
+            "count": 6
+        },
+        {
+            "id": "minecraft:tube_coral",
+            "count": 6
+        },
+        {
+            "id": "minecraft:sand",
+            "count": 8
+        },
+        {
+            "id": "minecraft:soul_sand",
+            "count": 2
+        }
+    ]
+}

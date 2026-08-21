@@ -1,0 +1,21 @@
+{
+  "type": "immersiveengineering:shaped_fluid",
+  "category": "misc",
+  "key": {
+    "r": {
+      "tag": "c:rods/steel"
+    },
+    "s": {
+      "tag": "immersiveengineering:scaffolding_slabs/steel"
+    }
+  },
+  "pattern": [
+    "rrr",
+    "r r",
+    "sss"
+  ],
+  "result": {
+    "count": 6,
+    "id": "immersiveengineering:steel_catwalk"
+  }
+}

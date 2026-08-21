@@ -1,0 +1,17 @@
+{
+  "type": "immersiveengineering:sawmill",
+  "energy": 800,
+  "input": {
+    "item": "immersiveengineering:treated_wood_horizontal"
+  },
+  "result": {
+    "count": 2,
+    "id": "immersiveengineering:slab_treated_wood_horizontal"
+  },
+  "secondaryOutputs": [],
+  "strippingSecondaries": [
+    {
+      "tag": "c:dusts/wood"
+    }
+  ]
+}

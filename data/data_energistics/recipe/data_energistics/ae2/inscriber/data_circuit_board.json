@@ -1,0 +1,16 @@
+{
+	"type": "ae2:inscriber",
+	"ingredients": {
+		"top": {
+			"item": "data_energistics:data_inscriber_template"
+		},
+		"middle": {
+			"tag": "c:gems/data_crystal"
+		}
+	},
+	"mode": "inscribe",
+	"result": {
+		"id": "data_energistics:data_circuit_board",
+		"count": 1
+	}
+}

@@ -1,0 +1,13 @@
+{
+  "type": "immersiveengineering:crusher",
+  "energy": 54000,
+  "input": {
+    "tag": "c:storage_blocks/raw_gold"
+  },
+  "result": {
+    "basePredicate": {
+      "tag": "c:dusts/gold"
+    },
+    "count": 12
+  }
+}

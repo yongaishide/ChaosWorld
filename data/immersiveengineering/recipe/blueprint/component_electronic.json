@@ -1,0 +1,21 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "category": "components",
+  "inputs": [
+    {
+      "tag": "immersiveengineering:treated_wood_slab"
+    },
+    {
+      "tag": "c:gems/quartz"
+    },
+    {
+      "tag": "c:dusts/redstone"
+    },
+    {
+      "tag": "c:wires/electrum"
+    }
+  ],
+  "result": {
+    "id": "immersiveengineering:component_electronic"
+  }
+}

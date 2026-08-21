@@ -1,0 +1,16 @@
+{
+  "type": "immersiveengineering:sawmill",
+  "energy": 1600,
+  "input": {
+    "item": "immersiveengineering:stairs_treated_wood_packaged"
+  },
+  "result": {
+    "id": "immersiveengineering:treated_wood_packaged"
+  },
+  "secondaryOutputs": [],
+  "strippingSecondaries": [
+    {
+      "tag": "c:dusts/wood"
+    }
+  ]
+}

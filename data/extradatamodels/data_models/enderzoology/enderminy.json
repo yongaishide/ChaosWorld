@@ -1,0 +1,32 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "enderzoology"
+        }
+    ],
+    "entity": "enderzoology:enderminy",
+    "name": {
+        "translate": "entity.enderzoology.enderminy",
+        "color": "#082420"
+    },
+    "sim_cost": 384,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:end_prediction"
+    },
+    "trivia": "custom.trivia.enderminy",
+    "fabricator_drops": [
+        {
+            "id": "enderzoology:ender_fragment",
+            "count": 16
+        },
+        {
+            "optional": true,
+            "id": "reliquary:nebulous_heart",
+            "count": 1
+        }
+    ]
+}

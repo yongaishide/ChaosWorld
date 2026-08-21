@@ -1,0 +1,25 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "tag": "minecraft:saplings"
+    },
+    {
+      "tag": "minecraft:saplings"
+    },
+    {
+      "tag": "minecraft:saplings"
+    },
+    {
+      "type": "neoforge:tag",
+      "amount": 100,
+      "tag": "c:plantoil"
+    }
+  ],
+  "results": [
+    {
+      "id": "createaddition:biomass"
+    }
+  ]
+}

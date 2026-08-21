@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "e": {
+      "tag": "c:ingots/electrum"
+    },
+    "g": {
+      "item": "immersiveengineering:component_steel"
+    },
+    "i": {
+      "tag": "c:sheetmetals/steel"
+    }
+  },
+  "pattern": [
+    "igi",
+    "geg",
+    "igi"
+  ],
+  "result": {
+    "count": 4,
+    "id": "immersiveengineering:heavy_engineering"
+  }
+}

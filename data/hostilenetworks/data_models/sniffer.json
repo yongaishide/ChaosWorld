@@ -1,0 +1,29 @@
+{
+    "entity": "minecraft:sniffer",
+    "name": {
+        "translate": "entity.minecraft.sniffer",
+        "color": "#B99529"
+    },
+    "display": {
+        "scale": 0.5
+    },
+    "sim_cost": 72,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.sniffer",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:sniffer_egg",
+            "count": 4
+        },
+        {
+            "optional": true,
+            "id": "hexerei:animal_fat",
+            "count": 32
+        }
+    ]
+}

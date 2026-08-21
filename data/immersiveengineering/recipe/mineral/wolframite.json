@@ -1,0 +1,83 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ores/tungsten"
+      }
+    }
+  ],
+  "type": "immersiveengineering:mineral_mix",
+  "biome_predicates": [
+    [
+      "minecraft:is_overworld"
+    ]
+  ],
+  "fail_chance": 0.15,
+  "ores": [
+    {
+      "chance": 0.7,
+      "output": {
+        "tag": "c:ores/tungsten"
+      }
+    },
+    {
+      "chance": 0.3,
+      "output": {
+        "tag": "c:ores/iron"
+      }
+    },
+    {
+      "chance": 0.3,
+      "conditions": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "tag": "c:ores/manganese"
+          }
+        }
+      ],
+      "output": {
+        "tag": "c:ores/manganese"
+      }
+    },
+    {
+      "chance": 0.3,
+      "conditions": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "tag": "c:ores/tin"
+          }
+        }
+      ],
+      "output": {
+        "tag": "c:ores/tin"
+      }
+    }
+  ],
+  "spoils": [
+    {
+      "chance": 0.2,
+      "output": {
+        "id": "minecraft:gravel"
+      }
+    },
+    {
+      "chance": 0.5,
+      "output": {
+        "id": "minecraft:cobblestone"
+      }
+    },
+    {
+      "chance": 0.3,
+      "output": {
+        "id": "minecraft:cobbled_deepslate"
+      }
+    }
+  ],
+  "weight": 5
+}

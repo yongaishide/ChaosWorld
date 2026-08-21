@@ -1,0 +1,9 @@
+{
+  "type": "industrialforegoing:crusher",
+  "input": {
+    "tag": "c:gravels"
+  },
+  "output": {
+    "item": "minecraft:sand"
+  }
+}

@@ -1,0 +1,33 @@
+{
+    "entity": "minecraft:horse",
+    "variants": [
+		"minecraft:donkey",
+		"minecraft:mule",
+		"environmental:zebra",
+		"environmental:zorse",
+		"environmental:zonkey"
+	],
+    "name": {
+        "translate": "entity.minecraft.horse",
+        "color": "#411D0B"
+    },
+    "sim_cost": 64,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.horse",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:leather",
+            "count": 16
+        },
+        {
+            "optional": true,
+            "id": "hexerei:animal_fat",
+            "count": 24
+        }
+    ]
+}
