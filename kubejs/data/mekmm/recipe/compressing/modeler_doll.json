@@ -1,0 +1,16 @@
+{
+  "type": "mekanism:compressing",
+  "chemical_input": {
+    "amount": 1,
+    "chemical": "mekmm:uu_matter"
+  },
+  "item_input": {
+    "count": 64,
+    "item": "mekmm:uu_matter"
+  },
+  "output": {
+    "count": 1,
+    "id": "mekmm:modeler_doll"
+  },
+  "per_tick_usage": true
+}

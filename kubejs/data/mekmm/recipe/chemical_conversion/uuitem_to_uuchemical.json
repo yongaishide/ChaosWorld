@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:chemical_conversion",
+  "input": {
+    "count": 1,
+    "item": "mekmm:uu_matter"
+  },
+  "output": {
+    "amount": 500,
+    "id": "mekmm:uu_matter"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "mekmm:recycler",
+  "input": {
+    "count": 1,
+    "type": "neoforge:compound",
+    "children": [
+      {
+        "item": "minecraft:dirt"
+      },
+      {
+        "item": "minecraft:grass_block"
+      }
+    ]
+  },
+  "chance": 0.17,
+  "output": {
+    "count": 1,
+    "id": "mekmm:scrap"
+  }
+}

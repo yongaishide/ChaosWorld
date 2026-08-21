@@ -140,7 +140,17 @@ const HIDE_ITEMS = [
     'ifeu:creative_capacitor', 
     'jdte:creative_greenhouse', 
     'jdte:creative_solar_panel', 
-    'create_enchantment_industry:creative_bookshelf'
+    'create_enchantment_industry:creative_bookshelf',
+    'ae2cs:integrated_interface', 
+    'ae2cs:extended_integrated_interface', 
+    'ae2cs:integrated_interface_upgrade', 
+    'ae2cs:integrated_interface_part', 
+    'ae2cs:extended_integrated_interface_part', 
+    'ae2cs:extended_integrated_interface_upgrade',
+    'ae2cs:certus_quartz_ore',
+    'ae2cs:deepslate_certus_quartz_ore',
+    'ae2cs:charged_certus_quartz_ore',
+    'ae2cs:deepslate_charged_certus_quartz_ore'
 ]
 
 ServerEvents.recipes(event => {

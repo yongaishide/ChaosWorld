@@ -1,0 +1,16 @@
+{
+  "type": "mekanism:compressing",
+  "chemical_input": {
+    "amount": 1,
+    "chemical": "mekanism:antimatter"
+  },
+  "item_input": {
+    "count": 64,
+    "item": "mekmm:uu_matter"
+  },
+  "output": {
+    "count": 1,
+    "id": "mekmm:author_doll"
+  },
+  "per_tick_usage": true
+}

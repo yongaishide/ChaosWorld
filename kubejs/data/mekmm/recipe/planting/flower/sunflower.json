@@ -1,0 +1,16 @@
+{
+  "type": "mekmm:planting",
+  "chemical_input": {
+    "amount": 1,
+    "chemical": "mekmm:nutrient_solution"
+  },
+  "item_input": {
+    "count": 1,
+    "item": "minecraft:sunflower"
+  },
+  "main_output": {
+    "count": 2,
+    "id": "minecraft:sunflower"
+  },
+  "per_tick_usage": true
+}

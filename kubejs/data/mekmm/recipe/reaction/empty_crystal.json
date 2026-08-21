@@ -1,0 +1,24 @@
+{
+  "type": "mekanism:reaction",
+  "chemical_input": {
+    "amount": 10000,
+    "chemical": "mekmm:unstable_dimensional_gas"
+  },
+  "chemical_output": {
+    "amount": 1000,
+    "id": "mekanism:nuclear_waste"
+  },
+  "duration": 1500,
+  "fluid_input": {
+    "amount": 10000,
+    "tag": "c:fusion_fuel"
+  },
+  "item_input": {
+    "count": 64,
+    "item": "mekmm:scrap_box"
+  },
+  "item_output": {
+    "count": 1,
+    "id": "mekmm:empty_crystal"
+  }
+}

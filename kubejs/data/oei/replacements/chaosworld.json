@@ -888,5 +888,23 @@
       "ae2lt:silicon_block"
     ],
     "resultItems": "extendedae:silicon_block"
+  },
+  {
+    "matchItems": [
+      "advanced_ae:quantum_processor"
+    ],
+    "resultItems": "ae2omnicells:multidimensional_expansion_processor"
+  },
+  {
+    "matchItems": [
+      "advanced_ae:printed_quantum_processor"
+    ],
+    "resultItems": "ae2omnicells:multidimensional_expansion_circuit_print"
+  },
+  {
+    "matchItems": [
+      "advanced_ae:quantum_storage_component"
+    ],
+    "resultItems": "ae2omnicells:quantum_omni_cell_component_256k"
   }
 ]

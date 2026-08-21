@@ -325,8 +325,8 @@
 				item: { count: 1, id: "create:spout" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 2.0d
+			x: -4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7834D0649FD0874F"]
@@ -606,6 +606,17 @@
 				type: "item"
 			}]
 			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["711C62EA2E9076EE"]
+			id: "63C77B6668460099"
+			tasks: [{
+				id: "4EDB071236C97F5E"
+				item: { count: 1, id: "mekanismgenerators:wind_generator" }
+				type: "item"
+			}]
+			x: -2.0d
 			y: 2.0d
 		}
 	]

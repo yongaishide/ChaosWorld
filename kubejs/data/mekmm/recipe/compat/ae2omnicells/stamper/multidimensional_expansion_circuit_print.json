@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ae2omnicells"
+    }
+  ],
+  "type": "mekmm:stamper",
+  "input": {
+    "count": 1,
+    "item": "advanced_ae:quantum_alloy"
+  },
+  "mold": {
+    "count": 1,
+    "item": "ae2omnicells:multidimensional_expansion_print_press"
+  },
+  "output": {
+    "count": 1,
+    "id": "ae2omnicells:multidimensional_expansion_circuit_print"
+  }
+}

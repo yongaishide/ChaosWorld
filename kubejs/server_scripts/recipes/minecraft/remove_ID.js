@@ -47,7 +47,12 @@ ServerEvents.recipes(event => {
         'ae2cs:craft/shapeless/silicon_from_silicon_block',
         'ae2lt:silicon_decompress',
         'ae2:network/blocks/crystal_processing_charger',
-        'ae2cs:mechanical_crafting/rose_quartz_seed'
+        'ae2cs:mechanical_crafting/rose_quartz_seed',
+        'mekanismgenerators:generator/wind',
+        'ekmm:/replicator/ae2cs_certus_quartz_ore',
+        'ekmm:/replicator/ae2cs_deepslate_certus_quartz_ore',
+        'ekmm:/replicator/ae2cs_charged_certus_quartz_ore',
+        'ekmm:/replicator/ae2cs_deepslate_charged_certus_quartz_ore'
     ]
     recipeTypeshapeless.forEach((item) => {
         event.remove({ id: item })
