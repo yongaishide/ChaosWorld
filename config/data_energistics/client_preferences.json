@@ -36,7 +36,7 @@
       ]
     },
     "sha256:c013bd86500712f5feb555d1057b52ba1aee705bf53c894ca80ba17165bbd7a6": {
-      "lastAccessEpochMillis": 1787315519372,
+      "lastAccessEpochMillis": 1787412006010,
       "clickStatistics": [
         {
           "recipeTypeId": "ae2lt:overload_processing",
@@ -64,9 +64,15 @@
         },
         {
           "recipeTypeId": "minecraft:crafting",
+          "providerDigest": "sha256:2ff1e035eba6d354b666aad7f82d0a4187894b2bf65f5061e7717fc05846c047",
+          "count": 1,
+          "lastUsedEpochMillis": 1787404854778
+        },
+        {
+          "recipeTypeId": "minecraft:crafting",
           "providerDigest": "sha256:788132c91f38c0dcd4f45bfaf24f552d8138a3e78114dcbcc20d060aa19d2a98",
-          "count": 3,
-          "lastUsedEpochMillis": 1786807970188
+          "count": 4,
+          "lastUsedEpochMillis": 1787405035626
         },
         {
           "recipeTypeId": "minecraft:crafting",

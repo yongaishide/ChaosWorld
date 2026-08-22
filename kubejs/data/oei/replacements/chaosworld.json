@@ -915,6 +915,13 @@
   },
   {
     "matchItems": [
+      "enderio:powdered_quartz",
+      "mekanism:dust_quartz"
+    ],
+    "resultItems": "ae2cs:nether_quartz_dust"
+  },
+  {
+    "matchItems": [
       "ae2cs:resonating_processor"
     ],
     "resultItems": "extendedae:concurrent_processor"

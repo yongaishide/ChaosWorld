@@ -49,10 +49,7 @@ ServerEvents.recipes(event => {
         'ae2:network/blocks/crystal_processing_charger',
         'ae2cs:mechanical_crafting/rose_quartz_seed',
         'mekanismgenerators:generator/wind',
-        'ekmm:/replicator/ae2cs_certus_quartz_ore',
-        'ekmm:/replicator/ae2cs_deepslate_certus_quartz_ore',
-        'ekmm:/replicator/ae2cs_charged_certus_quartz_ore',
-        'ekmm:/replicator/ae2cs_deepslate_charged_certus_quartz_ore'
+        'gateways:basic/enderman'
     ]
     recipeTypeshapeless.forEach((item) => {
         event.remove({ id: item })

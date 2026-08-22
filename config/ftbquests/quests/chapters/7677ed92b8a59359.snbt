@@ -158,5 +158,117 @@
 			x: 0.5d
 			y: -2.0d
 		}
+		{
+			dependencies: ["0AB99936429AE835"]
+			id: "64F5529172752BFC"
+			rewards: [{
+				id: "7A5D0219A5212E06"
+				item: {
+					components: {
+						"gateways:gateway": "gateways:basic/enderman"
+					}
+					count: 1
+					id: "gateways:gate_pearl"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "15D5EC2F247A7E80"
+				item: { components: { "gateways:gateway": "gateways:basic/enderman" }, count: 1, id: "gateways:gate_pearl" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4A86403CA81D5BF3"]
+			id: "08F624F538DBE83C"
+			tasks: [{
+				id: "506B398270F9DBA3"
+				item: { count: 1, id: "ae2omnicells:ender_ingot" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7434004913A44270"]
+			id: "1E56A28262AE1D17"
+			rewards: [{
+				id: "7829B478575638FB"
+				item: {
+					count: 1
+					id: "extendedae_plus:assembler_matrix_upload_core"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 28L
+					id: "7EC20D93BB6147F7"
+					item: { count: 1, id: "extendedae:assembler_matrix_frame" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7D60DECBE1747EC4"
+					item: { components: { "ftbfiltersystem:filter": "or(item(extendedae:assembler_matrix_wall)item(extendedae:assembler_matrix_glass))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "70E47CBE9B02B1A3"
+					item: { count: 1, id: "extendedae:assembler_matrix_pattern" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "347736ED6751232E"
+					item: { count: 1, id: "extendedae:assembler_matrix_crafter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3462A16AF50F4709"
+					item: { count: 1, id: "extendedae:assembler_matrix_speed" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["08F624F538DBE83C"]
+			id: "37E540513A2057D6"
+			tasks: [{
+				id: "6A0EB6A2657254E7"
+				item: { count: 1, id: "ae2omnicells:omni_cell_component_1k" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["37E540513A2057D6"]
+			id: "41E123C6B5F105C7"
+			tasks: [{
+				id: "5A0FDF19CF10B64A"
+				item: { count: 1, id: "ae2omnicells:omni_cell_1k" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["37E540513A2057D6"]
+			id: "223E859154A32203"
+			tasks: [{
+				id: "23DE1319E8471563"
+				item: { count: 1, id: "ae2omnicells:omni_crafting_storage_1k_block" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
 	]
 }

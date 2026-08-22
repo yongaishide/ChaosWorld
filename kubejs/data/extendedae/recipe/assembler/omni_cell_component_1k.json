@@ -1,0 +1,33 @@
+{
+  "type": "extendedae:crystal_assembler",
+  "input_fluid": {
+    "amount": 100,
+    "ingredient": {
+      "fluid": "minecraft:water"
+    }
+  },
+  "input_items": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "ae2omnicells:omni_link_processor"
+      }
+    },
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "ae2omnicells:ender_ingot"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "chaosworld_core:plate_tech_1"
+      }
+    }
+  ],
+  "output": {
+    "count": 1,
+    "id": "ae2omnicells:omni_cell_component_1k"
+  }
+}

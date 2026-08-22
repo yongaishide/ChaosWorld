@@ -1,0 +1,41 @@
+{
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+    {
+      "item": "ae2cs:purified_fluix_crystal"
+    },
+    {
+      "item": "minecraft:ender_eye"
+    },
+    {
+      "item": "ae2cs:purified_fluix_crystal"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "ae2cs:purified_fluix_crystal"
+    },
+    {
+      "item": "minecraft:ender_eye"
+    },
+    {
+      "item": "ae2cs:purified_fluix_crystal"
+    }
+  ],
+  "inputFluid": {
+    "amount": 500,
+    "fluid": "minecraft:lava"
+  },
+  "output": {
+    "count": 1,
+    "id": "gateways:gate_pearl",
+    "components": {
+      "gateways:gateway": "gateways:basic/enderman"
+    }
+  },
+  "processingTime": 300
+}

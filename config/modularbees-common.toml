@@ -51,3 +51,7 @@
 	# Default: 20
 	# Range: 1 ~ 1000
 	me_output_interval = 20
+	#Tick interval for ME import hatch pull from network
+	# Default: 3
+	# Range: 1 ~ 1000
+	me_input_interval = 3

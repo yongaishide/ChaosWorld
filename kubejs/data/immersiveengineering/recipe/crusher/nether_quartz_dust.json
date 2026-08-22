@@ -1,0 +1,13 @@
+{
+  "type": "immersiveengineering:crusher",
+  "energy": 5400,
+  "input": {
+    "item": "minecraft:quartz"
+  },
+  "result": {
+    "basePredicate": {
+      "item": "ae2cs:nether_quartz_dust"
+    },
+    "count": 1
+  }
+}
