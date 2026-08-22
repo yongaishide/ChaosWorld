@@ -172,10 +172,10 @@ key_key.sophisticatedcore.transfer_to_inventory:key.keyboard.right.bracket
 key_placebo.toggleTrails:key.keyboard.keypad.9
 key_placebo.toggleWings:key.keyboard.keypad.8
 key_rainbowcompound.key.dynamicelytra_fly:key.keyboard.space
-key_key.twilightforest.red_thread_vision:key.keyboard.unknown
-key_key.twilightforest.swap_hotbar:key.keyboard.v
 key_key.twilightforest.zoom:key.keyboard.z
 key_key.twilightforest.item_display_map_cycle:key.keyboard.c
+key_key.twilightforest.swap_hotbar:key.keyboard.v
+key_key.twilightforest.red_thread_vision:key.keyboard.unknown
 key_key.hostilenetworks.open_deep_learner:key.keyboard.unknown
 key_key.actualladditions.crafting_stick_open.desc:key.keyboard.unknown
 key_key.ftbultimine:key.keyboard.grave.accent
@@ -320,9 +320,6 @@ key_key.myotus.open.terminal_setting:key.keyboard.period:CONTROL
 key_key.myotus.toggle.upgrade_terminal_panel:key.keyboard.comma:CONTROL
 key_key.ae2cs.toggle_resonant_template_coding_slot_mode:key.keyboard.unknown
 key_key.jdte.wrench_area_modifier:key.keyboard.left.alt
-key_key.jeict.undo:key.keyboard.z:CONTROL
-key_key.jeict.redo:key.keyboard.y:CONTROL
-key_key.jeict.focus_search:key.keyboard.f
 key_key.extendedae.viewpattern:key.keyboard.p
 key_key.extendedae.set_amount:key.mouse.middle
 key_key.extendedae_plus.create_pattern:key.keyboard.q:CONTROL
@@ -350,6 +347,9 @@ key_key.ufo.cycle_tool_forward:key.mouse.right:ALT
 key_key.ufo.cycle_tool_backward:key.keyboard.h
 key_key.ufo.cycle_mode:key.keyboard.c
 key_key.ufo.toggle_auto_smelt:key.keyboard.k
+key_key.jeict.undo:key.keyboard.z:CONTROL
+key_key.jeict.redo:key.keyboard.y:CONTROL
+key_key.jeict.focus_search:key.keyboard.f
 key_key.enderio.travel_staff:key.keyboard.g
 key_key.enderio.toggle_magnet:key.keyboard.m
 key_quark.keybind.autorun:key.keyboard.unknown

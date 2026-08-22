@@ -176,9 +176,7 @@
     "waystone": true
   },
   "jdte": {
-    "solar_panel_status": true,
     "advanced_energy_transmitter_status": true,
-    "greenhouse_matrix_status": true,
     "installed_upgrades": true,
     "mineral_extractor_status": true
   },
@@ -205,6 +203,11 @@
   "compactmachines": {
     "show_owner": false,
     "bound_machine": true
+  },
+  "neoecoae": {
+    "eco_drive": true,
+    "eco_crafting_worker": true,
+    "eco_crafting_system": true
   },
   "jade_access": {
     "held_item": true,
@@ -259,9 +262,6 @@
   },
   "enderio_conduit_opt": {
     "item_conduit_info": true
-  },
-  "useless_mod": {
-    "advanced_alloy_furnace_tasks": true
   },
   "mysticalagradditions": {
     "infused_farmland": true

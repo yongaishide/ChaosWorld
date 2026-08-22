@@ -22,12 +22,13 @@ ServerEvents.recipes(event => {
         "extendedcrafting:elite_catalyst",
         "chaosworld_core:dark_matter",
         "data_energistics:data_reassembler",
-        'ae2:network/blocks/crystal_processing_charger',
+        'ae2:charger',
         "ae2:inscriber",
         "mekanismgenerators:wind_generator",
         "mekanism:energy_tablet",
         "mekanism:basic_universal_cable",
         "mekanismgenerators:heat_generator",
+        "ae2:crafting_terminal"
         
         
     ]

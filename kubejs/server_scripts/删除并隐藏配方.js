@@ -3,6 +3,7 @@ const HIDE_ITEMS = [
     'extendedcrafting:basic_auto_table',
     'extendedcrafting:basic_table',
     "actuallyadditions:lens_of_the_miner",
+    "applied_extended_crafting:table_basic_pattern_provider",
     "industrialforegoing:mob_crusher",
     'allthecompressed:copper_alloy_block_1x',
     'allthecompressed:copper_alloy_block_2x',
@@ -150,7 +151,11 @@ const HIDE_ITEMS = [
     'ae2cs:certus_quartz_ore',
     'ae2cs:deepslate_certus_quartz_ore',
     'ae2cs:charged_certus_quartz_ore',
-    'ae2cs:deepslate_charged_certus_quartz_ore'
+    'ae2cs:deepslate_charged_certus_quartz_ore',
+    "ae2cs:simple_processor",
+    "ae2cs:simple_pattern_provider",
+    "ae2cs:simple_pattern_provider_part",
+    "ae2cs:simple_processor"
 ]
 
 ServerEvents.recipes(event => {

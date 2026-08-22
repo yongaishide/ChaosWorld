@@ -9,6 +9,9 @@ ItemEvents.modifyTooltips(event =>{
     event.modify(["ae2lt:pigmee_storage_cell","ae2lt:pigmee_item_cell_housing","ae2lt:pigmee_storage_component","ae2lt:pigmee_core","ae2lt:pigmee_molecular_assembler","ae2lt:pigmee_pattern_provider","ae2lt:pigmee_mentalmath_unit"], builder =>{
         builder.insert(1,[Text.translate("tooltip.kubejs.pigmee_storage_cell").color("#FCA2A2")])
     })
+    event.modify(["applied_extended_crafting:table_advanced_pattern_provider","applied_extended_crafting:table_elite_pattern_provider","applied_extended_crafting:table_ultimate_pattern_provider"], builder =>{
+        builder.insert(1,[Text.green(Text.translate("tooltip.kubejs.table_pattern_provider.desc"))])
+    })
     const omni_cells = /ae2omnicells:(portable_)?(complex_|quantum_)?omni_cell_\d+[km]/
     event.modify(omni_cells,{shift:false}, builder =>{
         builder.insert(1,[Text.translate("tooltip.kubejs.omni_cell.hint")])

@@ -13,11 +13,3 @@ showJeiBatchEncodeFullCategoryButton = true
 #'auto upload unique match' toggle to be ON.
 #When false: every pattern must be chosen manually unless the filter is unique.
 reuseProviderWithinBatch = true
-#When hovering the JEI encode arrow, pin cycling input slots to the ingredients
-#that will actually be encoded. Selection is cached and only computed while hovered.
-#If false, leave JEI's alternative cycling unchanged.
-previewEncodeIngredientsOnArrowHover = true
-#When hovering the JEI/EMI encode arrow, show a read-only AE2 pattern-encoding
-#terminal preview in the tooltip. Uses the same cached server preview request
-#as ingredient pinning. If false, keep the text-only tooltip.
-previewEncodeTerminalOnArrowHover = true

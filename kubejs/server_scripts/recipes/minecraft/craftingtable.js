@@ -166,4 +166,69 @@ ServerEvents.recipes(event => {
       F: 'ae2cs:redstone_crystal_block'
     }
   );//添加有序合成"生物屠宰厂"配方
+  event.shaped(
+    Item.of('ae2:crafting_terminal'),
+    [
+      'ABA',
+      'CDE',
+      'AFA'
+    ],
+    {
+      A: 'minecraft:crafting_table',
+      B: 'ae2:logic_processor',
+      C: 'ae2:annihilation_core',
+      D: '#ae2:illuminated_panel',
+      E: 'ae2:formation_core',
+      F: 'ae2:calculation_processor'
+    }
+  );//添加有序合成"ME合成终端"配方
+  event.shapeless(
+    Item.of('ae2cs:rose_quartz_seed', 2),
+    [
+      'create:polished_rose_quartz',
+      'minecraft:sand'
+    ]
+  );//添加无序合成"玫瑰石英种子"配方
+  event.shaped(
+    Item.of('mekanism:basic_universal_cable', 64),
+    [
+      'AAA',
+      'BCB',
+      'AAA'
+    ],
+    {
+      A: 'enderio:conduit_binder',
+      B: 'alltheores:steel_ingot',
+      C: 'extendedcrafting:redstone_ingot'
+    }
+  );//添加有序合成"基础通用线缆"配方
+  event.shaped(
+    Item.of('mekanism:energy_tablet'),
+    [
+      'ABA',
+      'CDC',
+      'ABA'
+    ],
+    {
+      A: 'extendedcrafting:redstone_ingot',
+      B: 'immersiveengineering:coil_lv',
+      C: 'mekanism:basic_universal_cable',
+      D: 'immersiveengineering:coil_hv'
+    }
+  );//添加有序合成"能量板"配方
+  event.shaped(
+    Item.of('mekanismgenerators:heat_generator'),
+    [
+      'AAA',
+      'BCB',
+      'DED'
+    ],
+    {
+      A: 'alltheores:iron_plate',
+      B: 'mekanism:basic_universal_cable',
+      C: 'immersiveengineering:light_engineering',
+      D: 'immersiveengineering:component_iron',
+      E: 'ironfurnaces:iron_furnace'
+    }
+  );//添加有序合成"热力发电机"配方
 });

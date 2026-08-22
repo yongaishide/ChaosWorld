@@ -906,5 +906,11 @@
       "advanced_ae:quantum_storage_component"
     ],
     "resultItems": "ae2omnicells:quantum_omni_cell_component_256k"
+  },
+  {
+    "matchItems": [
+      "appflux:energy_processor"
+    ],
+    "resultItems": "ae2omnicells:complex_link_processor"
   }
 ]

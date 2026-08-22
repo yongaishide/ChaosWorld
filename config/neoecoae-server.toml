@@ -9,7 +9,7 @@ postCraftingEvent = false
 #Enable ECO infinite storage on the storage controller.
 #Requires 64 infinite components and 16 L9 storage matrices; disabling it blocks new infinite migrations.
 #Existing infinite storage domain files are preserved and are not deleted by this option.
-enableInfiniteStorage = false
+enableInfiniteStorage = true
 #一个 ECO 智能样板总线提供的样板页数。
 #每页可存储 63 个编码样板。
 #Number of pattern pages exposed by one ECO smart pattern bus.
