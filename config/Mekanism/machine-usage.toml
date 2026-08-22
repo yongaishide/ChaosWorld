@@ -85,7 +85,7 @@ fluidicPlenisher = 100
 #Energy per operation in Joules of: Laser
 # Default: 10000
 # Range: 0 ~ 9223372036854775807
-laser = 10000
+laser = 1000000
 #Energy per operation in Joules of: Formulaic Assemblicator
 # Default: 100
 # Range: 0 ~ 9223372036854775807

@@ -912,5 +912,11 @@
       "appflux:energy_processor"
     ],
     "resultItems": "ae2omnicells:complex_link_processor"
+  },
+  {
+    "matchItems": [
+      "ae2cs:resonating_processor"
+    ],
+    "resultItems": "extendedae:concurrent_processor"
   }
 ]
