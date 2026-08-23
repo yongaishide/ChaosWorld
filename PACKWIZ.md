@@ -4,19 +4,11 @@
 
 ## 玩家安装（零配置，Prism / MultiMC）
 
-### 新玩家：直接导入实例
-
-1. 到发行版页面下载 `ChaosWorld-install.zip`：
+1. 到发行版页面下载 `ChaosWorld-AutoUpdate-Patch.zip`：
    - Gitee：https://gitee.com/yongaishide/ChaosWorld/releases
    - GitHub：https://github.com/yongaishide/ChaosWorld/releases
-2. Prism Launcher（或 MultiMC）：添加实例 → 导入 → 选择下载的 zip
-3. 直接启动游戏——每次启动前自动检查并更新，无需任何手动配置
-
-### 老玩家：已装好整合包，开启自动更新
-
-1. 下载 `ChaosWorld-AutoUpdate-Patch.zip`
 2. 解压到已安装的整合包实例文件夹内（与 `instance.cfg` 同级的目录，覆盖同名文件）
-3. 重新启动游戏：自动检查更新并安装；已是最新版本则直接正常启动
+3. 重新启动游戏：自动检查并安装更新；已是最新版本则直接正常启动
 
 > 首次更新会下载全部 mod（约 2GB）与配置文件，请耐心等待。之后每次启动只更新变化的部分。
 > 打补丁后实例的内存/Java 参数会恢复默认，可自行再调。
