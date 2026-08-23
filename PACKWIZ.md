@@ -4,8 +4,9 @@
 
 ## 玩家安装（零配置，Prism / MultiMC）
 
-1. 下载 `ChaosWorld-install.zip`（Gitee 仓库页可直接下载，或：
-   `https://gitee.com/yongaishide/ChaosWorld/raw/main/ChaosWorld-install.zip`）
+1. 到发行版页面下载 `ChaosWorld-install.zip`：
+   - Gitee：https://gitee.com/yongaishide/ChaosWorld/releases
+   - GitHub：https://github.com/yongaishide/ChaosWorld/releases
 2. Prism Launcher（或 MultiMC）：添加实例 → 导入 → 选择下载的 zip
 3. 直接启动游戏——每次启动前自动检查并更新，无需任何手动配置
 
