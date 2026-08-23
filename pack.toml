@@ -1,0 +1,13 @@
+name = "ChaosWorld"
+author = "yongaishide"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "7e0ca2d96715cf5bdc9ca05642fdb379a5a7c6c8354a452d65b3bc89f3fb8fff"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.248"
