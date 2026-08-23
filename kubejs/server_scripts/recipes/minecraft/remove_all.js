@@ -26,7 +26,8 @@ ServerEvents.recipes(event => {
         'actuallyadditions:iron_casing',
         "actuallyadditions:lens_of_the_miner",
         "industrialforegoing:mob_crusher",
-        "industrialforegoing:mob_slaughter_factory"
+        "industrialforegoing:mob_slaughter_factory",
+        "data_energistics:data_carrier"
     ]
 
 	recipeTypeallremove.forEach((item) => {
