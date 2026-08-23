@@ -12,14 +12,46 @@
 	quest_enhance_decorative_lines: [ ]
 	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
-	quests: [{
-		id: "50019251761B4196"
-		tasks: [{
-			id: "701E6F013C6FE975"
-			item: { count: 1, id: "draconicevolution:awakened_core" }
-			type: "item"
-		}]
-		x: -0.5d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			id: "50019251761B4196"
+			tasks: [{
+				id: "701E6F013C6FE975"
+				item: { count: 1, id: "draconicevolution:awakened_core" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			id: "5E69566DF786692A"
+			tasks: [{
+				id: "2D2E7EACF224CE49"
+				item: { count: 1, id: "draconicevolution:awakened_draconium_ingot" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			id: "5C27A3F09BF8BDC4"
+			tasks: [{
+				id: "23B03024EDB2522A"
+				item: { count: 1, id: "chaosworld_core:ingot_draconic_metal" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			id: "18C5C35F4A5B1F0E"
+			tasks: [{
+				id: "163ABE57619AE3D0"
+				item: { count: 1, id: "mysticalagriculture:awakened_supremium_essence" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+	]
 }

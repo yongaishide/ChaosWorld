@@ -28,7 +28,8 @@ ServerEvents.recipes(event => {
         "mekanism:energy_tablet",
         "mekanism:basic_universal_cable",
         "mekanismgenerators:heat_generator",
-        "ae2:crafting_terminal"
+        "ae2:crafting_terminal",
+        "minecraft:ender_eye"
         
         
     ]

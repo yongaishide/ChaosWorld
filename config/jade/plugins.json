@@ -169,6 +169,10 @@
   "pipez": {
     "pipe": true
   },
+  "touhou_little_maid": {
+    "maid": true,
+    "shrine_lamp": true
+  },
   "quark": {
     "oretoise_eating_cooldown": true
   },
@@ -203,11 +207,6 @@
   "compactmachines": {
     "show_owner": false,
     "bound_machine": true
-  },
-  "neoecoae": {
-    "eco_drive": true,
-    "eco_crafting_worker": true,
-    "eco_crafting_system": true
   },
   "jade_access": {
     "held_item": true,

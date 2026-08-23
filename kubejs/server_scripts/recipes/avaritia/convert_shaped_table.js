@@ -1474,12 +1474,12 @@
         pattern: ['BBBCECBBB', 'BDDDADDDB', 'BDSDADSDB', 'CDDDIDDDC', 'EAAISIAAE', 'CDDDIDDDC', 'BDSDADSDB', 'BDDDADDDB', 'BBBCECBBB'],
         key: ({
             A: { item: 'mekanism:ultimate_energy_cube' },
-            B: { item: 'mekanism:induction_casing' },
+            B: { item: "mekanismsun:advance_induction_casing" },
             C: { item: 'mekanism:induction_port' },
-            D: { item: 'mekanism:ultimate_induction_cell' },
-            E: { item: 'mekanism:ultimate_induction_provider' },
+            D: { item: "mekanism_extras:infinite_induction_cell" },
+            E: { item: "mekanism_extras:infinite_induction_provider" },
             I: { item: 'avaritia:infinity_ingot' },
-            S: { item: 'avaritia:infinity_catalyst' }
+            S: { item: "chaosworld_core:dimensional_catalyst" }
         }),
         result: { id: 'mekanism:creative_energy_cube' }
     })
@@ -1490,12 +1490,12 @@
         pattern: ['BBBCECBBB', 'BDDDADDDB', 'BDSDADSDB', 'CDDDIDDDC', 'EAAISIAAE', 'CDDDIDDDC', 'BDSDADSDB', 'BDDDADDDB', 'BBBCECBBB'],
         key: ({
             A: { item: 'mekanism:ultimate_energy_cube' },
-            B: { item: 'mekanism:induction_casing' },
+            B: { item: "mekanismsun:advance_induction_casing" },
             C: { item: 'mekanism:induction_port' },
-            D: { item: 'mekanism:ultimate_induction_cell' },
-            E: { item: 'mekanism:ultimate_induction_provider' },
+            D: { item: "mekanism_extras:infinite_induction_cell" },
+            E: { item: "mekanism_extras:infinite_induction_provider" },
             I: { item: 'avaritia:infinity_ingot' },
-            S: { item: 'avaritia:infinity_catalyst' }
+            S: { item: "chaosworld_core:dimensional_catalyst" }
         }),
         result: { id: 'mekanism:creative_energy_cube' },
         show_notification: false

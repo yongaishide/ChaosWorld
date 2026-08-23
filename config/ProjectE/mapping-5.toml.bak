@@ -468,6 +468,31 @@ logFoundExploits = true
 			#Determines whether this Recipe Type Mapper is enabled.
 			enabled = true
 
+		#ProjectE-Integration Recipe Mapper for Actually Additions Empowerer Mapper. Required Mods: [actuallyadditions]
+		[mappers.Crafting-Mapper.ActuallyAdditionsEmpowererMapper]
+			#Determines whether this Recipe Type Mapper is enabled.
+			enabled = true
+
+		#ProjectE-Integration Recipe Mapper for Actually Additions Crushing Mapper. Required Mods: [actuallyadditions]
+		[mappers.Crafting-Mapper.ActuallyAdditionsCrushingMapper]
+			#Determines whether this Recipe Type Mapper is enabled.
+			enabled = true
+
+		#ProjectE-Integration Recipe Mapper for Actually Additions Fermenting Mapper. Required Mods: [actuallyadditions]
+		[mappers.Crafting-Mapper.ActuallyAdditionsFermentingMapper]
+			#Determines whether this Recipe Type Mapper is enabled.
+			enabled = true
+
+		#ProjectE-Integration Recipe Mapper for Actually Additions Pressing Mapper. Required Mods: [actuallyadditions]
+		[mappers.Crafting-Mapper.ActuallyAdditionsPressingMapper]
+			#Determines whether this Recipe Type Mapper is enabled.
+			enabled = true
+
+		#ProjectE-Integration Recipe Mapper for Actually Additions Laser Mapper. Required Mods: [actuallyadditions]
+		[mappers.Crafting-Mapper.ActuallyAdditionsLaserMapper]
+			#Determines whether this Recipe Type Mapper is enabled.
+			enabled = true
+
 	#Set EMC=0 for everything in the c:raw_materials tag.
 	[mappers.Raw-Ore-Blacklist-Mapper]
 		#Determines whether this EMC Mapper is enabled.

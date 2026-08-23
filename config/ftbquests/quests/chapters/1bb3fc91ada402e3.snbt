@@ -14,17 +14,93 @@
 	quest_links: [{
 		id: "0F9A69B7DF8EA973"
 		linked_quest: "61D2EDC385ADAD2C"
-		x: -1.5d
+		x: -4.0d
 		y: -1.0d
 	}]
-	quests: [{
-		id: "5FB3495EBECEEEB6"
-		tasks: [{
-			id: "768583B5CDE2A88F"
-			item: { count: 1, id: "data_energistics:data_reassembler" }
-			type: "item"
-		}]
-		x: 3.5d
-		y: -1.0d
-	}]
+	quests: [
+		{
+			dependencies: ["54DB997063249FCA"]
+			id: "5FB3495EBECEEEB6"
+			tasks: [{
+				id: "768583B5CDE2A88F"
+				item: { count: 1, id: "data_energistics:data_reassembler" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["100A7C29203926B1"]
+			id: "487A2FD75215DAC3"
+			tasks: [{
+				id: "61AAFF786FB64719"
+				item: { components: { "ae2:stored_energy": 1000.0d }, count: 1, id: "data_energistics:radix_containment_sphere" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["61D2EDC385ADAD2C"]
+			id: "100A7C29203926B1"
+			tasks: [{
+				id: "4264F332EC7C4AD7"
+				item: { count: 1, id: "ifeu:arcane_dragon_egg_forging" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5FB3495EBECEEEB6"]
+			id: "0C3FEA608831610B"
+			tasks: [{
+				id: "69627FB12259CEE7"
+				item: { count: 1, id: "data_energistics:data_crystal" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			id: "54DB997063249FCA"
+			tasks: [{
+				id: "643CC555CD54FEF5"
+				item: { count: 1, id: "draconicevolution:wyvern_core" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			id: "573D97270EB7F700"
+			tasks: [{
+				id: "2A67FEB9EF3AD584"
+				item: { count: 1, id: "chaosworld_core:ingot_wyvern_metal" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "3AFF4E106C61B8EE"
+			tasks: [{
+				id: "22CCBA8DB0ECAD73"
+				item: { count: 1, id: "draconicevolution:wyvern_energy_core" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			id: "2A5484C83E4CAB3C"
+			tasks: [{
+				id: "3AFAD36AC684596E"
+				item: { count: 1, id: "draconicevolution:wyvern_crafting_injector" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.5d
+		}
+	]
 }

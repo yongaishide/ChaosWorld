@@ -10,12 +10,15 @@
     },
     "T": {
       "item": "pneumaticcraft:pressure_tube"
+    },
+    "D": {
+      "item": "extendedae:machine_frame"
     }
   },
   "pattern": [
     " B ",
     "TBB",
-    "III"
+    "IDI"
   ],
   "result": {
     "count": 1,

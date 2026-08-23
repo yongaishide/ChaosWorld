@@ -19,14 +19,14 @@
 	}]
 	quests: [
 		{
-			dependencies: ["0D83CD47B45B50B4"]
+			dependencies: ["55AEBF82CAD3F5E2"]
 			id: "0DD0F6A063F98E47"
 			tasks: [{
 				id: "7715D8EE247E9A75"
 				item: { count: 1, id: "mekanism:enrichment_chamber" }
 				type: "item"
 			}]
-			x: 6.5d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
@@ -85,23 +85,36 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["4BF6A9218F7DEF29"]
 			id: "61D2EDC385ADAD2C"
 			tasks: [{
 				id: "20A8D5484231D290"
 				item: { count: 1, id: "industrialforegoing:machine_frame_supreme" }
 				type: "item"
 			}]
-			x: 14.0d
+			x: 14.5d
 			y: -2.0d
 		}
 		{
+			dependencies: ["4E2B3936137B16FE"]
 			id: "40FF64A45A6A88A4"
 			tasks: [{
 				id: "16CC8ECD946966F7"
 				item: { count: 1, id: "draconicevolution:draconium_core" }
 				type: "item"
 			}]
-			x: 11.0d
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["40FF64A45A6A88A4"]
+			id: "4BF6A9218F7DEF29"
+			tasks: [{
+				id: "74B6404DB8E9B5B8"
+				item: { count: 1, id: "draconicevolution:crafting_core" }
+				type: "item"
+			}]
+			x: 12.5d
 			y: -2.0d
 		}
 	]

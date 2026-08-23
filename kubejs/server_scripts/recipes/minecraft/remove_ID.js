@@ -49,7 +49,8 @@ ServerEvents.recipes(event => {
         'ae2:network/blocks/crystal_processing_charger',
         'ae2cs:mechanical_crafting/rose_quartz_seed',
         'mekanismgenerators:generator/wind',
-        'gateways:basic/enderman'
+        'gateways:basic/enderman',
+        'industrialforegoing:plastic'
     ]
     recipeTypeshapeless.forEach((item) => {
         event.remove({ id: item })

@@ -16,6 +16,12 @@
 		{
 			dependencies: ["1891C245D48ADC3F"]
 			id: "334E64F6DB734989"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0BD9BA21563B995E"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
 			tasks: [{
 				count: 27L
 				id: "725D1213D9F43A57"
@@ -28,6 +34,12 @@
 		{
 			dependencies: ["5C37E68B0948402D"]
 			id: "1891C245D48ADC3F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42DF5ACFE0C5C679"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6129AD92076A0AC4"
 				item: { count: 1, id: "immersiveengineering:hempcrete" }
@@ -39,6 +51,12 @@
 		{
 			dependencies: ["7BE82C704232E651"]
 			id: "5C37E68B0948402D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F29DB002B24CA10"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
 			tasks: [{
 				id: "244D245BF4937773"
 				item: { count: 1, id: "immersiveengineering:hemp_fiber" }
@@ -50,6 +68,12 @@
 		{
 			dependencies: ["334E64F6DB734989"]
 			id: "3F45A062D29CB428"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62DF0EFA6085BDEE"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3343D29E212062C9"
 				item: { count: 1, id: "immersiveengineering:coal_coke" }
@@ -61,6 +85,12 @@
 		{
 			dependencies: ["1891C245D48ADC3F"]
 			id: "6154730899D5DC24"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02A1BE8E1B43B453"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1E4228A505C3BFB5"
 				item: { count: 1, id: "immersiveengineering:blastbrick" }
@@ -72,6 +102,12 @@
 		{
 			dependencies: ["6154730899D5DC24"]
 			id: "03EA598AA6016CF5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E11604CDB04C13B"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0EDB5214708F6BB8"
 				item: { count: 1, id: "alltheores:steel_ingot" }
@@ -83,6 +119,12 @@
 		{
 			dependencies: ["3F45A062D29CB428"]
 			id: "6CE917D464E26AEB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4EAC9A91D797F9C5"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
 			tasks: [{
 				count: 8L
 				id: "1A4C5B5ACCB85DD9"
@@ -95,6 +137,12 @@
 		{
 			dependencies: ["6C5E33EEDAA5C40B"]
 			id: "6296DDEFD4A3DD27"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D865F1F74F9F846"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3C1342575A0F384D"
 				item: { count: 1, id: "enderio:redstone_alloy_ingot" }
@@ -106,6 +154,12 @@
 		{
 			dependencies: ["03EA598AA6016CF5"]
 			id: "6C5E33EEDAA5C40B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C3BF3460C10EBF2"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
 			tasks: [{
 				id: "45BDFD592C0EA718"
 				item: { count: 1, id: "alloy_smelter:forge_controller_tier2" }
@@ -117,6 +171,12 @@
 		{
 			dependencies: ["6296DDEFD4A3DD27"]
 			id: "1686FB9553ACAFE4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6818AA9AFCAD02BC"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5A075CBC766EE260"
 				item: { count: 1, id: "immersiveengineering:rs_engineering" }
@@ -128,6 +188,12 @@
 		{
 			dependencies: ["6C5E33EEDAA5C40B"]
 			id: "72750ADAC83591C2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E088A96749AC622"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0FB4BAD2F898A9A4"
 				item: { count: 1, id: "chaosworld_core:ingot_tech_1" }
@@ -139,6 +205,12 @@
 		{
 			dependencies: ["6296DDEFD4A3DD27"]
 			id: "17105BFFD763E3BE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A846498ACE76DB9"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2F1954689D0845D2"
 				item: { count: 1, id: "chaosworld_core:ingot_tech_2" }
@@ -150,6 +222,12 @@
 		{
 			dependencies: ["17105BFFD763E3BE"]
 			id: "0127B9AF5F4E8CF2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77AC5C5D8096D4AF"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
 			tasks: [{
 				id: "465FD9C64053D082"
 				item: { count: 1, id: "immersiveengineering:heavy_engineering" }
@@ -164,6 +242,12 @@
 				"522B978D1D85DF9E"
 			]
 			id: "358A3B366239EDDA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "560730BA8C61037C"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2FC5265678A2D124"
 				item: { count: 1, id: "immersiveengineering:graphite_electrode" }
@@ -178,6 +262,12 @@
 				"7212D6FED17B9305"
 			]
 			id: "1F379E4879715AEB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40B89487035C70F6"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
 			tasks: [{
 				id: "67011A70F8BE4839"
 				item: { count: 1, id: "immersiveengineering:dust_hop_graphite" }
@@ -189,6 +279,12 @@
 		{
 			dependencies: ["711C62EA2E9076EE"]
 			id: "3137548559C85FBA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15B1F0EE137D7997"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
@@ -202,6 +298,12 @@
 		{
 			dependencies: ["4E8ADB3B1FE7D6E8"]
 			id: "7212D6FED17B9305"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3620118B4787DEBE"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
 			tasks: [{
 				id: "60D77F116C0C0630"
 				item: { count: 1, id: "immersiveengineering:dust_coke" }
@@ -213,6 +315,12 @@
 		{
 			dependencies: ["1686FB9553ACAFE4"]
 			id: "4E8ADB3B1FE7D6E8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "760705C7F6082B6B"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
 			tasks: [{
 				icon: {
 					id: "immersiveengineering:crusher"
@@ -230,6 +338,12 @@
 		{
 			dependencies: ["358A3B366239EDDA"]
 			id: "683FA8DA5355B568"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04B9C615C2F3BFA8"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
 			tasks: [{
 				icon: {
 					id: "immersiveengineering:arc_furnace"
@@ -247,6 +361,12 @@
 		{
 			dependencies: ["0127B9AF5F4E8CF2"]
 			id: "522B978D1D85DF9E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "45F7A5402763AD5F"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
 			tasks: [{
 				icon: {
 					id: "immersiveengineering:metal_press"
@@ -264,6 +384,12 @@
 		{
 			dependencies: ["1686FB9553ACAFE4"]
 			id: "64EF8877E25069D3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52F8B67F45019890"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
 			tasks: [{
 				icon: {
 					id: "immersiveengineering:squeezer"
@@ -281,6 +407,12 @@
 		{
 			dependencies: ["72750ADAC83591C2"]
 			id: "1C2067896E07451A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64A859F8DD733334"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3996684E96C121C7"
 				item: { count: 1, id: "immersiveengineering:light_engineering" }
@@ -292,6 +424,12 @@
 		{
 			dependencies: ["334E64F6DB734989"]
 			id: "278C09B08DBF6153"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C6D913CBCB9A685"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
 			tasks: [{
 				fluid: {
 					amount: 1000
@@ -309,6 +447,12 @@
 				"4AB4C21598BD6A12"
 			]
 			id: "7834D0649FD0874F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2DB06475F0766A37"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
 			tasks: [{
 				id: "61E0B22A83F44062"
 				item: { count: 1, id: "immersiveengineering:treated_wood_horizontal" }
@@ -320,6 +464,12 @@
 		{
 			dependencies: ["7BE82C704232E651"]
 			id: "4AB4C21598BD6A12"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03CE80DF925C62DF"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6F4510E4F7DDB1B0"
 				item: { count: 1, id: "create:spout" }
@@ -331,6 +481,12 @@
 		{
 			dependencies: ["7834D0649FD0874F"]
 			id: "711C62EA2E9076EE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55B4F2D39F645B16"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
 			tasks: [{
 				id: "40C18A469F77DB9C"
 				item: { count: 1, id: "immersiveengineering:workbench" }
@@ -340,77 +496,24 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["683FA8DA5355B568"]
-			id: "2253226C1919FFDE"
-			tasks: [{
-				id: "39B3FE8DCC9E6FCC"
-				item: { count: 1, id: "pneumaticcraft:reinforced_stone" }
-				type: "item"
-			}]
-			x: 15.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["2253226C1919FFDE"]
-			icon: {
-				id: "pneumaticcraft:pressure_chamber_wall"
-			}
-			id: "6509D4C15F29CDEE"
-			tasks: [
-				{
-					id: "269B5177AFF05A09"
-					item: { count: 1, id: "pneumaticcraft:pressure_chamber_wall" }
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "4438B3796BF01B14"
-					item: { count: 1, id: "pneumaticcraft:pressure_chamber_interface" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "3DB9EB4570A0A289"
-					item: { count: 1, id: "pneumaticcraft:pressure_chamber_valve" }
-					type: "item"
-				}
-			]
-			x: 17.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["6509D4C15F29CDEE"]
-			id: "1D1F4A4A096EE030"
-			tasks: [{
-				id: "52925662DFD7A2C8"
-				item: { count: 1, id: "pneumaticcraft:empty_pcb" }
-				type: "item"
-			}]
-			x: 20.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["1D1F4A4A096EE030"]
-			id: "2BAED3D049D94FA3"
-			tasks: [{
-				id: "051A680D7D027C4A"
-				item: { count: 1, id: "pneumaticcraft:unassembled_pcb" }
-				type: "item"
-			}]
-			x: 22.0d
-			y: 4.0d
-		}
-		{
 			dependencies: ["7BE82C704232E651"]
 			id: "004E10BDB05C90E2"
-			rewards: [{
-				id: "6C543D136E5F83F9"
-				item: {
-					count: 1
-					id: "ae2:mysterious_cube"
+			rewards: [
+				{
+					id: "6C543D136E5F83F9"
+					item: {
+						count: 1
+						id: "ae2:mysterious_cube"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "2FDC2BDFBDFF3842"
+					table_id: 5798946034287369178L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "73D78E7E31C3CEEE"
 				item: { count: 1, id: "ae2:sky_stone_block" }
@@ -422,6 +525,12 @@
 		{
 			dependencies: ["004E10BDB05C90E2"]
 			id: "6B7884AF3CD6C9DA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "307FC3BF38184D2B"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
 			tasks: [{
 				id: "53FF3B00B4B5F09B"
 				item: { count: 1, id: "ae2:sky_dust" }
@@ -433,6 +542,12 @@
 		{
 			dependencies: ["1C2067896E07451A"]
 			id: "319A9151928FAF29"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "73210C361F58A4FD"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
 			tasks: [{
 				id: "706686941D70E2D1"
 				item: { count: 1, id: "ae2:inscriber" }
@@ -444,6 +559,12 @@
 		{
 			dependencies: ["6B7884AF3CD6C9DA"]
 			id: "3432AD4EECF6AC6A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D923F1B057C91B9"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4945FB71FE9B4C81"
 				item: { count: 1, id: "ae2cs:meteor_seed" }
@@ -458,6 +579,12 @@
 				"14C97AA6221400F2"
 			]
 			id: "5FBF91883E98D4DA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74D7646A94C84BE9"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
 			tasks: [{
 				id: "71D1A072FB130A28"
 				item: { count: 1, id: "actuallyadditions:iron_casing" }
@@ -469,6 +596,12 @@
 		{
 			dependencies: ["51B7F56EFFA0D046"]
 			id: "14C97AA6221400F2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1893BF7283E8D8EE"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
 			tasks: [{
 				id: "185976008200227F"
 				item: { count: 1, id: "alltheores:iron_plate" }
@@ -480,6 +613,12 @@
 		{
 			dependencies: ["33B884E73BF1E8A2"]
 			id: "51B7F56EFFA0D046"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BC3F19A3FE3BC69"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4D8C55F4D71F38CC"
 				item: { count: 1, id: "create:mechanical_press" }
@@ -491,6 +630,12 @@
 		{
 			dependencies: ["7BE82C704232E651"]
 			id: "33B884E73BF1E8A2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "58C2C01A333D7708"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
 			tasks: [{
 				id: "790457993F70624D"
 				item: { count: 1, id: "create:andesite_casing" }
@@ -502,6 +647,12 @@
 		{
 			dependencies: ["2BB4EC2A82263EC9"]
 			id: "2AFC51C204AAE490"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "153814E020C1EBEF"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
 			tasks: [{
 				id: "42CAB1DBFDCA1C72"
 				item: { count: 1, id: "ae2:fluix_crystal" }
@@ -513,6 +664,12 @@
 		{
 			dependencies: ["711C62EA2E9076EE"]
 			id: "5765EA80754ACCC7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51F6F908C6FEF8AA"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0339D81D45446B56"
 				item: { count: 1, id: "immersiveengineering:electron_tube" }
@@ -524,6 +681,12 @@
 		{
 			dependencies: ["5765EA80754ACCC7"]
 			id: "2BB4EC2A82263EC9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57E5077F3A5A780C"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6DF3F405DA560CEC"
 				item: { count: 1, id: "ae2:charged_certus_quartz_crystal" }
@@ -542,12 +705,20 @@
 				id: "ae2:controller"
 			}
 			id: "1E759BD8CC5BEAB1"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "08BEF022A9FF5F01"
-				table_id: 7082221379633997223L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "08BEF022A9FF5F01"
+					table_id: 7082221379633997223L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "066D1685EE4FE601"
+					table_id: 5798946034287369178L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "1A3A504AB9881D42"
 				item: { count: 1, id: "ae2:controller" }
@@ -559,14 +730,22 @@
 		{
 			dependencies: ["319A9151928FAF29"]
 			id: "4A9E813977CAC5E2"
-			rewards: [{
-				id: "52815B51461463D9"
-				item: {
-					count: 1
-					id: "ae2lt:pigmee_core"
+			rewards: [
+				{
+					id: "52815B51461463D9"
+					item: {
+						count: 1
+						id: "ae2lt:pigmee_core"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "2F3A7BFA77E23B15"
+					table_id: 5798946034287369178L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "5CD12F9EB89EB2A0"
 				item: { count: 1, id: "ae2:drive" }
@@ -578,6 +757,12 @@
 		{
 			dependencies: ["1E759BD8CC5BEAB1"]
 			id: "76CE2B1D7C026BD9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C2000403B09147A"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6EB36C78EAD463F0"
 				item: { count: 1, id: "ae2lt:pigmee_molecular_assembler" }
@@ -589,6 +774,12 @@
 		{
 			dependencies: ["1E759BD8CC5BEAB1"]
 			id: "3DB9A5433772AD7A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40B9855F7CE8E5F1"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
 			tasks: [{
 				id: "68DD10EA0B96F735"
 				item: { count: 1, id: "ae2lt:pigmee_pattern_provider" }
@@ -600,6 +791,12 @@
 		{
 			dependencies: ["1E759BD8CC5BEAB1"]
 			id: "00627D73E0613230"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6EBFA51158C03A98"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1C8DE0A8B61BB666"
 				item: { count: 1, id: "ae2lt:pigmee_mentalmath_unit" }
@@ -611,6 +808,12 @@
 		{
 			dependencies: ["711C62EA2E9076EE"]
 			id: "63C77B6668460099"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28F06759393E8668"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4EDB071236C97F5E"
 				item: { count: 1, id: "mekanismgenerators:wind_generator" }
@@ -618,6 +821,23 @@
 			}]
 			x: -2.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["1686FB9553ACAFE4"]
+			id: "74E628EDB3557BF7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28EB78C18EA9ED40"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7A8B39E632F570B9"
+				item: { count: 1, id: "immersiveengineering:furnace_heater" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
 		}
 	]
 }

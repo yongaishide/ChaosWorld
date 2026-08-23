@@ -4,11 +4,14 @@
   "key": {
     "I": {
       "item": "pneumaticcraft:reinforced_bricks"
+    },
+    "P": {
+      "item": "industrialforegoing:machine_frame_pity"
     }
   },
   "pattern": [
     "III",
-    "I I",
+    "IPI",
     "III"
   ],
   "result": {

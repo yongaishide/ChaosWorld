@@ -27,15 +27,29 @@
 	]
 	quest.1E759BD8CC5BEAB1.quest_subtitle: "选择你的频道数量"
 	quest.223E859154A32203.quest_subtitle: "&d你不会在用猪咪口算单元吧？"
+	quest.27396FAD0E26FAD0.quest_subtitle: "熔融塑料倒地上也行"
 	quest.2AFC51C204AAE490.quest_subtitle: "挖不着紫水晶还想玩AE"
 	quest.2FD4EC14E4C6AA6B.title: "通量合成"
+	quest.33309F072446917E.quest_desc: [
+		"只有&d猪咪&r还在用熔岩或者涡流管"
+		"[ \"聪明的人已经用上了\", { \"text\": \"外置加热器\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"74E628EDB3557BF7\" } } ]"
+		"[ \"更聪明的人用上了\", { \"text\": \"电阻型加热器\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7DC0BC86C0F92BE5\" } }, \"，虽然有点耗电\" ]"
+	]
+	quest.33309F072446917E.quest_subtitle: "简易蒸馏塔"
 	quest.3DB9A5433772AD7A.quest_subtitle: "猪咪才会用这个"
 	quest.41E123C6B5F105C7.quest_subtitle: "&d你不会在用猪咪存储组件吧？"
 	quest.44B1D89C5D74BE65.quest_desc: ["                  &l这本书应该会包含整合包的所有内容&r"]
 	quest.44B1D89C5D74BE65.quest_subtitle: "看看这本书吧"
 	quest.44B1D89C5D74BE65.title: "整合包介绍"
+	quest.487A2FD75215DAC3.quest_desc: ["能量耗尽会直接消失，使用时请注意能量消耗"]
 	quest.49D62DB9E3263F9D.quest_desc: ["通量能源端口允许你通过通量网络直接访问龙球的存储系统，而无需使用传统的能量塔进行繁琐的中转操作"]
 	quest.4A9E813977CAC5E2.quest_subtitle: "领了默认你是猪咪"
+	quest.4F2F703E5B15578C.quest_desc: [
+		"装配线的使用非常简单，不要把他想的太过复杂"
+		"首先需要准备一个&6装配平台&r，在他的旁边放上&6装配钻头、装配激光、装配台交互设备(&a输入&r)(&9输出&r)&r，再把&6装配台&r放在旁边就行。"
+		"其中&6装配台交互设备(&a输入&r)(&9输出&r)&r会自动识别周围的箱子，然后从里面拿出原料和放入产物"
+	]
+	quest.4F2F703E5B15578C.quest_subtitle: "装配线"
 	quest.5363061E91654005.quest_desc: [
 		"目前只用于无线充能。"
 		""
@@ -72,6 +86,7 @@
 		"所有来自较低级别冶炼炉的配方都可以在更高级别的冶炼炉中使用，并提升冶炼速度。"
 		"{image:kubejs:item/alloy_smelter width:100 height:50 align:center fit:true click_action:none:}"
 	]
+	quest.74E628EDB3557BF7.title: "&6外置加热器&r"
 	quest.76CE2B1D7C026BD9.quest_subtitle: "猪咪才会用这个"
 	quest.783C7A74612F9848.quest_desc: ["通量感应端口允许你通过通量网络直接访问感应矩阵的存储系统"]
 	quest.7BE82C704232E651.quest_subtitle: "获得工作台"
@@ -97,6 +112,7 @@
 	task.5F861E79CA961C38.title: "观察电弧炉"
 	task.68A5D5ECFC99A63E.title: "观察金属冲压机"
 	task.75E74B5F511D5402.title: "观察工业挤压机"
+	task.7A8B39E632F570B9.title: "&6外置加热器&r"
 	task.7A9F21B8F7084700.title: "整合包介绍"
 	task.7D60DECBE1747EC4.title: "装配矩阵墙壁"
 }

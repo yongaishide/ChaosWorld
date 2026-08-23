@@ -16,7 +16,7 @@
 		linked_quest: "3137548559C85FBA"
 		shape: "gear"
 		size: 2.0d
-		x: -4.0d
+		x: -3.5d
 		y: 0.0d
 	}]
 	quests: [
@@ -28,29 +28,7 @@
 				item: { count: 1, id: "industrialforegoing:fluid_extractor" }
 				type: "item"
 			}]
-			x: -6.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["3C988B84724E98E6"]
-			id: "2A8FB643232F6C7C"
-			tasks: [{
-				id: "05A1E6263875138B"
-				item: { count: 1, id: "industrialforegoing:dryrubber" }
-				type: "item"
-			}]
-			x: -13.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6EE24CB5B31A45EF"]
-			id: "3C988B84724E98E6"
-			tasks: [{
-				id: "0047DCD5F050F57C"
-				item: { count: 1, id: "industrialforegoing:latex_processing_unit" }
-				type: "item"
-			}]
-			x: -11.5d
+			x: -5.5d
 			y: 0.0d
 		}
 		{
@@ -64,19 +42,19 @@
 				id: "45FFD4F530A4CA1C"
 				type: "fluid"
 			}]
-			x: -9.0d
+			x: -7.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["2A8FB643232F6C7C"]
+			dependencies: ["0D4CD52D3B40877E"]
 			id: "27396FAD0E26FAD0"
 			tasks: [{
 				id: "0AD121C534D6466E"
 				item: { count: 1, id: "industrialforegoing:plastic" }
 				type: "item"
 			}]
-			x: -15.5d
-			y: 0.0d
+			x: -1.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["3137548559C85FBA"]
@@ -269,6 +247,165 @@
 			}]
 			x: 4.0d
 			y: 6.0d
+		}
+		{
+			dependencies: ["683FA8DA5355B568"]
+			id: "2253226C1919FFDE"
+			tasks: [{
+				id: "39B3FE8DCC9E6FCC"
+				item: { count: 1, id: "pneumaticcraft:reinforced_stone" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2253226C1919FFDE"
+				"3137548559C85FBA"
+			]
+			icon: {
+				id: "pneumaticcraft:pressure_chamber_wall"
+			}
+			id: "6509D4C15F29CDEE"
+			tasks: [
+				{
+					id: "269B5177AFF05A09"
+					item: { count: 1, id: "pneumaticcraft:pressure_chamber_wall" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4438B3796BF01B14"
+					item: { count: 1, id: "pneumaticcraft:pressure_chamber_interface" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3DB9EB4570A0A289"
+					item: { count: 1, id: "pneumaticcraft:pressure_chamber_valve" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["27396FAD0E26FAD0"]
+			id: "1D1F4A4A096EE030"
+			tasks: [{
+				id: "52925662DFD7A2C8"
+				item: { count: 1, id: "pneumaticcraft:empty_pcb" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"4F2F703E5B15578C"
+				"37CB7442517B4A6C"
+				"1D1F4A4A096EE030"
+			]
+			dependency_requirement: "one_completed"
+			id: "2BAED3D049D94FA3"
+			tasks: [{
+				id: "051A680D7D027C4A"
+				item: { count: 1, id: "pneumaticcraft:unassembled_pcb" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7434004913A44270"]
+			id: "4F2F703E5B15578C"
+			tasks: [{
+				id: "0B114874D46B4815"
+				item: { count: 1, id: "pneumaticcraft:assembly_controller" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0D4CD52D3B40877E"]
+			id: "37CB7442517B4A6C"
+			tasks: [
+				{
+					id: "274CF68F57214E1D"
+					item: { count: 1, id: "pneumaticcraft:etching_acid_bucket" }
+					type: "item"
+				}
+				{
+					id: "15E3E49DE71E37FC"
+					item: { count: 1, id: "pneumaticcraft:etching_tank" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"135D0D009E96A604"
+				"7353A5C22967BB14"
+			]
+			id: "0D4CD52D3B40877E"
+			tasks: [{
+				fluid: {
+					amount: 1000
+					id: "pneumaticcraft:plastic"
+				}
+				id: "6E300D382CB150AC"
+				type: "fluid"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2253226C1919FFDE"]
+			id: "135D0D009E96A604"
+			tasks: [{
+				id: "1C6C49FF393AF54E"
+				item: { count: 1, id: "pneumaticcraft:thermopneumatic_processing_plant" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2253226C1919FFDE"]
+			id: "33309F072446917E"
+			tasks: [
+				{
+					id: "16E719614F9B6A8D"
+					item: { count: 1, id: "pneumaticcraft:refinery" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "235ED13BE31963B4"
+					item: { count: 1, id: "pneumaticcraft:refinery_output" }
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["33309F072446917E"]
+			id: "7353A5C22967BB14"
+			tasks: [{
+				fluid: {
+					amount: 1
+					id: "pneumaticcraft:lpg"
+				}
+				id: "60755C1EC2934420"
+				type: "fluid"
+			}]
+			x: -3.5d
+			y: -6.0d
 		}
 	]
 }

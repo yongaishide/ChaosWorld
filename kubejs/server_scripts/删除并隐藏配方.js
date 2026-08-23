@@ -156,7 +156,10 @@ const HIDE_ITEMS = [
     "ae2cs:simple_pattern_provider",
     "ae2cs:simple_pattern_provider_part",
     "ae2cs:simple_processor",
-    "appflux:printed_energy_processor"
+    "appflux:printed_energy_processor",
+    "ae2:condenser",
+    "industrialforegoing:latex_processing_unit",
+    "industrialforegoing:dryrubber"
 ]
 
 ServerEvents.recipes(event => {

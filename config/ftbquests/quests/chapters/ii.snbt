@@ -343,5 +343,16 @@
 			x: 5.0d
 			y: -3.0d
 		}
+		{
+			dependencies: ["4F12CF990DC17183"]
+			id: "7DC0BC86C0F92BE5"
+			tasks: [{
+				id: "45F2D365F8B585D9"
+				item: { count: 1, id: "mekanism:resistive_heater" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
 	]
 }
