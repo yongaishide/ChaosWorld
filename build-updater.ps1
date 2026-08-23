@@ -83,7 +83,8 @@ foreach ($e in ($entries | Sort-Object rel)) {
 }
 
 $indexPath = Join-Path $RepoPath "index.toml"
-[System.IO.File]::WriteAllText($indexPath, $sb.ToString(), (New-Object System.Text.UTF8Encoding($false)))
+$indexText = $sb.ToString().Replace("`r`n", "`n")
+[System.IO.File]::WriteAllText($indexPath, $indexText, (New-Object System.Text.UTF8Encoding($false)))
 $indexHash = (Get-FileHash -LiteralPath $indexPath -Algorithm SHA256).Hash.ToLower()
 
 $packText = @"
@@ -101,6 +102,7 @@ hash = "$indexHash"
 minecraft = "$mcVersion"
 neoforge = "$loaderVersion"
 "@
+$packText = $packText.Replace("`r`n", "`n")
 [System.IO.File]::WriteAllText((Join-Path $RepoPath "pack.toml"), $packText, (New-Object System.Text.UTF8Encoding($false)))
 
 Write-Host "entries: $($entries.Count) (mods via CDN: $(($entries | Where-Object url).Count), from repo: $(($entries | Where-Object { -not $_.url }).Count))"
