@@ -83,7 +83,16 @@ $zipPath = Join-Path $RepoPath "$Name-install.zip"
 if (Test-Path -LiteralPath $zipPath) { Remove-Item -LiteralPath $zipPath -Force }
 [System.IO.Compression.ZipFile]::CreateFromDirectory($Tmp, $zipPath, [System.IO.Compression.CompressionLevel]::Optimal, $false)
 
+$patchRoot = Join-Path $Tmp "patch"
+$patchMc = Join-Path $patchRoot ".minecraft"
+New-Item -ItemType Directory -Path $patchMc -Force | Out-Null
+[System.IO.File]::WriteAllText((Join-Path $patchRoot "instance.cfg"), $cfg, $utf8)
+Copy-Item -LiteralPath (Join-Path $RepoPath "packwiz-installer.jar") -Destination (Join-Path $patchMc "packwiz-installer.jar") -Force
+$patchZip = Join-Path $RepoPath "$Name-AutoUpdate-Patch.zip"
+if (Test-Path -LiteralPath $patchZip) { Remove-Item -LiteralPath $patchZip -Force }
+[System.IO.Compression.ZipFile]::CreateFromDirectory($patchRoot, $patchZip, [System.IO.Compression.CompressionLevel]::Optimal, $false)
+
 Remove-Item -LiteralPath $Tmp -Recurse -Force
 
-Write-Host "generated: $zipPath"
-Write-Host "players import this zip in Prism/MultiMC, then launch - auto update runs automatically"
+Write-Host "generated: $zipPath (new instance import)"
+Write-Host "generated: $patchZip (unzip into existing instance folder)"
