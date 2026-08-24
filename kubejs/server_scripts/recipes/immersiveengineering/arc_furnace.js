@@ -72,5 +72,16 @@ ServerEvents.recipes((event) => {
             "results":[{"basePredicate":{"item":"alltheores:enderium_ingot"},"count":3}],
             "time":100}
     )
+    //炽铁锭
+    event.custom(
+        {"type":"immersiveengineering:arc_furnace",
+            "additives":[
+                {"basePredicate":{"tag":'twilightforest:fiery_vial'},"count":1}
+            ],
+            "energy":51200,
+            "input":{"basePredicate":{"item":"chaosworld_core:ingot_tech_2"},"count":2},
+            "results":[{"basePredicate":{"item":"twilightforest:fiery_ingot"},"count":2}],
+            "time":100}
+    )
 
 })

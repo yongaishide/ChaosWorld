@@ -1,0 +1,30 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "type":"neoforge:single","amount":1000,"fluid":"minecraft:lava"
+        },
+        {
+            "item": "powah:crystal_blazing"
+        },
+        {
+            "item": "powah:crystal_blazing"
+        },
+        {
+            "item": "justdirethings:blazegold_ingot"
+        },
+        {
+            "item": "justdirethings:blazegold_ingot"
+        },
+        {
+            "item": "twilightforest:fiery_ingot"
+        },
+        {
+            "item": "twilightforest:fiery_ingot"
+        }
+    ],
+    "heatRequirement": "heated",
+    "results": [
+        {"id":"rainbowcompound:blazeite_ingot","count":2}
+    ]
+}

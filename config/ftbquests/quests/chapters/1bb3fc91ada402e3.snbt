@@ -14,7 +14,7 @@
 	quest_links: [{
 		id: "0F9A69B7DF8EA973"
 		linked_quest: "61D2EDC385ADAD2C"
-		x: -4.0d
+		x: -6.0d
 		y: -1.0d
 	}]
 	quests: [
@@ -37,7 +37,7 @@
 				item: { components: { "ae2:stored_energy": 1000.0d }, count: 1, id: "data_energistics:radix_containment_sphere" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -2.0d
 			y: -1.0d
 		}
 		{
@@ -48,7 +48,7 @@
 				item: { count: 1, id: "ifeu:arcane_dragon_egg_forging" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -4.0d
 			y: -1.0d
 		}
 		{
@@ -63,6 +63,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["573D97270EB7F700"]
 			id: "54DB997063249FCA"
 			tasks: [{
 				id: "643CC555CD54FEF5"
@@ -79,18 +80,19 @@
 				item: { count: 1, id: "chaosworld_core:ingot_wyvern_metal" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -3.0d
+			x: 2.0d
+			y: -1.0d
 		}
 		{
+			dependencies: ["573D97270EB7F700"]
 			id: "3AFF4E106C61B8EE"
 			tasks: [{
 				id: "22CCBA8DB0ECAD73"
 				item: { count: 1, id: "draconicevolution:wyvern_energy_core" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -5.0d
+			x: 4.0d
+			y: -3.0d
 		}
 		{
 			id: "2A5484C83E4CAB3C"
@@ -99,42 +101,8 @@
 				item: { count: 1, id: "draconicevolution:wyvern_crafting_injector" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: -7.5d
-		}
-		{
-			dependencies: [
-				"42A0D1F16E6A0ECC"
-				"2E77BB24515CFBDD"
-			]
-			id: "2B13452C3DEF2D24"
-			tasks: [{
-				id: "22171FC10FAA2B7B"
-				item: { count: 1, id: "minecraft:nether_star" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: -5.0d
-		}
-		{
-			id: "42A0D1F16E6A0ECC"
-			tasks: [{
-				id: "2205FF9794C390B5"
-				item: { count: 1, id: "chaosworld_core:cryptid_core" }
-				type: "item"
-			}]
-			x: -3.5d
-			y: -5.0d
-		}
-		{
-			id: "2E77BB24515CFBDD"
-			tasks: [{
-				id: "1CEB8B9849B83171"
-				item: { count: 1, id: "avaritia:blaze_cube_block" }
-				type: "item"
-			}]
-			x: -3.5d
-			y: -7.0d
+			x: 6.0d
+			y: 1.0d
 		}
 	]
 }

@@ -2295,7 +2295,7 @@
         pattern: [' bcb ', 'byxyb', 'cxaxc', 'byxyb', ' bcb '],
         key: ({
             a: { item: 'minecraft:ancient_debris' },
-            b: { item: 'minecraft:blaze_powder' },
+            b: { item: "rainbowcompound:blazeite_ingot" },
             c: { item: 'minecraft:fire_charge' },
             x: { item: 'minecraft:blaze_rod' },
             y: { item: 'minecraft:bone' }
@@ -2309,7 +2309,7 @@
         pattern: [' bcb ', 'byxyb', 'cxaxc', 'byxyb', ' bcb '],
         key: ({
             a: { item: 'minecraft:ancient_debris' },
-            b: { item: 'minecraft:blaze_powder' },
+            b: { item: "rainbowcompound:blazeite_ingot" },
             c: { item: 'minecraft:fire_charge' },
             x: { item: 'minecraft:blaze_rod' },
             y: { item: 'minecraft:bone' }
@@ -2371,6 +2371,53 @@
         result: { id: 'avaritia:crystal_bow' },
         show_notification: false
     })
-
+    //添加有序合成"苦难核心"配方
+    event.custom({
+        type: 'extendedcrafting:shaped_table',
+        pattern: [
+            ' AA AA ',
+            'ABCACCA',
+            'ABCDCCA',
+            'ABDEDCA',
+            ' AFDFA ',
+            '  AGA  ',
+            '   A   '
+        ],
+        key: ({
+            A: { item: 'chaosworld_core:ingot_tech_2' },
+            B: { item: 'naturesaura:token_rage' },
+            C: { item: 'twilightforest:fiery_ingot' },
+            D: { item: 'enderio:withering_powder' },
+            E: { item: 'naturesaura:fortress_finder' },
+            F: { item: 'naturesaura:token_fear' },
+            G: { item: 'avaritia_expand:blaze_totem' }
+        }),
+        result: { id: 'chaosworld_core:cryptid_core' }
+    })
+    event.custom({
+        type: 'create:mechanical_crafting',
+        accept_mirrored: false,
+        category: 'misc',
+        pattern: [
+            ' AA AA ',
+            'ABCACCA',
+            'ABCDCCA',
+            'ABDEDCA',
+            ' AFDFA ',
+            '  AGA  ',
+            '   A   '
+        ],
+        key: ({
+            A: { item: 'chaosworld_core:ingot_tech_2' },
+            B: { item: 'naturesaura:token_rage' },
+            C: { item: 'twilightforest:fiery_ingot' },
+            D: { item: 'enderio:withering_powder' },
+            E: { item: 'naturesaura:fortress_finder' },
+            F: { item: 'naturesaura:token_fear' },
+            G: { item: 'avaritia_expand:blaze_totem' }
+        }),
+        result: { id: 'chaosworld_core:cryptid_core' },
+        show_notification: false
+    })
 })
 

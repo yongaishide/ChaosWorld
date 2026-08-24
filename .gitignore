@@ -22,10 +22,6 @@ skyblockbuilder/
 shaderpacks/
 *.zip
 
-# packwiz: mods 由玩家从 CDN 下载，只有自定义 mod 提交进仓库
-mods/*
-!mods/chaosworld_core-1.0.0.jar
-
 # launcher / personal
 /Chaos_world.json
 .curseclient

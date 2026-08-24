@@ -105,4 +105,15 @@ ServerEvents.recipes((event) => {
             ],
             "output":{"count":4,"id":"enderio_evolution:crystalline_alloy_ingot"}}
     )
+    //炽铁锭
+    event.custom(
+        {"type":"enderio:alloy_smelting",
+            "energy":3200,
+            "experience":0.3,
+            "inputs":[
+                {"count":2,"item":"chaosworld_core:ingot_tech_2"},
+                {"count":1,"tag":'twilightforest:fiery_vial'},
+            ],
+            "output":{"count":2,"id":"twilightforest:fiery_ingot"}}
+    )
 })
