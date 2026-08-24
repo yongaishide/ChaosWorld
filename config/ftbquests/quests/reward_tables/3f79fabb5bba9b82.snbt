@@ -1,9 +1,9 @@
 {
 	icon: {
 		components: {
-			"ftbquests:icon": "extrahnn:block/loot_fabricator_north_v3"
+			"ftbquests:loot_crate": "hanjian"
 		}
-		id: "ftbquests:custom_icon"
+		id: "ftbquests:lootcrate"
 	}
 	id: "3F79FABB5BBA9B82"
 	loot_crate: {
@@ -18,5 +18,15 @@
 	}
 	loot_size: 1
 	order_index: 8
-	rewards: [ ]
+	rewards: [
+		{
+			count: 10
+			id: "00F446CC1DC54122"
+			item: {
+				count: 1
+				id: "ae2omnicells:omni_cell_component_1k"
+			}
+		}
+		{ id: "729AD9BEB884794A", item: { count: 1, id: "ae2omnicells:complex_omni_cell_component_1k" } }
+	]
 }

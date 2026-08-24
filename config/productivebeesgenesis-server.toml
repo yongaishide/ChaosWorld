@@ -673,3 +673,5 @@ balanceProfile = "CUSTOM"
 	speedUpgradeTiersExclusive = false
 	#离心机产量升级是否额外增加单次产出；无论此项如何，资源蜜蜂原版并行能力始终保留
 	centrifugeProductivityAffectsOutput = true
+	#机械蜂箱是否根据蜜蜂的昼夜行为与天气耐受基因暂停工作
+	apiaryBeeGenesAffectWork = true

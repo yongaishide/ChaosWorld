@@ -1,9 +1,9 @@
 {
 	icon: {
 		components: {
-			"ftbquests:icon": "extrahnn:block/loot_fabricator_north_v1"
+			"ftbquests:loot_crate": "putong"
 		}
-		id: "ftbquests:custom_icon"
+		id: "ftbquests:lootcrate"
 	}
 	id: "5079FEB1AD5BDBDA"
 	loot_crate: {
@@ -132,5 +132,6 @@
 				id: "coinsje:gold_coin_pile"
 			}
 		}
+		{ id: "463E4814C57EB9DB", item: { count: 1, id: "ae2omnicells:omni_cell_component_1k" } }
 	]
 }

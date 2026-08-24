@@ -2,9 +2,9 @@
 	empty_weight: 1.0f
 	icon: {
 		components: {
-			"ftbquests:icon": "extrahnn:block/loot_fabricator_north_v2"
+			"ftbquests:loot_crate": "chuanqi"
 		}
-		id: "ftbquests:custom_icon"
+		id: "ftbquests:lootcrate"
 	}
 	id: "766EAB95D9DE268E"
 	loot_crate: {

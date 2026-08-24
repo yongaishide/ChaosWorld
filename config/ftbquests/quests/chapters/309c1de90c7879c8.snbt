@@ -281,8 +281,8 @@
 			id: "3137548559C85FBA"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "15B1F0EE137D7997"
-				table_id: 5798946034287369178L
+				id: "3412C2E747333D88"
+				table_id: 5925476313469576240L
 				type: "random"
 			}]
 			shape: "gear"
@@ -838,6 +838,41 @@
 			}]
 			x: 0.0d
 			y: 6.0d
+		}
+		{
+			dependencies: ["683FA8DA5355B568"]
+			id: "07350473B80FB014"
+			tasks: [{
+				id: "6B0A8A2E5B48CC1A"
+				item: { count: 1, id: "extendedcrafting:luminessence" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2DDA8A2510662B54"]
+			id: "53182FD162DD9F83"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "026A6D5D692A4412"
+				item: { count: 1, id: "extendedcrafting:advanced_table" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["07350473B80FB014"]
+			id: "2DDA8A2510662B54"
+			tasks: [{
+				id: "66519D0752DF75E7"
+				item: { count: 1, id: "extendedcrafting:advanced_catalyst" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
 		}
 	]
 }

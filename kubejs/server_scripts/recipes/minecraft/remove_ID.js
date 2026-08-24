@@ -50,7 +50,8 @@ ServerEvents.recipes(event => {
         'ae2cs:mechanical_crafting/rose_quartz_seed',
         'mekanismgenerators:generator/wind',
         'gateways:basic/enderman',
-        'industrialforegoing:plastic'
+        'industrialforegoing:plastic',
+        'ae2cs:aggregator/entro_crystal_seed_from_original_seed'
     ]
     recipeTypeshapeless.forEach((item) => {
         event.remove({ id: item })

@@ -37,6 +37,16 @@ ServerEvents.recipes(event => {
         event.remove({ output: item, type: 'minecraft:crafting_shaped' })
         event.remove({ output: item, type: 'minecraft:crafting_shapeless' })
     })
+
+    let recipeTypeshaped = [
+        "mekanism:basic_fluid_tank",
+        "enderio:pulsating_crystal"
+        
+    ]
+    recipeTypeshaped.forEach((item) => {
+        event.remove({ output: item, type: 'minecraft:crafting_shaped' })
+    })
+
     let coinItems = [
         'coinsje:copper_coin',
         'coinsje:iron_coin',

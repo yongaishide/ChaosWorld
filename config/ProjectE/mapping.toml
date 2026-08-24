@@ -493,11 +493,6 @@ logFoundExploits = true
 			#Determines whether this Recipe Type Mapper is enabled.
 			enabled = true
 
-		#ProjectE-Integration Recipe Mapper for Touhou Little Maid Altar Mapper. Required Mods: [touhou_little_maid]
-		[mappers.Crafting-Mapper.TouhouLittleMaidAltarMapper]
-			#Determines whether this Recipe Type Mapper is enabled.
-			enabled = true
-
 	#Set EMC=0 for everything in the c:raw_materials tag.
 	[mappers.Raw-Ore-Blacklist-Mapper]
 		#Determines whether this EMC Mapper is enabled.

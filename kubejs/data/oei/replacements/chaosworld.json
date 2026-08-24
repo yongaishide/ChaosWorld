@@ -931,5 +931,12 @@
       "pneumaticcraft:plastic"
     ],
     "resultItems": "industrialforegoing:plastic"
+  },
+  {
+    "matchItems": [
+      "pneumaticcraft:small_tank",
+      "mob_grinding_utils:tank"
+    ],
+    "resultItems": "mekanism:basic_fluid_tank"
   }
 ]

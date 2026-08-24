@@ -1,7 +1,7 @@
 [General]
-	#是否允许玩家自定义【物品导管】的抽取频率（1~200 tick）。
+	#Enable custom extraction frequency for Item Conduits (1-200 ticks).
 	enableItemCustomFrequency = true
-	#是否允许玩家自定义【流体导管】的抽取频率（1~200 tick）。
+	#Enable custom extraction frequency for Fluid Conduits (1-200 ticks).
 	enableFluidCustomFrequency = true
-	#是否允许玩家自定义【化学品导管】的抽取频率（1~200 tick）。
+	#Enable custom extraction frequency for Chemical Conduits (1-200 ticks).
 	enableChemicalCustomFrequency = true

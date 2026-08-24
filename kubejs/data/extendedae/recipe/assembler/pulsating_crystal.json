@@ -1,0 +1,26 @@
+{
+  "type": "extendedae:crystal_assembler",
+  "input_items": [
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "ae2cs:purified_certus_quartz_crystal"
+      }
+    },
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "chaosworld_core:dust_tech_4"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "enderio:pulsating_alloy_ingot"
+      }
+    }
+  ],
+  "output": {
+    "count": 3,
+    "id": "enderio:pulsating_crystal"
+  }
+}

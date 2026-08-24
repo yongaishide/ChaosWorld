@@ -109,11 +109,21 @@
 		{
 			dependencies: ["40FF64A45A6A88A4"]
 			id: "4BF6A9218F7DEF29"
-			tasks: [{
-				id: "74B6404DB8E9B5B8"
-				item: { count: 1, id: "draconicevolution:crafting_core" }
-				type: "item"
-			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "74B6404DB8E9B5B8"
+					item: { count: 1, id: "draconicevolution:crafting_core" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4AA04C0BE8A9C8C0"
+					item: { count: 1, id: "draconicevolution:basic_crafting_injector" }
+					type: "item"
+				}
+			]
 			x: 12.5d
 			y: -2.0d
 		}

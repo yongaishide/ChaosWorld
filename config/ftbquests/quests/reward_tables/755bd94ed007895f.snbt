@@ -1,9 +1,9 @@
 {
 	icon: {
 		components: {
-			"ftbquests:icon": "extrahnn:block/loot_fabricator_north_v2"
+			"ftbquests:loot_crate": "shishi"
 		}
-		id: "ftbquests:custom_icon"
+		id: "ftbquests:lootcrate"
 	}
 	id: "755BD94ED007895F"
 	loot_crate: {

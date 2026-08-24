@@ -102,5 +102,39 @@
 			x: 2.5d
 			y: -7.5d
 		}
+		{
+			dependencies: [
+				"42A0D1F16E6A0ECC"
+				"2E77BB24515CFBDD"
+			]
+			id: "2B13452C3DEF2D24"
+			tasks: [{
+				id: "22171FC10FAA2B7B"
+				item: { count: 1, id: "minecraft:nether_star" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			id: "42A0D1F16E6A0ECC"
+			tasks: [{
+				id: "2205FF9794C390B5"
+				item: { count: 1, id: "chaosworld_core:cryptid_core" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			id: "2E77BB24515CFBDD"
+			tasks: [{
+				id: "1CEB8B9849B83171"
+				item: { count: 1, id: "avaritia:blaze_cube_block" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.0d
+		}
 	]
 }

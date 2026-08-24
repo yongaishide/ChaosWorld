@@ -493,16 +493,6 @@ logFoundExploits = true
 			#Determines whether this Recipe Type Mapper is enabled.
 			enabled = true
 
-		#ProjectE-Integration Recipe Mapper for Custom Machinery Machine Mapper. Required Mods: [custommachinery]
-		[mappers.Crafting-Mapper.CustomMachineryMachineMapper]
-			#Determines whether this Recipe Type Mapper is enabled.
-			enabled = true
-
-		#ProjectE-Integration Recipe Mapper for Custom Machinery Craft Mapper. Required Mods: [custommachinery]
-		[mappers.Crafting-Mapper.CustomMachineryCraftMapper]
-			#Determines whether this Recipe Type Mapper is enabled.
-			enabled = true
-
 	#Set EMC=0 for everything in the c:raw_materials tag.
 	[mappers.Raw-Ore-Blacklist-Mapper]
 		#Determines whether this EMC Mapper is enabled.

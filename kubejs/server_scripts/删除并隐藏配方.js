@@ -159,7 +159,26 @@ const HIDE_ITEMS = [
     "appflux:printed_energy_processor",
     "ae2:condenser",
     "industrialforegoing:latex_processing_unit",
-    "industrialforegoing:dryrubber"
+    "industrialforegoing:dryrubber",
+    'appliedpneumatics:air_cell_shell', 
+    'appliedpneumatics:air_cell_1k', 
+    'appliedpneumatics:air_cell_4k', 
+    'appliedpneumatics:air_cell_16k', 
+    'appliedpneumatics:air_cell_64k', 
+    'appliedpneumatics:air_cell_256k', 
+    'appliedpneumatics:portable_air_cell_1k', 
+    'appliedpneumatics:portable_air_cell_4k', 
+    'appliedpneumatics:portable_air_cell_16k', 
+    'appliedpneumatics:portable_air_cell_64k', 
+    'appliedpneumatics:portable_air_cell_256k',
+    "ae2utility:recipe_finder",
+    'powah:player_transmitter_starter', 
+    'powah:player_transmitter_basic', 
+    'powah:player_transmitter_hardened', 
+    'powah:player_transmitter_blazing', 
+    'powah:player_transmitter_niotic', 
+    'powah:player_transmitter_spirited', 
+    'powah:player_transmitter_nitro'
 ]
 
 ServerEvents.recipes(event => {

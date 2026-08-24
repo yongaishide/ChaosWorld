@@ -1,9 +1,9 @@
 {
 	icon: {
 		components: {
-			"ftbquests:icon": "extrahnn:block/loot_fabricator_north_v1"
+			"ftbquests:loot_crate": "xiyou"
 		}
-		id: "ftbquests:custom_icon"
+		id: "ftbquests:lootcrate"
 	}
 	id: "523B855005586430"
 	loot_crate: {
