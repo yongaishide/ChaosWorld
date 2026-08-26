@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "H": {
+      "tag": "c:bones/wither"
+    },
+    "M": {
+      "item": "iceandfire:dragonbone"
+    }
+  },
+  "pattern": [
+    "MMM",
+    " H ",
+    " H "
+  ],
+  "result": {
+    "id": "iceandfire:dragonbone_pickaxe"
+  },
+  "show_notification": true
+}

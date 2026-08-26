@@ -14,7 +14,7 @@
 	quest_links: [{
 		id: "0F9A69B7DF8EA973"
 		linked_quest: "61D2EDC385ADAD2C"
-		x: -6.0d
+		x: -10.0d
 		y: -1.0d
 	}]
 	quests: [
@@ -37,7 +37,7 @@
 				item: { components: { "ae2:stored_energy": 1000.0d }, count: 1, id: "data_energistics:radix_containment_sphere" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -6.0d
 			y: -1.0d
 		}
 		{
@@ -48,7 +48,7 @@
 				item: { count: 1, id: "ifeu:arcane_dragon_egg_forging" }
 				type: "item"
 			}]
-			x: -4.0d
+			x: -8.0d
 			y: -1.0d
 		}
 		{
@@ -74,6 +74,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["605E84AE528915D2"]
 			id: "573D97270EB7F700"
 			tasks: [{
 				id: "2A67FEB9EF3AD584"
@@ -103,6 +104,34 @@
 			}]
 			x: 6.0d
 			y: 1.0d
+		}
+		{
+			id: "21CFB774A10DAE02"
+			tasks: [
+				{
+					id: "012B6FD92FD932D7"
+					item: { components: { "ftbfiltersystem:filter": "or(item(iceandfire:dragonforge_fire_core_disabled)item(iceandfire:dragonforge_ice_core_disabled)item(iceandfire:dragonforge_lightning_core_disabled))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "355E56507CF46F00"
+					item: { components: { "ftbfiltersystem:filter": "or(item(iceandfire:dragonforge_fire_input)item(iceandfire:dragonforge_ice_input)item(iceandfire:dragonforge_lightning_input))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["21CFB774A10DAE02"]
+			id: "605E84AE528915D2"
+			tasks: [{
+				id: "4465D9AA74312452"
+				item: { components: { "ftbfiltersystem:filter": "or(item(iceandfire:dragonsteel_fire_ingot)item(iceandfire:dragonsteel_ice_ingot)item(iceandfire:dragonsteel_lightning_ingot))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
 		}
 	]
 }

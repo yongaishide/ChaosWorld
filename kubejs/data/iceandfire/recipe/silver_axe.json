@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "H": {
+      "item": "minecraft:stick"
+    },
+    "M": {
+      "tag": "c:ingots/silver"
+    }
+  },
+  "pattern": [
+    "MM",
+    "MH",
+    " H"
+  ],
+  "result": {
+    "id": "iceandfire:silver_axe"
+  },
+  "show_notification": true
+}

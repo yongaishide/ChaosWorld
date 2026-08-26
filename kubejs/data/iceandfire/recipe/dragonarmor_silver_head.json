@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "tag": "c:storage_blocks/silver"
+    }
+  },
+  "pattern": [
+    "   ",
+    " ##",
+    "###"
+  ],
+  "result": {
+    "id": "iceandfire:dragonarmor_silver_head"
+  },
+  "show_notification": true
+}

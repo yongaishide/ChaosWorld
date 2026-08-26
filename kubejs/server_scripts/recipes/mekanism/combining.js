@@ -13,4 +13,25 @@ ServerEvents.recipes((event) => {
             "main_input":{"count":1,"item":"mysticalagriculture:supremium_essence"},
             "output":{"count":64,"id":"extendedcrafting:luminessence"}}
     )
+    //龙炎钢锭
+    event.custom(
+        {"type":"mekanism:combining",
+            "extra_input":{"count":1,"item":"iceandfire:fire_dragon_blood"},
+            "main_input":{"count":1,"item":"ae2lt:firmament_alloy_ingot"},
+            "output":{"count":1,"id":"iceandfire:dragonsteel_fire_ingot"}}
+    )
+    //龙霜钢锭
+    event.custom(
+        {"type":"mekanism:combining",
+            "extra_input":{"count":1,"item":"iceandfire:ice_dragon_blood"},
+            "main_input":{"count":1,"item":"ae2lt:firmament_alloy_ingot"},
+            "output":{"count":1,"id":"iceandfire:dragonsteel_ice_ingot"}}
+    )
+    //龙霆钢锭
+    event.custom(
+        {"type":"mekanism:combining",
+            "extra_input":{"count":1,"item":"iceandfire:lightning_dragon_blood"},
+            "main_input":{"count":1,"item":"ae2lt:firmament_alloy_ingot"},
+            "output":{"count":1,"id":"iceandfire:dragonsteel_lightning_ingot"}}
+    )
 })

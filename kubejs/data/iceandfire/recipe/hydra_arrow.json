@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "#",
+    "Y"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "iceandfire:hydra_fang"
+    },
+    "Y": {
+      "item": "minecraft:lily_pad"
+    }
+  },
+  "result": {
+    "id": "iceandfire:hydra_arrow",
+    "count": 4
+  }
+}

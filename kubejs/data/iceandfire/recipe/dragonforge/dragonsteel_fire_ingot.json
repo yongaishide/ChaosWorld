@@ -1,0 +1,14 @@
+{
+  "type": "iceandfire:dragonforge",
+  "dragonType": "fire",
+  "cookTime": 1000,
+  "input": {
+    "item": "ae2lt:firmament_alloy_ingot"
+  },
+  "blood": {
+    "item": "iceandfire:fire_dragon_blood"
+  },
+  "result": {
+    "id": "iceandfire:dragonsteel_fire_ingot"
+  }
+}

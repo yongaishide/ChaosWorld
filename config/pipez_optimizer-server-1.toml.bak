@@ -1,65 +1,65 @@
 [General]
-	#Enable custom extraction frequency for Item Pipes (1-200 ticks).
+	#是否允许玩家自定义【物品管道】的抽取频率（1~200 tick）。
 	enableItemCustomFrequency = true
-	#Enable custom extraction frequency for Fluid Pipes (1-200 ticks).
+	#是否允许玩家自定义【流体管道】的抽取频率（1~200 tick）。
 	enableFluidCustomFrequency = true
-	#Enable custom extraction frequency for Energy Pipes (1-200 ticks).
+	#是否允许玩家自定义【能量管道】的抽取频率（1~200 tick）。
 	enableEnergyCustomFrequency = true
-	#Enable custom extraction frequency for Gas Pipes (1-200 ticks).
+	#是否允许玩家自定义【气体管道】的抽取频率（1~200 tick）。
 	enableGasCustomFrequency = true
 
 	[Upgrades.Item]
-		#Transfer rate for ATM Upgrade
+		#ATM升级的传输速率
 		# Default: 128
 		# Range: > 1
 		itemRateAtm = 128
-		#Transfer rate for Vibranium Upgrade
+		#振金升级的传输速率
 		# Default: 256
 		# Range: > 1
 		itemRateVibranium = 256
-		#Transfer rate for Unobtainium Upgrade
+		#难得素升级的传输速率
 		# Default: 1024
 		# Range: > 1
 		itemRateUnobtainium = 1024
 
 	[Upgrades.Fluid]
-		#Transfer rate for ATM Upgrade
+		#ATM升级的传输速率
 		# Default: 50000
 		# Range: > 1
 		fluidRateAtm = 50000
-		#Transfer rate for Vibranium Upgrade
+		#振金升级的传输速率
 		# Default: 250000
 		# Range: > 1
 		fluidRateVibranium = 250000
-		#Transfer rate for Unobtainium Upgrade
+		#难得素升级的传输速率
 		# Default: 1000000
 		# Range: > 1
 		fluidRateUnobtainium = 1000000
 
 	[Upgrades.Energy]
-		#Transfer rate for ATM Upgrade
+		#ATM升级的传输速率
 		# Default: 500000
 		# Range: > 1
 		energyRateAtm = 500000
-		#Transfer rate for Vibranium Upgrade
+		#振金升级的传输速率
 		# Default: 2500000
 		# Range: > 1
 		energyRateVibranium = 2500000
-		#Transfer rate for Unobtainium Upgrade
+		#难得素升级的传输速率
 		# Default: 10000000
 		# Range: > 1
 		energyRateUnobtainium = 10000000
 
 	[Upgrades.Gas]
-		#Transfer rate for ATM Upgrade
+		#ATM升级的传输速率
 		# Default: 200000
 		# Range: > 1
 		gasRateAtm = 200000
-		#Transfer rate for Vibranium Upgrade
+		#振金升级的传输速率
 		# Default: 1000000
 		# Range: > 1
 		gasRateVibranium = 1000000
-		#Transfer rate for Unobtainium Upgrade
+		#难得素升级的传输速率
 		# Default: 4000000
 		# Range: > 1
 		gasRateUnobtainium = 4000000

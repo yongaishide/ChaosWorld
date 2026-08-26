@@ -172,6 +172,7 @@ const HIDE_ITEMS = [
     'appliedpneumatics:portable_air_cell_64k', 
     'appliedpneumatics:portable_air_cell_256k',
     "ae2utility:recipe_finder",
+    "ifeu:fluid_crafting_table",
     'powah:player_transmitter_starter', 
     'powah:player_transmitter_basic', 
     'powah:player_transmitter_hardened', 

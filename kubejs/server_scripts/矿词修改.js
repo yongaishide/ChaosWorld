@@ -5,6 +5,11 @@ ServerEvents.tags('item', event => {
         'naturesaura:ancient_log',
         'naturesaura:ancient_bark'
     ])
+    event.add('iceandfire:dragonsteel_block', [
+        'iceandfire:dragonsteel_fire_block',
+        "iceandfire:dragonsteel_ice_block",
+        "iceandfire:dragonsteel_lightning_block"
+    ])
     //移除物品矿词
     event.remove('c:ingots/uranium', 'bigreactors:yellorium_ingot')
     event.remove('c:raw_materials/uranium', 'bigreactors:raw_yellorium')

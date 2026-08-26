@@ -1,0 +1,50 @@
+{
+  "type": "draconicevolution:fusion_crafting",
+  "catalyst": {
+    "item": "chaosworld_core:ingot_tech_6"
+  },
+  "ingredients": [
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "draconicevolution:draconium_ingot"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "draconicevolution:draconium_ingot"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "ifeu:dragon_star"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "ifeu:dragon_star"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "tag": "iceandfire:dragon_steels"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "tag": "iceandfire:dragon_steels"
+      }
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "chaosworld_core:ingot_wyvern_metal"
+  },
+  "techLevel": "draconium",
+  "totalEnergy": 640000
+}
