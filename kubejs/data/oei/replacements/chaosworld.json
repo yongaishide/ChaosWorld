@@ -938,5 +938,53 @@
       "mob_grinding_utils:tank"
     ],
     "resultItems": "mekanism:basic_fluid_tank"
+  },
+  {
+    "matchItems": [
+      "mekanism:dust_fluorite"
+    ],
+    "resultItems": "alltheores:fluorite_dust"
+  },
+  {
+    "matchItems": [
+      "mekanism:fluorite_gem"
+    ],
+    "resultItems": "alltheores:fluorite"
+  },
+  {
+    "matchItems": [
+      "mekanism:block_fluorite"
+    ],
+    "resultItems": "alltheores:fluorite_block"
+  },
+  {
+    "matchItems": [
+      "ae2:cell_component_1k"
+    ],
+    "resultItems": "ae2omnicells:omni_cell_component_1k"
+  },
+  {
+    "matchItems": [
+      "ae2:cell_component_4k"
+    ],
+    "resultItems": "ae2omnicells:omni_cell_component_4k"
+  },
+  {
+    "matchItems": [
+      "ae2:cell_component_16k"
+    ],
+    "resultItems": "ae2omnicells:omni_cell_component_16k"
+  },
+  {
+    "matchItems": [
+      "ae2:cell_component_64k"
+    ],
+    "resultItems": "ae2omnicells:omni_cell_component_64k"
+  },
+  {
+    "matchItems": [
+      "ae2:cell_component_256k"
+    ],
+    "resultItems": "ae2omnicells:omni_cell_component_256k"
   }
 ]

@@ -52,7 +52,8 @@ ServerEvents.recipes(event => {
         'gateways:basic/enderman',
         'industrialforegoing:plastic',
         'ae2cs:aggregator/entro_crystal_seed_from_original_seed',
-        'twilightforest:equipment/fiery_ingot_crafting'
+        'twilightforest:equipment/fiery_ingot_crafting',
+        
     ]
     recipeTypeshapeless.forEach((item) => {
         event.remove({ id: item })

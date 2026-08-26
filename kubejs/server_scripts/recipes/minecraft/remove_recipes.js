@@ -29,7 +29,7 @@ ServerEvents.recipes(event => {
         "mekanism:basic_universal_cable",
         "mekanismgenerators:heat_generator",
         "ae2:crafting_terminal",
-        "minecraft:ender_eye"
+        "minecraft:ender_eye",
         
         
     ]
@@ -40,7 +40,12 @@ ServerEvents.recipes(event => {
 
     let recipeTypeshaped = [
         "mekanism:basic_fluid_tank",
-        "enderio:pulsating_crystal"
+        "enderio:pulsating_crystal",
+        "ae2omnicells:omni_cell_component_1k",
+        "ae2omnicells:omni_cell_component_4k",
+        "ae2omnicells:omni_cell_component_16k",
+        "ae2omnicells:omni_cell_component_64k",
+        "ae2omnicells:omni_cell_component_256k"
         
     ]
     recipeTypeshaped.forEach((item) => {

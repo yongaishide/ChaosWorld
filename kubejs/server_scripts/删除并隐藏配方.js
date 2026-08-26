@@ -178,7 +178,29 @@ const HIDE_ITEMS = [
     'powah:player_transmitter_blazing', 
     'powah:player_transmitter_niotic', 
     'powah:player_transmitter_spirited', 
-    'powah:player_transmitter_nitro'
+    'powah:player_transmitter_nitro',
+    "industrialforegoing:wither_builder",
+    "industrialforegoing:mob_duplicator",
+    'neoecoae:eco_item_cell_housing', 
+    'neoecoae:eco_fluid_cell_housing', 
+    'neoecoae:eco_item_storage_cell_16m', 
+    'neoecoae:eco_item_storage_cell_64m', 
+    'neoecoae:eco_item_storage_cell_256m', 
+    'neoecoae:eco_fluid_storage_cell_16m', 
+    'neoecoae:eco_fluid_storage_cell_64m', 
+    'neoecoae:eco_fluid_storage_cell_256m', 
+    'neoecoae:eco_lightning_cell_housing', 
+    'neoecoae:eco_lightning_cell_16m', 
+    'neoecoae:eco_lightning_cell_64m', 
+    'neoecoae:eco_lightning_cell_256m', 
+    'neoecoae:eco_chemical_cell_housing', 
+    'neoecoae:eco_chemical_storage_cell_16m', 
+    'neoecoae:eco_chemical_storage_cell_64m', 
+    'neoecoae:eco_chemical_storage_cell_256m', 
+    'neoecoae:eco_fe_cell_housing', 
+    'neoecoae:eco_fe_storage_cell_16m', 
+    'neoecoae:eco_fe_storage_cell_64m', 
+    'neoecoae:eco_fe_storage_cell_256m'
 ]
 
 ServerEvents.recipes(event => {
