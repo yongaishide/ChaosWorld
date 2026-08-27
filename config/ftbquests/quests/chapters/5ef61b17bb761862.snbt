@@ -14,8 +14,8 @@
 	quest_links: [{
 		id: "7D23B4979AB3738E"
 		linked_quest: "3F1807D805166D06"
-		x: 0.5d
-		y: 0.0d
+		x: -5.5d
+		y: -2.0d
 	}]
 	quests: [
 		{
@@ -30,7 +30,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["3F1807D805166D06"]
+			dependencies: ["22630C48B650E696"]
 			id: "6CA91BE7AE4CEEA2"
 			tasks: [{
 				id: "0CB1EFF04E57C235"
@@ -166,6 +166,58 @@
 			}]
 			x: 10.5d
 			y: 0.0d
+		}
+		{
+			id: "4DA2E5BF6F4D94E2"
+			tasks: [{
+				id: "4E5BC32A028B423B"
+				item: { count: 1, id: "ae2lt:overload_machine_frame" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			id: "18CB31F1BDBC7F12"
+			tasks: [{
+				id: "29935AD157D9E478"
+				item: { count: 1, id: "ae2lt:overload_alloy_plate" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			id: "0DBA123CAA13D836"
+			tasks: [{
+				id: "42441A71C594767D"
+				item: { count: 1, id: "ae2lt:overload_processor" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7EFF749330D4D3CF"]
+			id: "22630C48B650E696"
+			tasks: [{
+				id: "1DEBA987E296688A"
+				item: { count: 1, id: "chaosworld_core:nano_processor" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3F1807D805166D06"]
+			id: "7EFF749330D4D3CF"
+			tasks: [{
+				id: "12CAA7FD197F2C7A"
+				item: { count: 1, id: "chaosworld_core:mechanical_assembler" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
 		}
 	]
 }

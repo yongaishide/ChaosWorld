@@ -1,15 +1,16 @@
 ServerEvents.recipes(event => {
   event.shaped(
-    Item.of('mekanism:basic_fluid_tank'),
+    Item.of('mekanism:energized_smelter'),
     [
       'ABA',
-      'BCB',
+      'CDC',
       'ABA'
     ],
     {
-      A: 'extendedcrafting:redstone_ingot',
-      B: 'alltheores:iron_plate',
-      C: 'ae2:sky_stone_tank'
+      A: 'extendedcrafting:enhanced_redstone_ingot',
+      B: 'mekanism:advanced_control_circuit',
+      C: 'ironfurnaces:netherite_furnace',
+      D: 'industrialforegoing:machine_frame_advanced'
     }
-  );//添加有序合成"基础流体储罐"配方
+  );//添加有序合成"电力熔炼炉"配方
 });

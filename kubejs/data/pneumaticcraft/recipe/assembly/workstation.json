@@ -1,0 +1,12 @@
+{
+  "type": "pneumaticcraft:assembly_drill",
+  "input": {
+    "count": 4,
+    "item": "chaosworld_core:circuit_processor"
+  },
+  "program": "drill",
+  "result": {
+    "count": 1,
+    "id": "chaosworld_core:workstation"
+  }
+}

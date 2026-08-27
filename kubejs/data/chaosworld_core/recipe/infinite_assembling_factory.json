@@ -1,0 +1,17 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ACA",
+    "IPI",
+    "ACA"
+  ],
+  "key": {
+    "A": { "tag": "mekanism_extras:alloys/spectrum" },
+    "C": { "tag": "c:circuits/infinite" },
+    "I": { "tag": "c:pellets/plutonium" },
+    "P": { "item": "chaosworld_core:cosmic_assembling_factory" }
+  },
+  "result": {
+    "id": "chaosworld_core:infinite_assembling_factory"
+  }
+}

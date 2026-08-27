@@ -1,0 +1,17 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ACA",
+    "IPI",
+    "ACA"
+  ],
+  "key": {
+    "A": { "tag": "mekanism:alloys/basic" },
+    "C": { "tag": "c:circuits/basic" },
+    "I": { "tag": "c:ingots/iron" },
+    "P": { "item": "chaosworld_core:mechanical_assembler" }
+  },
+  "result": {
+    "id": "chaosworld_core:basic_assembling_factory"
+  }
+}

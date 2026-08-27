@@ -1,0 +1,17 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ACA",
+    "IPI",
+    "ACA"
+  ],
+  "key": {
+    "A": { "tag": "mekanism_extras:alloys/shining" },
+    "C": { "tag": "c:circuits/cosmic" },
+    "I": { "tag": "c:ingots/refined_obsidian" },
+    "P": { "item": "chaosworld_core:supreme_assembling_factory" }
+  },
+  "result": {
+    "id": "chaosworld_core:cosmic_assembling_factory"
+  }
+}

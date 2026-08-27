@@ -1,6 +1,6 @@
 {
   "dragon": {
-    "maxHealth": 500.0,
+    "maxHealth": 5000.0,
     "eggBornTime": 7200,
     "maxPathingNodes": 5000,
     "villagersFear": true,
@@ -10,6 +10,7 @@
     "generate.denGoldAmount": 0.25,
     "generate.oreRatio": 0.022222222222222223,
     "griefing": true,
+    "softBlockGriefing": false,
     "tamedGriefing": true,
     "flapNoiseDistance": 4,
     "fluteDistance": 8,
@@ -48,6 +49,7 @@
   },
   "pixie": {
     "size": 5,
+    "maxPixiesPerVillage": 8,
     "stealItems": false
   },
   "cyclops": {

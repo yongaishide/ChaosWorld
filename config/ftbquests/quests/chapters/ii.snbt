@@ -354,5 +354,15 @@
 			x: 3.0d
 			y: -5.0d
 		}
+		{
+			id: "6C5807D3E5584987"
+			tasks: [{
+				id: "761232FFAE98DE88"
+				item: { count: 1, id: "chaosworld_core:workstation" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
 	]
 }
