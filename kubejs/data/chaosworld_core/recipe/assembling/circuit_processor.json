@@ -1,8 +1,8 @@
 {
   "type": "chaosworld_core:assembling",
   "itemInputs": [
-    {"count":3,"item":"mekanism:elite_control_circuit"},
-    {"count":4,"item":"chaosworld_core:ingot_tech_5"},
+    {"count":3,"item":"mekanism:advanced_control_circuit"},
+    {"count":4,"item":"chaosworld_core:ingot_tech_4"},
     {"count":16,"item":"neoecoae:energized_crystal_dust"},
     {"count":8,"item":"extendedae:concurrent_processor"},
     {"count":8,"item":"ae2omnicells:omni_link_processor"},
@@ -13,5 +13,5 @@
   "fluidInputs": [
     {"fluid": "advanced_ae:quantum_infusion_source", "amount": 500}
   ],
-  "output": {"id": "chaosworld_core:nano_processor"}
+  "output": {"id": "chaosworld_core:circuit_processor"}
 }

@@ -2419,5 +2419,49 @@
         result: { id: 'chaosworld_core:cryptid_core' },
         show_notification: false
     })
+    //添加有序合成"反应仓"配方
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "AAAAA",
+            "ABCBA",
+            "ADEDA",
+            "FBGBF",
+            "FFFFF"
+        ],
+        "key": {
+            "A": {"item": "ae2:quartz_vibrant_glass"},
+            "B": {"item": "mekanism:advanced_control_circuit"},
+            "C": {"item": "ae2:crafting_unit"},
+            "D": {"item": "mekanism:basic_fluid_tank"},
+            "E": {"item": "industrialforegoing:machine_frame_simple"},
+            "F": {"item": "neoecoae:energized_fluix_crystal_block"},
+            "G": {"item": "ae2:energy_acceptor" }
+        },
+        "result": {"id": "advanced_ae:reaction_chamber"}
+    })
+    event.custom({
+        type: 'create:mechanical_crafting',
+        accept_mirrored: false,
+        category: 'misc',
+        "pattern": [
+            "AAAAA",
+            "ABCBA",
+            "ADEDA",
+            "FBGBF",
+            "FFFFF"
+        ],
+        key: ({
+            "A": {"item": "ae2:quartz_vibrant_glass"},
+            "B": {"item": "mekanism:advanced_control_circuit"},
+            "C": {"item": "ae2:crafting_unit"},
+            "D": {"item": "mekanism:basic_fluid_tank"},
+            "E": {"item": "industrialforegoing:machine_frame_simple"},
+            "F": {"item": "neoecoae:energized_fluix_crystal_block"},
+            "G": {"item": "ae2:energy_acceptor" }
+        }),
+        result: { id: "advanced_ae:reaction_chamber" },
+        show_notification: false
+    })
 })
 

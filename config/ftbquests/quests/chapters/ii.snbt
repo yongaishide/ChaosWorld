@@ -55,7 +55,7 @@
 	quest_links: [{
 		id: "64D50E795E523A89"
 		linked_quest: "6BE7539266AF7C95"
-		x: -3.0d
+		x: -1.0d
 		y: -1.0d
 	}]
 	quests: [
@@ -67,7 +67,7 @@
 				item: { count: 1, id: "enderio:alloy_smelter" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: 1.0d
 			y: -1.0d
 		}
 		{
@@ -78,7 +78,7 @@
 				item: { count: 1, id: "industrialforegoing:machine_frame_advanced" }
 				type: "item"
 			}]
-			x: 15.0d
+			x: 17.0d
 			y: -1.0d
 		}
 		{
@@ -108,7 +108,6 @@
 			id: "2FD4EC14E4C6AA6B"
 			tasks: [
 				{
-					count: 2L
 					id: "1172D786A776A3B6"
 					item: { count: 1, id: "extendedcrafting:flux_crafter" }
 					type: "item"
@@ -224,7 +223,7 @@
 				item: { count: 1, id: "naturesaura:nature_altar" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: 1.0d
 			y: 1.0d
 		}
 		{
@@ -235,7 +234,7 @@
 				item: { count: 1, id: "naturesaura:tainted_gold" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 3.0d
 			y: 1.0d
 		}
 		{
@@ -249,7 +248,7 @@
 				item: { count: 1, id: "enderio:soularium_ingot" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 3.0d
 			y: -1.0d
 		}
 		{
@@ -260,7 +259,7 @@
 				item: { count: 1, id: "enderio:slice_and_splice" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 5.0d
 			y: -1.0d
 		}
 		{
@@ -271,7 +270,7 @@
 				item: { count: 1, id: "enderio:soul_binder" }
 				type: "item"
 			}]
-			x: 7.0d
+			x: 9.0d
 			y: -1.0d
 		}
 		{
@@ -282,7 +281,7 @@
 				item: { count: 1, id: "enderio:z_logic_controller" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 7.0d
 			y: -1.0d
 		}
 		{
@@ -293,7 +292,7 @@
 				item: { count: 1, id: "enderio:ender_crystal" }
 				type: "item"
 			}]
-			x: 9.0d
+			x: 11.0d
 			y: -1.0d
 		}
 		{
@@ -304,7 +303,7 @@
 				item: { count: 1, id: "alltheores:enderium_ingot" }
 				type: "item"
 			}]
-			x: 11.0d
+			x: 13.0d
 			y: -1.0d
 		}
 		{
@@ -315,7 +314,7 @@
 				item: { count: 1, id: "enderio:vibrant_alloy_ingot" }
 				type: "item"
 			}]
-			x: 13.0d
+			x: 15.0d
 			y: -1.0d
 		}
 		{
@@ -330,17 +329,14 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"3970B1ED264E6A14"
-				"2EDD6974CFC0D12A"
-			]
+			dependencies: ["7EFF749330D4D3CF"]
 			id: "5F7F9B62DE4376CA"
 			tasks: [{
 				id: "77C090F2C569501E"
 				item: { count: 1, id: "chaosworld_core:circuit_processor" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: -3.0d
 			y: -3.0d
 		}
 		{
@@ -355,13 +351,61 @@
 			y: -5.0d
 		}
 		{
+			dependencies: ["43B6E55CFBEB12EC"]
 			id: "6C5807D3E5584987"
 			tasks: [{
 				id: "761232FFAE98DE88"
 				item: { count: 1, id: "chaosworld_core:workstation" }
 				type: "item"
 			}]
-			x: 9.0d
+			x: -3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5F7F9B62DE4376CA"]
+			id: "43B6E55CFBEB12EC"
+			tasks: [{
+				id: "445091227CA35A2C"
+				item: { count: 1, id: "chaosworld_core:assembly" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6BE7539266AF7C95"]
+			id: "7EFF749330D4D3CF"
+			tasks: [{
+				id: "12CAA7FD197F2C7A"
+				item: { count: 1, id: "chaosworld_core:mechanical_assembler" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3970B1ED264E6A14"]
+			id: "6F7353C5C8BF839A"
+			tasks: [{
+				id: "143AA1E0E29E43F7"
+				item: { count: 1, id: "advanced_ae:reaction_chamber" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6F7353C5C8BF839A"]
+			id: "4A1D994D20D0D14B"
+			tasks: [{
+				fluid: {
+					amount: 1000
+					id: "advanced_ae:quantum_infusion_source"
+				}
+				id: "6A74F467D018ED14"
+				type: "fluid"
+			}]
+			x: 7.0d
 			y: -3.0d
 		}
 	]

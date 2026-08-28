@@ -2,7 +2,7 @@
   "type": "pneumaticcraft:assembly_drill",
   "input": {
     "count": 4,
-    "item": "chaosworld_core:circuit_processor"
+    "item": "chaosworld_core:assembly"
   },
   "program": "drill",
   "result": {

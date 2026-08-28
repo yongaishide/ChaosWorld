@@ -31,6 +31,8 @@ ServerEvents.recipes(event => {
         "ae2:crafting_terminal",
         "minecraft:ender_eye",
         "mekanism:energized_smelter",
+        "advanced_ae:reaction_chamber",
+        "powah:dielectric_paste"
         
         
     ]
@@ -46,7 +48,9 @@ ServerEvents.recipes(event => {
         "ae2omnicells:omni_cell_component_4k",
         "ae2omnicells:omni_cell_component_16k",
         "ae2omnicells:omni_cell_component_64k",
-        "ae2omnicells:omni_cell_component_256k"
+        "ae2omnicells:omni_cell_component_256k",
+        "powah:dielectric_rod",
+        "powah:dielectric_rod_horizontal"
         
     ]
     recipeTypeshaped.forEach((item) => {

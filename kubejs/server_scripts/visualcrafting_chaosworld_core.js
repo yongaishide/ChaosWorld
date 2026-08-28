@@ -8,9 +8,9 @@ ServerEvents.recipes(event => {
     ],
     {
       A: 'ae2lt:overload_alloy',
-      B: 'chaosworld_core:workstation',
+      B: "chaosworld_core:advanced_integrated",
       C: 'pneumaticcraft:assembly_laser',
-      D: 'industrialforegoing:machine_frame_advanced',
+      D: "industrialforegoing:machine_frame_simple",
       E: 'pneumaticcraft:assembly_drill'
     }
   );//添加有序合成"电路组装机"配方

@@ -14,7 +14,7 @@
 	quest_links: [{
 		id: "7D23B4979AB3738E"
 		linked_quest: "3F1807D805166D06"
-		x: -5.5d
+		x: -1.5d
 		y: -2.0d
 	}]
 	quests: [
@@ -30,7 +30,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["22630C48B650E696"]
+			dependencies: ["3F1807D805166D06"]
 			id: "6CA91BE7AE4CEEA2"
 			tasks: [{
 				id: "0CB1EFF04E57C235"
@@ -196,28 +196,6 @@
 			}]
 			x: 2.5d
 			y: -6.0d
-		}
-		{
-			dependencies: ["7EFF749330D4D3CF"]
-			id: "22630C48B650E696"
-			tasks: [{
-				id: "1DEBA987E296688A"
-				item: { count: 1, id: "chaosworld_core:nano_processor" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["3F1807D805166D06"]
-			id: "7EFF749330D4D3CF"
-			tasks: [{
-				id: "12CAA7FD197F2C7A"
-				item: { count: 1, id: "chaosworld_core:mechanical_assembler" }
-				type: "item"
-			}]
-			x: -3.5d
-			y: -2.0d
 		}
 	]
 }

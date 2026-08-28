@@ -192,6 +192,7 @@ const HIDE_ITEMS = [
     'projectexpansion:black_advanced_alchemical_chest',
     "industrialforegoing:latex_processing_unit",
     "industrialforegoing:dryrubber",
+    "ae2cs:simple_circuit_print",
     'appliedpneumatics:air_cell_shell', 
     'appliedpneumatics:air_cell_1k', 
     'appliedpneumatics:air_cell_4k', 

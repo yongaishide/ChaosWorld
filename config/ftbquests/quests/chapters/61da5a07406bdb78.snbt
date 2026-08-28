@@ -88,5 +88,29 @@
 			x: 0.0d
 			y: 3.0d
 		}
+		{
+			can_repeat: true
+			id: "712948062A4ECD80"
+			rewards: [{
+				id: "3BDB3C57C8642813"
+				item: {
+					components: {
+						"extendedcrafting:recipe_maker": {
+							shapeless: 1b
+							type: "Kubejs"
+						}
+					}
+					count: 1
+					id: "extendedcrafting:recipe_maker"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "39CBC2BEBCBB1EBD"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
 	]
 }

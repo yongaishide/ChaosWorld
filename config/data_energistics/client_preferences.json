@@ -3,7 +3,7 @@
   "preferences": {
     "uploadEnabled": true,
     "patternSourceEnabled": true,
-    "lastWorkstation": "enderio_evolution:stellar_alloy_smelter",
+    "lastWorkstation": "industrialforegoing:dissolution_chamber",
     "previewPanel": {
       "offsetX": 16,
       "offsetY": 0
@@ -19,13 +19,19 @@
       "clickStatistics": []
     },
     "sha256:7fa19cdf112a9538d6c426b16b2bdabf2331f3532db9e825fb8192515575f6b4": {
-      "lastAccessEpochMillis": 1787837819953,
+      "lastAccessEpochMillis": 1787918041380,
       "clickStatistics": [
         {
           "recipeTypeId": "extendedcrafting:ultimate_crafting",
           "providerDigest": "sha256:6b5eb44ed4f3532e5d15337b31faef517b41935204cd1732e20635e94d507540",
           "count": 1,
           "lastUsedEpochMillis": 1786862431608
+        },
+        {
+          "recipeTypeId": "industrialforegoing:dissolution",
+          "providerDigest": "sha256:2039aaf29a88fb336f638efede16b94388c31ebc637d3bc10dc4a0cd7d330f1f",
+          "count": 1,
+          "lastUsedEpochMillis": 1787907397031
         },
         {
           "recipeTypeId": "minecraft:crafting",

@@ -223,8 +223,8 @@
 				item: { components: { "gateways:gateway": "gateways:basic/enderman" }, count: 1, id: "gateways:gate_pearl" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 2.0d
+			x: -0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4A86403CA81D5BF3"]
@@ -626,6 +626,29 @@
 			}]
 			x: -3.5d
 			y: 2.0d
+		}
+		{
+			dependencies: ["0AB99936429AE835"]
+			id: "70101DFFD3998D5B"
+			tasks: [{
+				count: 32L
+				id: "747CB797E46F4F89"
+				item: { count: 1, id: "powah:dielectric_paste" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["70101DFFD3998D5B"]
+			id: "3BBEE5A0A7B90ACC"
+			tasks: [{
+				id: "569B0EC1FD40BFC7"
+				item: { count: 1, id: "powah:dielectric_casing" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
 		}
 	]
 }
