@@ -44,8 +44,8 @@
 	# Default: 1000000
 	# Range: > 1
 	thermo_generator_max_energy_storage = 1000000
-	#Base fe generation
-	# Default: 125
+	#Total Coolant Capacity
+	# Default: 100000
 	# Range: > 1
 	thermo_generator_energy_every_tick = 100000
 	#Blackhole
@@ -67,10 +67,6 @@
 	# Default: 2147483647
 	# Range: > 1
 	blackhole_fluid_every_tick = 2147483647
-	#Base coolant cost
-	# Default: 125
-	# Range: > 1
-	thermo_generator_fluid_every_tick = 125
 
 #Echoing Budding
 [3-echoing_budding]

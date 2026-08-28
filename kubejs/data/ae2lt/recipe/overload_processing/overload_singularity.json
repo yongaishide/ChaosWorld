@@ -4,15 +4,15 @@
   "inputs": [
     {
       "ingredient": {
-        "item": "ae2:singularity"
+        "item": "extendedae_plus:oblivion_singularity"
       },
-      "count": 512
+      "count": 1
     },
     {
       "ingredient": {
-        "item": "minecraft:nether_star"
+        "item": "ae2cs:purified_redstone_crystal"
       },
-      "count": 1
+      "count": 16
     }
   ],
   "results": [

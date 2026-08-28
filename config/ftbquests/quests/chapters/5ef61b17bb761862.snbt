@@ -14,7 +14,7 @@
 	quest_links: [{
 		id: "7D23B4979AB3738E"
 		linked_quest: "3F1807D805166D06"
-		x: -1.5d
+		x: -5.5d
 		y: -2.0d
 	}]
 	quests: [
@@ -37,11 +37,14 @@
 				item: { count: 1, id: "ae2lt:lightning_simulation_room" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: -3.5d
 			y: -2.0d
 		}
 		{
-			dependencies: ["6CA91BE7AE4CEEA2"]
+			dependencies: [
+				"4DA2E5BF6F4D94E2"
+				"5A7710A6B8BEDBDD"
+			]
 			id: "55AEBF82CAD3F5E2"
 			tasks: [{
 				id: "0D71D8CDD2B52F98"
@@ -128,64 +131,26 @@
 			y: -2.0d
 		}
 		{
-			id: "42A0D1F16E6A0ECC"
-			tasks: [
-				{
-					id: "2205FF9794C390B5"
-					item: { count: 1, id: "chaosworld_core:cryptid_core" }
-					type: "item"
-				}
-				{
-					id: "51EB9A9D5D7B26C6"
-					item: { count: 1, id: "avaritia:blaze_cube_block" }
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "194064650BFEC53A"
-					item: { count: 1, id: "minecraft:wither_skeleton_skull" }
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "7720083C6E3CF8E4"
-					item: { count: 1, id: "minecraft:soul_sand" }
-					type: "item"
-				}
-			]
-			x: 8.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["42A0D1F16E6A0ECC"]
-			id: "2B13452C3DEF2D24"
-			tasks: [{
-				id: "22171FC10FAA2B7B"
-				item: { count: 1, id: "minecraft:nether_star" }
-				type: "item"
-			}]
-			x: 10.5d
-			y: 0.0d
-		}
-		{
+			dependencies: ["18CB31F1BDBC7F12"]
 			id: "4DA2E5BF6F4D94E2"
 			tasks: [{
 				id: "4E5BC32A028B423B"
 				item: { count: 1, id: "ae2lt:overload_machine_frame" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -4.0d
+			x: 0.5d
+			y: -2.0d
 		}
 		{
+			dependencies: ["6CA91BE7AE4CEEA2"]
 			id: "18CB31F1BDBC7F12"
 			tasks: [{
 				id: "29935AD157D9E478"
 				item: { count: 1, id: "ae2lt:overload_alloy_plate" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: -4.0d
+			x: -1.5d
+			y: -2.0d
 		}
 		{
 			id: "0DBA123CAA13D836"
@@ -195,7 +160,29 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2311C640692DFE5B"]
+			id: "5A7710A6B8BEDBDD"
+			tasks: [{
+				id: "235209B8CB1BA9DC"
+				item: { count: 1, id: "ae2lt:overload_singularity" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2B13452C3DEF2D24"]
+			id: "2311C640692DFE5B"
+			tasks: [{
+				id: "70871EBBD9BF97D5"
+				item: { count: 1, id: "extendedae_plus:oblivion_singularity" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
 		}
 	]
 }

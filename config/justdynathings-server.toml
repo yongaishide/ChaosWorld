@@ -395,7 +395,7 @@
 	# Range: > 1
 	ticker_fluid_every_tick = 1
 	#Max Tick speed applied
-	# Default: 2048
+	# Default: 1200
 	# Range: > 1
 	ticker_max_tick_rate = 2048
 
