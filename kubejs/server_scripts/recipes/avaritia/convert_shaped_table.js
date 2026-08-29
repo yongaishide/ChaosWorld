@@ -2463,5 +2463,95 @@
         result: { id: "advanced_ae:reaction_chamber" },
         show_notification: false
     })
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "AAAAA",
+            "ABCBA",
+            "ABDBA",
+            "AEEEA",
+            "AFFFA"
+        ],
+        "key": {
+            "A": {"item": "chaosworld_core:tech_3_block"},
+            "B": {"item": "extendedae:machine_frame"},
+            "C": {"item": "chaosworld_core:microprocessor"},
+            "D": {"item": "immersiveengineering:rs_engineering"},
+            "E": {"item": "immersiveengineering:heavy_engineering"},
+            "F": {"item": "immersiveengineering:drillhead_steel" }
+        },
+        "result": {"id": "chaosworld_core:vein_drill"}
+        })
+    event.custom({
+        type: 'create:mechanical_crafting',
+        accept_mirrored: false,
+        category: 'misc',
+        "pattern": [
+            "AAAAA",
+            "ABCBA",
+            "ABDBA",
+            "AEEEA",
+            "AFFFA"
+        ],
+        key: ({
+            "A": {"item": "chaosworld_core:tech_3_block"},
+            "B": {"item": "extendedae:machine_frame"},
+            "C": {"item": "chaosworld_core:microprocessor"},
+            "D": {"item": "immersiveengineering:rs_engineering"},
+            "E": {"item": "immersiveengineering:heavy_engineering"},
+            "F": {"item": "immersiveengineering:drillhead_steel" }
+        }),
+        result: { id: "chaosworld_core:vein_drill" },
+        show_notification: false
+    })
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "AAAAAAA",
+            "ABBCBBA",
+            "ABDEDBA",
+            "ACFGFCA",
+            "ABDFDBA",
+            "HBBCBBH",
+            "HHHHHHH"
+        ],
+        "key": {
+            "A": {"item": "mekanism:induction_casing"},
+            "B": {"item": "minecraft:reinforced_deepslate"},
+            "C": {"item": "ae2lt:dense_topological_lattice"},
+            "D": {"item": "chaosworld_core:gear_tech_5"},
+            "E": {"item": "minecraft:dragon_egg"},
+            "F": {"item": "extendedae:crystal_assembler"},
+            "G": {"item": "industrialforegoing:machine_frame_supreme"},
+            "H": {"item": "ae2lt:tianshu_supercomputer_casing" }
+        },
+        "result": {"id": "ifeu:arcane_dragon_egg_forging"}
+        })
+    event.custom({
+        type: 'create:mechanical_crafting',
+        accept_mirrored: false,
+        category: 'misc',
+        "pattern": [
+            "AAAAAAA",
+            "ABBCBBA",
+            "ABDEDBA",
+            "HCFGFCH",
+            "ABDFDBA",
+            "HBBCBBH",
+            "HHHHHHH"
+        ],
+        key: ({
+            "A": {"item": "mekanism:induction_casing"},
+            "B": {"item": "minecraft:reinforced_deepslate"},
+            "C": {"item": "ae2lt:dense_topological_lattice"},
+            "D": {"item": "chaosworld_core:gear_tech_5"},
+            "E": {"item": "minecraft:dragon_egg"},
+            "F": {"item": "extendedae:crystal_assembler"},
+            "G": {"item": "industrialforegoing:machine_frame_supreme"},
+            "H": {"item": "ae2lt:tianshu_supercomputer_casing" }
+        }),
+        result: { id: "ifeu:arcane_dragon_egg_forging" },
+        show_notification: false
+    })
 })
 

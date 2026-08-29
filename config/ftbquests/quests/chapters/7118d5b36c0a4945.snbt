@@ -12,17 +12,66 @@
 	id: "7118D5B36C0A4945"
 	images: [ ]
 	order_index: 8
+	quest_enhance_chapter_background: "avaritia:block/machine/smithing/extreme_smithing_table_bottom"
 	quest_enhance_decorative_lines: [ ]
 	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
-	quests: [{
-		id: "7CE66CFDE2004A8B"
-		tasks: [{
-			id: "0B5FEB5869F15277"
-			item: { count: 1, id: "avaritia:infinity_ingot" }
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: ["190AB63D4ECE2C34"]
+			id: "7CE66CFDE2004A8B"
+			tasks: [{
+				id: "0B5FEB5869F15277"
+				item: { count: 1, id: "avaritia:infinity_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"335DD6C437D55E16"
+				"025E75BB17D49155"
+				"7F0C99EA8CDE9396"
+			]
+			id: "190AB63D4ECE2C34"
+			tasks: [{
+				id: "0A1B3B16280CE131"
+				item: { count: 1, id: "avaritia:infinity_catalyst" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "335DD6C437D55E16"
+			tasks: [{
+				id: "5F39EDD076CBD81B"
+				item: { count: 1, id: "avaritia:endest_pearl" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			id: "7F0C99EA8CDE9396"
+			tasks: [{
+				id: "312C9A0AF972164C"
+				item: { count: 1, id: "avaritia:ultimate_stew" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			id: "025E75BB17D49155"
+			tasks: [{
+				id: "0081AEABA827D41F"
+				item: { count: 1, id: "avaritia:cosmic_meatballs" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+	]
 }

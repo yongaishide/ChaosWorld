@@ -13,7 +13,7 @@ transmitterAlloyUpgrade = true
 #Base factor for working out machine performance with upgrades - UpgradeModifier * (UpgradesInstalled/UpgradesPossible).
 # Default: 10
 # Range: > 1
-maxUpgradeMultiplier = 100
+maxUpgradeMultiplier = 10
 #Peak processing rate in mB/t for the Solar Neutron Activator. Note: It can go higher than this value in some extreme environments.
 # Default: 64
 # Range: 1 ~ 1024
