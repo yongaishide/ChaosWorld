@@ -26,10 +26,10 @@
 	[window_positions.window_pb_upgrade]
 		# Default: 2147483647
 		# Range: > -2147483648
-		x = 91
+		x = -16
 		# Default: 2147483647
 		# Range: > -2147483648
-		y = 15
+		y = 95
 		pinned = false
 
 	[window_positions.window_ae_input]
