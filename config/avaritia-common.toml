@@ -103,11 +103,11 @@
 	#The range of Endless ItemEntity
 	# Default: 1000.0
 	# Range: 1.0 ~ 10000.0
-	"Endless ItemEntity Range" = 1000.0
+	"Endless ItemEntity Range" = 100.0
 	#The speed of Endless ItemEntity
 	# Default: 3.0
 	# Range: 1.0 ~ 10.0
-	"Endless ItemEntity Speed" = 3.0
+	"Endless ItemEntity Speed" = 1.0
 	#Infinity Elytra Flying Speed
 	# Default: 1.5
 	# Range: 1.0 ~ 10.0

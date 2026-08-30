@@ -194,5 +194,36 @@
 			x: 8.5d
 			y: -4.0d
 		}
+		{
+			dependencies: ["3A7D70075A7E9BDE"]
+			id: "657E1EFFCD67D1FD"
+			tasks: [{
+				id: "33EDE4C9D62B7531"
+				item: { count: 1, id: "ae2lt:cracked_budding_overload_crystal" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			id: "6C8167D5F505718F"
+			tasks: [{
+				id: "028ECE4B05F7B921"
+				item: { count: 1, id: "ae2lt:overload_crystal" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			id: "3A7D70075A7E9BDE"
+			tasks: [{
+				id: "44D53245ECD3BE00"
+				item: { count: 1, id: "ae2:flawed_budding_quartz" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -6.0d
+		}
 	]
 }
