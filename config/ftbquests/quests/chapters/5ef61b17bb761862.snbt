@@ -77,29 +77,26 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["376BEEA4BEF48DDA"]
 			id: "4E2B3936137B16FE"
 			tasks: [{
 				id: "39CDE6A4011DC1CB"
 				item: { count: 1, id: "mekanism:alloy_reinforced" }
 				type: "item"
 			}]
-			x: 8.5d
-			y: -2.0d
+			x: 6.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["4BF6A9218F7DEF29"]
 			id: "61D2EDC385ADAD2C"
 			tasks: [{
 				id: "20A8D5484231D290"
 				item: { count: 1, id: "industrialforegoing:machine_frame_supreme" }
 				type: "item"
 			}]
-			x: 14.5d
-			y: -2.0d
+			x: 18.5d
+			y: -4.5d
 		}
 		{
-			dependencies: ["4E2B3936137B16FE"]
 			id: "40FF64A45A6A88A4"
 			tasks: [{
 				id: "16CC8ECD946966F7"
@@ -185,6 +182,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["376BEEA4BEF48DDA"]
 			id: "3E8A04664DB9DD56"
 			tasks: [{
 				id: "580313172817D07B"
@@ -192,7 +190,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: -4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3A7D70075A7E9BDE"]
@@ -224,6 +222,54 @@
 			}]
 			x: -8.0d
 			y: -6.0d
+		}
+		{
+			dependencies: ["4BF6A9218F7DEF29"]
+			id: "487A2FD75215DAC3"
+			rewards: [{
+				id: "64524396330482F2"
+				item: {
+					components: {
+						"ae2:storage_cell_inv": [{
+							"#": 120L
+							"#t": "data_energistics:manifest_binary"
+						}]
+						"ae2:stored_energy": 50000.0d
+					}
+					count: 1
+					id: "data_energistics:radix_containment_sphere"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "61AAFF786FB64719"
+				item: { components: { "ae2:stored_energy": 50000.0d }, count: 1, id: "data_energistics:radix_containment_sphere" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["487A2FD75215DAC3"]
+			id: "24126FA5B4F37967"
+			tasks: [{
+				id: "53366587AC8819F6"
+				item: { count: 1, id: "data_energistics:budding_data_crystal_3" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["24126FA5B4F37967"]
+			id: "35D519C7E7EB19D3"
+			tasks: [{
+				id: "477AAEE063131C8D"
+				item: { count: 1, id: "data_energistics:data_dust" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: -4.5d
 		}
 	]
 }

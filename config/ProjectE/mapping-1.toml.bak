@@ -498,6 +498,31 @@ logFoundExploits = true
 			#Determines whether this Recipe Type Mapper is enabled.
 			enabled = true
 
+		#Recipe mapper for Ice and Fire DragonForge recipes
+		[mappers.Crafting-Mapper.IceAndFireDragonForgeMapper]
+			#Determines whether this Recipe Type Mapper is enabled.
+			enabled = true
+
+		#ProjectE-Integration Recipe Mapper for Occultism Ritual Mapper. Required Mods: [occultism]
+		[mappers.Crafting-Mapper.OccultismRitualMapper]
+			#Determines whether this Recipe Type Mapper is enabled.
+			enabled = true
+
+		#ProjectE-Integration Recipe Mapper for Occultism Spirit Trade Mapper. Required Mods: [occultism]
+		[mappers.Crafting-Mapper.OccultismSpiritTradeMapper]
+			#Determines whether this Recipe Type Mapper is enabled.
+			enabled = true
+
+		#ProjectE-Integration Recipe Mapper for Occultism Crushing Mapper. Required Mods: [occultism]
+		[mappers.Crafting-Mapper.OccultismCrushingMapper]
+			#Determines whether this Recipe Type Mapper is enabled.
+			enabled = true
+
+		#ProjectE-Integration Recipe Mapper for Occultism Spirit Fire Mapper. Required Mods: [occultism]
+		[mappers.Crafting-Mapper.OccultismSpiritFireMapper]
+			#Determines whether this Recipe Type Mapper is enabled.
+			enabled = true
+
 	#Set EMC=0 for everything in the c:raw_materials tag.
 	[mappers.Raw-Ore-Blacklist-Mapper]
 		#Determines whether this EMC Mapper is enabled.

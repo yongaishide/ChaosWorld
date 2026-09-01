@@ -33,7 +33,9 @@ ServerEvents.recipes(event => {
         "mekanism:energized_smelter",
         "advanced_ae:reaction_chamber",
         "powah:dielectric_paste",
-        "ifeu:arcane_dragon_egg_forging"
+        "ifeu:arcane_dragon_egg_forging",
+        "powah:energizing_orb",
+        "pneumaticcraft:amadron_tablet"
 
         
         
@@ -64,7 +66,8 @@ ServerEvents.recipes(event => {
         'coinsje:iron_coin',
         'coinsje:gold_coin',
         'coinsje:diamond_coin',
-        'coinsje:netherite_coin'
+        'coinsje:netherite_coin',
+        "draconicevolution:draconium_ingot"
     ]
     coinItems.forEach((item) => {
         event.remove({ output: item, type: 'minecraft:smelting' })

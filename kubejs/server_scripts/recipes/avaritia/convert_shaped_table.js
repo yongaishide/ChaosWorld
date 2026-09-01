@@ -2596,5 +2596,45 @@
         result: { id: "powah:energizing_orb" },
         show_notification: false
     })
+    // chaosworld_core:twilight_catalyst
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "ABCBA",
+            "BCBCB",
+            "BCDCB",
+            "ABEBA",
+            "AABAA"
+        ],
+        "key": {
+            "A": {"item": "ars_nouveau:source_gem"},
+            "B": {"item": "extendedcrafting:luminessence"},
+            "C": {"item": "minecraft:diamond"},
+            "D": {"item": "minecraft:ender_eye"},
+            "E": {"item": "actuallyadditions:emeradic_crystal"}
+        },
+        "result": {"id": "chaosworld_core:twilight_catalyst"}
+    })
+    event.custom({
+        type: 'create:mechanical_crafting',
+        accept_mirrored: false,
+        category: 'misc',
+        "pattern": [
+            "ABCBA",
+            "BCBCB",
+            "BCDCB",
+            "ABEBA",
+            "AABAA"
+        ],
+        key: ({
+            "A": {"item": "ars_nouveau:source_gem"},
+            "B": {"item": "extendedcrafting:luminessence"},
+            "C": {"item": "minecraft:diamond"},
+            "D": {"item": "minecraft:ender_eye"},
+            "E": {"item": "actuallyadditions:emeradic_crystal"}
+        }),
+        result: { id: "chaosworld_core:twilight_catalyst" },
+        show_notification: false
+    })
 })
 

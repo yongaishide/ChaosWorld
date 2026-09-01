@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:chemical_conversion",
+  "input": {
+    "count": 1,
+    "item": "ae2lt:dense_topological_lattice"
+  },
+  "output": {
+    "amount": 80,
+    "id": "kubejs:dense_topological_matter"
+  }
+}

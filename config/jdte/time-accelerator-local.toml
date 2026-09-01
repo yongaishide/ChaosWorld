@@ -1,0 +1,17 @@
+#JDT Extras Local Singleplayer Defaults
+[jdte]
+
+	#Local singleplayer Time Accelerator defaults.
+	#Edit these values from the main menu. They are copied into the
+	#authoritative SERVER config only when an integrated server starts.
+	#They never affect dedicated or remote multiplayer servers and are
+	#read-only after entering a world.
+	[jdte.timeAccelerator]
+		#Local singleplayer default for processing every discovered machine
+		#in one scheduler pass. Large machine counts may cause server lag.
+		timeAcceleratorAccelerateAllMachines = false
+		#Local singleplayer default acceleration duration per submission.
+		#Valid range: 1-60 seconds. Applied at the next integrated server start.
+		# Default: 1
+		# Range: 1 ~ 60
+		timeAcceleratorAccelerationDurationSeconds = 1

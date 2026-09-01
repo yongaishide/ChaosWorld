@@ -476,18 +476,6 @@
 		# Default: 128
 		# Range: 1 ~ 4096
 		dynamicHarvestCallsPerTick = 128
-		#Maximum matrix members whose production profiles are rebuilt per server tick
-		# Default: 64
-		# Range: 1 ~ 4096
-		matrixProfileScanBudget = 64
-		#Maximum real loot/dynamic harvest calls per matrix production group settlement
-		# Default: 8
-		# Range: 1 ~ 256
-		matrixDynamicSamplesPerGroup = 8
-		#Maximum distinct matrix output types uploaded to AE per server tick
-		# Default: 64
-		# Range: 1 ~ 4096
-		matrixAEOutputTypeBudget = 64
 
 	#Life Synthesis Vat Settings
 	[jdte.lifeSynthesisVat]
@@ -818,29 +806,7 @@
 		# Range: 1 ~ 16
 		playerChargeMaxCallsPerItem = 16
 
-	#Tiered Solar Panel Settings
-	[jdte.solarPanel]
-		# Default: 46080
-		# Range: > 1
-		concentratedGeneration = 46080
-		# Default: 4608000
-		# Range: > 1
-		concentratedCapacity = 4608000
-		# Default: 184320
-		# Range: > 1
-		singularityGeneration = 184320
-		# Default: 18432000
-		# Range: > 1
-		singularityCapacity = 18432000
-		# Default: 737280
-		# Range: > 1
-		stellarFusionGeneration = 737280
-		# Default: 73728000
-		# Range: > 1
-		stellarFusionCapacity = 73728000
-		# Default: 2949120
-		# Range: > 1
-		dimensionalCollapseGeneration = 2949120
-		# Default: 294912000
-		# Range: > 1
-		dimensionalCollapseCapacity = 294912000
+	#Infusion Machine Settings
+	[jdte.infusion]
+		#Mod ids (resource namespaces) whose spawn eggs are excluded from the Infusion Machine's dynamic spawn egg recipes, e.g. "occultism". As a result no infusion recipe is generated for those spawn eggs and they can no longer be produced from mob loot. Full item or entity resource location ids (e.g. "occultism:debug_familiar_spawn_egg") are also accepted.
+		spawnEggModBlacklist = ["occultism"]

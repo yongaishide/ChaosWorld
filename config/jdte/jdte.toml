@@ -96,6 +96,28 @@
 		timeAcceleratorRandomRefreshInterval = 20
 		#Allow Time Accelerators with an AE Acceleration Upgrade to invoke AE2 IGridTickable services
 		timeAcceleratorAE2Enabled = true
+		#Ultimate Time Wand Time Fluid capacity (mB)
+		# Default: 800000
+		# Range: 1000 ~ 100000000
+		ultimateTimeWandFluidCapacity = 800000
+		#Ultimate Time Wand FE capacity
+		# Default: 10000000
+		# Range: 10000 ~ 1000000000
+		ultimateTimeWandEnergyCapacity = 10000000
+		#Ultimate Time Wand effect duration (ticks)
+		# Default: 600
+		# Range: 1 ~ 1000000
+		ultimateTimeWandDuration = 600
+		#Ultimate Time Wand base multiplier cost multiplier
+		# Default: 1.0
+		# Range: 0.0 ~ 1000000.0
+		ultimateTimeWandBaseCostMultiplier = 1.0
+		#Ultimate Time Wand FE base cost multiplier
+		# Default: 1.0
+		# Range: 0.0 ~ 1000000.0
+		ultimateTimeWandEnergyCostMultiplier = 1.0
+		#Keep fractional Ultimate Time Wand fluid cost between settlements
+		ultimateTimeWandFractionalFluidSettlement = true
 
 	#Bio Crusher Settings
 	[jdte.bioCrusher]
@@ -179,6 +201,8 @@
 		# Default: 20
 		# Range: 1 ~ 1000000
 		lifeFluidCostV2 = 20
+		#When disabled, dynamic Loot Fabricator JEI recipes are not generated; the machine remains usable.
+		recipeGenerationEnabled = true
 
 	#Sender/Receiver Settings
 	[jdte.senderReceiver]
@@ -371,6 +395,10 @@
 	[jdte.advancedPotionBrewer]
 		#Reject Blaze Powder insertion into the fuel slot from adjacent AE2 crafting providers
 		rejectPatternProviderFuelInput = true
+		#FE charged per blaze-powder-equivalent fuel charge (20 brews) when the Energy Brewing Upgrade is installed; 0 makes the energy fuel free
+		# Default: 5000
+		# Range: 0 ~ 1000000
+		energyPerBlazePowder = 5000
 
 	#Crystal Incubator Settings
 	[jdte.crystalIncubator]
@@ -476,6 +504,8 @@
 		# Default: 128
 		# Range: 1 ~ 4096
 		dynamicHarvestCallsPerTick = 128
+		#When disabled, dynamic Greenhouse and Large Greenhouse JEI recipes are not generated; data-pack recipes remain available.
+		recipeGenerationEnabled = true
 
 	#Life Synthesis Vat Settings
 	[jdte.lifeSynthesisVat]
@@ -561,6 +591,8 @@
 		# Default: 5
 		# Range: 1 ~ 1000
 		externalLifeFluidCostMultiplier = 5
+		#When disabled, dynamic Bio Factory JEI recipes are not generated; data-pack recipes remain available.
+		recipeGenerationEnabled = true
 
 	#Life Breeder Settings
 	[jdte.lifeBreeder]
@@ -810,3 +842,36 @@
 	[jdte.infusion]
 		#Mod ids (resource namespaces) whose spawn eggs are excluded from the Infusion Machine's dynamic spawn egg recipes, e.g. "occultism". As a result no infusion recipe is generated for those spawn eggs and they can no longer be produced from mob loot. Full item or entity resource location ids (e.g. "occultism:debug_familiar_spawn_egg") are also accepted.
 		spawnEggModBlacklist = ["occultism"]
+
+	#Repair Talisman Settings
+	[jdte.repairTalisman]
+		#Durability points repaired per cycle for every damaged item while a Repair Talisman is in the inventory
+		# Default: 5
+		# Range: 1 ~ 1000
+		amountPerCycle = 5
+		#Ticks between repair cycles; 0 disables the talisman
+		# Default: 4
+		# Range: 0 ~ 1200
+		cycleInterval = 4
+		#FE consumed per durability point repaired, drawn from charged energy items in the player's inventory; 0 makes repairs free
+		# Default: 10000
+		# Range: 0 ~ 100000000
+		energyPerDurability = 10000
+
+	#AE Output Upgrade Settings
+	[jdte.aeOutput]
+		#Ticks between AE return flushes on machines with the AE Output Upgrade installed
+		# Default: 5
+		# Range: 1 ~ 1200
+		returnInterval = 5
+
+	#Content Settings
+	[jdte.content]
+		#Block ids or directory prefixes to disable. Missing namespaces default to jdte, so greenhouse means jdte:greenhouse.
+		disabledBlocks = []
+		#Recipe ids or directory prefixes to disable. Missing namespaces default to jdte, so greenhouse means jdte:greenhouse.
+		disabledRecipes = []
+		#When disabled, all Time Accelerator blocks and their bundled crafting recipes remain registered but cannot be used.
+		timeAcceleratorEnabled = true
+		#When disabled, all Time Freezer blocks and their bundled crafting recipes remain registered but cannot be used.
+		timeFreezerEnabled = true

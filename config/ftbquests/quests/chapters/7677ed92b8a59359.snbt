@@ -9,7 +9,6 @@
 	id: "7677ED92B8A59359"
 	images: [ ]
 	order_index: 1
-	quest_enhance_chapter_background: "modular_machinery_reborn:textures/gui/base_slot.png"
 	quest_enhance_decorative_lines: [ ]
 	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [{
@@ -553,6 +552,7 @@
 				"33309F072446917E"
 				"193960A16BB4BF92"
 			]
+			dependency_requirement: "one_completed"
 			id: "7353A5C22967BB14"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -650,6 +650,17 @@
 			}]
 			x: -1.5d
 			y: 4.0d
+		}
+		{
+			dependencies: ["3BBEE5A0A7B90ACC"]
+			id: "6BD843EAB87F3222"
+			tasks: [{
+				id: "77985E9D29379E87"
+				item: { count: 1, id: "powah:energizing_orb" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
 		}
 	]
 }

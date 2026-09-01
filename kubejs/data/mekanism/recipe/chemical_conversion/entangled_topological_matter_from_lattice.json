@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:chemical_conversion",
+  "input": {
+    "count": 1,
+    "item": "ae2lt:entangled_topological_lattice"
+  },
+  "output": {
+    "amount": 80,
+    "id": "kubejs:entangled_topological_matter"
+  }
+}

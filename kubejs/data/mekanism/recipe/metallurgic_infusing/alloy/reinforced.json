@@ -1,1 +1,4 @@
-{"type":"mekanism:metallurgic_infusing","chemical_input":{"amount":20,"tag":"mekanism:diamond"},"item_input":{"count":1,"item":"ae2lt:basic_topological_lattice"},"output":{"count":1,"id":"mekanism:alloy_reinforced"},"per_tick_usage":false}
+{"type":"mekanism:metallurgic_infusing",
+"chemical_input":{"amount":20,"chemical":"kubejs:data_crystal"},
+"item_input":{"count":1,"item":"enderio_evolution:crystalline_alloy_ingot"},
+"output":{"count":1,"id":"mekanism:alloy_reinforced"},"per_tick_usage":false}

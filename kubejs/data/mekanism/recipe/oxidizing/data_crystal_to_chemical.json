@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:oxidizing",
+  "input": {
+    "count": 1,
+    "item": "data_energistics:data_crystal"
+  },
+  "output": {
+    "amount": 80,
+    "id": "data_energistics:data_dust"
+  }
+}

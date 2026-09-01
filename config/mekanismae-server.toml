@@ -1,0 +1,590 @@
+#AE network behavior shared by all machines.
+[network]
+	#Whether each machine consumes an AE2 channel.
+	require_channel = true
+	#Idle AE power used by each connected machine.
+	# Default: 2.0
+	# Range: 0.0 ~ 10000.0
+	idle_ae_power = 2.0
+	#Pause processing while the machine receives a redstone signal.
+	redstone_pauses_processing = true
+
+#Upgrade card behavior shared by all machines.
+[upgrades]
+	#Additional FE capacity granted by each energy card.
+	# Default: 500000
+	# Range: 0 ~ 250000000
+	energy_capacity_per_upgrade = 500000
+	#Additional FE/t input granted by each energy card.
+	# Default: 200000
+	# Range: 0 ~ 250000000
+	energy_receive_per_upgrade = 200000
+	#Speed multipliers for 0 through 8 speed cards. Missing entries repeat the last value; extra entries are ignored.
+	speed_multipliers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+	#Parallel multipliers for 0 through 8 parallel cards. Missing entries repeat the last value; extra entries are ignored.
+	parallel_multipliers = [1, 4, 16, 64, 256, 1024, 4096, 16384, 65536]
+	#Parallel multipliers for Basic through Ultimate tier installers, followed by Mekanism Extras Absolute, Supreme, Cosmic, and Infinite installers. Missing entries use the built-in default for that tier; extra entries are ignored.
+	tier_parallel_multipliers = [3, 6, 10, 16, 32, 64, 128, 256]
+	#Energy-capacity multipliers for Basic through Ultimate tier installers, followed by Mekanism Extras Absolute, Supreme, Cosmic, and Infinite installers. Missing entries use the built-in default for that tier; extra entries are ignored.
+	tier_energy_capacity_multipliers = [2, 4, 8, 16, 32, 64, 128, 256]
+	#Energy-input multipliers for Basic through Ultimate tier installers, followed by Mekanism Extras Absolute, Supreme, Cosmic, and Infinite installers. Missing entries use the built-in default for that tier; extra entries are ignored.
+	tier_energy_receive_multipliers = [2, 4, 8, 16, 32, 64, 128, 256]
+	#Task-buffer multipliers for Basic through Ultimate tier installers, followed by Mekanism Extras Absolute, Supreme, Cosmic, and Infinite installers. Missing entries use the built-in default for that tier; extra entries are ignored.
+	tier_buffer_multipliers = [2, 4, 8, 16, 32, 64, 128, 256]
+
+#Default machine values and optional per-machine replacements.
+[machines]
+
+	[machines.defaults]
+		#Base internal FE capacity before energy cards.
+		# Default: 1000000
+		# Range: 1 ~ 2000000000
+		base_energy_capacity = 1000000
+		#Base maximum FE/t accepted before energy cards.
+		# Default: 200000
+		# Range: 1 ~ 2000000000
+		base_energy_receive = 200000
+		#FE consumed for each completed recipe operation.
+		# Default: 10000
+		# Range: 1 ~ 2000000000
+		energy_per_operation = 10000
+		#Base processing duration before speed cards.
+		# Default: 20
+		# Range: 1 ~ 1000000
+		processing_ticks = 20
+		#Maximum complete recipe operations accepted from AE2. Existing work is never deleted if this is lowered.
+		# Default: 1048576
+		# Range: 1 ~ 16777216
+		max_buffered_operations = 1048576
+
+	[machines.me_enrichment_chamber]
+		#Use the machines.defaults values for this machine.
+		use_defaults = true
+		#Base internal FE capacity before energy cards.
+		# Default: 1000000
+		# Range: 1 ~ 2000000000
+		base_energy_capacity = 1000000
+		#Base maximum FE/t accepted before energy cards.
+		# Default: 200000
+		# Range: 1 ~ 2000000000
+		base_energy_receive = 200000
+		#FE consumed for each completed recipe operation.
+		# Default: 10000
+		# Range: 1 ~ 2000000000
+		energy_per_operation = 10000
+		#Base processing duration before speed cards.
+		# Default: 20
+		# Range: 1 ~ 1000000
+		processing_ticks = 20
+		#Recipe operations completed per processing cycle before cards and tier installers. Continuous low-volume fluid and chemical machines default higher than item machines. This value is always machine-specific.
+		# Default: 1
+		# Range: 1 ~ 1000000
+		base_operations_per_cycle = 1
+		#Maximum complete recipe operations accepted from AE2. Existing work is never deleted if this is lowered.
+		# Default: 1048576
+		# Range: 1 ~ 16777216
+		max_buffered_operations = 1048576
+
+	[machines.me_crusher]
+		#Use the machines.defaults values for this machine.
+		use_defaults = true
+		#Base internal FE capacity before energy cards.
+		# Default: 1000000
+		# Range: 1 ~ 2000000000
+		base_energy_capacity = 1000000
+		#Base maximum FE/t accepted before energy cards.
+		# Default: 200000
+		# Range: 1 ~ 2000000000
+		base_energy_receive = 200000
+		#FE consumed for each completed recipe operation.
+		# Default: 10000
+		# Range: 1 ~ 2000000000
+		energy_per_operation = 10000
+		#Base processing duration before speed cards.
+		# Default: 20
+		# Range: 1 ~ 1000000
+		processing_ticks = 20
+		#Recipe operations completed per processing cycle before cards and tier installers. Continuous low-volume fluid and chemical machines default higher than item machines. This value is always machine-specific.
+		# Default: 1
+		# Range: 1 ~ 1000000
+		base_operations_per_cycle = 1
+		#Maximum complete recipe operations accepted from AE2. Existing work is never deleted if this is lowered.
+		# Default: 1048576
+		# Range: 1 ~ 16777216
+		max_buffered_operations = 1048576
+
+	[machines.me_energized_smelter]
+		#Use the machines.defaults values for this machine.
+		use_defaults = true
+		#Base internal FE capacity before energy cards.
+		# Default: 1000000
+		# Range: 1 ~ 2000000000
+		base_energy_capacity = 1000000
+		#Base maximum FE/t accepted before energy cards.
+		# Default: 200000
+		# Range: 1 ~ 2000000000
+		base_energy_receive = 200000
+		#FE consumed for each completed recipe operation.
+		# Default: 10000
+		# Range: 1 ~ 2000000000
+		energy_per_operation = 10000
+		#Base processing duration before speed cards.
+		# Default: 20
+		# Range: 1 ~ 1000000
+		processing_ticks = 20
+		#Recipe operations completed per processing cycle before cards and tier installers. Continuous low-volume fluid and chemical machines default higher than item machines. This value is always machine-specific.
+		# Default: 1
+		# Range: 1 ~ 1000000
+		base_operations_per_cycle = 1
+		#Maximum complete recipe operations accepted from AE2. Existing work is never deleted if this is lowered.
+		# Default: 1048576
+		# Range: 1 ~ 16777216
+		max_buffered_operations = 1048576
+
+	[machines.me_metallurgic_infuser]
+		#Use the machines.defaults values for this machine.
+		use_defaults = true
+		#Base internal FE capacity before energy cards.
+		# Default: 1000000
+		# Range: 1 ~ 2000000000
+		base_energy_capacity = 1000000
+		#Base maximum FE/t accepted before energy cards.
+		# Default: 200000
+		# Range: 1 ~ 2000000000
+		base_energy_receive = 200000
+		#FE consumed for each completed recipe operation.
+		# Default: 10000
+		# Range: 1 ~ 2000000000
+		energy_per_operation = 10000
+		#Base processing duration before speed cards.
+		# Default: 20
+		# Range: 1 ~ 1000000
+		processing_ticks = 20
+		#Recipe operations completed per processing cycle before cards and tier installers. Continuous low-volume fluid and chemical machines default higher than item machines. This value is always machine-specific.
+		# Default: 1
+		# Range: 1 ~ 1000000
+		base_operations_per_cycle = 1
+		#Maximum complete recipe operations accepted from AE2. Existing work is never deleted if this is lowered.
+		# Default: 1048576
+		# Range: 1 ~ 16777216
+		max_buffered_operations = 1048576
+
+	[machines.me_osmium_compressor]
+		#Use the machines.defaults values for this machine.
+		use_defaults = true
+		#Base internal FE capacity before energy cards.
+		# Default: 1000000
+		# Range: 1 ~ 2000000000
+		base_energy_capacity = 1000000
+		#Base maximum FE/t accepted before energy cards.
+		# Default: 200000
+		# Range: 1 ~ 2000000000
+		base_energy_receive = 200000
+		#FE consumed for each completed recipe operation.
+		# Default: 10000
+		# Range: 1 ~ 2000000000
+		energy_per_operation = 10000
+		#Base processing duration before speed cards.
+		# Default: 20
+		# Range: 1 ~ 1000000
+		processing_ticks = 20
+		#Recipe operations completed per processing cycle before cards and tier installers. Continuous low-volume fluid and chemical machines default higher than item machines. This value is always machine-specific.
+		# Default: 1
+		# Range: 1 ~ 1000000
+		base_operations_per_cycle = 1
+		#Maximum complete recipe operations accepted from AE2. Existing work is never deleted if this is lowered.
+		# Default: 1048576
+		# Range: 1 ~ 16777216
+		max_buffered_operations = 1048576
+
+	[machines.me_purification_chamber]
+		#Use the machines.defaults values for this machine.
+		use_defaults = true
+		#Base internal FE capacity before energy cards.
+		# Default: 1000000
+		# Range: 1 ~ 2000000000
+		base_energy_capacity = 1000000
+		#Base maximum FE/t accepted before energy cards.
+		# Default: 200000
+		# Range: 1 ~ 2000000000
+		base_energy_receive = 200000
+		#FE consumed for each completed recipe operation.
+		# Default: 10000
+		# Range: 1 ~ 2000000000
+		energy_per_operation = 10000
+		#Base processing duration before speed cards.
+		# Default: 20
+		# Range: 1 ~ 1000000
+		processing_ticks = 20
+		#Recipe operations completed per processing cycle before cards and tier installers. Continuous low-volume fluid and chemical machines default higher than item machines. This value is always machine-specific.
+		# Default: 1
+		# Range: 1 ~ 1000000
+		base_operations_per_cycle = 1
+		#Maximum complete recipe operations accepted from AE2. Existing work is never deleted if this is lowered.
+		# Default: 1048576
+		# Range: 1 ~ 16777216
+		max_buffered_operations = 1048576
+
+	[machines.me_chemical_injection_chamber]
+		#Use the machines.defaults values for this machine.
+		use_defaults = true
+		#Base internal FE capacity before energy cards.
+		# Default: 1000000
+		# Range: 1 ~ 2000000000
+		base_energy_capacity = 1000000
+		#Base maximum FE/t accepted before energy cards.
+		# Default: 200000
+		# Range: 1 ~ 2000000000
+		base_energy_receive = 200000
+		#FE consumed for each completed recipe operation.
+		# Default: 10000
+		# Range: 1 ~ 2000000000
+		energy_per_operation = 10000
+		#Base processing duration before speed cards.
+		# Default: 20
+		# Range: 1 ~ 1000000
+		processing_ticks = 20
+		#Recipe operations completed per processing cycle before cards and tier installers. Continuous low-volume fluid and chemical machines default higher than item machines. This value is always machine-specific.
+		# Default: 1
+		# Range: 1 ~ 1000000
+		base_operations_per_cycle = 1
+		#Maximum complete recipe operations accepted from AE2. Existing work is never deleted if this is lowered.
+		# Default: 1048576
+		# Range: 1 ~ 16777216
+		max_buffered_operations = 1048576
+
+	[machines.me_combiner]
+		#Use the machines.defaults values for this machine.
+		use_defaults = true
+		#Base internal FE capacity before energy cards.
+		# Default: 1000000
+		# Range: 1 ~ 2000000000
+		base_energy_capacity = 1000000
+		#Base maximum FE/t accepted before energy cards.
+		# Default: 200000
+		# Range: 1 ~ 2000000000
+		base_energy_receive = 200000
+		#FE consumed for each completed recipe operation.
+		# Default: 10000
+		# Range: 1 ~ 2000000000
+		energy_per_operation = 10000
+		#Base processing duration before speed cards.
+		# Default: 20
+		# Range: 1 ~ 1000000
+		processing_ticks = 20
+		#Recipe operations completed per processing cycle before cards and tier installers. Continuous low-volume fluid and chemical machines default higher than item machines. This value is always machine-specific.
+		# Default: 1
+		# Range: 1 ~ 1000000
+		base_operations_per_cycle = 1
+		#Maximum complete recipe operations accepted from AE2. Existing work is never deleted if this is lowered.
+		# Default: 1048576
+		# Range: 1 ~ 16777216
+		max_buffered_operations = 1048576
+
+	[machines.me_precision_sawmill]
+		#Use the machines.defaults values for this machine.
+		use_defaults = true
+		#Base internal FE capacity before energy cards.
+		# Default: 1000000
+		# Range: 1 ~ 2000000000
+		base_energy_capacity = 1000000
+		#Base maximum FE/t accepted before energy cards.
+		# Default: 200000
+		# Range: 1 ~ 2000000000
+		base_energy_receive = 200000
+		#FE consumed for each completed recipe operation.
+		# Default: 10000
+		# Range: 1 ~ 2000000000
+		energy_per_operation = 10000
+		#Base processing duration before speed cards.
+		# Default: 20
+		# Range: 1 ~ 1000000
+		processing_ticks = 20
+		#Recipe operations completed per processing cycle before cards and tier installers. Continuous low-volume fluid and chemical machines default higher than item machines. This value is always machine-specific.
+		# Default: 1
+		# Range: 1 ~ 1000000
+		base_operations_per_cycle = 1
+		#Maximum complete recipe operations accepted from AE2. Existing work is never deleted if this is lowered.
+		# Default: 1048576
+		# Range: 1 ~ 16777216
+		max_buffered_operations = 1048576
+
+	[machines.me_chemical_oxidizer]
+		#Use the machines.defaults values for this machine.
+		use_defaults = true
+		#Base internal FE capacity before energy cards.
+		# Default: 1000000
+		# Range: 1 ~ 2000000000
+		base_energy_capacity = 1000000
+		#Base maximum FE/t accepted before energy cards.
+		# Default: 200000
+		# Range: 1 ~ 2000000000
+		base_energy_receive = 200000
+		#FE consumed for each completed recipe operation.
+		# Default: 10000
+		# Range: 1 ~ 2000000000
+		energy_per_operation = 10000
+		#Base processing duration before speed cards.
+		# Default: 20
+		# Range: 1 ~ 1000000
+		processing_ticks = 20
+		#Recipe operations completed per processing cycle before cards and tier installers. Continuous low-volume fluid and chemical machines default higher than item machines. This value is always machine-specific.
+		# Default: 1
+		# Range: 1 ~ 1000000
+		base_operations_per_cycle = 1
+		#Maximum complete recipe operations accepted from AE2. Existing work is never deleted if this is lowered.
+		# Default: 1048576
+		# Range: 1 ~ 16777216
+		max_buffered_operations = 1048576
+
+	[machines.me_chemical_crystallizer]
+		#Use the machines.defaults values for this machine.
+		use_defaults = true
+		#Base internal FE capacity before energy cards.
+		# Default: 1000000
+		# Range: 1 ~ 2000000000
+		base_energy_capacity = 1000000
+		#Base maximum FE/t accepted before energy cards.
+		# Default: 200000
+		# Range: 1 ~ 2000000000
+		base_energy_receive = 200000
+		#FE consumed for each completed recipe operation.
+		# Default: 10000
+		# Range: 1 ~ 2000000000
+		energy_per_operation = 10000
+		#Base processing duration before speed cards.
+		# Default: 20
+		# Range: 1 ~ 1000000
+		processing_ticks = 20
+		#Recipe operations completed per processing cycle before cards and tier installers. Continuous low-volume fluid and chemical machines default higher than item machines. This value is always machine-specific.
+		# Default: 1
+		# Range: 1 ~ 1000000
+		base_operations_per_cycle = 1
+		#Maximum complete recipe operations accepted from AE2. Existing work is never deleted if this is lowered.
+		# Default: 1048576
+		# Range: 1 ~ 16777216
+		max_buffered_operations = 1048576
+
+	[machines.me_antiprotonic_nucleosynthesizer]
+		#Use the machines.defaults values for this machine.
+		use_defaults = true
+		#Base internal FE capacity before energy cards.
+		# Default: 1000000
+		# Range: 1 ~ 2000000000
+		base_energy_capacity = 1000000
+		#Base maximum FE/t accepted before energy cards.
+		# Default: 200000
+		# Range: 1 ~ 2000000000
+		base_energy_receive = 200000
+		#FE consumed for each completed recipe operation.
+		# Default: 10000
+		# Range: 1 ~ 2000000000
+		energy_per_operation = 10000
+		#Base processing duration before speed cards.
+		# Default: 20
+		# Range: 1 ~ 1000000
+		processing_ticks = 20
+		#Recipe operations completed per processing cycle before cards and tier installers. Continuous low-volume fluid and chemical machines default higher than item machines. This value is always machine-specific.
+		# Default: 1
+		# Range: 1 ~ 1000000
+		base_operations_per_cycle = 1
+		#Maximum complete recipe operations accepted from AE2. Existing work is never deleted if this is lowered.
+		# Default: 1048576
+		# Range: 1 ~ 16777216
+		max_buffered_operations = 1048576
+
+	[machines.me_chemical_dissolution_chamber]
+		#Use the machines.defaults values for this machine.
+		use_defaults = true
+		#Base internal FE capacity before energy cards.
+		# Default: 1000000
+		# Range: 1 ~ 2000000000
+		base_energy_capacity = 1000000
+		#Base maximum FE/t accepted before energy cards.
+		# Default: 200000
+		# Range: 1 ~ 2000000000
+		base_energy_receive = 200000
+		#FE consumed for each completed recipe operation.
+		# Default: 10000
+		# Range: 1 ~ 2000000000
+		energy_per_operation = 10000
+		#Base processing duration before speed cards.
+		# Default: 20
+		# Range: 1 ~ 1000000
+		processing_ticks = 20
+		#Recipe operations completed per processing cycle before cards and tier installers. Continuous low-volume fluid and chemical machines default higher than item machines. This value is always machine-specific.
+		# Default: 1
+		# Range: 1 ~ 1000000
+		base_operations_per_cycle = 1
+		#Maximum complete recipe operations accepted from AE2. Existing work is never deleted if this is lowered.
+		# Default: 1048576
+		# Range: 1 ~ 16777216
+		max_buffered_operations = 1048576
+
+	[machines.me_chemical_infuser]
+		#Use the machines.defaults values for this machine.
+		use_defaults = true
+		#Base internal FE capacity before energy cards.
+		# Default: 1000000
+		# Range: 1 ~ 2000000000
+		base_energy_capacity = 1000000
+		#Base maximum FE/t accepted before energy cards.
+		# Default: 200000
+		# Range: 1 ~ 2000000000
+		base_energy_receive = 200000
+		#FE consumed for each completed recipe operation.
+		# Default: 10000
+		# Range: 1 ~ 2000000000
+		energy_per_operation = 10000
+		#Base processing duration before speed cards.
+		# Default: 20
+		# Range: 1 ~ 1000000
+		processing_ticks = 20
+		#Recipe operations completed per processing cycle before cards and tier installers. Continuous low-volume fluid and chemical machines default higher than item machines. This value is always machine-specific.
+		# Default: 1000
+		# Range: 1 ~ 1000000
+		base_operations_per_cycle = 1000
+		#Maximum complete recipe operations accepted from AE2. Existing work is never deleted if this is lowered.
+		# Default: 1048576
+		# Range: 1 ~ 16777216
+		max_buffered_operations = 1048576
+
+	[machines.me_electrolytic_separator]
+		#Use the machines.defaults values for this machine.
+		use_defaults = true
+		#Base internal FE capacity before energy cards.
+		# Default: 1000000
+		# Range: 1 ~ 2000000000
+		base_energy_capacity = 1000000
+		#Base maximum FE/t accepted before energy cards.
+		# Default: 200000
+		# Range: 1 ~ 2000000000
+		base_energy_receive = 200000
+		#FE consumed for each completed recipe operation.
+		# Default: 10000
+		# Range: 1 ~ 2000000000
+		energy_per_operation = 10000
+		#Base processing duration before speed cards.
+		# Default: 20
+		# Range: 1 ~ 1000000
+		processing_ticks = 20
+		#Recipe operations completed per processing cycle before cards and tier installers. Continuous low-volume fluid and chemical machines default higher than item machines. This value is always machine-specific.
+		# Default: 1000
+		# Range: 1 ~ 1000000
+		base_operations_per_cycle = 1000
+		#Maximum complete recipe operations accepted from AE2. Existing work is never deleted if this is lowered.
+		# Default: 1048576
+		# Range: 1 ~ 16777216
+		max_buffered_operations = 1048576
+
+	[machines.me_rotary_condensentrator]
+		#Use the machines.defaults values for this machine.
+		use_defaults = true
+		#Base internal FE capacity before energy cards.
+		# Default: 1000000
+		# Range: 1 ~ 2000000000
+		base_energy_capacity = 1000000
+		#Base maximum FE/t accepted before energy cards.
+		# Default: 200000
+		# Range: 1 ~ 2000000000
+		base_energy_receive = 200000
+		#FE consumed for each completed recipe operation.
+		# Default: 10000
+		# Range: 1 ~ 2000000000
+		energy_per_operation = 10000
+		#Base processing duration before speed cards.
+		# Default: 20
+		# Range: 1 ~ 1000000
+		processing_ticks = 20
+		#Recipe operations completed per processing cycle before cards and tier installers. Continuous low-volume fluid and chemical machines default higher than item machines. This value is always machine-specific.
+		# Default: 1000
+		# Range: 1 ~ 1000000
+		base_operations_per_cycle = 1000
+		#Maximum complete recipe operations accepted from AE2. Existing work is never deleted if this is lowered.
+		# Default: 1048576
+		# Range: 1 ~ 16777216
+		max_buffered_operations = 1048576
+
+	[machines.me_chemical_washer]
+		#Use the machines.defaults values for this machine.
+		use_defaults = true
+		#Base internal FE capacity before energy cards.
+		# Default: 1000000
+		# Range: 1 ~ 2000000000
+		base_energy_capacity = 1000000
+		#Base maximum FE/t accepted before energy cards.
+		# Default: 200000
+		# Range: 1 ~ 2000000000
+		base_energy_receive = 200000
+		#FE consumed for each completed recipe operation.
+		# Default: 10000
+		# Range: 1 ~ 2000000000
+		energy_per_operation = 10000
+		#Base processing duration before speed cards.
+		# Default: 20
+		# Range: 1 ~ 1000000
+		processing_ticks = 20
+		#Recipe operations completed per processing cycle before cards and tier installers. Continuous low-volume fluid and chemical machines default higher than item machines. This value is always machine-specific.
+		# Default: 1000
+		# Range: 1 ~ 1000000
+		base_operations_per_cycle = 1000
+		#Maximum complete recipe operations accepted from AE2. Existing work is never deleted if this is lowered.
+		# Default: 1048576
+		# Range: 1 ~ 16777216
+		max_buffered_operations = 1048576
+
+	[machines.me_nutritional_liquifier]
+		#Use the machines.defaults values for this machine.
+		use_defaults = true
+		#Base internal FE capacity before energy cards.
+		# Default: 1000000
+		# Range: 1 ~ 2000000000
+		base_energy_capacity = 1000000
+		#Base maximum FE/t accepted before energy cards.
+		# Default: 200000
+		# Range: 1 ~ 2000000000
+		base_energy_receive = 200000
+		#FE consumed for each completed recipe operation.
+		# Default: 10000
+		# Range: 1 ~ 2000000000
+		energy_per_operation = 10000
+		#Base processing duration before speed cards.
+		# Default: 20
+		# Range: 1 ~ 1000000
+		processing_ticks = 20
+		#Recipe operations completed per processing cycle before cards and tier installers. Continuous low-volume fluid and chemical machines default higher than item machines. This value is always machine-specific.
+		# Default: 1
+		# Range: 1 ~ 1000000
+		base_operations_per_cycle = 1
+		#Maximum complete recipe operations accepted from AE2. Existing work is never deleted if this is lowered.
+		# Default: 1048576
+		# Range: 1 ~ 16777216
+		max_buffered_operations = 1048576
+
+	[machines.me_pressurized_reaction_chamber]
+		#Use the machines.defaults values for this machine.
+		use_defaults = true
+		#Base internal FE capacity before energy cards.
+		# Default: 1000000
+		# Range: 1 ~ 2000000000
+		base_energy_capacity = 1000000
+		#Base maximum FE/t accepted before energy cards.
+		# Default: 200000
+		# Range: 1 ~ 2000000000
+		base_energy_receive = 200000
+		#FE consumed for each completed recipe operation.
+		# Default: 10000
+		# Range: 1 ~ 2000000000
+		energy_per_operation = 10000
+		#Base processing duration before speed cards.
+		# Default: 20
+		# Range: 1 ~ 1000000
+		processing_ticks = 20
+		#Recipe operations completed per processing cycle before cards and tier installers. Continuous low-volume fluid and chemical machines default higher than item machines. This value is always machine-specific.
+		# Default: 1
+		# Range: 1 ~ 1000000
+		base_operations_per_cycle = 1
+		#Maximum complete recipe operations accepted from AE2. Existing work is never deleted if this is lowered.
+		# Default: 1048576
+		# Range: 1 ~ 16777216
+		max_buffered_operations = 1048576

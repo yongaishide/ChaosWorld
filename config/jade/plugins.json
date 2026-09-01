@@ -133,6 +133,9 @@
     "stabilizer": true,
     "echoing_budding": true
   },
+  "ars_nouveau": {
+    "mob_jar": true
+  },
   "mysticalagradditions": {
     "infused_farmland": true
   },
@@ -270,6 +273,10 @@
     "eco_crafting_worker": true,
     "eco_crafting_system": true
   },
+  "occultism": {
+    "foliot": true,
+    "sacrificial": true
+  },
   "apothic_enchanting": {
     "ench": true
   },
@@ -290,6 +297,9 @@
     "pump": true,
     "autohammer": true
   },
+  "enderio_evolution": {
+    "capacitor_bank_render": true
+  },
   "enderio_conduit_opt": {
     "item_conduit_info": true
   },
@@ -300,6 +310,27 @@
     "food_bite_block": true,
     "millstone": true,
     "enamel_basin": true
+  },
+  "mekanismae": {
+    "me_precision_sawmill_status": true,
+    "me_crusher_status": true,
+    "me_energized_smelter_status": true,
+    "me_rotary_condensentrator_status": true,
+    "me_chemical_crystallizer_status": true,
+    "me_combiner_status": true,
+    "me_chemical_injection_chamber_status": true,
+    "me_purification_chamber_status": true,
+    "me_electrolytic_separator_status": true,
+    "me_chemical_infuser_status": true,
+    "me_pressurized_reaction_chamber_status": true,
+    "me_chemical_washer_status": true,
+    "me_enrichment_chamber_status": true,
+    "me_chemical_dissolution_chamber_status": true,
+    "me_metallurgic_infuser_status": true,
+    "me_antiprotonic_nucleosynthesizer_status": true,
+    "me_chemical_oxidizer_status": true,
+    "me_nutritional_liquifier_status": true,
+    "me_osmium_compressor_status": true
   },
   "ae2cs": {
     "ender_emitter": true,

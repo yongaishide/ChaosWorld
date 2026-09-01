@@ -94,7 +94,7 @@
 		# Default: 20
 		# Range: 1 ~ 1200
 		timeAcceleratorRandomRefreshInterval = 20
-		#Allow Time Accelerators to invoke AE2 IGridTickable services
+		#Allow Time Accelerators with an AE Acceleration Upgrade to invoke AE2 IGridTickable services
 		timeAcceleratorAE2Enabled = true
 
 	#Bio Crusher Settings
@@ -167,11 +167,7 @@
 
 	#Loot Fabricator Settings
 	[jdte.lootFabricator]
-		#Life Fluid consumed per successful loot fabrication operation (mB)
-		# Default: 100
-		# Range: 1 ~ 1000000
-		lifeFluidCost = 100
-		#Base Time Fluid consumed per successful loot fabrication operation (mB). Faster machine speeds multiply this integer cost.
+		#Base Time Fluid cost per successful operation in fifths of one mB. Faster machine speeds multiply this cost; fractional costs carry across operations without loss.
 		# Default: 1
 		# Range: 1 ~ 1000000
 		baseTimeFluidCost = 1
@@ -179,6 +175,10 @@
 		# Default: 50
 		# Range: 0 ~ 10000
 		lootingFluidCostIncreasePercent = 50
+		#Life Fluid consumed per successful loot fabrication operation (mB)
+		# Default: 20
+		# Range: 1 ~ 1000000
+		lifeFluidCostV2 = 20
 
 	#Sender/Receiver Settings
 	[jdte.senderReceiver]
@@ -476,6 +476,18 @@
 		# Default: 128
 		# Range: 1 ~ 4096
 		dynamicHarvestCallsPerTick = 128
+		#Maximum matrix members whose production profiles are rebuilt per server tick
+		# Default: 64
+		# Range: 1 ~ 4096
+		matrixProfileScanBudget = 64
+		#Maximum real loot/dynamic harvest calls per matrix production group settlement
+		# Default: 8
+		# Range: 1 ~ 256
+		matrixDynamicSamplesPerGroup = 8
+		#Maximum distinct matrix output types uploaded to AE per server tick
+		# Default: 64
+		# Range: 1 ~ 4096
+		matrixAEOutputTypeBudget = 64
 
 	#Life Synthesis Vat Settings
 	[jdte.lifeSynthesisVat]
@@ -551,6 +563,7 @@
 		# Default: 2.0
 		# Range: 1.0 ~ 64.0
 		lifeYieldMultiplier = 2.0
+		#Minimum flowering fluid required for Productive Bees; the fluid is a reusable catalyst and is not consumed
 		# Default: 100
 		# Range: > 0
 		processFluidPerCycle = 100
@@ -674,3 +687,160 @@
 		# Default: 6
 		# Range: 1 ~ 64
 		maxLootingUpgrades = 6
+
+	#Time Freezer Settings
+	[jdte.timeFreezer]
+		# Default: 8000
+		# Range: 100 ~ 1000000
+		fluidCapacity = 8000
+		#Time Fluid consumed per tick while the Time Freezer freezes time and weather
+		# Default: 100
+		# Range: 1 ~ 100000
+		fluidPerTick = 100
+		# Default: 200000
+		# Range: > 1000
+		energyCapacity = 200000
+		#FE consumed per tick while the Time Freezer freezes time and weather
+		# Default: 100
+		# Range: 1 ~ 100000
+		energyPerTick = 100
+
+	#Ultimate Portal Gun Settings
+	[jdte.ultimatePortalGun]
+		#Time Fluid capacity in mB (1000 B default)
+		# Default: 1000000
+		# Range: 1000 ~ 100000000
+		fluidCapacity = 1000000
+		# Default: 1000000
+		# Range: > 1000
+		energyCapacity = 1000000
+		#FE consumed per teleport
+		# Default: 100
+		# Range: 1 ~ 100000
+		energyCost = 100
+		#Dimensions excluded from the teleport dimension picker, using resource location ids (e.g. "minecraft:the_end")
+		teleportDimensionBlacklist = []
+
+	#Mineral Extractor Settings
+	[jdte.mineralExtractor]
+		# Default: 2000000
+		# Range: > 1
+		energyCapacity = 2000000
+		# Default: 64000
+		# Range: > 1
+		fluidCapacity = 64000
+		# Default: 5000
+		# Range: > 0
+		energyPerCycle = 5000
+		# Default: 25
+		# Range: > 0
+		experienceFluidPerCycle = 25
+		# Default: 5
+		# Range: > 0
+		timeFluidPerAcceleratedCycle = 5
+		# Default: 100
+		# Range: 0 ~ 10000
+		fortuneBonusPercent = 100
+		# Default: 20
+		# Range: 1 ~ 72000
+		processTicks = 20
+		# Default: 20
+		# Range: 1 ~ 1200
+		settlementInterval = 20
+		# Default: 1
+		# Range: 1 ~ 1024
+		defaultMultiplier = 1
+		# Default: 32
+		# Range: 1 ~ 32
+		maxMultiplier = 32
+		# Default: 64
+		# Range: 1 ~ 64
+		overclockMaxMultiplier = 64
+		# Default: 65536
+		# Range: 1 ~ 10000000
+		maxCyclesPerSettlement = 65536
+		# Default: 20000000
+		# Range: 1 ~ 9223372036854775807
+		maxPendingWork = 20000000
+
+	#Advanced Energy Transmitter Settings
+	[jdte.advancedEnergyTransmitter]
+		#Internal energy buffer size in FE
+		# Default: 2000000000
+		# Range: > 1000
+		energyCapacity = 2000000000
+		#Base tick interval between transmit operations
+		# Default: 1
+		# Range: 1 ~ 100
+		baseTickDelay = 1
+		#Ticks between refreshing the target block cache
+		# Default: 20
+		# Range: 1 ~ 1200
+		targetRefreshInterval = 20
+		#Maximum block positions inspected per server tick while rebuilding the target cache
+		# Default: 512
+		# Range: 1 ~ 100000
+		scanBlocksPerTick = 512
+		#Maximum cached targets attempted per transmit operation, including full or invalid targets
+		# Default: 512
+		# Range: 1 ~ 100000
+		maxTargetsPerTick = 512
+		#Maximum FE sent to one target per operation; 0 removes the per-target cap
+		# Default: 0
+		# Range: > 0
+		maxTransferPerTarget = 0
+		#Maximum total FE delivered per operation before overclock scaling
+		# Default: 268435456
+		# Range: > 1
+		transferBudgetPerTick = 268435456
+		#Transfer and ME extraction budget multiplier while overclocked
+		# Default: 8
+		# Range: 1 ~ 64
+		overclockTransferMultiplier = 8
+		#Maximum FE pulled from Applied Flux ME storage per operation before overclock scaling; 0 disables ME extraction
+		# Default: 268435456
+		# Range: > 0
+		meExtractionLimitPerTick = 268435456
+		#Exclude other Advanced Energy Transmitters from targets to prevent energy loops
+		excludeTransmitters = true
+		#Whether newly placed transmitters show particles by default
+		showParticlesByDefault = false
+		#Maximum successful targets that emit one transfer particle per operation
+		# Default: 8
+		# Range: 0 ~ 128
+		maxParticleTargetsPerTick = 8
+		#Maximum equipped player items inspected per operation; hard-capped at 64 and separate from block target budgets
+		# Default: 64
+		# Range: 1 ~ 64
+		playerChargeMaxItemsPerTick = 64
+		#Maximum receiveEnergy calls per equipped item per operation for items with per-call limits; hard-capped at 16
+		# Default: 16
+		# Range: 1 ~ 16
+		playerChargeMaxCallsPerItem = 16
+
+	#Tiered Solar Panel Settings
+	[jdte.solarPanel]
+		# Default: 46080
+		# Range: > 1
+		concentratedGeneration = 46080
+		# Default: 4608000
+		# Range: > 1
+		concentratedCapacity = 4608000
+		# Default: 184320
+		# Range: > 1
+		singularityGeneration = 184320
+		# Default: 18432000
+		# Range: > 1
+		singularityCapacity = 18432000
+		# Default: 737280
+		# Range: > 1
+		stellarFusionGeneration = 737280
+		# Default: 73728000
+		# Range: > 1
+		stellarFusionCapacity = 73728000
+		# Default: 2949120
+		# Range: > 1
+		dimensionalCollapseGeneration = 2949120
+		# Default: 294912000
+		# Range: > 1
+		dimensionalCollapseCapacity = 294912000
