@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "powah:dielectric_casing"
+    },
+    "i": {
+      "item": "powah:capacitor_niotic"
+    },
+    "p": {
+      "item": "powah:player_transmitter_blazing"
+    },
+    "r": {
+      "item": "powah:dielectric_rod"
+    }
+  },
+  "pattern": [
+    " p ",
+    "ici",
+    " r "
+  ],
+  "result": {
+    "count": 1,
+    "id": "powah:player_transmitter_niotic"
+  }
+}

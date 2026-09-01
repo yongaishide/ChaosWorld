@@ -986,5 +986,23 @@
       "ae2:cell_component_256k"
     ],
     "resultItems": "ae2omnicells:omni_cell_component_256k"
+  },
+  {
+    "matchItems": [
+      "mekmm:scrap"
+    ],
+    "resultItems": "chaosworld_core:scrap"
+  },
+  {
+    "matchItems": [
+      "mekmm:scrap_box"
+    ],
+    "resultItems": "chaosworld_core:scrap_box"
+  },
+  {
+    "matchItems": [
+      "#c:dusts/obsidian"
+    ],
+    "resultItems": "mekanism:dust_obsidian"
   }
 ]

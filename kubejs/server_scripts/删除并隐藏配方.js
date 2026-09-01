@@ -234,7 +234,8 @@ const HIDE_ITEMS = [
     'neoecoae:eco_fe_cell_housing', 
     'neoecoae:eco_fe_storage_cell_16m', 
     'neoecoae:eco_fe_storage_cell_64m', 
-    'neoecoae:eco_fe_storage_cell_256m'
+    'neoecoae:eco_fe_storage_cell_256m',
+    "powah:energizing_orb"
 ]
 
 ServerEvents.recipes(event => {

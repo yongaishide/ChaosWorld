@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "powah:crystal_blazing"
+    },
+    "c": {
+      "item": "powah:capacitor_blazing"
+    },
+    "d": {
+      "item": "powah:dielectric_casing"
+    },
+    "p": {
+      "item": "powah:solar_panel_hardened"
+    }
+  },
+  "pattern": [
+    "ppp",
+    "cdc",
+    "bbb"
+  ],
+  "result": {
+    "count": 1,
+    "id": "powah:solar_panel_blazing"
+  }
+}

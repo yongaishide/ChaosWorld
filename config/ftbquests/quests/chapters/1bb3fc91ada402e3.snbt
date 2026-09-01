@@ -32,9 +32,24 @@
 		{
 			dependencies: ["100A7C29203926B1"]
 			id: "487A2FD75215DAC3"
+			rewards: [{
+				id: "64524396330482F2"
+				item: {
+					components: {
+						"ae2:storage_cell_inv": [{
+							"#": 120L
+							"#t": "data_energistics:manifest_binary"
+						}]
+						"ae2:stored_energy": 50000.0d
+					}
+					count: 1
+					id: "data_energistics:radix_containment_sphere"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "61AAFF786FB64719"
-				item: { components: { "ae2:stored_energy": 1000.0d }, count: 1, id: "data_energistics:radix_containment_sphere" }
+				item: { components: { "ae2:stored_energy": 50000.0d }, count: 1, id: "data_energistics:radix_containment_sphere" }
 				type: "item"
 			}]
 			x: -6.0d
@@ -119,8 +134,8 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: -1.0d
+			x: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["21CFB774A10DAE02"]
@@ -130,8 +145,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(iceandfire:dragonsteel_fire_ingot)item(iceandfire:dragonsteel_ice_ingot)item(iceandfire:dragonsteel_lightning_ingot))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -1.0d
+			x: 2.0d
+			y: 1.0d
 		}
 	]
 }

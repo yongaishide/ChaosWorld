@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "powah:steel_energized"
+    },
+    {
+      "item": "powah:steel_energized"
+    },
+    {
+      "item": "powah:steel_energized"
+    },
+    {
+      "item": "powah:steel_energized"
+    },
+    {
+      "item": "powah:steel_energized"
+    },
+    {
+      "item": "powah:steel_energized"
+    },
+    {
+      "item": "powah:steel_energized"
+    },
+    {
+      "item": "powah:steel_energized"
+    },
+    {
+      "item": "powah:steel_energized"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "powah:energized_steel_block"
+  }
+}

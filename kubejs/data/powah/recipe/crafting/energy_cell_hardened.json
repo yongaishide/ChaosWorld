@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "powah:energy_cell_basic"
+    },
+    "d": {
+      "item": "powah:dielectric_casing"
+    },
+    "g": {
+      "item": "powah:steel_energized"
+    },
+    "h": {
+      "item": "powah:capacitor_hardened"
+    }
+  },
+  "pattern": [
+    "ghg",
+    "cdc",
+    "ghg"
+  ],
+  "result": {
+    "count": 1,
+    "id": "powah:energy_cell_hardened"
+  }
+}

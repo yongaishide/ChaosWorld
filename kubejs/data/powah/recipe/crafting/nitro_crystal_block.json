@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "powah:crystal_nitro"
+    },
+    {
+      "item": "powah:crystal_nitro"
+    },
+    {
+      "item": "powah:crystal_nitro"
+    },
+    {
+      "item": "powah:crystal_nitro"
+    },
+    {
+      "item": "powah:crystal_nitro"
+    },
+    {
+      "item": "powah:crystal_nitro"
+    },
+    {
+      "item": "powah:crystal_nitro"
+    },
+    {
+      "item": "powah:crystal_nitro"
+    },
+    {
+      "item": "powah:crystal_nitro"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "powah:nitro_crystal_block"
+  }
+}

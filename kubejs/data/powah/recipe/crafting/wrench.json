@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "p": {
+      "item": "powah:dielectric_paste"
+    }
+  },
+  "pattern": [
+    " ip",
+    " pi",
+    "p  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "powah:wrench"
+  }
+}

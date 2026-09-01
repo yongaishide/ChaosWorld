@@ -53,5 +53,35 @@
 			x: -0.5d
 			y: 2.0d
 		}
+		{
+			id: "29F3408407163C5C"
+			tasks: [{
+				id: "13903A239B72850C"
+				item: { count: 1, id: "mekanism:solar_neutron_activator" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			id: "724DBF9B5576A1DB"
+			tasks: [{
+				id: "70D158225471D0BE"
+				item: { count: 1, id: "mekanism:pellet_plutonium" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			id: "6B9796920E141DD3"
+			tasks: [{
+				id: "219A32CECE336FB9"
+				item: { count: 1, id: "mekanism:pellet_polonium" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
 	]
 }

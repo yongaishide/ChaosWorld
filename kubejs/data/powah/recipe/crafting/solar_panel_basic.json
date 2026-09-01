@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "powah:capacitor_basic"
+    },
+    "d": {
+      "item": "powah:dielectric_casing"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "p": {
+      "item": "powah:solar_panel_starter"
+    }
+  },
+  "pattern": [
+    "ppp",
+    "cdc",
+    "iii"
+  ],
+  "result": {
+    "count": 1,
+    "id": "powah:solar_panel_basic"
+  }
+}

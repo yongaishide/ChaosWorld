@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "powah:crystal_niotic"
+    },
+    "c": {
+      "item": "powah:capacitor_niotic"
+    },
+    "d": {
+      "item": "powah:dielectric_casing"
+    },
+    "p": {
+      "item": "powah:solar_panel_blazing"
+    }
+  },
+  "pattern": [
+    "ppp",
+    "cdc",
+    "bbb"
+  ],
+  "result": {
+    "count": 1,
+    "id": "powah:solar_panel_niotic"
+  }
+}

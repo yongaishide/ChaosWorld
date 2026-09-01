@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "powah:capacitor_nitro"
+    },
+    "d": {
+      "item": "powah:dielectric_casing"
+    },
+    "h": {
+      "item": "powah:energy_hopper_spirited"
+    },
+    "p": {
+      "item": "powah:dielectric_paste"
+    }
+  },
+  "pattern": [
+    "ppp",
+    "cdc",
+    "php"
+  ],
+  "result": {
+    "count": 1,
+    "id": "powah:energy_hopper_nitro"
+  }
+}

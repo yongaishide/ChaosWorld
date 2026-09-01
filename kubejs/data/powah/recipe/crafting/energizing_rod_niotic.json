@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "powah:capacitor_niotic"
+    },
+    "c": {
+      "item": "powah:dielectric_casing"
+    },
+    "h": {
+      "item": "powah:energizing_rod_blazing"
+    },
+    "q": {
+      "tag": "c:storage_blocks/quartz"
+    }
+  },
+  "pattern": [
+    " q ",
+    "bcb",
+    " h "
+  ],
+  "result": {
+    "count": 1,
+    "id": "powah:energizing_rod_niotic"
+  }
+}

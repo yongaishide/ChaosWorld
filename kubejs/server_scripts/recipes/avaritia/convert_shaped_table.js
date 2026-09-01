@@ -2553,5 +2553,48 @@
         result: { id: "ifeu:arcane_dragon_egg_forging" },
         show_notification: false
     })
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "ABCBA",
+            "BDEDB",
+            "CFGFC",
+            "BDEDB",
+            "ABCBA"
+        ],
+        "key": {
+            "A": {"item": "actuallyadditions:iron_casing"},
+            "B": {"item": "ae2:quartz_glass"},
+            "C": {"item": "actuallyadditions:display_stand"},
+            "D": {"item": "powah:dielectric_casing"},
+            "E": {"item": "powah:dielectric_rod"},
+            "F": {"item": "powah:dielectric_rod_horizontal"},
+            "G": {"item": "actuallyadditions:empowerer" }
+        },
+        "result": {"id": "powah:energizing_orb"}
+        })
+    event.custom({
+        type: 'create:mechanical_crafting',
+        accept_mirrored: false,
+        category: 'misc',
+        "pattern": [
+            "ABCBA",
+            "BDEDB",
+            "CFGFC",
+            "BDEDB",
+            "ABCBA"
+        ],
+        "key": {
+            "A": {"item": "actuallyadditions:iron_casing"},
+            "B": {"item": "ae2:quartz_glass"},
+            "C": {"item": "actuallyadditions:display_stand"},
+            "D": {"item": "powah:dielectric_casing"},
+            "E": {"item": "powah:dielectric_rod"},
+            "F": {"item": "powah:dielectric_rod_horizontal"},
+            "G": {"item": "actuallyadditions:empowerer" }
+        },
+        result: { id: "powah:energizing_orb" },
+        show_notification: false
+    })
 })
 
