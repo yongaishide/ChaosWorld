@@ -18,6 +18,10 @@ cnc_lathe = 50
 # Default: 50
 # Range: 0 ~ 9223372036854775807
 cnc_rollingMill = 50
+#Energy per operation in Joules of: Presser
+# Default: 50
+# Range: 0 ~ 9223372036854775807
+presser = 50
 #Energy per operation in Joules of: Ambient Gas Collector
 # Default: 100
 # Range: 0 ~ 9223372036854775807
@@ -38,10 +42,6 @@ largeAntiprotonicNucleosynthesizer = 100000
 # Default: 100
 # Range: 0 ~ 9223372036854775807
 largePigmentMixer = 100
-#Energy per operation in Joules of: Presser
-# Default: 50
-# Range: 0 ~ 9223372036854775807
-presser = 50
 
 #Settings for configuring Replicator Energy Usage
 [replicator]

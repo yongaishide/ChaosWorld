@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "enderio_evolution:infinity_dust_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "enderio:grains_of_infinity"
+  }
+}

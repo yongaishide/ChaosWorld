@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "allthemodium"
+    }
+  ],
+  "type": "enderio:slicing",
+  "energy": 50000,
+  "inputs": [
+    {
+      "item": "allthemodium:ancient_soulberries"
+    },
+    {
+      "item": "allthemodium:piglich_heart"
+    },
+    {
+      "item": "allthemodium:ancient_soulberries"
+    },
+    {
+      "item": "allthemodium:piglich_heart"
+    },
+    {
+      "item": "enderio_evolution:capacitor_unobtainium"
+    },
+    {
+      "item": "allthemodium:piglich_heart"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "id": "enderio_evolution:capacitor_piglich"
+  }
+}

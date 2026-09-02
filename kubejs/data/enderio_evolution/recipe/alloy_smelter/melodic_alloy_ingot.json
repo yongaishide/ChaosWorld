@@ -1,0 +1,23 @@
+{
+  "type": "enderio:alloy_smelting",
+  "energy": 10000,
+  "experience": 1.5,
+  "inputs": [
+    {
+      "count": 1,
+      "item": "enderio_evolution:crystalline_pink_slime_ingot"
+    },
+    {
+      "count": 1,
+      "item": "chaosworld_core:ingot_tech_5"
+    },
+    {
+      "count": 1,
+      "item": "enderio:end_steel_ingot"
+    }
+  ],
+  "output": {
+    "count": 3,
+    "id": "enderio_evolution:melodic_alloy_ingot"
+  }
+}

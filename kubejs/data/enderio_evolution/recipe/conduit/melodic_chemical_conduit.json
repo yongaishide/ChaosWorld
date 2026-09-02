@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "enderio:conduit_binder"
+    },
+    "C": {
+      "type": "enderio:conduit",
+      "conduit_type": "enderio:ender_chemical"
+    },
+    "I": {
+      "item": "enderio_evolution:melodic_alloy_ingot"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "ICI",
+    "BBB"
+  ],
+  "result": {
+    "components": {
+      "enderio:conduit": "enderio_evolution:melodic_chemical_conduit"
+    },
+    "count": 6,
+    "id": "enderio:conduit"
+  }
+}

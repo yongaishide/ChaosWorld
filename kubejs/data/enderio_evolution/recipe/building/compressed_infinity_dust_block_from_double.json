@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "enderio_evolution:double_compressed_infinity_dust_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "enderio_evolution:compressed_infinity_dust_block"
+  }
+}

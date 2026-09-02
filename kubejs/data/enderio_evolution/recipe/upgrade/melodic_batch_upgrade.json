@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "enderio_evolution:melodic_alloy_block"
+    },
+    "C": {
+      "item": "enderio_evolution:capacitor_melodic"
+    },
+    "U": {
+      "item": "enderio_evolution:crystalline_batch_upgrade"
+    }
+  },
+  "pattern": [
+    " U ",
+    "UBU",
+    " C "
+  ],
+  "result": {
+    "count": 1,
+    "id": "enderio_evolution:melodic_batch_upgrade"
+  }
+}

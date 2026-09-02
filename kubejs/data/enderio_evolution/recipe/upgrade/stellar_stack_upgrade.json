@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "enderio_evolution:stellar_alloy_ingot"
+    },
+    "N": {
+      "item": "minecraft:nether_star"
+    },
+    "U": {
+      "item": "enderio_evolution:melodic_stack_upgrade"
+    }
+  },
+  "pattern": [
+    " U ",
+    "UBU",
+    " N "
+  ],
+  "result": {
+    "count": 1,
+    "id": "enderio_evolution:stellar_stack_upgrade"
+  }
+}

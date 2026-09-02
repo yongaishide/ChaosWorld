@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "enderio_evolution:melodic_alloy_ingot"
+    },
+    "B": {
+      "item": "enderio:dark_steel_ingot"
+    },
+    "C": {
+      "item": "enderio_evolution:capacitor_crystalline"
+    }
+  },
+  "pattern": [
+    " A ",
+    "CBC",
+    " A "
+  ],
+  "result": {
+    "count": 1,
+    "id": "enderio_evolution:capacitor_melodic"
+  }
+}

@@ -1,0 +1,14 @@
+#Number of 4x9 encoded pattern pages available in each ME machine.
+#Default: 2 pages, 72 pattern slots.
+#Reducing this value hides higher slots, but their saved NBT remains on the machine.
+# Default: 2
+# Range: 1 ~ 16
+patternPages = 2
+#Prefer FE stored in Applied Flux cells when an ME machine is connected to an AE network.
+#When enabled, Applied Flux FE is drained before AE network energy.
+#When disabled, AE network energy is drained before Applied Flux FE.
+preferAppliedFluxNetworkFe = false
+#Prefer network energy when an ME machine is connected to an AE network.
+#When enabled, AE/Applied Flux energy is drained before the machine's local FE buffer.
+#When disabled, the local FE buffer is drained before network energy.
+preferNetworkEnergy = true

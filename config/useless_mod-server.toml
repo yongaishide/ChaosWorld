@@ -20,4 +20,66 @@
 	#Ore generator sample slots. Slots above this value remain recovery-only.
 	# Default: 9
 	# Range: 1 ~ 540
-	ore_generator_slots = 27
+	ore_generator_slots = 9
+
+[useless_dimension]
+	#Blocks that cannot be used for Useless Dimension borders, fills, or centers
+	#A block matching this list remains blocked even if it matches the whitelist
+	#Use exact block IDs, #block tags, or * wildcard patterns
+	floor_block_blacklist = []
+	#When non-empty, only matching blocks can be used for Useless Dimension borders, fills, or centers
+	#Leave empty to allow every block that is not on the blacklist
+	#Use exact block IDs, #block tags, or * wildcard patterns
+	floor_block_whitelist = [
+        "useless_mod:black_plastic", 
+        "useless_mod:red_plastic", 
+        "useless_mod:green_plastic", 
+        "useless_mod:brown_plastic", 
+        "useless_mod:blue_plastic", 
+        "useless_mod:purple_plastic", 
+        "useless_mod:cyan_plastic", 
+        "useless_mod:light_gray_plastic", 
+        "useless_mod:gray_plastic", 
+        "useless_mod:pink_plastic", 
+        "useless_mod:lime_plastic", 
+        "useless_mod:yellow_plastic", 
+        "useless_mod:light_blue_plastic", 
+        "useless_mod:magenta_plastic", 
+        "useless_mod:orange_plastic", 
+        "useless_mod:white_plastic", 
+        "useless_mod:dark_red_plastic", 
+        "useless_mod:aqua_plastic",
+        "useless_mod:black_glow_plastic",
+        "useless_mod:red_glow_plastic",
+        "useless_mod:green_glow_plastic",
+        "useless_mod:brown_glow_plastic",
+        "useless_mod:blue_glow_plastic",
+        "useless_mod:purple_glow_plastic",
+        "useless_mod:cyan_glow_plastic",
+        "useless_mod:light_gray_glow_plastic",
+        "useless_mod:gray_glow_plastic",
+        "useless_mod:pink_glow_plastic",
+        "useless_mod:lime_glow_plastic",
+        "useless_mod:yellow_glow_plastic",
+        "useless_mod:light_blue_glow_plastic",
+        "useless_mod:magenta_glow_plastic",
+        "useless_mod:orange_glow_plastic",
+        "useless_mod:white_glow_plastic",
+        "useless_mod:dark_red_glow_plastic",
+        "useless_mod:aqua_glow_plastic",
+        "minecraft:white_concrete", 
+        "minecraft:light_gray_concrete", 
+        "minecraft:gray_concrete", 
+        "minecraft:black_concrete", 
+        "minecraft:brown_concrete", 
+        "minecraft:red_concrete", 
+        "minecraft:orange_concrete", 
+        "minecraft:yellow_concrete", 
+        "minecraft:lime_concrete", 
+        "minecraft:green_concrete", 
+        "minecraft:cyan_concrete", 
+        "minecraft:light_blue_concrete", 
+        "minecraft:blue_concrete", 
+        "minecraft:purple_concrete", 
+        "minecraft:magenta_concrete", 
+        "minecraft:pink_concrete"]

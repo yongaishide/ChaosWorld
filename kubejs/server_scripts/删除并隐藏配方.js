@@ -234,7 +234,19 @@ const HIDE_ITEMS = [
     'neoecoae:eco_fe_cell_housing', 
     'neoecoae:eco_fe_storage_cell_16m', 
     'neoecoae:eco_fe_storage_cell_64m', 
-    'neoecoae:eco_fe_storage_cell_256m'
+    'neoecoae:eco_fe_storage_cell_256m',
+    'arseng:source_storage_cell_1k', 
+    'arseng:source_storage_cell_4k', 
+    'arseng:source_storage_cell_16k', 
+    'arseng:source_storage_cell_64k', 
+    'arseng:source_storage_cell_256k', 
+    'arseng:portable_source_cell_1k', 
+    'arseng:portable_source_cell_4k', 
+    'arseng:portable_source_cell_16k', 
+    'arseng:portable_source_cell_64k', 
+    'arseng:portable_source_cell_256k',
+    "ae2lt:infinite_storage_cell",
+    "ae2lt:mysterious_cell"
 ]
 
 ServerEvents.recipes(event => {

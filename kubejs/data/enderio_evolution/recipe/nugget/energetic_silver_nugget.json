@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "enderio_evolution:energetic_silver_ingot"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "enderio_evolution:energetic_silver_nugget"
+  }
+}

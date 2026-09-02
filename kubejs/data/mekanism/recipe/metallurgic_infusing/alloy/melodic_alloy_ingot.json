@@ -1,5 +1,5 @@
 {"type":"mekanism:metallurgic_infusing",
-"chemical_input":{"amount":40,"chemical":"kubejs:basic_topological_matter"},
-"item_input":{"count":1,"item":"chaosworld_core:ingot_tech_5"},
-"output":{"count":1,"id":"enderio_evolution:melodic_alloy_ingot"}
+"chemical_input":{"amount":40,"chemical":"kubejs:data_crystal"},
+"item_input":{"count":1,"item":"mekanism:alloy_reinforced"},
+"output":{"count":1,"id":"chaosworld_core:ingot_tech_5"}
 ,"per_tick_usage":false}

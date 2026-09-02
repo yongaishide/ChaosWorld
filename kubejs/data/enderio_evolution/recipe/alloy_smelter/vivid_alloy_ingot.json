@@ -1,0 +1,19 @@
+{
+  "type": "enderio:alloy_smelting",
+  "energy": 10000,
+  "experience": 1.0,
+  "inputs": [
+    {
+      "count": 1,
+      "item": "enderio_evolution:energetic_silver_ingot"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:ender_pearl"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "id": "enderio_evolution:vivid_alloy_ingot"
+  }
+}

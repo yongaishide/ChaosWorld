@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "enderio_evolution:crystalline_alloy_ingot"
+    },
+    "C": {
+      "item": "enderio_evolution:capacitor_crystalline"
+    },
+    "U": {
+      "item": "enderio_evolution:vivid_stack_upgrade"
+    }
+  },
+  "pattern": [
+    " U ",
+    "UBU",
+    " C "
+  ],
+  "result": {
+    "count": 1,
+    "id": "enderio_evolution:crystalline_stack_upgrade"
+  }
+}

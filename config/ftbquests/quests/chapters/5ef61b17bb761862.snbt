@@ -4,7 +4,7 @@
 	filename: "5ef61b17bb761862"
 	group: "7A37A36F45DDAEBC"
 	icon: {
-		id: "mekanism:elite_control_circuit"
+		id: "ae2lt:lightning_collapse_matrix"
 	}
 	id: "5EF61B17BB761862"
 	images: [ ]
@@ -97,6 +97,7 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["3E8A04664DB9DD56"]
 			id: "40FF64A45A6A88A4"
 			tasks: [{
 				id: "16CC8ECD946966F7"
@@ -222,54 +223,6 @@
 			}]
 			x: -8.0d
 			y: -6.0d
-		}
-		{
-			dependencies: ["4BF6A9218F7DEF29"]
-			id: "487A2FD75215DAC3"
-			rewards: [{
-				id: "64524396330482F2"
-				item: {
-					components: {
-						"ae2:storage_cell_inv": [{
-							"#": 120L
-							"#t": "data_energistics:manifest_binary"
-						}]
-						"ae2:stored_energy": 50000.0d
-					}
-					count: 1
-					id: "data_energistics:radix_containment_sphere"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "61AAFF786FB64719"
-				item: { components: { "ae2:stored_energy": 50000.0d }, count: 1, id: "data_energistics:radix_containment_sphere" }
-				type: "item"
-			}]
-			x: 12.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["487A2FD75215DAC3"]
-			id: "24126FA5B4F37967"
-			tasks: [{
-				id: "53366587AC8819F6"
-				item: { count: 1, id: "data_energistics:budding_data_crystal_3" }
-				type: "item"
-			}]
-			x: 14.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["24126FA5B4F37967"]
-			id: "35D519C7E7EB19D3"
-			tasks: [{
-				id: "477AAEE063131C8D"
-				item: { count: 1, id: "data_energistics:data_dust" }
-				type: "item"
-			}]
-			x: 16.5d
-			y: -4.5d
 		}
 	]
 }

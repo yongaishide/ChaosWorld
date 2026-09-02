@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "enderio_evolution:stellar_alloy_block"
+    },
+    "N": {
+      "item": "enderio_evolution:capacitor_stellar"
+    },
+    "U": {
+      "item": "enderio_evolution:melodic_batch_upgrade"
+    }
+  },
+  "pattern": [
+    " U ",
+    "UBU",
+    " N "
+  ],
+  "result": {
+    "count": 1,
+    "id": "enderio_evolution:stellar_batch_upgrade"
+  }
+}

@@ -1,4 +1,4 @@
 {"type":"mekanism:metallurgic_infusing",
-"chemical_input":{"amount":20,"chemical":"kubejs:data_crystal"},
-"item_input":{"count":1,"item":"enderio_evolution:crystalline_alloy_ingot"},
+"chemical_input":{"amount":40,"chemical":"mekanism:diamond"},
+"item_input":{"count":1,"item":"alltheores:enderium_ingot"},
 "output":{"count":1,"id":"mekanism:alloy_reinforced"},"per_tick_usage":false}

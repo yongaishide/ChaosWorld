@@ -2,37 +2,41 @@
     "type": "create:mixing",
     "ingredients": [
         {
-            "tag": "c:nuggets/zinc"
+            "item": "integrateddynamics:crystalized_chorus_chunk"
         },
         {
-            "tag": "c:nuggets/zinc"
+            "item": "integrateddynamics:crystalized_chorus_chunk"
         },
         {
-            "tag": "c:nuggets/iron"
+            "item": "integrateddynamics:crystalized_chorus_chunk"
         },
         {
-            "tag": "c:nuggets/iron"
+            "item": "integrateddynamics:crystalized_chorus_chunk"
         },
         {
-            "item": "minecraft:dragon_breath"
+            "item": "mysticalagriculture:end_agglomeratio"
         },
         {
-            "item": "minecraft:popped_chorus_fruit"
+            "item": "mysticalagriculture:end_agglomeratio"
         },
         {
-            "item": "minecraft:popped_chorus_fruit"
+            "item": "occultism:amethyst_dust"
         },
         {
-            "item": "minecraft:popped_chorus_fruit"
+            "item": "occultism:amethyst_dust"
         },
         {
-            "item": "minecraft:popped_chorus_fruit"
+            "item": "occultism:amethyst_dust"
+        },
+        {
+            "item": "occultism:amethyst_dust"
         }
     ],
     "heatRequirement": "heated",
     "results": [
         {
-            "id": "rainbowcompound:chorusite_ingot"
+            "id": "rainbowcompound:chorusite_ingot",
+            "count":4
         }
     ]
 }

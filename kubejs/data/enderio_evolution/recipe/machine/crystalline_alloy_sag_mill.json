@@ -1,0 +1,30 @@
+{
+  "type": "enderio_evolution:machine_upgrade",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "enderio_evolution:capacitor_crystalline"
+    },
+    "E": {
+      "item": "minecraft:ender_pearl"
+    },
+    "H": {
+      "item": "enderio_evolution:vivid_alloy_sag_mill"
+    },
+    "I": {
+      "item": "minecraft:ender_eye"
+    },
+    "M": {
+      "item": "enderio_evolution:crystalline_alloy_ingot"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "MHM",
+    "EIE"
+  ],
+  "result": {
+    "count": 1,
+    "id": "enderio_evolution:crystalline_alloy_sag_mill"
+  }
+}

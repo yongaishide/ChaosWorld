@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "minecraft:furnace"
+    },
+    "G": {
+      "tag": "c:gears/iron"
+    },
+    "M": {
+      "item": "enderio_evolution:simple_machine_frame"
+    },
+    "P": {
+      "item": "minecraft:piston"
+    },
+    "S": {
+      "item": "minecraft:stone_bricks"
+    }
+  },
+  "pattern": [
+    "SFS",
+    "SMS",
+    "GPG"
+  ],
+  "result": {
+    "count": 1,
+    "id": "enderio_evolution:simple_stirling_generator"
+  }
+}

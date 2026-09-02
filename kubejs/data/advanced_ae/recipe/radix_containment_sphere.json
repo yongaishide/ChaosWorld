@@ -1,0 +1,34 @@
+{
+  "type": "advanced_ae:reaction",
+  "input_energy": 200000,
+  "input_fluid": {
+    "amount": 100,
+    "ingredient": {
+      "fluid": "minecraft:lava"
+    }
+  },
+  "input_items": [
+    {
+      "ingredient": {
+        "item": "data_energistics:radix_containment_sphere"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "data_energistics:radix_containment_sphere"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "data_energistics:radix_containment_sphere"
+      }
+    }
+  ],
+  "output": {
+    "#": 1,
+    "#t": "ae2:i",
+    "id": "data_energistics:radix_containment_sphere", "components": {"ae2:stored_energy": 50000.0}
+  }
+}

@@ -18,6 +18,10 @@ cnc_lathe = 20000
 # Default: 20000
 # Range: 1 ~ 9223372036854775807
 cnc_rollingMill = 20000
+#Base energy storage in Joules of: Presser
+# Default: 20000
+# Range: 1 ~ 9223372036854775807
+presser = 20000
 #Base energy storage in Joules of: Ambient Gas Collector
 # Default: 40000
 # Range: 1 ~ 9223372036854775807
@@ -54,10 +58,6 @@ largePigmentMixer = 4096000
 # Default: 256600000
 # Range: 1 ~ 9223372036854775807
 largeHeatGenerator = 256600000
-#Base energy storage in Joules of: Presser
-# Default: 20000
-# Range: 1 ~ 9223372036854775807
-presser = 20000
 #Base energy storage in Joules of: Large Wind Generator
 # Default: 256600000
 # Range: 1 ~ 9223372036854775807

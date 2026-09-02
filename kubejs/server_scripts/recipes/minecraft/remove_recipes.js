@@ -35,7 +35,16 @@ ServerEvents.recipes(event => {
         "powah:dielectric_paste",
         "ifeu:arcane_dragon_egg_forging",
         "powah:energizing_orb",
-        "pneumaticcraft:amadron_tablet"
+        "pneumaticcraft:amadron_tablet",
+        'immersiveengineering:blast_furnace', 
+        'immersiveengineering:coke_oven', 
+        'immersiveengineering:sawmill', 
+        'immersiveengineering:fermenter', 
+        'immersiveengineering:squeezer', 
+        'immersiveengineering:alloy_smelter', 
+        'immersiveengineering:bottling_machine', 
+        'immersiveengineering:arc_furnace', 
+        'immersiveengineering:metal_press'
 
         
         

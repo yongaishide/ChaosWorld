@@ -1,0 +1,27 @@
+{
+  "type": "enderio_evolution:machine_upgrade",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "enderio_evolution:melodic_alloy_block"
+    },
+    "C": {
+      "item": "enderio_evolution:capacitor_melodic"
+    },
+    "I": {
+      "item": "enderio_evolution:melodic_alloy_ingot"
+    },
+    "P": {
+      "item": "enderio_evolution:crystalline_capacitor_bank"
+    }
+  },
+  "pattern": [
+    "ICI",
+    "PBP",
+    "ICI"
+  ],
+  "result": {
+    "count": 1,
+    "id": "enderio_evolution:melodic_capacitor_bank"
+  }
+}

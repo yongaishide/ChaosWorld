@@ -392,7 +392,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -3.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["6F7353C5C8BF839A"]
@@ -405,8 +405,8 @@
 				id: "6A74F467D018ED14"
 				type: "fluid"
 			}]
-			x: 7.0d
-			y: -3.0d
+			x: 5.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["42A0D1F16E6A0ECC"]
@@ -416,10 +416,11 @@
 				item: { count: 1, id: "minecraft:nether_star" }
 				type: "item"
 			}]
-			x: 13.0d
-			y: -3.0d
+			x: 17.0d
+			y: -5.0d
 		}
 		{
+			dependencies: ["63C55110F142AA1A"]
 			id: "42A0D1F16E6A0ECC"
 			tasks: [
 				{
@@ -445,7 +446,116 @@
 					type: "item"
 				}
 			]
+			x: 15.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["27939AAD5737C1AC"]
+			id: "586F43A7FE1B3317"
+			tasks: [{
+				id: "1E22BE6D2051325F"
+				item: { count: 1, id: "mekanism:alloy_reinforced" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["586F43A7FE1B3317"]
+			id: "11530B12837BCF77"
+			tasks: [{
+				id: "1DBF2B0910A7F3B1"
+				item: { count: 1, id: "mekanism:elite_control_circuit" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6F7353C5C8BF839A"]
+			id: "487A2FD75215DAC3"
+			rewards: [{
+				id: "64524396330482F2"
+				item: {
+					components: {
+						"ae2:storage_cell_inv": [{
+							"#": 120L
+							"#t": "data_energistics:manifest_binary"
+						}]
+						"ae2:stored_energy": 50000.0d
+					}
+					count: 1
+					id: "data_energistics:radix_containment_sphere"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "61AAFF786FB64719"
+				item: { components: { "ae2:stored_energy": 50000.0d }, count: 1, id: "data_energistics:radix_containment_sphere" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"487A2FD75215DAC3"
+				"23D2ABF435D07899"
+			]
+			id: "24126FA5B4F37967"
+			tasks: [{
+				id: "53366587AC8819F6"
+				item: { count: 1, id: "data_energistics:budding_data_crystal_3" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["24126FA5B4F37967"]
+			id: "35D519C7E7EB19D3"
+			tasks: [{
+				id: "477AAEE063131C8D"
+				item: { count: 1, id: "data_energistics:data_dust" }
+				type: "item"
+			}]
 			x: 11.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"35D519C7E7EB19D3"
+				"586F43A7FE1B3317"
+			]
+			id: "63C55110F142AA1A"
+			tasks: [{
+				id: "4DBD48D0E48AE3C2"
+				item: { count: 1, id: "chaosworld_core:ingot_tech_5" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3970B1ED264E6A14"]
+			id: "6EC5FEAA20A0DE39"
+			tasks: [{
+				id: "1E12C5ED38CC6D38"
+				item: { count: 1, id: "ae2cs:crystal_aggregator" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6EC5FEAA20A0DE39"]
+			id: "23D2ABF435D07899"
+			tasks: [{
+				id: "3A0461DEB6A19925"
+				item: { count: 1, id: "data_energistics:budding_data_crystal_0" }
+				type: "item"
+			}]
+			x: 7.0d
 			y: -3.0d
 		}
 	]

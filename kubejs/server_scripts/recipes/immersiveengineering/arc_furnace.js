@@ -60,18 +60,6 @@ ServerEvents.recipes((event) => {
             "results":[{"basePredicate":{"item":"extendedcrafting:luminessence"},"count":1}],
             "time":100}
     )
-    //末影锭
-    event.custom(
-        {"type":"immersiveengineering:arc_furnace",
-            "additives":[
-                {"basePredicate":{"item":"rainbowcompound:enderite_ingot"},"count":2},
-                {"basePredicate":{"item":"enderio:ender_crystal_powder"},"count":1}
-            ],
-            "energy":51200,
-            "input":{"basePredicate":{"item":"enderio:pulsating_alloy_ingot"},"count":3},
-            "results":[{"basePredicate":{"item":"alltheores:enderium_ingot"},"count":3}],
-            "time":100}
-    )
     //炽铁锭
     event.custom(
         {"type":"immersiveengineering:arc_furnace",

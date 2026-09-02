@@ -2384,7 +2384,7 @@
             '   A   '
         ],
         key: ({
-            A: { item: 'chaosworld_core:ingot_tech_2' },
+            A: { item: 'chaosworld_core:ingot_tech_5' },
             B: { item: 'naturesaura:token_rage' },
             C: { item: 'twilightforest:fiery_ingot' },
             D: { item: "aoa3:wither_rune" },
@@ -2408,7 +2408,7 @@
             '   A   '
         ],
         key: ({
-            A: { item: 'chaosworld_core:ingot_tech_2' },
+            A: { item: 'chaosworld_core:ingot_tech_5' },
             B: { item: 'naturesaura:token_rage' },
             C: { item: 'twilightforest:fiery_ingot' },
             D: { item: "aoa3:wither_rune" },

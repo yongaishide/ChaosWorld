@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "enderio_evolution:stellar_alloy_ingot"
+    },
+    "B": {
+      "item": "minecraft:shulker_shell"
+    },
+    "C": {
+      "item": "enderio_evolution:capacitor_melodic"
+    }
+  },
+  "pattern": [
+    " A ",
+    "CBC",
+    " A "
+  ],
+  "result": {
+    "count": 1,
+    "id": "enderio_evolution:capacitor_stellar"
+  }
+}

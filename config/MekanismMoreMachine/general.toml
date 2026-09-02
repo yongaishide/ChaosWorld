@@ -21,15 +21,15 @@ wirelessChargingStationChargingRate = 100000
 	#Set the maximum energy transmission rate during wireless transmission
 	# Default: 10000000
 	# Range: 1 ~ 9223372036854775807
-	energyRate = 100000
+	energyRate = 10000000
 	#Set the maximum fluids transmission rate during wireless transmission
 	# Default: 10000
 	# Range: > 1
-	fluidsRate = 1000
+	fluidsRate = 10000
 	#Set the maximum chemicals transmission rate during wireless transmission
 	# Default: 40000
 	# Range: 1 ~ 9223372036854775807
-	chemicalsRate = 4000
+	chemicalsRate = 40000
 	#Set the maximum items transmission rate during wireless transmission
 	# Default: 64
 	# Range: 1 ~ 64

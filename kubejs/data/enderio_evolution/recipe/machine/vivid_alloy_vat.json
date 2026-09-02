@@ -1,0 +1,35 @@
+{
+  "type": "enderio_evolution:machine_upgrade",
+  "category": "misc",
+  "key": {
+    "C": [
+      {
+        "item": "enderio_evolution:capacitor_vivid"
+      },
+      {
+        "item": "enderio:octadic_capacitor"
+      }
+    ],
+    "D": {
+      "item": "enderio:dark_steel_ingot"
+    },
+    "E": {
+      "item": "minecraft:ender_chest"
+    },
+    "H": {
+      "item": "enderio_evolution:basic_vat"
+    },
+    "M": {
+      "item": "enderio_evolution:energetic_silver_ingot"
+    }
+  },
+  "pattern": [
+    "DED",
+    "MCM",
+    "DHD"
+  ],
+  "result": {
+    "count": 1,
+    "id": "enderio_evolution:vivid_alloy_vat"
+  }
+}

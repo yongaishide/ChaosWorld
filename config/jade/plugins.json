@@ -96,6 +96,9 @@
     "show_owner": false,
     "bound_machine": true
   },
+  "mekenergistics": {
+    "ae_status": true
+  },
   "jade_access": {
     "held_item": true,
     "sign": true,
@@ -302,6 +305,9 @@
   },
   "enderio_conduit_opt": {
     "item_conduit_info": true
+  },
+  "useless_mod": {
+    "advanced_alloy_furnace_tasks": true
   },
   "kaleidoscope_cookery": {
     "chopping_board": true,

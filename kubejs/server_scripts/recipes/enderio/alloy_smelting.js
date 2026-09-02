@@ -76,10 +76,10 @@ ServerEvents.recipes((event) => {
             "experience":0.3,
             "inputs":[
                 {"count":2,"item":"rainbowcompound:enderite_ingot"},
-                {"count":3,"item":"enderio:pulsating_alloy_ingot"},
+                {"count":4,"item":"ae2omnicells:ender_ingot"},
                 {"count":1,"item":"enderio:ender_crystal_powder"}
             ],
-            "output":{"count":3,"id":"alltheores:enderium_ingot"}}
+            "output":{"count":4,"id":"alltheores:enderium_ingot"}}
     )
     //振动合金锭
     event.custom(
@@ -89,7 +89,7 @@ ServerEvents.recipes((event) => {
             "inputs":[
                 {"count":2,"item":"enderio:energetic_alloy_ingot"},
                 {"count":3,"item":"chaosworld_core:ingot_tech_4"},
-                {"count":1,"item":"alltheores:enderium_ingot"}
+                {"count":1,"item":"allthemodium:allthemodium_ingot"}
             ],
             "output":{"count":3,"id":"enderio:vibrant_alloy_ingot"}}
     )
@@ -100,7 +100,7 @@ ServerEvents.recipes((event) => {
             "experience":0.3,
             "inputs":[
                 {"count":1,"item":"enderio:pulsating_powder"},
-                {"count":4,"item":"ae2omnicells:ender_ingot"},
+                {"count":2,"item":"alltheores:enderium_ingot"},
                 {"count":2,"item":"enderio:vibrant_alloy_ingot"}
             ],
             "output":{"count":4,"id":"enderio_evolution:crystalline_alloy_ingot"}}

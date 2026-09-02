@@ -1,0 +1,22 @@
+{
+  "type": "powah:energizing",
+  "energy": 120000,
+  "ingredients": [
+    {
+      "item": "ae2omnicells:ender_ingot"
+    },
+    {
+      "item": "ae2omnicells:ender_ingot"
+    },
+    {
+      "item": "ae2omnicells:ender_ingot"
+    },
+    {
+      "item": "ae2omnicells:ender_ingot"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "ae2omnicells:charged_ender_ingot"
+  }
+}
