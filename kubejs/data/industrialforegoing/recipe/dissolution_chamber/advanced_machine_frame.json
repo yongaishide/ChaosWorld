@@ -2,7 +2,7 @@
   "neoforge:conditions": [
     {
       "type": "neoforge:item_exists",
-      "item": "industrialforegoing:machine_frame_advanced"
+      "item": ""ae2lt:overload_machine_frame""
     }
   ],
   "type": "industrialforegoing:dissolution_chamber",
@@ -11,7 +11,7 @@
       "tag": "c:plastics"
     },
     {
-      "item": "ifmup:nether_star_gear"
+      "item": "mekanism:elite_control_circuit"
     },
     {
       "tag": "c:plastics"
@@ -38,7 +38,7 @@
   },
   "output": {
     "count": 1,
-    "id": "industrialforegoing:machine_frame_advanced"
+    "id": ""ae2lt:overload_machine_frame""
   },
   "processingTime": 300
 }

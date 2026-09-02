@@ -1,3 +1,6 @@
+[mekanism_upgrade]
+	max_upgrade = 32
+
 		[advanced_alloy_furnace.recipe_conversion.minecraft]
 			#是否启用该配方来源的配方转换
 			#修改后重启游戏生效

@@ -4,25 +4,31 @@
   "input_fluid": {
     "amount": 100,
     "ingredient": {
-      "fluid": "minecraft:lava"
+      "fluid": "advanced_ae:quantum_infusion_source"
     }
   },
   "input_items": [
     {
       "ingredient": {
-        "item": "data_energistics:radix_containment_sphere"
+        "item": "ae2omnicells:omni_cell_component_256k"
+      }
+    },
+    {
+      "amount": 4,
+      "ingredient": {
+        "item": "mekanism:induction_casing"
       }
     },
     {
       "amount": 2,
       "ingredient": {
-        "item": "data_energistics:radix_containment_sphere"
+        "item": "industrialforegoing:plastic"
       }
     },
     {
       "amount": 2,
       "ingredient": {
-        "item": "data_energistics:radix_containment_sphere"
+        "item": "mekanism:advanced_control_circuit"
       }
     }
   ],

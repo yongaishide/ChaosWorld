@@ -12,9 +12,9 @@
 	quest_enhance_decorative_lines: [ ]
 	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [{
-		id: "7D23B4979AB3738E"
-		linked_quest: "3F1807D805166D06"
-		x: -5.5d
+		id: "3F5C6A87C728FBAC"
+		linked_quest: "54A1DBA152A7BA4E"
+		x: 0.5d
 		y: -2.0d
 	}]
 	quests: [
@@ -30,20 +30,9 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["3F1807D805166D06"]
-			id: "6CA91BE7AE4CEEA2"
-			tasks: [{
-				id: "0CB1EFF04E57C235"
-				item: { count: 1, id: "ae2lt:lightning_simulation_room" }
-				type: "item"
-			}]
-			x: -3.5d
-			y: -2.0d
-		}
-		{
 			dependencies: [
-				"4DA2E5BF6F4D94E2"
 				"5A7710A6B8BEDBDD"
+				"54A1DBA152A7BA4E"
 			]
 			id: "55AEBF82CAD3F5E2"
 			tasks: [{
@@ -75,16 +64,6 @@
 			}]
 			x: 6.5d
 			y: -2.0d
-		}
-		{
-			id: "4E2B3936137B16FE"
-			tasks: [{
-				id: "39CDE6A4011DC1CB"
-				item: { count: 1, id: "mekanism:alloy_reinforced" }
-				type: "item"
-			}]
-			x: 6.5d
-			y: -4.0d
 		}
 		{
 			id: "61D2EDC385ADAD2C"
@@ -129,28 +108,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["18CB31F1BDBC7F12"]
-			id: "4DA2E5BF6F4D94E2"
-			tasks: [{
-				id: "4E5BC32A028B423B"
-				item: { count: 1, id: "ae2lt:overload_machine_frame" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["6CA91BE7AE4CEEA2"]
-			id: "18CB31F1BDBC7F12"
-			tasks: [{
-				id: "29935AD157D9E478"
-				item: { count: 1, id: "ae2lt:overload_alloy_plate" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: -2.0d
-		}
-		{
 			id: "0DBA123CAA13D836"
 			tasks: [{
 				id: "42441A71C594767D"
@@ -192,37 +149,6 @@
 			}]
 			x: 8.5d
 			y: -2.0d
-		}
-		{
-			dependencies: ["3A7D70075A7E9BDE"]
-			id: "657E1EFFCD67D1FD"
-			tasks: [{
-				id: "33EDE4C9D62B7531"
-				item: { count: 1, id: "ae2lt:cracked_budding_overload_crystal" }
-				type: "item"
-			}]
-			x: -6.0d
-			y: -6.0d
-		}
-		{
-			id: "6C8167D5F505718F"
-			tasks: [{
-				id: "028ECE4B05F7B921"
-				item: { count: 1, id: "ae2lt:overload_crystal" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: -5.5d
-		}
-		{
-			id: "3A7D70075A7E9BDE"
-			tasks: [{
-				id: "44D53245ECD3BE00"
-				item: { count: 1, id: "ae2:flawed_budding_quartz" }
-				type: "item"
-			}]
-			x: -8.0d
-			y: -6.0d
 		}
 	]
 }

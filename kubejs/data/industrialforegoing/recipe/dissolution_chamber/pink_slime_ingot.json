@@ -8,7 +8,13 @@
   "type": "industrialforegoing:dissolution_chamber",
   "input": [
     {
-      "tag": "c:ingots/iron"
+      "tag": "minecraft:slime_ball"
+    },
+    {
+      "tag": "minecraft:slime_ball"
+    },
+    {
+      "tag": "minecraft:slime_ball"
     },
     {
       "tag": "c:ingots/iron"
@@ -21,7 +27,7 @@
     }
   ],
   "inputFluid": {
-    "amount": 1000,
+    "amount": 500,
     "fluid": "industrialforegoing:pink_slime"
   },
   "output": {

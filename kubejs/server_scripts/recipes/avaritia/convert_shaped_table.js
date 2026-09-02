@@ -2636,5 +2636,47 @@
         result: { id: "chaosworld_core:twilight_catalyst" },
         show_notification: false
     })
+    // ae2lt:overload_machine_frame
+    event.custom({
+        type: 'extendedcrafting:shaped_table',
+        pattern: [
+            'AABAA',
+            'ACDCA',
+            'BEFEB',
+            'ACDCA',
+            'AABAA'
+        ],
+        key: ({
+            A: { item: 'ae2lt:matter_warping_matrix_casing' },
+            B: { item: 'ae2lt:overload_alloy_plate' },
+            C: { item: 'mekanism:elite_control_circuit' },
+            D: { item: 'chaosworld_core:workstation' },
+            E: { item: 'enderio:vibrant_gear' },
+            F: { item: 'powah:ender_core' }
+        }),
+        result: { id: 'ae2lt:overload_machine_frame' }
+    })
+    event.custom({
+        type: 'create:mechanical_crafting',
+        accept_mirrored: false,
+        category: 'misc',
+        pattern: [
+            'AABAA',
+            'ACDCA',
+            'BEFEB',
+            'ACDCA',
+            'AABAA'
+        ],
+        key: ({
+            A: { item: 'ae2lt:matter_warping_matrix_casing' },
+            B: { item: 'ae2lt:overload_alloy_plate' },
+            C: { item: 'mekanism:elite_control_circuit' },
+            D: { item: 'chaosworld_core:workstation' },
+            E: { item: 'enderio:vibrant_gear' },
+            F: { item: 'powah:ender_core' }
+        }),
+        result: { id: 'ae2lt:overload_machine_frame' },
+        show_notification: false
+    })
 })
 

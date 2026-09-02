@@ -1,0 +1,16 @@
+{
+  "type": "chaosworld_core:assembling",
+  "itemInputs": [
+    {"count":4,"item":"chaosworld_core:circuit_processor"},
+    {"count":4,"item":"chaosworld_core:ingot_tech_4"},
+    {"count":16,"item":"neoecoae:energized_crystal_dust"},
+    {"count":8,"item":"extendedae:concurrent_processor"},
+    {"count":32,"item":"ae2:purple_glass_cable"}
+
+  ],
+  "chemicalInput": {"chemical": "mekanism:osmium", "amount": 800},
+  "fluidInputs": [
+    {"fluid": "advanced_ae:quantum_infusion_source", "amount": 500}
+  ],
+  "output": {"id": "chaosworld_core:workstation"}
+}

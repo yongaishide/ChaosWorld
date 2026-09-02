@@ -71,17 +71,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["7942357CDE9B9074"]
-			id: "3F1807D805166D06"
-			tasks: [{
-				id: "167E586747FB74B2"
-				item: { count: 1, id: "industrialforegoing:machine_frame_advanced" }
-				type: "item"
-			}]
-			x: 17.0d
-			y: -1.0d
-		}
-		{
 			dependencies: ["6BE7539266AF7C95"]
 			id: "619CD43B0A5127B6"
 			tasks: [{
@@ -307,17 +296,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["27939AAD5737C1AC"]
-			id: "7942357CDE9B9074"
-			tasks: [{
-				id: "148D2799F7EB2C43"
-				item: { count: 1, id: "enderio:vibrant_alloy_ingot" }
-				type: "item"
-			}]
-			x: 15.0d
-			y: -1.0d
-		}
-		{
 			dependencies: ["4F12CF990DC17183"]
 			id: "3970B1ED264E6A14"
 			tasks: [{
@@ -392,7 +370,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -5.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6F7353C5C8BF839A"]
@@ -405,8 +383,8 @@
 				id: "6A74F467D018ED14"
 				type: "fluid"
 			}]
-			x: 5.0d
-			y: -7.0d
+			x: 6.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["42A0D1F16E6A0ECC"]
@@ -417,7 +395,7 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: -5.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["63C55110F142AA1A"]
@@ -447,7 +425,7 @@
 				}
 			]
 			x: 15.0d
-			y: -5.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["27939AAD5737C1AC"]
@@ -457,8 +435,8 @@
 				item: { count: 1, id: "mekanism:alloy_reinforced" }
 				type: "item"
 			}]
-			x: 13.0d
-			y: -3.0d
+			x: 15.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["586F43A7FE1B3317"]
@@ -468,8 +446,8 @@
 				item: { count: 1, id: "mekanism:elite_control_circuit" }
 				type: "item"
 			}]
-			x: 15.0d
-			y: -3.0d
+			x: 17.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6F7353C5C8BF839A"]
@@ -495,7 +473,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -5.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -509,7 +487,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: -5.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["24126FA5B4F37967"]
@@ -520,7 +498,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: -5.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -534,7 +512,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: -5.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3970B1ED264E6A14"]
@@ -545,7 +523,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -3.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["6EC5FEAA20A0DE39"]
@@ -556,7 +534,73 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6CA91BE7AE4CEEA2"]
+			id: "18CB31F1BDBC7F12"
+			tasks: [{
+				id: "29935AD157D9E478"
+				item: { count: 1, id: "ae2lt:overload_alloy_plate" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6C8167D5F505718F"]
+			id: "6CA91BE7AE4CEEA2"
+			tasks: [{
+				id: "0CB1EFF04E57C235"
+				item: { count: 1, id: "ae2lt:lightning_simulation_room" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6EC5FEAA20A0DE39"]
+			id: "3A7D70075A7E9BDE"
+			tasks: [{
+				id: "44D53245ECD3BE00"
+				item: { count: 1, id: "ae2:flawed_budding_quartz" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3A7D70075A7E9BDE"]
+			id: "657E1EFFCD67D1FD"
+			tasks: [{
+				id: "33EDE4C9D62B7531"
+				item: { count: 1, id: "ae2lt:cracked_budding_overload_crystal" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["657E1EFFCD67D1FD"]
+			id: "6C8167D5F505718F"
+			tasks: [{
+				id: "028ECE4B05F7B921"
+				item: { count: 1, id: "ae2lt:overload_crystal" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["18CB31F1BDBC7F12"]
+			id: "54A1DBA152A7BA4E"
+			tasks: [{
+				id: "3FFB495539845558"
+				item: { count: 1, id: "ae2lt:overload_machine_frame" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: -5.0d
 		}
 	]
 }

@@ -54,7 +54,8 @@ ServerEvents.recipes(event => {
         'ae2cs:aggregator/entro_crystal_seed_from_original_seed',
         'twilightforest:equipment/fiery_ingot_crafting',
         'create:crushing/obsidian',
-        'extendedae_plus:assembler/redstone_crystal'
+        'extendedae_plus:assembler/redstone_crystal',
+        'extendedae_plus:assembler/ex_molecular_assembler'
         
     ]
     recipeTypeshapeless.forEach((item) => {

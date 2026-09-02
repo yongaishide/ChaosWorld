@@ -818,15 +818,11 @@
   },
   {
     "matchItems": [
-      "mekanism:steel_casing"
+      "mekanism:steel_casing",
+      "enderio:ensouled_chassis",
+      "industrialforegoing:machine_frame_advanced"
     ],
-    "resultItems": "industrialforegoing:machine_frame_advanced"
-  },
-  {
-    "matchItems": [
-      "enderio:ensouled_chassis"
-    ],
-    "resultItems": "industrialforegoing:machine_frame_advanced"
+    "resultItems": "ae2lt:overload_machine_frame"
   },
   {
     "matchItems": [
