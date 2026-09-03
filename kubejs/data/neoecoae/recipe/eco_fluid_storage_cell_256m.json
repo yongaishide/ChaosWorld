@@ -1,0 +1,16 @@
+{
+  "type": "neoecoae:integrated_working_station",
+  "energy": 1000,
+  "inputItems": [
+    {
+      "item": "neoecoae:eco_fluid_cell_housing"
+    },
+    {
+      "item": "neoecoae:eco_cell_component_256m"
+    }
+  ],
+  "itemOutput": {
+    "count": 1,
+    "id": "neoecoae:eco_fluid_storage_cell_256m"
+  }
+}

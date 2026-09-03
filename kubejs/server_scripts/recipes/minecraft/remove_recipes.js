@@ -22,7 +22,6 @@ ServerEvents.recipes(event => {
         "extendedcrafting:elite_catalyst",
         "chaosworld_core:dark_matter",
         "data_energistics:data_reassembler",
-        "ae2:inscriber",
         "mekanismgenerators:wind_generator",
         "mekanism:energy_tablet",
         "mekanism:basic_universal_cable",
@@ -45,7 +44,8 @@ ServerEvents.recipes(event => {
         'immersiveengineering:arc_furnace', 
         'immersiveengineering:metal_press',
         "mekanism:energized_smelter",
-        "ae2lt:overload_machine_frame"
+        "ae2lt:overload_machine_frame",
+        "mekanism:enrichment_chamber"
     ]
     recipeTypeall.forEach((item) => {
         event.remove({ output: item, type: 'minecraft:crafting_shaped' })

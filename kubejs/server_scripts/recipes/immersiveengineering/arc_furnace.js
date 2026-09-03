@@ -24,6 +24,39 @@ ServerEvents.recipes((event) => {
             "results":[{"basePredicate":{"item":"pneumaticcraft:reinforced_stone"},"count":4}],
             "time":100}
     )
+    //余烬石锭
+    event.custom(
+        {"type":"immersiveengineering:arc_furnace",
+            "additives":[],
+            "energy":51200,
+            "input":{"basePredicate":{"item":"aoa3:explosive_helmet"},"count":1},
+            "results":[{"basePredicate":{"item":"aoa3:emberstone_ingot"},"count":5}],
+            "time":100}
+    )
+    event.custom(
+        {"type":"immersiveengineering:arc_furnace",
+            "additives":[],
+            "energy":51200,
+            "input":{"basePredicate":{"item":"aoa3:explosive_chestplate"},"count":1},
+            "results":[{"basePredicate":{"item":"aoa3:emberstone_ingot"},"count":8}],
+            "time":100}
+    )
+    event.custom(
+        {"type":"immersiveengineering:arc_furnace",
+            "additives":[],
+            "energy":51200,
+            "input":{"basePredicate":{"item":"aoa3:explosive_leggings"},"count":1},
+            "results":[{"basePredicate":{"item":"aoa3:emberstone_ingot"},"count":7}],
+            "time":100}
+    )
+    event.custom(
+        {"type":"immersiveengineering:arc_furnace",
+            "additives":[],
+            "energy":51200,
+            "input":{"basePredicate":{"item":"aoa3:explosive_boots"},"count":1},
+            "results":[{"basePredicate":{"item":"aoa3:emberstone_ingot"},"count":4}],
+            "time":100}
+    )
     //二阶科技锭
     event.custom(
         {"type":"immersiveengineering:arc_furnace",

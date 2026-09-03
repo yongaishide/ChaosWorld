@@ -55,7 +55,11 @@ ServerEvents.recipes(event => {
         'twilightforest:equipment/fiery_ingot_crafting',
         'create:crushing/obsidian',
         'extendedae_plus:assembler/redstone_crystal',
-        'extendedae_plus:assembler/ex_molecular_assembler'
+        'extendedae_plus:assembler/ex_molecular_assembler',
+        'allthecompressed:energizing/blazing_crystal_block/x3',
+        'allthecompressed:energizing/blazing_crystal_block/x2',
+        'allthecompressed:energizing/blazing_crystal_block/x1',
+        'allthecompressed:energizing/blazing_crystal_block/x0'
         
     ]
     recipeTypeshapeless.forEach((item) => {

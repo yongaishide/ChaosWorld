@@ -3,11 +3,12 @@
   "energy": 300000,
   "ingredients": [
     {
+      "count": 4,
       "tag": "c:gems/diamond"
     }
   ],
   "result": {
-    "count": 1,
+    "count": 4,
     "id": "powah:crystal_niotic"
   }
 }

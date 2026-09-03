@@ -116,4 +116,15 @@ ServerEvents.recipes((event) => {
             ],
             "output":{"count":2,"id":"twilightforest:fiery_ingot"}}
     )
+    //铝合金锭
+    event.custom(
+        {"type":"enderio:alloy_smelting",
+            "energy":3200,
+            "experience":0.3,
+            "inputs":[
+                {"count":2,"item":"alltheores:aluminum_ingot"},
+                {"count":1,"item":"chaosworld_core:ingot_tech_3"},
+            ],
+            "output":{"count":2,"id":"neoecoae:aluminum_alloy_ingot"}}
+    )
 })

@@ -2,7 +2,7 @@
   "neoforge:conditions": [
     {
       "type": "neoforge:item_exists",
-      "item": ""ae2lt:overload_machine_frame""
+      "item": "ae2lt:overload_machine_frame"
     }
   ],
   "type": "industrialforegoing:dissolution_chamber",
@@ -38,7 +38,7 @@
   },
   "output": {
     "count": 1,
-    "id": ""ae2lt:overload_machine_frame""
+    "id": "ae2lt:overload_machine_frame"
   },
   "processingTime": 300
 }

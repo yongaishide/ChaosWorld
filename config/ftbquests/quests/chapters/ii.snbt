@@ -387,17 +387,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["42A0D1F16E6A0ECC"]
-			id: "2B13452C3DEF2D24"
-			tasks: [{
-				id: "22171FC10FAA2B7B"
-				item: { count: 1, id: "minecraft:nether_star" }
-				type: "item"
-			}]
-			x: 17.0d
-			y: -3.0d
-		}
-		{
 			dependencies: ["63C55110F142AA1A"]
 			id: "42A0D1F16E6A0ECC"
 			tasks: [
@@ -601,6 +590,17 @@
 			}]
 			x: 17.0d
 			y: -5.0d
+		}
+		{
+			dependencies: ["6BE7539266AF7C95"]
+			id: "0DD0F6A063F98E47"
+			tasks: [{
+				id: "7715D8EE247E9A75"
+				item: { count: 1, id: "mekanism:enrichment_chamber" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
 		}
 	]
 }

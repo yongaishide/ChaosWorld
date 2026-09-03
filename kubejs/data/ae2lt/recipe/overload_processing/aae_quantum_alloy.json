@@ -10,21 +10,21 @@
   "inputs": [
     {
       "ingredient": {
-        "item": "minecraft:copper_ingot"
+        "item": "neoecoae:crystal_ingot"
       },
       "count": 4
     },
     {
       "ingredient": {
-        "item": "advanced_ae:shattered_singularity"
+        "item": "neoecoae:energized_fluix_crystal_dust"
       },
       "count": 4
     },
     {
       "ingredient": {
-        "item": "ae2:singularity"
+        "item": "ae2:quantum_entangled_singularity"
       },
-      "count": 4
+      "count": 2
     }
   ],
   "inputFluid": {
@@ -34,7 +34,7 @@
   "results": [
     {
       "id": "advanced_ae:quantum_alloy",
-      "count": 1
+      "count": 4
     }
   ],
   "totalEnergy": 200000,

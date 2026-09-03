@@ -2296,9 +2296,9 @@
         key: ({
             a: { item: 'minecraft:ancient_debris' },
             b: { item: "rainbowcompound:blazeite_ingot" },
-            c: { item: 'minecraft:fire_charge' },
+            c: { item: "ae2cs:purified_ember_crystal" },
             x: { item: 'minecraft:blaze_rod' },
-            y: { item: 'minecraft:bone' }
+            y: { item: "cataclysm:burning_ashes" }
         }),
         result: { id: 'avaritia:blaze_cube' }
     })
@@ -2310,9 +2310,9 @@
         key: ({
             a: { item: 'minecraft:ancient_debris' },
             b: { item: "rainbowcompound:blazeite_ingot" },
-            c: { item: 'minecraft:fire_charge' },
+            c: { item: "ae2cs:purified_ember_crystal" },
             x: { item: 'minecraft:blaze_rod' },
-            y: { item: 'minecraft:bone' }
+            y: { item: "cataclysm:burning_ashes" }
         }),
         result: { id: 'avaritia:blaze_cube' },
         show_notification: false
@@ -2652,7 +2652,7 @@
             C: { item: 'mekanism:elite_control_circuit' },
             D: { item: 'chaosworld_core:workstation' },
             E: { item: 'enderio:vibrant_gear' },
-            F: { item: 'powah:ender_core' }
+            F: { item: "neoecoae:aluminum_alloy_casing" }
         }),
         result: { id: 'ae2lt:overload_machine_frame' }
     })
@@ -2673,9 +2673,37 @@
             C: { item: 'mekanism:elite_control_circuit' },
             D: { item: 'chaosworld_core:workstation' },
             E: { item: 'enderio:vibrant_gear' },
-            F: { item: 'powah:ender_core' }
+            F: { item: "neoecoae:aluminum_alloy_casing" }
         }),
         result: { id: 'ae2lt:overload_machine_frame' },
+        show_notification: false
+    })
+    // neoecoae:integrated_working_station
+    event.custom({
+        type: 'extendedcrafting:shaped_table',
+        pattern: ['AAAAAAA','ABCCCBA','ACDBDCA','ACBEBCA','ACDBDCA','ABCCCBA','AAAAAAA'],
+        key: ({
+            A: { item: 'ae2omnicells:omni_crafting_unit_block' },
+            B: { item: 'extendedae:ex_molecular_assembler' },
+            C: { item: 'advanced_ae:quantum_alloy_plate' },
+            D: { item: 'chaosworld_core:nano_processor' },
+            E: { item: 'ae2lt:overload_machine_frame' }
+        }),
+        result: { id: 'neoecoae:integrated_working_station' }
+    })
+    event.custom({
+        type: 'create:mechanical_crafting',
+        accept_mirrored: false,
+        category: 'misc',
+        pattern: ['AAAAAAA','ABCCCBA','ACDBDCA','ACBEBCA','ACDBDCA','ABCCCBA','AAAAAAA'],
+        key: ({
+            A: { item: 'ae2omnicells:omni_crafting_unit_block' },
+            B: { item: 'extendedae:ex_molecular_assembler' },
+            C: { item: 'advanced_ae:quantum_alloy_plate' },
+            D: { item: 'chaosworld_core:nano_processor' },
+            E: { item: 'ae2lt:overload_machine_frame' }
+        }),
+        result: { id: 'neoecoae:integrated_working_station' },
         show_notification: false
     })
 })

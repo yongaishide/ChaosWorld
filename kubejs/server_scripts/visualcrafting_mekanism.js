@@ -1,16 +1,16 @@
 ServerEvents.recipes(event => {
   event.shaped(
-    Item.of('mekanism:energized_smelter'),
+    Item.of('mekanism:enrichment_chamber'),
     [
       'ABA',
       'CDC',
       'ABA'
     ],
     {
-      A: 'extendedcrafting:enhanced_redstone_ingot',
-      B: 'mekanism:advanced_control_circuit',
-      C: 'ironfurnaces:netherite_furnace',
-      D: "ae2lt:overload_machine_frame"
+      A: 'mekanism:induction_casing',
+      B: 'chaosworld_core:circuit_processor',
+      C: 'neoecoae:aluminum_alloy_casing',
+      D: 'industrialforegoing:machine_frame_simple'
     }
-  );//添加有序合成"电力熔炼炉"配方
+  );//添加有序合成"富集仓"配方
 });

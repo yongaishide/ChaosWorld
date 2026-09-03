@@ -2,32 +2,39 @@
   "type": "advanced_ae:reaction",
   "input_energy": 1000000,
   "input_fluid": {
-    "amount": 1000,
+    "amount": 5000,
     "ingredient": {
       "fluid": "advanced_ae:quantum_infusion_source"
     }
   },
   "input_items": [
     {
-      "amount": 8,
+      "ingredient": {
+        "item": "neoecoae:crystal_matrix"
+      },
+      "amount": 10
+    },
+    {
       "ingredient": {
         "item": "advanced_ae:quantum_alloy"
-      }
-    },
-    {
-      "amount": 2,
-      "ingredient": {
-        "item": "minecraft:netherite_ingot"
-      }
+      },
+      "amount": 20
     },
     {
       "ingredient": {
-        "item": "minecraft:nether_star"
-      }
+        "item": "alltheores:netherite_plate"
+      },
+      "amount": 10
+    },
+    {
+      "ingredient": {
+        "item": "powah:crystal_nitro"
+      },
+      "amount": 1
     }
   ],
   "output": {
-    "#": 1,
+    "#": 5,
     "#t": "ae2:i",
     "id": "advanced_ae:quantum_alloy_plate"
   }

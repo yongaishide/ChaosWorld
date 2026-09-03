@@ -19,17 +19,6 @@
 	}]
 	quests: [
 		{
-			dependencies: ["55AEBF82CAD3F5E2"]
-			id: "0DD0F6A063F98E47"
-			tasks: [{
-				id: "7715D8EE247E9A75"
-				item: { count: 1, id: "mekanism:enrichment_chamber" }
-				type: "item"
-			}]
-			x: 4.5d
-			y: 0.0d
-		}
-		{
 			dependencies: [
 				"5A7710A6B8BEDBDD"
 				"54A1DBA152A7BA4E"
@@ -108,16 +97,6 @@
 			y: -2.0d
 		}
 		{
-			id: "0DBA123CAA13D836"
-			tasks: [{
-				id: "42441A71C594767D"
-				item: { count: 1, id: "ae2lt:overload_processor" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: -4.0d
-		}
-		{
 			dependencies: ["2311C640692DFE5B"]
 			id: "5A7710A6B8BEDBDD"
 			tasks: [{
@@ -129,7 +108,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["2B13452C3DEF2D24"]
+			dependencies: ["2FEADB5C6918A8A3"]
 			id: "2311C640692DFE5B"
 			tasks: [{
 				id: "70871EBBD9BF97D5"
@@ -149,6 +128,39 @@
 			}]
 			x: 8.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["54A1DBA152A7BA4E"]
+			id: "2DCF1F1EC3B41270"
+			tasks: [{
+				id: "4DACF4F7733CB9AB"
+				item: { count: 1, id: "neoecoae:integrated_working_station" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["42A0D1F16E6A0ECC"]
+			id: "2B13452C3DEF2D24"
+			tasks: [{
+				id: "22171FC10FAA2B7B"
+				item: { count: 1, id: "minecraft:nether_star" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2B13452C3DEF2D24"]
+			id: "2FEADB5C6918A8A3"
+			tasks: [{
+				id: "25E5D43012D9C64A"
+				item: { count: 1, id: "advanced_ae:quantum_alloy_plate" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
 		}
 	]
 }

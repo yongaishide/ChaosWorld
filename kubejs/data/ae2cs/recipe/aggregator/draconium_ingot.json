@@ -1,0 +1,20 @@
+{
+  "type": "ae2cs:crystal_aggregator_recipe_serializer",
+  "energy_cost": 51200,
+  "input_a": {
+    "count": 4,
+    "item": "minecraft:dragon_breath"
+  },
+  "input_b": {
+    "count": 16,
+    "item": "ae2cs:quantum_crystal_dust"
+  },
+  "input_c": {
+    "count": 32,
+    "item": "draconicevolution:draconium_dust"
+  },
+  "result": {
+    "count": 32,
+    "id": "draconicevolution:draconium_ingot"
+  }
+}

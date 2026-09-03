@@ -9,26 +9,26 @@
   },
   "input_items": [
     {
-      "amount": 4,
       "ingredient": {
-        "item": "minecraft:copper_ingot"
-      }
+        "item": "neoecoae:crystal_ingot"
+      },
+      "amount": 4
     },
     {
-      "amount": 4,
       "ingredient": {
-        "item": "advanced_ae:shattered_singularity"
-      }
+        "item": "neoecoae:energized_fluix_crystal_dust"
+      },
+      "amount": 4
     },
     {
-      "amount": 4,
       "ingredient": {
-        "item": "ae2:singularity"
-      }
+        "item": "ae2:quantum_entangled_singularity"
+      },
+      "amount": 2
     }
   ],
   "output": {
-    "#": 1,
+    "#": 4,
     "#t": "ae2:i",
     "id": "advanced_ae:quantum_alloy"
   }

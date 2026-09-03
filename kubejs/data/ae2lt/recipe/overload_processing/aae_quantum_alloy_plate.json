@@ -10,31 +10,37 @@
   "inputs": [
     {
       "ingredient": {
+        "item": "neoecoae:crystal_matrix"
+      },
+      "count": 10
+    },
+    {
+      "ingredient": {
         "item": "advanced_ae:quantum_alloy"
       },
-      "count": 8
+      "count": 20
     },
     {
       "ingredient": {
-        "item": "minecraft:netherite_ingot"
+        "item": "alltheores:netherite_plate"
       },
-      "count": 2
+      "count": 10
     },
     {
       "ingredient": {
-        "item": "minecraft:nether_star"
+        "item": "powah:crystal_nitro"
       },
       "count": 1
     }
   ],
   "inputFluid": {
     "id": "advanced_ae:quantum_infusion_source",
-    "amount": 1000
+    "amount": 5000
   },
   "results": [
     {
       "id": "advanced_ae:quantum_alloy_plate",
-      "count": 1
+      "count": 5
     }
   ],
   "totalEnergy": 1000000,
