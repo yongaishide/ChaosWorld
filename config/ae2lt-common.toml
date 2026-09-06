@@ -368,12 +368,6 @@ configVersion = 3
 		# Range: > 1
 		cleanupBatchSize = 128
 
-[compatibility]
-	#Enable AE2LT's startup compatibility protection when Data Energistics is installed.
-	#Set this to false only for diagnostics or after upstream compatibility is restored.
-	#Changing this option requires a full client or server restart.
-	dataEnergisticsMixinProtection = true
-
 [easterEgg]
 	#Enables easter eggs.
 	enabled = true

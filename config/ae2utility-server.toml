@@ -21,3 +21,12 @@ enableNbtTearDraconicEvolutionFusionInjectorBlacklist = true
 #Built-in groups above are controlled by their own switches.
 #Examples: ["productivebees:spawn_egg_configurable_bee", "draconicevolution:basic_crafting_injector"]
 nbtTearCardItemBlacklist = []
+#ME Quick Transfer Tool energy costs.
+#Fixed AE energy cost for a normal right-click transfer.
+# Default: 100.0
+# Range: 0.0 ~ 1.7976931348623157E308
+meQuickTransferGroupEnergy = 100.0
+#Fixed AE energy cost for a sneak right-click transfer of all available contents.
+# Default: 1000.0
+# Range: 0.0 ~ 1.7976931348623157E308
+meQuickTransferAllEnergy = 1000.0

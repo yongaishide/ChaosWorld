@@ -490,10 +490,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"35D519C7E7EB19D3"
-				"586F43A7FE1B3317"
-			]
+			dependencies: ["35D519C7E7EB19D3"]
 			id: "63C55110F142AA1A"
 			tasks: [{
 				id: "4DBD48D0E48AE3C2"
@@ -537,7 +534,10 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["6C8167D5F505718F"]
+			dependencies: [
+				"6C8167D5F505718F"
+				"63C55110F142AA1A"
+			]
 			id: "6CA91BE7AE4CEEA2"
 			tasks: [{
 				id: "0CB1EFF04E57C235"
@@ -583,6 +583,8 @@
 		{
 			dependencies: ["18CB31F1BDBC7F12"]
 			id: "54A1DBA152A7BA4E"
+			shape: "gear"
+			size: 2.0d
 			tasks: [{
 				id: "3FFB495539845558"
 				item: { count: 1, id: "ae2lt:overload_machine_frame" }

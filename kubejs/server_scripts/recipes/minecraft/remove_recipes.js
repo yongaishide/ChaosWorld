@@ -45,7 +45,8 @@ ServerEvents.recipes(event => {
         'immersiveengineering:metal_press',
         "mekanism:energized_smelter",
         "ae2lt:overload_machine_frame",
-        "mekanism:enrichment_chamber"
+        "mekanism:enrichment_chamber",
+        "data_energistics:radix_containment_sphere"
     ]
     recipeTypeall.forEach((item) => {
         event.remove({ output: item, type: 'minecraft:crafting_shaped' })

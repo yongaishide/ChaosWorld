@@ -1,0 +1,39 @@
+{
+  "type": "ae2lt:overload_processing",
+  "priority": 0,
+  "inputs": [
+    {
+      "ingredient": {
+        "item": "ifmup:shadow_rose_ingot"
+      },
+      "count": 9
+    },
+    {
+      "ingredient": {
+        "item": "chaosworld_core:ingot_twilight_alloy"
+      },
+      "count": 9
+    },
+    {
+      "ingredient": {
+        "item": "rainbowcompound:obsidianite_ingot"
+      },
+      "count": 9
+    },
+    {
+      "ingredient": {
+        "item": "mekanism:ingot_refined_obsidian"
+      },
+      "count": 9
+    }
+  ],
+  "results": [
+    {
+      "id": "chaosworld_core:ingot_tech_6",
+      "count": 27
+    }
+  ],
+  "totalEnergy": 100000,
+  "lightningCost": 1,
+  "lightningTier": "high_voltage"
+}

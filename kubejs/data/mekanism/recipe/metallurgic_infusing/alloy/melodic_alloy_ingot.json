@@ -1,5 +1,5 @@
 {"type":"mekanism:metallurgic_infusing",
 "chemical_input":{"amount":40,"chemical":"kubejs:data_crystal"},
-"item_input":{"count":1,"item":"mekanism:alloy_reinforced"},
+"item_input":{"count":1,"item":"ae2lt:overload_alloy"},
 "output":{"count":1,"id":"chaosworld_core:ingot_tech_5"}
 ,"per_tick_usage":false}

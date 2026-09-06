@@ -48,6 +48,7 @@
     "wt_owner": true
   },
   "ae2lt": {
+    "frequency_card_wireless_node": true,
     "lightning_collector": true,
     "firmament_conversion_core": true
   },
@@ -85,12 +86,13 @@
     "data_extractor": true,
     "me_solar_panel": true,
     "data_sanctum": true,
-    "multiblock.blocks": false,
+    "tuning_fork_base": true,
     "data_mimetic_field": true,
     "multiblock": true,
     "data_charger": true,
     "compartment": true,
-    "multiblock.debug": false
+    "multiblock.debug": false,
+    "data_integrated_charger": true
   },
   "compactmachines": {
     "show_owner": false,

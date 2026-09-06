@@ -83,5 +83,15 @@
 			x: -0.5d
 			y: -5.0d
 		}
+		{
+			id: "0D30E25E4E2F2087"
+			tasks: [{
+				id: "39C7E691F651E7E3"
+				item: { count: 1, id: "chaosworld_core:dimensional_matter_assembler" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
 	]
 }

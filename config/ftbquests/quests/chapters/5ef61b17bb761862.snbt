@@ -55,14 +55,17 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["4BF6A9218F7DEF29"]
 			id: "61D2EDC385ADAD2C"
+			shape: "gear"
+			size: 2.0d
 			tasks: [{
 				id: "20A8D5484231D290"
 				item: { count: 1, id: "industrialforegoing:machine_frame_supreme" }
 				type: "item"
 			}]
 			x: 18.5d
-			y: -4.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3E8A04664DB9DD56"]
@@ -72,7 +75,7 @@
 				item: { count: 1, id: "draconicevolution:draconium_core" }
 				type: "item"
 			}]
-			x: 10.5d
+			x: 12.5d
 			y: -2.0d
 		}
 		{
@@ -93,7 +96,7 @@
 					type: "item"
 				}
 			]
-			x: 12.5d
+			x: 14.5d
 			y: -2.0d
 		}
 		{
@@ -119,14 +122,14 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["376BEEA4BEF48DDA"]
+			dependencies: ["7C67E0093A1FE08F"]
 			id: "3E8A04664DB9DD56"
 			tasks: [{
 				id: "580313172817D07B"
 				item: { count: 1, id: "enderio_evolution:melodic_alloy_ingot" }
 				type: "item"
 			}]
-			x: 8.5d
+			x: 10.5d
 			y: -2.0d
 		}
 		{
@@ -161,6 +164,17 @@
 			}]
 			x: -3.5d
 			y: -4.0d
+		}
+		{
+			dependencies: ["376BEEA4BEF48DDA"]
+			id: "7C67E0093A1FE08F"
+			tasks: [{
+				id: "19B665779049E92D"
+				item: { count: 1, id: "enderio_evolution:crystalline_pink_slime_ingot" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.0d
 		}
 	]
 }

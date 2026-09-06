@@ -52,6 +52,6 @@
 		# Keep in mind this may get *very* laggy for large amounts of blocks!
 		# Default: 256
 		# Range: 0 ~ 2147483647
-		render_outline: 256
+		render_outline: 2560
 	}
 }
