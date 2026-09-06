@@ -1,9 +1,9 @@
 [WorldGen]
-	#银矿石与深层银矿石是否在主世界生成。
-	#主矿脉：每区块 4 次尝试，Y -64~32（梯形分布）；深层补充：每区块 0~1 次，Y -64~-48。
-	#改动仅影响新生成的区块。
+	#Whether silver ore (and deepslate silver ore) generates in the Overworld.
+	#Main veins: 4 attempts per chunk, Y -64~32 (trapezoid). Deep bonus: 0-1 attempts per chunk, Y -64~-48.
+	#Only affects newly generated chunks.
 	generateSilverOre = true
-	#恶地群系是否启用银矿高位富集生成。
-	#每区块 50 次尝试，Y 32~256（镜像原版金矿的恶地富集）。
-	#改动仅影响新生成的区块。
+	#Whether badlands biomes get the silver high-altitude bonus generation.
+	#50 attempts per chunk at Y 32~256 (mirrors vanilla gold's badlands bonus).
+	#Only affects newly generated chunks.
 	generateSilverBadlandsBonus = true

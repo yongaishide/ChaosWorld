@@ -1,0 +1,25 @@
+{
+  "type": "ae2lt:lightning_assembly",
+  "priority": 0,
+  "inputs": [
+    {
+      "ingredient": {
+        "item": "ae2:singularity"
+      },
+      "count": 32
+    },
+    {
+      "ingredient": {
+        "item": "avaritia:blaze_cube"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "data_energistics:singularity_block",
+    "count": 1
+  },
+  "totalEnergy": 1000000,
+  "lightningCost": 4,
+  "lightningTier": "high_voltage"
+}
