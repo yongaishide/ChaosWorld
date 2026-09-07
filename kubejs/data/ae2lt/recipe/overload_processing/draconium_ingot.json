@@ -1,0 +1,31 @@
+{
+  "type": "ae2lt:overload_processing",
+  "priority": 0,
+  "inputs": [
+    {
+      "ingredient": {
+        "item": "ae2cs:quantum_crystal_dust"
+      },
+      "count": 32
+    },
+    {
+      "ingredient": {
+        "item": "draconicevolution:draconium_dust"
+      },
+      "count": 64
+    }
+  ],
+  "inputFluid": {
+    "id": "ifeu:liquid_dragon_breath",
+    "amount": 1000
+  },
+  "results": [
+    {
+      "id": "draconicevolution:draconium_ingot",
+      "count": 64
+    }
+  ],
+  "totalEnergy": 2000000,
+  "lightningCost": 4,
+  "lightningTier": "high_voltage"
+}

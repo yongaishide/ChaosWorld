@@ -1,0 +1,5 @@
+{"type":"mekanism:metallurgic_infusing",
+"chemical_input":{"amount":40,"chemical":"kubejs:data_crystal"},
+"item_input":{"count":1,"item":"data_energistics:solidified_obsidian"},
+"output":{"count":1,"id":"mekanism:ingot_refined_obsidian"}
+,"per_tick_usage":false}

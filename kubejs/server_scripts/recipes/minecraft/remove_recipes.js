@@ -46,7 +46,8 @@ ServerEvents.recipes(event => {
         "mekanism:energized_smelter",
         "ae2lt:overload_machine_frame",
         "mekanism:enrichment_chamber",
-        "data_energistics:radix_containment_sphere"
+        "data_energistics:radix_containment_sphere",
+        "draconicevolution:draconium_core"
     ]
     recipeTypeall.forEach((item) => {
         event.remove({ output: item, type: 'minecraft:crafting_shaped' })

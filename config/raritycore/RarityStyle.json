@@ -1,0 +1,59 @@
+{
+  "enableBorder": true,
+  "enableTooltip": true,
+  "tooltipColorEnabled": true,
+  "defaults": {
+    "color": "inherit",
+    "border": {
+      "useTexture": true,
+      "defaultTexture": "raritycore:textures/border/rarity_{level}.png",
+      "style": 1,
+      "show": true,
+      "fallback": "inherit"
+    },
+    "tooltip": {
+      "show": true,
+      "content": "[@{level}] @{star}",
+      "colored": true,
+      "level": {
+        "colored": true,
+        "translationKey": "$(rarity.core.{level})",
+        "fallback": "{level}$(rarity.core.special.rarity.prefix)"
+      },
+      "star": {
+        "colored": true,
+        "mode": "repeat",
+        "repeatChar": "★",
+        "custom": ""
+      }
+    },
+    "itemNameColor": true,
+    "noRarity": {
+      "skip": false,
+      "defaultRarity": 1
+    }
+  },
+  "rarities": {
+    "1": {
+      "color": "#CCCCCC"
+    },
+    "2": {
+      "color": "#55FF55"
+    },
+    "3": {
+      "color": "#55FFFF"
+    },
+    "4": {
+      "color": "#FF55FF"
+    },
+    "5": {
+      "color": "#FFCC00"
+    },
+    "6": {
+      "color": "#FF6666"
+    },
+    "7": {
+      "color": "#FF3333"
+    }
+  }
+}

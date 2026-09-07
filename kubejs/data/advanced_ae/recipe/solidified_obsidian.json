@@ -1,0 +1,29 @@
+{
+  "type": "advanced_ae:reaction",
+  "input_energy": 500000,
+  "input_fluid": {
+    "amount": 500,
+    "ingredient": {
+      "fluid": "minecraft:lava"
+    }
+  },
+  "input_items": [
+    {
+      "amount": 32,
+      "ingredient": {
+        "item": "mekanism:dust_obsidian"
+      }
+    },
+    {
+      "amount": 16,
+      "ingredient": {
+        "item": "ae2:sky_dust"
+      }
+    }
+  ],
+  "output": {
+    "#": 16,
+    "#t": "ae2:i",
+    "id": "data_energistics:solidified_obsidian"
+  }
+}

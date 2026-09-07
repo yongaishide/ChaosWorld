@@ -5,4 +5,10 @@ ServerEvents.recipes((event) => {
         0.7,
         200
     )
+    event.smelting(
+        "mekanism:ingot_refined_obsidian",
+        "mekanism:dust_refined_obsidian",
+        0.7,
+        200
+    )
 })
