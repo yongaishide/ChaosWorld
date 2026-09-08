@@ -122,5 +122,16 @@
 			x: 2.0d
 			y: 1.0d
 		}
+		{
+			dependencies: ["100A7C29203926B1"]
+			id: "1B8F2125E13B0AC8"
+			tasks: [{
+				id: "10615FB3DB89AB33"
+				item: { count: 1, id: "ae2cs:purified_data_crystal" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.0d
+		}
 	]
 }

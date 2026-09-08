@@ -157,7 +157,6 @@ const HIDE_ITEMS = [
     "ae2cs:simple_pattern_provider_part",
     "ae2cs:simple_processor",
     "appflux:printed_energy_processor",
-    "ae2:condenser",
     'projecte:white_alchemical_bag', 
     'projecte:orange_alchemical_bag', 
     'projecte:magenta_alchemical_bag', 
@@ -246,7 +245,22 @@ const HIDE_ITEMS = [
     'arseng:portable_source_cell_64k', 
     'arseng:portable_source_cell_256k',
     "ae2lt:infinite_storage_cell",
-    "ae2lt:mysterious_cell"
+    "ae2lt:mysterious_cell",
+    'neoecoae:eco_source_cell_housing', 
+    'neoecoae:eco_source_storage_cell_16m', 
+    'neoecoae:eco_source_storage_cell_64m', 
+    'neoecoae:eco_source_storage_cell_256m', 
+    'arseng:source_cell_housing', 
+    'data_energistics:portable_digital_storage_cell_1k', 
+    'data_energistics:portable_digital_storage_cell_4k', 
+    'data_energistics:portable_digital_storage_cell_16k', 
+    'data_energistics:portable_digital_storage_cell_64k', 
+    'data_energistics:portable_digital_storage_cell_256k', 
+    'data_energistics:portable_digital_storage_cell_1m', 
+    'data_energistics:portable_digital_storage_cell_4m', 
+    'data_energistics:portable_digital_storage_cell_16m', 
+    'data_energistics:portable_digital_storage_cell_64m', 
+    'data_energistics:portable_digital_storage_cell_256m'
 ]
 
 ServerEvents.recipes(event => {

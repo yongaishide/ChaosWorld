@@ -1,0 +1,24 @@
+{
+  "type": "ifeu:arcane_dragon_egg_forging",
+  "input": {
+    "count": 8,
+    "id": "data_energistics:data_dust"
+  },
+  "inputFluid1": {
+    "amount": 100,
+    "id": "industrialforegoing:pink_slime"
+  },
+  "inputFluid2": {
+    "amount": 1000,
+    "id": "minecraft:water"
+  },
+  "output": {
+    "count": 32,
+    "id": "ae2cs:data_crystal_seed"
+  },
+  "outputFluid": {
+    "amount": 100,
+    "id": "industrialforegoing:essence"
+  },
+  "processingTime": 200
+}

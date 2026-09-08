@@ -21,7 +21,6 @@ ServerEvents.recipes(event => {
         "ae2cs:crystal_growth_chamber",
         "extendedcrafting:elite_catalyst",
         "chaosworld_core:dark_matter",
-        "data_energistics:data_reassembler",
         "mekanismgenerators:wind_generator",
         "mekanism:energy_tablet",
         "mekanism:basic_universal_cable",

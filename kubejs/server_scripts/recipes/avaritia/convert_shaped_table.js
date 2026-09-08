@@ -2706,5 +2706,39 @@
         result: { id: 'neoecoae:integrated_working_station' },
         show_notification: false
     })
+    // data_energistics:data_reassembler
+    event.custom({
+        type: 'extendedcrafting:shaped_table',
+        pattern: ['AAAAAAA','ABCDCBA','ACEFECA','AGFHFGA','ACEFECA','ABCDCBA','AAAAAAA'],
+        key: ({
+            A: { item: 'ae2lt:matter_warping_matrix_casing' },
+            B: { item: 'data_energistics:singularity_block' },
+            C: { item: 'ae2lt:lightning_assembly_chamber' },
+            D: { item: 'draconicevolution:wyvern_energy_core' },
+            E: { item: 'data_energistics:data_framework' },
+            F: { item: 'draconicevolution:item_wyvern_energy' },
+            G: { item: 'draconicevolution:wyvern_core' },
+            H: { item: 'industrialforegoing:machine_frame_supreme' }
+        }),
+        result: { id: 'data_energistics:data_reassembler' }
+    })
+    event.custom({
+        type: 'create:mechanical_crafting',
+        accept_mirrored: false,
+        category: 'misc',
+        pattern: ['AAAAAAA','ABCDCBA','ACEFECA','AGFHFGA','ACEFECA','ABCDCBA','AAAAAAA'],
+        key: ({
+            A: { item: 'ae2lt:matter_warping_matrix_casing' },
+            B: { item: 'data_energistics:singularity_block' },
+            C: { item: 'ae2lt:lightning_assembly_chamber' },
+            D: { item: 'draconicevolution:wyvern_energy_core' },
+            E: { item: 'data_energistics:data_framework' },
+            F: { item: 'draconicevolution:item_wyvern_energy' },
+            G: { item: 'draconicevolution:wyvern_core' },
+            H: { item: 'industrialforegoing:machine_frame_supreme' }
+        }),
+        result: { id: 'data_energistics:data_reassembler' },
+        show_notification: false
+    })
 })
 

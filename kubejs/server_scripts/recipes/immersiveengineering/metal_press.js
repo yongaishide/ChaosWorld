@@ -7,4 +7,49 @@ ServerEvents.recipes((event) => {
             "mold":"immersiveengineering:mold_rod",
             "result":{"basePredicate":{"item":'immersiveengineering:graphite_electrode'},"count":1}}
     )
+    event.custom(
+        {"neoforge:conditions":[{"type":"neoforge:mod_loaded","modid":"allthemodium"}],
+            "type":"immersiveengineering:metal_press",
+            "energy":51200,
+            "input":{"basePredicate":{"item":"allthemodium:allthemodium_ingot"},"count":4},
+            "mold":"immersiveengineering:mold_gear",
+            "result":{"basePredicate":{"item":"allthemodium:allthemodium_gear"},"count":1}}
+    )
+    event.custom(
+        {"neoforge:conditions":[{"type":"neoforge:mod_loaded","modid":"allthemodium"}],
+            "type":"immersiveengineering:metal_press",
+            "energy":51200,
+            "input":{"basePredicate":{"item":"allthemodium:vibranium_ingot"},"count":4},
+            "mold":"immersiveengineering:mold_gear",
+            "result":{"basePredicate":{"item":"allthemodium:vibranium_gear"},"count":1}}
+    )
+    event.custom(
+        {"neoforge:conditions":[{"type":"neoforge:mod_loaded","modid":"allthemodium"}],
+            "type":"immersiveengineering:metal_press",
+            "energy":51200,
+            "input":{"basePredicate":{"item":"allthemodium:unobtainium_ingot"},"count":4},
+            "mold":"immersiveengineering:mold_gear",
+            "result":{"basePredicate":{"item":"allthemodium:unobtainium_gear"},"count":1}}
+    )
+    event.custom(
+        {"type":"immersiveengineering:metal_press",
+            "energy":51200,
+            "input":{"item":"allthemodium:allthemodium_ingot"},
+            "mold":"immersiveengineering:mold_rod",
+            "result":{"basePredicate":{"item":"allthemodium:allthemodium_rod"},"count":2}}
+    )
+    event.custom(
+        {"type":"immersiveengineering:metal_press",
+            "energy":51200,
+            "input":{"item":"allthemodium:vibranium_ingot"},
+            "mold":"immersiveengineering:mold_rod",
+            "result":{"basePredicate":{"item":"allthemodium:vibranium_rod"},"count":2}}
+    )
+    event.custom(
+        {"type":"immersiveengineering:metal_press",
+            "energy":51200,
+            "input":{"item":"allthemodium:unobtainium_ingot"},
+            "mold":"immersiveengineering:mold_rod",
+            "result":{"basePredicate":{"item":"allthemodium:unobtainium_rod"},"count":2}}
+    )
 })

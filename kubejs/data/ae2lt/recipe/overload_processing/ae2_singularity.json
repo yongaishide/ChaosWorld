@@ -6,12 +6,24 @@
       "ingredient": {
         "item": "ae2:matter_ball"
       },
-      "count": 64
+      "count": 16
+    },
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "ae2:fluix_pearl"
+      }
+    },
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "ae2cs:resonating_crystal_dust"
+      }
     }
   ],
   "inputFluid": {
     "id": "minecraft:lava",
-    "amount": 100
+    "amount": 1000
   },
   "results": [
     {

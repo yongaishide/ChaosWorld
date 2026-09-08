@@ -2,16 +2,28 @@
   "type": "advanced_ae:reaction",
   "input_energy": 1000000,
   "input_fluid": {
-    "amount": 100,
+    "amount": 1000,
     "ingredient": {
       "fluid": "minecraft:lava"
     }
   },
   "input_items": [
     {
-      "amount": 64,
+      "amount": 32,
       "ingredient": {
         "item": "ae2:matter_ball"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "ae2:fluix_pearl"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "ae2cs:resonating_crystal_dust"
       }
     }
   ],
