@@ -1,7 +1,9 @@
 {
   "type": "draconicevolution:fusion_crafting",
   "catalyst": {
-    "item": "chaosworld_core:ingot_tech_6"
+    "type": "draconicevolution:stack",
+    "count": 4,
+    "items": "chaosworld_core:ingot_tech_6"
   },
   "ingredients": [
     {
@@ -19,7 +21,7 @@
     {
       "consume": true,
       "ingredient": {
-        "item": "allthemodium:unobtainium_ingot"
+        "item": "ifeu:dragon_star"
       }
     },
     {
@@ -42,7 +44,7 @@
     }
   ],
   "result": {
-    "count": 1,
+    "count": 4,
     "id": "chaosworld_core:ingot_wyvern_metal"
   },
   "techLevel": "draconium",

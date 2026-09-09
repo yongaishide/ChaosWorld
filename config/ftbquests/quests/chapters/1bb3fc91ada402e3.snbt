@@ -41,14 +41,14 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["5FB3495EBECEEEB6"]
+			dependencies: ["483269A7E0A376DF"]
 			id: "0C3FEA608831610B"
 			tasks: [{
 				id: "69627FB12259CEE7"
 				item: { count: 1, id: "data_energistics:data_crystal" }
 				type: "item"
 			}]
-			x: 8.0d
+			x: 12.0d
 			y: -1.0d
 		}
 		{
@@ -85,9 +85,10 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -3.0d
+			y: 1.0d
 		}
 		{
+			dependencies: ["3AFF4E106C61B8EE"]
 			id: "2A5484C83E4CAB3C"
 			tasks: [{
 				id: "3AFAD36AC684596E"
@@ -157,6 +158,61 @@
 			}]
 			x: -2.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["3984BE88F6828281"]
+			id: "483269A7E0A376DF"
+			tasks: [{
+				id: "53A2F28657A98015"
+				item: { count: 1, id: "data_energistics:data_integrated_charger" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5FB3495EBECEEEB6"]
+			id: "3984BE88F6828281"
+			tasks: [{
+				id: "20366E3085A241A0"
+				item: { count: 1, id: "chaosworld_core:ingot_tech_7" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["537634384A0DD3BC"]
+			id: "10281CD0A0295904"
+			tasks: [{
+				id: "5BA0E500A8626D19"
+				item: { count: 1, id: "chaosworld_core:white_dwarf_fragment_ingot" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["10281CD0A0295904"]
+			id: "5CCCA915916790E6"
+			tasks: [{
+				id: "6E61B7D7ADE3437C"
+				item: { count: 1, id: "ifeu:ultimate_machine_frame" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5FB3495EBECEEEB6"]
+			id: "537634384A0DD3BC"
+			tasks: [{
+				id: "5A7E2FBDF1FF7FA2"
+				item: { count: 1, id: "chaosworld_core:dimensional_matter_assembler" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
 		}
 	]
 }

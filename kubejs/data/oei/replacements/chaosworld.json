@@ -985,6 +985,66 @@
   },
   {
     "matchItems": [
+      "data_energistics:data_storage_component_1k"
+    ],
+    "resultItems": "ae2omnicells:omni_cell_component_1k"
+  },
+  {
+    "matchItems": [
+      "data_energistics:data_storage_component_4k"
+    ],
+    "resultItems": "ae2omnicells:omni_cell_component_4k"
+  },
+  {
+    "matchItems": [
+      "data_energistics:data_storage_component_16k"
+    ],
+    "resultItems": "ae2omnicells:omni_cell_component_16k"
+  },
+  {
+    "matchItems": [
+      "data_energistics:data_storage_component_64k"
+    ],
+    "resultItems": "ae2omnicells:omni_cell_component_64k"
+  },
+  {
+    "matchItems": [
+      "data_energistics:data_storage_component_256k"
+    ],
+    "resultItems": "ae2omnicells:omni_cell_component_256k"
+  },
+  {
+    "matchItems": [
+      "data_energistics:data_storage_component_1m"
+    ],
+    "resultItems": "ae2omnicells:omni_cell_component_1m"
+  },
+  {
+    "matchItems": [
+      "data_energistics:data_storage_component_4m"
+    ],
+    "resultItems": "ae2omnicells:omni_cell_component_4m"
+  },
+  {
+    "matchItems": [
+      "data_energistics:data_storage_component_16m"
+    ],
+    "resultItems": "ae2omnicells:omni_cell_component_16m"
+  },
+  {
+    "matchItems": [
+      "data_energistics:data_storage_component_64m"
+    ],
+    "resultItems": "ae2omnicells:omni_cell_component_64m"
+  },
+  {
+    "matchItems": [
+      "data_energistics:data_storage_component_256m"
+    ],
+    "resultItems": "ae2omnicells:omni_cell_component_256m"
+  },
+  {
+    "matchItems": [
       "mekmm:scrap"
     ],
     "resultItems": "chaosworld_core:scrap"

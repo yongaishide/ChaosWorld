@@ -1,0 +1,53 @@
+{
+	"type": "data_energistics:data_reassembler",
+	"inputs": {
+		"items": [
+			{
+				"item": "chaosworld_core:graviton_plated_casing",
+				"count": 4
+			},
+			{
+				"item": "chaosworld_core:obsidian_matrix",
+				"count": 2
+			},
+			{
+				"item": "draconicevolution:wyvern_core",
+				"count": 4
+			},
+			{
+				"item": "chaosworld_core:plate_tech_7",
+				"count": 16
+			},
+			{
+				"item": "chaosworld_core:white_dwarf_fragment_ingot",
+				"count": 4
+			},
+			{
+				"item": "data_energistics:data_processor",
+				"count": 24
+			}
+		],
+		"fluids": [
+			{
+				"fluid": "ifeu:dragon_star_essence",
+				"amount": 1000
+			},
+			{
+				"fluid": "data_energistics:data_corrosion_liquid",
+				"amount": 1000
+			}
+		],
+		"resource": {
+			"key_type": "data_energistics:digitalization",
+			"resource": "data_energistics:data_flow",
+			"amount": 1000
+		}
+	},
+	"outputs": {
+		"items": [
+			{
+				"id": "ifeu:ultimate_machine_frame"
+			}
+		]
+	}
+}

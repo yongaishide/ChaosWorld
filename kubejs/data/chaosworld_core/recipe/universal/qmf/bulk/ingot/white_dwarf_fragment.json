@@ -12,21 +12,27 @@
   ],
   "item_inputs": [
     {
-      "amount": 128,
+      "amount": 512,
       "ingredient": {
-        "item": "minecraft:netherite_ingot"
+        "item": "chaosworld_core:ingot_tech_7"
       }
     },
     {
       "amount": 256,
       "ingredient": {
-        "item": "minecraft:blue_ice"
+        "item": "ae2lt:overload_singularity"
       }
     },
     {
-      "amount": 256,
+      "amount": 512,
       "ingredient": {
-        "item": "ae2:sky_stone_block"
+        "item": "ae2cs:meteor_crystal_block"
+      }
+    },
+    {
+      "amount": 64,
+      "ingredient": {
+        "item": "avaritia:singularity"
       }
     }
   ],

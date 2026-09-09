@@ -1,62 +1,64 @@
 {
   "type": "draconicevolution:fusion_crafting",
   "catalyst": {
-    "item": "draconicevolution:basic_crafting_injector"
+    "type": "draconicevolution:stack",
+    "count": 2,
+    "items": "draconicevolution:basic_crafting_injector"
   },
   "ingredients": [
     {
       "consume": true,
       "ingredient": {
-        "item": "draconicevolution:wyvern_core"
+        "item": "chaosworld_core:ingot_wyvern_metal"
       }
     },
     {
       "consume": true,
       "ingredient": {
-        "tag": "c:gems/diamond"
+        "item": "chaosworld_core:ingot_wyvern_metal"
       }
     },
     {
       "consume": true,
       "ingredient": {
-        "item": "draconicevolution:draconium_core"
+        "item": "draconicevolution:wyvern_energy_core"
       }
     },
     {
       "consume": true,
       "ingredient": {
-        "tag": "c:gems/diamond"
+        "item": "draconicevolution:wyvern_energy_core"
       }
     },
     {
       "consume": true,
       "ingredient": {
-        "item": "draconicevolution:draconium_core"
+        "item": "ae2lt:entangled_topological_lattice"
       }
     },
     {
       "consume": true,
       "ingredient": {
-        "tag": "c:gems/diamond"
+        "item": "ae2lt:entangled_topological_lattice"
       }
     },
     {
       "consume": true,
       "ingredient": {
-        "tag": "c:storage_blocks/draconium"
+        "item": "chaosworld_core:ingot_wyvern_metal"
       }
     },
     {
       "consume": true,
       "ingredient": {
-        "tag": "c:gems/diamond"
+        "item": "chaosworld_core:ingot_wyvern_metal"
       }
     }
   ],
   "result": {
-    "count": 1,
+    "count": 2,
     "id": "draconicevolution:wyvern_crafting_injector"
   },
   "techLevel": "draconium",
-  "totalEnergy": 32000
+  "totalEnergy": 320000
 }

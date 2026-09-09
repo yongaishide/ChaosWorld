@@ -2,11 +2,11 @@
   "type": "ifeu:infuser",
   "input": {
     "count": 1,
-    "id": "minecraft:nether_star"
+    "id": "ifeu:rough_dragon_star"
   },
   "inputFluid": {
     "amount": 1000,
-    "id": "modularbees:dragon_breath"
+    "id": "create_enchantment_industry:infused_dragon_breath"
   },
   "output": {
     "count": 1,

@@ -44,8 +44,8 @@
 	# Default: 1000000
 	# Range: > 1
 	thermo_generator_max_energy_storage = 1000000
-	#Base fe generation
-	# Default: 125
+	#Total Coolant Capacity
+	# Default: 100000
 	# Range: > 1
 	thermo_generator_energy_every_tick = 100000
 	#Blackhole
@@ -67,10 +67,6 @@
 	# Default: 2147483647
 	# Range: > 1
 	blackhole_fluid_every_tick = 2147483647
-	#Base coolant cost
-	# Default: 125
-	# Range: > 1
-	thermo_generator_fluid_every_tick = 125
 
 #Echoing Budding
 [3-echoing_budding]
@@ -395,6 +391,26 @@
 	# Range: > 1
 	ticker_fluid_every_tick = 1
 	#Max Tick speed applied
-	# Default: 1200
+	# Default: 2048
 	# Range: > 1
 	ticker_max_tick_rate = 2048
+
+#Compats
+[10-compats]
+	#Chisel Modern
+	#FE Capacity
+	# Default: 1000
+	# Range: > 1
+	celestigem_chisel_max_energy_storage = 1000
+	#FE/t
+	# Default: 1
+	# Range: > 1
+	celestigem_chisel_energy_every_tick = 1
+	#FE Capacity
+	# Default: 10000
+	# Range: > 1
+	eclipse_alloy_chisel_max_energy_storage = 10000
+	#FE/t
+	# Default: 10
+	# Range: > 1
+	eclipse_alloy_chisel_energy_every_tick = 10
