@@ -19,10 +19,6 @@
 		terminalStoragePacketMaxInstances = 512
 		#If the version checker should be enabled.
 		versionChecker = false
-		#If ender-upgraded storage terminals should emit ender particles.
-		terminalStorageEnderParticles = false
-		#If storage terminals can be ender-upgraded with an eye of ender to gain a tab with the player's ender chest contents.
-		terminalStorageTabEnderChestEnabled = true
 
 	[machine.general]
 		#The number of items that should be selected when clicking on an item in the storage terminal.
@@ -39,8 +35,6 @@
 		guiStorageFluidIncrementalQuantity = 1000
 		#The number of items that should be selected when clicking on a fluid in the storage terminal.
 		guiStorageFluidInitialQuantity = 100000
-		#If a toast should be shown when a crafting job that you requested has been completed.
-		craftingJobFinishedToast = true
 
 	[general.general]
 		#If the crafting grid should always be shown centrally, and not be responsive based on screen size.
@@ -75,5 +69,3 @@
 		guiStorageScaleMediumColumns = 10
 		#If the automatic re-sorting of the storage terminal contents should be paused while the shift key is held down.
 		guiStoragePauseSortingWhileShifting = true
-		#If the tooltips in the storage terminal should indicate the channels in which ingredients are available when all channels are shown at once.
-		guiStorageTooltipChannels = true

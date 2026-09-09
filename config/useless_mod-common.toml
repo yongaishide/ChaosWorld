@@ -73,6 +73,12 @@
 			#是否启用该配方来源的配方转换
 			#修改后重启游戏生效
 			enable_ufo_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_avaritia_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_summoningrituals_recipe_conversion = true
 
 		[advanced_alloy_furnace.recipe_conversion.kaleidoscope]
 			#是否启用该配方来源的配方转换

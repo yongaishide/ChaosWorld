@@ -48,7 +48,7 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["modularbees:dynamic_assets","vanilla","mod_resources","quest_enhance","file/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip","file/Birds AE2 Pack V0.8.zip","file/PackageAuto-AE2-style-v1.0.zip"]
+resourcePacks:["modularbees:dynamic_assets","vanilla","mod_resources","quest_enhance","file/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:zh_cn
@@ -58,7 +58,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:true
+advancedItemTooltips:false
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -226,9 +226,9 @@ key_key.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
 key_key.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.z:ALT
 key_rainbowcompound.key.dynamicelytra_fly:key.keyboard.space
 key_key.twilightforest.swap_hotbar:key.keyboard.v
-key_key.twilightforest.red_thread_vision:key.keyboard.unknown
 key_key.twilightforest.zoom:key.keyboard.z
 key_key.twilightforest.item_display_map_cycle:key.keyboard.c
+key_key.twilightforest.red_thread_vision:key.keyboard.unknown
 key_key.hostilenetworks.open_deep_learner:key.keyboard.u
 key_key.actualladditions.crafting_stick_open.desc:key.keyboard.unknown
 key_key.touhou_little_maid.stt_chat.desc:key.keyboard.x

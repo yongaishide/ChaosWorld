@@ -1,0 +1,20 @@
+{
+  "type": "ifeu:arcane_dragon_egg_forging",
+  "input": {
+    "count": 3,
+    "id": "mysticalagradditions:nether_star_shard"
+  },
+  "inputFluid1": {
+    "amount": 500,
+    "id": "ifeu:liquid_malic_acid"
+  },
+  "inputFluid2": {
+    "amount": 1000,
+    "id": "modularbees:dragon_breath"
+  },
+  "output": {
+    "count": 1,
+    "id": "ifeu:rough_dragon_star"
+  },
+  "processingTime": 200
+}

@@ -14,7 +14,7 @@
 	quest_links: [{
 		id: "0F9A69B7DF8EA973"
 		linked_quest: "61D2EDC385ADAD2C"
-		x: -10.0d
+		x: -6.0d
 		y: -1.0d
 	}]
 	quests: [
@@ -37,7 +37,7 @@
 				item: { count: 1, id: "ifeu:arcane_dragon_egg_forging" }
 				type: "item"
 			}]
-			x: -8.0d
+			x: -4.0d
 			y: -1.0d
 		}
 		{
@@ -63,7 +63,10 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["605E84AE528915D2"]
+			dependencies: [
+				"605E84AE528915D2"
+				"18A2F9A33EA2A601"
+			]
 			id: "573D97270EB7F700"
 			tasks: [{
 				id: "2A67FEB9EF3AD584"
@@ -130,8 +133,30 @@
 				item: { count: 1, id: "ae2cs:purified_data_crystal" }
 				type: "item"
 			}]
-			x: -8.0d
+			x: -4.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["126D81B10C87D402"]
+			id: "18A2F9A33EA2A601"
+			tasks: [{
+				id: "3A4DD2DC17F8BCB9"
+				item: { count: 1, id: "ifeu:dragon_star" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["100A7C29203926B1"]
+			id: "126D81B10C87D402"
+			tasks: [{
+				id: "15A829A20818AE59"
+				item: { count: 1, id: "ifeu:rough_dragon_star" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
 		}
 	]
 }
