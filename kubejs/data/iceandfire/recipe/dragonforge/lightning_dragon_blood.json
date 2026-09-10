@@ -1,0 +1,14 @@
+{
+  "type": "iceandfire:dragonforge",
+  "dragonType": "lightning",
+  "cookTime": 750,
+  "input": {
+    "tag": "iceandfire:scales/dragon/lightning"
+  },
+  "blood": {
+    "item": "minecraft:glass_bottle"
+  },
+  "result": {
+    "id": "iceandfire:lightning_dragon_blood"
+  }
+}

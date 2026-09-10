@@ -1,0 +1,64 @@
+{
+  "type": "draconicevolution:fusion_crafting",
+  "catalyst": {
+    "type": "draconicevolution:stack",
+    "count": 4,
+    "items": "chaosworld_core:holy_gold_ingot"
+  },
+  "ingredients": [
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "chaosworld_core:ingot_tech_8"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "chaosworld_core:ingot_tech_8"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "chaosworld_core:proto_matter"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "chaosworld_core:proto_matter"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "mekanism:pellet_plutonium"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "mekanism:pellet_polonium"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "chaosworld_core:ingot_tech_8"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "chaosworld_core:ingot_tech_8"
+      }
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "chaosworld_core:ingot_draconic_metal"
+  },
+  "techLevel": "wyvern",
+  "totalEnergy": 50000000
+}

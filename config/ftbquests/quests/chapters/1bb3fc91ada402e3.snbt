@@ -48,8 +48,8 @@
 				item: { count: 1, id: "data_energistics:data_crystal" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: -1.0d
+			x: 8.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["573D97270EB7F700"]
@@ -113,7 +113,7 @@
 				}
 			]
 			x: -2.0d
-			y: 1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["21CFB774A10DAE02"]
@@ -138,7 +138,10 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["126D81B10C87D402"]
+			dependencies: [
+				"126D81B10C87D402"
+				"6AF6B3C5604D94BF"
+			]
 			id: "18A2F9A33EA2A601"
 			tasks: [{
 				id: "3A4DD2DC17F8BCB9"
@@ -167,8 +170,8 @@
 				item: { count: 1, id: "data_energistics:data_integrated_charger" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: -1.0d
+			x: 8.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5FB3495EBECEEEB6"]
@@ -182,13 +185,36 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["79FA49303B3F9AB2"]
 			id: "5CCCA915916790E6"
 			tasks: [{
 				id: "6E61B7D7ADE3437C"
 				item: { count: 1, id: "ifeu:ultimate_machine_frame" }
 				type: "item"
 			}]
-			x: 14.5d
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["21CFB774A10DAE02"]
+			id: "6AF6B3C5604D94BF"
+			tasks: [{
+				id: "022C568A5FD519D9"
+				item: { count: 1, id: "chaosworld_core:dragon_soul_forge" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3984BE88F6828281"]
+			id: "79FA49303B3F9AB2"
+			tasks: [{
+				id: "19F32D8B3672579B"
+				item: { count: 1, id: "enderio_evolution:stellar_alloy_ingot" }
+				type: "item"
+			}]
+			x: 10.0d
 			y: -1.0d
 		}
 	]

@@ -51,7 +51,10 @@ ServerEvents.recipes(event => {
         "extendedcrafting:ultimate_component",
         "extendedcrafting:elite_component",
         "chaosworld_core:obsidian_matrix",
-        "draconicevolution:infused_obsidian"
+        "draconicevolution:infused_obsidian",
+        "enderio_evolution:capacitor_melodic",
+        "enderio:vibrant_gear",
+        "chaosworld_core:dimensional_matter_assembler"
     ]
     recipeTypeall.forEach((item) => {
         event.remove({ output: item, type: 'minecraft:crafting_shaped' })

@@ -20,16 +20,51 @@ ServerEvents.recipes((event) => {
     event.custom(
         {"type":"chaosworld_core:dragon_soul_forging",
             "itemInputs":[
-                {"ingredient":{"item":"ifeu:rough_dragon_star"},"count":1}
+                {"ingredient":{"item":"chaosworld_core:ingot_tech_6"},"count":1},
+                {"ingredient":{"item":"iceandfire:fire_dragon_blood"},"count":1}
             ],
             "fluidInputs":[
-                {"fluid":"create_enchantment_industry:infused_dragon_breath","amount":1000}
+                {"fluid":"modularbees:dragon_breath","amount":1000}
             ],
             "catalystInput":{
-                "ingredient":{"item":"chaosworld_core:dragon_catalyst"},
+                "ingredient":{"tag":"iceandfire:scales/dragon/fire"},
                 "amount":1,
-                "consume":false
+                "consume":true
             },
             "output":{"id":"iceandfire:dragonsteel_fire_ingot","count":1}}
+    )
+    //龙霜钢锭
+    event.custom(
+        {"type":"chaosworld_core:dragon_soul_forging",
+            "itemInputs":[
+                {"ingredient":{"item":"chaosworld_core:ingot_tech_6"},"count":1},
+                {"ingredient":{"item":"iceandfire:ice_dragon_blood"},"count":1}
+            ],
+            "fluidInputs":[
+                {"fluid":"modularbees:dragon_breath","amount":1000}
+            ],
+            "catalystInput":{
+                "ingredient":{"tag":"iceandfire:scales/dragon/ice"},
+                "amount":1,
+                "consume":true
+            },
+            "output":{"id":"iceandfire:dragonsteel_ice_ingot","count":1}}
+    )
+    //龙霆钢锭
+    event.custom(
+        {"type":"chaosworld_core:dragon_soul_forging",
+            "itemInputs":[
+                {"ingredient":{"item":"chaosworld_core:ingot_tech_6"},"count":1},
+                {"ingredient":{"item":"iceandfire:lightning_dragon_blood"},"count":1}
+            ],
+            "fluidInputs":[
+                {"fluid":"modularbees:dragon_breath","amount":1000}
+            ],
+            "catalystInput":{
+                "ingredient":{"tag":"iceandfire:scales/dragon/lightning"},
+                "amount":1,
+                "consume":true
+            },
+            "output":{"id":"iceandfire:dragonsteel_lightning_ingot","count":1}}
     )
 })

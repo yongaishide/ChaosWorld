@@ -3,7 +3,7 @@ ServerEvents.recipes((event) => {
     event.custom(
         {
             "type": "draconicevolution:fusion_crafting",
-            "catalyst": {"item": "ae2lt:overload_machine_frame"},
+            "catalyst": {"item": "ae2lt:tianshu_blank_unit"},
             "ingredients": [
                 {"consume": true, "ingredient": {"item": "ae2lt:matter_warping_matrix_casing"}},
                 {"consume": true, "ingredient": {"item": "ae2lt:matter_warping_matrix_casing"}},

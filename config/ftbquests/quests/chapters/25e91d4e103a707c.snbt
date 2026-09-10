@@ -11,7 +11,12 @@
 	order_index: 5
 	quest_enhance_decorative_lines: [ ]
 	quest_enhance_hidden_dependency_lines: [ ]
-	quest_links: [ ]
+	quest_links: [{
+		id: "28934F7FF2F9DFEA"
+		linked_quest: "5CCCA915916790E6"
+		x: -9.5d
+		y: 0.0d
+	}]
 	quests: [
 		{
 			dependencies: ["5E69566DF786692A"]
@@ -21,28 +26,34 @@
 				item: { count: 1, id: "draconicevolution:awakened_core" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: 8.5d
 			y: 0.0d
 		}
 		{
+			dependencies: ["4CBF8D6A568E3ED8"]
 			id: "5E69566DF786692A"
 			tasks: [{
-				id: "2D2E7EACF224CE49"
-				item: { count: 1, id: "draconicevolution:awakened_draconium_ingot" }
+				id: "6D0FCC03389D1B8F"
+				item: { count: 1, id: "draconicevolution:awakened_draconium_block" }
 				type: "item"
 			}]
-			x: -3.5d
+			x: 6.5d
 			y: 0.0d
 		}
 		{
+			dependencies: [
+				"6B9796920E141DD3"
+				"724DBF9B5576A1DB"
+				"347CF6CF09E875BF"
+			]
 			id: "5C27A3F09BF8BDC4"
 			tasks: [{
 				id: "23B03024EDB2522A"
 				item: { count: 1, id: "chaosworld_core:ingot_draconic_metal" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: 2.0d
+			x: 0.5d
+			y: 0.0d
 		}
 		{
 			id: "18C5C35F4A5B1F0E"
@@ -51,18 +62,8 @@
 				item: { count: 1, id: "mysticalagriculture:awakened_supremium_essence" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: 2.0d
 			y: 2.0d
-		}
-		{
-			id: "29F3408407163C5C"
-			tasks: [{
-				id: "13903A239B72850C"
-				item: { count: 1, id: "mekanism:solar_neutron_activator" }
-				type: "item"
-			}]
-			x: -3.5d
-			y: -2.5d
 		}
 		{
 			id: "724DBF9B5576A1DB"
@@ -71,7 +72,7 @@
 				item: { count: 1, id: "mekanism:pellet_plutonium" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.5d
 			y: -2.5d
 		}
 		{
@@ -81,27 +82,18 @@
 				item: { count: 1, id: "mekanism:pellet_polonium" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: -5.0d
+			x: -1.5d
+			y: 2.5d
 		}
 		{
-			id: "0D30E25E4E2F2087"
-			tasks: [{
-				id: "39C7E691F651E7E3"
-				item: { count: 1, id: "chaosworld_core:dimensional_matter_assembler" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 0.0d
-		}
-		{
+			dependencies: ["5CCCA915916790E6"]
 			id: "537634384A0DD3BC"
 			tasks: [{
 				id: "5A7E2FBDF1FF7FA2"
 				item: { count: 1, id: "chaosworld_core:dimensional_matter_assembler" }
 				type: "item"
 			}]
-			x: -8.0d
+			x: -7.5d
 			y: 0.0d
 		}
 		{
@@ -112,7 +104,51 @@
 				item: { count: 1, id: "chaosworld_core:white_dwarf_fragment_ingot" }
 				type: "item"
 			}]
-			x: -6.0d
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10281CD0A0295904"]
+			id: "56CAEF2AF3DBE9B8"
+			tasks: [{
+				id: "4B48437D47BCB270"
+				item: { count: 1, id: "chaosworld_core:neutron_star_fragment_ingot" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56CAEF2AF3DBE9B8"]
+			id: "347CF6CF09E875BF"
+			tasks: [{
+				id: "792DA9DDA57CCD84"
+				item: { count: 1, id: "chaosworld_core:proto_matter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C27A3F09BF8BDC4"]
+			id: "0F6E1BCD9E4FD0B1"
+			tasks: [{
+				id: "45E7EE464ABD683E"
+				item: { count: 1, id: "draconicevolution:draconic_energy_core" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F6E1BCD9E4FD0B1"]
+			id: "4CBF8D6A568E3ED8"
+			tasks: [{
+				id: "03D40A5ABD4EACEC"
+				item: { count: 1, id: "draconicevolution:awakened_crafting_injector" }
+				type: "item"
+			}]
+			x: 4.5d
 			y: 0.0d
 		}
 	]

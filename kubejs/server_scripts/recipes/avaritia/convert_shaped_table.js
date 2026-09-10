@@ -2838,5 +2838,121 @@
         result: { id: 'extendedcrafting:elite_catalyst' },
         show_notification: false
     })
+    // chaosworld_core:dragon_soul_forge
+    event.custom({
+        type: 'extendedcrafting:shaped_table',
+        pattern: [
+            'AAAABAAAA',
+            'ACCCDCCCA',
+            'AEFGHGFEA',
+            'AIGJKJGLA',
+            'BMHNOPHQB',
+            'AIGJRJGLA',
+            'AIFGHGFLA',
+            'AIIIELLLA',
+            'AAAAAAAAA'
+        ],
+        key: ({
+            A: { item: 'chaosworld_core:graviton_plated_casing' },
+            B: { item: 'minecraft:dragon_head' },
+            C: { item: 'iceandfire:dragonforge_ice_brick' },
+            D: { item: 'iceandfire:dragonforge_ice_input' },
+            E: { item: 'chaosworld_core:obsidian_matrix' },
+            F: { item: 'draconicevolution:item_draconium_energy' },
+            G: { item: 'ae2lt:lightning_assembly_chamber' },
+            H: { item: 'chaosworld_core:nano_computer' },
+            I: { item: 'iceandfire:dragonforge_fire_brick' },
+            J: { item: 'draconicevolution:draconium_core' },
+            K: { item: 'iceandfire:dragonforge_ice_core_disabled' },
+            L: { item: 'iceandfire:dragonforge_lightning_brick' },
+            M: { item: 'iceandfire:dragonforge_fire_input' },
+            N: { item: 'iceandfire:dragonforge_fire_core_disabled' },
+            O: { item: 'draconicevolution:crafting_core' },
+            P: { item: 'iceandfire:dragonforge_lightning_core_disabled' },
+            Q: { item: 'iceandfire:dragonforge_lightning_input' },
+            R: { item: 'industrialforegoing:machine_frame_supreme' }
+        }),
+        result: { id: 'chaosworld_core:dragon_soul_forge' }
+    })
+    event.custom({
+        type: 'create:mechanical_crafting',
+        accept_mirrored: false,
+        category: 'misc',
+        pattern: [
+            'AAAABAAAA',
+            'ACCCDCCCA',
+            'AEFGHGFEA',
+            'AIGJKJGLA',
+            'BMHNOPHQB',
+            'AIGJRJGLA',
+            'AIFGHGFLA',
+            'AIIIELLLA',
+            'AAAAAAAAA'
+        ],
+        key: ({
+            A: { item: 'chaosworld_core:graviton_plated_casing' },
+            B: { item: 'minecraft:dragon_head' },
+            C: { item: 'iceandfire:dragonforge_ice_brick' },
+            D: { item: 'iceandfire:dragonforge_ice_input' },
+            E: { item: 'chaosworld_core:obsidian_matrix' },
+            F: { item: 'draconicevolution:item_draconium_energy' },
+            G: { item: 'ae2lt:lightning_assembly_chamber' },
+            H: { item: 'chaosworld_core:nano_computer' },
+            I: { item: 'iceandfire:dragonforge_fire_brick' },
+            J: { item: 'draconicevolution:draconium_core' },
+            K: { item: 'iceandfire:dragonforge_ice_core_disabled' },
+            L: { item: 'iceandfire:dragonforge_lightning_brick' },
+            M: { item: 'iceandfire:dragonforge_fire_input' },
+            N: { item: 'iceandfire:dragonforge_fire_core_disabled' },
+            O: { item: 'draconicevolution:crafting_core' },
+            P: { item: 'iceandfire:dragonforge_lightning_core_disabled' },
+            Q: { item: 'iceandfire:dragonforge_lightning_input' },
+            R: { item: 'industrialforegoing:machine_frame_supreme' }
+        }),
+        result: { id: 'chaosworld_core:dragon_soul_forge' },
+        show_notification: false
+    })
+    // chaosworld_core:dimensional_matter_assembler
+    event.custom({
+        type: 'extendedcrafting:shaped_table',
+        pattern: [
+            'AABAA',
+            'ACDCA',
+            'BEFEB',
+            'ACDCA',
+            'AABAA'
+        ],
+        key: ({
+            A: { item: 'chaosworld_core:graviton_plated_casing' },
+            B: { item: 'chaosworld_core:obsidian_matrix' },
+            C: { item: 'ae2lt:lightning_assembly_chamber' },
+            D: { item: 'chaosworld_core:crystal_processor' },
+            E: { item: 'data_energistics:trinity_information_exchange_depot' },
+            F: { item: 'ifeu:ultimate_machine_frame' }
+        }),
+        result: { id: 'chaosworld_core:dimensional_matter_assembler' }
+    })
+    event.custom({
+        type: 'create:mechanical_crafting',
+        accept_mirrored: false,
+        category: 'misc',
+        pattern: [
+            'AABAA',
+            'ACDCA',
+            'BEFEB',
+            'ACDCA',
+            'AABAA'
+        ],
+        key: ({
+            A: { item: 'chaosworld_core:graviton_plated_casing' },
+            B: { item: 'chaosworld_core:obsidian_matrix' },
+            C: { item: 'ae2lt:lightning_assembly_chamber' },
+            D: { item: 'chaosworld_core:crystal_processor' },
+            E: { item: 'data_energistics:trinity_information_exchange_depot' },
+            F: { item: 'ifeu:ultimate_machine_frame' }
+        }),
+        result: { id: 'chaosworld_core:dimensional_matter_assembler' },
+        show_notification: false
+    })
 })
 

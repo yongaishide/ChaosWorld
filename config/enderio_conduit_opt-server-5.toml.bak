@@ -1,21 +1,21 @@
 [General]
-	#Enable custom extraction frequency for Item Conduits (1-200 ticks).
+	#是否允许玩家自定义【物品导管】的抽取频率（1~200 tick）。
 	enableItemCustomFrequency = true
-	#Enable custom extraction frequency for Fluid Conduits (1-200 ticks).
+	#是否允许玩家自定义【流体导管】的抽取频率（1~200 tick）。
 	enableFluidCustomFrequency = true
-	#Enable custom extraction frequency for Chemical Conduits (1-200 ticks).
+	#是否允许玩家自定义【化学品导管】的抽取频率（1~200 tick）。
 	enableChemicalCustomFrequency = true
 
 [Optimization]
-	#Max sleep ticks for Item Conduits when empty/full.
+	#物品导管在空/满时的最大休眠时间（tick）。
 	# Default: 40
 	# Range: 1 ~ 1200
 	itemMaxSleep = 40
-	#Max sleep ticks for Fluid Conduits when empty/full.
+	#流体导管在空/满时的最大休眠时间（tick）。
 	# Default: 40
 	# Range: 1 ~ 1200
 	fluidMaxSleep = 40
-	#Max sleep ticks for Chemical Conduits when empty/full.
+	#化学品导管在空/满时的最大休眠时间（tick）。
 	# Default: 40
 	# Range: 1 ~ 1200
 	chemicalMaxSleep = 40
