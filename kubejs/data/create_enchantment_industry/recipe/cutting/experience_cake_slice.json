@@ -2,13 +2,13 @@
     "type": "create:cutting",
     "ingredients": [
         {
-            "item": "create_enchantment_industry:experience_cake"
+            "item": "enderio:fluid_xp_juice_still_cake"
         }
     ],
     "results": [
         {
             "count": 4,
-            "id": "create_enchantment_industry:experience_cake_slice"
+            "id": "enderio:fluid_xp_juice_still_cake_slice"
         }
     ]
 }

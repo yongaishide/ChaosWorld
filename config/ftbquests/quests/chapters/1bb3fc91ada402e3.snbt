@@ -112,8 +112,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 3.0d
+			x: -2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["21CFB774A10DAE02"]
@@ -123,7 +123,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(iceandfire:dragonsteel_fire_ingot)item(iceandfire:dragonsteel_ice_ingot)item(iceandfire:dragonsteel_lightning_ingot))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.0d
 			y: 1.0d
 		}
 		{
@@ -182,37 +182,14 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["537634384A0DD3BC"]
-			id: "10281CD0A0295904"
-			tasks: [{
-				id: "5BA0E500A8626D19"
-				item: { count: 1, id: "chaosworld_core:white_dwarf_fragment_ingot" }
-				type: "item"
-			}]
-			x: 10.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["10281CD0A0295904"]
 			id: "5CCCA915916790E6"
 			tasks: [{
 				id: "6E61B7D7ADE3437C"
 				item: { count: 1, id: "ifeu:ultimate_machine_frame" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["5FB3495EBECEEEB6"]
-			id: "537634384A0DD3BC"
-			tasks: [{
-				id: "5A7E2FBDF1FF7FA2"
-				item: { count: 1, id: "chaosworld_core:dimensional_matter_assembler" }
-				type: "item"
-			}]
-			x: 8.0d
-			y: -3.0d
+			x: 14.5d
+			y: -1.0d
 		}
 	]
 }

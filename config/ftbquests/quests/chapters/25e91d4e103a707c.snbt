@@ -14,6 +14,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["5E69566DF786692A"]
 			id: "50019251761B4196"
 			tasks: [{
 				id: "701E6F013C6FE975"
@@ -91,6 +92,27 @@
 				type: "item"
 			}]
 			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "537634384A0DD3BC"
+			tasks: [{
+				id: "5A7E2FBDF1FF7FA2"
+				item: { count: 1, id: "chaosworld_core:dimensional_matter_assembler" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["537634384A0DD3BC"]
+			id: "10281CD0A0295904"
+			tasks: [{
+				id: "5BA0E500A8626D19"
+				item: { count: 1, id: "chaosworld_core:white_dwarf_fragment_ingot" }
+				type: "item"
+			}]
+			x: -6.0d
 			y: 0.0d
 		}
 	]

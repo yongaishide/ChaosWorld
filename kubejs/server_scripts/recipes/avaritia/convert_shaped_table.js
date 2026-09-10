@@ -2740,5 +2740,103 @@
         result: { id: 'data_energistics:data_reassembler' },
         show_notification: false
     })
+    // extendedcrafting:ultimate_catalyst
+    event.custom({
+        type: 'extendedcrafting:shaped_table',
+        pattern: [
+            'AABCCCBDA',
+            'DDDDDDDDA',
+            'BDEEBFEDB',
+            'CDFFFFEDC',
+            'CDBFGFBDC',
+            'CDEFFFFDC',
+            'BDEFBEEDB',
+            'ADDDDDDDD',
+            'ADBCCCBAA'
+        ],
+        key: ({
+            A: { item: 'data_energistics:empty_trinity_unit' },
+            B: { item: 'extendedcrafting:ultimate_component' },
+            C: { item: "avaritia:crystal_matrix_ingot" },
+            D: { item: 'allthemodium:vibranium_plate' },
+            E: { item: 'data_energistics:data_crystal_block' },
+            F: { item: 'extendedcrafting:crystaltine_ingot' },
+            G: { item: 'extendedcrafting:basic_catalyst' }
+        }),
+        result: { id: 'extendedcrafting:ultimate_catalyst' }
+    })
+    event.custom({
+        type: 'create:mechanical_crafting',
+        accept_mirrored: false,
+        category: 'misc',
+        pattern: [
+            'AABCCCBDA',
+            'DDDDDDDDA',
+            'BDEEBFEDB',
+            'CDFFFFEDC',
+            'CDBFGFBDC',
+            'CDEFFFFDC',
+            'BDEFBEEDB',
+            'ADDDDDDDD',
+            'ADBCCCBAA'
+        ],
+        key: ({
+            A: { item: 'data_energistics:empty_trinity_unit' },
+            B: { item: 'extendedcrafting:ultimate_component' },
+            C: { item: "avaritia:crystal_matrix_ingot" },
+            D: { item: 'allthemodium:vibranium_plate' },
+            E: { item: 'data_energistics:data_crystal_block' },
+            F: { item: 'extendedcrafting:crystaltine_ingot' },
+            G: { item: 'extendedcrafting:basic_catalyst' }
+        }),
+        result: { id: 'extendedcrafting:ultimate_catalyst' },
+        show_notification: false
+    })
+    // extendedcrafting:elite_catalyst
+    event.custom({
+        type: 'extendedcrafting:shaped_table',
+        pattern: [
+            'AABABCA',
+            'CCCCCCA',
+            'BCDEDCB',
+            'BCEFECA',
+            'BCDEDCB',
+            'ACCCCCC',
+            'ACBABAA'
+        ],
+        key: ({
+            A: { item: 'enderio_evolution:crystalline_alloy_ingot' },
+            B: { item: 'extendedcrafting:elite_component' },
+            C: { item: 'mekanism:alloy_reinforced' },
+            D: { item: 'mekanism:elite_control_circuit' },
+            E: { item: 'avaritia:diamond_lattice' },
+            F: { item: 'extendedcrafting:basic_catalyst' }
+        }),
+        result: { id: 'extendedcrafting:elite_catalyst' }
+    })
+    event.custom({
+        type: 'create:mechanical_crafting',
+        accept_mirrored: false,
+        category: 'misc',
+        pattern: [
+            'AABABCA',
+            'CCCCCCA',
+            'BCDEDCB',
+            'BCEFECA',
+            'BCDEDCB',
+            'ACCCCCC',
+            'ACBABAA'
+        ],
+        key: ({
+            A: { item: 'enderio_evolution:crystalline_alloy_ingot' },
+            B: { item: 'extendedcrafting:elite_component' },
+            C: { item: 'mekanism:alloy_reinforced' },
+            D: { item: 'mekanism:elite_control_circuit' },
+            E: { item: 'avaritia:diamond_lattice' },
+            F: { item: 'extendedcrafting:basic_catalyst' }
+        }),
+        result: { id: 'extendedcrafting:elite_catalyst' },
+        show_notification: false
+    })
 })
 

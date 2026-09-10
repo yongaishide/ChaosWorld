@@ -1,0 +1,35 @@
+{
+  "type": "advanced_ae:reaction",
+  "input_energy": 100000,
+  "input_fluid": {
+    "amount": 2000,
+    "ingredient": {
+      "fluid": "justdirethings:refined_t2_fluid_source"
+    }
+  },
+  "input_items": [
+    {
+      "amount": 4,
+      "ingredient": {
+        "item": "minecraft:obsidian"
+      }
+    },
+    {
+      "amount": 4,
+      "ingredient": {
+        "item": "draconicevolution:draconium_dust"
+      }
+    },
+    {
+      "amount": 4,
+      "ingredient": {
+        "item": "minecraft:blaze_powder"
+      }
+    }
+  ],
+  "output": {
+    "#": 1,
+    "#t": "ae2:i",
+    "id": "draconicevolution:infused_obsidian"
+  }
+}

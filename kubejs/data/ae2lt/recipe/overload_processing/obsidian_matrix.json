@@ -1,0 +1,33 @@
+{
+  "type": "ae2lt:overload_processing",
+  "priority": 0,
+  "inputs": [
+    {
+      "ingredient": {
+        "item": "draconicevolution:infused_obsidian"
+      },
+      "count": 64
+    },
+    {
+      "ingredient": {
+        "item": "ae2lt:overload_singularity"
+      },
+      "count": 16
+    },
+    {
+      "ingredient": {
+        "item": "occultism:dimensional_matrix"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "id": "chaosworld_core:obsidian_matrix",
+      "count": 1
+    }
+  ],
+  "totalEnergy": 8000000,
+  "lightningCost": 8,
+  "lightningTier": "extreme_high_voltage"
+}

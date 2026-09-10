@@ -1,0 +1,35 @@
+ServerEvents.recipes((event) => {
+    //龙魂锻炉
+    //龙之星
+    event.custom(
+        {"type":"chaosworld_core:dragon_soul_forging",
+            "itemInputs":[
+                {"ingredient":{"item":"ifeu:rough_dragon_star"},"count":1}
+            ],
+            "fluidInputs":[
+                {"fluid":"create_enchantment_industry:infused_dragon_breath","amount":1000}
+            ],
+            "catalystInput":{
+                "ingredient":{"item":"chaosworld_core:dragon_catalyst"},
+                "amount":1,
+                "consume":false
+            },
+            "output":{"id":"ifeu:dragon_star","count":1}}
+    )
+    //龙炎钢锭
+    event.custom(
+        {"type":"chaosworld_core:dragon_soul_forging",
+            "itemInputs":[
+                {"ingredient":{"item":"ifeu:rough_dragon_star"},"count":1}
+            ],
+            "fluidInputs":[
+                {"fluid":"create_enchantment_industry:infused_dragon_breath","amount":1000}
+            ],
+            "catalystInput":{
+                "ingredient":{"item":"chaosworld_core:dragon_catalyst"},
+                "amount":1,
+                "consume":false
+            },
+            "output":{"id":"iceandfire:dragonsteel_fire_ingot","count":1}}
+    )
+})

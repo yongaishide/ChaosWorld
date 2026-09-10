@@ -46,7 +46,12 @@ ServerEvents.recipes(event => {
         "ae2lt:overload_machine_frame",
         "mekanism:enrichment_chamber",
         "data_energistics:radix_containment_sphere",
-        "draconicevolution:draconium_core"
+        "draconicevolution:draconium_core",
+        "extendedcrafting:ultimate_catalyst",
+        "extendedcrafting:ultimate_component",
+        "extendedcrafting:elite_component",
+        "chaosworld_core:obsidian_matrix",
+        "draconicevolution:infused_obsidian"
     ]
     recipeTypeall.forEach((item) => {
         event.remove({ output: item, type: 'minecraft:crafting_shaped' })
