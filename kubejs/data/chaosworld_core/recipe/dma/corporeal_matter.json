@@ -14,7 +14,7 @@
     {
       "amount": 2,
       "ingredient": {
-        "item": "chaosworld_core:proto_matter"
+        "item": "chaosworld_core:neutronite_ingot"
       }
     },
     {
@@ -27,12 +27,6 @@
       "amount": 16,
       "ingredient": {
         "item": "chaosworld_core:obsidian_matrix"
-      }
-    },
-    {
-      "amount": 8,
-      "ingredient": {
-        "item": "chaosworld_core:dimensional_processor"
       }
     }
   ],

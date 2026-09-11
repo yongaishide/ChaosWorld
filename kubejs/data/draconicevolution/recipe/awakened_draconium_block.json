@@ -21,7 +21,7 @@
     {
       "consume": true,
       "ingredient": {
-        "item": "draconicevolution:draconium_core"
+        "item": "mysticalagriculture:awakened_supremium_gemstone"
       }
     },
     {
@@ -41,18 +41,12 @@
       "ingredient": {
         "item": "draconicevolution:draconium_core"
       }
-    },
-    {
-      "consume": true,
-      "ingredient": {
-        "item": "draconicevolution:draconium_core"
-      }
     }
   ],
   "result": {
     "count": 4,
     "id": "draconicevolution:awakened_draconium_block"
   },
-  "techLevel": "wyvern",
+  "techLevel": "draconic",
   "totalEnergy": 50000000
 }

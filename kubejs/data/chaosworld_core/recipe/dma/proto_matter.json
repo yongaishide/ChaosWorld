@@ -3,7 +3,7 @@
   "energy": 5000000,
   "fluid_inputs": [
     {
-      "amount": 4000,
+      "amount": 2000,
       "ingredient": {
         "fluid": "chaosworld_core:uu_matter"
       }
@@ -12,15 +12,9 @@
   "fluid_outputs": [],
   "item_inputs": [
     {
-      "amount": 2,
+      "amount": 1,
       "ingredient": {
         "item": "chaosworld_core:enriched_neutronium_sphere"
-      }
-    },
-    {
-      "amount": 4,
-      "ingredient": {
-        "item": "chaosworld_core:dimensional_processor"
       }
     }
   ],

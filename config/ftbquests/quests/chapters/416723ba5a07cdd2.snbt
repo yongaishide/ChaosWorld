@@ -11,18 +11,41 @@
 	}
 	id: "416723BA5A07CDD2"
 	images: [ ]
-	order_index: 7
+	order_index: 6
 	quest_enhance_decorative_lines: [ ]
 	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
-	quests: [{
-		id: "2D9B54072C00DB80"
-		tasks: [{
-			id: "45CB8EF12A34BA89"
-			item: { count: 1, id: "draconicevolution:chaotic_core" }
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			id: "2D9B54072C00DB80"
+			tasks: [{
+				id: "45CB8EF12A34BA89"
+				item: { count: 1, id: "draconicevolution:chaotic_core" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1A2444FD0C5676B5"
+			tasks: [{
+				id: "354743638540729B"
+				item: { count: 1, id: "chaosworld_core:quantum_matter_fabricator_controller" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A2444FD0C5676B5"]
+			id: "27BD73A8D35435EF"
+			tasks: [{
+				id: "7A2284F3AB420BF3"
+				item: { count: 1, id: "chaosworld_core:dark_matter" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+	]
 }

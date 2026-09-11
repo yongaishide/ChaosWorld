@@ -30,7 +30,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["4CBF8D6A568E3ED8"]
+			dependencies: [
+				"4CBF8D6A568E3ED8"
+				"18C5C35F4A5B1F0E"
+			]
 			id: "5E69566DF786692A"
 			tasks: [{
 				id: "6D0FCC03389D1B8F"
@@ -62,7 +65,7 @@
 				item: { count: 1, id: "mysticalagriculture:awakened_supremium_essence" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 4.5d
 			y: 2.0d
 		}
 		{
