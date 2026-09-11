@@ -3,7 +3,7 @@
   "energy": 960000000,
   "fluid_inputs": [
     {
-      "amount": 128000,
+      "amount": 32000,
       "fluid": {
         "amount": 1,
         "id": "chaosworld_core:transcending_matter"
@@ -12,19 +12,19 @@
   ],
   "item_inputs": [
     {
-      "amount": 128,
+      "amount": 64,
       "ingredient": {
         "item": "chaosworld_core:white_dwarf_matter"
       }
     },
     {
-      "amount": 128,
+      "amount": 64,
       "ingredient": {
         "item": "chaosworld_core:neutron_star_matter"
       }
     },
     {
-      "amount": 128,
+      "amount": 64,
       "ingredient": {
         "item": "chaosworld_core:pulsar_matter"
       }

@@ -157,10 +157,6 @@
     "crop": true,
     "inferium_crop": true
   },
-  "modular_machinery_reborn": {
-    "machine_component_provider": true,
-    "hatch_component_provider": true
-  },
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
@@ -298,10 +294,6 @@
   "modularrouters": {
     "router": true
   },
-  "ftbstuff": {
-    "pump": true,
-    "autohammer": true
-  },
   "enderio_evolution": {
     "capacitor_bank_render": true
   },
@@ -309,6 +301,7 @@
     "item_conduit_info": true
   },
   "useless_mod": {
+    "multiblock_alloy_furnace_core_name": true,
     "advanced_alloy_furnace_tasks": true
   },
   "kaleidoscope_cookery": {

@@ -1810,8 +1810,9 @@
     // avaritia:neutron_collector
     event.custom({
         type: 'extendedcrafting:shaped_table',
-        pattern: ['IIQQQQQII', 'I QQQQQ I', 'I  RRR  I', 'C RRRRR C', 'I RRCRR I', 'C RRRRR C', 'I  RRR  I', 'I       I', 'IIICICIII'],
+        pattern: ['IIQQQQQII', 'I QQQQQ I', 'I  RRR  I', 'C RRRRR C', 'I RRARR I', 'C RRRRR C', 'I  RRR  I', 'I       I', 'IIICICIII'],
         key: ({
+            A: { item: "ifeu:ultimate_machine_frame" },
             C: { item: 'avaritia:crystal_matrix_ingot' },
             I: { item: 'minecraft:iron_block' },
             Q: { item: 'minecraft:quartz_block' },
@@ -1823,8 +1824,9 @@
         type: 'create:mechanical_crafting',
         accept_mirrored: false,
         category: 'misc',
-        pattern: ['IIQQQQQII', 'I QQQQQ I', 'I  RRR  I', 'C RRRRR C', 'I RRCRR I', 'C RRRRR C', 'I  RRR  I', 'I       I', 'IIICICIII'],
+        pattern: ['IIQQQQQII', 'I QQQQQ I', 'I  RRR  I', 'C RRRRR C', 'I RRARR I', 'C RRRRR C', 'I  RRR  I', 'I       I', 'IIICICIII'],
         key: ({
+            A: { item: "ifeu:ultimate_machine_frame" },
             C: { item: 'avaritia:crystal_matrix_ingot' },
             I: { item: 'minecraft:iron_block' },
             Q: { item: 'minecraft:quartz_block' },

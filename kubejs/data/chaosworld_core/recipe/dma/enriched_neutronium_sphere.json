@@ -3,7 +3,7 @@
   "energy": 6000000,
   "fluid_inputs": [
     {
-      "amount": 16000,
+      "amount": 4000,
       "ingredient": {
         "fluid": "chaosworld_core:source_primordial_matter_fluid"
       }
@@ -18,15 +18,9 @@
       }
     },
     {
-      "amount": 8,
+      "amount": 2,
       "ingredient": {
         "item": "chaosworld_core:quantum_anomaly"
-      }
-    },
-    {
-      "amount": 8,
-      "ingredient": {
-        "item": "chaosworld_core:dimensional_processor"
       }
     }
   ],
