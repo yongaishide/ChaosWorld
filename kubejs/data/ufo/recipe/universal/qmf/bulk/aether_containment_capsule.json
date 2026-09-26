@@ -1,0 +1,34 @@
+{
+  "type": "ufo:universal_multiblock",
+  "energy": 32000000,
+  "fluid_inputs": [
+    {
+      "amount": 64000,
+      "fluid": {
+        "amount": 1,
+        "id": "ufo:source_spatial_fluid"
+      }
+    }
+  ],
+  "item_inputs": [
+    {
+      "amount": 128,
+      "ingredient": {
+        "item": "ufo:safe_containment_matter"
+      }
+    },
+    {
+      "amount": 64,
+      "ingredient": {
+        "item": "ufo:phase_shift_component_matrix"
+      }
+    }
+  ],
+  "item_output": {
+    "count": 64,
+    "id": "ufo:aether_containment_capsule"
+  },
+  "machine": "qmf",
+  "recipe_name": "universal/qmf/bulk/aether_containment_capsule",
+  "time": 400
+}

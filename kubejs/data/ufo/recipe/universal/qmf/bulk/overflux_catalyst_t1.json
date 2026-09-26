@@ -1,0 +1,46 @@
+{
+  "type": "ufo:universal_multiblock",
+  "energy": 9600000,
+  "fluid_inputs": [
+    {
+      "amount": 64000,
+      "fluid": {
+        "amount": 1,
+        "id": "ufo:raw_star_matter_plasma"
+      }
+    }
+  ],
+  "item_inputs": [
+    {
+      "amount": 64,
+      "ingredient": {
+        "item": "ufo:obsidian_matrix"
+      }
+    },
+    {
+      "amount": 128,
+      "ingredient": {
+        "item": "ufo:proto_matter"
+      }
+    },
+    {
+      "amount": 256,
+      "ingredient": {
+        "item": "ufo:pulsar_fragment_dust"
+      }
+    },
+    {
+      "amount": 128,
+      "ingredient": {
+        "item": "ae2:quartz_vibrant_glass"
+      }
+    }
+  ],
+  "item_output": {
+    "count": 64,
+    "id": "ufo:overflux_catalyst_t1"
+  },
+  "machine": "qmf",
+  "recipe_name": "universal/qmf/bulk/overflux_catalyst_t1",
+  "time": 200
+}

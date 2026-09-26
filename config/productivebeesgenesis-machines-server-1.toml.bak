@@ -1,0 +1,160 @@
+#外部物流互操作（离心机与机械蜂箱通用）
+[external_logistics]
+	#产物直通：配方完成时先模拟再直接写入已配置输出面的相邻容器，跳过输出槽中转
+	#减少一次「写入输出槽 → 再被抽走」的往返，产物在输出槽里停留的时间大幅缩短
+	#关闭后回到「先进输出槽，再由弹出器/物流模组取走」的传统流程
+	#目标塞不下的部分始终回落输出槽，不会丢失；机器的自动弹出关闭时本功能同样不生效
+	#本项是总开关：开启后仍可在每台机器的侧面配置界面用「O」按钮单独关闭该机器的直通
+	directContainerOutput = true
+
+#通用机械离心机设置
+[mek_centrifuge]
+
+	#基础参数
+	[mek_centrifuge.basic]
+		#每个处理槽每tick的配置能耗(FE)
+		#机器注册时应用 1/5 内置平衡系数，不能整除时向上取整
+		# Default: 50
+		# Range: 1 ~ 9223372036854775807
+		energyPerTick = 50
+		#机械离心机配置基础容量(FE)
+		#机器注册时应用 1/2 内置平衡系数；工厂再按进程数倍增
+		# Default: 100000
+		# Range: 1 ~ 9223372036854775807
+		energyStorage = 20000
+		#基础处理时间(tick)
+		# Default: 200
+		# Range: 1 ~ 6000
+		processingTime = 200
+		#流体输出罐基础容量(mB，仅作用于基础离心机)
+		#工厂总容量 = 此值 × processes × fluid_tank_multiplier（超过 2.15G mB 时截断）
+		# Default: 256000
+		# Range: > 1000
+		fluidTankCapacity = 256000
+		#是否启用多流体槽模式(按流体类型动态分配独立槽位)
+		multiFluidTank = true
+		#每种流体最多占用的槽位数；0=自动分配
+		# Default: 0
+		# Range: 0 ~ 64
+		maxTanksPerFluid = 0
+		#万象创世蜜脾块相对于蜜脾的产物倍率
+		# Default: 4
+		# Range: 1 ~ 16
+		combBlockMultiplier = 4
+		#单tick最大PB配方操作数（0=无限制，允许堆叠升级 2^N 并行效果完整生效）
+		# Default: 0
+		# Range: > 0
+		maxOpsPerTick = 0
+
+	#AE2 集成（未安装对应模组时保留配置但不生效）
+	[mek_centrifuge.ae2]
+		#启用 AE2 直接输出（推送输出槽物品到 AE2 网络）
+		aeOutputEnabled = true
+		#启用 AE2 流体输出（推送蜂蜜到 AE2 网络，独立于物品输出）
+		aeFluidOutputEnabled = true
+		#启用 AE 网络能量输入（从 ME 网络提取 FE 注入本地能量容器）
+		#默认开启
+		aeEnergyInputEnabled = true
+		#AE 网络能量优先级（true=优先 AppliedFlux，false=优先 AE2 原生能量）
+		preferAppliedFluxOverAeEnergy = true
+		#允许提取 AE2 原生能量（关闭后仅从 AppliedFlux 存储的 FE 提取，
+		#避免网络 FE 不足时过量抽取 AE 原生能量导致 ME 网络断电）
+		#默认开启
+		aeNativeEnergyInputEnabled = true
+		#启用 AE2 输入拉取（离心机主动从 ME 网络拉取输入物品）
+		#默认开启；每台离心机默认关闭，需在机器上单独开启
+		aeInputEnabled = true
+		#每次拉取最大物品数量（1-2147483647，过大可能增加 CPU 开销）
+		# Default: 1024
+		# Range: > 1
+		aeInputRatePerTick = 1024
+		#拉取触发间隔（游戏刻，值越大 CPU 开销越低但响应越慢）
+		# Default: 10
+		# Range: 1 ~ 200
+		aeInputIntervalTicks = 10
+		#AE2 输入过滤窗口最小页数（1-16）
+		# Default: 4
+		# Range: 1 ~ 16
+		aeInputMinPages = 4
+
+	#PB升级上限
+	[mek_centrifuge.pb_upgrade]
+		#产量升级（α/β/γ/Ω）最大安装数量
+		# Default: 4
+		# Range: 1 ~ 64
+		productivityMaxCount = 8
+		#时间升级最大安装数量
+		# Default: 4
+		# Range: 1 ~ 64
+		timeMaxCount = 8
+		#稳定性升级最大安装数量（仅离心机生效，对齐 PB 原版上限 7）
+		#每级 +0.15 非保底产物概率加成，满槽（7个）时所有概率产物变保底
+		# Default: 7
+		# Range: 1 ~ 7
+		stabilityMaxCount = 7
+
+	#通用机械:扩展 升级上限
+	[mek_centrifuge.me_upgrade]
+		#通用机械:扩展 堆叠升级最大数量（2^N 倍并行，仅作用于本模组离心机工厂）
+		# Default: 8
+		# Range: 8 ~ 32
+		maxStackUpgrades = 16
+
+	#离心机电力熔炼炉配方兼容（总开关）
+	[mek_centrifuge.smelting_compat]
+		#允许离心机处理电力熔炼炉（SMELTING）配方
+		#默认开启；关闭后所有离心机的熔炉配方兼容开关无法使用
+		#每台离心机是否兼容熔炉配方由 GUI 中的 per-tile 开关控制，默认关闭
+		smeltingCompatEnabled = true
+
+#通用机械蜂箱设置
+[mek_apiary]
+
+	#基础参数
+	[mek_apiary.basic]
+		#每个处理槽每 tick 的配置能耗（FE）
+		#机器注册时应用 1/5 内置平衡系数，不能整除时向上取整
+		# Default: 50
+		# Range: 1 ~ 9223372036854775807
+		energyPerTick = 50
+		#基础处理时间（tick）
+		# Default: 1200
+		# Range: 1 ~ 6000
+		processingTime = 1200
+		#基础版蜂箱流体罐容量（mB，仅作用于基础版蜂箱）
+		#工厂版容量按等级计算
+		# Default: 256000
+		# Range: > 1000
+		fluidTankCapacity = 256000
+
+	#AE2 集成（未安装对应模组时保留配置但不生效）
+	[mek_apiary.ae2]
+		#启用 AE2 直接输出
+		aeOutputEnabled = true
+		#启用 AE2 流体输出
+		aeFluidOutputEnabled = true
+		#启用 AE 网络能量输入
+		aeEnergyInputEnabled = true
+		#AE 网络能量优先级
+		preferAppliedFluxOverAeEnergy = true
+		#允许提取 AE2 原生能量
+		aeNativeEnergyInputEnabled = true
+
+	#PB 升级上限
+	[mek_apiary.pb_upgrade]
+		#产量升级（α/β/γ/Ω）最大安装数量
+		# Default: 4
+		# Range: 1 ~ 64
+		productivityMaxCount = 8
+		#时间升级最大安装数量
+		# Default: 4
+		# Range: 1 ~ 64
+		timeMaxCount = 8
+		#基因采样升级最大安装数量
+		# Default: 4
+		# Range: 1 ~ 20
+		geneSamplerMaxCount = 4
+		#蜜脾块升级最大安装数量
+		# Default: 1
+		# Range: 1 ~ 1
+		blockMaxCount = 1

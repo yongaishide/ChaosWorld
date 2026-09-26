@@ -1,0 +1,32 @@
+{
+  "type": "ufo:universal_multiblock",
+  "machine": "quantum_processor_assembler",
+  "recipe_name": "universal/quantum_processor_assembler/printed_logic_processor_to_logic_processor",
+  "item_inputs": [
+    {
+      "ingredient": {
+        "item": "ae2:printed_logic_processor"
+      },
+      "amount": 32768
+    },
+    {
+      "ingredient": {
+        "item": "ae2:printed_silicon"
+      },
+      "amount": 32768
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:redstone"
+      },
+      "amount": 32768
+    }
+  ],
+  "item_output": {
+    "id": "ae2:logic_processor",
+    "count": 32768
+  },
+  "energy": 6000000,
+  "time": 100,
+  "required_tier": 1
+}

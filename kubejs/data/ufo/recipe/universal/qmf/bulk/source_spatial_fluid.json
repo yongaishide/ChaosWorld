@@ -1,0 +1,29 @@
+{
+  "type": "ufo:universal_multiblock",
+  "energy": 384000000,
+  "fluid_inputs": [
+    {
+      "amount": 128000,
+      "fluid": {
+        "amount": 1,
+        "id": "ufo:source_primordial_matter_fluid"
+      }
+    }
+  ],
+  "fluid_output": {
+    "amount": 1,
+    "id": "ufo:source_spatial_fluid"
+  },
+  "fluid_output_amount": 320000,
+  "item_inputs": [
+    {
+      "amount": 64,
+      "ingredient": {
+        "item": "ufo:nuclear_star"
+      }
+    }
+  ],
+  "machine": "qmf",
+  "recipe_name": "universal/qmf/bulk/source_spatial_fluid",
+  "time": 400
+}

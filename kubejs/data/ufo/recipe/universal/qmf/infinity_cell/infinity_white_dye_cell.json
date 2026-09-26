@@ -1,0 +1,45 @@
+{
+  "type": "ufo:universal_multiblock",
+  "energy": 250000000,
+  "fluid_inputs": [
+    {
+      "amount": 2500,
+      "fluid": {
+        "amount": 1,
+        "id": "ufo:transcending_matter"
+      }
+    }
+  ],
+  "item_inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "ufo:cosmic_string_component_matrix"
+      }
+    },
+    {
+      "amount": 4,
+      "ingredient": {
+        "item": "ufo:quantum_anomaly"
+      }
+    },
+    {
+      "amount": 64,
+      "ingredient": {
+        "item": "minecraft:white_dye"
+      }
+    },
+    {
+      "amount": 32,
+      "ingredient": {
+        "item": "ufo:dimensional_processor"
+      }
+    }
+  ],
+  "item_output": {
+    "id": "ufo:infinity_white_dye_cell"
+  },
+  "machine": "qmf",
+  "recipe_name": "universal/qmf/infinity_cell/infinity_white_dye_cell",
+  "time": 2500
+}

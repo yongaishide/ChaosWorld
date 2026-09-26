@@ -1,0 +1,20 @@
+{
+  "type": "ufo:universal_multiblock",
+  "machine": "quantum_slicer",
+  "recipe_name": "universal/quantum_slicer/white_dwarf_fragment_block_to_printed_dimensional_processor",
+  "item_inputs": [
+    {
+      "ingredient": {
+        "item": "ufo:white_dwarf_fragment_block"
+      },
+      "amount": 8192
+    }
+  ],
+  "item_output": {
+    "id": "ufo:printed_dimensional_processor",
+    "count": 73728
+  },
+  "energy": 16000000,
+  "time": 200,
+  "required_tier": 1
+}

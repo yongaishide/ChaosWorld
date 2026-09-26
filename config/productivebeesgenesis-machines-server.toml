@@ -80,10 +80,12 @@
 	#PB升级上限
 	[mek_centrifuge.pb_upgrade]
 		#产量升级（α/β/γ/Ω）最大安装数量
+		#受基础/悖论无限预设约束；请先将玩法配置中的 balanceProfile 改为 CUSTOM 并保存，再修改此项。
 		# Default: 4
 		# Range: 1 ~ 64
 		productivityMaxCount = 8
 		#时间升级最大安装数量
+		#受基础/悖论无限预设约束；请先将玩法配置中的 balanceProfile 改为 CUSTOM 并保存，再修改此项。
 		# Default: 4
 		# Range: 1 ~ 64
 		timeMaxCount = 8
@@ -96,6 +98,7 @@
 	#通用机械:扩展 升级上限
 	[mek_centrifuge.me_upgrade]
 		#通用机械:扩展 堆叠升级最大数量（2^N 倍并行，仅作用于本模组离心机工厂）
+		#受基础/悖论无限预设约束；请先将玩法配置中的 balanceProfile 改为 CUSTOM 并保存，再修改此项。
 		# Default: 8
 		# Range: 8 ~ 32
 		maxStackUpgrades = 16
@@ -143,10 +146,12 @@
 	#PB 升级上限
 	[mek_apiary.pb_upgrade]
 		#产量升级（α/β/γ/Ω）最大安装数量
+		#受基础/悖论无限预设约束；请先将玩法配置中的 balanceProfile 改为 CUSTOM 并保存，再修改此项。
 		# Default: 4
 		# Range: 1 ~ 64
 		productivityMaxCount = 8
 		#时间升级最大安装数量
+		#受基础/悖论无限预设约束；请先将玩法配置中的 balanceProfile 改为 CUSTOM 并保存，再修改此项。
 		# Default: 4
 		# Range: 1 ~ 64
 		timeMaxCount = 8

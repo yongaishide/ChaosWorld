@@ -12,3 +12,6 @@ preferAppliedFluxNetworkFe = false
 #When enabled, AE/Applied Flux energy is drained before the machine's local FE buffer.
 #When disabled, the local FE buffer is drained before network energy.
 preferNetworkEnergy = true
+#Enable smart pattern multiplication by default for newly created machines.
+#A machine's saved setting always takes priority over this default.
+smartPatternMultiplicationDefault = false

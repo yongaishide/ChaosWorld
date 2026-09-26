@@ -1,0 +1,40 @@
+{
+  "type": "ufo:universal_multiblock",
+  "energy": 16000000000,
+  "fluid_inputs": [
+    {
+      "amount": 256000,
+      "fluid": {
+        "amount": 1,
+        "id": "ufo:source_liquid_starlight_fluid"
+      }
+    }
+  ],
+  "item_inputs": [
+    {
+      "amount": 1024,
+      "ingredient": {
+        "item": "ufo:phase_shift_component_matrix"
+      }
+    },
+    {
+      "amount": 1024,
+      "ingredient": {
+        "item": "ae2:dense_energy_cell"
+      }
+    },
+    {
+      "amount": 1024,
+      "ingredient": {
+        "item": "ufo:dimensional_processor"
+      }
+    }
+  ],
+  "item_output": {
+    "count": 64,
+    "id": "ufo:ufo_energy_cell"
+  },
+  "machine": "qmf",
+  "recipe_name": "universal/qmf/bulk/ufo_energy_cell",
+  "time": 3600
+}

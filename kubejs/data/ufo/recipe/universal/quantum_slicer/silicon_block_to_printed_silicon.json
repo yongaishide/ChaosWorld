@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedae"
+    }
+  ],
+  "type": "ufo:universal_multiblock",
+  "machine": "quantum_slicer",
+  "recipe_name": "universal/quantum_slicer/silicon_block_to_printed_silicon",
+  "item_inputs": [
+    {
+      "ingredient": {
+        "item": "extendedae:silicon_block"
+      },
+      "amount": 8192
+    }
+  ],
+  "item_output": {
+    "id": "ae2:printed_silicon",
+    "count": 73728
+  },
+  "energy": 12000000,
+  "time": 200,
+  "required_tier": 1
+}

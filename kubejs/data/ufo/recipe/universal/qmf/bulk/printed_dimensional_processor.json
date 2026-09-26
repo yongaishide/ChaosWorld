@@ -1,0 +1,40 @@
+{
+  "type": "ufo:universal_multiblock",
+  "energy": 19200000,
+  "fluid_inputs": [
+    {
+      "amount": 16000,
+      "fluid": {
+        "amount": 1,
+        "id": "ufo:source_liquid_starlight_fluid"
+      }
+    }
+  ],
+  "item_inputs": [
+    {
+      "amount": 128,
+      "ingredient": {
+        "item": "ufo:white_dwarf_fragment_ingot"
+      }
+    },
+    {
+      "amount": 64,
+      "ingredient": {
+        "item": "ufo:dimensional_processor_press"
+      }
+    },
+    {
+      "amount": 256,
+      "ingredient": {
+        "item": "ae2:quartz_vibrant_glass"
+      }
+    }
+  ],
+  "item_output": {
+    "count": 64,
+    "id": "ufo:printed_dimensional_processor"
+  },
+  "machine": "qmf",
+  "recipe_name": "universal/qmf/bulk/printed_dimensional_processor",
+  "time": 300
+}

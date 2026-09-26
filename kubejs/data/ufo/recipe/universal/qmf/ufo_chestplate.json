@@ -1,0 +1,70 @@
+{
+  "type": "ufo:universal_multiblock",
+  "energy": 1500000000,
+  "fluid_inputs": [
+    {
+      "amount": 64000,
+      "fluid": {
+        "amount": 1,
+        "id": "ufo:transcending_matter"
+      }
+    }
+  ],
+  "item_inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "ufo:thermal_resistor_chest"
+      }
+    },
+    {
+      "amount": 64,
+      "ingredient": {
+        "item": "ufo:enriched_neutronium_sphere"
+      }
+    },
+    {
+      "amount": 16,
+      "ingredient": {
+        "item": "ufo:quantum_anomaly"
+      }
+    },
+    {
+      "amount": 8,
+      "ingredient": {
+        "item": "ufo:event_horizon_component_matrix"
+      }
+    },
+    {
+      "amount": 128,
+      "ingredient": {
+        "item": "ufo:dimensional_processor"
+      }
+    },
+    {
+      "amount": 16,
+      "ingredient": {
+        "item": "ufo:white_dwarf_fragment_block"
+      }
+    },
+    {
+      "amount": 8,
+      "ingredient": {
+        "item": "ufo:neutron_star_fragment_block"
+      }
+    },
+    {
+      "amount": 4,
+      "ingredient": {
+        "item": "ufo:pulsar_fragment_block"
+      }
+    }
+  ],
+  "item_output": {
+    "id": "ufo:ufo_chestplate"
+  },
+  "machine": "qmf",
+  "recipe_name": "universal/qmf/ufo_chestplate",
+  "required_tier": 2,
+  "time": 15000
+}

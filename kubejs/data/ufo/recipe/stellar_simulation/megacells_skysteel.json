@@ -1,0 +1,94 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "megacells"
+    }
+  ],
+  "type": "ufo:stellar_simulation",
+  "coolant_amount": 500000,
+  "cooling_level": 2,
+  "energy": 1200000000,
+  "field_tier": 2,
+  "fluid_inputs": [
+    {
+      "amount": 2000000,
+      "ingredient": {
+        "fluid": "ufo:source_liquid_starlight_fluid"
+      }
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "#": 1500000,
+      "#t": "ae2:f",
+      "id": "ufo:source_liquid_starlight_fluid"
+    },
+    {
+      "#": 1000000,
+      "#t": "ae2:f",
+      "id": "ufo:source_white_dwarf_fragment_fluid"
+    },
+    {
+      "#": 600000,
+      "#t": "ae2:f",
+      "id": "ufo:source_stable_coolant"
+    },
+    {
+      "#": 750000,
+      "#t": "ae2:f",
+      "id": "ufo:source_uu_amplifier_fluid"
+    }
+  ],
+  "fuel_amount": 250000,
+  "fuel_fluid": "ufo:source_liquid_starlight_fluid",
+  "item_inputs": [
+    {
+      "amount": 8192,
+      "ingredient": {
+        "item": "ae2:sky_stone_block"
+      }
+    },
+    {
+      "amount": 4096,
+      "ingredient": {
+        "item": "minecraft:iron_block"
+      }
+    },
+    {
+      "amount": 256,
+      "ingredient": {
+        "item": "ufo:obsidian_matrix"
+      }
+    }
+  ],
+  "item_outputs": [
+    {
+      "#": 15000000,
+      "#t": "ae2:i",
+      "id": "megacells:sky_steel_block"
+    },
+    {
+      "#": 12000000,
+      "#t": "ae2:i",
+      "id": "megacells:printed_accumulation_processor"
+    },
+    {
+      "#": 6000000,
+      "#t": "ae2:i",
+      "id": "megacells:accumulation_processor"
+    },
+    {
+      "#": 20000000,
+      "#t": "ae2:i",
+      "id": "ae2:sky_dust"
+    },
+    {
+      "#": 18000000,
+      "#t": "ae2:i",
+      "id": "minecraft:iron_ingot"
+    }
+  ],
+  "simulation_name": "Sky Steel Forging",
+  "time": 3600
+}

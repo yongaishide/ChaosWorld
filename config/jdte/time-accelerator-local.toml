@@ -1,4 +1,4 @@
-#JDT Extras Local Singleplayer Defaults
+#JDT Extras Local Client Settings
 [jdte]
 
 	#Local singleplayer Time Accelerator defaults.
@@ -15,3 +15,9 @@
 		# Default: 1
 		# Range: 1 ~ 60
 		timeAcceleratorAccelerationDurationSeconds = 1
+
+	[jdte.timeMultitool]
+		#Hold attack this long before switching to additional blocks. 0 restores continuous mining immediately.
+		# Default: 250
+		# Range: 0 ~ 2000
+		continuousMiningHoldDelayMillis = 250

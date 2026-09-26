@@ -727,7 +727,7 @@
 
 	#Ultimate Portal Gun Settings
 	[jdte.ultimatePortalGun]
-		#Time Fluid capacity in mB (1000 B default)
+		#Portal Fluid capacity in mB (1000 B default)
 		# Default: 1000000
 		# Range: 1000 ~ 100000000
 		fluidCapacity = 1000000

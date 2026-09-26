@@ -1,0 +1,41 @@
+{
+  "type": "ufo:dimensional_assembly",
+  "energy": 250000000,
+  "fluid_inputs": [
+    {
+      "amount": 4000,
+      "ingredient": {
+        "fluid": "ufo:source_liquid_starlight_fluid"
+      }
+    }
+  ],
+  "fluid_outputs": [],
+  "item_inputs": [
+    {
+      "amount": 16,
+      "ingredient": {
+        "item": "ufo:phase_shift_component_matrix"
+      }
+    },
+    {
+      "amount": 16,
+      "ingredient": {
+        "item": "ae2:dense_energy_cell"
+      }
+    },
+    {
+      "amount": 16,
+      "ingredient": {
+        "item": "ufo:dimensional_processor"
+      }
+    }
+  ],
+  "item_outputs": [
+    {
+      "#": 1,
+      "#t": "ae2:i",
+      "id": "ufo:ufo_energy_cell"
+    }
+  ],
+  "time": 3600
+}
