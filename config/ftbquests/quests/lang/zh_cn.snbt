@@ -4,6 +4,7 @@
 	chapter.25E91D4E103A707C.title: "龙之伟力"
 	chapter.309C1DE90C7879C8.title: "新生代的崛起"
 	chapter.416723BA5A07CDD2.title: "混沌觉醒"
+	chapter.422A663B3499A634.title: "材料金字塔"
 	chapter.5EF61B17BB761862.title: "现代工业"
 	chapter.61DA5A07406BDB78.title: "开始"
 	chapter.7118D5B36C0A4945.title: "无尽时代"
@@ -16,6 +17,7 @@
 	file.0000000000000001.title: "无用之人-乱界"
 	quest.004E10BDB05C90E2.quest_subtitle: "实在找不到可以在商店买"
 	quest.00627D73E0613230.quest_subtitle: "猪咪才会用这个"
+	quest.1A520BE24A151A1E.quest_subtitle: "快速催生水晶种子"
 	quest.1E56A28262AE1D17.quest_desc: ["装配矩阵近似等效于大量ME样板供应器与分子装配室组成的自动合成装置"]
 	quest.1E56A28262AE1D17.quest_subtitle: "&d你不会在用猪咪样板供应器和猪咪装配室吧？"
 	quest.1E56A28262AE1D17.title: "装配矩阵"
@@ -40,7 +42,10 @@
 	quest.3DB9A5433772AD7A.quest_subtitle: "猪咪才会用这个"
 	quest.41E123C6B5F105C7.quest_subtitle: "&d你不会在用猪咪存储组件吧？"
 	quest.42A0D1F16E6A0ECC.quest_desc: ["通过查看这几个物品的使用方法，你可以了解到新的凋零召唤方法"]
-	quest.44B1D89C5D74BE65.quest_desc: ["                  &l这本书应该会包含整合包的所有内容&r"]
+	quest.44B1D89C5D74BE65.quest_desc: [
+		"                  &l这本书应该会包含整合包的所有内容&r"
+		"                                            还没写"
+	]
 	quest.44B1D89C5D74BE65.quest_subtitle: "看看这本书吧"
 	quest.44B1D89C5D74BE65.title: "整合包介绍"
 	quest.487A2FD75215DAC3.quest_desc: ["能量耗尽会直接消失，使用时请注意能量消耗"]
@@ -93,6 +98,7 @@
 	quest.783C7A74612F9848.quest_desc: ["通量感应端口允许你通过通量网络直接访问感应矩阵的存储系统"]
 	quest.7BE82C704232E651.quest_subtitle: "获得工作台"
 	quest.7BE82C704232E651.title: "游戏的核心与故事"
+	quest.7DC347FFEAB3E9D2.title: "龙钢锭"
 	reward.0D0C002A288C9A82.title: "2倍频道"
 	reward.24A7DB480FF7ADA0.title: "无限频道"
 	reward.3667A0272FF43553.title: "死亡掉落"
@@ -110,12 +116,14 @@
 	reward_table.766EAB95D9DE268E.title: "传奇奖励"
 	reward_table.7A1ED38BF259BC40.title: "钱币抽奖"
 	task.012B6FD92FD932D7.title: "龙钢锻炉核心"
+	task.30F276C85579E47E.title: "观察超临界相位移相器"
 	task.355E56507CF46F00.title: "龙钢锻炉焰孔"
 	task.4465D9AA74312452.title: "龙钢"
 	task.4537799F3E8307FB.title: "死亡不掉落"
 	task.4645AEF29613DC36.title: "观察粉碎机"
 	task.5F861E79CA961C38.title: "观察电弧炉"
 	task.68A5D5ECFC99A63E.title: "观察金属冲压机"
+	task.694817FB39D1E951.title: "龙钢锭"
 	task.75E74B5F511D5402.title: "观察工业挤压机"
 	task.7A8B39E632F570B9.title: "&6外置加热器&r"
 	task.7A9F21B8F7084700.title: "整合包介绍"

@@ -5,7 +5,7 @@
       "modid": "mekanism"
     }
   ],
-  "type": "chaosworld_core:stellar_simulation",
+  "type": "ufo:stellar_simulation",
   "coolant_amount": 2000000,
   "cooling_level": 2,
   "energy": 900000000,
@@ -14,7 +14,7 @@
     {
       "amount": 800000,
       "ingredient": {
-        "fluid": "chaosworld_core:source_liquid_starlight_fluid"
+        "fluid": "ufo:source_liquid_starlight_fluid"
       }
     }
   ],
@@ -22,22 +22,22 @@
     {
       "#": 1200000,
       "#t": "ae2:f",
-      "id": "chaosworld_core:source_gelid_cryotheum"
+      "id": "ufo:source_gelid_cryotheum"
     },
     {
       "#": 1000000,
       "#t": "ae2:f",
-      "id": "chaosworld_core:source_stable_coolant"
+      "id": "ufo:source_stable_coolant"
     },
     {
       "#": 900000,
       "#t": "ae2:f",
-      "id": "chaosworld_core:source_uu_amplifier_fluid"
+      "id": "ufo:source_uu_amplifier_fluid"
     },
     {
       "#": 750000,
       "#t": "ae2:f",
-      "id": "chaosworld_core:source_liquid_starlight_fluid"
+      "id": "ufo:source_liquid_starlight_fluid"
     }
   ],
   "fuel_amount": 1500000,
@@ -52,7 +52,7 @@
     {
       "amount": 256,
       "ingredient": {
-        "item": "chaosworld_core:obsidian_matrix"
+        "item": "ufo:obsidian_matrix"
       }
     }
   ],
@@ -75,12 +75,12 @@
     {
       "#": 6000000,
       "#t": "ae2:i",
-      "id": "chaosworld_core:dust_blizz"
+      "id": "ufo:dust_blizz"
     },
     {
       "#": 3000000,
       "#t": "ae2:i",
-      "id": "chaosworld_core:dust_cryotheum"
+      "id": "ufo:dust_cryotheum"
     }
   ],
   "simulation_name": "Ethylene Enrichment",

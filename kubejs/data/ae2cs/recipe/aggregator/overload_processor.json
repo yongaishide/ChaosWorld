@@ -1,10 +1,4 @@
 {
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "ae2lt"
-    }
-  ],
   "type": "ae2cs:crystal_aggregator_recipe_serializer",
   "energy_cost": 51200,
   "input_a": {

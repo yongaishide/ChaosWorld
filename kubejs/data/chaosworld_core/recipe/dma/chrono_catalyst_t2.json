@@ -1,11 +1,11 @@
 {
-  "type": "chaosworld_core:dimensional_assembly",
+  "type": "ufo:dimensional_assembly",
   "energy": 300000,
   "fluid_inputs": [
     {
       "amount": 2000,
       "ingredient": {
-        "fluid": "chaosworld_core:source_spatial_fluid"
+        "fluid": "ufo:source_spatial_fluid"
       }
     }
   ],
@@ -14,13 +14,13 @@
     {
       "amount": 2,
       "ingredient": {
-        "item": "chaosworld_core:chrono_catalyst_t1"
+        "item": "ufo:chrono_catalyst_t1"
       }
     },
     {
       "amount": 2,
       "ingredient": {
-        "item": "chaosworld_core:corporeal_matter"
+        "item": "ufo:corporeal_matter"
       }
     },
     {
@@ -32,7 +32,7 @@
     {
       "amount": 2,
       "ingredient": {
-        "item": "chaosworld_core:dimensional_processor"
+        "item": "ufo:dimensional_processor"
       }
     }
   ],
@@ -40,7 +40,7 @@
     {
       "#": 1,
       "#t": "ae2:i",
-      "id": "chaosworld_core:chrono_catalyst_t2"
+      "id": "ufo:chrono_catalyst_t2"
     }
   ],
   "time": 400

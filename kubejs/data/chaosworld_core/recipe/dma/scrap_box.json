@@ -1,5 +1,5 @@
 {
-  "type": "chaosworld_core:dimensional_assembly",
+  "type": "ufo:dimensional_assembly",
   "energy": 10000000,
   "fluid_inputs": [
     {
@@ -14,7 +14,7 @@
     {
       "amount": 56,
       "ingredient": {
-        "item": "chaosworld_core:scrap"
+        "item": "ufo:scrap"
       }
     }
   ],
@@ -22,7 +22,7 @@
     {
       "#": 1,
       "#t": "ae2:i",
-      "id": "chaosworld_core:scrap_box"
+      "id": "ufo:scrap_box"
     }
   ],
   "time": 2000

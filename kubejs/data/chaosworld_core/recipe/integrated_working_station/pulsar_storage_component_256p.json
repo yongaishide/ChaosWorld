@@ -3,7 +3,7 @@
   "energy": 384000000,
   "inputFluid": {
     "amount": 2000,
-    "fluid": "chaosworld_core:source_pulsar_fragment_fluid"
+    "fluid": "ufo:source_pulsar_fragment_fluid"
   },
   "inputItems": [
     {
@@ -12,11 +12,11 @@
     },
     {
       "count": 128,
-      "item": "chaosworld_core:pulsar_matter"
+      "item": "ufo:pulsar_matter"
     },
     {
       "count": 64,
-      "item": "chaosworld_core:dimensional_processor"
+      "item": "ufo:dimensional_processor"
     }
   ],
   "itemOutput": {

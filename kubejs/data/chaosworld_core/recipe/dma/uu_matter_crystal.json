@@ -1,11 +1,11 @@
 {
-  "type": "chaosworld_core:dimensional_assembly",
+  "type": "ufo:dimensional_assembly",
   "energy": 5000000,
   "fluid_inputs": [
     {
       "amount": 2500,
       "ingredient": {
-        "fluid": "chaosworld_core:uu_matter"
+        "fluid": "ufo:source_uu_amplifier_fluid"
       }
     }
   ],
@@ -21,7 +21,7 @@
     {
       "#": 1,
       "#t": "ae2:i",
-      "id": "chaosworld_core:uu_matter_crystal"
+      "id": "ufo:uu_matter_crystal"
     }
   ],
   "time": 400

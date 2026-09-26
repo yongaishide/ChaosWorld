@@ -2,7 +2,7 @@
   "type": "draconicevolution:fusion_crafting",
   "catalyst": {
     "type": "draconicevolution:stack",
-    "count": 4,
+    "count": 16,
     "items": "chaosworld_core:ingot_tech_6"
   },
   "ingredients": [
@@ -44,9 +44,9 @@
     }
   ],
   "result": {
-    "count": 4,
+    "count": 16,
     "id": "chaosworld_core:ingot_wyvern_metal"
   },
   "techLevel": "draconium",
-  "totalEnergy": 640000
+  "totalEnergy": 6400000
 }

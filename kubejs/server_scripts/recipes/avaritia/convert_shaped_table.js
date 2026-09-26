@@ -1370,10 +1370,10 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['         ', '  aaaaa  ', ' abbcbba ', ' abaaaba ', ' acadaca ', ' abaaaba ', ' abbcbba ', '  aaaaa  ', '         '],
         key: ({
-            a: { item: 'minecraft:coal_block' },
+            a: { item: "avaritia:refined_coal_block" },
             b: { item: 'minecraft:magma_block' },
-            c: { item: 'minecraft:lava_bucket' },
-            d: { item: 'avaritia:eternal_singularity' }
+            c: { item: "allthemodium:soul_lava_bucket" },
+            d: { item: "allthecompressed:coal_block_9x" }
         }),
         result: { id: 'avaritia:star_fuel' }
     })
@@ -1383,10 +1383,10 @@
         category: 'misc',
         pattern: ['         ', '  aaaaa  ', ' abbcbba ', ' abaaaba ', ' acadaca ', ' abaaaba ', ' abbcbba ', '  aaaaa  ', '         '],
         key: ({
-            a: { item: 'minecraft:coal_block' },
+            a: { item: "avaritia:refined_coal_block" },
             b: { item: 'minecraft:magma_block' },
-            c: { item: 'minecraft:lava_bucket' },
-            d: { item: 'avaritia:eternal_singularity' }
+            c: { item: "allthemodium:soul_lava_bucket" },
+            d: { item: "allthecompressed:coal_block_9x" }
         }),
         result: { id: 'avaritia:star_fuel' },
         show_notification: false
@@ -1479,7 +1479,7 @@
             D: { item: "mekanism_extras:infinite_induction_cell" },
             E: { item: "mekanism_extras:infinite_induction_provider" },
             I: { item: 'avaritia:infinity_ingot' },
-            S: { item: "chaosworld_core:dimensional_catalyst" }
+            S: { item: "ufo:dimensional_catalyst" }
         }),
         result: { id: 'mekanism:creative_energy_cube' }
     })
@@ -1495,7 +1495,7 @@
             D: { item: "mekanism_extras:infinite_induction_cell" },
             E: { item: "mekanism_extras:infinite_induction_provider" },
             I: { item: 'avaritia:infinity_ingot' },
-            S: { item: "chaosworld_core:dimensional_catalyst" }
+            S: { item: "ufo:dimensional_catalyst" }
         }),
         result: { id: 'mekanism:creative_energy_cube' },
         show_notification: false
@@ -1779,31 +1779,6 @@
             C: { item: 'avaritia:crystal_matrix_ingot' }
         }),
         result: { id: 'avaritia:crystal_shovel' },
-        show_notification: false
-    })
-
-    // avaritia:infinity_ingot
-    event.custom({
-        type: 'extendedcrafting:shaped_table',
-        pattern: ['NNNNNNNNN', 'NCXXCXXCN', 'NXCCXCCXN', 'NCXXCXXCN', 'NNNNNNNNN'],
-        key: ({
-            C: { item: 'avaritia:crystal_matrix_ingot' },
-            N: { item: 'avaritia:neutron_ingot' },
-            X: { item: 'avaritia:infinity_catalyst' }
-        }),
-        result: { id: 'avaritia:infinity_ingot' }
-    })
-    event.custom({
-        type: 'create:mechanical_crafting',
-        accept_mirrored: false,
-        category: 'misc',
-        pattern: ['NNNNNNNNN', 'NCXXCXXCN', 'NXCCXCCXN', 'NCXXCXXCN', 'NNNNNNNNN'],
-        key: ({
-            C: { item: 'avaritia:crystal_matrix_ingot' },
-            N: { item: 'avaritia:neutron_ingot' },
-            X: { item: 'avaritia:infinity_catalyst' }
-        }),
-        result: { id: 'avaritia:infinity_ingot' },
         show_notification: false
     })
 
@@ -2477,7 +2452,7 @@
         "key": {
             "A": {"item": "chaosworld_core:tech_3_block"},
             "B": {"item": "extendedae:machine_frame"},
-            "C": {"item": "chaosworld_core:microprocessor"},
+            "C": {"item": "chaosworld_core:circuit_processor"},
             "D": {"item": "immersiveengineering:rs_engineering"},
             "E": {"item": "immersiveengineering:heavy_engineering"},
             "F": {"item": "immersiveengineering:drillhead_steel" }
@@ -2498,7 +2473,7 @@
         key: ({
             "A": {"item": "chaosworld_core:tech_3_block"},
             "B": {"item": "extendedae:machine_frame"},
-            "C": {"item": "chaosworld_core:microprocessor"},
+            "C": {"item": "chaosworld_core:circuit_processor"},
             "D": {"item": "immersiveengineering:rs_engineering"},
             "E": {"item": "immersiveengineering:heavy_engineering"},
             "F": {"item": "immersiveengineering:drillhead_steel" }
@@ -2651,10 +2626,10 @@
         key: ({
             A: { item: 'ae2lt:matter_warping_matrix_casing' },
             B: { item: 'ae2lt:overload_alloy_plate' },
-            C: { item: 'mekanism:elite_control_circuit' },
-            D: { item: 'chaosworld_core:workstation' },
+            C: { item: "chaosworld_core:nano_processor" },
+            D: { item: "neoecoae:aluminum_alloy_casing" },
             E: { item: 'enderio:vibrant_gear' },
-            F: { item: "neoecoae:aluminum_alloy_casing" }
+            F: { item: "enderio:z_logic_controller" }
         }),
         result: { id: 'ae2lt:overload_machine_frame' }
     })
@@ -2672,10 +2647,10 @@
         key: ({
             A: { item: 'ae2lt:matter_warping_matrix_casing' },
             B: { item: 'ae2lt:overload_alloy_plate' },
-            C: { item: 'mekanism:elite_control_circuit' },
-            D: { item: 'chaosworld_core:workstation' },
+            C: { item: "chaosworld_core:nano_processor" },
+            D: { item: "neoecoae:aluminum_alloy_casing" },
             E: { item: 'enderio:vibrant_gear' },
-            F: { item: "neoecoae:aluminum_alloy_casing" }
+            F: { item: "enderio:z_logic_controller" }
         }),
         result: { id: 'ae2lt:overload_machine_frame' },
         show_notification: false
@@ -2855,11 +2830,11 @@
             'AAAAAAAAA'
         ],
         key: ({
-            A: { item: 'chaosworld_core:graviton_plated_casing' },
+            A: { item: 'ufo:graviton_plated_casing' },
             B: { item: 'minecraft:dragon_head' },
             C: { item: 'iceandfire:dragonforge_ice_brick' },
             D: { item: 'iceandfire:dragonforge_ice_input' },
-            E: { item: 'chaosworld_core:obsidian_matrix' },
+            E: { item: 'ufo:obsidian_matrix' },
             F: { item: 'draconicevolution:item_draconium_energy' },
             G: { item: 'ae2lt:lightning_assembly_chamber' },
             H: { item: 'chaosworld_core:nano_computer' },
@@ -2892,11 +2867,11 @@
             'AAAAAAAAA'
         ],
         key: ({
-            A: { item: 'chaosworld_core:graviton_plated_casing' },
+            A: { item: 'ufo:graviton_plated_casing' },
             B: { item: 'minecraft:dragon_head' },
             C: { item: 'iceandfire:dragonforge_ice_brick' },
             D: { item: 'iceandfire:dragonforge_ice_input' },
-            E: { item: 'chaosworld_core:obsidian_matrix' },
+            E: { item: 'ufo:obsidian_matrix' },
             F: { item: 'draconicevolution:item_draconium_energy' },
             G: { item: 'ae2lt:lightning_assembly_chamber' },
             H: { item: 'chaosworld_core:nano_computer' },
@@ -2914,7 +2889,7 @@
         result: { id: 'chaosworld_core:dragon_soul_forge' },
         show_notification: false
     })
-    // chaosworld_core:dimensional_matter_assembler
+    // ufo:dimensional_matter_assembler
     event.custom({
         type: 'extendedcrafting:shaped_table',
         pattern: [
@@ -2925,14 +2900,14 @@
             'AABAA'
         ],
         key: ({
-            A: { item: 'chaosworld_core:graviton_plated_casing' },
-            B: { item: 'chaosworld_core:obsidian_matrix' },
+            A: { item: 'ufo:graviton_plated_casing' },
+            B: { item: 'ufo:obsidian_matrix' },
             C: { item: 'ae2lt:lightning_assembly_chamber' },
             D: { item: 'chaosworld_core:crystal_processor' },
             E: { item: 'data_energistics:trinity_information_exchange_depot' },
             F: { item: 'ifeu:ultimate_machine_frame' }
         }),
-        result: { id: 'chaosworld_core:dimensional_matter_assembler' }
+        result: { id: 'ufo:dimensional_matter_assembler' }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -2946,14 +2921,14 @@
             'AABAA'
         ],
         key: ({
-            A: { item: 'chaosworld_core:graviton_plated_casing' },
-            B: { item: 'chaosworld_core:obsidian_matrix' },
+            A: { item: 'ufo:graviton_plated_casing' },
+            B: { item: 'ufo:obsidian_matrix' },
             C: { item: 'ae2lt:lightning_assembly_chamber' },
             D: { item: 'chaosworld_core:crystal_processor' },
             E: { item: 'data_energistics:trinity_information_exchange_depot' },
             F: { item: 'ifeu:ultimate_machine_frame' }
         }),
-        result: { id: 'chaosworld_core:dimensional_matter_assembler' },
+        result: { id: 'ufo:dimensional_matter_assembler' },
         show_notification: false
     })
 })

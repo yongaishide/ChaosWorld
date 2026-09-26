@@ -20,7 +20,7 @@ ServerEvents.recipes(event => {
         "extendedae:entro_seed",
         "ae2cs:crystal_growth_chamber",
         "extendedcrafting:elite_catalyst",
-        "chaosworld_core:dark_matter",
+        "ufo:dark_matter",
         "mekanismgenerators:wind_generator",
         "mekanism:energy_tablet",
         "mekanism:basic_universal_cable",
@@ -50,11 +50,21 @@ ServerEvents.recipes(event => {
         "extendedcrafting:ultimate_catalyst",
         "extendedcrafting:ultimate_component",
         "extendedcrafting:elite_component",
-        "chaosworld_core:obsidian_matrix",
+        "ufo:obsidian_matrix",
         "draconicevolution:infused_obsidian",
         "enderio_evolution:capacitor_melodic",
         "enderio:vibrant_gear",
-        "chaosworld_core:dimensional_matter_assembler"
+        "ufo:dimensional_matter_assembler",
+        "projectexpansion:final_power_flower",
+        "minecraft:blast_furnace",
+        "alloy_smelter:forge_controller_tier1",
+        "alloy_smelter:forge_controller_tier2",
+        "alloy_smelter:forge_controller_tier3",
+        "pneumaticcraft:refinery",
+        "ae2lt:overload_alloy_blank",
+        "avaritia:crystal_matrix_ingot",
+        "draconicevolution:crafting_core",
+        "draconicevolution:wyvern_core"
     ]
     recipeTypeall.forEach((item) => {
         event.remove({ output: item, type: 'minecraft:crafting_shaped' })
@@ -70,7 +80,21 @@ ServerEvents.recipes(event => {
         "ae2omnicells:omni_cell_component_64k",
         "ae2omnicells:omni_cell_component_256k",
         "powah:dielectric_rod",
-        "powah:dielectric_rod_horizontal"
+        "powah:dielectric_rod_horizontal",
+        "projectexpansion:fading_matter",
+        'projectexpansion:magenta_matter', 
+        'projectexpansion:pink_matter', 
+        'projectexpansion:purple_matter', 
+        'projectexpansion:violet_matter', 
+        'projectexpansion:blue_matter', 
+        'projectexpansion:cyan_matter', 
+        'projectexpansion:green_matter', 
+        'projectexpansion:lime_matter', 
+        'projectexpansion:yellow_matter', 
+        'projectexpansion:orange_matter', 
+        'projectexpansion:white_matter',
+        "projecte:red_matter",
+        "neoecoae:crystal_matrix"
         
     ]
     recipeTypeshaped.forEach((item) => {

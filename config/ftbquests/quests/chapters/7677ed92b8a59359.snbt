@@ -594,17 +594,7 @@
 			y: -4.0d
 		}
 		{
-			id: "5A79BD790B107FF6"
-			tasks: [{
-				id: "321405F3AC1C4FCB"
-				item: { count: 1, id: "pneumaticcraft:amadron_tablet" }
-				type: "item"
-			}]
-			x: -7.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["5A79BD790B107FF6"]
+			dependency_requirement: "all_started"
 			id: "193960A16BB4BF92"
 			tasks: [{
 				fluid: {

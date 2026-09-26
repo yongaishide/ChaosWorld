@@ -105,5 +105,24 @@
     ]
     )
 
+    // projectexpansion:fading_matter (12 ingredients)
+    event.custom({
+        type: 'extendedcrafting:shapeless_table',
+        ingredients: [
+        { item: 'projecte:red_matter' },
+        { item: 'projectexpansion:lime_matter' },
+        { item: 'projectexpansion:yellow_matter' },
+        { item: 'projectexpansion:orange_matter' },
+        { item: 'projectexpansion:purple_matter' },
+        { item: 'projectexpansion:magenta_matter' },
+        { item: 'projectexpansion:blue_matter' },
+        { item: 'projectexpansion:green_matter' },
+        { item: 'projectexpansion:white_matter' },
+        { item: 'projectexpansion:cyan_matter' },
+        { item: 'projectexpansion:pink_matter' }
+    ],
+        result: { id: 'projectexpansion:fading_matter' }
+    })
+
 })
 

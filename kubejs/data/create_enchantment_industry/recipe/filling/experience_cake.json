@@ -2,17 +2,17 @@
     "type": "create:filling",
     "ingredients": [
         {
-            "item": "enderio:fluid_xp_juice_still_cake_base"
+            "item": "create_enchantment_industry:experience_cake_base"
         },
         {
             "type": "neoforge:single",
             "amount": 1000,
-            "fluid": "enderio:fluid_xp_juice_still"
+            "fluid": "create_enchantment_industry:experience"
         }
     ],
     "results": [
         {
-            "id": "enderio:fluid_xp_juice_still_cake"
+            "id": "create_enchantment_industry:experience_cake"
         }
     ]
 }

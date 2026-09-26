@@ -157,6 +157,11 @@
     "crop": true,
     "inferium_crop": true
   },
+  "modular_machinery_reborn": {
+    "machine_component_provider": true,
+    "grid_node_state": true,
+    "hatch_component_provider": true
+  },
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
@@ -270,8 +275,11 @@
     "oretoise_eating_cooldown": true
   },
   "neoecoae": {
+    "eco_computation_system": true,
     "eco_drive": true,
+    "eco_storage_interface": true,
     "eco_crafting_worker": true,
+    "eco_storage_system": true,
     "eco_crafting_system": true
   },
   "occultism": {
@@ -300,10 +308,6 @@
   "enderio_conduit_opt": {
     "item_conduit_info": true
   },
-  "useless_mod": {
-    "multiblock_alloy_furnace_core_name": true,
-    "advanced_alloy_furnace_tasks": true
-  },
   "kaleidoscope_cookery": {
     "chopping_board": true,
     "shawarma_spit": true,
@@ -312,31 +316,13 @@
     "millstone": true,
     "enamel_basin": true
   },
-  "mekanismae": {
-    "me_precision_sawmill_status": true,
-    "me_crusher_status": true,
-    "me_energized_smelter_status": true,
-    "me_rotary_condensentrator_status": true,
-    "me_chemical_crystallizer_status": true,
-    "me_combiner_status": true,
-    "me_chemical_injection_chamber_status": true,
-    "me_purification_chamber_status": true,
-    "me_electrolytic_separator_status": true,
-    "me_chemical_infuser_status": true,
-    "me_pressurized_reaction_chamber_status": true,
-    "me_chemical_washer_status": true,
-    "me_enrichment_chamber_status": true,
-    "me_chemical_dissolution_chamber_status": true,
-    "me_metallurgic_infuser_status": true,
-    "me_antiprotonic_nucleosynthesizer_status": true,
-    "me_chemical_oxidizer_status": true,
-    "me_nutritional_liquifier_status": true,
-    "me_osmium_compressor_status": true
-  },
   "ae2cs": {
     "ender_emitter": true,
     "ender_channels": true,
     "ender_broadcaster": true,
     "mirror_pattern_provider": true
+  },
+  "ufo": {
+    "massive_fluid_hatch": true
   }
 }

@@ -1,11 +1,11 @@
 {
-  "type": "chaosworld_core:dimensional_assembly",
-  "energy": 80000000,
+  "type": "ufo:dimensional_assembly",
+  "energy": 800000000,
   "fluid_inputs": [
     {
-      "amount": 16000,
+      "amount": 4000,
       "ingredient": {
-        "fluid": "chaosworld_core:source_liquid_starlight_fluid"
+        "fluid": "ufo:source_liquid_starlight_fluid"
       }
     }
   ],
@@ -14,19 +14,13 @@
     {
       "amount": 4,
       "ingredient": {
-        "item": "chaosworld_core:enriched_neutronium_sphere"
+        "item": "ufo:enriched_neutronium_sphere"
       }
     },
     {
-      "amount": 2,
+      "amount": 32,
       "ingredient": {
-        "item": "chaosworld_core:nuclear_star"
-      }
-    },
-    {
-      "amount": 8,
-      "ingredient": {
-        "item": "chaosworld_core:pulsar_matter"
+        "item": "ae2lt:overload_singularity"
       }
     }
   ],
@@ -34,7 +28,7 @@
     {
       "#": 1,
       "#t": "ae2:i",
-      "id": "chaosworld_core:charged_enriched_neutronium_sphere"
+      "id": "ufo:charged_enriched_neutronium_sphere"
     }
   ],
   "time": 12000

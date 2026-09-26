@@ -5,7 +5,7 @@
       "modid": "ae2"
     }
   ],
-  "type": "chaosworld_core:stellar_simulation",
+  "type": "ufo:stellar_simulation",
   "coolant_amount": 500000,
   "cooling_level": 2,
   "energy": 2100000000,
@@ -14,13 +14,13 @@
     {
       "amount": 4000000,
       "ingredient": {
-        "fluid": "chaosworld_core:source_liquid_starlight_fluid"
+        "fluid": "ufo:source_liquid_starlight_fluid"
       }
     },
     {
       "amount": 2000000,
       "ingredient": {
-        "fluid": "chaosworld_core:uu_matter"
+        "fluid": "ufo:uu_matter"
       }
     }
   ],
@@ -28,26 +28,26 @@
     {
       "#": 2500000,
       "#t": "ae2:f",
-      "id": "chaosworld_core:source_liquid_starlight_fluid"
+      "id": "ufo:source_liquid_starlight_fluid"
     },
     {
       "#": 3000000,
       "#t": "ae2:f",
-      "id": "chaosworld_core:source_uu_amplifier_fluid"
+      "id": "ufo:source_uu_amplifier_fluid"
     },
     {
       "#": 1000000,
       "#t": "ae2:f",
-      "id": "chaosworld_core:source_spatial_fluid"
+      "id": "ufo:source_spatial_fluid"
     },
     {
       "#": 1000000,
       "#t": "ae2:f",
-      "id": "chaosworld_core:source_stable_coolant"
+      "id": "ufo:source_stable_coolant"
     }
   ],
   "fuel_amount": 350000,
-  "fuel_fluid": "chaosworld_core:source_liquid_starlight_fluid",
+  "fuel_fluid": "ufo:source_liquid_starlight_fluid",
   "item_inputs": [
     {
       "amount": 65536,
@@ -58,7 +58,7 @@
     {
       "amount": 256,
       "ingredient": {
-        "item": "chaosworld_core:quantum_anomaly"
+        "item": "ufo:quantum_anomaly"
       }
     }
   ],

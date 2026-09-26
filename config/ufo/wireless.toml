@@ -1,0 +1,42 @@
+[wireless]
+	#Default and maximum Quantum wireless range in blocks, same dimension. Zero disables the distance limit.
+	# Default: 128
+	# Range: 0 ~ 30000000
+	range = 128
+	#Maximum face connections per Quantum wireless host.
+	# Default: 1024
+	# Range: 1 ~ 1024
+	maxLinks = 1024
+
+	[wireless.buffs]
+		enabled = true
+
+		[wireless.buffs.dma]
+			#Distinct linked DMAs actively processing recipes needed for maximum bonuses.
+			# Default: 10
+			# Range: 2 ~ 1024
+			saturationMachines = 10
+			# Default: 0.2
+			# Range: 0.0 ~ 10.0
+			maxSpeedBonus = 0.2
+			# Default: 0.1
+			# Range: 0.0 ~ 0.95
+			maxEnergyDiscount = 0.1
+			# Default: 0.15
+			# Range: 0.0 ~ 0.95
+			maxHeatDiscount = 0.15
+
+		[wireless.buffs.multiblock]
+			#Distinct linked formed multiblocks actively processing recipes needed for maximum bonuses.
+			# Default: 4
+			# Range: 2 ~ 1024
+			saturationMachines = 4
+			# Default: 0.2
+			# Range: 0.0 ~ 10.0
+			maxSpeedBonus = 0.2
+			# Default: 0.1
+			# Range: 0.0 ~ 0.95
+			maxEnergyDiscount = 0.1
+			# Default: 0.15
+			# Range: 0.0 ~ 0.95
+			maxHeatDiscount = 0.15

@@ -12,6 +12,7 @@
 	id: "61DA5A07406BDB78"
 	images: [ ]
 	order_index: 0
+	quest_enhance_chapter_background: "mekanism_extras:block/bin/infinite_led"
 	quest_enhance_decorative_lines: [ ]
 	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
@@ -25,33 +26,17 @@
 			}
 			icon_scale: 1.5d
 			id: "44B1D89C5D74BE65"
-			rewards: [
-				{
-					id: "4E9C3661E456D103"
-					item: {
-						components: {
-							"patchouli:book": "patchouli:chaosworld_books"
-						}
-						count: 1
-						id: "patchouli:guide_book"
+			rewards: [{
+				id: "4E9C3661E456D103"
+				item: {
+					components: {
+						"patchouli:book": "patchouli:chaosworld_books"
 					}
-					type: "item"
+					count: 1
+					id: "patchouli:guide_book"
 				}
-				{
-					id: "144F6E8782C20574"
-					item: {
-						components: {
-							"extendedcrafting:recipe_maker": {
-								shapeless: 1b
-								type: "Kubejs"
-							}
-						}
-						count: 1
-						id: "extendedcrafting:recipe_maker"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			size: 2.5d
 			tasks: [{
 				id: "7A9F21B8F7084700"
@@ -91,20 +76,33 @@
 		{
 			can_repeat: true
 			id: "712948062A4ECD80"
-			rewards: [{
-				id: "3BDB3C57C8642813"
-				item: {
-					components: {
-						"extendedcrafting:recipe_maker": {
-							shapeless: 1b
-							type: "Kubejs"
+			rewards: [
+				{
+					id: "3BDB3C57C8642813"
+					item: {
+						components: {
+							"extendedcrafting:recipe_maker": {
+								shapeless: 1b
+								type: "Kubejs"
+							}
 						}
+						count: 1
+						id: "extendedcrafting:recipe_maker"
 					}
-					count: 1
-					id: "extendedcrafting:recipe_maker"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "0F8B76718A6EBF82"
+					item: {
+						components: {
+							"ae2:stored_energy": 0.0d
+						}
+						count: 1
+						id: "data_energistics:radix_containment_sphere"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "39CBC2BEBCBB1EBD"
 				type: "checkmark"

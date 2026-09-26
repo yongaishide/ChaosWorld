@@ -38,7 +38,7 @@ craftingPatternBusPages = 1
 
 #ECO AE2 快速路径缓存与批量合成选项。
 #如果整合包遇到配方兼容问题，可以关闭或调低这些值。
-#ECO AE2 fast-path cache and batch crafting options; the cache is shared by the physical crafting controller/network cluster.
+#ECO AE2 fast-path cache and batch crafting options.
 #Disable these options or lower their values if a modpack encounters recipe compatibility issues.
 [fastPath]
 	#启用 ECO AE2 快速路径批量合成缓存。
@@ -48,93 +48,86 @@ craftingPatternBusPages = 1
 	#This greatly reduces repeated pattern execution overhead; disable it to fall back to the slow path if needed.
 	#FastPath is automatically disabled when postCraftingEvent is enabled to preserve event semantics.
 	ecoAe2FastPathEnabled = true
-	#记录未使用 ECO FastPath 的样板及具体原因，并定期输出缓存统计。
-	#日志会按样板和原因去重并限制每 tick 的输出数量；仅建议在排查问题时临时开启。
-	#Log patterns that do not use ECO FastPath, including the precise reason, and periodically log cache statistics.
-	#Messages are deduplicated by pattern and reason and rate-limited per tick; enable only while diagnosing issues.
-	debugEcoFastPath = false
-	#每个 CPU 每 tick 最多调度的合成操作数量。
-	#批量快路径和普通路径都受此总安全上限保护；实际值仍会受可用协处理器数量限制。
-	#Maximum crafting operations a CPU schedules per tick.
-	#This is a safety cap for both batch fast paths and regular paths; the effective value is still limited by available co-processors.
-	# Default: 393216
+	#每个 CPU 每 tick 最多尝试推送的普通合成 pattern 数量。
+	#普通回退路径每 CPU 每 tick 最多 64 次；可配置更低额度，不受协处理器数和历史 tick 限制。
+	#当前上限为 393216；FastPath 批量发配不消耗此额度。
+	#Maximum number of regular crafting patterns each CPU attempts to push per tick.
+	#Verified FastPath batches do not consume this limit.
+	#Ordinary fallback is capped at 64 per CPU per tick, independent of co-processors and previous ticks.
+	#The hard ceiling is 393216 to keep ordinary dispatch bounded.
+	# Default: 200000
 	# Range: 1 ~ 393216
 	ecoCpuPushTickLimit = 393216
-	#每个物理合成控制器/网络集群共享的 ECO 快速路径缓存最多保留的配方条目数量。
-	#Maximum number of recipe entries retained by the FastPath cache shared by one physical crafting controller/network cluster.
+	#每个 ECO 快速路径缓存最多保留的配方条目数量。
+	#Maximum number of recipe entries retained by each ECO fast-path cache.
 	# Default: 512
 	# Range: 16 ~ 16384
 	ecoFastPathCacheSize = 512
-	#每个 CPU 每 tick 最多向不支持批量推送的样板提供器发配的 pattern 数量。
-	#仅在最终回退到单次 provider.pushPattern 时计数；ECO 与 AE2LT 的批量快路径不受此限制。
-	#限制同步外部库存插入，避免大型第三方库存处理器在单个 tick 内被重复扫描。
-	#Hard limit for non-batch provider calls across one AE2 network per server tick.
-	#Every attempt counts, including rejection and exceptions. Batch fast paths do not.
-	# Default: 393216
-	# Range: 1 ~ 393216
-	ecoCpuSlowPathPushTickLimit = 393216
-	#每个 AE2 网络每服务器 tick 用于非批量样板提供器调度的共享实际时间预算（微秒）。
-	#尝试次数硬上限仍然有效；设为 0 可禁用时间预算。
-	#Shared wall-clock budget per AE2 network and server tick for non-batch provider dispatch.
-	#The hard attempt limit still applies. Set to 0 to disable the time budget.
-	# Default: 10000
-	# Range: 0 ~ 50000
-	ecoCpuSlowPathTimeBudgetMicros = 10000
-
-#ECO planner safety limits and bounded computation caches.
-#Values are capped in code as a server-side protection against pathological recipe graphs.
-[planner]
-	# Default: 32
-	# Range: 1 ~ 128
-	maxComponentMaterials = 32
-	# Default: 64
-	# Range: 1 ~ 256
-	maxComponentOperations = 64
-	# Default: 2000
-	# Range: 1 ~ 10000
-	componentSolveMillis = 2000
-	# Default: 128
-	# Range: 16 ~ 4096
-	topologyCacheSize = 128
-	# Default: 128
-	# Range: 16 ~ 4096
-	reachableGraphCacheSize = 128
+	#启用 Sophisticated Storage 的可选 ECO 持续传输优化。
+	#遇到整合包兼容冲突时可关闭；关闭后使用 AE2 通用路径和 200 tick 对账。
+	#Enable the optional Sophisticated Storage ECO transfer optimization.
+	#Disable this if a modpack encounters a compatibility conflict; AE2's generic path remains available.
+	enableSophisticatedTransferOptimization = true
+	#有限存储域每 tick 的最大转移数量。
+	#默认值为 Long.MAX_VALUE；可设置为 1 到 Long.MAX_VALUE。
+	#Maximum amount transferred by a finite storage domain per tick.
+	#Defaults to Long.MAX_VALUE; valid range is 1 to Long.MAX_VALUE.
+	# Default: 2147483647
+	# Range: 1 ~ 9223372036854775807
+	storageTransferRate = 2147483647
+	#Maximum distinct keys visited per controller tick; also bounded by the time budget.
 	# Default: 256
-	# Range: 16 ~ 4096
-	cycleCacheSize = 256
-	# Default: 128
-	# Range: 16 ~ 4096
-	resultCacheSize = 128
+	# Range: 1 ~ 4096
+	storageTransferKeysPerTick = 256
+	#Cooperative time budget per storage controller, in nanoseconds. Third-party calls cannot be preempted.
+	# Default: 2000000
+	# Range: 100000 ~ 20000000
+	storageTransferNanosPerTick = 2000000
+	#Shared storage controller time budget per server tick, in nanoseconds.
+	# Default: 4000000
+	# Range: 100000 ~ 40000000
+	storageServerNanosPerTick = 4000000
+	#Maximum accounted size of one infinite-storage shard snapshot while loading.
+	#This protects recovery from corrupt or hostile NBT without limiting the logical amount of an item.
+	# Default: 2147483648
+	# Range: 67108864 ~ 17179869184
+	infiniteStorageMaxSnapshotBytes = 2147483648
+	#Maximum number of entries in one shard snapshot during recovery.
+	#This is a corruption/OOM guard, not an item-amount capacity limit.
+	# Default: 4000000
+	# Range: 1024 ~ 16000000
+	infiniteStorageMaxSnapshotEntries = 4000000
 
-#Standard AE2 processing-pattern provider batching options.
-#These settings are independent from the NeoECO molecular-assembler FastPath.
-[processingBatch]
-	#Enable counted dispatch for ordinary AE2 Pattern Providers feeding external inventories.
-	#Providers with blocking, locking, dedicated-machine or unsupported behavior use AE2's single-craft path.
-	enabled = true
-	#Maximum logical crafts submitted by one ordinary processing-provider batch.
-	#Lower this value when an external inventory has unusually expensive insertion simulation.
-	# Default: 4096
-	# Range: 2 ~ 16384
-	maxCrafts = 4096
-	#Log processing-provider batch fallback and ownership decisions.
-	#Enable temporarily while diagnosing provider compatibility.
-	debug = false
-
-#ECO 任务规划器诊断选项。
-#ECO crafting planner diagnostic options.
+#仅用于排查问题的调试选项。正常游玩时建议保持关闭。
+#Debug options intended only for troubleshooting. Keep these disabled during normal play.
 [debug]
-	#同时运行 AE2 与 ECO 的任务规划器；若可观察到的规划结果不同，则使用 AE2 的结果。
-	#仅用于调试：对受支持请求的规划开销约增加一倍。
-	#Run AE2's planner alongside ECO's planner and use AE2 if their observable plans differ.
-	#Debug only: this approximately doubles planning cost for supported requests.
-	ecoPlannerDifferentialVerification = false
-	#记录 ECO 任务规划失败的阶段、具体原因、请求物品、求解器状态和回退信息。
-	#日志会去重并限频；仅建议在排查规划问题时临时开启。
-	#Log the stage, reason, request, solver state and fallback details for ECO planning failures.
-	#Messages are deduplicated and rate-limited; enable only while diagnosing planning issues.
-	debugECOPlanner = false
-	#Record detailed reasons when an ECO storage matrix cannot migrate into infinite storage.
-	#Messages include the source position, matrix identity, transaction summary, and any rejected AE key.
-	#Messages are rate-limited; enable only while diagnosing storage migration issues.
-	debugInfiniteStorageMigration = false
+	#启用 ECO 合成发配停滞诊断日志。
+	#当合成连续 200 tick 没有实际进展时记录任务、阶段、材料、供电和样板供应器状态，之后每 1200 tick 再次记录。
+	#此选项只收集诊断信息，不会自动重同步、重放输入或修改合成状态。
+	#Enable ECO crafting dispatch stall diagnostic logs.
+	#Logs job, phase, input, power and pattern-provider state after 200 ticks without real progress, then every 1200 ticks.
+	#This option only collects diagnostics; it never resynchronizes, replays inputs or changes crafting state.
+	ecoDispatchWatchdogDebug = false
+	#启用 ECO 合成产物交付等待诊断日志。
+	#同一任务的 Worker 连续 200 tick 无法交付产物后记录首条汇总警告，之后每 1200 tick 再次记录。
+	#等待结束后会记录一条恢复信息；此选项只控制日志，不会改变产物所有权、重试或恢复逻辑。
+	#Enable ECO crafting output-delivery wait diagnostic logs.
+	#Logs one aggregated warning per job after its workers have been unable to deliver outputs for 200 ticks, then every 1200 ticks.
+	#Logs a recovery message when the wait ends; this option only controls logging and never changes output ownership, retry or recovery behavior.
+	ecoCraftingOutputDeliveryDebug = false
+	#启用合成确认界面的开始按钮诊断日志。
+	#当计划没有缺料但仍无法开始时，记录计划状态、已选 CPU、AE2 发布的全部 CPU，以及 ECO 运算集群的筛选原因。
+	#每个确认计划只记录一次；提交失败时会额外记录错误码。
+	#Enable crafting-confirm start-button diagnostic logs.
+	#When a plan cannot start, logs its state, selected CPU, every CPU advertised by AE2, and ECO computation-cluster selection reasons.
+	#Each confirmation plan is logged once; submission failures are logged separately.
+	ecoCraftConfirmDebug = false
+
+#ECO 存储系统选项。
+#ECO storage system options.
+[storage]
+	#ECO 存储主机自动标记可压缩物品时使用的数量阈值；只有数量严格大于此值的物品才会被标记。
+	#Amount threshold used when an ECO storage host automatically marks compressible items; only amounts strictly greater than this value are marked.
+	# Default: 20000
+	# Range: 0 ~ 9223372036854775807
+	megaBulkAutoMarkThreshold = 20000

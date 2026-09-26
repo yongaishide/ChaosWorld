@@ -1,11 +1,11 @@
 {
-  "type": "chaosworld_core:dimensional_assembly",
+  "type": "ufo:dimensional_assembly",
   "energy": 3000000,
   "fluid_inputs": [
     {
       "amount": 5000,
       "ingredient": {
-        "fluid": "chaosworld_core:raw_star_matter_plasma"
+        "fluid": "ufo:raw_star_matter_plasma"
       }
     }
   ],
@@ -13,13 +13,13 @@
     {
       "#": 5000,
       "#t": "ae2:f",
-      "id": "chaosworld_core:source_primordial_matter_fluid"
+      "id": "ufo:source_primordial_matter_fluid"
     }
   ],
   "item_inputs": [
     {
       "ingredient": {
-        "item": "chaosworld_core:quantum_anomaly"
+        "item": "chaosworld_core:colorful_core"
       }
     }
   ],

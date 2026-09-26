@@ -4,15 +4,21 @@
   "inputs": [
     {
       "ingredient": {
-        "item": "extendedae:ex_inscriber"
+        "item": "advanced_ae:reaction_chamber"
       },
-      "count": 9
+      "count": 4
+    },
+    {
+      "ingredient": {
+        "item": "neoecoae:superconducting_processor"
+      },
+      "count": 16
     },
     {
       "ingredient": {
         "item": "ae2lt:overload_machine_frame"
       },
-      "count": 2
+      "count": 1
     },
     {
       "ingredient": {

@@ -1,11 +1,11 @@
 {
-  "type": "chaosworld_core:dimensional_assembly",
+  "type": "ufo:dimensional_assembly",
   "energy": 2000000,
   "fluid_inputs": [
     {
       "amount": 4000,
       "ingredient": {
-        "fluid": "chaosworld_core:source_liquid_starlight_fluid"
+        "fluid": "ufo:source_liquid_starlight_fluid"
       }
     }
   ],
@@ -13,32 +13,14 @@
     {
       "#": 10000,
       "#t": "ae2:f",
-      "id": "chaosworld_core:raw_star_matter_plasma"
+      "id": "ufo:raw_star_matter_plasma"
     }
   ],
   "item_inputs": [
     {
-      "amount": 8,
+      "amount": 1,
       "ingredient": {
-        "item": "chaosworld_core:white_dwarf_fragment_ingot"
-      }
-    },
-    {
-      "amount": 4,
-      "ingredient": {
-        "item": "chaosworld_core:neutron_star_fragment_ingot"
-      }
-    },
-    {
-      "amount": 8,
-      "ingredient": {
-        "item": "chaosworld_core:pulsar_fragment_dust"
-      }
-    },
-    {
-      "amount": 2,
-      "ingredient": {
-        "item": "chaosworld_core:corporeal_matter"
+        "item": "ufo:nuclear_star"
       }
     }
   ],

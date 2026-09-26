@@ -5,24 +5,20 @@
   },
   "ingredients": [
     {
-      "count": 4,
       "tag": "c:dusts/certus_quartz"
     },
     {
-      "count": 4,
       "tag": "c:dusts/fluix"
     },
     {
-      "count": 4,
       "tag": "c:dusts/energized_crystal"
     },
     {
-      "count": 4,
       "item": "powah:crystal_niotic"
     }
   ],
   "result": {
-    "count": 4,
+    "count": 1,
     "id": "neoecoae:crystal_ingot"
   }
 }

@@ -1,11 +1,11 @@
 {
-  "type": "chaosworld_core:dimensional_assembly",
+  "type": "ufo:dimensional_assembly",
   "energy": 20000,
   "fluid_inputs": [
     {
       "amount": 50,
       "ingredient": {
-        "fluid": "chaosworld_core:source_liquid_starlight_fluid"
+        "fluid": "ufo:source_liquid_starlight_fluid"
       }
     }
   ],
@@ -27,7 +27,7 @@
     {
       "#": 4,
       "#t": "ae2:i",
-      "id": "chaosworld_core:dust_blizz"
+      "id": "ufo:dust_blizz"
     }
   ],
   "time": 80

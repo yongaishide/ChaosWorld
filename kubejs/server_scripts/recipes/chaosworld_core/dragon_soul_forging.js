@@ -67,4 +67,26 @@ ServerEvents.recipes((event) => {
             },
             "output":{"id":"iceandfire:dragonsteel_lightning_ingot","count":1}}
     )
+    //无尽锭
+    event.custom(
+        {"type":"chaosworld_core:dragon_soul_forging",
+            "itemInputs":[
+                {"ingredient":{"item":"extendedcrafting:the_ultimate_ingot"},"count":16},
+                {"ingredient":{"item":"chaosworld_core:ingot_tech_9"},"count":9},
+                {"ingredient":{"item":"ufo:white_dwarf_fragment_ingot"},"count":3},
+                {"ingredient":{"item":"ufo:neutron_star_fragment_ingot"},"count":3},
+                {"ingredient":{"item":"ufo:pulsar_fragment_ingot"},"count":3},
+                {"ingredient":{"item":"chaosworld_core:ingot_xuancai"},"count":3},
+                {"ingredient":{"item":"chaosworld_core:holy_gold_ingot"},"count":3}
+            ],
+            "fluidInputs":[
+                {"fluid":"ufo:source_spatial_fluid","amount":1000}
+            ],
+            "catalystInput":{
+                "ingredient":{"item":"avaritia:infinity_catalyst"},
+                "amount":1,
+                "consume":false
+            },
+            "output":{"id":"avaritia:infinity_ingot","count":9}}
+    )
 })

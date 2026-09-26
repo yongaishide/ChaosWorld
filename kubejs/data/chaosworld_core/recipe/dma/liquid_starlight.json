@@ -1,11 +1,11 @@
 {
-  "type": "chaosworld_core:dimensional_assembly",
+  "type": "ufo:dimensional_assembly",
   "energy": 500000,
   "fluid_inputs": [
     {
       "amount": 100,
       "ingredient": {
-        "fluid": "chaosworld_core:source_uu_amplifier_fluid"
+        "fluid": "ufo:source_uu_amplifier_fluid"
       }
     }
   ],
@@ -13,14 +13,14 @@
     {
       "#": 10000,
       "#t": "ae2:f",
-      "id": "chaosworld_core:source_liquid_starlight_fluid"
+      "id": "ufo:source_liquid_starlight_fluid"
     }
   ],
   "item_inputs": [
     {
       "amount": 4,
       "ingredient": {
-        "item": "chaosworld_core:obsidian_matrix"
+        "item": "ufo:obsidian_matrix"
       }
     },
     {

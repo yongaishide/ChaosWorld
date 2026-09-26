@@ -1,12 +1,12 @@
 {
-  "type": "chaosworld_core:universal_multiblock",
+  "type": "ufo:universal_multiblock",
   "energy": 240000000,
   "fluid_inputs": [
     {
       "amount": 32000,
       "fluid": {
         "amount": 1,
-        "id": "chaosworld_core:source_spatial_fluid"
+        "id": "ufo:source_spatial_fluid"
       }
     }
   ],
@@ -20,13 +20,13 @@
     {
       "amount": 32,
       "ingredient": {
-        "item": "chaosworld_core:white_dwarf_matter"
+        "item": "ufo:white_dwarf_matter"
       }
     },
     {
       "amount": 128,
       "ingredient": {
-        "item": "chaosworld_core:dimensional_processor"
+        "item": "ufo:dimensional_processor"
       }
     }
   ],

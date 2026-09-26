@@ -9,4 +9,10 @@ StartupEvents.registry("mekanism:chemical", (event) => {
     event.create("kubejs:superdimensional_topological_matter").tint("#454B9E")
     //数据水晶
     event.create("kubejs:data_crystal").tint("#78EFD0")
+    //ATM
+    event.create("kubejs:allthemodium").tint("#f2fa00")
+    //振金
+    event.create("kubejs:vibranium").tint("#1ffac0")
+    //难得素
+    event.create("kubejs:unobtainium").tint("#c800ff")
 })

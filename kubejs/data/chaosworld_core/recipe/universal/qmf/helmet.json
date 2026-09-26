@@ -1,12 +1,12 @@
 {
-  "type": "chaosworld_core:universal_multiblock",
+  "type": "ufo:universal_multiblock",
   "energy": 900000000,
   "fluid_inputs": [
     {
       "amount": 48000,
       "fluid": {
         "amount": 1,
-        "id": "chaosworld_core:transcending_matter"
+        "id": "ufo:transcending_matter"
       }
     }
   ],
@@ -14,19 +14,19 @@
     {
       "amount": 1,
       "ingredient": {
-        "item": "chaosworld_core:thermal_resistor_mask"
+        "item": "ufo:thermal_resistor_mask"
       }
     },
     {
       "amount": 32,
       "ingredient": {
-        "item": "chaosworld_core:enriched_neutronium_sphere"
+        "item": "ufo:enriched_neutronium_sphere"
       }
     },
     {
       "amount": 8,
       "ingredient": {
-        "item": "chaosworld_core:quantum_anomaly"
+        "item": "ufo:quantum_anomaly"
       }
     },
     {
@@ -38,30 +38,30 @@
     {
       "amount": 64,
       "ingredient": {
-        "item": "chaosworld_core:dimensional_processor"
+        "item": "ufo:dimensional_processor"
       }
     },
     {
       "amount": 8,
       "ingredient": {
-        "item": "chaosworld_core:white_dwarf_fragment_block"
+        "item": "ufo:white_dwarf_fragment_block"
       }
     },
     {
       "amount": 4,
       "ingredient": {
-        "item": "chaosworld_core:neutron_star_fragment_block"
+        "item": "ufo:neutron_star_fragment_block"
       }
     },
     {
       "amount": 2,
       "ingredient": {
-        "item": "chaosworld_core:pulsar_fragment_block"
+        "item": "ufo:pulsar_fragment_block"
       }
     }
   ],
   "item_output": {
-    "id": "chaosworld_core:helmet"
+    "id": "ufo:ufo_helmet"
   },
   "machine": "qmf",
   "recipe_name": "universal/qmf/helmet",

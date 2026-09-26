@@ -231,4 +231,109 @@ ServerEvents.recipes(event => {
       E: 'ironfurnaces:iron_furnace'
     }
   );//添加有序合成"热力发电机"配方
+  event.shaped(
+    Item.of('alloy_smelter:forge_controller_tier1'),
+    [
+      'ABA',
+      'BCB',
+      'ABA'
+    ],
+    {
+      A: 'minecraft:bricks',
+      B: 'minecraft:iron_ingot',
+      C: 'minecraft:blast_furnace'
+    }
+  );//添加有序合成"砖块锻造控制器"配方
+  event.shaped(
+    Item.of('alloy_smelter:forge_controller_tier2'),
+    [
+      'ABA',
+      'CDC',
+      'ABA'
+    ],
+    {
+      A: 'minecraft:polished_blackstone',
+      B: 'alltheores:steel_ingot',
+      C: 'minecraft:iron_ingot',
+      D: 'minecraft:blast_furnace'
+    }
+  );//添加有序合成"磨制黑石锻造控制器"配方
+  event.shaped(
+    Item.of('alloy_smelter:forge_controller_tier3'),
+    [
+      'ABA',
+      'BCB',
+      'ABA'
+    ],
+    {
+      A: 'minecraft:end_stone_bricks',
+      B: 'alltheores:steel_ingot',
+      C: 'minecraft:blast_furnace'
+    }
+  );//添加有序合成"末地石砖锻造控制器"配方
+  event.shaped(
+    Item.of('minecraft:blast_furnace'),
+    [
+      'AAA',
+      'ABA',
+      'CCC'
+    ],
+    {
+      A: 'minecraft:iron_ingot',
+      B: ['minecraft:furnace', 'quark:deepslate_furnace', 'quark:blackstone_furnace'],
+      C: 'minecraft:smooth_stone'
+    }
+  );//添加有序合成"高炉"配方
+  event.shaped(
+    Item.of('mekanism:basic_fluid_tank'),
+    [
+      'ABA',
+      'C C',
+      'ABA'
+    ],
+    {
+      A: 'alltheores:iron_plate',
+      B: 'extendedcrafting:redstone_ingot',
+      C: 'immersiveengineering:insulating_glass'
+    }
+  );//添加有序合成"基础流体储罐"配方
+  event.shaped(
+    Item.of('pneumaticcraft:refinery'),
+    [
+      'AAA',
+      'BCB',
+      'DDD'
+    ],
+    {
+      A: 'pneumaticcraft:reinforced_stone_slab',
+      B: 'mekanism:basic_fluid_tank',
+      C: 'industrialforegoing:machine_frame_pity',
+      D: 'pneumaticcraft:reinforced_bricks'
+    }
+  );//添加有序合成"精炼厂控制器"配方
+  event.shaped(
+    Item.of('data_energistics:data_carrier'),
+    [
+      ' AB',
+      'ACA',
+      'BA '
+    ],
+    {
+      A: 'alltheores:iron_plate',
+      B: 'industrialforegoing:plastic',
+      C: 'ae2omnicells:omni_link_processor'
+    }
+  );//添加有序合成"数据载体"配方
+  event.shaped(
+    Item.of('avaritia:crystal_matrix_ingot', 3),
+    [
+      'AAA',
+      'BBB',
+      'AAA'
+    ],
+    {
+      A: 'avaritia:diamond_lattice',
+      B: 'extendedcrafting:crystaltine_ingot'
+    }
+  );//添加有序合成"水晶矩阵锭"配方
 });

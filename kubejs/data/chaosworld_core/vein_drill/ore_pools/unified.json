@@ -1,0 +1,23 @@
+{
+  "entries": [
+    {"type": "item", "id": "minecraft:coal", "weight": 30, "quality_cost": 1, "min_drill_level": 1},
+    {"type": "item", "id": "minecraft:raw_iron", "weight": 25, "quality_cost": 2, "min_drill_level": 1},
+    {"type": "item", "id": "minecraft:raw_copper", "weight": 20, "quality_cost": 2, "min_drill_level": 1},
+    {"type": "item", "id": "minecraft:redstone", "weight": 15, "quality_cost": 1, "min_drill_level": 1},
+    {"type": "item", "id": "minecraft:lapis_lazuli", "weight": 10, "quality_cost": 3, "min_drill_level": 1},
+    {"type": "item", "id": "minecraft:raw_gold", "weight": 10, "quality_cost": 4, "min_drill_level": 2},
+    {"type": "item", "id": "minecraft:emerald", "weight": 3, "quality_cost": 10, "min_drill_level": 3},
+    {"type": "item", "id": "minecraft:diamond", "weight": 2, "quality_cost": 20, "min_drill_level": 4},
+    {"type": "item", "id": "minecraft:nether_quartz", "weight": 40, "quality_cost": 1, "min_drill_level": 3},
+    {"type": "item", "id": "minecraft:gold_nugget", "weight": 20, "quality_cost": 4, "min_drill_level": 4},
+    {"type": "item", "id": "minecraft:glowstone_dust", "weight": 12, "quality_cost": 2, "min_drill_level": 5},
+    {"type": "item", "id": "minecraft:blaze_powder", "weight": 10, "quality_cost": 3, "min_drill_level": 6},
+    {"type": "item", "id": "minecraft:netherite_scrap", "weight": 4, "quality_cost": 40, "min_drill_level": 7},
+    {"type": "item", "id": "minecraft:ancient_debris", "weight": 1, "quality_cost": 80, "min_drill_level": 8},
+    {"type": "item", "id": "minecraft:netherite_ingot", "weight": 1, "quality_cost": 100, "min_drill_level": 9},
+    {"type": "item", "id": "minecraft:obsidian", "weight": 20, "quality_cost": 3, "min_drill_level": 6},
+    {"type": "item", "id": "minecraft:ender_pearl", "weight": 25, "quality_cost": 8, "min_drill_level": 7},
+    {"type": "item", "id": "minecraft:shulker_shell", "weight": 4, "quality_cost": 30, "min_drill_level": 8},
+    {"type": "item", "id": "minecraft:dragon_breath", "weight": 2, "quality_cost": 50, "min_drill_level": 9}
+  ]
+}

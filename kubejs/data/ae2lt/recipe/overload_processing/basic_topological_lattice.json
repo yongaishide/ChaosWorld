@@ -4,7 +4,7 @@
   "inputs": [
     {
       "ingredient": {
-        "item": "draconicevolution:draconium_dust"
+        "item": "avaritia:diamond_lattice"
       },
       "count": 4
     },
@@ -16,13 +16,13 @@
     },
     {
       "ingredient": {
-        "item": "minecraft:lapis_lazuli"
+        "item": "ae2lt:overload_crystal_dust"
       },
       "count": 4
     },
     {
       "ingredient": {
-        "item": "minecraft:glowstone_dust"
+        "item": "appflux:harden_insulating_resin"
       },
       "count": 8
     },
@@ -40,7 +40,7 @@
   "results": [
     {
       "id": "ae2lt:basic_topological_lattice",
-      "count": 1
+      "count": 4
     }
   ],
   "totalEnergy": 10000000,

@@ -4,21 +4,21 @@
   "inputs": [
     {
       "ingredient": {
-        "item": "ae2lt:overload_alloy"
+        "item": "enderio:pulsating_crystal"
       },
-      "count": 8
+      "count": 1
     },
     {
       "ingredient": {
         "item": "ae2lt:overload_processor"
       },
-      "count": 8
+      "count": 4
     },
     {
       "ingredient": {
-        "item": "ae2lt:overload_crystal_block"
+        "item": "ae2cs:crystal_grid_block"
       },
-      "count": 8
+      "count": 1
     }
   ],
   "result": {

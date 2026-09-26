@@ -1,18 +1,18 @@
 {
-  "type": "chaosworld_core:universal_multiblock",
+  "type": "ufo:universal_multiblock",
   "energy": 50000000,
   "fluid_inputs": [
     {
       "amount": 128000,
       "fluid": {
         "amount": 1,
-        "id": "chaosworld_core:source_gelid_cryotheum"
+        "id": "ufo:source_gelid_cryotheum"
       }
     }
   ],
   "fluid_output": {
     "amount": 1,
-    "id": "chaosworld_core:source_stable_coolant"
+    "id": "ufo:source_stable_coolant"
   },
   "fluid_output_amount": 128000,
   "item_inputs": [
@@ -25,13 +25,13 @@
     {
       "amount": 64,
       "ingredient": {
-        "item": "chaosworld_core:obsidian_matrix"
+        "item": "ufo:obsidian_matrix"
       }
     },
     {
       "amount": 16,
       "ingredient": {
-        "item": "chaosworld_core:quantum_anomaly"
+        "item": "ufo:quantum_anomaly"
       }
     }
   ],

@@ -4,10 +4,19 @@
   "ingredients": [
     {
       "item": "minecraft:snowball"
+    },
+    {
+      "item": "minecraft:snowball"
+    },
+    {
+      "item": "minecraft:snowball"
+    },
+    {
+      "item": "minecraft:snowball"
     }
   ],
   "result": {
-    "count": 1,
+    "count": 4,
     "id": "powah:charged_snowball"
   }
 }

@@ -1,0 +1,5 @@
+[item]
+	#ME Infinity Cell idle energy cost (unit: AE/t)
+	# Default: 8.0
+	# Range: 0.1 ~ 64.0
+	infinity_cell_energy_cost = 8.0

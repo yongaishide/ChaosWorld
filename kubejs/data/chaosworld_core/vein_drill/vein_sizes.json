@@ -1,0 +1,11 @@
+{
+  "sizes": [
+    {"name": "meteorite_fragment", "min": 50000, "max": 250000},
+    {"name": "meteorite", "min": 250000, "max": 2500000},
+    {"name": "asteroid", "min": 2500000, "max": 37500000},
+    {"name": "planet", "min": 37500000, "max": 750000000},
+    {"name": "star", "min": 750000000, "max": 18750000000},
+    {"name": "nebula", "min": 18750000000, "max": 562500000000},
+    {"name": "galaxy", "min": 562500000000, "max": 19687500000000}
+  ]
+}

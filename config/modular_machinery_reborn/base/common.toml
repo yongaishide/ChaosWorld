@@ -77,3 +77,18 @@
 	machine_directory = "machines"
 	#A list of folder names where MMR will load controller models json. These folders must be under the 'assets/namespace/models' folder.
 	model_folders = ["controller", "controllers"]
+
+[Performance]
+	#How machine cores are executed each tick.
+	#SEQUENTIAL: every active core ticks each tick (legacy).
+	#BUDGETED: running recipes tick normally, idle cores share a global search budget.
+	#Allowed Values: SEQUENTIAL, BUDGETED
+	machine_work_mode = "SEQUENTIAL"
+	#In BUDGETED work mode, the maximum number of idle core ticks processed per server tick across all machines.
+	# Default: 64
+	# Range: > 1
+	max_idle_core_ticks_per_tick = 64
+	#In BUDGETED work mode, the maximum number of milliseconds spent searching recipes for idle cores per server tick. The tick budget above still applies; whichever limit is reached first stops the search pass.
+	# Default: 5
+	# Range: 1 ~ 100
+	max_idle_core_millis_per_tick = 5

@@ -1,5 +1,5 @@
 {
-  "type": "chaosworld_core:dimensional_assembly",
+  "type": "ufo:dimensional_assembly",
   "energy": 20000,
   "fluid_inputs": [
     {
@@ -13,13 +13,13 @@
     {
       "#": 250,
       "#t": "ae2:f",
-      "id": "chaosworld_core:source_uu_amplifier_fluid"
+      "id": "ufo:source_uu_amplifier_fluid"
     }
   ],
   "item_inputs": [
     {
       "ingredient": {
-        "item": "chaosworld_core:scrap_box"
+        "item": "ufo:scrap_box"
       }
     }
   ],

@@ -7,18 +7,6 @@
     {
       "consume": true,
       "ingredient": {
-        "tag": "c:ingots/draconium_awakened"
-      }
-    },
-    {
-      "consume": true,
-      "ingredient": {
-        "tag": "c:ingots/draconium_awakened"
-      }
-    },
-    {
-      "consume": true,
-      "ingredient": {
         "item": "draconicevolution:awakened_core"
       }
     },
@@ -31,19 +19,13 @@
     {
       "consume": true,
       "ingredient": {
-        "item": "draconicevolution:large_chaos_frag"
+        "item": "ufo:nuclear_star"
       }
     },
     {
       "consume": true,
       "ingredient": {
-        "item": "draconicevolution:large_chaos_frag"
-      }
-    },
-    {
-      "consume": true,
-      "ingredient": {
-        "tag": "c:ingots/draconium_awakened"
+        "item": "ufo:nuclear_star"
       }
     },
     {
@@ -56,24 +38,6 @@
       "consume": true,
       "ingredient": {
         "item": "draconicevolution:awakened_core"
-      }
-    },
-    {
-      "consume": true,
-      "ingredient": {
-        "item": "draconicevolution:large_chaos_frag"
-      }
-    },
-    {
-      "consume": true,
-      "ingredient": {
-        "item": "draconicevolution:large_chaos_frag"
-      }
-    },
-    {
-      "consume": true,
-      "ingredient": {
-        "tag": "c:ingots/draconium_awakened"
       }
     }
   ],
@@ -81,6 +45,6 @@
     "count": 1,
     "id": "draconicevolution:chaotic_core"
   },
-  "techLevel": "draconic",
+  "techLevel": "chaotic", 
   "totalEnergy": 100000000
 }

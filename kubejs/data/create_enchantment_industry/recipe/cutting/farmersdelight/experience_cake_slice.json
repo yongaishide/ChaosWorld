@@ -8,14 +8,14 @@
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "item": "enderio:fluid_xp_juice_still_cake"
+      "item": "create_enchantment_industry:experience_cake"
     }
   ],
   "result": [
     {
       "item": {
         "count": 4,
-        "id": "enderio:fluid_xp_juice_still_cake_slice"
+        "id": "create_enchantment_industry:experience_cake_slice"
       }
     }
   ],

@@ -1,5 +1,5 @@
 {
-  "type": "chaosworld_core:dimensional_assembly",
+  "type": "ufo:dimensional_assembly",
   "energy": 200000,
   "fluid_inputs": [
     {
@@ -13,14 +13,14 @@
     {
       "#": 4000,
       "#t": "ae2:f",
-      "id": "chaosworld_core:source_gelid_cryotheum"
+      "id": "ufo:source_gelid_cryotheum"
     }
   ],
   "item_inputs": [
     {
       "amount": 4,
       "ingredient": {
-        "item": "chaosworld_core:dust_blizz"
+        "item": "ufo:dust_blizz"
       }
     }
   ],

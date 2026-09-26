@@ -51,7 +51,11 @@
 	]
 	order_index: 2
 	quest_enhance_decorative_lines: [ ]
-	quest_enhance_hidden_dependency_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [{
+		dependency: "q:21f982499c136982"
+		reveal_on_hover: 0b
+		source: "q:6be3dccdf1084aa3"
+	}]
 	quest_links: [{
 		id: "64D50E795E523A89"
 		linked_quest: "6BE7539266AF7C95"
@@ -212,7 +216,7 @@
 				item: { count: 1, id: "naturesaura:nature_altar" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: -1.0d
 			y: 1.0d
 		}
 		{
@@ -223,7 +227,7 @@
 				item: { count: 1, id: "naturesaura:tainted_gold" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 1.0d
 			y: 1.0d
 		}
 		{
@@ -237,8 +241,8 @@
 				item: { count: 1, id: "enderio:soularium_ingot" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.0d
+			x: 2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["616725ED3318BCB3"]
@@ -248,8 +252,8 @@
 				item: { count: 1, id: "enderio:slice_and_splice" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -1.0d
+			x: 4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["30575A0B9A63AFC5"]
@@ -259,8 +263,8 @@
 				item: { count: 1, id: "enderio:soul_binder" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: -1.0d
+			x: 7.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2EDD6974CFC0D12A"]
@@ -270,8 +274,8 @@
 				item: { count: 1, id: "enderio:z_logic_controller" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: -1.0d
+			x: 5.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["684FD1C745323C2A"]
@@ -281,8 +285,8 @@
 				item: { count: 1, id: "enderio:ender_crystal" }
 				type: "item"
 			}]
-			x: 11.0d
-			y: -1.0d
+			x: 8.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7894DBB36933D2B4"]
@@ -292,8 +296,8 @@
 				item: { count: 1, id: "alltheores:enderium_ingot" }
 				type: "item"
 			}]
-			x: 13.0d
-			y: -1.0d
+			x: 10.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4F12CF990DC17183"]
@@ -384,37 +388,7 @@
 				type: "fluid"
 			}]
 			x: 6.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["63C55110F142AA1A"]
-			id: "42A0D1F16E6A0ECC"
-			tasks: [
-				{
-					id: "2205FF9794C390B5"
-					item: { count: 1, id: "chaosworld_core:cryptid_core" }
-					type: "item"
-				}
-				{
-					id: "51EB9A9D5D7B26C6"
-					item: { count: 1, id: "avaritia:blaze_cube_block" }
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "194064650BFEC53A"
-					item: { count: 1, id: "minecraft:wither_skeleton_skull" }
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "7720083C6E3CF8E4"
-					item: { count: 1, id: "minecraft:soul_sand" }
-					type: "item"
-				}
-			]
-			x: 15.0d
-			y: -3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["27939AAD5737C1AC"]
@@ -424,8 +398,8 @@
 				item: { count: 1, id: "mekanism:alloy_reinforced" }
 				type: "item"
 			}]
-			x: 15.0d
-			y: -1.0d
+			x: 11.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["586F43A7FE1B3317"]
@@ -435,8 +409,8 @@
 				item: { count: 1, id: "mekanism:elite_control_circuit" }
 				type: "item"
 			}]
-			x: 17.0d
-			y: -1.0d
+			x: 13.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6F7353C5C8BF839A"]
@@ -490,7 +464,10 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["35D519C7E7EB19D3"]
+			dependencies: [
+				"35D519C7E7EB19D3"
+				"02D19F2825564949"
+			]
 			id: "63C55110F142AA1A"
 			tasks: [{
 				id: "4DBD48D0E48AE3C2"
@@ -520,7 +497,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["6CA91BE7AE4CEEA2"]
@@ -535,8 +512,8 @@
 		}
 		{
 			dependencies: [
-				"6C8167D5F505718F"
 				"63C55110F142AA1A"
+				"6D36D2232CA903F7"
 			]
 			id: "6CA91BE7AE4CEEA2"
 			tasks: [{
@@ -555,8 +532,8 @@
 				item: { count: 1, id: "ae2:flawed_budding_quartz" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: -5.0d
+			x: 5.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["3A7D70075A7E9BDE"]
@@ -566,8 +543,8 @@
 				item: { count: 1, id: "ae2lt:cracked_budding_overload_crystal" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: -5.0d
+			x: 7.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["657E1EFFCD67D1FD"]
@@ -577,11 +554,14 @@
 				item: { count: 1, id: "ae2lt:overload_crystal" }
 				type: "item"
 			}]
-			x: 11.0d
-			y: -5.0d
+			x: 9.0d
+			y: -7.0d
 		}
 		{
-			dependencies: ["18CB31F1BDBC7F12"]
+			dependencies: [
+				"18CB31F1BDBC7F12"
+				"079FAFD999F6FAF8"
+			]
 			id: "54A1DBA152A7BA4E"
 			shape: "gear"
 			size: 2.0d
@@ -590,8 +570,8 @@
 				item: { count: 1, id: "ae2lt:overload_machine_frame" }
 				type: "item"
 			}]
-			x: 17.0d
-			y: -5.0d
+			x: 15.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6BE7539266AF7C95"]
@@ -601,8 +581,128 @@
 				item: { count: 1, id: "mekanism:enrichment_chamber" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: -3.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["6C8167D5F505718F"]
+			id: "6D36D2232CA903F7"
+			tasks: [{
+				id: "1961DEB3D387FFEA"
+				item: { count: 1, id: "ae2lt:overload_processor" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["21F982499C136982"]
+			id: "6BE3DCCDF1084AA3"
+			tasks: [{
+				id: "6495F03303950978"
+				item: { count: 1, id: "ae2lt:overload_alloy_blank" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"6BE3DCCDF1084AA3"
+				"6C8167D5F505718F"
+			]
+			id: "02D19F2825564949"
+			tasks: [{
+				id: "5C701DB7990D30ED"
+				item: { count: 1, id: "ae2lt:overload_alloy" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"6F7353C5C8BF839A"
+				"4904D7E5094CB162"
+			]
+			id: "640476EAA270B721"
+			tasks: [{
+				id: "3156F241DC394274"
+				item: { count: 1, id: "advanced_ae:quantum_alloy" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6BD843EAB87F3222"]
+			id: "4904D7E5094CB162"
+			tasks: [{
+				id: "534F4027F9563E1A"
+				item: { count: 1, id: "neoecoae:crystal_ingot" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1D9D2A6147FA58AE"]
+			id: "3578D8C416929F1A"
+			tasks: [{
+				id: "178FE6C115999E08"
+				item: { count: 1, id: "draconicevolution:draconium_ingot" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["640476EAA270B721"]
+			id: "1D9D2A6147FA58AE"
+			tasks: [{
+				id: "02F274FB7279BAE0"
+				item: { count: 1, id: "ae2cs:quantum_crystal_dust" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["640476EAA270B721"]
+			id: "4C7BD4BDC5186B2E"
+			tasks: [{
+				id: "64A502F48D41992A"
+				item: { count: 1, id: "ae2omnicells:multidimensional_expansion_circuit_print" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4C7BD4BDC5186B2E"
+				"11530B12837BCF77"
+				"63C55110F142AA1A"
+			]
+			id: "079FAFD999F6FAF8"
+			tasks: [{
+				id: "7F6EB856A174E5CB"
+				item: { count: 1, id: "chaosworld_core:nano_processor" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6D36D2232CA903F7"]
+			id: "64C5FFCA74BC9CBF"
+			tasks: [{
+				id: "2D23DCFCFFFC046B"
+				item: { count: 1, id: "ae2lt:lightning_collector" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -7.0d
 		}
 	]
 }

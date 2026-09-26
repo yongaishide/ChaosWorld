@@ -1,0 +1,22 @@
+{
+  "type": "neoecoae:integrated_working_station",
+  "energy": 144000,
+  "inputItems": [
+    {
+      "count": 2,
+      "item": "enderio_evolution:melodic_alloy_ingot"
+    },
+    {
+      "count": 1,
+      "item": "allthemodium:vibranium_gear"
+    },
+    {
+      "count": 4,
+      "item": "draconicevolution:draconium_ingot"
+    }
+  ],
+  "itemOutput": {
+    "count": 1,
+    "id": "draconicevolution:draconium_core"
+  }
+}

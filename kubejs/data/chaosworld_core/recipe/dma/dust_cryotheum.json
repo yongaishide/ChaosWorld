@@ -1,5 +1,5 @@
 {
-  "type": "chaosworld_core:dimensional_assembly",
+  "type": "ufo:dimensional_assembly",
   "energy": 40000,
   "fluid_inputs": [
     {
@@ -14,7 +14,7 @@
     {
       "amount": 2,
       "ingredient": {
-        "item": "chaosworld_core:dust_blizz"
+        "item": "ufo:dust_blizz"
       }
     },
     {
@@ -33,7 +33,7 @@
     {
       "#": 2,
       "#t": "ae2:i",
-      "id": "chaosworld_core:dust_cryotheum"
+      "id": "ufo:dust_cryotheum"
     }
   ],
   "time": 60

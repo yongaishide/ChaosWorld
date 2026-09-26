@@ -1,11 +1,11 @@
 {
-  "type": "chaosworld_core:dimensional_assembly",
+  "type": "ufo:dimensional_assembly",
   "energy": 4000000,
   "fluid_inputs": [
     {
       "amount": 2000,
       "ingredient": {
-        "fluid": "chaosworld_core:source_pulsar_fragment_fluid"
+        "fluid": "ufo:raw_star_matter_plasma"
       }
     }
   ],
@@ -14,13 +14,13 @@
     {
       "amount": 16,
       "ingredient": {
-        "item": "chaosworld_core:pulsar_fragment_dust"
+        "item": "ufo:pulsar_fragment_dust"
       }
     },
     {
-      "amount": 2,
+      "amount": 64,
       "ingredient": {
-        "item": "chaosworld_core:obsidian_matrix"
+        "item": "ae2:quantum_entangled_singularity"
       }
     }
   ],
@@ -28,7 +28,7 @@
     {
       "#": 1,
       "#t": "ae2:i",
-      "id": "chaosworld_core:quantum_anomaly"
+      "id": "ufo:quantum_anomaly"
     }
   ],
   "time": 600

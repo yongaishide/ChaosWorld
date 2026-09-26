@@ -1,12 +1,12 @@
 {
-  "type": "chaosworld_core:universal_multiblock",
+  "type": "ufo:universal_multiblock",
   "energy": 1200000000,
   "fluid_inputs": [
     {
       "amount": 128000,
       "fluid": {
         "amount": 1,
-        "id": "chaosworld_core:transcending_matter"
+        "id": "ufo:transcending_matter"
       }
     }
   ],
@@ -20,19 +20,19 @@
     {
       "amount": 16,
       "ingredient": {
-        "item": "chaosworld_core:white_dwarf_matter"
+        "item": "ufo:white_dwarf_matter"
       }
     },
     {
       "amount": 16,
       "ingredient": {
-        "item": "chaosworld_core:charged_enriched_neutronium_sphere"
+        "item": "ufo:charged_enriched_neutronium_sphere"
       }
     },
     {
       "amount": 512,
       "ingredient": {
-        "item": "chaosworld_core:dimensional_processor"
+        "item": "ufo:dimensional_processor"
       }
     }
   ],

@@ -1,0 +1,76 @@
+{
+  "type": "draconicevolution:fusion_crafting",
+  "catalyst": {
+    "type": "draconicevolution:stack",
+    "count": 36,
+    "items": "chaosworld_core:ingot_tech_8"
+  },
+  "ingredients": [
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "mekanism_extras:alloy_shining"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "mekanism_extras:alloy_shining"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "cp_bop:terrestrial_artifact"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "aoa3:mega_rune_stone"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "projectexpansion:fading_matter"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "projectexpansion:fading_matter"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "draconicevolution:chaotic_core"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "draconicevolution:chaotic_core"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "mekanism_extras:alloy_shining"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "mekanism_extras:alloy_shining"
+      }
+    }
+  ],
+  "result": {
+    "count": 36,
+    "id": "chaosworld_core:ingot_xuancai"
+  },
+  "techLevel": "draconic",
+  "totalEnergy": 25600000
+}

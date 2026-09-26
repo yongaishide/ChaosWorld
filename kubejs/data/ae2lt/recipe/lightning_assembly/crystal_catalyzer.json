@@ -4,12 +4,6 @@
   "inputs": [
     {
       "ingredient": {
-        "item": "ae2:growth_accelerator"
-      },
-      "count": 16
-    },
-    {
-      "ingredient": {
         "item": "ae2:condenser"
       },
       "count": 16
@@ -28,7 +22,7 @@
     }
   ],
   "result": {
-    "id": "ae2lt:crystal_catalyzer",
+    "id": "ae2lt:overloaded_matter_condenser",
     "count": 1
   },
   "totalEnergy": 1000000,

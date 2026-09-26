@@ -1,5 +1,5 @@
 {
-  "type": "chaosworld_core:universal_multiblock",
+  "type": "ufo:universal_multiblock",
   "energy": 200000,
   "fluid_inputs": [
     {
@@ -12,14 +12,14 @@
   ],
   "fluid_output": {
     "amount": 1,
-    "id": "chaosworld_core:source_gelid_cryotheum"
+    "id": "ufo:source_gelid_cryotheum"
   },
   "fluid_output_amount": 50000,
   "item_inputs": [
     {
       "amount": 64,
       "ingredient": {
-        "item": "chaosworld_core:dust_cryotheum"
+        "item": "ufo:dust_cryotheum"
       }
     }
   ],

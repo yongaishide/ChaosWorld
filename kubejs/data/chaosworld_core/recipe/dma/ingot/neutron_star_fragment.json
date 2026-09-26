@@ -1,11 +1,11 @@
 {
-  "type": "chaosworld_core:dimensional_assembly",
+  "type": "ufo:dimensional_assembly",
   "energy": 100000,
   "fluid_inputs": [
     {
       "amount": 750,
       "ingredient": {
-        "fluid": "chaosworld_core:source_liquid_starlight_fluid"
+        "fluid": "ufo:source_liquid_starlight_fluid"
       }
     }
   ],
@@ -24,7 +24,7 @@
     },
     {
       "ingredient": {
-        "item": "chaosworld_core:obsidian_matrix"
+        "item": "ufo:obsidian_matrix"
       }
     }
   ],
@@ -32,7 +32,7 @@
     {
       "#": 3,
       "#t": "ae2:i",
-      "id": "chaosworld_core:neutron_star_fragment_ingot"
+      "id": "ufo:neutron_star_fragment_ingot"
     }
   ],
   "time": 420

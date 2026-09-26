@@ -1,5 +1,5 @@
 {
-  "type": "chaosworld_core:dimensional_assembly",
+  "type": "ufo:dimensional_assembly",
   "energy": 1500000,
   "fluid_inputs": [
     {
@@ -19,7 +19,7 @@
     {
       "amount": 8,
       "ingredient": {
-        "item": "chaosworld_core:thermal_resistor_plating"
+        "item": "ufo:thermal_resistor_plating"
       }
     },
     {
@@ -33,7 +33,7 @@
     {
       "#": 1,
       "#t": "ae2:i",
-      "id": "chaosworld_core:thermal_resistor_chest"
+      "id": "ufo:thermal_resistor_chest"
     }
   ],
   "time": 500

@@ -1,0 +1,270 @@
+{
+	"metadata": {
+		"auto_build_staging": {
+			"block_symbols": ["A", "B", "P", "E"],
+			"physical_block_symbols": ["A", "B"]
+		},
+		"structure_dir": {
+			"char": "right",
+			"string": "front",
+			"aisle": "up"
+		}
+	},
+	"aisles": [
+		{
+			"slices": [
+				[
+					"         ",
+					" CCCC    ",
+					" CCCC    ",
+					" CCCC    ",
+					" CCCC    ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         "
+				]
+			]
+		},
+		{
+			"slices": [
+				[
+					"ABBBBA   ",
+					"BPPPPB   ",
+					"BPPPPB   ",
+					"BPPPPB   ",
+					"BPPPPB   ",
+					"A    A   ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         "
+				]
+			]
+		},
+		{
+			"slices": [
+				[
+					"ABBBBA   ",
+					"BPPPPB   ",
+					"BPPPPB   ",
+					"BPPPPB   ",
+					"BPPPPB   ",
+					"A    A   ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"        ~"
+				]
+			]
+		},
+		{
+			"slices": [
+				[
+					"ABBBBA   ",
+					"BPPPPB   ",
+					"BPPPPB   ",
+					"BPPPPB   ",
+					"BPPPPB   ",
+					"A    A   ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         "
+				]
+			]
+		},
+		{
+			"slices": [
+				[
+					"ABBBBA   ",
+					"BPPPPB   ",
+					"BPPPPB   ",
+					"BPPPPB   ",
+					"BPPPPB   ",
+					"A    A   ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         "
+				]
+			]
+		},
+		{
+			"slices": [
+				[
+					"ABBBBA   ",
+					"BPPPPB   ",
+					"BPPPPB   ",
+					"BPPPPB   ",
+					"BPPPPB   ",
+					"AEEEEA   ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         "
+				]
+			]
+		},
+		{
+			"slices": [
+				[
+					"ABBBBA   ",
+					"BPPPPB   ",
+					"BPPPPB   ",
+					"BPPPPB   ",
+					"BPPPPB   ",
+					"ABBBBA   ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         "
+				]
+			],
+			"repeat": {
+				"min": 1,
+				"max": 12
+			}
+		},
+		{
+			"slices": [
+				[
+					"ABBBBA   ",
+					"BAAAAB   ",
+					"BAAAAB   ",
+					"BAAAAB   ",
+					"BAAAAB   ",
+					"ABBBBA   ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         "
+				]
+			]
+		}
+	],
+	"predicates": {
+		"C": {
+			"type": "mdlib:blocks",
+			"block": "data_energistics:data_framework"
+		},
+		"B": {
+			"type": "mdlib:blocks",
+			"block": "ae2lt:matter_warping_matrix_glass"
+		},
+		"A": {
+			"type": "mdlib:blocks",
+			"block": "ae2lt:matter_warping_matrix_casing"
+		},
+		"P": {
+			"type": "mdlib:blocks",
+			"blocks": [
+				"data_energistics:me_digital_pattern_processing_core",
+				"data_energistics:extended_me_digital_pattern_processing_core",
+				"data_energistics:overlimit_me_digital_pattern_processing_core",
+				"data_energistics:empty_trinity_unit"
+			]
+		},
+		"E": {
+			"type": "mdlib:blocks",
+			"block": "ae2:smooth_sky_stone_slab"
+		}
+	}
+}

@@ -14,8 +14,8 @@
 	quest_links: [{
 		id: "28934F7FF2F9DFEA"
 		linked_quest: "5CCCA915916790E6"
-		x: -9.5d
-		y: 0.0d
+		x: -7.5d
+		y: -1.0d
 	}]
 	quests: [
 		{
@@ -47,7 +47,8 @@
 			dependencies: [
 				"6B9796920E141DD3"
 				"724DBF9B5576A1DB"
-				"347CF6CF09E875BF"
+				"56CAEF2AF3DBE9B8"
+				"10281CD0A0295904"
 			]
 			id: "5C27A3F09BF8BDC4"
 			tasks: [{
@@ -93,44 +94,33 @@
 			id: "537634384A0DD3BC"
 			tasks: [{
 				id: "5A7E2FBDF1FF7FA2"
-				item: { count: 1, id: "chaosworld_core:dimensional_matter_assembler" }
+				item: { count: 1, id: "ufo:dimensional_matter_assembler" }
 				type: "item"
 			}]
-			x: -7.5d
-			y: 0.0d
+			x: -5.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["537634384A0DD3BC"]
 			id: "10281CD0A0295904"
 			tasks: [{
 				id: "5BA0E500A8626D19"
-				item: { count: 1, id: "chaosworld_core:white_dwarf_fragment_ingot" }
+				item: { count: 1, id: "ufo:white_dwarf_fragment_ingot" }
 				type: "item"
 			}]
-			x: -5.5d
-			y: 0.0d
+			x: -2.5d
+			y: -1.0d
 		}
 		{
-			dependencies: ["10281CD0A0295904"]
+			dependencies: ["0EE5E4DBB2F2ADB3"]
 			id: "56CAEF2AF3DBE9B8"
 			tasks: [{
 				id: "4B48437D47BCB270"
-				item: { count: 1, id: "chaosworld_core:neutron_star_fragment_ingot" }
+				item: { count: 1, id: "ufo:neutron_star_fragment_ingot" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["56CAEF2AF3DBE9B8"]
-			id: "347CF6CF09E875BF"
-			tasks: [{
-				id: "792DA9DDA57CCD84"
-				item: { count: 1, id: "chaosworld_core:proto_matter" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: 0.0d
+			x: -2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5C27A3F09BF8BDC4"]
@@ -152,6 +142,39 @@
 				type: "item"
 			}]
 			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5CCCA915916790E6"]
+			id: "4EABCE5282F401E1"
+			tasks: [{
+				id: "3A102B2E18A7EF5F"
+				item: { count: 1, id: "avaritia:neutron_collector" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4EABCE5282F401E1"]
+			id: "0EE5E4DBB2F2ADB3"
+			tasks: [{
+				id: "28799D05E7FDBA97"
+				item: { count: 1, id: "avaritia:neutron_ingot" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["50019251761B4196"]
+			id: "1A2444FD0C5676B5"
+			tasks: [{
+				id: "354743638540729B"
+				item: { count: 1, id: "ufo:quantum_matter_fabricator_controller" }
+				type: "item"
+			}]
+			x: 10.5d
 			y: 0.0d
 		}
 	]

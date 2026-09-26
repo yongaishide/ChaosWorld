@@ -1,5 +1,5 @@
 {
-  "type": "chaosworld_core:stellar_simulation",
+  "type": "ufo:stellar_simulation",
   "coolant_amount": 150000,
   "cooling_level": 3,
   "energy": 4200000000,
@@ -8,13 +8,13 @@
     {
       "amount": 9500000,
       "ingredient": {
-        "fluid": "chaosworld_core:raw_star_matter_plasma"
+        "fluid": "ufo:raw_star_matter_plasma"
       }
     },
     {
       "amount": 2500000,
       "ingredient": {
-        "fluid": "chaosworld_core:uu_matter"
+        "fluid": "ufo:uu_matter"
       }
     }
   ],
@@ -22,37 +22,37 @@
     {
       "#": 2500000,
       "#t": "ae2:f",
-      "id": "chaosworld_core:source_liquid_starlight_fluid"
+      "id": "ufo:source_liquid_starlight_fluid"
     },
     {
       "#": 900000,
       "#t": "ae2:f",
-      "id": "chaosworld_core:source_spatial_fluid"
+      "id": "ufo:source_spatial_fluid"
     },
     {
       "#": 900000,
       "#t": "ae2:f",
-      "id": "chaosworld_core:source_stable_coolant"
+      "id": "ufo:source_stable_coolant"
     },
     {
       "#": 600000,
       "#t": "ae2:f",
-      "id": "chaosworld_core:source_neutron_star_fragment_fluid"
+      "id": "ufo:source_neutron_star_fragment_fluid"
     }
   ],
   "fuel_amount": 220000,
-  "fuel_fluid": "chaosworld_core:raw_star_matter_plasma",
+  "fuel_fluid": "ufo:raw_star_matter_plasma",
   "item_inputs": [
     {
       "amount": 220,
       "ingredient": {
-        "item": "chaosworld_core:enriched_neutronium_sphere"
+        "item": "ufo:enriched_neutronium_sphere"
       }
     },
     {
       "amount": 64,
       "ingredient": {
-        "item": "chaosworld_core:quantum_anomaly"
+        "item": "ufo:quantum_anomaly"
       }
     },
     {

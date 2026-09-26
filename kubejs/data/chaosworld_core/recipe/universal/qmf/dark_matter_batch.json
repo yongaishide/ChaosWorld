@@ -1,12 +1,12 @@
 {
-  "type": "chaosworld_core:universal_multiblock",
+  "type": "ufo:universal_multiblock",
   "energy": 960000000,
   "fluid_inputs": [
     {
-      "amount": 32000,
+      "amount": 8000,
       "fluid": {
         "amount": 1,
-        "id": "chaosworld_core:transcending_matter"
+        "id": "ufo:transcending_matter"
       }
     }
   ],
@@ -14,31 +14,31 @@
     {
       "amount": 64,
       "ingredient": {
-        "item": "chaosworld_core:white_dwarf_matter"
+        "item": "ufo:white_dwarf_matter"
       }
     },
     {
       "amount": 64,
       "ingredient": {
-        "item": "chaosworld_core:neutron_star_matter"
+        "item": "ufo:neutron_star_matter"
       }
     },
     {
       "amount": 64,
       "ingredient": {
-        "item": "chaosworld_core:pulsar_matter"
+        "item": "ufo:pulsar_matter"
       }
     },
     {
       "amount": 8,
       "ingredient": {
-        "item": "chaosworld_core:charged_enriched_neutronium_sphere"
+        "item": "ufo:charged_enriched_neutronium_sphere"
       }
     }
   ],
   "item_output": {
     "count": 64,
-    "id": "chaosworld_core:dark_matter"
+    "id": "ufo:dark_matter"
   },
   "machine": "qmf",
   "recipe_name": "universal/qmf/dark_matter_batch",

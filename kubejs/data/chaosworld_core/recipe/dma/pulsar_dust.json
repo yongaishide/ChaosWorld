@@ -1,11 +1,11 @@
 {
-  "type": "chaosworld_core:dimensional_assembly",
+  "type": "ufo:dimensional_assembly",
   "energy": 20000,
   "fluid_inputs": [
     {
       "amount": 20,
       "ingredient": {
-        "fluid": "chaosworld_core:source_liquid_starlight_fluid"
+        "fluid": "ufo:source_liquid_starlight_fluid"
       }
     }
   ],
@@ -13,7 +13,7 @@
   "item_inputs": [
     {
       "ingredient": {
-        "item": "chaosworld_core:pulsar_fragment_ingot"
+        "item": "ufo:pulsar_fragment_ingot"
       }
     },
     {
@@ -26,7 +26,7 @@
     {
       "#": 1,
       "#t": "ae2:i",
-      "id": "chaosworld_core:pulsar_fragment_dust"
+      "id": "ufo:pulsar_fragment_dust"
     }
   ],
   "time": 100

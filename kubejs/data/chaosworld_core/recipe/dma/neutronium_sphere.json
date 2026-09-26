@@ -1,11 +1,11 @@
 {
-  "type": "chaosworld_core:dimensional_assembly",
+  "type": "ufo:dimensional_assembly",
   "energy": 1000000,
   "fluid_inputs": [
     {
       "amount": 500,
       "ingredient": {
-        "fluid": "chaosworld_core:source_uu_amplifier_fluid"
+        "fluid": "ufo:source_uu_amplifier_fluid"
       }
     }
   ],
@@ -22,7 +22,7 @@
     {
       "#": 1,
       "#t": "ae2:i",
-      "id": "chaosworld_core:neutronium_sphere"
+      "id": "ufo:neutronium_sphere"
     }
   ],
   "time": 600
