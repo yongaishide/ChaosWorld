@@ -1060,5 +1060,11 @@
       "#c:dusts/obsidian"
     ],
     "resultItems": "mekanism:dust_obsidian"
+  },
+  {
+    "matchItems": [
+      "occultism:amethyst_dust"
+    ],
+    "resultItems": "data_energistics:amethyst_dust"
   }
 ]

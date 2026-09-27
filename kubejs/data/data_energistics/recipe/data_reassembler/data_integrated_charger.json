@@ -3,10 +3,12 @@
 	"inputs": {
 		"items": [
 			{
-				"item": "extendedae:ex_inscriber"
+				"item": "extendedae:ex_inscriber",
+				"count": 3
 			},
 			{
-				"item": "data_energistics:data_charger"
+				"item": "data_energistics:data_charger",
+				"count": 3
 			},
 			{
 				"item": "chaosworld_core:ingot_tech_7",
@@ -16,8 +18,8 @@
 				"item": "data_energistics:data_framework"
 			},
 			{
-				"item": "ae2omnicells:omni_cell_component_64k",
-				"count": 6
+				"item": "chaosworld_core:quantum_assembly",
+				"count": 2
 			},
 			{
 				"item": "data_energistics:data_processor",

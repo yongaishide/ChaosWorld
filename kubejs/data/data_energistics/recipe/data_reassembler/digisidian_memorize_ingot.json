@@ -3,19 +3,19 @@
 	"inputs": {
 		"items": [
 			{
-				"tag": "c:dusts/data_dust",
+				"tag": "c:gems/data_crystal",
 				"count": 8
 			},
 			{
-				"item": "minecraft:netherite_scrap",
+				"item": "allthemodium:vibranium_ingot",
 				"count": 6
 			},
 			{
-				"tag": "c:dusts/obsidian",
+				"item": "mekanism:dust_refined_obsidian",
 				"count": 9
 			},
 			{
-				"tag": "c:gems/fluix",
+				"item": "neoecoae:energized_crystal",
 				"count": 13
 			}
 		],

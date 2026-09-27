@@ -15,18 +15,21 @@
 		id: "0F9A69B7DF8EA973"
 		linked_quest: "61D2EDC385ADAD2C"
 		x: -6.0d
-		y: -1.0d
+		y: -3.0d
 	}]
 	quests: [
 		{
-			dependencies: ["54DB997063249FCA"]
+			dependencies: [
+				"54DB997063249FCA"
+				"3FA96083BB011F0D"
+			]
 			id: "5FB3495EBECEEEB6"
 			tasks: [{
 				id: "768583B5CDE2A88F"
 				item: { count: 1, id: "data_energistics:data_reassembler" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 10.0d
 			y: -1.0d
 		}
 		{
@@ -38,7 +41,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["483269A7E0A376DF"]
@@ -48,19 +51,19 @@
 				item: { count: 1, id: "data_energistics:data_crystal" }
 				type: "item"
 			}]
-			x: 8.0d
+			x: 14.0d
 			y: -5.0d
 		}
 		{
-			dependencies: ["573D97270EB7F700"]
+			dependencies: ["36BA5182E5481CFF"]
 			id: "54DB997063249FCA"
 			tasks: [{
 				id: "643CC555CD54FEF5"
 				item: { count: 1, id: "draconicevolution:wyvern_core" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -1.0d
+			x: 10.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -73,8 +76,8 @@
 				item: { count: 1, id: "chaosworld_core:ingot_wyvern_metal" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -1.0d
+			x: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["573D97270EB7F700"]
@@ -84,7 +87,7 @@
 				item: { count: 1, id: "draconicevolution:wyvern_energy_core" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.0d
 			y: 1.0d
 		}
 		{
@@ -95,10 +98,16 @@
 				item: { count: 1, id: "draconicevolution:wyvern_crafting_injector" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 4.0d
 			y: 1.0d
 		}
 		{
+			dependencies: [
+				"4CC6B9B8DFD6525E"
+				"01AA30DDB5C87965"
+				"154A65EE62AF4116"
+			]
+			dependency_requirement: "one_completed"
 			id: "21CFB774A10DAE02"
 			tasks: [
 				{
@@ -124,7 +133,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["100A7C29203926B1"]
@@ -134,7 +143,7 @@
 				item: { count: 1, id: "ae2cs:purified_data_crystal" }
 				type: "item"
 			}]
-			x: -4.0d
+			x: -2.0d
 			y: -3.0d
 		}
 		{
@@ -152,7 +161,11 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["100A7C29203926B1"]
+			dependencies: [
+				"100A7C29203926B1"
+				"4836578290F995D6"
+				"4040AB5C4479C610"
+			]
 			id: "126D81B10C87D402"
 			tasks: [{
 				id: "15A829A20818AE59"
@@ -170,18 +183,18 @@
 				item: { count: 1, id: "data_energistics:data_integrated_charger" }
 				type: "item"
 			}]
-			x: 8.0d
+			x: 14.0d
 			y: -3.0d
 		}
 		{
-			dependencies: ["5FB3495EBECEEEB6"]
+			dependencies: ["689C2EFA7BE3A544"]
 			id: "3984BE88F6828281"
 			tasks: [{
 				id: "20366E3085A241A0"
 				item: { count: 1, id: "chaosworld_core:ingot_tech_7" }
 				type: "item"
 			}]
-			x: 8.0d
+			x: 14.0d
 			y: -1.0d
 		}
 		{
@@ -192,7 +205,7 @@
 				item: { count: 1, id: "ifeu:ultimate_machine_frame" }
 				type: "item"
 			}]
-			x: 12.0d
+			x: 18.0d
 			y: -1.0d
 		}
 		{
@@ -214,7 +227,208 @@
 				item: { count: 1, id: "enderio_evolution:stellar_alloy_ingot" }
 				type: "item"
 			}]
+			x: 16.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1BAACFA517B8336C"]
+			id: "4836578290F995D6"
+			tasks: [{
+				fluid: {
+					amount: 1000
+					id: "ifeu:liquid_malic_acid"
+				}
+				id: "5D4E0BCB6ED6EA32"
+				type: "fluid"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6AA7560207DCE57E"]
+			id: "4040AB5C4479C610"
+			tasks: [{
+				fluid: {
+					amount: 1000
+					id: "modularbees:dragon_breath"
+				}
+				id: "6F141B3D2E1BB7A7"
+				type: "fluid"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["06E54FB6DDD47113"]
+			id: "6AA7560207DCE57E"
+			tasks: [{
+				fluid: {
+					amount: 1000
+					id: "ifeu:liquid_sculk_matter"
+				}
+				id: "00D899B2A6E485E0"
+				type: "fluid"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["61D2EDC385ADAD2C"]
+			id: "06E54FB6DDD47113"
+			tasks: [{
+				id: "0CDFA0A51624F973"
+				item: { count: 1, id: "industrialforegoing:fluid_laser_base" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["06E54FB6DDD47113"]
+			id: "1BAACFA517B8336C"
+			tasks: [{
+				fluid: {
+					amount: 1000
+					id: "industrialforegoing:ether_gas"
+				}
+				id: "03F9F5416F4C0144"
+				type: "fluid"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"43934B282C484BAC"
+				"1FBE995C40104612"
+			]
+			id: "36BA5182E5481CFF"
+			tasks: [{
+				id: "10646AA222A89AE3"
+				item: { count: 1, id: "chaosworld_core:quantum_processor" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["100A7C29203926B1"]
+			id: "4CD088D2ADA39885"
+			tasks: [{
+				id: "23A7A93C461000A8"
+				item: { count: 1, id: "mysticalagradditions:dragon_scale" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5FB3495EBECEEEB6"]
+			id: "689C2EFA7BE3A544"
+			tasks: [{
+				id: "2265E3B59F87DF32"
+				item: { count: 1, id: "data_energistics:digisidian_memorize_ingot" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2A5484C83E4CAB3C"]
+			id: "1FBE995C40104612"
+			tasks: [{
+				id: "4FBE6171F7558405"
+				item: { count: 1, id: "chaosworld_core:ingot_quantum" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5FB3495EBECEEEB6"]
+			id: "306E2CC74A948B6B"
+			tasks: [{
+				id: "40BB3FD92CBD24AB"
+				item: { count: 1, id: "data_energistics:trinity_data_core" }
+				type: "item"
+			}]
 			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1B8F2125E13B0AC8"]
+			id: "45227715F7040289"
+			tasks: [{
+				id: "6366B9F2F0D5A525"
+				item: { count: 1, id: "data_energistics:data_framework" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["45227715F7040289"]
+			id: "0EA6CB2E3292AF3F"
+			tasks: [{
+				id: "5A0F99058FB2F0D6"
+				item: { count: 1, id: "data_energistics:empty_trinity_unit" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0EA6CB2E3292AF3F"]
+			id: "023E61A35C5DFC71"
+			tasks: [
+				{
+					id: "71252CE9B0217AA3"
+					item: { count: 1, id: "extendedcrafting:ultimate_catalyst" }
+					type: "item"
+				}
+				{
+					id: "3605EADF5267AE5A"
+					item: { count: 1, id: "extendedcrafting:ultimate_table" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"023E61A35C5DFC71"
+				"3AFF4E106C61B8EE"
+			]
+			id: "47A14267B9CEB3C3"
+			tasks: [{
+				id: "646FDF339511C9B5"
+				item: { count: 1, id: "avaritia:neutron_collector" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["47A14267B9CEB3C3"]
+			id: "498C50EC73835A6B"
+			tasks: [{
+				id: "7A2FCFB71F1AB6BB"
+				item: { count: 1, id: "avaritia:neutron_pile" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["498C50EC73835A6B"]
+			id: "3FA96083BB011F0D"
+			tasks: [{
+				id: "36CAD631D066F82B"
+				item: { count: 1, id: "data_energistics:singularity_block" }
+				type: "item"
+			}]
+			x: 8.0d
 			y: -1.0d
 		}
 	]

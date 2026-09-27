@@ -112,7 +112,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["0EE5E4DBB2F2ADB3"]
+			dependencies: ["498C50EC73835A6B"]
 			id: "56CAEF2AF3DBE9B8"
 			tasks: [{
 				id: "4B48437D47BCB270"
@@ -143,28 +143,6 @@
 			}]
 			x: 4.5d
 			y: 0.0d
-		}
-		{
-			dependencies: ["5CCCA915916790E6"]
-			id: "4EABCE5282F401E1"
-			tasks: [{
-				id: "3A102B2E18A7EF5F"
-				item: { count: 1, id: "avaritia:neutron_collector" }
-				type: "item"
-			}]
-			x: -7.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["4EABCE5282F401E1"]
-			id: "0EE5E4DBB2F2ADB3"
-			tasks: [{
-				id: "28799D05E7FDBA97"
-				item: { count: 1, id: "avaritia:neutron_ingot" }
-				type: "item"
-			}]
-			x: -5.5d
-			y: 1.0d
 		}
 		{
 			dependencies: ["50019251761B4196"]

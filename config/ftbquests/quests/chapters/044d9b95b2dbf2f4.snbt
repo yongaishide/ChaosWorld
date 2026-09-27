@@ -1,0 +1,47 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "044d9b95b2dbf2f4"
+	group: "386E09813A08A672"
+	icon: {
+		id: "minecraft:player_head"
+	}
+	id: "044D9B95B2DBF2F4"
+	images: [ ]
+	order_index: 1
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4CC6B9B8DFD6525E"
+			tasks: [{
+				id: "60496F3FE5ADF8E4"
+				item: { count: 1, id: "iceandfire:ice_dragon_heart" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "01AA30DDB5C87965"
+			tasks: [{
+				id: "2B7AB7C3F9D093AC"
+				item: { count: 1, id: "iceandfire:fire_dragon_heart" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "154A65EE62AF4116"
+			tasks: [{
+				id: "18A64458001BE34D"
+				item: { count: 1, id: "iceandfire:lightning_dragon_heart" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+}

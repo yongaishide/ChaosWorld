@@ -1,25 +1,25 @@
 [General]
-	#是否允许玩家自定义【物品导管】的抽取频率（1~200 tick）。
+	#Enable custom extraction frequency for Item Conduits (1-200 ticks).
 	enableItemCustomFrequency = true
-	#是否允许玩家自定义【流体导管】的抽取频率（1~200 tick）。
+	#Enable custom extraction frequency for Fluid Conduits (1-200 ticks).
 	enableFluidCustomFrequency = true
-	#是否允许玩家自定义【化学品导管】的抽取频率（1~200 tick）。
+	#Enable custom extraction frequency for Chemical Conduits (1-200 ticks).
 	enableChemicalCustomFrequency = true
 
 [Optimization]
-	#物品导管在空/满时的最大休眠时间（tick）。0 = 关闭该类型休眠。
+	#Max sleep ticks for Item Conduits when empty/full. 0 = disable sleep for this conduit type.
 	# Default: 40
 	# Range: 0 ~ 1200
 	itemMaxSleep = 40
-	#流体导管在空/满时的最大休眠时间（tick）。0 = 关闭该类型休眠。
+	#Max sleep ticks for Fluid Conduits when empty/full. 0 = disable sleep for this conduit type.
 	# Default: 40
 	# Range: 0 ~ 1200
 	fluidMaxSleep = 40
-	#化学品导管在空/满时的最大休眠时间（tick）。0 = 关闭该类型休眠。
+	#Max sleep ticks for Chemical Conduits when empty/full. 0 = disable sleep for this conduit type.
 	# Default: 40
 	# Range: 0 ~ 1200
 	chemicalMaxSleep = 40
-	#是否在管道 GUI 中显示【智能休眠】开关。 [true / false]
-	#关闭后，GUI 中的智能休眠开关完全消失，所有连接面默认开启智能休眠。
-	#注意：若某管道类型的最大休眠时间配置为 0，则该类型永远不进入休眠，与此项无关。
+	#Show the Smart Sleep toggle in the pipe GUI. [true / false]
+	#When disabled, the toggle disappears from the GUI and smart sleep is always ON for every connection.
+	#Note: if a pipe type's max sleep time is set to 0, that type never sleeps regardless of this setting.
 	enableSmartSleepToggle = true

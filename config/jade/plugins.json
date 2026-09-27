@@ -275,12 +275,14 @@
     "oretoise_eating_cooldown": true
   },
   "neoecoae": {
+    "large_workstation_current_inputs": true,
     "eco_computation_system": true,
     "eco_drive": true,
     "eco_storage_interface": true,
     "eco_crafting_worker": true,
     "eco_storage_system": true,
-    "eco_crafting_system": true
+    "eco_crafting_system": true,
+    "eco_computation_drive": true
   },
   "occultism": {
     "foliot": true,

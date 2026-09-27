@@ -1781,36 +1781,6 @@
         result: { id: 'avaritia:crystal_shovel' },
         show_notification: false
     })
-
-    // avaritia:neutron_collector
-    event.custom({
-        type: 'extendedcrafting:shaped_table',
-        pattern: ['IIQQQQQII', 'I QQQQQ I', 'I  RRR  I', 'C RRRRR C', 'I RRARR I', 'C RRRRR C', 'I  RRR  I', 'I       I', 'IIICICIII'],
-        key: ({
-            A: { item: "ifeu:ultimate_machine_frame" },
-            C: { item: 'avaritia:crystal_matrix_ingot' },
-            I: { item: 'minecraft:iron_block' },
-            Q: { item: 'minecraft:quartz_block' },
-            R: { item: 'minecraft:redstone_block' }
-        }),
-        result: { id: 'avaritia:neutron_collector' }
-    })
-    event.custom({
-        type: 'create:mechanical_crafting',
-        accept_mirrored: false,
-        category: 'misc',
-        pattern: ['IIQQQQQII', 'I QQQQQ I', 'I  RRR  I', 'C RRRRR C', 'I RRARR I', 'C RRRRR C', 'I  RRR  I', 'I       I', 'IIICICIII'],
-        key: ({
-            A: { item: "ifeu:ultimate_machine_frame" },
-            C: { item: 'avaritia:crystal_matrix_ingot' },
-            I: { item: 'minecraft:iron_block' },
-            Q: { item: 'minecraft:quartz_block' },
-            R: { item: 'minecraft:redstone_block' }
-        }),
-        result: { id: 'avaritia:neutron_collector' },
-        show_notification: false
-    })
-
     // avaritia:infinity_boots
     event.custom({
         type: 'extendedcrafting:shaped_table',
@@ -2693,7 +2663,7 @@
             C: { item: 'ae2lt:lightning_assembly_chamber' },
             D: { item: 'draconicevolution:wyvern_energy_core' },
             E: { item: 'data_energistics:data_framework' },
-            F: { item: 'draconicevolution:item_wyvern_energy' },
+            F: { item: "ufo:obsidian_matrix" },
             G: { item: 'draconicevolution:wyvern_core' },
             H: { item: 'industrialforegoing:machine_frame_supreme' }
         }),
@@ -2710,7 +2680,7 @@
             C: { item: 'ae2lt:lightning_assembly_chamber' },
             D: { item: 'draconicevolution:wyvern_energy_core' },
             E: { item: 'data_energistics:data_framework' },
-            F: { item: 'draconicevolution:item_wyvern_energy' },
+            F: { item: "ufo:obsidian_matrix" },
             G: { item: 'draconicevolution:wyvern_core' },
             H: { item: 'industrialforegoing:machine_frame_supreme' }
         }),
@@ -2736,7 +2706,7 @@
             B: { item: 'extendedcrafting:ultimate_component' },
             C: { item: "avaritia:crystal_matrix_ingot" },
             D: { item: 'allthemodium:vibranium_plate' },
-            E: { item: 'data_energistics:data_crystal_block' },
+            E: { item: "draconicevolution:basic_crafting_injector" },
             F: { item: 'extendedcrafting:crystaltine_ingot' },
             G: { item: 'extendedcrafting:basic_catalyst' }
         }),
@@ -2762,7 +2732,7 @@
             B: { item: 'extendedcrafting:ultimate_component' },
             C: { item: "avaritia:crystal_matrix_ingot" },
             D: { item: 'allthemodium:vibranium_plate' },
-            E: { item: 'data_energistics:data_crystal_block' },
+            E: { item: "draconicevolution:basic_crafting_injector" },
             F: { item: 'extendedcrafting:crystaltine_ingot' },
             G: { item: 'extendedcrafting:basic_catalyst' }
         }),
@@ -2929,6 +2899,94 @@
             F: { item: 'ifeu:ultimate_machine_frame' }
         }),
         result: { id: 'ufo:dimensional_matter_assembler' },
+        show_notification: false
+    })
+    // extendedcrafting:ultimate_component
+    event.custom({
+        type: 'extendedcrafting:shaped_table',
+        pattern: [
+            'AAABA',
+            'BBBBB',
+            'AAABA',
+            'AAABA',
+            'AAABA'
+        ],
+        key: ({
+            A: { item: 'extendedcrafting:black_iron_slate' },
+            B: { item: 'chaosworld_core:plate_tech_4' }
+        }),
+        result: { id: 'extendedcrafting:ultimate_component' }
+    })
+    event.custom({
+        type: 'create:mechanical_crafting',
+        accept_mirrored: false,
+        category: 'misc',
+        pattern: [
+            'AAABA',
+            'BBBBB',
+            'AAABA',
+            'AAABA',
+            'AAABA'
+        ],
+        key: ({
+            A: { item: 'extendedcrafting:black_iron_slate' },
+            B: { item: 'chaosworld_core:plate_tech_4' }
+        }),
+        result: { id: 'extendedcrafting:ultimate_component' },
+        show_notification: false
+    })
+    // avaritia:neutron_collector
+    event.custom({
+        type: 'extendedcrafting:shaped_table',
+        pattern: [
+            'AAAAAAAAA',
+            'ABBBBBBBA',
+            'ACDEFEDCA',
+            'BCFCCCFCB',
+            'ACGCHCGCA',
+            'BCFCCCFCB',
+            'ACDEFEDCA',
+            'ABBBBBBBA',
+            'AAAAAAAAA'
+        ],
+        key: ({
+            A: { item: 'ae2lt:matter_warping_matrix_casing' },
+            B: { item: 'data_energistics:data_framework' },
+            C: { item: 'appflux:charged_redstone_block' },
+            D: { item: 'draconicevolution:wyvern_energy_core' },
+            E: { item: 'ae2lt:overloaded_matter_condenser' },
+            F: { item: 'extendedcrafting:elite_catalyst' },
+            G: { item: 'chaosworld_core:nano_computer' },
+            H: { item: 'industrialforegoing:machine_frame_supreme' }
+        }),
+        result: { id: 'avaritia:neutron_collector' }
+    })
+    event.custom({
+        type: 'create:mechanical_crafting',
+        accept_mirrored: false,
+        category: 'misc',
+        pattern: [
+            'AAAAAAAAA',
+            'ABBBBBBBA',
+            'ACDEFEDCA',
+            'BCFCCCFCB',
+            'ACGCHCGCA',
+            'BCFCCCFCB',
+            'ACDEFEDCA',
+            'ABBBBBBBA',
+            'AAAAAAAAA'
+        ],
+        key: ({
+            A: { item: 'ae2lt:matter_warping_matrix_casing' },
+            B: { item: 'data_energistics:data_framework' },
+            C: { item: 'appflux:charged_redstone_block' },
+            D: { item: 'draconicevolution:wyvern_energy_core' },
+            E: { item: 'ae2lt:overloaded_matter_condenser' },
+            F: { item: 'extendedcrafting:elite_catalyst' },
+            G: { item: 'chaosworld_core:nano_computer' },
+            H: { item: 'industrialforegoing:machine_frame_supreme' }
+        }),
+        result: { id: 'avaritia:neutron_collector' },
         show_notification: false
     })
 })

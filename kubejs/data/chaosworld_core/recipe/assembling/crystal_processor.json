@@ -1,7 +1,7 @@
 {
   "type": "chaosworld_core:assembling",
   "itemInputs": [
-    {"ingredient":{"item":"mekanism:ultimate_control_circuit"},"count":3},
+    {"ingredient":{"item":"mekanism_extras:absolute_control_circuit"},"count":3},
     {"ingredient":{"item":"chaosworld_core:ingot_tech_6"},"count":4},
     {"ingredient":{"item":"neoecoae:energized_superconductive_ingot"},"count":16},
     {"ingredient":{"item":"ae2omnicells:multidimensional_expansion_processor"},"count":8},
@@ -13,5 +13,5 @@
   "fluidInputs": [
     {"fluid": "advanced_ae:quantum_infusion_source", "amount": 500}
   ],
-  "output": {"id": "chaosworld_core:crystal_processor"}
+  "output": {"id": "chaosworld_core:quantum_processor"}
 }

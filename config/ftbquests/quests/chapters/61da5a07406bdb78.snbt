@@ -92,13 +92,16 @@
 					type: "item"
 				}
 				{
-					id: "0F8B76718A6EBF82"
+					id: "7186A3AA241870AA"
 					item: {
 						components: {
-							"ae2:stored_energy": 0.0d
+							"extendedcrafting:recipe_maker": {
+								shapeless: 0b
+								type: "Kubejs"
+							}
 						}
 						count: 1
-						id: "data_energistics:radix_containment_sphere"
+						id: "extendedcrafting:recipe_maker"
 					}
 					type: "item"
 				}
