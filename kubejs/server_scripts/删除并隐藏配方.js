@@ -382,7 +382,7 @@ const HIDE_ITEMS = [
     'industrialforegoing:mycelial_furnace', 
     'industrialforegoing:mycelial_slimey', 
     'industrialforegoing:mycelial_culinary', 
-    'industrialforegoing:mycelial_potion', 
+    'industrialforegoing:mycelial_potion',  
     'industrialforegoing:mycelial_disenchantment', 
     'industrialforegoing:mycelial_ender', 
     'industrialforegoing:mycelial_explosive', 
@@ -395,6 +395,16 @@ const HIDE_ITEMS = [
     'industrialforegoing:mycelial_rocket', 
     'industrialforegoing:mycelial_crimed', 
     'industrialforegoing:mycelial_meatallurgic',
+    'data_energistics:digital_storage_cell_1k', 
+    'data_energistics:digital_storage_cell_4k', 
+    'data_energistics:digital_storage_cell_16k', 
+    'data_energistics:digital_storage_cell_64k', 
+    'data_energistics:digital_storage_cell_256k', 
+    'data_energistics:digital_storage_cell_1m', 
+    'data_energistics:digital_storage_cell_4m', 
+    'data_energistics:digital_storage_cell_16m', 
+    'data_energistics:digital_storage_cell_64m', 
+    'data_energistics:digital_storage_cell_256m'
 ]
 
 ServerEvents.recipes(event => {

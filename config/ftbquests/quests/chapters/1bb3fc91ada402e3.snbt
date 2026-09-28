@@ -44,15 +44,15 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["483269A7E0A376DF"]
+			dependencies: ["5FB3495EBECEEEB6"]
 			id: "0C3FEA608831610B"
 			tasks: [{
 				id: "69627FB12259CEE7"
 				item: { count: 1, id: "data_energistics:data_crystal" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: -5.0d
+			x: 12.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["36BA5182E5481CFF"]
@@ -176,17 +176,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["3984BE88F6828281"]
-			id: "483269A7E0A376DF"
-			tasks: [{
-				id: "53A2F28657A98015"
-				item: { count: 1, id: "data_energistics:data_integrated_charger" }
-				type: "item"
-			}]
-			x: 14.0d
-			y: -3.0d
-		}
-		{
 			dependencies: ["689C2EFA7BE3A544"]
 			id: "3984BE88F6828281"
 			tasks: [{
@@ -198,7 +187,10 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["79FA49303B3F9AB2"]
+			dependencies: [
+				"79FA49303B3F9AB2"
+				"67C0A6788E6904F4"
+			]
 			id: "5CCCA915916790E6"
 			tasks: [{
 				id: "6E61B7D7ADE3437C"
@@ -430,6 +422,72 @@
 			}]
 			x: 8.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["0C3FEA608831610B"]
+			id: "29BE863587F05F54"
+			tasks: [{
+				id: "0B9B8A34392018DD"
+				item: { count: 1, id: "data_energistics:data_processor" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5FB3495EBECEEEB6"]
+			id: "084E085A7BC64A42"
+			tasks: [{
+				id: "0753F931D754F4C6"
+				item: { count: 1, id: "data_energistics:complexified_biochips" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["084E085A7BC64A42"]
+			id: "6E159498B0081A80"
+			tasks: [{
+				id: "1E4CBCABCEE41601"
+				item: { count: 1, id: "data_energistics:data_asynchronous_processing_factory" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["29BE863587F05F54"]
+			id: "67C0A6788E6904F4"
+			tasks: [{
+				id: "25E4CF45E0270F12"
+				item: { count: 1, id: "chaosworld_core:nano_mainframe" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["67C0A6788E6904F4"]
+			id: "20F9F9213599DC89"
+			tasks: [{
+				id: "01559927A63DB603"
+				item: { count: 1, id: "data_energistics:data_sanctum" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3FA96083BB011F0D"]
+			id: "64A787509AE9D7D6"
+			tasks: [{
+				id: "2939A5B698879790"
+				item: { count: 1, id: "data_energistics:me_vacuum" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
 		}
 	]
 }

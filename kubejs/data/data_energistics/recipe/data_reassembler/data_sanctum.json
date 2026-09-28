@@ -3,34 +3,35 @@
 	"inputs": {
 		"items": [
 			{
-				"item": "ae2:terminal",
+				"item": "ae2lt:advanced_wireless_overloaded_controller",
 				"count": 4
 			},
 			{
-				"tag": "data_energistics:interface"
+				"item": "draconicevolution:wyvern_wireless_crystal",
+				"count": 4
 			},
 			{
 				"item": "data_energistics:data_framework",
 				"count": 23
 			},
 			{
-				"item": "data_energistics:data_processor",
-				"count": 48
+				"item": "ae2lt:matter_warping_matrix_port",
+				"count": 1
 			},
 			{
 				"item": "data_energistics:budding_data_crystal_2",
 				"count": 4
 			},
 			{
-				"item": "data_energistics:data_crystal_cluster",
-				"count": 24
+				"item": "chaosworld_core:stellar_alloy_core",
+				"count": 4
 			},
 			{
-				"item": "data_energistics:data_storage_component_64m",
-				"count": 7
+				"item": "chaosworld_core:nano_mainframe",
+				"count": 3
 			},
 			{
-				"tag": "c:ingots/digisidian_memorize",
+				"item": "chaosworld_core:ingot_tech_7",
 				"count": 14
 			},
 			{

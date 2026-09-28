@@ -118,6 +118,12 @@
 		ultimateTimeWandEnergyCostMultiplier = 1.0
 		#Keep fractional Ultimate Time Wand fluid cost between settlements
 		ultimateTimeWandFractionalFluidSettlement = true
+		#Ticks between block entity machine target cache refreshes
+		# Default: 20
+		# Range: 1 ~ 1200
+		timeAcceleratorMachineRefreshInterval = 20
+		#Enable visual overlay effect entities on accelerated blocks. Set to false to disable effect entities and reduce network packet traffic.
+		timeAcceleratorEffectsEnabled = true
 
 	#Bio Crusher Settings
 	[jdte.bioCrusher]

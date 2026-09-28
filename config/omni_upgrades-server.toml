@@ -1,0 +1,21 @@
+[UpgradeLimits]
+	#Machine Upgrade Install-Limit Rules (Server-side)
+	#Limits boolean-type upgrades that take full effect with a single install, preventing waste.
+	#Each line is a JSON object:
+	#  {
+	#    "item"    : item registry id, required. Supports "#item-tag"
+	#    "machine" : machine block registry id, required. Supports "#block-tag"; "*" = every ProductiveLib machine
+	#    "max"     : max install count, required. 0 = forbid installing this upgrade
+	#  }
+	#Wrap each JSON with single quotes '' to avoid escaping.
+	#Built-in defaults cover Productive Bees / Productive Bees Genesis boolean upgrades.
+	#
+	#How to use:
+	#1. Edit the rules under [UpgradeLimits], save, then restart (or reload configs).
+	#2. Find ids: press F3+H for advanced tooltips, hover items/blocks to see registry ids.
+	#   Tags live in data/<mod>/tags/(item|block)/.
+	#3. Examples:
+	#   '{"item":"mymod:my_boolean_upgrade","machine":"mymod:my_machine","max":1}'
+	#   '{"item":"mymod:my_boolean_upgrade","machine":"*","max":1}'
+	#   '{"item":"#mymod:boolean_upgrades","machine":"mymod:my_machine","max":1}'
+	rules = ["{\"item\":\"productivelib:upgrade_simulator\",\"machine\":\"*\",\"max\":1}", "{\"item\":\"productivelib:upgrade_block\",\"machine\":\"*\",\"max\":1}", "{\"item\":\"productivelib:upgrade_anti_teleport\",\"machine\":\"*\",\"max\":1}", "{\"item\":\"productivelib:upgrade_entity_filter\",\"machine\":\"*\",\"max\":1}", "{\"item\":\"productivelib:upgrade_child\",\"machine\":\"productivebees:catcher\",\"max\":1}", "{\"item\":\"productivelib:upgrade_adult\",\"machine\":\"productivebees:catcher\",\"max\":1}"]
