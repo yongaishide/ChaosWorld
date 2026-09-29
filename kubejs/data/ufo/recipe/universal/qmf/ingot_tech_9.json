@@ -1,0 +1,40 @@
+{
+  "type": "ufo:universal_multiblock",
+  "energy": 960000000,
+  "fluid_inputs": [
+    {
+      "amount": 128000,
+      "fluid": {
+        "amount": 1,
+        "id": "ufo:source_liquid_starlight_fluid"
+      }
+    }
+  ],
+  "item_inputs": [
+    {
+      "amount": 64,
+      "ingredient": {
+        "item": "draconicevolution:awakened_draconium_ingot"
+      }
+    },
+    {
+      "amount": 8,
+      "ingredient": {
+        "item": "draconicevolution:awakened_core"
+      }
+    },
+    {
+      "amount": 64,
+      "ingredient": {
+        "item": "mekanism_extras:alloy_shining"
+      }
+    }
+  ],
+  "item_output": {
+    "count": 64,
+    "id": "chaosworld_core:ingot_tech_9"
+  },
+  "machine": "qmf",
+  "recipe_name": "universal/qmf/pulsar_matter_batch",
+  "time": 1800
+}

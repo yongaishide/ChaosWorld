@@ -1,0 +1,49 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "ifmup:range_addon_tier_30"
+    }
+  ],
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+    {
+      "tag": "c:dusts/redstone"
+    },
+    {
+      "tag": "c:dusts/redstone"
+    },
+    {
+      "tag": "c:glass_panes"
+    },
+    {
+      "tag": "c:glass_panes"
+    },
+    {
+      "tag": "c:ingots/unknown_magic"
+    },
+    {
+      "tag": "c:ingots/unknown_magic"
+    },
+    {
+      "tag": "c:ingots/unknown_magic"
+    },
+    {
+      "tag": "c:ingots/unknown_magic"
+    }
+  ],
+  "inputFluid": {
+    "amount": 500,
+    "fluid": "ifmup:darkshine"
+  },
+  "output": {
+    "components": {
+      "titanium:augments": {
+        "Range": 30.0
+      }
+    },
+    "count": 1,
+    "id": "ifmup:range_addon_tier_30"
+  },
+  "processingTime": 200
+}

@@ -1,0 +1,49 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "ifmup:range_addon_tier_21"
+    }
+  ],
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+    {
+      "tag": "c:dusts/redstone"
+    },
+    {
+      "tag": "c:dusts/redstone"
+    },
+    {
+      "tag": "c:glass_panes"
+    },
+    {
+      "tag": "c:glass_panes"
+    },
+    {
+      "tag": "c:fertilizers"
+    },
+    {
+      "tag": "c:fertilizers"
+    },
+    {
+      "tag": "c:fertilizers"
+    },
+    {
+      "tag": "c:fertilizers"
+    }
+  ],
+  "inputFluid": {
+    "amount": 50,
+    "fluid": "ifmup:darkshine"
+  },
+  "output": {
+    "components": {
+      "titanium:augments": {
+        "Range": 21.0
+      }
+    },
+    "count": 1,
+    "id": "ifmup:range_addon_tier_21"
+  },
+  "processingTime": 200
+}

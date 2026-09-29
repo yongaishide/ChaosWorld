@@ -1,0 +1,44 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "ifmup:unknown_magic_ingot"
+    }
+  ],
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+    {
+      "tag": "c:ingots/iron"
+    },
+    {
+      "tag": "c:ingots/iron"
+    },
+    {
+      "tag": "c:ingots/iron"
+    },
+    {
+      "tag": "c:ingots/iron"
+    },
+    {
+      "item": "ifmup:unknown_dust"
+    },
+    {
+      "item": "ifmup:unknown_dust"
+    },
+    {
+      "item": "ifmup:unknown_dust"
+    },
+    {
+      "item": "ifmup:unknown_dust"
+    }
+  ],
+  "inputFluid": {
+    "amount": 50,
+    "fluid": "ifmup:darkshine"
+  },
+  "output": {
+    "count": 1,
+    "id": "ifmup:unknown_magic_ingot"
+  },
+  "processingTime": 300
+}

@@ -1,25 +1,19 @@
 {
   "type": "draconicevolution:fusion_crafting",
   "catalyst": {
-    "tag": "c:nether_stars"
+    "item": "draconicevolution:wyvern_core"
   },
   "ingredients": [
     {
       "consume": true,
       "ingredient": {
-        "item": "draconicevolution:wyvern_core"
+        "item": "ufo:neutron_star_fragment_ingot"
       }
     },
     {
       "consume": true,
       "ingredient": {
-        "item": "draconicevolution:wyvern_core"
-      }
-    },
-    {
-      "consume": true,
-      "ingredient": {
-        "tag": "c:ingots/draconium_awakened"
+        "item": "ufo:neutron_star_fragment_ingot"
       }
     },
     {
@@ -43,13 +37,19 @@
     {
       "consume": true,
       "ingredient": {
-        "item": "draconicevolution:wyvern_core"
+        "tag": "c:ingots/draconium_awakened"
       }
     },
     {
       "consume": true,
       "ingredient": {
-        "item": "draconicevolution:wyvern_core"
+        "item": "ufo:neutron_star_fragment_ingot"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "ufo:neutron_star_fragment_ingot"
       }
     }
   ],

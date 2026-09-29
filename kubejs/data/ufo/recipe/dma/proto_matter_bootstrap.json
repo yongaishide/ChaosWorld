@@ -5,7 +5,7 @@
     {
       "amount": 4000,
       "ingredient": {
-        "fluid": "ufo:raw_star_matter_plasma"
+        "fluid": "ufo:source_primordial_matter_fluid"
       }
     }
   ],
@@ -14,19 +14,19 @@
     {
       "amount": 4,
       "ingredient": {
-        "item": "ufo:neutron_star_fragment_ingot"
+        "item": "ufo:white_dwarf_matter"
       }
     },
     {
       "amount": 4,
       "ingredient": {
-        "item": "ufo:white_dwarf_fragment_ingot"
+        "item": "ufo:neutron_star_matter"
       }
     },
     {
       "amount": 4,
       "ingredient": {
-        "item": "draconicevolution:chaotic_core"
+        "item": "ufo:pulsar_matter"
       }
     }
   ],

@@ -3,9 +3,9 @@
   "energy": 500000,
   "fluid_inputs": [
     {
-      "amount": 100,
+      "amount": 1000,
       "ingredient": {
-        "fluid": "ufo:source_uu_amplifier_fluid"
+        "fluid": "astralsorcery:liquid_starlight"
       }
     }
   ],
@@ -20,13 +20,13 @@
     {
       "amount": 4,
       "ingredient": {
-        "item": "ufo:obsidian_matrix"
+        "item": "chaosworld_core:stars_gemstone"
       }
     },
     {
       "amount": 16,
       "ingredient": {
-        "item": "minecraft:nether_star"
+        "item": "chaosworld_core:mana_crystal3"
       }
     }
   ],

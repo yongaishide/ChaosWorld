@@ -1,43 +1,43 @@
 {
   "type": "draconicevolution:fusion_crafting",
   "catalyst": {
-    "item": "draconicevolution:large_chaos_frag"
+    "item": "draconicevolution:awakened_core"
   },
   "ingredients": [
     {
       "consume": true,
       "ingredient": {
-        "item": "draconicevolution:awakened_core"
+        "item": "chaosworld_core:ingot_chaotic_metal"
       }
     },
     {
       "consume": true,
       "ingredient": {
-        "item": "draconicevolution:awakened_core"
+        "item": "chaosworld_core:ingot_chaotic_metal"
       }
     },
     {
       "consume": true,
       "ingredient": {
-        "item": "ufo:nuclear_star"
+        "item": "ufo:unstable_white_hole_matter"
       }
     },
     {
       "consume": true,
       "ingredient": {
-        "item": "ufo:nuclear_star"
+        "item": "ufo:unstable_white_hole_matter"
       }
     },
     {
       "consume": true,
       "ingredient": {
-        "item": "draconicevolution:awakened_core"
+        "item": "chaosworld_core:ingot_chaotic_metal"
       }
     },
     {
       "consume": true,
       "ingredient": {
-        "item": "draconicevolution:awakened_core"
+        "item": "chaosworld_core:ingot_chaotic_metal"
       }
     }
   ],

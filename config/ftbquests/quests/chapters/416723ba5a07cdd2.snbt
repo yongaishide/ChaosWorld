@@ -17,31 +17,37 @@
 	quest_links: [{
 		id: "721879650686722D"
 		linked_quest: "1A2444FD0C5676B5"
-		x: -11.5d
+		x: -6.5d
 		y: 3.5d
 	}]
 	quests: [
 		{
-			dependencies: ["52661457B26A2AFD"]
+			dependencies: [
+				"14F93380B5F86677"
+				"2F3587D93CF7D99E"
+			]
 			id: "2D9B54072C00DB80"
 			tasks: [{
 				id: "45CB8EF12A34BA89"
 				item: { count: 1, id: "draconicevolution:chaotic_core" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 1.5d
+			x: 4.0d
+			y: 3.5d
 		}
 		{
-			dependencies: ["7D909784DF310409"]
+			dependencies: [
+				"3D0405D66A4FC09C"
+				"47BE208DAD4CCDA0"
+			]
 			id: "0E9D66B608F6B727"
 			tasks: [{
 				id: "2A2B98443E87F272"
 				item: { count: 1, id: "chaosworld_core:ingot_chaotic_metal" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 3.5d
+			x: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["0E9D66B608F6B727"]
@@ -51,42 +57,19 @@
 				item: { count: 1, id: "draconicevolution:chaotic_energy_core" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 1.5d
+			x: 2.0d
+			y: -0.5d
 		}
 		{
-			dependencies: ["58045F6C2F0DEBB9"]
+			dependencies: ["453D09494656F2EF"]
 			id: "47EE61629C15A75C"
 			tasks: [{
 				id: "3EC7768D671E0A90"
 				item: { count: 1, id: "chaosworld_core:ingot_xuancai" }
 				type: "item"
 			}]
-			x: 8.5d
+			x: 10.0d
 			y: 3.5d
-		}
-		{
-			dependencies: ["5A6D8FF2C4F1CFD9"]
-			id: "2340506500489E8F"
-			tasks: [
-				{
-					id: "6F0F24774434873A"
-					item: { count: 1, id: "ufo:white_dwarf_matter" }
-					type: "item"
-				}
-				{
-					id: "42AB8884560B7AE4"
-					item: { count: 1, id: "ufo:neutron_star_matter" }
-					type: "item"
-				}
-				{
-					id: "4483173C7B542D70"
-					item: { count: 1, id: "ufo:pulsar_matter" }
-					type: "item"
-				}
-			]
-			x: -10.5d
-			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -99,8 +82,8 @@
 				item: { count: 1, id: "ufo:corporeal_matter" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: 3.5d
+			x: -4.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["09DD6862B8D4D281"]
@@ -110,29 +93,18 @@
 				item: { count: 1, id: "chaosworld_core:neutronite_ingot" }
 				type: "item"
 			}]
-			x: -5.5d
-			y: 3.5d
+			x: -6.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["7377C285089E9356"]
 			id: "09DD6862B8D4D281"
 			tasks: [{
 				id: "317B257E83E60F81"
 				item: { count: 1, id: "mekanismgenerators:fusion_reactor_controller" }
 				type: "item"
 			}]
-			x: -7.5d
-			y: 3.5d
-		}
-		{
-			id: "5A6D8FF2C4F1CFD9"
-			tasks: [{
-				id: "7194DAEA295AF679"
-				item: { count: 1, id: "ufo:uu_matter_crystal" }
-				type: "item"
-			}]
-			x: -12.5d
-			y: -4.0d
+			x: -8.5d
+			y: 1.5d
 		}
 		{
 			id: "7D76650414F68173"
@@ -144,8 +116,8 @@
 				id: "761A7CDB905657CD"
 				type: "fluid"
 			}]
-			x: -5.5d
-			y: 1.5d
+			x: -6.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["1C1ADD3C1A03B75E"]
@@ -155,8 +127,8 @@
 				item: { count: 1, id: "ufo:charged_enriched_neutronium_sphere" }
 				type: "item"
 			}]
-			x: 16.5d
-			y: 3.5d
+			x: -2.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["26DE210C96DBC4DC"]
@@ -166,8 +138,8 @@
 				item: { count: 1, id: "ufo:nuclear_star" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 3.5d
+			x: -2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["52661457B26A2AFD"]
@@ -180,14 +152,11 @@
 				id: "09E64B8A6697F3B9"
 				type: "fluid"
 			}]
-			x: 4.5d
-			y: 5.5d
+			x: 0.0d
+			y: 1.5d
 		}
 		{
-			dependencies: [
-				"2DD5DA63B677EC1B"
-				"3D0405D66A4FC09C"
-			]
+			dependencies: ["47EE61629C15A75C"]
 			id: "4EAD2C0C1A1C3FB8"
 			tasks: [{
 				fluid: {
@@ -197,44 +166,51 @@
 				id: "21685967B318511B"
 				type: "fluid"
 			}]
-			x: 16.5d
-			y: 1.5d
+			x: 12.0d
+			y: 3.5d
 		}
 		{
-			dependencies: ["0E9D66B608F6B727"]
+			dependencies: [
+				"7377C285089E9356"
+				"7D909784DF310409"
+			]
 			id: "26DE210C96DBC4DC"
 			tasks: [{
 				id: "6B57ECDF06082F74"
 				item: { count: 1, id: "ufo:pulsar_fragment_ingot" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: -2.5d
 			y: 3.5d
 		}
 		{
-			dependencies: ["1A2444FD0C5676B5"]
+			dependencies: [
+				"1A2444FD0C5676B5"
+				"2DD5DA63B677EC1B"
+			]
 			id: "7377C285089E9356"
 			tasks: [{
 				id: "3927F0A75DE4C9A4"
 				item: { count: 1, id: "chaosworld_core:ingot_tech_9" }
 				type: "item"
 			}]
-			x: -9.5d
+			x: -4.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["1694334C4EEAF5A3"]
 			id: "2DD5DA63B677EC1B"
 			tasks: [{
-				id: "1972D33457A0EEEC"
-				item: { count: 1, id: "mekanism:pellet_antimatter" }
-				type: "item"
+				amount: 1L
+				id: "790A9CCC5F19472B"
+				key_type: "ae2:i"
+				resource: "mekanism_extras:alloy_shining"
+				type: "chaosworld_core:ae_resource"
 			}]
-			x: 14.5d
-			y: 1.5d
+			x: -6.5d
+			y: 5.5d
 		}
 		{
-			dependencies: ["7B4DBB5F8E730FAF"]
 			id: "1694334C4EEAF5A3"
 			tasks: [{
 				icon: {
@@ -247,22 +223,25 @@
 				to_observe: "mekanismgenerators:reactor_glass"
 				type: "observation"
 			}]
-			x: 12.5d
-			y: 1.5d
+			x: -8.5d
+			y: 5.5d
 		}
 		{
-			dependencies: ["08EA4FDADEBE59D0"]
+			dependencies: [
+				"7312356665633FAB"
+				"7D76650414F68173"
+			]
 			id: "1C1ADD3C1A03B75E"
 			tasks: [{
 				id: "2D72C4A165EC4EE1"
 				item: { count: 1, id: "ufo:enriched_neutronium_sphere" }
 				type: "item"
 			}]
-			x: 14.5d
-			y: 3.5d
+			x: -4.5d
+			y: -0.5d
 		}
 		{
-			dependencies: ["049BA6E82B4572AC"]
+			dependencies: ["2D9B54072C00DB80"]
 			id: "08EA4FDADEBE59D0"
 			tasks: [{
 				fluid: {
@@ -272,43 +251,85 @@
 				id: "7994D31AB3B308C1"
 				type: "fluid"
 			}]
-			x: 12.5d
+			x: 6.0d
 			y: 3.5d
 		}
 		{
-			dependencies: ["47EE61629C15A75C"]
-			id: "049BA6E82B4572AC"
+			dependencies: ["71B05F8E64B75860"]
+			id: "14F93380B5F86677"
 			tasks: [{
-				id: "30492F909519A74F"
-				item: { count: 1, id: "chaosworld_core:colorful_core" }
-				type: "item"
+				amount: 1L
+				id: "7BDD1E298F543AAD"
+				key_type: "ae2:i"
+				resource: "draconicevolution:chaotic_crafting_injector"
+				type: "chaosworld_core:ae_resource"
 			}]
-			x: 10.5d
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["498C50EC73835A6B"]
+			id: "7312356665633FAB"
+			tasks: [{
+				amount: 1L
+				id: "59C0E1C544CDB3F9"
+				key_type: "ae2:i"
+				resource: "avaritia:neutron"
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["26DE210C96DBC4DC"]
+			id: "002D6AEB8C52A246"
+			tasks: [{
+				amount: 1L
+				id: "53C3BEA9EAFEB634"
+				key_type: "ae2:i"
+				resource: "ufo:quantum_anomaly"
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 0.0d
 			y: 3.5d
 		}
 		{
-			dependencies: ["47EE61629C15A75C"]
-			id: "7B4DBB5F8E730FAF"
+			dependencies: ["002D6AEB8C52A246"]
+			id: "2F3587D93CF7D99E"
 			tasks: [{
-				id: "61BB6036E9369EFC"
-				item: { count: 1, id: "chaosworld_core:colorful_energy_core" }
-				type: "item"
+				amount: 1L
+				id: "1E947EE835C91AB1"
+				key_type: "ae2:i"
+				resource: "ufo:unstable_white_hole_matter"
+				type: "chaosworld_core:ae_resource"
 			}]
-			x: 10.5d
-			y: 1.5d
+			x: 2.0d
+			y: 3.5d
 		}
 		{
-			dependencies: [
-				"47BE208DAD4CCDA0"
-				"2D9B54072C00DB80"
-			]
-			id: "58045F6C2F0DEBB9"
+			dependencies: ["08EA4FDADEBE59D0"]
+			id: "453D09494656F2EF"
 			tasks: [{
-				id: "0CF54BD794187319"
-				item: { count: 1, id: "ufo:proto_matter" }
-				type: "item"
+				amount: 1L
+				id: "6A1EC907ACB15669"
+				key_type: "ae2:i"
+				resource: "ufo:proto_matter"
+				type: "chaosworld_core:ae_resource"
 			}]
-			x: 6.5d
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4EAD2C0C1A1C3FB8"]
+			id: "60AC7E2B2828AE2C"
+			tasks: [{
+				amount: 1L
+				id: "531B9816D1CFEFDF"
+				key_type: "ae2:i"
+				resource: "ufo:dark_matter"
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 14.0d
 			y: 3.5d
 		}
 	]

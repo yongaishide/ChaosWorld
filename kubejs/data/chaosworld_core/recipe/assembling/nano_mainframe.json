@@ -1,0 +1,17 @@
+{
+  "type": "chaosworld_core:assembling",
+  "itemInputs": [
+    {"ingredient":{"item":"chaosworld_core:nano_computer"},"count":1},
+    {"ingredient":{"item":"chaosworld_core:ingot_tech_7"},"count":4},
+    {"ingredient":{"item":"neoecoae:energized_crystal_dust"},"count":16},
+    {"ingredient":{"item":"data_energistics:data_processor"},"count":32},
+    {"ingredient":{"item":"ae2omnicells:multidimensional_expansion_processor"},"count":32},
+    {"ingredient":{"tag":"ae2lt:overloaded_cable"},"count":32}
+
+  ],
+  "chemicalInput": {"chemical": "mekanism:osmium", "amount": 800},
+  "fluidInputs": [
+    {"fluid": "advanced_ae:quantum_infusion_source", "amount": 500}
+  ],
+  "output": {"id": "chaosworld_core:nano_mainframe"}
+}

@@ -1,0 +1,49 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "ifmup:range_addon_tier_25"
+    }
+  ],
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+    {
+      "tag": "c:dusts/redstone"
+    },
+    {
+      "tag": "c:dusts/redstone"
+    },
+    {
+      "tag": "c:glass_panes"
+    },
+    {
+      "tag": "c:glass_panes"
+    },
+    {
+      "item": "minecraft:phantom_membrane"
+    },
+    {
+      "item": "minecraft:phantom_membrane"
+    },
+    {
+      "item": "minecraft:phantom_membrane"
+    },
+    {
+      "item": "minecraft:phantom_membrane"
+    }
+  ],
+  "inputFluid": {
+    "amount": 500,
+    "fluid": "ifmup:darkshine"
+  },
+  "output": {
+    "components": {
+      "titanium:augments": {
+        "Range": 25.0
+      }
+    },
+    "count": 1,
+    "id": "ifmup:range_addon_tier_25"
+  },
+  "processingTime": 200
+}

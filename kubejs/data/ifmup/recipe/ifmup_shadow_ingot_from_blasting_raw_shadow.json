@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "raw_shadow",
+  "ingredient": {
+    "tag": "c:raw_materials/shadow"
+  },
+  "result": {
+    "count": 1,
+    "id": "ifmup:shadow_ingot"
+  }
+}

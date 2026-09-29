@@ -2901,6 +2901,47 @@
         result: { id: 'ufo:dimensional_matter_assembler' },
         show_notification: false
     })
+    event.custom({
+        type: 'extendedcrafting:shaped_table',
+        pattern: [
+            'AABAA',
+            'ACDCA',
+            'BEFEB',
+            'ACDCA',
+            'AABAA'
+        ],
+        key: ({
+            A: { item: 'ufo:graviton_plated_casing' },
+            B: { item: 'ufo:obsidian_matrix' },
+            C: { item: 'ae2lt:lightning_assembly_chamber' },
+            D: { item: "chaosworld_core:quantum_assembly" },
+            E: { item: 'data_energistics:trinity_information_exchange_depot' },
+            F: { item: 'ifeu:ultimate_machine_frame' }
+        }),
+        result: { id: 'ufo:dimensional_matter_assembler' }
+    })
+    event.custom({
+        type: 'create:mechanical_crafting',
+        accept_mirrored: false,
+        category: 'misc',
+        pattern: [
+            'AABAA',
+            'ACDCA',
+            'BEFEB',
+            'ACDCA',
+            'AABAA'
+        ],
+        key: ({
+            A: { item: 'ufo:graviton_plated_casing' },
+            B: { item: 'ufo:obsidian_matrix' },
+            C: { item: 'ae2lt:lightning_assembly_chamber' },
+            D: { item: "chaosworld_core:quantum_assembly" },
+            E: { item: 'data_energistics:trinity_information_exchange_depot' },
+            F: { item: 'ifeu:ultimate_machine_frame' }
+        }),
+        result: { id: 'ufo:dimensional_matter_assembler' },
+        show_notification: false
+    })
     // extendedcrafting:ultimate_component
     event.custom({
         type: 'extendedcrafting:shaped_table',
@@ -2987,6 +3028,52 @@
             H: { item: 'industrialforegoing:machine_frame_supreme' }
         }),
         result: { id: 'avaritia:neutron_collector' },
+        show_notification: false
+    })
+    // avaritia:endest_pearl
+    event.custom({
+        type: 'extendedcrafting:shaped_table',
+        pattern: [
+            '   AAA   ',
+            ' AABBBAA ',
+            ' ABBBBBA ',
+            'ABBBCBBBA',
+            'ABBCDCBBA',
+            'ABBBCBBBA',
+            ' ABBBBBA ',
+            ' AABBBAA ',
+            '   AAA   '
+        ],
+        key: ({
+            A: { item: 'allthecompressed:end_stone_6x' },
+            B: { item: 'minecraft:ender_eye' },
+            C: { item: 'ufo:charged_enriched_neutronium_sphere' },
+            D: { item: 'bountifulbaubles:endless_pearl' }
+        }),
+        result: { id: 'avaritia:endest_pearl' }
+    })
+    event.custom({
+        type: 'create:mechanical_crafting',
+        accept_mirrored: false,
+        category: 'misc',
+        pattern: [
+            '   AAA   ',
+            ' AABBBAA ',
+            ' ABBBBBA ',
+            'ABBBCBBBA',
+            'ABBCDCBBA',
+            'ABBBCBBBA',
+            ' ABBBBBA ',
+            ' AABBBAA ',
+            '   AAA   '
+        ],
+        key: ({
+            A: { item: 'allthecompressed:end_stone_6x' },
+            B: { item: 'minecraft:ender_eye' },
+            C: { item: 'ufo:charged_enriched_neutronium_sphere' },
+            D: { item: 'bountifulbaubles:endless_pearl' }
+        }),
+        result: { id: 'avaritia:endest_pearl' },
         show_notification: false
     })
 })

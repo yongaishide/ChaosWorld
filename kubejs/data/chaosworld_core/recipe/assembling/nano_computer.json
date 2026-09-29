@@ -1,0 +1,17 @@
+{
+  "type": "chaosworld_core:assembling",
+  "itemInputs": [
+    {"ingredient":{"item":"chaosworld_core:nano_assembly"},"count":4},
+    {"ingredient":{"item":"chaosworld_core:ingot_tech_5"},"count":4},
+    {"ingredient":{"item":"neoecoae:energized_crystal_dust"},"count":16},
+    {"ingredient":{"item":"ae2omnicells:complex_link_processor"},"count":8},
+    {"ingredient":{"item":"ae2omnicells:multidimensional_expansion_circuit_print"},"count":8},
+    {"ingredient":{"item":"ae2:purple_glass_cable"},"count":32}
+
+  ],
+  "chemicalInput": {"chemical": "mekanism:osmium", "amount": 800},
+  "fluidInputs": [
+    {"fluid": "advanced_ae:quantum_infusion_source", "amount": 500}
+  ],
+  "output": {"id": "chaosworld_core:nano_computer"}
+}

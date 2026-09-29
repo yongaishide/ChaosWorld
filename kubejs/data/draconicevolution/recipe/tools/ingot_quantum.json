@@ -1,0 +1,18 @@
+{
+  "type": "draconicevolution:fusion_crafting",
+  "catalyst": {
+    "item": "extendedcrafting:flux_star"
+  },
+  "ingredients": [
+    {"consume": true,"ingredient": {"item": "advanced_ae:quantum_alloy"}},
+    {"consume": true,"ingredient": {"item": "advanced_ae:quantum_alloy"}},
+    {"consume": true,"ingredient": {"item": "advanced_ae:quantum_alloy"}},
+    {"consume": true,"ingredient": {"item": "advanced_ae:quantum_alloy"}}
+  ],
+  "result": {
+    "count": 1,
+    "id": "chaosworld_core:ingot_quantum"
+  },
+  "techLevel": "wyvern",
+  "totalEnergy": 80000000
+}

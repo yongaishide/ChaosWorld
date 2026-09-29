@@ -1,0 +1,27 @@
+{
+  "type": "ae2lt:overload_processing",
+  "priority": 0,
+  "inputs": [
+    {
+      "ingredient": {
+        "item": "ufo:enriched_neutronium_sphere"
+      },
+      "count": 4
+    },
+    {
+      "ingredient": {
+        "item": "ufo:neutron_star_matter"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "id": "ufo:charged_enriched_neutronium_sphere",
+      "count": 1
+    }
+  ],
+  "totalEnergy": 8000000,
+  "lightningCost": 4,
+  "lightningTier": "extreme_high_voltage"
+}

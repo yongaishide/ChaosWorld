@@ -1,0 +1,26 @@
+{
+  "type": "neoecoae:integrated_working_station",
+  "energy": 1440000,
+  "inputItems": [
+    { 
+      "count": 1,
+      "item": "draconicevolution:wyvern_core"
+    },
+    {
+      "count": 2,
+      "item": "mekanism_extras:supreme_control_circuit"
+    },
+    {
+      "count": 4,
+      "item": "enderio_evolution:stellar_alloy_ingot"
+    },
+    {
+      "count": 2,
+      "item": "chaosworld_core:ingot_draconic_metal"
+    }
+  ],
+  "itemOutput": {
+    "count": 1,
+    "id": "draconicevolution:draconic_energy_core"
+  }
+}

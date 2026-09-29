@@ -1,0 +1,26 @@
+{
+  "type": "neoecoae:integrated_working_station",
+  "energy": 1440000,
+  "inputItems": [
+    { 
+      "count": 1,
+      "item": "draconicevolution:awakened_core"
+    },
+    {
+      "count": 2,
+      "item": "mekanism_extras:cosmic_control_circuit"
+    },
+    {
+      "count": 4,
+      "item": "chaosworld_core:ingot_quantum"
+    },
+    {
+      "count": 2,
+      "item": "chaosworld_core:ingot_chaotic_metal"
+    }
+  ],
+  "itemOutput": {
+    "count": 1,
+    "id": "draconicevolution:chaotic_energy_core"
+  }
+}

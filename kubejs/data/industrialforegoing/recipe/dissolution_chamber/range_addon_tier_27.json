@@ -1,0 +1,49 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "ifmup:range_addon_tier_27"
+    }
+  ],
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+    {
+      "tag": "c:dusts/redstone"
+    },
+    {
+      "tag": "c:dusts/redstone"
+    },
+    {
+      "tag": "c:glass_panes"
+    },
+    {
+      "tag": "c:glass_panes"
+    },
+    {
+      "item": "minecraft:rabbit_foot"
+    },
+    {
+      "item": "minecraft:rabbit_foot"
+    },
+    {
+      "item": "minecraft:rabbit_foot"
+    },
+    {
+      "item": "minecraft:rabbit_foot"
+    }
+  ],
+  "inputFluid": {
+    "amount": 250,
+    "fluid": "ifmup:darkshine"
+  },
+  "output": {
+    "components": {
+      "titanium:augments": {
+        "Range": 27.0
+      }
+    },
+    "count": 1,
+    "id": "ifmup:range_addon_tier_27"
+  },
+  "processingTime": 200
+}

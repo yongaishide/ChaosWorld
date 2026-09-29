@@ -1,66 +1,62 @@
 {
   "type": "draconicevolution:fusion_crafting",
   "catalyst": {
+    "type": "draconicevolution:stack",
+    "count": 2,
     "item": "draconicevolution:awakened_crafting_injector"
   },
   "ingredients": [
     {
       "consume": true,
       "ingredient": {
-        "tag": "c:gems/diamond"
+        "item": "chaosworld_core:ingot_chaotic_metal"
       }
     },
     {
       "consume": true,
       "ingredient": {
-        "tag": "c:gems/diamond"
+        "item": "chaosworld_core:ingot_chaotic_metal"
       }
     },
     {
       "consume": true,
       "ingredient": {
-        "item": "draconicevolution:large_chaos_frag"
+        "item": "chaosworld_core:crystal_computer"
       }
     },
     {
       "consume": true,
       "ingredient": {
-        "item": "draconicevolution:large_chaos_frag"
+        "item": "chaosworld_core:crystal_computer"
       }
     },
     {
       "consume": true,
       "ingredient": {
-        "item": "draconicevolution:large_chaos_frag"
+        "item": "draconicevolution:chaotic_energy_core"
       }
     },
     {
       "consume": true,
       "ingredient": {
-        "item": "draconicevolution:large_chaos_frag"
+        "item": "draconicevolution:chaotic_energy_core"
       }
     },
     {
       "consume": true,
       "ingredient": {
-        "item": "minecraft:dragon_egg"
+        "item": "chaosworld_core:ingot_chaotic_metal"
       }
     },
     {
       "consume": true,
       "ingredient": {
-        "tag": "c:gems/diamond"
-      }
-    },
-    {
-      "consume": true,
-      "ingredient": {
-        "tag": "c:gems/diamond"
+        "item": "chaosworld_core:ingot_chaotic_metal"
       }
     }
   ],
   "result": {
-    "count": 1,
+    "count": 2,
     "id": "draconicevolution:chaotic_crafting_injector"
   },
   "techLevel": "draconic",

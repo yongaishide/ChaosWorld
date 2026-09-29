@@ -58,12 +58,12 @@
 			#Set page visibility
 			visible = true
 
-			#JEI 'Building [Antimatter Protomolecular Transmutator]' page configuration
-			[multiblocks.mekanism_extras.evolvedmekanism.apt]
-				#Set page visibility
-				visible = true
+		#JEI 'Building [Antimatter Protomolecular Transmutator]' page configuration
+		[multiblocks.evolvedmekanism.apt]
+			#Set page visibility
+			visible = true
 
-			#JEI 'Building [Induction Matrix]' page configuration
-			[multiblocks.mekanism_extras.evolvedmekanism.matrix]
-				#Set catalyst visibility
-				visible = true
+		#JEI 'Building [Induction Matrix]' page configuration
+		[multiblocks.evolvedmekanism.matrix]
+			#Set catalyst visibility
+			visible = true

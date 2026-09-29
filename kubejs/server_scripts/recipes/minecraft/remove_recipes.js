@@ -63,9 +63,11 @@ ServerEvents.recipes(event => {
         "pneumaticcraft:refinery",
         "ae2lt:overload_alloy_blank",
         "avaritia:crystal_matrix_ingot",
-        "draconicevolution:crafting_core",
+        "draconicevolution:crafting_core",  
         "draconicevolution:wyvern_core",
-        "draconicevolution:wyvern_energy_core"
+        "draconicevolution:wyvern_energy_core",
+        "mekanismgenerators:fission_reactor_port",
+        "draconicevolution:chaotic_energy_core"
     ]
     recipeTypeall.forEach((item) => {
         event.remove({ output: item, type: 'minecraft:crafting_shaped' })

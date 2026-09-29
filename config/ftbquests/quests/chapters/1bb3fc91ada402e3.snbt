@@ -44,14 +44,14 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["5FB3495EBECEEEB6"]
+			dependencies: ["2244BF4160FFA1A3"]
 			id: "0C3FEA608831610B"
 			tasks: [{
 				id: "69627FB12259CEE7"
 				item: { count: 1, id: "data_energistics:data_crystal" }
 				type: "item"
 			}]
-			x: 12.0d
+			x: 14.0d
 			y: -3.0d
 		}
 		{
@@ -212,7 +212,10 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["3984BE88F6828281"]
+			dependencies: [
+				"31B49787B72C14A5"
+				"3984BE88F6828281"
+			]
 			id: "79FA49303B3F9AB2"
 			tasks: [{
 				id: "19F32D8B3672579B"
@@ -337,17 +340,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["5FB3495EBECEEEB6"]
-			id: "306E2CC74A948B6B"
-			tasks: [{
-				id: "40BB3FD92CBD24AB"
-				item: { count: 1, id: "data_energistics:trinity_data_core" }
-				type: "item"
-			}]
-			x: 10.0d
-			y: -3.0d
-		}
-		{
 			dependencies: ["1B8F2125E13B0AC8"]
 			id: "45227715F7040289"
 			tasks: [{
@@ -431,30 +423,8 @@
 				item: { count: 1, id: "data_energistics:data_processor" }
 				type: "item"
 			}]
-			x: 14.0d
+			x: 16.0d
 			y: -3.0d
-		}
-		{
-			dependencies: ["5FB3495EBECEEEB6"]
-			id: "084E085A7BC64A42"
-			tasks: [{
-				id: "0753F931D754F4C6"
-				item: { count: 1, id: "data_energistics:complexified_biochips" }
-				type: "item"
-			}]
-			x: 12.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["084E085A7BC64A42"]
-			id: "6E159498B0081A80"
-			tasks: [{
-				id: "1E4CBCABCEE41601"
-				item: { count: 1, id: "data_energistics:data_asynchronous_processing_factory" }
-				type: "item"
-			}]
-			x: 14.0d
-			y: 1.0d
 		}
 		{
 			dependencies: ["29BE863587F05F54"]
@@ -464,7 +434,7 @@
 				item: { count: 1, id: "chaosworld_core:nano_mainframe" }
 				type: "item"
 			}]
-			x: 16.0d
+			x: 18.0d
 			y: -3.0d
 		}
 		{
@@ -475,19 +445,92 @@
 				item: { count: 1, id: "data_energistics:data_sanctum" }
 				type: "item"
 			}]
-			x: 18.0d
+			x: 20.0d
 			y: -3.0d
 		}
 		{
-			dependencies: ["3FA96083BB011F0D"]
+			dependencies: ["498C50EC73835A6B"]
 			id: "64A787509AE9D7D6"
 			tasks: [{
 				id: "2939A5B698879790"
 				item: { count: 1, id: "data_energistics:me_vacuum" }
 				type: "item"
 			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"5FB3495EBECEEEB6"
+				"6949746D16F8B723"
+			]
+			id: "3621765A616719BD"
+			tasks: [{
+				id: "11146323C23070F2"
+				item: { count: 1, id: "data_energistics:data_extractor" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3621765A616719BD"]
+			id: "2244BF4160FFA1A3"
+			tasks: [{
+				amount: 10000L
+				id: "65412733A737BAA6"
+				key_type: "data_energistics:digitalization"
+				resource: "data_energistics:data_flow"
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["64A787509AE9D7D6"]
+			id: "6949746D16F8B723"
+			tasks: [{
+				amount: 100L
+				id: "7E1A5AA50704A4AA"
+				key_type: "data_energistics:manifest_binary"
+				resource: "data_energistics:data"
+				type: "chaosworld_core:ae_resource"
+			}]
 			x: 8.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["155D2B577792AB45"]
+			id: "31B49787B72C14A5"
+			tasks: [{
+				id: "0380CC7E64639EC3"
+				item: { count: 1, id: "ifmup:star_ether_alloy_ingot" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["44A9BA1C407A2A32"]
+			id: "155D2B577792AB45"
+			tasks: [{
+				id: "3236770DB8ACF915"
+				item: { count: 1, id: "astralsorcery:shifting_star_armara" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["54DB997063249FCA"]
+			id: "44A9BA1C407A2A32"
+			tasks: [{
+				id: "0C47C549C1C019F6"
+				item: { count: 1, id: "astralsorcery:shifting_star" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
 		}
 	]
 }

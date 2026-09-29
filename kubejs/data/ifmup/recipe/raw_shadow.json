@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ifmup:raw_shadow_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "ifmup:raw_shadow"
+  }
+}

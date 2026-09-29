@@ -7,7 +7,15 @@
 		id: "minecraft:grass_block"
 	}
 	id: "309C1DE90C7879C8"
-	images: [ ]
+	images: [{
+		height: 1.0d
+		id: "4A25BAB1BCD25ECE"
+		image: "kubejs:item/infinity_piggy"
+		rotation: 0.0d
+		width: 1.0d
+		x: 7.5d
+		y: -2.0d
+	}]
 	order_index: 0
 	quest_enhance_decorative_lines: [ ]
 	quest_enhance_hidden_dependency_lines: [ ]
@@ -705,20 +713,12 @@
 				id: "ae2:controller"
 			}
 			id: "1E759BD8CC5BEAB1"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "08BEF022A9FF5F01"
-					table_id: 7082221379633997223L
-					type: "choice"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "066D1685EE4FE601"
-					table_id: 5798946034287369178L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "066D1685EE4FE601"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1A3A504AB9881D42"
 				item: { count: 1, id: "ae2:controller" }
@@ -853,6 +853,12 @@
 		{
 			dependencies: ["2DDA8A2510662B54"]
 			id: "53182FD162DD9F83"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3248DFC351E38127"
+				table_id: 8456591657839069535L
+				type: "random"
+			}]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
