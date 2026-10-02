@@ -25,7 +25,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -71,6 +71,32 @@
 			}]
 			x: 3.0d
 			y: -6.0d
+		}
+		{
+			dependencies: ["7CE66CFDE2004A8B"]
+			id: "706F800F1BB78DEB"
+			tasks: [{
+				amount: 1L
+				id: "66226DE1242CF2E2"
+				key_type: "ae2:i"
+				resource: "useless_mod:possible_useful_ingot"
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["706F800F1BB78DEB"]
+			id: "71CED9F4BC9AF471"
+			tasks: [{
+				amount: 1L
+				id: "5CF976E28107DFEC"
+				key_type: "ae2:i"
+				resource: "useless_mod:useful_ingot"
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 0.0d
+			y: 4.0d
 		}
 	]
 }

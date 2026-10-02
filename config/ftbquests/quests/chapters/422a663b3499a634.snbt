@@ -269,9 +269,11 @@
 				type: "all_table"
 			}]
 			tasks: [{
-				id: "024997E55B6E035A"
-				item: { components: { "ftbquests:missing_item": "useless_mod:useful_ingot" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
+				amount: 1L
+				id: "7820F075B18C44F5"
+				key_type: "ae2:i"
+				resource: "useless_mod:useful_ingot"
+				type: "chaosworld_core:ae_resource"
 			}]
 			x: 0.5d
 			y: -10.0d
@@ -519,9 +521,11 @@
 		{
 			id: "3B8631BCBBD856AC"
 			tasks: [{
-				id: "1B4273E578D40307"
-				item: { components: { "ftbquests:missing_item": "useless_mod:possible_useful_ingot" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
+				amount: 1L
+				id: "6770465B144D26AA"
+				key_type: "ae2:i"
+				resource: "useless_mod:possible_useful_ingot"
+				type: "chaosworld_core:ae_resource"
 			}]
 			x: 1.0d
 			y: -9.0d

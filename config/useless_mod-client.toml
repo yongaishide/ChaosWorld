@@ -1,3 +1,11 @@
 [game_mechanics]
 	#是否启用植物盆作物渲染
 	enable_botany_pot_rendering = true
+
+[beef_tool]
+	#造化杖连点模式每个客户端 tick 触发多少次右键
+	#调大 = 更快（默认 4 约等于 80 次/秒），调小 = 降低服务端压力
+	#仅在客户端生效，无需服务端同意
+	# Default: 4
+	# Range: 1 ~ 20
+	beef_autoclick_clicks_per_tick = 4

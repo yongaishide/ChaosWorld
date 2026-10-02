@@ -336,4 +336,56 @@ ServerEvents.recipes(event => {
       B: 'extendedcrafting:crystaltine_ingot'
     }
   );//添加有序合成"水晶矩阵锭"配方
+  event.shaped(
+    Item.of('avaritia:diamond_lattice'),
+    [
+      'A A',
+      ' B ',
+      'A A'
+    ],
+    {
+      A: 'minecraft:diamond',
+      B: 'minecraft:netherite_scrap'
+    }
+  );//添加有序合成"钻石晶格"配方
+  event.shaped(
+    Item.of('enderio_evolution:capacitor_melodic'),
+    [
+      'A A',
+      'ABA',
+      'C C'
+    ],
+    {
+      A: 'enderio_evolution:melodic_alloy_ingot',
+      B: 'powah:capacitor_basic',
+      C: 'immersiveengineering:wire_copper'
+    }
+  );//添加有序合成"旋律合金电容"配方
+  event.shapeless(
+    Item.of('extendedcrafting:the_ultimate_ingot'),
+    [
+      'chaosworld_core:ingot_tech_1',
+      'chaosworld_core:ingot_tech_2',
+      'chaosworld_core:ingot_tech_3',
+      'chaosworld_core:ingot_tech_4',
+      'chaosworld_core:ingot_tech_5',
+      'chaosworld_core:ingot_tech_6',
+      'chaosworld_core:ingot_tech_7',
+      'chaosworld_core:ingot_tech_8',
+      'chaosworld_core:ingot_tech_9'
+    ]
+  );//添加无序合成"终极锭"配方
+  event.shaped(
+    Item.of('mekanismgenerators:fission_reactor_port', 4),
+    [
+      'ABA',
+      'BCB',
+      'ABA'
+    ],
+    {
+      A: 'mekanismgenerators:fission_reactor_casing',
+      B: 'mekanism_extras:absolute_control_circuit',
+      C: 'chaosworld_core:stellar_alloy_core'
+    }
+  );//添加有序合成"裂变反应堆端口"配方
 });

@@ -332,5 +332,18 @@
 			x: 14.0d
 			y: 3.5d
 		}
+		{
+			dependencies: ["2DD5DA63B677EC1B"]
+			id: "3E341CA9A20A52B5"
+			tasks: [{
+				amount: 1L
+				id: "26E62BE56FCB9AED"
+				key_type: "ae2:i"
+				resource: "mekanism_extras:cosmic_control_circuit"
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -4.5d
+			y: 5.5d
+		}
 	]
 }

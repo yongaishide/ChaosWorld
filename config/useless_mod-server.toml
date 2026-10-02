@@ -193,16 +193,16 @@
 [ae2_gift_package]
 	#Items granted by the AE2 gift package. Format: modid:item_id,count.
 	#Missing items and entries with invalid quantities are skipped.
-	items = ["ae2:creative_energy_cell,1", "ae2:fluix_covered_cable,64", "ae2:wireless_access_point,1", "ae2:wireless_booster,64", "ae2:wireless_crafting_terminal,1", "ae2:crafting_terminal,1", "extendedae_plus:infinity_biginteger_cell,1", "extendedae:ex_drive,1", "ae2wtlib:quantum_bridge_card,1", "ae2:quantum_ring,8", "ae2:quantum_link,1", "ae2:quantum_entangled_singularity,2"]
+	items = ["ae2:fluix_covered_cable,64", "ae2:wireless_access_point,1", "ae2:wireless_booster,64", "ae2:wireless_crafting_terminal,1", "ae2:crafting_terminal,1", "extendedae:ex_drive,1", "ae2wtlib:quantum_bridge_card,1", "ae2:quantum_ring,8", "ae2:quantum_link,1", "ae2:quantum_entangled_singularity,2"]
 
 [beef_tool]
 	#Custom potion effects. Format: modid:effect_id,amplifier.
 	#Use one effect per list entry. Missing effects and invalid levels are skipped.
 	custom_potion_effects = ["minecraft:saturation,1", "minecraft:regeneration,6", "minecraft:night_vision,1", "minecraft:fire_resistance,1", "minecraft:water_breathing,1", "minecraft:resistance,6"]
 	#是否启用药水效果
-	enable_potion_effects = true
+	enable_potion_effects = false
 	#是否启用飞行效果
-	enable_flight_effect = true
+	enable_flight_effect = false
 	#牛排工具飞行速度
 	# Default: 0.05
 	# Range: 0.01 ~ 1.0
@@ -282,11 +282,6 @@
 	# Default: 5
 	# Range: 1 ~ 64
 	beef_magnet_range_z = 5
-	#连锁挖掘等价组，命中同一条目的方块视为同类，可以一起连锁
-	#原点方块命中多条时取并集; 一条都不命中时仅连锁完全相同的方块
-	#支持精确方块ID、#方块标签和*通配符，留空则保持仅连锁相同方块
-	#示例: "#minecraft:logs", "#c:ores", "*_ore"
-	chain_mining_equivalent_groups = []
 	#是否启用打草掉落造化杖彩蛋
 	enable_grass_wand_drop = true
 	#打草掉落造化杖的概率，0.00001为十万分之一
@@ -305,6 +300,24 @@
 	# Default: 81
 	# Range: 1 ~ 1000000
 	construction_wand_destruction_limit = 81
+	#造化杖是否无视所有工具挖掘等级限制（含其它模组自定义的等级）
+	#开启：可正常挖掘任何需要特定工具等级的方块；关闭：回到下界合金层级的原版语义
+	#无论开关如何，useless_mod:beef_tool_tier_locked 标签内的方块始终按等级判定
+	beef_tool_ignores_tool_tier = true
+	#牛排工具挖掘「伪不可破坏」方块（hardness = -1）时使用的名义硬度
+	#这类方块原版层面不可破坏，靠自写 getDestroyProgress 决定进度，其进度除数远大于普通方块
+	#（如 AllTheModium 的三矿与远古石用 250，而普通方块相当于硬度x30），
+	#所以需要更大的挖掘速度才能手感一致：speed = beef_tool_mining_speed × 本值
+	#15 约等于挖普通方块的手感；调大 = 更快
+	# Default: 15.0
+	# Range: 1.0 ~ 1000.0
+	beef_tool_pseudo_hardness = 15.0
+	#造化杖短距闪现的最大距离（格）
+	#该值为上限而非保证距离：准星方向若在中途命中方块或缺少可站立空间，落点会相应前移
+	#未命中任何方块时按该距离取最远落点
+	# Default: 24
+	# Range: 4 ~ 512
+	beef_short_teleport_range = 24
 
 [mekanism_upgrade]
 	#速度升级增强倍率
@@ -515,3 +528,15 @@
 	# Default: 8
 	# Range: 1 ~ 200
 	ae_output_return_budget_millis = 8
+	#是否解除「材料窗口」对单批规模的限制（即去掉 线程数 × Long.MAX 这道闸）
+	#开启后单批规模只由「产物交付能力」决定，可以一次吃下任意大的份数，
+	#不必再靠堆线程数来抬高单批上限
+	#代价：单次准入可能吃下极大量材料（由调用方自己的 BigInteger 账本扣除）；
+	#低档线圈会转而受「能量」闸限制，有用线圈无能量闸、不受影响
+	ae_unlimited_bigint_parallelism = false
+
+[omniversal_pattern_upload]
+	#Whether a freshly encoded omniversal pattern is uploaded to a pattern assembly
+	#on the same AE grid. When disabled, the pattern stays in the encoding terminal
+	#and the player moves it manually, as before.
+	omniversal_pattern_auto_upload = true

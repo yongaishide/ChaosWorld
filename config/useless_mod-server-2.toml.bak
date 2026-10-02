@@ -1,15 +1,15 @@
 [omniversal_multiblock_alloy_furnace]
 	#ME pattern assembly slots. Values are normalized to pages of 27.
 	# Default: 108
-	# Range: 27 ~ 540
+	# Range: 27 ~ 4096
 	pattern_slots = 108
 	#Omniversal mold hub slots. Values are normalized to pages of 27.
 	# Default: 108
-	# Range: 27 ~ 540
+	# Range: 27 ~ 4096
 	mold_slots = 108
 	#Passive crafting hatch slots. Higher coil tiers unlock this capacity gradually.
 	# Default: 30
-	# Range: 1 ~ 540
+	# Range: 1 ~ 4096
 	passive_pattern_slots = 30
 	#Maximum decoded omniversal pattern entries kept per level. Takes effect after restart.
 	# Default: 2048
@@ -500,3 +500,9 @@
 	#*可匹配任意字符；精确配方ID优先于通配符，匹配具体度相同时后面的规则覆盖前面的规则
 	#等级范围为0-10；未匹配规则的配方不受限制
 	recipe_tier_rules = []
+	#万象炉收到 AE 推送的批次后，先等待多少个 tick 再投入执行
+	#这个窗口用于把连续推送合并成一个任务，等待期间 GUI 显示为「排队」
+	#设为 0 表示推送即刻投入执行；机器完全空闲（无任何运行中任务）时会跳过该窗口
+	# Default: 10
+	# Range: 0 ~ 200
+	ae_batch_ripe_ticks = 10

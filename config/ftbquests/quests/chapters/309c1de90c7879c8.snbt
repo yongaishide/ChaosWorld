@@ -713,12 +713,22 @@
 				id: "ae2:controller"
 			}
 			id: "1E759BD8CC5BEAB1"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "066D1685EE4FE601"
-				table_id: 5798946034287369178L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "066D1685EE4FE601"
+					table_id: 5798946034287369178L
+					type: "random"
+				}
+				{
+					id: "577F62694B8D366C"
+					item: {
+						count: 1
+						id: "useless_mod:ae2_gift_package"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1A3A504AB9881D42"
 				item: { count: 1, id: "ae2:controller" }

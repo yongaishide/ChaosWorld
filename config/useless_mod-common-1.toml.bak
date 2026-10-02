@@ -8,6 +8,9 @@
 			#是否启用该配方来源的配方转换
 			#修改后重启游戏生效
 			enable_brewing_recipe_conversion = false
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_villager_trade_recipe_conversion = true
 
 		[advanced_alloy_furnace.recipe_conversion.other]
 			#是否启用该配方来源的配方转换
