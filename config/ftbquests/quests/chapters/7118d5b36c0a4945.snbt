@@ -19,6 +19,7 @@
 		{
 			dependencies: ["190AB63D4ECE2C34"]
 			id: "7CE66CFDE2004A8B"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0B5FEB5869F15277"
 				item: { count: 1, id: "avaritia:infinity_ingot" }
@@ -34,6 +35,7 @@
 				"7F0C99EA8CDE9396"
 			]
 			id: "190AB63D4ECE2C34"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0A1B3B16280CE131"
 				item: { count: 1, id: "avaritia:infinity_catalyst" }
@@ -44,6 +46,7 @@
 		}
 		{
 			id: "335DD6C437D55E16"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "5F39EDD076CBD81B"
 				item: { count: 1, id: "avaritia:endest_pearl" }
@@ -54,6 +57,7 @@
 		}
 		{
 			id: "7F0C99EA8CDE9396"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "312C9A0AF972164C"
 				item: { count: 1, id: "avaritia:ultimate_stew" }
@@ -64,6 +68,7 @@
 		}
 		{
 			id: "025E75BB17D49155"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0081AEABA827D41F"
 				item: { count: 1, id: "avaritia:cosmic_meatballs" }
@@ -75,6 +80,7 @@
 		{
 			dependencies: ["7CE66CFDE2004A8B"]
 			id: "706F800F1BB78DEB"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				amount: 1L
 				id: "66226DE1242CF2E2"
@@ -88,6 +94,7 @@
 		{
 			dependencies: ["706F800F1BB78DEB"]
 			id: "71CED9F4BC9AF471"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				amount: 1L
 				id: "5CF976E28107DFEC"

@@ -70,6 +70,7 @@
   },
   "jdte": {
     "advanced_energy_transmitter_status": true,
+    "greenhouse_status": true,
     "installed_upgrades": true,
     "mineral_extractor_status": true
   },
@@ -152,15 +153,18 @@
   "ifeu": {
     "machine_tile": true
   },
+  "mmcr": {
+    "ae2_input_interface_grid": true,
+    "source_port": true,
+    "machine_controller": true,
+    "parallel_controller": true,
+    "recipe_output": true,
+    "air_port": true
+  },
   "mysticalagriculture": {
     "infused_farmland": true,
     "crop": true,
     "inferium_crop": true
-  },
-  "modular_machinery_reborn": {
-    "machine_component_provider": true,
-    "grid_node_state": true,
-    "hatch_component_provider": true
   },
   "minecraft": {
     "item_storage.show_name_amount": 5,
@@ -309,10 +313,6 @@
   },
   "enderio_conduit_opt": {
     "item_conduit_info": true
-  },
-  "useless_mod": {
-    "multiblock_alloy_furnace_core_name": true,
-    "advanced_alloy_furnace_tasks": true
   },
   "kaleidoscope_cookery": {
     "chopping_board": true,

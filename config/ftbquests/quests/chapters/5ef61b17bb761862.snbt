@@ -87,6 +87,7 @@
 				"54A1DBA152A7BA4E"
 			]
 			id: "55AEBF82CAD3F5E2"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0D71D8CDD2B52F98"
 				item: { count: 1, id: "ae2lt:lightning_assembly_chamber" }
@@ -101,6 +102,7 @@
 				"0CCBB6169806C679"
 			]
 			id: "0D83CD47B45B50B4"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "4455786A59125F54"
 				item: { count: 1, id: "ae2lt:overload_processing_factory" }
@@ -112,6 +114,7 @@
 		{
 			dependencies: ["0D83CD47B45B50B4"]
 			id: "376BEEA4BEF48DDA"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "087697FB9CEB71F6"
 				item: { count: 1, id: "ae2lt:basic_topological_lattice" }
@@ -123,6 +126,7 @@
 		{
 			dependencies: ["4BF6A9218F7DEF29"]
 			id: "61D2EDC385ADAD2C"
+			quest_enhance_disable_scroll_paging: false
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
@@ -136,6 +140,7 @@
 		{
 			dependencies: ["3E8A04664DB9DD56"]
 			id: "40FF64A45A6A88A4"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "16CC8ECD946966F7"
 				item: { count: 1, id: "draconicevolution:draconium_core" }
@@ -147,6 +152,7 @@
 		{
 			dependencies: ["40FF64A45A6A88A4"]
 			id: "4BF6A9218F7DEF29"
+			quest_enhance_disable_scroll_paging: false
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
@@ -163,6 +169,7 @@
 				"6CA91BE7AE4CEEA2"
 			]
 			id: "5A7710A6B8BEDBDD"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "235209B8CB1BA9DC"
 				item: { count: 1, id: "ae2lt:overload_singularity" }
@@ -174,6 +181,7 @@
 		{
 			dependencies: ["2FEADB5C6918A8A3"]
 			id: "2311C640692DFE5B"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "70871EBBD9BF97D5"
 				item: { count: 1, id: "extendedae_plus:oblivion_singularity" }
@@ -188,6 +196,7 @@
 				"2BCE6F515DC6F203"
 			]
 			id: "3E8A04664DB9DD56"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "580313172817D07B"
 				item: { count: 1, id: "enderio_evolution:melodic_alloy_ingot" }
@@ -199,6 +208,7 @@
 		{
 			dependencies: ["54A1DBA152A7BA4E"]
 			id: "2DCF1F1EC3B41270"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "4DACF4F7733CB9AB"
 				item: { count: 1, id: "neoecoae:integrated_working_station" }
@@ -213,6 +223,7 @@
 				"372EBB47138C1C71"
 			]
 			id: "7C67E0093A1FE08F"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "19B665779049E92D"
 				item: { count: 1, id: "enderio_evolution:crystalline_pink_slime_ingot" }
@@ -224,6 +235,7 @@
 		{
 			dependencies: ["63C55110F142AA1A"]
 			id: "42A0D1F16E6A0ECC"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "2205FF9794C390B5"
@@ -254,6 +266,7 @@
 		{
 			dependencies: ["42A0D1F16E6A0ECC"]
 			id: "2B13452C3DEF2D24"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "22171FC10FAA2B7B"
 				item: { count: 1, id: "minecraft:nether_star" }
@@ -265,6 +278,7 @@
 		{
 			dependencies: ["2B13452C3DEF2D24"]
 			id: "2FEADB5C6918A8A3"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "25E5D43012D9C64A"
 				item: { count: 1, id: "advanced_ae:quantum_alloy_plate" }
@@ -276,6 +290,7 @@
 		{
 			dependencies: ["55AEBF82CAD3F5E2"]
 			id: "7650C0DF4C9A6177"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "2075CFB3A0D42475"
 				item: { count: 1, id: "ae2lt:crystal_catalyzer" }
@@ -287,6 +302,7 @@
 		{
 			dependencies: ["2DCF1F1EC3B41270"]
 			id: "43934B282C484BAC"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "318CB533E3C80CF5"
 				item: { count: 1, id: "neoecoae:energized_superconductive_ingot" }
@@ -298,6 +314,7 @@
 		{
 			dependencies: ["43934B282C484BAC"]
 			id: "3E6429C6DBF5447D"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "5959F62FFD91D950"
 				item: { count: 1, id: "neoecoae:superconducting_processor_print" }
@@ -309,6 +326,7 @@
 		{
 			dependencies: ["55AEBF82CAD3F5E2"]
 			id: "506C9B54C56C3CDC"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "2E77B065AB2ACFA5"
 				item: { count: 1, id: "neoecoae:crystal_matrix" }
@@ -323,6 +341,7 @@
 				"3E6429C6DBF5447D"
 			]
 			id: "6EEFEED02528CB10"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "4FA2E57CA0658D4C"
 				item: { count: 1, id: "neoecoae:superconducting_processor" }
@@ -334,9 +353,10 @@
 		{
 			dependencies: ["55AEBF82CAD3F5E2"]
 			id: "79CF65F9440558BB"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "02068E16BB938346"
-				item: { count: 1, id: "ae2lt:overloaded_matter_condenser" }
+				item: { components: { "ftbquests:missing_item": "ae2lt:overloaded_matter_condenser" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -0.5d
@@ -345,6 +365,7 @@
 		{
 			dependencies: ["4B107E0048BA3880"]
 			id: "0CCBB6169806C679"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "77A659FD72E34D8C"
 				item: { count: 1, id: "ae2lt:ultimate_overload_core" }
@@ -356,6 +377,7 @@
 		{
 			dependencies: ["2DCF1F1EC3B41270"]
 			id: "4B107E0048BA3880"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "61F30216306417B8"
 				item: { count: 1, id: "ifeu:sculk_gear" }
@@ -367,6 +389,7 @@
 		{
 			dependencies: ["0CCBB6169806C679"]
 			id: "2BECCA6D274914EE"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "3B36D8937B0AB33A"
 				item: { count: 1, id: "ae2lt:lightning_collapse_matrix" }
@@ -378,6 +401,7 @@
 		{
 			dependencies: ["593ABCE813A3FE75"]
 			id: "372EBB47138C1C71"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0791480BB1D20C05"
 				item: { count: 1, id: "industrialforegoing:pink_slime_ingot" }
@@ -389,6 +413,7 @@
 		{
 			dependencies: ["421F45C69CD8E550"]
 			id: "593ABCE813A3FE75"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				fluid: {
 					amount: 1000
@@ -403,6 +428,7 @@
 		{
 			dependencies: ["6BE7539266AF7C95"]
 			id: "421F45C69CD8E550"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "267DEE2044F4A103"
 				item: { count: 1, id: "industrialforegoing:mob_slaughter_factory" }
@@ -414,6 +440,7 @@
 		{
 			dependencies: ["0D83CD47B45B50B4"]
 			id: "2BCE6F515DC6F203"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "44518B2AC634ED4F"
 				item: { count: 1, id: "chaosworld_core:ingot_tech_6" }
@@ -429,6 +456,7 @@
 			]
 			hide_dependency_lines: true
 			id: "7A9E2C93F6DA4F14"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "6C2107D75CBF8470"
 				item: { count: 1, id: "draconicevolution:basic_crafting_injector" }
@@ -440,6 +468,7 @@
 		{
 			dependencies: ["3E8A04664DB9DD56"]
 			id: "5AFA3010DA3C1BE7"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "517C288494ADB5C4"
 				item: { count: 1, id: "mekanism:alloy_atomic" }
@@ -451,6 +480,7 @@
 		{
 			dependencies: ["5AFA3010DA3C1BE7"]
 			id: "0DADF4B82F40D6B4"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0FC2A6140FF209E7"
 				item: { count: 1, id: "mekanism:ultimate_control_circuit" }

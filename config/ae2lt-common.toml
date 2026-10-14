@@ -241,7 +241,7 @@ configVersion = 3
 		# Default: 200
 		# Range: 1 ~ 72000
 		shieldComboWindowTicks = 200
-		#Ticks in the linear combo window for undying FE and EHV cost scaling.
+		#Legacy compatibility option; unused. Overload protection now shares a fixed 20-tick billing window and capped combo tiers.
 		# Default: 200
 		# Range: 1 ~ 72000
 		undyingComboWindowTicks = 200
@@ -348,6 +348,34 @@ configVersion = 3
 		# Range: 1 ~ 64
 		maxTracked = 8
 
+	[railgun.ehvBeam]
+		#EHV beam base damage every 2 ticks; requires the module and enabled beam mode.
+		# Default: 200
+		# Range: > 0
+		damagePerSettle = 200
+		#Extreme High Voltage lightning consumed every 2 ticks.
+		# Default: 16
+		# Range: 1 ~ 9223372036854775807
+		ehvCostPerSettle = 16
+		#FE consumed every 2 ticks in EHV beam mode.
+		# Default: 4000
+		# Range: 0 ~ 9223372036854775807
+		feCostPerSettle = 4000
+
+	[railgun.percentageExecution]
+		#Fraction of max health added by tier-1 charged Overload shots in percentage mode. Never applies to beams or chain propagation.
+		# Default: 0.05
+		# Range: 0.0 ~ 1.0
+		tier1 = 0.05
+		#Fraction of max health added by tier-2 charged Overload shots in percentage mode.
+		# Default: 0.1
+		# Range: 0.0 ~ 1.0
+		tier2 = 0.1
+		#Fraction of max health added by tier-3 charged Overload shots in percentage mode.
+		# Default: 0.2
+		# Range: 0.0 ~ 1.0
+		tier3 = 0.2
+
 	[frequencyCard.cleanup]
 		#Controls whether invalid Overloaded Frequency Card wireless link records are cleaned up automatically.
 		enableAutoCleanup = true
@@ -379,3 +407,25 @@ configVersion = 3
 	eastereggweight = 50
 	#Easter egg weights. Format: item_id=weight.
 	eastereggweights = ["avaritia:infinity_ingot=1200", "mekanism_extras:qio_drive_singularity=1200", "modern_industrialization:quantum_upgrade=1200", "bigreactors:inanite_block=776", "draconicevolution:chaotic_core=760", "occultism:celestial_chalice=744", "appflux:core_256m=460", "advanced_ae:data_entangler=455", "advanced_ae:quantum_multi_threader=445", "megacells:cell_component_256m=440", "ae2omnicells:quantum_omni_cell_component_256m=435", "mekanism_extras:infinite_induction_cell=415", "mekanism_extras:infinite_induction_provider=415", "mekanism:pellet_antimatter=252", "mekanism_extras:infinite_control_circuit=240", "ars_nouveau:wilden_tribute=204", "minecraft:elytra=138", "minecraft:heavy_core=132", "minecraft:dragon_head=114", "ae2:256k_crafting_storage=98", "mekanism:ultimate_induction_cell=76", "mekanism:ultimate_induction_provider=76", "pneumaticcraft:micromissiles=72", "minecraft:dragon_egg=54", "minecraft:heart_of_the_sea=40", "minecraft:echo_shard=36", "minecraft:nether_star=32", "minecraft:torchflower=8", "minecraft:recovery_compass=7", "minecraft:slime_ball=4"]
+
+[miningFactory]
+	#Parallel capacity without matrices. Independent of the Overload Processing Factory settings.
+	# Default: 8
+	# Range: 1 ~ 4096
+	baseParallel = 8
+	#Parallel capacity per installed matrix, replacing baseParallel when matrices are installed. Up to eight matrices can be installed.
+	# Default: 256
+	# Range: 1 ~ 268435455
+	parallelPerMatrix = 256
+	#Maximum independent loot rolls per batch (despite the historical PerTick name). Each batch takes five ticks and rolls only on completion. Each roll represents an equal-sized group (remainder distributed across groups). Set at least the actual batch size for independent rolls; 2048 covers the default eight-matrix capacity.
+	# Default: 8
+	# Range: 1 ~ 4096
+	lootSamplesPerTick = 8
+	#FE consumed per input block when using a durability tool.
+	# Default: 256
+	# Range: 1 ~ 500000
+	toolEnergyPerBlock = 256
+	#Additional FE per input block when using an annihilation plane instead of a durability tool.
+	# Default: 768
+	# Range: 0 ~ 500000
+	planeExtraEnergyPerBlock = 768

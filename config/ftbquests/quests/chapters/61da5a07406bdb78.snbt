@@ -26,6 +26,7 @@
 			}
 			icon_scale: 1.5d
 			id: "44B1D89C5D74BE65"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				id: "4E9C3661E456D103"
 				item: {
@@ -48,6 +49,7 @@
 		{
 			can_repeat: true
 			id: "7DB9BA6022CC4B54"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				auto: "enabled"
 				command: "/viscript_shop editor chaosworld"
@@ -64,6 +66,7 @@
 		{
 			dependencies: ["44B1D89C5D74BE65"]
 			id: "7BE82C704232E651"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				advancement: "minecraft:story/root"
 				criterion: ""
@@ -76,6 +79,7 @@
 		{
 			can_repeat: true
 			id: "712948062A4ECD80"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					id: "3BDB3C57C8642813"

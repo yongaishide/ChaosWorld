@@ -388,4 +388,93 @@ ServerEvents.recipes(event => {
       C: 'chaosworld_core:stellar_alloy_core'
     }
   );//添加有序合成"裂变反应堆端口"配方
+  event.shaped(
+    Item.of('mekanism:energized_smelter'),
+    [
+      'ABA',
+      'CDC',
+      'EBE'
+    ],
+    {
+      A: 'industrialforegoing:plastic',
+      B: 'alltheores:zinc_gear',
+      C: 'ironfurnaces:netherite_furnace',
+      D: 'industrialforegoing:machine_frame_simple',
+      E: 'stellaris:heavy_metal_casing'
+    }
+  );//添加有序合成"电力熔炼炉"配方
+  event.shaped(
+    Item.of('mekanism:metallurgic_infuser'),
+    [
+      'ABA',
+      'CDE',
+      'FGF'
+    ],
+    {
+      A: 'industrialforegoing:plastic',
+      B: 'alltheores:steel_ingot',
+      C: 'mekanism:basic_chemical_tank',
+      D: 'industrialforegoing:machine_frame_simple',
+      E: '#c:chests',
+      F: 'alltheores:bronze_gear',
+      G: 'immersiveengineering:rs_engineering'
+    }
+  );//添加有序合成"冶金灌注机"配方
+  event.shaped(
+    Item.of('mekanism:enrichment_chamber'),
+    [
+      'ABA',
+      'CDC',
+      'EBE'
+    ],
+    {
+      A: 'industrialforegoing:plastic',
+      B: 'mekanism:advanced_control_circuit',
+      C: 'mekanism:basic_chemical_tank',
+      D: 'industrialforegoing:machine_frame_simple',
+      E: 'alltheores:lumium_gear'
+    }
+  );//添加有序合成"富集仓"配方
+  event.shaped(
+    Item.of('chaosworld_core:mechanical_assembler'),
+    [
+      'ABA',
+      'CDE',
+      'FBF'
+    ],
+    {
+      A: 'industrialforegoing:plastic',
+      B: 'mekanism:basic_control_circuit',
+      C: 'mekanism:basic_chemical_tank',
+      D: 'industrialforegoing:machine_frame_simple',
+      E: 'mekanism:basic_fluid_tank',
+      F: 'alltheores:lumium_gear'
+    }
+  );//添加有序合成"电路组装机"配方
+  event.shaped(
+    Item.of('mmcr:heat_input_hatch'),
+    [
+      'ABA',
+      'BCB',
+      'ABA'
+    ],
+    {
+      A: 'mmcr:modularium',
+      B: 'immersiveengineering:wirecoil_copper',
+      C: 'mekanism:energy_tablet'
+    }
+  );//添加有序合成"热量输入仓"配方
+  event.shaped(
+    Item.of('mmcr:heat_input_hatch'),
+    [
+      'ABA',
+      'BCB',
+      'ABA'
+    ],
+    {
+      A: 'mmcr:modularium',
+      B: 'immersiveengineering:wirecoil_copper',
+      C: 'immersiveengineering:coil_lv'
+    }
+  );//添加有序合成"热量输入仓"配方
 });

@@ -419,10 +419,3 @@ ServerEvents.tags('item', event => {
         event.add('c:hidden_from_recipe_viewers', [item])
     })
 })
-
-//隐藏EMI物品
-if (typeof EMIAPI !== 'undefined') {
-    HIDE_ITEMS.forEach((item) => {
-        EMIAPI.hideItem(item)
-    })
-}

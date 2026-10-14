@@ -67,7 +67,9 @@ ServerEvents.recipes(event => {
         "draconicevolution:wyvern_core",
         "draconicevolution:wyvern_energy_core",
         "mekanismgenerators:fission_reactor_port",
-        "draconicevolution:chaotic_energy_core"
+        "draconicevolution:chaotic_energy_core",
+        'mmcr:heat_input_hatch',
+        'mmcr:heat_output_hatch'
     ]
     recipeTypeall.forEach((item) => {
         event.remove({ output: item, type: 'minecraft:crafting_shaped' })

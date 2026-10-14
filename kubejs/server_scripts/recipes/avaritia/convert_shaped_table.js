@@ -2995,7 +2995,7 @@
             B: { item: 'data_energistics:data_framework' },
             C: { item: 'appflux:charged_redstone_block' },
             D: { item: 'draconicevolution:wyvern_energy_core' },
-            E: { item: 'ae2lt:overloaded_matter_condenser' },
+            E: { item: 'ae2lt:matter_warping_matrix_overload_main_core' },
             F: { item: 'extendedcrafting:elite_catalyst' },
             G: { item: 'chaosworld_core:nano_computer' },
             H: { item: 'industrialforegoing:machine_frame_supreme' }
@@ -3022,7 +3022,7 @@
             B: { item: 'data_energistics:data_framework' },
             C: { item: 'appflux:charged_redstone_block' },
             D: { item: 'draconicevolution:wyvern_energy_core' },
-            E: { item: 'ae2lt:overloaded_matter_condenser' },
+            E: { item: 'ae2lt:matter_warping_matrix_overload_main_core' },
             F: { item: 'extendedcrafting:elite_catalyst' },
             G: { item: 'chaosworld_core:nano_computer' },
             H: { item: 'industrialforegoing:machine_frame_supreme' }

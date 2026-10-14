@@ -11,6 +11,7 @@
 		height: 1.0d
 		id: "4A25BAB1BCD25ECE"
 		image: "kubejs:item/infinity_piggy"
+		quest_enhance_exclude_from_box_selection: 0b
 		rotation: 0.0d
 		width: 1.0d
 		x: 7.5d
@@ -24,6 +25,7 @@
 		{
 			dependencies: ["1891C245D48ADC3F"]
 			id: "334E64F6DB734989"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0BD9BA21563B995E"
@@ -42,6 +44,7 @@
 		{
 			dependencies: ["5C37E68B0948402D"]
 			id: "1891C245D48ADC3F"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "42DF5ACFE0C5C679"
@@ -59,6 +62,7 @@
 		{
 			dependencies: ["7BE82C704232E651"]
 			id: "5C37E68B0948402D"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1F29DB002B24CA10"
@@ -76,6 +80,7 @@
 		{
 			dependencies: ["334E64F6DB734989"]
 			id: "3F45A062D29CB428"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "62DF0EFA6085BDEE"
@@ -93,6 +98,7 @@
 		{
 			dependencies: ["1891C245D48ADC3F"]
 			id: "6154730899D5DC24"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "02A1BE8E1B43B453"
@@ -110,6 +116,7 @@
 		{
 			dependencies: ["6154730899D5DC24"]
 			id: "03EA598AA6016CF5"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1E11604CDB04C13B"
@@ -127,6 +134,7 @@
 		{
 			dependencies: ["3F45A062D29CB428"]
 			id: "6CE917D464E26AEB"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "4EAC9A91D797F9C5"
@@ -145,6 +153,7 @@
 		{
 			dependencies: ["6C5E33EEDAA5C40B"]
 			id: "6296DDEFD4A3DD27"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7D865F1F74F9F846"
@@ -162,6 +171,7 @@
 		{
 			dependencies: ["03EA598AA6016CF5"]
 			id: "6C5E33EEDAA5C40B"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1C3BF3460C10EBF2"
@@ -179,6 +189,7 @@
 		{
 			dependencies: ["6296DDEFD4A3DD27"]
 			id: "1686FB9553ACAFE4"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6818AA9AFCAD02BC"
@@ -196,6 +207,7 @@
 		{
 			dependencies: ["6C5E33EEDAA5C40B"]
 			id: "72750ADAC83591C2"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2E088A96749AC622"
@@ -213,6 +225,7 @@
 		{
 			dependencies: ["6296DDEFD4A3DD27"]
 			id: "17105BFFD763E3BE"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6A846498ACE76DB9"
@@ -230,6 +243,7 @@
 		{
 			dependencies: ["17105BFFD763E3BE"]
 			id: "0127B9AF5F4E8CF2"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "77AC5C5D8096D4AF"
@@ -250,6 +264,7 @@
 				"522B978D1D85DF9E"
 			]
 			id: "358A3B366239EDDA"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "560730BA8C61037C"
@@ -270,6 +285,7 @@
 				"7212D6FED17B9305"
 			]
 			id: "1F379E4879715AEB"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "40B89487035C70F6"
@@ -287,6 +303,7 @@
 		{
 			dependencies: ["711C62EA2E9076EE"]
 			id: "3137548559C85FBA"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3412C2E747333D88"
@@ -306,6 +323,7 @@
 		{
 			dependencies: ["4E8ADB3B1FE7D6E8"]
 			id: "7212D6FED17B9305"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3620118B4787DEBE"
@@ -323,6 +341,7 @@
 		{
 			dependencies: ["1686FB9553ACAFE4"]
 			id: "4E8ADB3B1FE7D6E8"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "760705C7F6082B6B"
@@ -346,6 +365,7 @@
 		{
 			dependencies: ["358A3B366239EDDA"]
 			id: "683FA8DA5355B568"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "04B9C615C2F3BFA8"
@@ -369,6 +389,7 @@
 		{
 			dependencies: ["0127B9AF5F4E8CF2"]
 			id: "522B978D1D85DF9E"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "45F7A5402763AD5F"
@@ -392,6 +413,7 @@
 		{
 			dependencies: ["1686FB9553ACAFE4"]
 			id: "64EF8877E25069D3"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "52F8B67F45019890"
@@ -415,6 +437,7 @@
 		{
 			dependencies: ["72750ADAC83591C2"]
 			id: "1C2067896E07451A"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "64A859F8DD733334"
@@ -432,6 +455,7 @@
 		{
 			dependencies: ["334E64F6DB734989"]
 			id: "278C09B08DBF6153"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "4C6D913CBCB9A685"
@@ -455,6 +479,7 @@
 				"4AB4C21598BD6A12"
 			]
 			id: "7834D0649FD0874F"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2DB06475F0766A37"
@@ -472,6 +497,7 @@
 		{
 			dependencies: ["7BE82C704232E651"]
 			id: "4AB4C21598BD6A12"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "03CE80DF925C62DF"
@@ -489,6 +515,7 @@
 		{
 			dependencies: ["7834D0649FD0874F"]
 			id: "711C62EA2E9076EE"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "55B4F2D39F645B16"
@@ -506,6 +533,7 @@
 		{
 			dependencies: ["7BE82C704232E651"]
 			id: "004E10BDB05C90E2"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					id: "6C543D136E5F83F9"
@@ -533,6 +561,7 @@
 		{
 			dependencies: ["004E10BDB05C90E2"]
 			id: "6B7884AF3CD6C9DA"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "307FC3BF38184D2B"
@@ -550,6 +579,7 @@
 		{
 			dependencies: ["1C2067896E07451A"]
 			id: "319A9151928FAF29"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "73210C361F58A4FD"
@@ -567,6 +597,7 @@
 		{
 			dependencies: ["6B7884AF3CD6C9DA"]
 			id: "3432AD4EECF6AC6A"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7D923F1B057C91B9"
@@ -587,6 +618,7 @@
 				"14C97AA6221400F2"
 			]
 			id: "5FBF91883E98D4DA"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "74D7646A94C84BE9"
@@ -604,6 +636,7 @@
 		{
 			dependencies: ["51B7F56EFFA0D046"]
 			id: "14C97AA6221400F2"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1893BF7283E8D8EE"
@@ -621,6 +654,7 @@
 		{
 			dependencies: ["33B884E73BF1E8A2"]
 			id: "51B7F56EFFA0D046"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6BC3F19A3FE3BC69"
@@ -638,6 +672,7 @@
 		{
 			dependencies: ["7BE82C704232E651"]
 			id: "33B884E73BF1E8A2"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "58C2C01A333D7708"
@@ -655,6 +690,7 @@
 		{
 			dependencies: ["2BB4EC2A82263EC9"]
 			id: "2AFC51C204AAE490"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "153814E020C1EBEF"
@@ -672,6 +708,7 @@
 		{
 			dependencies: ["711C62EA2E9076EE"]
 			id: "5765EA80754ACCC7"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "51F6F908C6FEF8AA"
@@ -689,6 +726,7 @@
 		{
 			dependencies: ["5765EA80754ACCC7"]
 			id: "2BB4EC2A82263EC9"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "57E5077F3A5A780C"
@@ -713,6 +751,7 @@
 				id: "ae2:controller"
 			}
 			id: "1E759BD8CC5BEAB1"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -723,8 +762,11 @@
 				{
 					id: "577F62694B8D366C"
 					item: {
+						components: {
+							"ftbquests:missing_item": "useless_mod:ae2_gift_package"
+						}
 						count: 1
-						id: "useless_mod:ae2_gift_package"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -740,6 +782,7 @@
 		{
 			dependencies: ["319A9151928FAF29"]
 			id: "4A9E813977CAC5E2"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					id: "52815B51461463D9"
@@ -767,6 +810,7 @@
 		{
 			dependencies: ["1E759BD8CC5BEAB1"]
 			id: "76CE2B1D7C026BD9"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1C2000403B09147A"
@@ -784,6 +828,7 @@
 		{
 			dependencies: ["1E759BD8CC5BEAB1"]
 			id: "3DB9A5433772AD7A"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "40B9855F7CE8E5F1"
@@ -801,6 +846,7 @@
 		{
 			dependencies: ["1E759BD8CC5BEAB1"]
 			id: "00627D73E0613230"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6EBFA51158C03A98"
@@ -818,6 +864,7 @@
 		{
 			dependencies: ["711C62EA2E9076EE"]
 			id: "63C77B6668460099"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "28F06759393E8668"
@@ -835,6 +882,7 @@
 		{
 			dependencies: ["1686FB9553ACAFE4"]
 			id: "74E628EDB3557BF7"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "28EB78C18EA9ED40"
@@ -852,6 +900,7 @@
 		{
 			dependencies: ["683FA8DA5355B568"]
 			id: "07350473B80FB014"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "6B0A8A2E5B48CC1A"
 				item: { count: 1, id: "extendedcrafting:luminessence" }
@@ -863,6 +912,7 @@
 		{
 			dependencies: ["2DDA8A2510662B54"]
 			id: "53182FD162DD9F83"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3248DFC351E38127"
@@ -882,6 +932,7 @@
 		{
 			dependencies: ["07350473B80FB014"]
 			id: "2DDA8A2510662B54"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "66519D0752DF75E7"
 				item: { count: 1, id: "extendedcrafting:advanced_catalyst" }

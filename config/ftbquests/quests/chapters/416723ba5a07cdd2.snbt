@@ -27,6 +27,7 @@
 				"2F3587D93CF7D99E"
 			]
 			id: "2D9B54072C00DB80"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "45CB8EF12A34BA89"
 				item: { count: 1, id: "draconicevolution:chaotic_core" }
@@ -41,6 +42,7 @@
 				"47BE208DAD4CCDA0"
 			]
 			id: "0E9D66B608F6B727"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "2A2B98443E87F272"
 				item: { count: 1, id: "chaosworld_core:ingot_chaotic_metal" }
@@ -52,6 +54,7 @@
 		{
 			dependencies: ["0E9D66B608F6B727"]
 			id: "71B05F8E64B75860"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "5985BDB4A90BCEE1"
 				item: { count: 1, id: "draconicevolution:chaotic_energy_core" }
@@ -63,6 +66,7 @@
 		{
 			dependencies: ["453D09494656F2EF"]
 			id: "47EE61629C15A75C"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "3EC7768D671E0A90"
 				item: { count: 1, id: "chaosworld_core:ingot_xuancai" }
@@ -77,6 +81,7 @@
 				"7D76650414F68173"
 			]
 			id: "7D909784DF310409"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "006E699BD5215C48"
 				item: { count: 1, id: "ufo:corporeal_matter" }
@@ -88,6 +93,7 @@
 		{
 			dependencies: ["09DD6862B8D4D281"]
 			id: "5A2DB9F6876403DF"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "260BF6F9EE0B866A"
 				item: { count: 1, id: "chaosworld_core:neutronite_ingot" }
@@ -98,6 +104,7 @@
 		}
 		{
 			id: "09DD6862B8D4D281"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "317B257E83E60F81"
 				item: { count: 1, id: "mekanismgenerators:fusion_reactor_controller" }
@@ -108,6 +115,7 @@
 		}
 		{
 			id: "7D76650414F68173"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				fluid: {
 					amount: 1000
@@ -122,6 +130,7 @@
 		{
 			dependencies: ["1C1ADD3C1A03B75E"]
 			id: "3D0405D66A4FC09C"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "37CA42AAC2E447A0"
 				item: { count: 1, id: "ufo:charged_enriched_neutronium_sphere" }
@@ -133,6 +142,7 @@
 		{
 			dependencies: ["26DE210C96DBC4DC"]
 			id: "52661457B26A2AFD"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "5A41CE73D3D4F8A8"
 				item: { count: 1, id: "ufo:nuclear_star" }
@@ -144,6 +154,7 @@
 		{
 			dependencies: ["52661457B26A2AFD"]
 			id: "47BE208DAD4CCDA0"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				fluid: {
 					amount: 1000
@@ -158,6 +169,7 @@
 		{
 			dependencies: ["47EE61629C15A75C"]
 			id: "4EAD2C0C1A1C3FB8"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				fluid: {
 					amount: 1000
@@ -175,6 +187,7 @@
 				"7D909784DF310409"
 			]
 			id: "26DE210C96DBC4DC"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "6B57ECDF06082F74"
 				item: { count: 1, id: "ufo:pulsar_fragment_ingot" }
@@ -189,6 +202,7 @@
 				"2DD5DA63B677EC1B"
 			]
 			id: "7377C285089E9356"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "3927F0A75DE4C9A4"
 				item: { count: 1, id: "chaosworld_core:ingot_tech_9" }
@@ -200,6 +214,7 @@
 		{
 			dependencies: ["1694334C4EEAF5A3"]
 			id: "2DD5DA63B677EC1B"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				amount: 1L
 				id: "790A9CCC5F19472B"
@@ -212,6 +227,7 @@
 		}
 		{
 			id: "1694334C4EEAF5A3"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				icon: {
 					id: "mekanism:sps_port"
@@ -232,6 +248,7 @@
 				"7D76650414F68173"
 			]
 			id: "1C1ADD3C1A03B75E"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "2D72C4A165EC4EE1"
 				item: { count: 1, id: "ufo:enriched_neutronium_sphere" }
@@ -243,6 +260,7 @@
 		{
 			dependencies: ["2D9B54072C00DB80"]
 			id: "08EA4FDADEBE59D0"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				fluid: {
 					amount: 1000
@@ -257,6 +275,7 @@
 		{
 			dependencies: ["71B05F8E64B75860"]
 			id: "14F93380B5F86677"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				amount: 1L
 				id: "7BDD1E298F543AAD"
@@ -270,6 +289,7 @@
 		{
 			dependencies: ["498C50EC73835A6B"]
 			id: "7312356665633FAB"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				amount: 1L
 				id: "59C0E1C544CDB3F9"
@@ -283,6 +303,7 @@
 		{
 			dependencies: ["26DE210C96DBC4DC"]
 			id: "002D6AEB8C52A246"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				amount: 1L
 				id: "53C3BEA9EAFEB634"
@@ -296,6 +317,7 @@
 		{
 			dependencies: ["002D6AEB8C52A246"]
 			id: "2F3587D93CF7D99E"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				amount: 1L
 				id: "1E947EE835C91AB1"
@@ -309,6 +331,7 @@
 		{
 			dependencies: ["08EA4FDADEBE59D0"]
 			id: "453D09494656F2EF"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				amount: 1L
 				id: "6A1EC907ACB15669"
@@ -322,6 +345,7 @@
 		{
 			dependencies: ["4EAD2C0C1A1C3FB8"]
 			id: "60AC7E2B2828AE2C"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				amount: 1L
 				id: "531B9816D1CFEFDF"
@@ -335,6 +359,7 @@
 		{
 			dependencies: ["2DD5DA63B677EC1B"]
 			id: "3E341CA9A20A52B5"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				amount: 1L
 				id: "26E62BE56FCB9AED"

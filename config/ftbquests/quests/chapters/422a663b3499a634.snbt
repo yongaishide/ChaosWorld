@@ -13,6 +13,7 @@
 			height: 2.0d
 			id: "7BFC08556DC3962D"
 			image: ""
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.1333333333333333d
 			x: -7.5d
@@ -23,6 +24,7 @@
 			height: 2.0d
 			id: "6BAA010BFC943FE4"
 			image: ""
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.1333333333333333d
 			x: -7.0d
@@ -33,6 +35,7 @@
 			height: 2.0d
 			id: "48C143F8E277498B"
 			image: ""
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.1333333333333333d
 			x: -6.5d
@@ -43,6 +46,7 @@
 			height: 2.0d
 			id: "29484EC47CB251B9"
 			image: ""
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.1333333333333333d
 			x: -5.5d
@@ -53,6 +57,7 @@
 			height: 2.0d
 			id: "2AEC20817C71C01E"
 			image: ""
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.1333333333333333d
 			x: -6.0d
@@ -63,6 +68,7 @@
 			height: 2.0d
 			id: "524A889D8F1D8AFA"
 			image: ""
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.1333333333333333d
 			x: -3.5d
@@ -73,6 +79,7 @@
 			height: 2.0d
 			id: "580EDCA3A10822B2"
 			image: ""
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.1333333333333333d
 			x: -4.0d
@@ -83,6 +90,7 @@
 			height: 2.0d
 			id: "44AD790424432C00"
 			image: ""
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.1333333333333333d
 			x: -4.5d
@@ -93,6 +101,7 @@
 			height: 2.0d
 			id: "15F1581BA79B056D"
 			image: ""
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.1333333333333333d
 			x: -5.0d
@@ -103,6 +112,7 @@
 			height: 2.0d
 			id: "248C30DBC92D9764"
 			image: ""
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.1333333333333333d
 			x: -2.0d
@@ -113,6 +123,7 @@
 			height: 2.0d
 			id: "3C56F804A5D5800F"
 			image: ""
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.1333333333333333d
 			x: -2.5d
@@ -123,6 +134,7 @@
 			height: 2.0d
 			id: "3197E0B3BBC8346D"
 			image: ""
+			quest_enhance_exclude_from_box_selection: 0b
 			rotation: 0.0d
 			width: 1.1333333333333333d
 			x: -3.0d
@@ -136,6 +148,7 @@
 	quests: [
 		{
 			id: "567BBA166E77D3B6"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "1EAAA043ACCE6FA9"
 				item: { count: 1, id: "chaosworld_core:ingot_tech_1" }
@@ -146,6 +159,7 @@
 		}
 		{
 			id: "4A8D773CD0C36FD2"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "35CB013C1321DC9A"
 				item: { count: 1, id: "chaosworld_core:ingot_tech_2" }
@@ -156,6 +170,7 @@
 		}
 		{
 			id: "087CAA7A466B3479"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "29C33838549C7634"
 				item: { count: 1, id: "chaosworld_core:ingot_tech_3" }
@@ -166,6 +181,7 @@
 		}
 		{
 			id: "00C3B07D6767BDEC"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "79F132F74D51F4A1"
 				item: { count: 1, id: "chaosworld_core:ingot_tech_4" }
@@ -176,6 +192,7 @@
 		}
 		{
 			id: "2B8CCDA710C92B8B"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "621769D633B83845"
 				item: { count: 1, id: "chaosworld_core:ingot_tech_5" }
@@ -186,6 +203,7 @@
 		}
 		{
 			id: "7FDBA2469E0F625D"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "641E94C37AAE5838"
 				item: { count: 1, id: "chaosworld_core:ingot_tech_6" }
@@ -196,6 +214,7 @@
 		}
 		{
 			id: "1BA9FA37AD8ED7B0"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "24FB038AB051DF2C"
 				item: { count: 1, id: "chaosworld_core:ingot_tech_7" }
@@ -206,6 +225,7 @@
 		}
 		{
 			id: "709EA49B3FC3A44B"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "6638236C2E1B6EFF"
 				item: { count: 1, id: "chaosworld_core:ingot_tech_8" }
@@ -216,6 +236,7 @@
 		}
 		{
 			id: "0CCC33DC6384F827"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "7F8E82AC1F7A7439"
 				item: { count: 1, id: "chaosworld_core:ingot_tech_9" }
@@ -226,6 +247,7 @@
 		}
 		{
 			id: "22699452B7869FB0"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0DC929C797A5509C"
 				item: { count: 1, id: "chaosworld_core:ingot_xuancai" }
@@ -236,6 +258,7 @@
 		}
 		{
 			id: "44FB8BC5F3F46B5E"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				icon: {
 					components: {
@@ -252,6 +275,7 @@
 		}
 		{
 			id: "5AC1ED21592C1853"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "1D25F26B77592C20"
 				item: { count: 1, id: "minecraft:iron_ingot" }
@@ -262,6 +286,7 @@
 		}
 		{
 			id: "042ADB9CFF4D5C54"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "569EAC0A4EE6A8F4"
@@ -280,6 +305,7 @@
 		}
 		{
 			id: "08F254EB44EA8EA6"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0CC9108AB362C4DF"
 				item: { count: 1, id: "minecraft:gold_ingot" }
@@ -290,6 +316,7 @@
 		}
 		{
 			id: "420A4907DDB9B220"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "611E8F88D59A89F5"
 				item: { count: 1, id: "minecraft:copper_ingot" }
@@ -300,6 +327,7 @@
 		}
 		{
 			id: "05E9B576F41BA6A9"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "206783BED44BDD24"
 				item: { count: 1, id: "alltheores:steel_ingot" }
@@ -310,6 +338,7 @@
 		}
 		{
 			id: "02AB9A82FC2FF282"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "5FE1E4528B8F0458"
 				item: { count: 1, id: "minecraft:netherite_ingot" }
@@ -320,6 +349,7 @@
 		}
 		{
 			id: "6B6E28245A7ACA28"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "569E114FFC11CD62"
 				item: { count: 1, id: "enderio:vibrant_alloy_ingot" }
@@ -330,6 +360,7 @@
 		}
 		{
 			id: "4CC6E2ADEE3A26FD"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "6664B2F2277E598D"
 				item: { count: 1, id: "alltheores:tin_ingot" }
@@ -340,6 +371,7 @@
 		}
 		{
 			id: "01AD3502864615A8"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "7CABAF71BA631530"
 				item: { count: 1, id: "alltheores:nickel_ingot" }
@@ -350,6 +382,7 @@
 		}
 		{
 			id: "42B9B89BFA195325"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "171FB421B3125D4A"
 				item: { count: 1, id: "alltheores:bronze_ingot" }
@@ -360,6 +393,7 @@
 		}
 		{
 			id: "6A0F13EE7204C855"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "46F3A313680191C9"
 				item: { count: 1, id: "mekanism:ingot_refined_obsidian" }
@@ -370,6 +404,7 @@
 		}
 		{
 			id: "7D4001E9ECAE1EFB"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "475CD9B023B30057"
 				item: { count: 1, id: "enderio_evolution:melodic_alloy_ingot" }
@@ -380,6 +415,7 @@
 		}
 		{
 			id: "39151ACA79C42BAD"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "02EB67960954E6D0"
 				item: { count: 1, id: "enderio_evolution:stellar_alloy_ingot" }
@@ -390,6 +426,7 @@
 		}
 		{
 			id: "2217CB4891775B33"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "2784EE5527774CB4"
 				item: { count: 1, id: "alltheores:brass_ingot" }
@@ -400,6 +437,7 @@
 		}
 		{
 			id: "108CEB8D72E1B046"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "71B659AD4EDC0FC2"
 				item: { count: 1, id: "alltheores:silver_ingot" }
@@ -410,6 +448,7 @@
 		}
 		{
 			id: "3612A2968A8A837C"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0E35B2104B208F4B"
 				item: { count: 1, id: "alltheores:lead_ingot" }
@@ -420,6 +459,7 @@
 		}
 		{
 			id: "5BB1FD00CEEA7F19"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "1E749914FB1DB5FF"
 				item: { count: 1, id: "alltheores:aluminum_ingot" }
@@ -430,6 +470,7 @@
 		}
 		{
 			id: "3F39618378125012"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "3A8FB8E14607C41A"
 				item: { count: 1, id: "alltheores:zinc_ingot" }
@@ -440,6 +481,7 @@
 		}
 		{
 			id: "4DE877D68D347A7F"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "559539CC5151BA6E"
 				item: { count: 1, id: "alltheores:iridium_ingot" }
@@ -450,6 +492,7 @@
 		}
 		{
 			id: "7F53614A9838E32F"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "6BB34C1E61D3511F"
 				item: { count: 1, id: "alltheores:uranium_ingot" }
@@ -460,6 +503,7 @@
 		}
 		{
 			id: "6DAF14ED7BAFB83C"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "43696692FBF2BB47"
 				item: { count: 1, id: "alltheores:osmium_ingot" }
@@ -470,6 +514,7 @@
 		}
 		{
 			id: "66D05D3F65CF6EE7"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "734A9B3E380AAF1D"
 				item: { count: 1, id: "alltheores:platinum_ingot" }
@@ -480,6 +525,7 @@
 		}
 		{
 			id: "7F48FCC042A07AF6"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "51509B002F62E227"
 				item: { count: 1, id: "alltheores:electrum_ingot" }
@@ -490,6 +536,7 @@
 		}
 		{
 			id: "6E9804DD501EBC19"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "19265480B575D6EF"
 				item: { count: 1, id: "ufo:pulsar_fragment_ingot" }
@@ -500,6 +547,7 @@
 		}
 		{
 			id: "62877F6F2CA508E9"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "000965A2182FEA78"
 				item: { count: 1, id: "chaosworld_core:ingot_chaotic_metal" }
@@ -510,6 +558,7 @@
 		}
 		{
 			id: "2F0BE1F08A5A2CBF"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "1849997378637A51"
 				item: { count: 1, id: "ufo:neutron_star_fragment_ingot" }
@@ -520,6 +569,7 @@
 		}
 		{
 			id: "3B8631BCBBD856AC"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				amount: 1L
 				id: "6770465B144D26AA"
@@ -532,6 +582,7 @@
 		}
 		{
 			id: "05FBCB6E08843E2A"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "640ADF041861F2B0"
 				item: { count: 1, id: "avaritia:neutron_ingot" }
@@ -542,6 +593,7 @@
 		}
 		{
 			id: "469A49952C3D59C7"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "3F5BA14FA4F73E00"
 				item: { count: 1, id: "chaosworld_core:ingot_draconic_metal" }
@@ -552,6 +604,7 @@
 		}
 		{
 			id: "05437E351FBA3054"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "568F5BAD3E83A7C9"
 				item: { count: 1, id: "ufo:white_dwarf_fragment_ingot" }
@@ -562,6 +615,7 @@
 		}
 		{
 			id: "3D307A86AEDCB6CE"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "4B9B710A180DC846"
 				item: { count: 1, id: "chaosworld_core:ingot_twilight_alloy" }
@@ -572,6 +626,7 @@
 		}
 		{
 			id: "75709C740AB80486"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "72AE4F6A97CFA768"
 				item: { count: 1, id: "data_energistics:solidified_obsidian" }
@@ -582,6 +637,7 @@
 		}
 		{
 			id: "3618E073C16E0967"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "480D6E5FF1A0F08B"
 				item: { count: 1, id: "chaosworld_core:ingot_wyvern_metal" }
@@ -592,6 +648,7 @@
 		}
 		{
 			id: "5013B36C5BDE11E7"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "4697074549C1E46E"
 				item: { count: 1, id: "data_energistics:digisidian_memorize_ingot" }
@@ -602,6 +659,7 @@
 		}
 		{
 			id: "355C74FBD1C39BED"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "4FDF20875CFBA3D8"
 				item: { count: 1, id: "avaritia:crystal_matrix_ingot" }
@@ -612,6 +670,7 @@
 		}
 		{
 			id: "4B5F421201C2E3D6"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0BBB84219E82032F"
 				item: { count: 1, id: "allthemodium:unobtainium_ingot" }
@@ -622,6 +681,7 @@
 		}
 		{
 			id: "6BAAF519BA9A20D3"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "227C1D4144EF90A3"
 				item: { count: 1, id: "allthemodium:vibranium_ingot" }
@@ -632,6 +692,7 @@
 		}
 		{
 			id: "7DC347FFEAB3E9D2"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "694817FB39D1E951"
 				item: { components: { "ftbfiltersystem:filter": "or(item(iceandfire:dragonsteel_fire_ingot)item(iceandfire:dragonsteel_ice_ingot)item(iceandfire:dragonsteel_lightning_ingot))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -642,6 +703,7 @@
 		}
 		{
 			id: "3D56117CEB5A970F"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "61B6126A19E51831"
 				item: { count: 1, id: "extendedcrafting:the_ultimate_ingot" }
@@ -652,6 +714,7 @@
 		}
 		{
 			id: "669DE3326D2A7B91"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "119A225FDF0D93FB"
 				item: { count: 1, id: "allthemodium:allthemodium_ingot" }
@@ -662,6 +725,7 @@
 		}
 		{
 			id: "0DD91A472B456D39"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "1F46806CE356C9D8"
 				item: { count: 1, id: "neoecoae:crystal_ingot" }
@@ -672,6 +736,7 @@
 		}
 		{
 			id: "24E200CD7A9F370A"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "46F5EB7EF3CC9EA1"
 				item: { count: 1, id: "enderio_evolution:crystalline_pink_slime_ingot" }
@@ -682,6 +747,7 @@
 		}
 		{
 			id: "385FE3EDEBD7EED6"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "7CCFBAF03E5BE8D3"
 				item: { count: 1, id: "alltheores:lumium_ingot" }
@@ -692,6 +758,7 @@
 		}
 		{
 			id: "3CEE3CF03A30A81B"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "299B7AB6201AE664"
 				item: { count: 1, id: "ae2omnicells:ender_ingot" }
@@ -702,6 +769,7 @@
 		}
 		{
 			id: "22E20ABDC08D3537"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "137D765AB4DA3EFF"
 				item: { count: 1, id: "alltheores:enderium_ingot" }
@@ -712,6 +780,7 @@
 		}
 		{
 			id: "7E5CDA11AC3E9328"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0D39D2C4F1D6A8D1"
 				item: { count: 1, id: "draconicevolution:draconium_ingot" }
@@ -722,6 +791,7 @@
 		}
 		{
 			id: "0726D65F2EE5ED64"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "23F9EFEF0039324D"
 				item: { count: 1, id: "draconicevolution:awakened_draconium_ingot" }
@@ -732,6 +802,7 @@
 		}
 		{
 			id: "40540C7E54ED9DD1"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "34F4DF8F54CD6294"
 				item: { count: 1, id: "chaosworld_core:neutronite_ingot" }
@@ -742,6 +813,7 @@
 		}
 		{
 			id: "2A897C0FFE2708E3"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "1A90878AD894C9D0"
 				item: { count: 1, id: "chaosworld_core:holy_gold_ingot" }
@@ -752,6 +824,7 @@
 		}
 		{
 			id: "564DB22B5B33652B"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "5696289BA122CEDD"
 				item: { count: 1, id: "alltheores:signalum_ingot" }
@@ -762,6 +835,7 @@
 		}
 		{
 			id: "2BA248D90FE99B61"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "1F02701250D0BB4F"
 				item: { count: 1, id: "advanced_ae:quantum_alloy" }
@@ -772,6 +846,7 @@
 		}
 		{
 			id: "6A1096F42572717F"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0A636D9E1FB7E427"
 				item: { count: 1, id: "rainbowcompound:enderite_ingot" }
@@ -782,6 +857,7 @@
 		}
 		{
 			id: "7BBC8DC613D09EB7"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "528DAE7C73B48AB9"
 				item: { count: 1, id: "enderio_evolution:crystalline_alloy_ingot" }
@@ -792,6 +868,7 @@
 		}
 		{
 			id: "4DC48B728B7FA327"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "5639B4ADE283F238"
 				item: { count: 1, id: "chaosworld_core:ingot_ice" }
@@ -802,6 +879,7 @@
 		}
 		{
 			id: "42A4631E91289653"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0F11036712B79A55"
 				item: { count: 1, id: "chaosworld_core:ingot_lich" }
@@ -812,6 +890,7 @@
 		}
 		{
 			id: "74AC9527C63B00B0"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "53639A5B3BC615A8"
 				item: { count: 1, id: "twilightforest:fiery_ingot" }
@@ -822,6 +901,7 @@
 		}
 		{
 			id: "13E4B0D99421BE11"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "1A590897B6282CEE"
 				item: { count: 1, id: "enderio:pulsating_alloy_ingot" }
@@ -832,6 +912,7 @@
 		}
 		{
 			id: "5EEC105CED006FF6"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "1D716850F9516A8B"
 				item: { count: 1, id: "enderio:energetic_alloy_ingot" }
@@ -842,6 +923,7 @@
 		}
 		{
 			id: "2FBCA3B26B71A1AF"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0DAE186A98D03817"
 				item: { count: 1, id: "chaosworld_core:ingot_quantum" }
@@ -852,6 +934,7 @@
 		}
 		{
 			id: "7A6BD0C91AF67D7B"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "63B465BCB3CB8C63"
 				item: { count: 1, id: "alltheores:invar_ingot" }
@@ -862,6 +945,7 @@
 		}
 		{
 			id: "1DDD72DC4E311627"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "5440F0C689A61D04"
 				item: { count: 1, id: "neoecoae:aluminum_alloy_ingot" }
@@ -872,6 +956,7 @@
 		}
 		{
 			id: "5AD19ACD3E10A211"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "4EABCB74D01BA47F"
 				item: { count: 1, id: "enderio:soularium_ingot" }
@@ -882,6 +967,7 @@
 		}
 		{
 			id: "0DA1B2E7E27ED386"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "24B612E54273F9A2"
 				item: { count: 1, id: "naturesaura:tainted_gold" }
@@ -892,6 +978,7 @@
 		}
 		{
 			id: "6644933F22B41ACB"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "1A7EB47506BA9836"
 				item: { count: 1, id: "naturesaura:infused_iron" }
@@ -902,6 +989,7 @@
 		}
 		{
 			id: "7D791954D00B6AEB"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "67AEFBD86520F1B0"
 				item: { count: 1, id: "extendedae:entro_ingot" }
@@ -912,6 +1000,7 @@
 		}
 		{
 			id: "08B8597179481FF2"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "6C2A273518E9B060"
 				item: { count: 1, id: "immersiveengineering:ingot_hop_graphite" }
@@ -922,6 +1011,7 @@
 		}
 		{
 			id: "624576E1D4E4EE02"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "57F7C658F2AD6A06"
 				item: { count: 1, id: "enderio_evolution:energetic_silver_ingot" }
@@ -932,6 +1022,7 @@
 		}
 		{
 			id: "19DE864968C5937A"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "01E61A9FEC7A6F6A"
 				item: { count: 1, id: "enderio_evolution:vivid_alloy_ingot" }
@@ -942,6 +1033,7 @@
 		}
 		{
 			id: "083463052C39F481"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "6DC77FDCA26E5734"
 				item: { count: 1, id: "enderio:conductive_alloy_ingot" }
@@ -952,6 +1044,7 @@
 		}
 		{
 			id: "2B5C89E9D30160B9"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "44EF6B41D8B26699"
 				item: { count: 1, id: "ae2omnicells:charged_ender_ingot" }
@@ -962,6 +1055,7 @@
 		}
 		{
 			id: "762D2889C6982E54"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "102BB597DC400241"
 				item: { count: 1, id: "extendedcrafting:enhanced_ender_ingot" }
@@ -972,6 +1066,7 @@
 		}
 		{
 			id: "252C55E8304FF472"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "623A0BA44CD0E505"
 				item: { count: 1, id: "extendedcrafting:enhanced_redstone_ingot" }
@@ -982,6 +1077,7 @@
 		}
 		{
 			id: "50A8BBA3A389F9D2"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "123510AA64A6A815"
 				item: { count: 1, id: "ae2lt:overload_alloy" }
@@ -992,6 +1088,7 @@
 		}
 		{
 			id: "7CDEE3EE9D1A8634"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "52B4A32502005E27"
 				item: { count: 1, id: "ae2lt:firmament_alloy_ingot" }
@@ -1002,6 +1099,7 @@
 		}
 		{
 			id: "11959FC3E17F6830"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "041B464CE39C8B72"
 				item: { count: 1, id: "mekanism_extras:ingot_naquadah" }
@@ -1012,6 +1110,7 @@
 		}
 		{
 			id: "2B8526342E5CD06C"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "784BBF5E3EEE8DEB"
 				item: { count: 1, id: "ifmup:star_ether_alloy_ingot" }
@@ -1022,6 +1121,7 @@
 		}
 		{
 			id: "318DEAA68724528B"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "4384C0124E2F16F9"
 				item: { count: 1, id: "pneumaticcraft:ingot_iron_compressed" }
@@ -1032,6 +1132,7 @@
 		}
 		{
 			id: "42A757FFF12E5C32"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "44E4F6297B2F50F4"
 				item: { count: 1, id: "enderio:redstone_alloy_ingot" }
@@ -1042,6 +1143,7 @@
 		}
 		{
 			id: "5C2D4F7646E2BD88"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "4FD211FB31447C6D"
 				item: { count: 1, id: "extendedcrafting:redstone_ingot" }
@@ -1052,6 +1154,7 @@
 		}
 		{
 			id: "1AC7279B2DBFE630"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "7C9D030567BC131A"
 				item: { count: 1, id: "neoecoae:tungsten_ingot" }

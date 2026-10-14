@@ -14,6 +14,7 @@
 	quest_links: [ ]
 	quests: [{
 		id: "3DA52B1159760012"
+		quest_enhance_disable_scroll_paging: false
 		tasks: [{
 			id: "1E6FE719A65818CA"
 			item: { count: 1, id: "sophisticatedstorage:survival_infinity_upgrade" }

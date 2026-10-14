@@ -23,6 +23,7 @@
 		{
 			dependencies: ["3137548559C85FBA"]
 			id: "31FF1D52F7DAC04D"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "28F65140E7120C77"
@@ -40,6 +41,7 @@
 		{
 			dependencies: ["31FF1D52F7DAC04D"]
 			id: "6EE24CB5B31A45EF"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2E45A0EAE7E669BE"
@@ -60,6 +62,7 @@
 		{
 			dependencies: ["0D4CD52D3B40877E"]
 			id: "27396FAD0E26FAD0"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0732CA39127080CF"
@@ -77,6 +80,7 @@
 		{
 			dependencies: ["3137548559C85FBA"]
 			id: "0AB99936429AE835"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3E5918CDEEDFD6B4"
@@ -94,6 +98,7 @@
 		{
 			dependencies: ["72D3E36C4197A53D"]
 			id: "6BE7539266AF7C95"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "543F84956D0C27FB"
@@ -111,6 +116,7 @@
 		{
 			dependencies: ["4A86403CA81D5BF3"]
 			id: "72D3E36C4197A53D"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "00D6C1AFA81A777E"
@@ -128,6 +134,7 @@
 		{
 			dependencies: ["7434004913A44270"]
 			id: "4A86403CA81D5BF3"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2B70E2CFDDBCB878"
@@ -148,6 +155,7 @@
 				"67CC881460BC7312"
 			]
 			id: "7434004913A44270"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "4772D2617E94518D"
@@ -165,6 +173,7 @@
 		{
 			dependencies: ["6509D4C15F29CDEE"]
 			id: "5212F909ACA26A66"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1C50E0032D6FDA5A"
@@ -182,6 +191,7 @@
 		{
 			dependencies: ["5212F909ACA26A66"]
 			id: "67CC881460BC7312"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "570E971D15FBD4CD"
@@ -199,6 +209,7 @@
 		{
 			dependencies: ["0AB99936429AE835"]
 			id: "64F5529172752BFC"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					id: "7A5D0219A5212E06"
@@ -229,6 +240,7 @@
 		{
 			dependencies: ["4A86403CA81D5BF3"]
 			id: "08F624F538DBE83C"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3D38B2FE3CE0306E"
@@ -246,6 +258,7 @@
 		{
 			dependencies: ["7434004913A44270"]
 			id: "1E56A28262AE1D17"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					id: "7829B478575638FB"
@@ -300,6 +313,7 @@
 		{
 			dependencies: ["08F624F538DBE83C"]
 			id: "37E540513A2057D6"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6A5D24B807A32209"
@@ -317,6 +331,7 @@
 		{
 			dependencies: ["37E540513A2057D6"]
 			id: "41E123C6B5F105C7"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2FEB4A873604C2FB"
@@ -334,6 +349,7 @@
 		{
 			dependencies: ["37E540513A2057D6"]
 			id: "223E859154A32203"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "08DF23C61B2A194A"
@@ -351,6 +367,7 @@
 		{
 			dependencies: ["683FA8DA5355B568"]
 			id: "2253226C1919FFDE"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3EFBE1065909E6A8"
@@ -374,6 +391,7 @@
 				id: "pneumaticcraft:pressure_chamber_wall"
 			}
 			id: "6509D4C15F29CDEE"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "4542A4424F796BCD"
@@ -405,6 +423,7 @@
 		{
 			dependencies: ["27396FAD0E26FAD0"]
 			id: "1D1F4A4A096EE030"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3D703BD3A9784510"
@@ -427,6 +446,7 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "2BAED3D049D94FA3"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "629B5868214D6F86"
@@ -444,6 +464,7 @@
 		{
 			dependencies: ["7434004913A44270"]
 			id: "4F2F703E5B15578C"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "23D5E9FF28AC45F9"
@@ -461,6 +482,7 @@
 		{
 			dependencies: ["0D4CD52D3B40877E"]
 			id: "37CB7442517B4A6C"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "453AFBAC52BFA72D"
@@ -488,6 +510,7 @@
 				"7353A5C22967BB14"
 			]
 			id: "0D4CD52D3B40877E"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "375FC29D9E553FE0"
@@ -508,6 +531,7 @@
 		{
 			dependencies: ["2253226C1919FFDE"]
 			id: "135D0D009E96A604"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "017B97AC71349333"
@@ -525,6 +549,7 @@
 		{
 			dependencies: ["2253226C1919FFDE"]
 			id: "33309F072446917E"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "5B069A7478B86383"
@@ -554,6 +579,7 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "7353A5C22967BB14"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7862AB3F38C056D0"
@@ -574,6 +600,7 @@
 		{
 			dependencies: ["568FA380255E4C03"]
 			id: "42FDE9E81B1E1EF4"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "406B32934D44D630"
 				item: { count: 1, id: "appliedpneumatics:me_amadron_extended_process_station" }
@@ -585,6 +612,7 @@
 		{
 			dependencies: ["2BAED3D049D94FA3"]
 			id: "568FA380255E4C03"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "1C8C58D6165A0D85"
 				item: { count: 1, id: "appliedpneumatics:me_amadron_process_station" }
@@ -596,6 +624,7 @@
 		{
 			dependency_requirement: "all_started"
 			id: "193960A16BB4BF92"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				fluid: {
 					amount: 1000
@@ -610,6 +639,7 @@
 		{
 			dependencies: ["3137548559C85FBA"]
 			id: "1A520BE24A151A1E"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "4A837E5BB5127CE3"
 				item: { count: 1, id: "ae2cs:crystal_growth_chamber" }
@@ -621,6 +651,7 @@
 		{
 			dependencies: ["0AB99936429AE835"]
 			id: "70101DFFD3998D5B"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				count: 32L
 				id: "747CB797E46F4F89"
@@ -633,6 +664,7 @@
 		{
 			dependencies: ["70101DFFD3998D5B"]
 			id: "3BBEE5A0A7B90ACC"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "569B0EC1FD40BFC7"
 				item: { count: 1, id: "powah:dielectric_casing" }
@@ -644,6 +676,7 @@
 		{
 			dependencies: ["3BBEE5A0A7B90ACC"]
 			id: "6BD843EAB87F3222"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "77985E9D29379E87"
 				item: { count: 1, id: "powah:energizing_orb" }

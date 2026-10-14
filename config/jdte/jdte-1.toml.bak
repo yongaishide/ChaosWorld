@@ -118,6 +118,12 @@
 		ultimateTimeWandEnergyCostMultiplier = 1.0
 		#Keep fractional Ultimate Time Wand fluid cost between settlements
 		ultimateTimeWandFractionalFluidSettlement = true
+		#Ticks between block entity machine target cache refreshes
+		# Default: 20
+		# Range: 1 ~ 1200
+		timeAcceleratorMachineRefreshInterval = 20
+		#Enable visual overlay effect entities on accelerated blocks. Set to false to disable effect entities and reduce network packet traffic.
+		timeAcceleratorEffectsEnabled = true
 
 	#Bio Crusher Settings
 	[jdte.bioCrusher]
@@ -506,6 +512,10 @@
 		dynamicHarvestCallsPerTick = 128
 		#When disabled, dynamic Greenhouse and Large Greenhouse JEI recipes are not generated; data-pack recipes remain available.
 		recipeGenerationEnabled = true
+		#Mystical Agriculture crop growth work percentage increase per tier above Tier 1
+		# Default: 50
+		# Range: 0 ~ 10000
+		mysticalTierGrowthPercent = 50
 
 	#Life Synthesis Vat Settings
 	[jdte.lifeSynthesisVat]
@@ -875,3 +885,45 @@
 		timeAcceleratorEnabled = true
 		#When disabled, all Time Freezer blocks and their bundled crafting recipes remain registered but cannot be used.
 		timeFreezerEnabled = true
+
+	#Entity Accelerator Settings
+	[jdte.entityAccelerator]
+		# Default: 200000
+		# Range: 1000 ~ 100000000
+		advancedEnergyCapacity = 200000
+		# Default: 500000
+		# Range: 1000 ~ 100000000
+		extendedEnergyCapacity = 500000
+		# Default: 10000
+		# Range: 100 ~ 100000
+		baseFluidCapacity = 10000
+		# Default: 4
+		# Range: 1 ~ 64
+		advancedDefaultMultiplier = 4
+		# Default: 64
+		# Range: 1 ~ 64
+		advancedMaxMultiplier = 64
+		# Default: 128
+		# Range: 1 ~ 256
+		advancedOverclockMultiplier = 128
+		# Default: 512
+		# Range: 1 ~ 512
+		extendedMaxMultiplier = 512
+		# Default: 1024
+		# Range: 1 ~ 1024
+		extendedOverclockMultiplier = 1024
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		fluidCostMultiplier = 1.0
+		# Default: 2.0
+		# Range: 0.1 ~ 100.0
+		advancedTierFluidCostMultiplier = 2.0
+		# Default: 5.0
+		# Range: 0.1 ~ 100.0
+		extendedTierFluidCostMultiplier = 5.0
+		# Default: 32
+		# Range: 1 ~ 512
+		advancedMaxEntitiesPerTick = 32
+		# Default: 64
+		# Range: 1 ~ 512
+		extendedMaxEntitiesPerTick = 64

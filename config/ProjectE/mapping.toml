@@ -543,6 +543,26 @@ logFoundExploits = true
 			#Determines whether this Recipe Type Mapper is enabled.
 			enabled = true
 
+		#ProjectE-Integration Recipe Mapper for Astral Sorcery Altar Mapper. Required Mods: [astralsorcery]
+		[mappers.Crafting-Mapper.AstralSorceryAltarMapper]
+			#Determines whether this Recipe Type Mapper is enabled.
+			enabled = true
+
+		#ProjectE-Integration Recipe Mapper for Astral Sorcery Lightwell Mapper. Required Mods: [astralsorcery] NOTE: Disabled by default. Maps 1 Item to 1 bucket (1000)
+		[mappers.Crafting-Mapper.AstralSorceryLightwellMapper]
+			#Determines whether this Recipe Type Mapper is enabled.
+			enabled = false
+
+		#ProjectE-Integration Recipe Mapper for Astral Sorcery Infusion Mapper. Required Mods: [astralsorcery]
+		[mappers.Crafting-Mapper.AstralSorceryInfusionMapper]
+			#Determines whether this Recipe Type Mapper is enabled.
+			enabled = true
+
+		#ProjectE-Integration Recipe Mapper for Astral Sorcery Focal Transmutation Mapper. Required Mods: [astralsorcery]
+		[mappers.Crafting-Mapper.AstralSorceryFocalTransmutationMapper]
+			#Determines whether this Recipe Type Mapper is enabled.
+			enabled = true
+
 	#Set EMC=0 for everything in the c:raw_materials tag.
 	[mappers.Raw-Ore-Blacklist-Mapper]
 		#Determines whether this EMC Mapper is enabled.

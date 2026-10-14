@@ -15,6 +15,7 @@
 	quests: [
 		{
 			id: "4CC6B9B8DFD6525E"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "60496F3FE5ADF8E4"
 				item: { count: 1, id: "iceandfire:ice_dragon_heart" }
@@ -25,6 +26,7 @@
 		}
 		{
 			id: "01AA30DDB5C87965"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "2B7AB7C3F9D093AC"
 				item: { count: 1, id: "iceandfire:fire_dragon_heart" }
@@ -35,6 +37,7 @@
 		}
 		{
 			id: "154A65EE62AF4116"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "18A64458001BE34D"
 				item: { count: 1, id: "iceandfire:lightning_dragon_heart" }

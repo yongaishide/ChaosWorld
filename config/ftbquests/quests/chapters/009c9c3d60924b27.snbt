@@ -12,6 +12,7 @@
 		height: 0.4583333333333333d
 		id: "36121174834E16FC"
 		image: ""
+		quest_enhance_exclude_from_box_selection: 0b
 		rotation: 0.0d
 		width: 2.4166666666666665d
 		x: 1.0d
@@ -29,6 +30,7 @@
 			id: "ftbquests:custom_icon"
 		}
 		id: "55D2B3830627481E"
+		quest_enhance_disable_scroll_paging: false
 		rewards: [{
 			exclude_from_claim_all: true
 			id: "2E40859C1D811362"
