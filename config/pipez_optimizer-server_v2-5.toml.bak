@@ -7,6 +7,9 @@
 	enableEnergyCustomFrequency = true
 	#是否允许玩家自定义【气体管道】的抽取频率（1~200 tick）。
 	enableGasCustomFrequency = true
+	#记住每个管道连接面最后选择的传输类型标签页，下次打开该管道 GUI 时自动恢复。[true / false]
+	#数据只保存在客户端 config 文件夹中，绝不写入世界存档。
+	enableRememberLastTab = true
 
 [Optimization]
 	#物品管道在空/满时的最大休眠时间（tick）。0 = 关闭该类型休眠。
