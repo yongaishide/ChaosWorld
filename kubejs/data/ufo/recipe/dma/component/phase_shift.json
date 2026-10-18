@@ -12,7 +12,7 @@
   "fluid_outputs": [],
   "item_inputs": [
     {
-      "amount": 8,
+      "amount": 2,
       "ingredient": {
         "item": "ufo:dimensional_processor"
       }
@@ -20,19 +20,13 @@
     {
       "amount": 3,
       "ingredient": {
-        "item": "ae2omnicells:quantum_omni_cell_component_256m"
+        "item": "chaosworld_core:ingot_tech_7"
       }
     },
     {
-      "amount": 8,
+      "amount": 2,
       "ingredient": {
-        "item": "ae2:quartz_vibrant_glass"
-      }
-    },
-    {
-      "amount": 8,
-      "ingredient": {
-        "item": "minecraft:nether_star"
+        "item": "neoecoae:superconducting_processor"
       }
     }
   ],

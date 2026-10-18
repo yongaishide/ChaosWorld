@@ -895,7 +895,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["683FA8DA5355B568"]
@@ -940,6 +940,20 @@
 			}]
 			x: 12.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["6C5E33EEDAA5C40B"]
+			id: "3202A9534D992E50"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "6362A850288DF849"
+				key_type: "ae2:i"
+				resource: "mmcr:modularium"
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -2.0d
+			y: 6.0d
 		}
 	]
 }

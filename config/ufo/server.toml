@@ -115,3 +115,20 @@
 		# Default: 20
 		# Range: 1 ~ 20
 		luck_level = 20
+
+[nexus]
+	#Pattern dispatches the Quantum Computation Nexus shares between all active jobs per tick.
+	#Newly loaded jobs ramp up over four ticks, so this is also the per-tick safety ceiling.
+	#Lower this on servers with many parallel jobs; raise it only if the server can absorb the extra pattern pushes.
+	# Default: 16384
+	# Range: 256 ~ 1048576
+	maxPatternDispatchesPerTick = 16384
+	#When true, Quantum Computation Nexus jobs do not pay AE2's per-pattern crafting energy.
+	#The Nexus still needs its Grid Link powered (32 AE/t) and every other machine pays energy normally.
+	#Set to false to restore AE2's native per-pattern cost.
+	ignorePatternEnergy = true
+	#When true, the Nexus scales its dispatch window down when the stored grid buffer is low:
+	#below 10% one lane per job, below 25% one eighth, below 50% one half.
+	#Off by default because AE2 and CPU addons do not throttle dispatch by stored energy.
+	#Only meaningful when nexus.ignorePatternEnergy is false and the network cannot sustain the craft drain.
+	energyThrottle = false

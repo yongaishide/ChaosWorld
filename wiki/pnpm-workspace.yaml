@@ -1,0 +1,4 @@
+nodeLinker: hoisted
+storeDir: .pnpm-store
+allowBuilds:
+  esbuild: false

@@ -77,3 +77,7 @@
 		guiStoragePauseSortingWhileShifting = true
 		#If the tooltips in the storage terminal should indicate the channels in which ingredients are available when all channels are shown at once.
 		guiStorageTooltipChannels = true
+		#For testing only: hold storage terminal clicks back by this many milliseconds, to imitate a server that is far away. 0 disables this.
+		guiStorageSimulatedLatency = 0
+		#If storage terminal interactions should be shown immediately, before the server confirms them.
+		guiStoragePredictInteractions = true

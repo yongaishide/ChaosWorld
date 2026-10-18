@@ -27,7 +27,6 @@ ServerEvents.recipes(event => {
         "mekanismgenerators:heat_generator",
         "ae2:crafting_terminal",
         "minecraft:ender_eye",
-        "mekanism:energized_smelter",
         "advanced_ae:reaction_chamber",
         "powah:dielectric_paste",
         "ifeu:arcane_dragon_egg_forging",

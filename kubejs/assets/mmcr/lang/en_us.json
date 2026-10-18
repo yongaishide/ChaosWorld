@@ -1,4 +1,16 @@
 {
-  "block.mmcr.kubejs_blast_furnace_controller": "Blast Furnace Controller",
-  "recipe_pool.mmcr_kubejs.kubejs_blast_furnace": "Blast Furnace"
+    "block.mmcr.kubejs_blast_furnace_controller": "Blast Furnace Controller",
+    "recipe_pool.mmcr_kubejs.kubejs_blast_furnace": "Blast Furnace",
+    "machine.chaosworld_core.artificial_star": "Artificial Star",
+    "block.mmcr.artificial_star_controller": "Artificial Star",
+    "item.mmcr.artificial_star_controller": "Artificial Star",
+    "recipe_pool.chaosworld_core.artificial_star": "Artificial Star",
+    "block.mmcr.kubejs_space_elevator_controller": "Space Elevator Controller",
+    "item.mmcr.kubejs_space_elevator_controller": "Space Elevator Controller",
+    "block.mmcr.kubejs_space_reassembler_controller": "Space Reassembler Controller",
+    "item.mmcr.kubejs_space_reassembler_controller": "Space Reassembler Controller",
+    "machine.mmcr_kubejs.kubejs_space_elevator": "Space Elevator",
+    "machine.mmcr_kubejs.kubejs_space_reassembler": "Space Reassembler",
+    "recipe_pool.mmcr_kubejs.kubejs_space_elevator": "Space Elevator",
+    "recipe_pool.mmcr_kubejs.kubejs_space_reassembler": "Space Reassembler"
 }

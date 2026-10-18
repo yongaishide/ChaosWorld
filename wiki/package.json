@@ -1,0 +1,19 @@
+{
+  "name": "chaosworld-wiki",
+  "private": true,
+  "type": "module",
+  "description": "ChaosWorld 整合包中文指南（VitePress）",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview",
+    "docs:serve": "node scripts/serve.mjs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.18"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild"]
+  }
+}

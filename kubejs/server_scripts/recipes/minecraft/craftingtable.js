@@ -465,7 +465,7 @@ ServerEvents.recipes(event => {
     }
   );//添加有序合成"热量输入仓"配方
   event.shaped(
-    Item.of('mmcr:heat_input_hatch'),
+    Item.of('mmcr:heat_output_hatch'),
     [
       'ABA',
       'BCB',
@@ -476,5 +476,5 @@ ServerEvents.recipes(event => {
       B: 'immersiveengineering:wirecoil_copper',
       C: 'immersiveengineering:coil_lv'
     }
-  );//添加有序合成"热量输入仓"配方
+  );//添加有序合成"热量输出仓"配方
 });

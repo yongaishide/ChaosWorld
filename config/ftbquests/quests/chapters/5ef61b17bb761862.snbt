@@ -351,18 +351,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["55AEBF82CAD3F5E2"]
-			id: "79CF65F9440558BB"
-			quest_enhance_disable_scroll_paging: false
-			tasks: [{
-				id: "02068E16BB938346"
-				item: { components: { "ftbquests:missing_item": "ae2lt:overloaded_matter_condenser" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: -0.5d
-			y: -1.0d
-		}
-		{
 			dependencies: ["4B107E0048BA3880"]
 			id: "0CCBB6169806C679"
 			quest_enhance_disable_scroll_paging: false
