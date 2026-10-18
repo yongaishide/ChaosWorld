@@ -6,7 +6,7 @@ ItemEvents.modifyTooltips(event =>{
     event.add("extendedae:assembler_matrix_glass",Text.translate("tooltip.kubejs.assembler_matrix_glass"))
     event.add("#minecraft:candles",Text.translate("tooltip.kubejs.candle"))
     event.add("minecraft:diamond",Text.translate("tooltip.kubejs.diamond"))
-    event.modify(["ae2lt:pigmee_storage_cell","ae2lt:pigmee_item_cell_housing","ae2lt:pigmee_storage_component","ae2lt:pigmee_core","ae2lt:pigmee_molecular_assembler","ae2lt:pigmee_pattern_provider","ae2lt:pigmee_mentalmath_unit"], builder =>{
+    event.modify(["ae2lt:pigmee_storage_cell","ae2lt:pigmee_item_cell_housing","ae2lt:pigmee_storage_component","ae2lt:pigmee_core","ae2lt:pigmee_molecular_assembler","ae2lt:pigmee_pattern_provider","ae2lt:pigmee_mentalmath_unit","ae2lt:pigmee_synthesis_station"], builder =>{
         builder.insert(1,[Text.translate("tooltip.kubejs.pigmee_storage_cell").color("#FCA2A2")])
     })
     event.modify(["applied_extended_crafting:table_advanced_pattern_provider","applied_extended_crafting:table_elite_pattern_provider","applied_extended_crafting:table_ultimate_pattern_provider"], builder =>{

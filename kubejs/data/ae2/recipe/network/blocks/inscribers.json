@@ -10,11 +10,14 @@
     },
     "c": {
       "tag": "c:ingots/copper"
+    },
+    "d": {
+      "item": "immersiveengineering:light_engineering"
     }
   },
   "pattern": [
     "aba",
-    "c a",
+    "cda",
     "aba"
   ],
   "result": {

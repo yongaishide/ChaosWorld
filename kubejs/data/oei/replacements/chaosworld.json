@@ -1066,5 +1066,17 @@
       "occultism:amethyst_dust"
     ],
     "resultItems": "data_energistics:amethyst_dust"
+  },
+  {
+    "matchItems": [
+      "createaddition:copper_wire"
+    ],
+    "resultItems": "immersiveengineering:wire_copper"
+  },
+  {
+    "matchItems": [
+      "ae2:item_cell_housing"
+    ],
+    "resultItems": "ae2:item_cell_housing"
   }
 ]

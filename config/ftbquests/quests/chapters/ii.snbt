@@ -578,30 +578,6 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["3A7D70075A7E9BDE"]
-			id: "657E1EFFCD67D1FD"
-			quest_enhance_disable_scroll_paging: false
-			tasks: [{
-				id: "33EDE4C9D62B7531"
-				item: { count: 1, id: "ae2lt:cracked_budding_overload_crystal" }
-				type: "item"
-			}]
-			x: 7.0d
-			y: -7.0d
-		}
-		{
-			dependencies: ["657E1EFFCD67D1FD"]
-			id: "6C8167D5F505718F"
-			quest_enhance_disable_scroll_paging: false
-			tasks: [{
-				id: "028ECE4B05F7B921"
-				item: { count: 1, id: "ae2lt:overload_crystal" }
-				type: "item"
-			}]
-			x: 9.0d
-			y: -7.0d
-		}
-		{
 			dependencies: [
 				"18CB31F1BDBC7F12"
 				"079FAFD999F6FAF8"
@@ -631,7 +607,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["6C8167D5F505718F"]
+			dependencies: ["5151F30F4F0BEC14"]
 			id: "6D36D2232CA903F7"
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
@@ -655,10 +631,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: [
-				"6BE3DCCDF1084AA3"
-				"6C8167D5F505718F"
-			]
+			dependencies: ["6BE3DCCDF1084AA3"]
 			id: "02D19F2825564949"
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
