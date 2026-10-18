@@ -1,0 +1,11 @@
+[BatchInstall]
+	#顺序填充模式（默认关闭）。
+	#开启：先把一台机器塞满，再塞下一台。
+	#关闭：在所有机器之间平均分配插件。
+	#游戏中按 Shift+N 切换。
+	sequentialFillMode = false
+	#对角检测模式（默认关闭）。
+	#开启：批量检测会同时检查斜对角的机器（正方形范围扫描）。
+	#关闭：只检查直接相邻的机器。
+	#游戏中按 Shift+M 切换。
+	diagonalDetectionMode = false
