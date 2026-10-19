@@ -1,0 +1,22 @@
+#Edit Artificial Sun Settings
+[artificial_sun]
+	#Amount of energy created from each whole mB of hydrogen.
+	# Default: 2048000000
+	# Range: 0 ~ 9223372036854775807
+	hydrogenEnergy = 2048000000
+	#Amount of fuel (mB) that the artificial sun can store.
+	# Default: 1000
+	# Range: 1 ~ 1000000
+	fuelCapacity = 1000
+	#Amount of energy (Joules) the artificial sun can store.
+	# Default: 8192000000
+	# Range: 1 ~ 9223372036854775807
+	energyCapacity = 8192000000
+	#The default burn rate of the artificial sun.
+	# Default: 1.0
+	# Range: 0.1 ~ 100.0
+	defaultBurnRate = 1.0
+	#The max burn rate of the artificial sun.
+	# Default: 100.0
+	# Range: 0.1 ~ 1000.0
+	maxBurnRate = 100.0

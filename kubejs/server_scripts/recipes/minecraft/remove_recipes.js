@@ -68,7 +68,8 @@ ServerEvents.recipes(event => {
         "mekanismgenerators:fission_reactor_port",
         "draconicevolution:chaotic_energy_core",
         'mmcr:heat_input_hatch',
-        'mmcr:heat_output_hatch'
+        'mmcr:heat_output_hatch',
+        "mmcr:modularium"
     ]
     recipeTypeall.forEach((item) => {
         event.remove({ output: item, type: 'minecraft:crafting_shaped' })

@@ -1,4 +1,5 @@
 ServerEvents.recipes((event) => {
+    //合金炉
     event.custom(
         {"type":"alloy_smelter:smelting",
             "ingredients":[
@@ -97,6 +98,43 @@ ServerEvents.recipes((event) => {
                 {"ingredient":{"item":"immersiveengineering:dust_coke"},"count":2}
             ],
             "result":{"id":"chaosworld_core:ingot_tech_2","count":2},
+            "smeltingTime":60,
+            "fuelPerTick":1,
+            "requiredTier":3}
+    )
+    //模块化合金
+    event.custom(
+        {"type":"alloy_smelter:smelting",
+            "ingredients":[
+                {"ingredient":{"item":"alltheores:bronze_ingot"},"count":2},
+                {"ingredient":{"item":"minecraft:iron_ingot"},"count":1},
+                {"ingredient":{"item":"extendedcrafting:redstone_ingot"},"count":2}
+            ],
+            "result":{"id":"mmcr:modularium","count":4},
+            "smeltingTime":140,
+            "fuelPerTick":1,
+            "requiredTier":1}
+    )
+    event.custom(
+        {"type":"alloy_smelter:smelting",
+            "ingredients":[
+                {"ingredient":{"item":"alltheores:bronze_ingot"},"count":2},
+                {"ingredient":{"item":"minecraft:iron_ingot"},"count":1},
+                {"ingredient":{"item":"extendedcrafting:redstone_ingot"},"count":2}
+            ],
+            "result":{"id":"mmcr:modularium","count":4},
+            "smeltingTime":100,
+            "fuelPerTick":1,
+            "requiredTier":2}
+    )
+    event.custom(
+        {"type":"alloy_smelter:smelting",
+            "ingredients":[
+                {"ingredient":{"item":"alltheores:bronze_ingot"},"count":2},
+                {"ingredient":{"item":"minecraft:iron_ingot"},"count":1},
+                {"ingredient":{"item":"extendedcrafting:redstone_ingot"},"count":2}
+            ],
+            "result":{"id":"mmcr:modularium","count":4},
             "smeltingTime":60,
             "fuelPerTick":1,
             "requiredTier":3}

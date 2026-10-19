@@ -454,7 +454,15 @@ const HIDE_ITEMS = [
     'ufo:infinity_green_dye_cell', 
     'ufo:infinity_red_dye_cell', 
     'ufo:infinity_black_dye_cell', 
-    'ufo:infinity_genesis_cell'
+    'ufo:infinity_genesis_cell',
+    'neoecoae:eco_air_cell_housing', 
+    'neoecoae:eco_air_cell_16m', 
+    'neoecoae:eco_air_cell_64m', 
+    'neoecoae:eco_air_cell_256m', 
+    'neoecoae:eco_data_cell_housing', 
+    'neoecoae:eco_data_storage_cell_16m', 
+    'neoecoae:eco_data_storage_cell_64m', 
+    'neoecoae:eco_data_storage_cell_256m'
 ]
 
 ServerEvents.recipes(event => {

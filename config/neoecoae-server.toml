@@ -16,7 +16,7 @@ craftingPatternBusPages = 1
 #Allow the large integrated workstation to process supported mods' recipes. Disabled by default.
 #When disabled, only native integrated workstation recipes are available.
 #Reopen the world or restart the server after changing this option to refresh recipe viewers.
-largeWorkstationCompatRecipesEnabled = false
+largeWorkstationCompatRecipesEnabled = true
 
 #多方块结构尺寸限制。
 #Multiblock structure size limits.

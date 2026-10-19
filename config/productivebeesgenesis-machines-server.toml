@@ -108,7 +108,7 @@
 		#允许离心机处理电力熔炼炉（SMELTING）配方
 		#默认开启；关闭后所有离心机的熔炉配方兼容开关无法使用
 		#每台离心机是否兼容熔炉配方由 GUI 中的 per-tile 开关控制，默认关闭
-		smeltingCompatEnabled = true
+		smeltingCompatEnabled = false
 
 #通用机械蜂箱设置
 [mek_apiary]
