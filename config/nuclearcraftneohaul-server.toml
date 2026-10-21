@@ -1,0 +1,7 @@
+[misc]
+	# Default: 80.0
+	# Range: 0.0 ~ 10000.0
+	create_bearing_ang_vel_to_speed = 80.0
+	# Default: 1024.0
+	# Range: 0.0 ~ 100000.0
+	create_bearing_max_stress = 1024.0

@@ -1,0 +1,385 @@
+[processor]
+	# Default: 1.0
+	# Range: 0.001 ~ 255.0
+	processor_time_multiplier = 1.0
+	# Default: 1.0
+	# Range: 0.0 ~ 255.0
+	processor_power_multiplier = 1.0
+	processor_time = [400, 800, 800, 400, 400, 600, 800, 600, 3200, 600, 400, 600, 800, 600, 1600, 600, 2400, 1200, 400, 200]
+	processor_power = [20, 10, 10, 20, 10, 10, 40, 20, 40, 10, 0, 40, 10, 20, 10, 10, 10, 10, 20, 20]
+	speed_upgrade_power_laws_fp = [1.0, 2.0, 2.0, 1.0]
+	speed_upgrade_multipliers_fp = [1.0, 1.0, 1.0, 1.0]
+	energy_upgrade_power_laws_fp = [1.0, 1.0]
+	energy_upgrade_multipliers_fp = [1.0, 1.0]
+	upgrade_stack_sizes = [64, 64]
+	enable_mek_gas = true
+	# Default: 20
+	# Range: 1 ~ 1200
+	machine_update_rate = 20
+	processor_passive_rate = [0.125, 10.0, 5.0]
+	passive_push = true
+	# Default: 0.0
+	# Range: 0.0 ~ 255.0
+	cobble_gen_power = 0.0
+	smart_processor_input = true
+	processor_particles = true
+
+[generator]
+	rtg_power = [1, 40, 10, 200]
+	solar_power = [5, 20, 80, 320]
+
+[energy_storage]
+	battery_block_capacity = [1600000, 6400000, 25600000, 102400000, 32000000, 128000000, 512000000, 2048000000]
+	battery_block_max_transfer = [16000, 64000, 256000, 1024000, 320000, 1280000, 5120000, 20480000]
+	battery_item_capacity = [8000000]
+	battery_item_max_transfer = [80000]
+
+[machine]
+	# Default: 1
+	# Range: 1 ~ 255
+	machine_min_size = 1
+	# Default: 24
+	# Range: 3 ~ 255
+	machine_max_size = 24
+	# Default: 20
+	# Range: 1 ~ 128000
+	machine_electrolyzer_time = 20
+	# Default: 320
+	# Range: 1 ~ 128000
+	machine_electrolyzer_power = 320
+	# Default: 1.0
+	# Range: 0.0 ~ 15.0
+	machine_electrolyzer_sound_volume = 1.0
+	# Default: 800
+	# Range: 1 ~ 128000
+	machine_distiller_time = 800
+	# Default: 10
+	# Range: 1 ~ 128000
+	machine_distiller_power = 10
+	# Default: 1.0
+	# Range: 0.0 ~ 15.0
+	machine_distiller_sound_volume = 1.0
+	# Default: 1600
+	# Range: 1 ~ 128000
+	machine_infiltrator_time = 1600
+	# Default: 320
+	# Range: 1 ~ 128000
+	machine_infiltrator_power = 320
+	# Default: 1.0
+	# Range: 0.0 ~ 15.0
+	machine_infiltrator_sound_volume = 1.0
+
+[fission]
+	# Default: 1
+	# Range: 1 ~ 255
+	fission_min_size = 1
+	# Default: 24
+	# Range: 3 ~ 255
+	fission_max_size = 24
+	# Default: 1.0
+	# Range: 0.001 ~ 255.0
+	fission_fuel_time_multiplier = 1.0
+	# Default: 1.0
+	# Range: 0.0 ~ 255.0
+	fission_fuel_heat_multiplier = 1.0
+	# Default: 1.0
+	# Range: 0.0 ~ 255.0
+	fission_fuel_efficiency_multiplier = 1.0
+	# Default: 1.0
+	# Range: 0.0 ~ 255.0
+	fission_fuel_radiation_multiplier = 1.0
+	fission_source_efficiency = [0.9, 0.95, 1.0]
+	fission_cooler_cooling_rate = [60, 110, 125, 115, 75, 100, 120, 105, 85, 80, 65, 95, 70, 50, 55, 90]
+	fission_cooler_rule = ["one chamber", "exactly two chambers", "three chambers", "exactly two oxygen coolers", "one moderator", "two axial moderators", "three moderators", "exactly one oxygen cooler", "exactly one methane cooler", "one ethene cooler && exactly one moderator", "one fluorine cooler", "exactly two nitrogen coolers && one casing", "two hydrogen coolers", "one reflector", "one sulfur_dioxide cooler", "two axial sulfur_trioxide coolers && one casing"]
+	fission_sink_cooling_rate = [55, 50, 85, 80, 70, 105, 90, 100, 110, 115, 145, 65, 95, 200, 195, 75, 120, 60, 160, 130, 125, 150, 175, 170, 165, 180, 140, 135, 185, 190, 155, 205]
+	fission_sink_rule = ["one cell", "one moderator", "one cell && one moderator", "one redstone sink", "two axial glowstone sinks", "one obsidian sink", "two moderators", "one cell && one casing", "exactly two iron sinks", "two water sinks", "exactly one water sink && two lead sinks", "one reflector", "one reflector && one iron sink", "one cell && one gold sink", "one moderator && one prismarine sink", "one water sink", "two axial lapis sinks", "one iron sink", "exactly one quartz sink && one casing", "exactly two axial lead sinks && one casing", "exactly one moderator && one casing", "two cells", "one quartz sink && one lapis sink", "two glowstone sinks && one tin sink", "one gold sink && one prismarine sink", "one redstone sink && one end_stone sink", "one end_stone sink && one copper sink", "two axial reflectors", "two copper sinks && one purpur sink", "exactly two redstone sinks", "three moderators", "three cells"]
+	fission_heater_cooling_rate = [55, 50, 85, 80, 70, 105, 90, 100, 110, 115, 145, 65, 95, 200, 195, 75, 120, 60, 160, 130, 125, 150, 175, 170, 165, 180, 140, 135, 185, 190, 155, 205]
+	fission_heater_rule = ["one vessel", "one moderator", "one vessel && one moderator", "one redstone heater", "two axial glowstone heaters", "one obsidian heater", "two moderators", "one vessel && one casing", "exactly two iron heaters", "two standard heaters", "exactly one standard heater && two lead heaters", "one reflector", "one reflector && one iron heater", "one vessel && one gold heater", "one moderator && one prismarine heater", "one standard heater", "two axial lapis heaters", "one iron heater", "exactly one quartz heater && one casing", "exactly two axial lead heaters && one casing", "exactly one moderator && one casing", "two vessels", "one quartz heater && one lapis heater", "two glowstone heaters && one tin heater", "one gold heater && one prismarine heater", "one redstone heater && one end_stone heater", "one end_stone heater && one copper heater", "two axial reflectors", "two copper heaters && one purpur heater", "exactly two redstone heaters", "three moderators", "three vessels"]
+	# Default: 1.0
+	# Range: 0.0 ~ 255.0
+	fission_chamber_intrinsic_flux_efficiency = 1.0
+	# Default: 1.0
+	# Range: 0.0 ~ 255.0
+	fission_cell_intrinsic_flux_efficiency = 1.0
+	# Default: 1.0
+	# Range: 0.0 ~ 255.0
+	fission_vessel_intrinsic_flux_efficiency = 1.0
+	fission_shield_heat_per_flux = [5.0, 10.0]
+	fission_shield_efficiency = [0.5, 0.75]
+	# Default: 10
+	# Range: 0 ~ 32767
+	fission_cooling_efficiency_leniency = 10
+	fission_sparsity_penalty_params = [0.5, 0.75]
+	# Default: 32.0
+	# Range: 0.001 ~ 2.147483647E9
+	fission_cooler_coolant_heat_per_mb = 32.0
+	# Default: 128.0
+	# Range: 0.001 ~ 2.147483647E9
+	fission_heater_coolant_heat_per_mb = 128.0
+	# Default: 1.5
+	# Range: 0.001 ~ 2.147483647E9
+	fission_heating_gas_coolant_heat_mult = 1.5
+	# Default: 2.0
+	# Range: 0.001 ~ 2.147483647E9
+	fission_heating_nak_coolant_heat_mult = 2.0
+	fission_decay_mechanics = false
+	fission_decay_build_up_times = [24000.0, 24000.0, 24000.0]
+	fission_decay_lifetimes = [6000.0, 8000.0, 12000.0]
+	fission_decay_equilibrium_factors = [1.0, 5.0, 1.0]
+	fission_decay_daughter_multipliers = [5.0, 5.0]
+	fission_decay_term_multipliers = [0.95, 0.05]
+	fission_overheat = true
+	# Default: 1.0
+	# Range: 0.0 ~ 255.0
+	fission_meltdown_radiation_multiplier = 1.0
+	fission_heat_damage = false
+	# Default: 4
+	# Range: 1 ~ 255
+	fission_neutron_reach = 4
+	fission_heat_dissipation = [true, false]
+	# Default: 0.0
+	# Range: 3.4242822704361166E-9 ~ 1.0
+	fission_heat_dissipation_rate = 3.4242822704361166E-9
+	# Default: 1.0
+	# Range: 0.0 ~ 15.0
+	fission_sound_volume = 1.0
+
+[heat_exchanger]
+	# Default: 1
+	# Range: 1 ~ 255
+	heat_exchanger_min_size = 1
+	# Default: 24
+	# Range: 2 ~ 255
+	heat_exchanger_max_size = 24
+	heat_exchanger_heat_transfer_coefficient = [16.0, 24.0, 32.0]
+	heat_exchanger_heat_retention_mult = [0.9, 0.95, 1.0]
+	# Default: 1.0
+	# Range: 0.001 ~ 2.147483647E9
+	heat_exchanger_gas_coolant_heat_mult = 1.0
+	# Default: 2.0
+	# Range: 0.001 ~ 2.147483647E9
+	heat_exchanger_nak_coolant_heat_mult = 2.0
+	heat_exchanger_lmtd = false
+
+[turbine]
+	# Default: 1
+	# Range: 1 ~ 255
+	turbine_min_size = 1
+	# Default: 24
+	# Range: 3 ~ 255
+	turbine_max_size = 24
+	turbine_blade_efficiency = [1.0, 1.1, 1.2]
+	turbine_blade_expansion = [1.4, 1.6, 1.8]
+	# Default: 0.75
+	# Range: 0.01 ~ 1.0
+	turbine_stator_expansion = 0.75
+	turbine_coil_conductivity = [0.88, 0.9, 1.0, 1.04, 1.06, 1.12]
+	turbine_coil_rule = ["one bearing || one connector", "one magnesium coil", "two magnesium coils", "one aluminum coil", "one beryllium coil", "one gold coil && one copper coil"]
+	turbine_connector_rule = ["one of any coil"]
+	# Default: 1.0
+	# Range: 0.0 ~ 255.0
+	turbine_spin_up_multiplier_global = 1.0
+	# Default: 1.0
+	# Range: 0.01 ~ 255.0
+	turbine_spin_down_multiplier = 1.0
+	# Default: 100
+	# Range: 1 ~ 32767
+	turbine_mb_per_blade = 100
+	turbine_throughput_leniency_params = [0.5, 0.75]
+	# Default: 2.0
+	# Range: 1.0 ~ 255.0
+	turbine_tension_throughput_factor = 2.0
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	turbine_tension_leniency = 0.05
+	# Default: 1.0
+	# Range: 0.0 ~ 255.0
+	turbine_power_bonus_multiplier = 1.0
+	# Default: 16000
+	# Range: > 1
+	turbine_base_energy_capacity = 16000
+	# Default: 1.0
+	# Range: 0.0 ~ 15.0
+	turbine_sound_volume = 1.0
+	# Default: 0.025
+	# Range: 0.0 ~ 1.0
+	turbine_particles = 0.025
+	# Default: 1.4142135623730951
+	# Range: 0.01 ~ 4.0
+	turbine_render_blade_width = 1.4142135623730951
+	turbine_render_blade_fast = false
+	# Default: 4.0
+	# Range: 1.0 ~ 15.0
+	turbine_render_rotor_expansion = 4.0
+	# Default: 1.0
+	# Range: 0.0 ~ 15.0
+	turbine_render_rotor_speed = 1.0
+
+[quantum]
+	quantum_dedicated_server = false
+	# Default: 16
+	# Range: 1 ~ 28
+	quantum_max_qubits = 16
+	# Default: 16
+	# Range: 4 ~ 1024
+	quantum_angle_precision = 16
+
+[entity]
+	# Default: 8
+	# Range: 1 ~ 255
+	entity_tracking_range = 8
+
+[radiation]
+	radiation_enabled = true
+	radiation_immune_players = []
+	# Default: 5
+	# Range: 1 ~ 400
+	radiation_level_chunks_per_tick = 5
+	# Default: 5
+	# Range: 1 ~ 400
+	radiation_player_tick_rate = 5
+	radiation_dims = ["nuclearcraftneohaul:nuclear_wasteland_2.25"]
+	radiation_biomes = ["nuclearcraftneohaul:nuclear_wasteland_0.25"]
+	radiation_structures = []
+	radiation_dim_limits = []
+	radiation_biome_limits = []
+	radiation_from_biomes_dims_blacklist = []
+	radiation_ores = []
+	radiation_items = []
+	radiation_blocks = []
+	radiation_fluids = []
+	radiation_foods = ["minecraft:golden_apple_-20_0.1", "minecraft:enchanted_golden_apple_-100_0.5", "minecraft:golden_carrot_-4_0", "minecraft:spider_eye_0_0.5", "minecraft:poisonous_potato_0_0.5", "minecraft:pufferfish_0_2", "minecraft:rabbit_stew_0_0.1", "minecraft:chorus_fruit_0_-0.25", "minecraft:beetroot:0_0.25", "minecraft:beetroot_soup_0_1.5", "quark:golden_frog_leg_-4_0"]
+	radiation_ores_blacklist = []
+	radiation_items_blacklist = []
+	radiation_blocks_blacklist = []
+	radiation_fluids_blacklist = []
+	# Default: 1000.0
+	# Range: 1.0 ~ 1.0E9
+	max_player_rads = 1000.0
+	# Default: 5.0E-7
+	# Range: 0.0 ~ 1.0
+	radiation_player_decay_rate = 5.0E-7
+	max_entity_rads = []
+	# Default: 0.001
+	# Range: 0.0 ~ 1.0
+	radiation_entity_decay_rate = 0.001
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	radiation_spread_rate = 0.1
+	# Default: 0.5
+	# Range: 1.0 ~ 1.0E9
+	radiation_spread_gradient = 1.0
+	# Default: 0.001
+	# Range: 0.0 ~ 1.0
+	radiation_decay_rate = 0.001
+	# Default: 1.0E-15
+	# Range: 0.0 ~ 1.0
+	radiation_lowest_rate = 1.0E-15
+	# Default: -1.0
+	# Range: -1.0 ~ 1.7976931348623157E308
+	radiation_chunk_limit = -1.0
+	radiation_sound_volumes = [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+	radiation_check_blocks = true
+	# Default: 0
+	# Range: 0 ~ 15
+	radiation_block_effect_max_rate = 0
+	# Default: 1.0
+	# Range: 1.0E-6 ~ 1000000.0
+	radiation_rain_mult = 1.0
+	# Default: 2.0
+	# Range: 1.0E-6 ~ 1000000.0
+	radiation_swim_mult = 2.0
+	# Default: 0.033
+	# Range: 1.0E-6 ~ 1000000.0
+	radiation_feral_ghoul_attack = 0.033
+	# Default: 300.0
+	# Range: 0.001 ~ 1.0E9
+	radiation_radaway_amount = 300.0
+	# Default: 300.0
+	# Range: 0.001 ~ 1.0E9
+	radiation_radaway_slow_amount = 300.0
+	# Default: 5.0
+	# Range: 0.001 ~ 1.0E9
+	radiation_radaway_rate = 5.0
+	# Default: 0.025
+	# Range: 1.0E-5 ~ 1.0E7
+	radiation_radaway_slow_rate = 0.025
+	# Default: 60.0
+	# Range: 1.0 ~ 1000000.0
+	radiation_poison_time = 60.0
+	# Default: 0.0
+	# Range: 0.0 ~ 100000.0
+	radiation_radaway_cooldown = 0.0
+	# Default: 25.0
+	# Range: 0.001 ~ 1.0E9
+	radiation_rad_x_amount = 25.0
+	# Default: 12000.0
+	# Range: 20.0 ~ 1.0E9
+	radiation_rad_x_lifetime = 12000.0
+	# Default: 0.0
+	# Range: 0.0 ~ 100000.0
+	radiation_rad_x_cooldown = 0.0
+	radiation_shielding_level = [0.01, 0.1, 1.0]
+	radiation_block_entity_shielding = true
+	# Default: 0.125
+	# Range: 0.001 ~ 1.0
+	radiation_scrubber_fraction = 0.125
+	# Default: 4
+	# Range: 1 ~ 10
+	radiation_scrubber_radius = 4
+	radiation_scrubber_non_linear = true
+	radiation_scrubber_param = [2.14280951676725, 3.0, 4.0, 2.0]
+	# Default: 3.0
+	# Range: -127.0 ~ 127.0
+	radiation_geiger_block_redstone = 3.0
+	radiation_shielding_default_recipes = true
+	radiation_shielding_item_blacklist = ["nuclearcraftneohaul:hazmat_helmet", "nuclearcraftneohaul:hazmat_chestplate", "nuclearcraftneohaul:hazmat_leggings", "nuclearcraftneohaul:hazmat_boots", "extraplanets:tier1_space_suit_helmet", "extraplanets:tier1_space_suit_chest", "extraplanets:tier1_space_suit_jetpack_chest", "extraplanets:tier1_space_suit_leggings", "extraplanets:tier1_space_suit_boots", "extraplanets:tier1_space_suit_gravity_boots", "extraplanets:tier2_space_suit_helmet", "extraplanets:tier2_space_suit_chest", "extraplanets:tier2_space_suit_jetpack_chest", "extraplanets:tier2_space_suit_leggings", "extraplanets:tier2_space_suit_boots", "extraplanets:tier2_space_suit_gravity_boots", "extraplanets:tier3_space_suit_helmet", "extraplanets:tier3_space_suit_chest", "extraplanets:tier3_space_suit_jetpack_chest", "extraplanets:tier3_space_suit_leggings", "extraplanets:tier3_space_suit_boots", "extraplanets:tier3_space_suit_gravity_boots", "extraplanets:tier4_space_suit_helmet", "extraplanets:tier4_space_suit_chest", "extraplanets:tier4_space_suit_jetpack_chest", "extraplanets:tier4_space_suit_leggings", "extraplanets:tier4_space_suit_boots", "extraplanets:tier4_space_suit_gravity_boots"]
+	radiation_shielding_custom_stacks = []
+	radiation_shielding_default_levels = ["nuclearcraftneohaul:hazmat_helmet_2.0", "nuclearcraftneohaul:hazmat_chestplate_3.0", "nuclearcraftneohaul:hazmat_leggings_2.0", "nuclearcraftneohaul:hazmat_boots_2.0", "gravisuite:gravichestplate_3.0", "gravisuit:gravisuit_3.0", "gravisuit:nucleargravisuit_3.0", "extraplanets:tier1_space_suit_helmet_1.0", "extraplanets:tier1_space_suit_chest_1.5", "extraplanets:tier1_space_suit_jetpack_chest_1.5", "extraplanets:tier1_space_suit_leggings_1.0", "extraplanets:tier1_space_suit_boots_1.0", "extraplanets:tier1_space_suit_gravity_boots_1.0", "extraplanets:tier2_space_suit_helmet_1.3", "extraplanets:tier2_space_suit_chest_1.95", "extraplanets:tier2_space_suit_jetpack_chest_1.95", "extraplanets:tier2_space_suit_leggings_1.3", "extraplanets:tier2_space_suit_boots_1.3", "extraplanets:tier2_space_suit_gravity_boots_1.3", "extraplanets:tier3_space_suit_helmet_1.6", "extraplanets:tier3_space_suit_chest_2.4", "extraplanets:tier3_space_suit_jetpack_chest_2.4", "extraplanets:tier3_space_suit_leggings_1.6", "extraplanets:tier3_space_suit_boots_1.6", "extraplanets:tier3_space_suit_gravity_boots_1.6", "extraplanets:tier4_space_suit_helmet_2.0", "extraplanets:tier4_space_suit_chest_3.0", "extraplanets:tier4_space_suit_jetpack_chest_3.0", "extraplanets:tier4_space_suit_leggings_2.0", "extraplanets:tier4_space_suit_boots_2.0", "extraplanets:tier4_space_suit_gravity_boots_2.0"]
+	radiation_block_entities = true
+	radiation_hardcore_stacks = true
+	# Default: 0.0
+	# Range: 0.0 ~ 1.0
+	radiation_hardcore_containers = 0.0
+	radiation_dropped_items = true
+	radiation_death_persist = true
+	# Default: 0.75
+	# Range: 0.0 ~ 1.0
+	radiation_death_persist_fraction = 0.75
+	# Default: 90.0
+	# Range: 0.0 ~ 3600.0
+	radiation_death_immunity_time = 90.0
+	radiation_player_debuff_lists = ["40.0_minecraft:weakness@1", "55.0_minecraft:weakness@1,minecraft:mining_fatigue@1", "70.0_minecraft:weakness@2,minecraft:mining_fatigue@1,minecraft:hunger@1", "80.0_minecraft:weakness@2,minecraft:mining_fatigue@2,minecraft:hunger@1,minecraft:poison@1", "90.0_minecraft:weakness@3,minecraft:mining_fatigue@3,minecraft:hunger@2,minecraft:poison@1,minecraft:wither@1"]
+	radiation_passive_debuff_lists = ["40.0_minecraft:weakness@1", "55.0_minecraft:weakness@1,minecraft:mining_fatigue@1", "70.0_minecraft:weakness@2,minecraft:mining_fatigue@1,minecraft:hunger@1", "80.0_minecraft:weakness@2,minecraft:mining_fatigue@2,minecraft:hunger@1,minecraft:poison@1", "90.0_minecraft:weakness@3,minecraft:mining_fatigue@3,minecraft:hunger@2,minecraft:poison@1,minecraft:wither@1"]
+	radiation_mob_buff_lists = ["40.0_minecraft:speed@1", "55.0_minecraft:speed@1,minecraft:strength@1", "70.0_minecraft:speed@1,minecraft:strength@1,minecraft:resistance@1", "80.0_minecraft:speed@1,minecraft:strength@1,minecraft:resistance@1,minecraft:absorption@1", "90.0_minecraft:speed@1,minecraft:strength@1,minecraft:resistance@1,minecraft:absorption@1,minecraft:regeneration@1"]
+	radiation_player_rads_fatal = true
+	radiation_passive_rads_fatal = true
+	radiation_mob_rads_fatal = true
+	radiation_horse_armor = false
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	radiation_hud_size = 1.0
+	# Default: 225.0
+	# Range: 0.0 ~ 360.0
+	radiation_hud_position = 225.0
+	radiation_hud_position_cartesian = []
+	radiation_hud_text_outline = false
+	radiation_require_counter = true
+	radiation_chunk_boundaries = true
+	# Default: 0
+	# Range: 0 ~ 15
+	radiation_unit_prefixes = 0
+	# Default: 250.0
+	# Range: 1.0E-18 ~ 1000.0
+	radiation_badge_durability = 250.0
+	# Default: 0.1
+	# Range: 1.0E-18 ~ 1.0
+	radiation_badge_info_rate = 0.1
+
+[misc]
+	give_guidebook = true
+	ctrl_info = false
+	rare_drops = false
+	dungeon_loot = false
+	corium_solidification = ["minecraft:overworld", "minecraft:the_end"]
+	corium_solidification_list_type = false

@@ -477,4 +477,17 @@ ServerEvents.recipes(event => {
       C: 'immersiveengineering:coil_lv'
     }
   );//添加有序合成"热量输出仓"配方
+  event.shaped(
+    Item.of('immersiveengineering:blueprint[immersiveengineering:blueprint="automatons"]'),
+    [
+      ' A ',
+      'BBB',
+      'CCC'
+    ],
+    {
+      A: 'immersiveengineering:hammer',
+      B: 'minecraft:blue_dye',
+      C: 'minecraft:paper'
+    }
+  );//添加有序合成"工程师蓝图"配方
 });

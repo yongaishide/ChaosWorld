@@ -1,0 +1,183 @@
+#全局平衡性预设
+#基础、悖论无限或自定义。配置文件中的 BASIC、PARADOX_INFINITY、CUSTOM 是兼容存档所需的固定标识。
+#切换预设不会删除机器中已经安装的升级。
+#Allowed Values: BASIC, PARADOX_INFINITY, CUSTOM
+balanceProfile = "CUSTOM"
+#启用万象创世蜜蜂
+#false时禁用蜜蜂相关功能，仅保留通用机械资源蜜蜂机器
+myriadCreationsEnabled = true
+
+#蜜蜂产出配方配置（万象创世蜜脾产出参数）
+[bee_produce]
+	#是否启用万象创世的蜜脾产出
+	enabled = true
+	#产出物品ID
+	outputItem = "productivebees:configurable_honeycomb"
+	#最小产出数量
+	# Default: 1
+	# Range: 1 ~ 64
+	outputMin = 1
+	#最大产出数量
+	# Default: 1
+	# Range: 1 ~ 64
+	outputMax = 1
+	#产出概率（0.0~1.0）
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	outputChance = 1.0
+	#每tick每只蜜蜂最大产物事件数
+	#0=无限制，高倍加速时降低CPU
+	# Default: 0
+	# Range: 0 ~ 20
+	myriadProduceThrottlePerTick = 0
+
+#蜜蜂获得方式配置
+[bee_acquisition]
+
+	[bee_acquisition.fishing]
+		#钓鱼获得万象创世蜜蜂
+		#是否启用钓鱼获得万象创世蜜蜂
+		enabled = false
+		#钓鱼获得蜜蜂的概率（0.0~1.0）
+		# Default: 0.1
+		# Range: 0.0 ~ 1.0
+		chance = 0.1
+		#可钓鱼获得蜜蜂的群系列表
+		biomes = ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:warm_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean"]
+
+	[bee_acquisition.breeding]
+		#繁殖获得万象创世蜜蜂
+		#是否启用繁殖获得万象创世蜜蜂
+		enabled = true
+		#亲代蜜蜂1（注册名，如 productivebees:myriadcreations）
+		parent1 = "productivebees:myriadcreations"
+		#亲代蜜蜂2（注册名）
+		parent2 = "productivebees:myriadcreations"
+
+	[bee_acquisition.spawning]
+		#蜂巢生成万象创世蜜蜂
+		#是否启用蜂巢自然生成万象创世蜜蜂
+		enabled = false
+		#生成蜜蜂的蜂巢方块（如 productivebees:stone_nest）
+		nest = "productivebees:stone_nest"
+		#生成蜜蜂的群系（标签或群系ID，如 #c:is_plains）
+		biomes = "#c:is_plains"
+
+#平衡性规则；仅在全局平衡性配置为“自定义”时直接生效
+[balance]
+	#禁止产量升级 α/β/γ/Ω 在同一台机器中混装
+	productivityUpgradeTiersExclusive = false
+	#禁止时间 I 与时间 II 两种速度升级在同一台机器中混装
+	speedUpgradeTiersExclusive = false
+	#离心机产量升级是否额外增加单次产出；无论此项如何，资源蜜蜂原版并行能力始终保留
+	centrifugeProductivityAffectsOutput = true
+	#机械蜂箱是否根据蜜蜂的昼夜行为与天气耐受基因暂停工作
+	apiaryBeeGenesAffectWork = true
+
+#蜜蜂转化配方配置（用其他物品转化获得万象创世）
+[bee_conversion]
+	#是否启用万象创世的物品转化配方
+	enabled = true
+	#源蜜蜂类型（注册名，如 minecraft:bee）
+	source = "minecraft:bee"
+	#转化目标蜜蜂（注册名，如 productivebees:myriadcreations）
+	result = "productivebees:myriadcreations"
+	#转化所需物品ID（如 minecraft:stick）
+	item = "minecraft:stick"
+	#转化概率（0.0~1.0）
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	chance = 1.0
+	#允许机械蜂箱使用 PB 物品转化配方
+	apiaryItemConversionEnabled = true
+	#允许机械蜂箱使用 PB 方块转化配方
+	apiaryBlockConversionEnabled = true
+
+#高级蜂箱性能优化（缓解大量模拟蜂箱导致的CPU压力）
+[advanced_beehive]
+	#模拟行为查询冷却(tick)
+	#0=原版，1-5降低高倍加速CPU开销
+	# Default: 0
+	# Range: 0 ~ 20
+	simulateCooldown = 0
+	#NBT保存间隔(tick)
+	#默认20，值越大性能越好但宕机风险增加
+	# Default: 20
+	# Range: 1 ~ 200
+	saveInterval = 20
+	#批量加速每个真实游戏刻的虚拟 tick 上限
+	#默认 1024；实际预算会根据当前 MSPT 自动降级，超出部分进入短期挂账
+	# Default: 1024
+	# Range: 1 ~ 1024
+	maxBatchTicksPerTick = 1024
+
+#万象创世蜜蜂过滤配置（存档级别）
+[myriad_creations_filter]
+	#过滤模式
+	#可选模式：禁用、黑名单、白名单
+	#Allowed Values: DISABLED, BLACKLIST, WHITELIST
+	filterMode = "DISABLED"
+	#过滤的蜜蜂类型列表
+	#格式: modID:beeType
+	filteredBeeTypes = []
+
+#万象创世蜜蜂属性覆盖配置（服务端生效）
+[bee_attributes]
+	#授粉物品ID
+	flowerItem = "productivebees:honey_treat"
+	#是否能产出蜜脾
+	#默认关闭，使用 PB configurable_honeycomb
+	createComb = false
+	#蜜蜂大小
+	# Default: 1.2
+	# Range: 0.1 ~ 10.0
+	size = 1.2
+	#飞行速度
+	# Default: 0.6
+	# Range: 0.01 ~ 10.0
+	speed = 0.6
+	#攻击伤害
+	# Default: 20.0
+	# Range: 0.0 ~ 100.0
+	attack = 20.0
+	#繁殖物品ID
+	breedingItem = "productivebees:honey_treat"
+	#繁殖所需物品数量
+	# Default: 1
+	# Range: 1 ~ 64
+	breedingItemCount = 1
+	#是否可种内繁殖
+	selfbreed = true
+	#是否防水
+	waterproof = true
+	#是否防火
+	fireproof = true
+
+	[bee_attributes.colors]
+		#颜色配置（写入蜜蜂数据并在客户端渲染）
+		#主颜色（十六进制，如 #FFD700）
+		primaryColor = "#FFFFFF"
+		#次要颜色
+		secondaryColor = "#FFFFFF"
+		#粒子颜色
+		particleColor = "#FFFFFF"
+		#光晕颜色（十六进制）
+		glowColor = "#FFFFFF"
+
+	[bee_attributes.pb_attributes]
+		#Productive Bees 独有属性
+		#天气耐受性
+		#可选值: weather_tolerance.none / weather_tolerance.rain / weather_tolerance.any
+		weatherTolerance = "weather_tolerance.any"
+		#性格
+		#可选值: temper.passive / temper.normal / temper.hostile / temper.aggressive
+		temper = "temper.passive"
+		#行为
+		#可选值: behavior.diurnal (昼行) / behavior.nocturnal (夜行) / behavior.metaturnal (昼夜皆可)
+		behavior = "behavior.metaturnal"
+		#耐力
+		#可选值: endurance.weak / endurance.normal / endurance.medium / endurance.strong
+		endurance = "endurance.strong"
+		#产量
+		#可选值: productivity.normal / productivity.medium / productivity.high / productivity.very_high
+		productivity = "productivity.very_high"
