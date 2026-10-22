@@ -3,3 +3,7 @@
 	patreonEffects = true
 	#Animate additional inputs on altar recipe pages in the tome
 	animateAdditionalInputs = true
+	#Dimensions in which to do Astral Sorcery's sky render. Only applies to dimensions with a normal sky type.
+	skyRenderDimensions = ["minecraft:overworld"]
+	#Dimensions in which to only render constellations on top of its sky render. Ignored for dimensions listed in skyRenderDimensions. Be aware that this also prevents the Solar and Lunar Eclipses from being shown/rendered in the sky
+	constellationOverlaySkyDimensions = []

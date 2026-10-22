@@ -2334,7 +2334,7 @@
             A: { item: 'chaosworld_core:ingot_tech_5' },
             B: { item: 'naturesaura:token_rage' },
             C: { item: 'twilightforest:fiery_ingot' },
-            D: { item: "aoa3:wither_rune" },
+            D: { item: 'avaritia_expand:blaze_totem' },
             E: { item: 'naturesaura:fortress_finder' },
             F: { item: 'naturesaura:token_fear' },
             G: { item: 'avaritia_expand:blaze_totem' }
@@ -2358,7 +2358,7 @@
             A: { item: 'chaosworld_core:ingot_tech_5' },
             B: { item: 'naturesaura:token_rage' },
             C: { item: 'twilightforest:fiery_ingot' },
-            D: { item: "aoa3:wither_rune" },
+            D: { item: 'avaritia_expand:blaze_totem' },
             E: { item: 'naturesaura:fortress_finder' },
             F: { item: 'naturesaura:token_fear' },
             G: { item: 'avaritia_expand:blaze_totem' }

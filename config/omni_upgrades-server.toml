@@ -19,3 +19,13 @@
 	#   '{"item":"mymod:my_boolean_upgrade","machine":"*","max":1}'
 	#   '{"item":"#mymod:boolean_upgrades","machine":"mymod:my_machine","max":1}'
 	rules = ["{\"item\":\"productivelib:upgrade_simulator\",\"machine\":\"*\",\"max\":1}", "{\"item\":\"productivelib:upgrade_block\",\"machine\":\"*\",\"max\":1}", "{\"item\":\"productivelib:upgrade_anti_teleport\",\"machine\":\"*\",\"max\":1}", "{\"item\":\"productivelib:upgrade_entity_filter\",\"machine\":\"*\",\"max\":1}", "{\"item\":\"productivelib:upgrade_child\",\"machine\":\"productivebees:catcher\",\"max\":1}", "{\"item\":\"productivelib:upgrade_adult\",\"machine\":\"productivebees:catcher\",\"max\":1}"]
+
+[Blacklist]
+	#服务端全局物品黑名单
+	#列入此名单的物品，对全服所有玩家都不参与全能升级处理：
+	#右键拦截与高亮预览全部跳过，把操作交还原版或其他模组。
+	#与各玩家自己的客户端黑名单取并集生效，客户端无法覆盖此名单。
+	#每行填物品注册 id；以 '#' 开头表示屏蔽整个物品标签
+	#（例如 '#ae2:upgrade_cards'）。
+	#该名单在玩家进服时同步给客户端；修改后重启服务器生效。
+	globalBlacklist = []
