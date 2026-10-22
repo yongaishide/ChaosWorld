@@ -93,18 +93,8 @@ myriadCreationsEnabled = true
 	#允许机械蜂箱使用 PB 方块转化配方
 	apiaryBlockConversionEnabled = true
 
-#高级蜂箱性能优化（缓解大量模拟蜂箱导致的CPU压力）
+#高倍加速批处理预算
 [advanced_beehive]
-	#模拟行为查询冷却(tick)
-	#0=原版，1-5降低高倍加速CPU开销
-	# Default: 0
-	# Range: 0 ~ 20
-	simulateCooldown = 0
-	#NBT保存间隔(tick)
-	#默认20，值越大性能越好但宕机风险增加
-	# Default: 20
-	# Range: 1 ~ 200
-	saveInterval = 20
 	#批量加速每个真实游戏刻的虚拟 tick 上限
 	#默认 1024；实际预算会根据当前 MSPT 自动降级，超出部分进入短期挂账
 	# Default: 1024

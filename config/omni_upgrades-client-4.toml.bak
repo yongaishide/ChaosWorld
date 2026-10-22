@@ -1,0 +1,11 @@
+[BatchInstall]
+	#Sequential Fill Mode (default: OFF).
+	#ON : Fill one machine completely before moving on to the next one.
+	#OFF: Evenly distribute upgrades across all machines.
+	#Toggled in game with Shift+N.
+	sequentialFillMode = false
+	#Diagonal Detection Mode (default: OFF).
+	#ON : Batch detection spreads to diagonal neighbors as well (square-shaped scan).
+	#OFF: Only directly adjacent neighbors are checked.
+	#Toggled in game with Shift+M.
+	diagonalDetectionMode = false
