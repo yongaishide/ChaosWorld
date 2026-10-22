@@ -385,7 +385,7 @@ ServerEvents.recipes(event => {
     {
       A: 'mekanismgenerators:fission_reactor_casing',
       B: 'mekanism_extras:absolute_control_circuit',
-      C: 'chaosworld_core:stellar_alloy_core'
+      C: "ifeu:ultimate_machine_frame"
     }
   );//添加有序合成"裂变反应堆端口"配方
   event.shaped(
@@ -490,4 +490,17 @@ ServerEvents.recipes(event => {
       C: 'minecraft:paper'
     }
   );//添加有序合成"工程师蓝图"配方
+  event.shaped(
+    Item.of('mekanism:isotopic_centrifuge'),
+    [
+      'AAA',
+      'BCB',
+      'AAA'
+    ],
+    {
+      A: 'enderio_evolution:stellar_alloy_ingot',
+      B: 'mekanism_extras:absolute_control_circuit',
+      C: 'mekanism:ultimate_chemical_tank'
+    }
+  );//添加有序合成"同位素离心机"配方
 });

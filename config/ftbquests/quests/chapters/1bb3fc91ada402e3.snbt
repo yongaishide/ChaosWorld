@@ -573,5 +573,33 @@
 			x: 12.0d
 			y: 1.0d
 		}
+		{
+			dependencies: ["17DF9381DCA9098A"]
+			id: "256909D07318AC5B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1000L
+				id: "03C8B22040ABF743"
+				key_type: "ufo:chemical"
+				resource: "mekanism:fissile_fuel"
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 20.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["79FA49303B3F9AB2"]
+			id: "17DF9381DCA9098A"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "4D291804EE9D4975"
+				key_type: "ae2:i"
+				resource: "mekanism:isotopic_centrifuge"
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 18.0d
+			y: 1.0d
+		}
 	]
 }

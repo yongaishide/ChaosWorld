@@ -1,4 +1,7 @@
 {
+  "astralsorcery": {
+    "lumen": true
+  },
   "productivebeesgenesis": {
     "resource_output": true,
     "apiary_status": true,
@@ -48,6 +51,9 @@
     "wt_channels": true,
     "wt_master_location": true,
     "wt_owner": true
+  },
+  "mekanism_magic": {
+    "machine": true
   },
   "ae2lt": {
     "frequency_card_wireless_node": true,

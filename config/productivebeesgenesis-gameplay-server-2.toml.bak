@@ -66,13 +66,21 @@ myriadCreationsEnabled = true
 #平衡性规则；仅在全局平衡性配置为“自定义”时直接生效
 [balance]
 	#禁止产量升级 α/β/γ/Ω 在同一台机器中混装
+	#受基础/悖论无限预设约束；请先将玩法配置中的 balanceProfile 改为 CUSTOM 并保存，再修改此项。
 	productivityUpgradeTiersExclusive = false
 	#禁止时间 I 与时间 II 两种速度升级在同一台机器中混装
+	#受基础/悖论无限预设约束；请先将玩法配置中的 balanceProfile 改为 CUSTOM 并保存，再修改此项。
 	speedUpgradeTiersExclusive = false
 	#离心机产量升级是否额外增加单次产出；无论此项如何，资源蜜蜂原版并行能力始终保留
+	#受基础/悖论无限预设约束；请先将玩法配置中的 balanceProfile 改为 CUSTOM 并保存，再修改此项。
 	centrifugeProductivityAffectsOutput = true
 	#机械蜂箱是否根据蜜蜂的昼夜行为与天气耐受基因暂停工作
+	#受基础/悖论无限预设约束；请先将玩法配置中的 balanceProfile 改为 CUSTOM 并保存，再修改此项。
 	apiaryBeeGenesAffectWork = true
+	#多花源蜜蜂每轮同时生产饲养槽内所有不同的有效花源；关闭时随机选择一种
+	#仅作用于机械蜂箱，禁用槽和 PB 复制黑名单中的方块不参与。
+	#受基础/悖论无限预设约束；请先将玩法配置中的 balanceProfile 改为 CUSTOM 并保存，再修改此项。
+	apiaryProduceAllFlowers = false
 
 #蜜蜂转化配方配置（用其他物品转化获得万象创世）
 [bee_conversion]

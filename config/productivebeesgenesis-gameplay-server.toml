@@ -139,9 +139,9 @@ myriadCreationsEnabled = true
 	# Default: 0.6
 	# Range: 0.01 ~ 10.0
 	speed = 0.6
-	#攻击伤害
-	# Default: 20.0
-	# Range: 0.0 ~ 100.0
+	#攻击伤害声明值（0～2147483647）；实际伤害仍受 Minecraft 攻击属性上限及其它模组影响
+	# Default: 2.147483647E9
+	# Range: 0.0 ~ 2.147483647E9
 	attack = 20.0
 	#繁殖物品ID
 	breedingItem = "productivebees:honey_treat"
@@ -155,6 +155,34 @@ myriadCreationsEnabled = true
 	waterproof = true
 	#是否防火
 	fireproof = true
+	#PB 渲染外观；模型不会改变蜜蜂 AI
+	renderer = "default"
+	#PB 或已安装资源包的模型资源 ID；空值使用默认模型
+	model = ""
+	#模型动画资源 ID；空值使用默认动画
+	animation = ""
+	#蜜蜂贴图资源 ID，不包含 .png；空值使用默认贴图
+	beeTexture = ""
+	#PB 粒子类型：drip / pop / lava / portal / rising；只影响外观
+	particleType = "drip"
+	#筑巢材料标签；空值沿用 PB 默认偏好，不赋予独居蜂 AI
+	nestingPreference = ""
+	#PB 采蜜后行为：none / amber_encase / bonemeal / force_grow_crop / sus；目标仍由花源决定
+	postPollination = "none"
+	coldResistant = false
+	selfheal = false
+	irradiated = false
+	withered = false
+	blinding = false
+	draconic = false
+	slimy = false
+	teleporting = false
+	munchies = false
+	redstoned = false
+	stringy = false
+	stingless = false
+	translucent = false
+	colorCycle = false
 
 	[bee_attributes.colors]
 		#颜色配置（写入蜜蜂数据并在客户端渲染）
