@@ -12,30 +12,15 @@
 	quest_enhance_decorative_lines: [ ]
 	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
-	quests: [
-		{
-			id: "3DA52B1159760012"
-			quest_enhance_disable_scroll_paging: false
-			tasks: [{
-				id: "1E6FE719A65818CA"
-				item: { count: 1, id: "sophisticatedstorage:survival_infinity_upgrade" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			id: "6FCE879C59C01F46"
-			quest_enhance_disable_scroll_paging: false
-			tasks: [{
-				amount: 100000L
-				id: "68AF4BD18E76BCA1"
-				key_type: "chaosworld_core:mana"
-				resource: "botania:mana"
-				type: "chaosworld_core:ae_resource"
-			}]
-			x: -2.5d
-			y: -0.5d
-		}
-	]
+	quests: [{
+		id: "3DA52B1159760012"
+		quest_enhance_disable_scroll_paging: false
+		tasks: [{
+			id: "1E6FE719A65818CA"
+			item: { count: 1, id: "sophisticatedstorage:survival_infinity_upgrade" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 }

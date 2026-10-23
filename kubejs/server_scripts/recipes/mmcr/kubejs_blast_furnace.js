@@ -33,6 +33,10 @@
 
 ServerEvents.recipes(event => {
     // ------------------------------------------------------------
+    // 燃料白名单：合并自 12 个 jar 的 data_maps/item/furnace_fuels.json
+    // （neoforge 自带 + AoA3 / FarmersDelight / allthecompressed / create /
+    //   justdirethings / ProjectE / Mekanism / AstralSorcery / actuallyadditions /
+    //   occultism / twilightforest），已剔除 remove 列表里的项。
     // 由脚本自动生成，不要手改；mods 增删后重新生成即可。
     // ------------------------------------------------------------
     const FUEL_INGREDIENT = [
@@ -49,6 +53,31 @@ ServerEvents.recipes(event => {
         { item: 'allthecompressed:coal_block_3x' },
         { item: 'allthecompressed:coal_block_4x' },
         { item: 'allthecompressed:coal_block_5x' },
+        { item: 'aoa3:ambient_power_stone' },
+        { item: 'aoa3:ashfern' },
+        { item: 'aoa3:baobab_hanging_sign' },
+        { item: 'aoa3:baobab_sign' },
+        { item: 'aoa3:blooming_power_stone' },
+        { item: 'aoa3:charred_char' },
+        { item: 'aoa3:confetti_pile' },
+        { item: 'aoa3:crate' },
+        { item: 'aoa3:flammable_dust' },
+        { item: 'aoa3:glaring_power_stone' },
+        { item: 'aoa3:gleaming_power_stone' },
+        { item: 'aoa3:glistening_power_stone' },
+        { item: 'aoa3:glowing_power_stone' },
+        { item: 'aoa3:hardened_confetti_ball' },
+        { item: 'aoa3:lucalus_hanging_sign' },
+        { item: 'aoa3:lucalus_sign' },
+        { item: 'aoa3:padded_cloth' },
+        { item: 'aoa3:radiant_power_stone' },
+        { item: 'aoa3:reinforced_cloth' },
+        { item: 'aoa3:shining_power_stone' },
+        { item: 'aoa3:stranglewood_hanging_sign' },
+        { item: 'aoa3:stranglewood_sign' },
+        { item: 'aoa3:vox_crate' },
+        { item: 'aoa3:vox_log' },
+        { item: 'aoa3:vox_store_crate' },
         { item: 'astralsorcery:infused_wood_slab' },
         { item: 'astralsorcery:infused_wood_stairs' },
         { item: 'create:blaze_cake' },

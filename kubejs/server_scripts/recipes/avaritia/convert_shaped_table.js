@@ -6,12 +6,12 @@
     type: 'extendedcrafting:shaped_table',
     pattern: ['ABACA','CCCCB','ACDCA','BCCCC','ACABA'],
     key: ({
-      A: { item: 'minecraft:obsidian' },
-      B: { item: 'extendedcrafting:advanced_component' },
-      C: { item: 'alltheores:lumium_plate' },
-      D: { item: 'extendedcrafting:basic_catalyst' }
+      A: { item: "minecraft:obsidian" },
+      B: { item: "extendedcrafting:advanced_component" },
+      C: { item: "alltheores:lumium_plate" },
+      D: { item: "extendedcrafting:basic_catalyst" }
     }),
-    result: { id: 'extendedcrafting:advanced_catalyst' }
+    result: { id: "extendedcrafting:advanced_catalyst" }
      })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -19,12 +19,12 @@
         category: 'misc',
         pattern: ['ABACA','CCCCB','ACDCA','BCCCC','ACABA'],
         key: ({
-        A: { item: 'minecraft:obsidian' },
-        B: { item: 'extendedcrafting:advanced_component' },
-        C: { item: 'alltheores:lumium_plate' },
-        D: { item: 'extendedcrafting:basic_catalyst' }
+        A: { item: "minecraft:obsidian" },
+        B: { item: "extendedcrafting:advanced_component" },
+        C: { item: "alltheores:lumium_plate" },
+        D: { item: "extendedcrafting:basic_catalyst" }
         }),
-        result: { id: 'extendedcrafting:advanced_catalyst' },
+        result: { id: "extendedcrafting:advanced_catalyst" },
         show_notification: false
     })
 
@@ -34,11 +34,11 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['     ', ' B B ', ' B B ', 'CB BC', 'AA AA'],
         key: ({
-            A: { item: 'minecraft:bone_block' },
-            B: { item: 'avaritia:blaze_cube' },
-            C: { item: 'minecraft:blaze_powder' }
+            A: { item: "minecraft:bone_block" },
+            B: { item: "avaritia:blaze_cube" },
+            C: { item: "minecraft:blaze_powder" }
         }),
-        result: { id: 'avaritia_expand:blaze_boots' }
+        result: { id: "avaritia_expand:blaze_boots" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -46,11 +46,11 @@
         category: 'misc',
         pattern: ['     ', ' B B ', ' B B ', 'CB BC', 'AA AA'],
         key: ({
-            A: { item: 'minecraft:bone_block' },
-            B: { item: 'avaritia:blaze_cube' },
-            C: { item: 'minecraft:blaze_powder' }
+            A: { item: "minecraft:bone_block" },
+            B: { item: "avaritia:blaze_cube" },
+            C: { item: "minecraft:blaze_powder" }
         }),
-        result: { id: 'avaritia_expand:blaze_boots' },
+        result: { id: "avaritia_expand:blaze_boots" },
         show_notification: false
     })
 
@@ -59,11 +59,11 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['A   A', 'ABBBA', 'CABAC', 'CBBBC', ' BBB '],
         key: ({
-            A: { item: 'minecraft:bone_block' },
-            B: { item: 'avaritia:blaze_cube' },
-            C: { item: 'minecraft:blaze_powder' }
+            A: { item: "minecraft:bone_block" },
+            B: { item: "avaritia:blaze_cube" },
+            C: { item: "minecraft:blaze_powder" }
         }),
-        result: { id: 'avaritia_expand:blaze_chestplate' }
+        result: { id: "avaritia_expand:blaze_chestplate" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -71,11 +71,11 @@
         category: 'misc',
         pattern: ['A   A', 'ABBBA', 'CABAC', 'CBBBC', ' BBB '],
         key: ({
-            A: { item: 'minecraft:bone_block' },
-            B: { item: 'avaritia:blaze_cube' },
-            C: { item: 'minecraft:blaze_powder' }
+            A: { item: "minecraft:bone_block" },
+            B: { item: "avaritia:blaze_cube" },
+            C: { item: "minecraft:blaze_powder" }
         }),
-        result: { id: 'avaritia_expand:blaze_chestplate' },
+        result: { id: "avaritia_expand:blaze_chestplate" },
         show_notification: false
     })
 
@@ -84,11 +84,11 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['A   A', 'ABBBA', 'CB BC', 'CBBBC', 'C   C'],
         key: ({
-            A: { item: 'minecraft:bone_block' },
-            B: { item: 'avaritia:blaze_cube' },
-            C: { item: 'minecraft:blaze_powder' }
+            A: { item: "minecraft:bone_block" },
+            B: { item: "avaritia:blaze_cube" },
+            C: { item: "minecraft:blaze_powder" }
         }),
-        result: { id: 'avaritia_expand:blaze_helmet' }
+        result: { id: "avaritia_expand:blaze_helmet" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -96,11 +96,11 @@
         category: 'misc',
         pattern: ['A   A', 'ABBBA', 'CB BC', 'CBBBC', 'C   C'],
         key: ({
-            A: { item: 'minecraft:bone_block' },
-            B: { item: 'avaritia:blaze_cube' },
-            C: { item: 'minecraft:blaze_powder' }
+            A: { item: "minecraft:bone_block" },
+            B: { item: "avaritia:blaze_cube" },
+            C: { item: "minecraft:blaze_powder" }
         }),
-        result: { id: 'avaritia_expand:blaze_helmet' },
+        result: { id: "avaritia_expand:blaze_helmet" },
         show_notification: false
     })
 
@@ -109,11 +109,11 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['BBBBB', 'CBABC', 'AB BA', 'BA AB', 'BB BB'],
         key: ({
-            A: { item: 'minecraft:bone_block' },
-            B: { item: 'avaritia:blaze_cube' },
-            C: { item: 'minecraft:blaze_powder' }
+            A: { item: "minecraft:bone_block" },
+            B: { item: "avaritia:blaze_cube" },
+            C: { item: "minecraft:blaze_powder" }
         }),
-        result: { id: 'avaritia_expand:blaze_leggings' }
+        result: { id: "avaritia_expand:blaze_leggings" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -121,11 +121,11 @@
         category: 'misc',
         pattern: ['BBBBB', 'CBABC', 'AB BA', 'BA AB', 'BB BB'],
         key: ({
-            A: { item: 'minecraft:bone_block' },
-            B: { item: 'avaritia:blaze_cube' },
-            C: { item: 'minecraft:blaze_powder' }
+            A: { item: "minecraft:bone_block" },
+            B: { item: "avaritia:blaze_cube" },
+            C: { item: "minecraft:blaze_powder" }
         }),
-        result: { id: 'avaritia_expand:blaze_leggings' },
+        result: { id: "avaritia_expand:blaze_leggings" },
         show_notification: false
     })
 
@@ -134,13 +134,13 @@
         type: 'extendedcrafting:shaped_table',
         pattern: [' EEE ', 'E A E', 'EADAE', 'EBBBE', ' CCC '],
         key: ({
-            A: { item: 'minecraft:blaze_powder' },
-            B: { item: 'minecraft:netherrack' },
-            C: { item: 'minecraft:obsidian' },
-            D: { item: 'avaritia:blaze_cube' },
-            E: { item: 'minecraft:nether_brick' }
+            A: { item: "minecraft:blaze_powder" },
+            B: { item: "minecraft:netherrack" },
+            C: { item: "minecraft:obsidian" },
+            D: { item: "avaritia:blaze_cube" },
+            E: { item: "minecraft:nether_brick" }
         }),
-        result: { id: 'avaritia_expand:blaze_portable_burner' }
+        result: { id: "avaritia_expand:blaze_portable_burner" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -148,13 +148,13 @@
         category: 'misc',
         pattern: [' EEE ', 'E A E', 'EADAE', 'EBBBE', ' CCC '],
         key: ({
-            A: { item: 'minecraft:blaze_powder' },
-            B: { item: 'minecraft:netherrack' },
-            C: { item: 'minecraft:obsidian' },
-            D: { item: 'avaritia:blaze_cube' },
-            E: { item: 'minecraft:nether_brick' }
+            A: { item: "minecraft:blaze_powder" },
+            B: { item: "minecraft:netherrack" },
+            C: { item: "minecraft:obsidian" },
+            D: { item: "avaritia:blaze_cube" },
+            E: { item: "minecraft:nether_brick" }
         }),
-        result: { id: 'avaritia_expand:blaze_portable_burner' },
+        result: { id: "avaritia_expand:blaze_portable_burner" },
         show_notification: false
     })
 
@@ -163,10 +163,10 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['     ', ' AAA ', 'AADAA', ' AAA ', '     '],
         key: ({
-            A: { item: 'minecraft:wind_charge' },
-            D: { item: 'avaritia:blaze_cube' }
+            A: { item: "minecraft:wind_charge" },
+            D: { item: "avaritia:blaze_cube" }
         }),
-        result: { id: 'avaritia_expand:blaze_wind_charge' }
+        result: { id: "avaritia_expand:blaze_wind_charge" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -174,10 +174,10 @@
         category: 'misc',
         pattern: ['     ', ' AAA ', 'AADAA', ' AAA ', '     '],
         key: ({
-            A: { item: 'minecraft:wind_charge' },
-            D: { item: 'avaritia:blaze_cube' }
+            A: { item: "minecraft:wind_charge" },
+            D: { item: "avaritia:blaze_cube" }
         }),
-        result: { id: 'avaritia_expand:blaze_wind_charge' },
+        result: { id: "avaritia_expand:blaze_wind_charge" },
         show_notification: false
     })
 
@@ -186,12 +186,12 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['       ', ' CC CC ', ' DC CD ', ' DC CD ', 'BBC CBB', 'BAC CAB', '       '],
         key: ({
-            A: { item: 'minecraft:nether_star' },
-            B: { item: 'avaritia:crystal_matrix_ingot' },
-            C: { item: 'avaritia:crystal_matrix' },
-            D: { item: 'avaritia:neutron_ingot' }
+            A: { item: "minecraft:nether_star" },
+            B: { item: "avaritia:crystal_matrix_ingot" },
+            C: { item: "avaritia:crystal_matrix" },
+            D: { item: "avaritia:neutron_ingot" }
         }),
-        result: { id: 'avaritia_expand:crystal_boots' }
+        result: { id: "avaritia_expand:crystal_boots" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -199,12 +199,12 @@
         category: 'misc',
         pattern: ['       ', ' CC CC ', ' DC CD ', ' DC CD ', 'BBC CBB', 'BAC CAB', '       '],
         key: ({
-            A: { item: 'minecraft:nether_star' },
-            B: { item: 'avaritia:crystal_matrix_ingot' },
-            C: { item: 'avaritia:crystal_matrix' },
-            D: { item: 'avaritia:neutron_ingot' }
+            A: { item: "minecraft:nether_star" },
+            B: { item: "avaritia:crystal_matrix_ingot" },
+            C: { item: "avaritia:crystal_matrix" },
+            D: { item: "avaritia:neutron_ingot" }
         }),
-        result: { id: 'avaritia_expand:crystal_boots' },
+        result: { id: "avaritia_expand:crystal_boots" },
         show_notification: false
     })
 
@@ -213,11 +213,11 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['       ', 'BABCBAB', 'BCCCCCB', 'BCCACCB', ' BCCCB ', ' BCCCB ', ' C   C '],
         key: ({
-            A: { item: 'minecraft:nether_star' },
-            B: { item: 'avaritia:crystal_matrix_ingot' },
-            C: { item: 'avaritia:crystal_matrix' }
+            A: { item: "minecraft:nether_star" },
+            B: { item: "avaritia:crystal_matrix_ingot" },
+            C: { item: "avaritia:crystal_matrix" }
         }),
-        result: { id: 'avaritia_expand:crystal_chestplate' }
+        result: { id: "avaritia_expand:crystal_chestplate" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -225,11 +225,11 @@
         category: 'misc',
         pattern: ['       ', 'BABCBAB', 'BCCCCCB', 'BCCACCB', ' BCCCB ', ' BCCCB ', ' C   C '],
         key: ({
-            A: { item: 'minecraft:nether_star' },
-            B: { item: 'avaritia:crystal_matrix_ingot' },
-            C: { item: 'avaritia:crystal_matrix' }
+            A: { item: "minecraft:nether_star" },
+            B: { item: "avaritia:crystal_matrix_ingot" },
+            C: { item: "avaritia:crystal_matrix" }
         }),
-        result: { id: 'avaritia_expand:crystal_chestplate' },
+        result: { id: "avaritia_expand:crystal_chestplate" },
         show_notification: false
     })
 
@@ -238,12 +238,12 @@
         type: 'extendedcrafting:shaped_table',
         pattern: [' BBBBB ', 'B BAB B', 'BCBBBCB', 'CDDDDDC', 'CBCCCBC', ' BDCDB ', '       '],
         key: ({
-            A: { item: 'minecraft:nether_star' },
-            B: { item: 'avaritia:crystal_matrix_ingot' },
-            C: { item: 'avaritia:crystal_matrix' },
-            D: { item: 'avaritia:neutron_ingot' }
+            A: { item: "minecraft:nether_star" },
+            B: { item: "avaritia:crystal_matrix_ingot" },
+            C: { item: "avaritia:crystal_matrix" },
+            D: { item: "avaritia:neutron_ingot" }
         }),
-        result: { id: 'avaritia_expand:crystal_helmet' }
+        result: { id: "avaritia_expand:crystal_helmet" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -251,12 +251,12 @@
         category: 'misc',
         pattern: [' BBBBB ', 'B BAB B', 'BCBBBCB', 'CDDDDDC', 'CBCCCBC', ' BDCDB ', '       '],
         key: ({
-            A: { item: 'minecraft:nether_star' },
-            B: { item: 'avaritia:crystal_matrix_ingot' },
-            C: { item: 'avaritia:crystal_matrix' },
-            D: { item: 'avaritia:neutron_ingot' }
+            A: { item: "minecraft:nether_star" },
+            B: { item: "avaritia:crystal_matrix_ingot" },
+            C: { item: "avaritia:crystal_matrix" },
+            D: { item: "avaritia:neutron_ingot" }
         }),
-        result: { id: 'avaritia_expand:crystal_helmet' },
+        result: { id: "avaritia_expand:crystal_helmet" },
         show_notification: false
     })
 
@@ -265,11 +265,11 @@
         type: 'extendedcrafting:shaped_table',
         pattern: [' CCCCC ', ' CBBBC ', ' CBBBC ', ' CB BC ', ' CC CC ', ' DB BD '],
         key: ({
-            B: { item: 'avaritia:crystal_matrix_ingot' },
-            C: { item: 'avaritia:crystal_matrix' },
-            D: { item: 'avaritia:neutron_ingot' }
+            B: { item: "avaritia:crystal_matrix_ingot" },
+            C: { item: "avaritia:crystal_matrix" },
+            D: { item: "avaritia:neutron_ingot" }
         }),
-        result: { id: 'avaritia_expand:crystal_leggings' }
+        result: { id: "avaritia_expand:crystal_leggings" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -277,11 +277,11 @@
         category: 'misc',
         pattern: [' CCCCC ', ' CBBBC ', ' CBBBC ', ' CB BC ', ' CC CC ', ' DB BD '],
         key: ({
-            B: { item: 'avaritia:crystal_matrix_ingot' },
-            C: { item: 'avaritia:crystal_matrix' },
-            D: { item: 'avaritia:neutron_ingot' }
+            B: { item: "avaritia:crystal_matrix_ingot" },
+            C: { item: "avaritia:crystal_matrix" },
+            D: { item: "avaritia:neutron_ingot" }
         }),
-        result: { id: 'avaritia_expand:crystal_leggings' },
+        result: { id: "avaritia_expand:crystal_leggings" },
         show_notification: false
     })
 
@@ -290,9 +290,9 @@
         type: 'extendedcrafting:shaped_table',
         pattern: [' D   D ', ' D   D ', ' DD DD ', ' D D D ', ' DD DD ', ' D   D ', ' D   D '],
         key: ({
-            D: { item: 'avaritia:crystal_matrix_ingot' }
+            D: { item: "avaritia:crystal_matrix_ingot" }
         }),
-        result: { id: 'avaritia_expand:crystal_rail', count: 64 }
+        result: { id: "avaritia_expand:crystal_rail", count: 64 }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -300,9 +300,9 @@
         category: 'misc',
         pattern: [' D   D ', ' D   D ', ' DD DD ', ' D D D ', ' DD DD ', ' D   D ', ' D   D '],
         key: ({
-            D: { item: 'avaritia:crystal_matrix_ingot' }
+            D: { item: "avaritia:crystal_matrix_ingot" }
         }),
-        result: { id: 'avaritia_expand:crystal_rail', count: 64 },
+        result: { id: "avaritia_expand:crystal_rail", count: 64 },
         show_notification: false
     })
 
@@ -311,10 +311,10 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['       ', '  AAA  ', ' AADAA ', 'AADDDAA', ' AADAA ', '  AAA  ', '       '],
         key: ({
-            A: { item: 'minecraft:wind_charge' },
-            D: { item: 'avaritia:crystal_matrix_ingot' }
+            A: { item: "minecraft:wind_charge" },
+            D: { item: "avaritia:crystal_matrix_ingot" }
         }),
-        result: { id: 'avaritia_expand:crystal_wind_charge' }
+        result: { id: "avaritia_expand:crystal_wind_charge" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -322,10 +322,10 @@
         category: 'misc',
         pattern: ['       ', '  AAA  ', ' AADAA ', 'AADDDAA', ' AADAA ', '  AAA  ', '       '],
         key: ({
-            A: { item: 'minecraft:wind_charge' },
-            D: { item: 'avaritia:crystal_matrix_ingot' }
+            A: { item: "minecraft:wind_charge" },
+            D: { item: "avaritia:crystal_matrix_ingot" }
         }),
-        result: { id: 'avaritia_expand:crystal_wind_charge' },
+        result: { id: "avaritia_expand:crystal_wind_charge" },
         show_notification: false
     })
 
@@ -334,11 +334,11 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['         ', '         ', '         ', '         ', 'E   C   E', 'AEE   EEA', ' AAEAEAA ', '   A A   ', '         '],
         key: ({
-            A: { item: 'avaritia:infinity_ingot' },
-            C: { item: 'minecraft:grass_block' },
-            E: { item: 'avaritia:infinity_catalyst' }
+            A: { item: "avaritia:infinity_ingot" },
+            C: { item: "minecraft:grass_block" },
+            E: { item: "avaritia:infinity_catalyst" }
         }),
-        result: { id: 'avaritia_expand:infinity_book' }
+        result: { id: "avaritia_expand:infinity_book" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -346,11 +346,11 @@
         category: 'misc',
         pattern: ['         ', '         ', '         ', '         ', 'E   C   E', 'AEE   EEA', ' AAEAEAA ', '   A A   ', '         '],
         key: ({
-            A: { item: 'avaritia:infinity_ingot' },
-            C: { item: 'minecraft:grass_block' },
-            E: { item: 'avaritia:infinity_catalyst' }
+            A: { item: "avaritia:infinity_ingot" },
+            C: { item: "minecraft:grass_block" },
+            E: { item: "avaritia:infinity_catalyst" }
         }),
-        result: { id: 'avaritia_expand:infinity_book' },
+        result: { id: "avaritia_expand:infinity_book" },
         show_notification: false
     })
 
@@ -359,14 +359,14 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['   ABA   ', '   ADA   ', '   A A   ', '  A   A  ', ' A  E  A ', ' ACCCCCA ', ' ACCCCCA ', ' AFFFFFA ', '  AAAAA  '],
         key: ({
-            A: { item: 'minecraft:glass' },
-            B: { item: 'avaritia:neutron' },
-            C: { item: 'minecraft:experience_bottle' },
-            D: { item: 'avaritia:neutron_ingot' },
-            E: { item: 'avaritia:infinity_catalyst' },
-            F: { item: 'minecraft:dragon_breath' }
+            A: { item: "minecraft:glass" },
+            B: { item: "avaritia:neutron" },
+            C: { item: "minecraft:experience_bottle" },
+            D: { item: "avaritia:neutron_ingot" },
+            E: { item: "avaritia:infinity_catalyst" },
+            F: { item: "minecraft:dragon_breath" }
         }),
-        result: { id: 'avaritia_expand:infinity_bottle' }
+        result: { id: "avaritia_expand:infinity_bottle" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -374,14 +374,14 @@
         category: 'misc',
         pattern: ['   ABA   ', '   ADA   ', '   A A   ', '  A   A  ', ' A  E  A ', ' ACCCCCA ', ' ACCCCCA ', ' AFFFFFA ', '  AAAAA  '],
         key: ({
-            A: { item: 'minecraft:glass' },
-            B: { item: 'avaritia:neutron' },
-            C: { item: 'minecraft:experience_bottle' },
-            D: { item: 'avaritia:neutron_ingot' },
-            E: { item: 'avaritia:infinity_catalyst' },
-            F: { item: 'minecraft:dragon_breath' }
+            A: { item: "minecraft:glass" },
+            B: { item: "avaritia:neutron" },
+            C: { item: "minecraft:experience_bottle" },
+            D: { item: "avaritia:neutron_ingot" },
+            E: { item: "avaritia:infinity_catalyst" },
+            F: { item: "minecraft:dragon_breath" }
         }),
-        result: { id: 'avaritia_expand:infinity_bottle' },
+        result: { id: "avaritia_expand:infinity_bottle" },
         show_notification: false
     })
 
@@ -390,7 +390,7 @@
         Item.of('avaritia_expand:infinity_shears'),
         [' a', 'a '],
         ({
-            a: { item: 'avaritia:infinity_ingot' }
+            a: { item: "avaritia:infinity_ingot" }
         })
     )
 
@@ -399,12 +399,12 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['AAAAAAAAA', 'AAAAAAAAA', 'AAAAAAAAA', 'AAACBCAAA', 'AAABEBAAA', 'AAACBCAAA', 'AAAAAAAAA', 'AAAAAAAAA', 'AAAAAAAAA'],
         key: ({
-            A: { item: 'minecraft:tnt' },
-            B: { item: 'avaritia:neutron_pile' },
-            C: { item: 'avaritia:infinity_nugget' },
-            E: { item: 'avaritia:infinity_catalyst' }
+            A: { item: "minecraft:tnt" },
+            B: { item: "avaritia:neutron_pile" },
+            C: { item: "avaritia:infinity_nugget" },
+            E: { item: "avaritia:infinity_catalyst" }
         }),
-        result: { id: 'avaritia_expand:infinity_tnt_block' }
+        result: { id: "avaritia_expand:infinity_tnt_block" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -412,12 +412,12 @@
         category: 'misc',
         pattern: ['AAAAAAAAA', 'AAAAAAAAA', 'AAAAAAAAA', 'AAACBCAAA', 'AAABEBAAA', 'AAACBCAAA', 'AAAAAAAAA', 'AAAAAAAAA', 'AAAAAAAAA'],
         key: ({
-            A: { item: 'minecraft:tnt' },
-            B: { item: 'avaritia:neutron_pile' },
-            C: { item: 'avaritia:infinity_nugget' },
-            E: { item: 'avaritia:infinity_catalyst' }
+            A: { item: "minecraft:tnt" },
+            B: { item: "avaritia:neutron_pile" },
+            C: { item: "avaritia:infinity_nugget" },
+            E: { item: "avaritia:infinity_catalyst" }
         }),
-        result: { id: 'avaritia_expand:infinity_tnt_block' },
+        result: { id: "avaritia_expand:infinity_tnt_block" },
         show_notification: false
     })
 
@@ -426,10 +426,10 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['  DDD  ', ' DAD   ', ' DDDDD ', ' D D D ', '  D    ', ' D     ', 'D      '],
         key: ({
-            A: { item: 'avaritia:neutron' },
-            D: { item: 'avaritia:neutron_ingot' }
+            A: { item: "avaritia:neutron" },
+            D: { item: "avaritia:neutron_ingot" }
         }),
-        result: { id: 'avaritia_expand:neutron_axe' }
+        result: { id: "avaritia_expand:neutron_axe" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -437,10 +437,10 @@
         category: 'misc',
         pattern: ['  DDD  ', ' DAD   ', ' DDDDD ', ' D D D ', '  D    ', ' D     ', 'D      '],
         key: ({
-            A: { item: 'avaritia:neutron' },
-            D: { item: 'avaritia:neutron_ingot' }
+            A: { item: "avaritia:neutron" },
+            D: { item: "avaritia:neutron_ingot" }
         }),
-        result: { id: 'avaritia_expand:neutron_axe' },
+        result: { id: "avaritia_expand:neutron_axe" },
         show_notification: false
     })
 
@@ -449,13 +449,13 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['AAAEEEAAA', 'E ADDDA E', 'A  DDD  A', 'E  DDD  E', 'C  DDD  C', 'E  DBD  E', 'A DDDDD A', 'E       E', 'AAAEAEAAA'],
         key: ({
-            A: { item: 'minecraft:iron_block' },
-            B: { item: 'avaritia:neutron' },
-            C: { item: 'minecraft:redstone_block' },
-            D: { item: 'avaritia:neutron_ingot' },
-            E: { item: 'avaritia:crystal_matrix_ingot' }
+            A: { item: "minecraft:iron_block" },
+            B: { item: "avaritia:neutron" },
+            C: { item: "minecraft:redstone_block" },
+            D: { item: "avaritia:neutron_ingot" },
+            E: { item: "avaritia:crystal_matrix_ingot" }
         }),
-        result: { id: 'avaritia_expand:neutron_decompose' }
+        result: { id: "avaritia_expand:neutron_decompose" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -463,13 +463,13 @@
         category: 'misc',
         pattern: ['AAAEEEAAA', 'E ADDDA E', 'A  DDD  A', 'E  DDD  E', 'C  DDD  C', 'E  DBD  E', 'A DDDDD A', 'E       E', 'AAAEAEAAA'],
         key: ({
-            A: { item: 'minecraft:iron_block' },
-            B: { item: 'avaritia:neutron' },
-            C: { item: 'minecraft:redstone_block' },
-            D: { item: 'avaritia:neutron_ingot' },
-            E: { item: 'avaritia:crystal_matrix_ingot' }
+            A: { item: "minecraft:iron_block" },
+            B: { item: "avaritia:neutron" },
+            C: { item: "minecraft:redstone_block" },
+            D: { item: "avaritia:neutron_ingot" },
+            E: { item: "avaritia:crystal_matrix_ingot" }
         }),
-        result: { id: 'avaritia_expand:neutron_decompose' },
+        result: { id: "avaritia_expand:neutron_decompose" },
         show_notification: false
     })
 
@@ -478,10 +478,10 @@
         type: 'extendedcrafting:shaped_table',
         pattern: [' DDDD A', '    DD ', '    DD ', '   D  D', '  D    ', ' D     ', 'D      '],
         key: ({
-            A: { item: 'avaritia:neutron' },
-            D: { item: 'avaritia:neutron_ingot' }
+            A: { item: "avaritia:neutron" },
+            D: { item: "avaritia:neutron_ingot" }
         }),
-        result: { id: 'avaritia_expand:neutron_hoe' }
+        result: { id: "avaritia_expand:neutron_hoe" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -489,10 +489,10 @@
         category: 'misc',
         pattern: [' DDDD A', '    DD ', '    DD ', '   D  D', '  D    ', ' D     ', 'D      '],
         key: ({
-            A: { item: 'avaritia:neutron' },
-            D: { item: 'avaritia:neutron_ingot' }
+            A: { item: "avaritia:neutron" },
+            D: { item: "avaritia:neutron_ingot" }
         }),
-        result: { id: 'avaritia_expand:neutron_hoe' },
+        result: { id: "avaritia_expand:neutron_hoe" },
         show_notification: false
     })
 
@@ -501,11 +501,11 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['    D  ', '   DBD ', '  DBABD', '   DBD ', '  D D  ', ' D     ', 'D      '],
         key: ({
-            A: { item: 'minecraft:heavy_core' },
-            B: { item: 'avaritia:neutron' },
-            D: { item: 'avaritia:neutron_ingot' }
+            A: { item: "minecraft:heavy_core" },
+            B: { item: "avaritia:neutron" },
+            D: { item: "avaritia:neutron_ingot" }
         }),
-        result: { id: 'avaritia_expand:neutron_mace' }
+        result: { id: "avaritia_expand:neutron_mace" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -513,11 +513,11 @@
         category: 'misc',
         pattern: ['    D  ', '   DBD ', '  DBABD', '   DBD ', '  D D  ', ' D     ', 'D      '],
         key: ({
-            A: { item: 'minecraft:heavy_core' },
-            B: { item: 'avaritia:neutron' },
-            D: { item: 'avaritia:neutron_ingot' }
+            A: { item: "minecraft:heavy_core" },
+            B: { item: "avaritia:neutron" },
+            D: { item: "avaritia:neutron_ingot" }
         }),
-        result: { id: 'avaritia_expand:neutron_mace' },
+        result: { id: "avaritia_expand:neutron_mace" },
         show_notification: false
     })
 
@@ -526,10 +526,10 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['       ', '       ', '       ', 'DD   DD', 'DD   DD', 'DDDBDDD', 'DDDDDDD'],
         key: ({
-            B: { item: 'avaritia:neutron' },
-            D: { item: 'avaritia:neutron_ingot' }
+            B: { item: "avaritia:neutron" },
+            D: { item: "avaritia:neutron_ingot" }
         }),
-        result: { id: 'avaritia_expand:neutron_minecart' }
+        result: { id: "avaritia_expand:neutron_minecart" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -537,10 +537,10 @@
         category: 'misc',
         pattern: ['       ', '       ', '       ', 'DD   DD', 'DD   DD', 'DDDBDDD', 'DDDDDDD'],
         key: ({
-            B: { item: 'avaritia:neutron' },
-            D: { item: 'avaritia:neutron_ingot' }
+            B: { item: "avaritia:neutron" },
+            D: { item: "avaritia:neutron_ingot" }
         }),
-        result: { id: 'avaritia_expand:neutron_minecart' },
+        result: { id: "avaritia_expand:neutron_minecart" },
         show_notification: false
     })
 
@@ -549,13 +549,13 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['A      ', 'DDD    ', 'DDD    ', 'DDD    ', 'DDDDDD ', ' DBCEDD', '  DDDD '],
         key: ({
-            A: { item: 'minecraft:recovery_compass' },
-            B: { item: 'minecraft:compass' },
-            C: { item: 'minecraft:blaze_powder' },
-            D: { item: 'avaritia:neutron_ingot' },
-            E: { item: 'minecraft:ender_eye' }
+            A: { item: "minecraft:recovery_compass" },
+            B: { item: "minecraft:compass" },
+            C: { item: "minecraft:blaze_powder" },
+            D: { item: "avaritia:neutron_ingot" },
+            E: { item: "minecraft:ender_eye" }
         }),
-        result: { id: 'avaritia_expand:neutron_mobile' }
+        result: { id: "avaritia_expand:neutron_mobile" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -563,13 +563,13 @@
         category: 'misc',
         pattern: ['A      ', 'DDD    ', 'DDD    ', 'DDD    ', 'DDDDDD ', ' DBCEDD', '  DDDD '],
         key: ({
-            A: { item: 'minecraft:recovery_compass' },
-            B: { item: 'minecraft:compass' },
-            C: { item: 'minecraft:blaze_powder' },
-            D: { item: 'avaritia:neutron_ingot' },
-            E: { item: 'minecraft:ender_eye' }
+            A: { item: "minecraft:recovery_compass" },
+            B: { item: "minecraft:compass" },
+            C: { item: "minecraft:blaze_powder" },
+            D: { item: "avaritia:neutron_ingot" },
+            E: { item: "minecraft:ender_eye" }
         }),
-        result: { id: 'avaritia_expand:neutron_mobile' },
+        result: { id: "avaritia_expand:neutron_mobile" },
         show_notification: false
     })
 
@@ -578,10 +578,10 @@
         type: 'extendedcrafting:shaped_table',
         pattern: [' DDDD  ', '   DDA ', '    DDD', '   D DD', '  D   D', ' D    D', 'D      '],
         key: ({
-            A: { item: 'avaritia:neutron' },
-            D: { item: 'avaritia:neutron_ingot' }
+            A: { item: "avaritia:neutron" },
+            D: { item: "avaritia:neutron_ingot" }
         }),
-        result: { id: 'avaritia_expand:neutron_pickaxe' }
+        result: { id: "avaritia_expand:neutron_pickaxe" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -589,10 +589,10 @@
         category: 'misc',
         pattern: [' DDDD  ', '   DDA ', '    DDD', '   D DD', '  D   D', ' D    D', 'D      '],
         key: ({
-            A: { item: 'avaritia:neutron' },
-            D: { item: 'avaritia:neutron_ingot' }
+            A: { item: "avaritia:neutron" },
+            D: { item: "avaritia:neutron_ingot" }
         }),
-        result: { id: 'avaritia_expand:neutron_pickaxe' },
+        result: { id: "avaritia_expand:neutron_pickaxe" },
         show_notification: false
     })
 
@@ -601,10 +601,10 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['    DDD', '   DDAD', '    DDD', '   D D ', '  D    ', ' D     ', 'D      '],
         key: ({
-            A: { item: 'avaritia:neutron' },
-            D: { item: 'avaritia:neutron_ingot' }
+            A: { item: "avaritia:neutron" },
+            D: { item: "avaritia:neutron_ingot" }
         }),
-        result: { id: 'avaritia_expand:neutron_shovel' }
+        result: { id: "avaritia_expand:neutron_shovel" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -612,10 +612,10 @@
         category: 'misc',
         pattern: ['    DDD', '   DDAD', '    DDD', '   D D ', '  D    ', ' D     ', 'D      '],
         key: ({
-            A: { item: 'avaritia:neutron' },
-            D: { item: 'avaritia:neutron_ingot' }
+            A: { item: "avaritia:neutron" },
+            D: { item: "avaritia:neutron_ingot" }
         }),
-        result: { id: 'avaritia_expand:neutron_shovel' },
+        result: { id: "avaritia_expand:neutron_shovel" },
         show_notification: false
     })
 
@@ -624,10 +624,10 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['     DD', '    DDD', ' D DDD ', ' DDAD  ', '  DD   ', ' D DD  ', 'D      '],
         key: ({
-            A: { item: 'avaritia:neutron' },
-            D: { item: 'avaritia:neutron_ingot' }
+            A: { item: "avaritia:neutron" },
+            D: { item: "avaritia:neutron_ingot" }
         }),
-        result: { id: 'avaritia_expand:neutron_sword' }
+        result: { id: "avaritia_expand:neutron_sword" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -635,10 +635,10 @@
         category: 'misc',
         pattern: ['     DD', '    DDD', ' D DDD ', ' DDAD  ', '  DD   ', ' D DD  ', 'D      '],
         key: ({
-            A: { item: 'avaritia:neutron' },
-            D: { item: 'avaritia:neutron_ingot' }
+            A: { item: "avaritia:neutron" },
+            D: { item: "avaritia:neutron_ingot" }
         }),
-        result: { id: 'avaritia_expand:neutron_sword' },
+        result: { id: "avaritia_expand:neutron_sword" },
         show_notification: false
     })
 
@@ -647,10 +647,10 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['       ', '  AAA  ', ' ADDDA ', 'ADD DDA', ' ADDDA ', '  AAA  ', '       '],
         key: ({
-            A: { item: 'minecraft:wind_charge' },
-            D: { item: 'avaritia:neutron_ingot' }
+            A: { item: "minecraft:wind_charge" },
+            D: { item: "avaritia:neutron_ingot" }
         }),
-        result: { id: 'avaritia_expand:neutron_wind_charge' }
+        result: { id: "avaritia_expand:neutron_wind_charge" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -658,10 +658,10 @@
         category: 'misc',
         pattern: ['       ', '  AAA  ', ' ADDDA ', 'ADD DDA', ' ADDDA ', '  AAA  ', '       '],
         key: ({
-            A: { item: 'minecraft:wind_charge' },
-            D: { item: 'avaritia:neutron_ingot' }
+            A: { item: "minecraft:wind_charge" },
+            D: { item: "avaritia:neutron_ingot" }
         }),
-        result: { id: 'avaritia_expand:neutron_wind_charge' },
+        result: { id: "avaritia_expand:neutron_wind_charge" },
         show_notification: false
     })
 
@@ -670,11 +670,11 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['  D  ', ' DCD ', 'DEEED', ' DED ', '  D  '],
         key: ({
-            C: { item: 'avaritia:blaze_cube_block' },
-            D: { item: 'avaritia:crystal_matrix_ingot' },
-            E: { item: 'avaritia:neutron' }
+            C: { item: "avaritia:blaze_cube_block" },
+            D: { item: "avaritia:crystal_matrix_ingot" },
+            E: { item: "avaritia:neutron" }
         }),
-        result: { id: 'avaritia_expand:wither_star' }
+        result: { id: "avaritia_expand:wither_star" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -682,11 +682,11 @@
         category: 'misc',
         pattern: ['  D  ', ' DCD ', 'DEEED', ' DED ', '  D  '],
         key: ({
-            C: { item: 'avaritia:blaze_cube_block' },
-            D: { item: 'avaritia:crystal_matrix_ingot' },
-            E: { item: 'avaritia:neutron' }
+            C: { item: "avaritia:blaze_cube_block" },
+            D: { item: "avaritia:crystal_matrix_ingot" },
+            E: { item: "avaritia:neutron" }
         }),
-        result: { id: 'avaritia_expand:wither_star' },
+        result: { id: "avaritia_expand:wither_star" },
         show_notification: false
     })
 
@@ -695,8 +695,8 @@
         Item.of('minecraft:music_disc_pigstep'),
         ['a a', ' b ', 'a a'],
         ({
-            a: { item: 'avaritia:record_fragment' },
-            b: { item: 'minecraft:nether_gold_ore' }
+            a: { item: "avaritia:record_fragment" },
+            b: { item: "minecraft:nether_gold_ore" }
         })
     )
 
@@ -705,7 +705,7 @@
         Item.of('minecraft:sculk_sensor'),
         ['a a'],
         ({
-            a: { item: 'minecraft:echo_shard' }
+            a: { item: "minecraft:echo_shard" }
         })
     )
 
@@ -714,9 +714,9 @@
         Item.of('minecraft:sculk_shrieker'),
         ['cac', ' b '],
         ({
-            a: { item: 'minecraft:sculk_catalyst' },
-            b: { item: 'minecraft:sculk_sensor' },
-            c: { item: 'minecraft:bone_block' }
+            a: { item: "minecraft:sculk_catalyst" },
+            b: { item: "minecraft:sculk_sensor" },
+            c: { item: "minecraft:bone_block" }
         })
     )
 
@@ -725,7 +725,7 @@
         Item.of('minecraft:cobweb'),
         ['a a', ' a ', 'a a'],
         ({
-            a: { item: 'minecraft:string' }
+            a: { item: "minecraft:string" }
         })
     )
 
@@ -734,8 +734,8 @@
         Item.of('minecraft:music_disc_mall'),
         ['a a', ' b ', 'a a'],
         ({
-            a: { item: 'avaritia:record_fragment' },
-            b: { item: 'minecraft:purple_dye' }
+            a: { item: "avaritia:record_fragment" },
+            b: { item: "minecraft:purple_dye" }
         })
     )
 
@@ -744,8 +744,8 @@
         Item.of('minecraft:music_disc_ward'),
         ['a a', ' b ', 'a a'],
         ({
-            a: { item: 'avaritia:record_fragment' },
-            b: { item: 'minecraft:cyan_dye' }
+            a: { item: "avaritia:record_fragment" },
+            b: { item: "minecraft:cyan_dye" }
         })
     )
 
@@ -754,8 +754,8 @@
         Item.of('minecraft:music_disc_chirp'),
         ['a a', ' b ', 'a a'],
         ({
-            a: { item: 'avaritia:record_fragment' },
-            b: { item: 'minecraft:red_dye' }
+            a: { item: "avaritia:record_fragment" },
+            b: { item: "minecraft:red_dye" }
         })
     )
 
@@ -764,15 +764,15 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['  ggg  ', ' gfefg ', 'gfbdbfg', 'gecaceg', 'gfbcbfg', 'ggfefgg', ' ggggg '],
         key: ({
-            a: { item: 'minecraft:egg' },
-            b: { item: 'minecraft:dragon_breath' },
-            c: { item: 'minecraft:experience_bottle' },
-            d: { item: 'minecraft:dragon_head' },
-            e: { item: 'minecraft:ender_chest' },
-            f: { item: 'minecraft:end_crystal' },
-            g: { item: 'avaritia:neutron_pile' }
+            a: { item: "minecraft:egg" },
+            b: { item: "minecraft:dragon_breath" },
+            c: { item: "minecraft:experience_bottle" },
+            d: { item: "minecraft:dragon_head" },
+            e: { item: "minecraft:ender_chest" },
+            f: { item: "minecraft:end_crystal" },
+            g: { item: "avaritia:neutron_pile" }
         }),
-        result: { id: 'minecraft:dragon_egg' }
+        result: { id: "minecraft:dragon_egg" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -780,15 +780,15 @@
         category: 'misc',
         pattern: ['  ggg  ', ' gfefg ', 'gfbdbfg', 'gecaceg', 'gfbcbfg', 'ggfefgg', ' ggggg '],
         key: ({
-            a: { item: 'minecraft:egg' },
-            b: { item: 'minecraft:dragon_breath' },
-            c: { item: 'minecraft:experience_bottle' },
-            d: { item: 'minecraft:dragon_head' },
-            e: { item: 'minecraft:ender_chest' },
-            f: { item: 'minecraft:end_crystal' },
-            g: { item: 'avaritia:neutron_pile' }
+            a: { item: "minecraft:egg" },
+            b: { item: "minecraft:dragon_breath" },
+            c: { item: "minecraft:experience_bottle" },
+            d: { item: "minecraft:dragon_head" },
+            e: { item: "minecraft:ender_chest" },
+            f: { item: "minecraft:end_crystal" },
+            g: { item: "avaritia:neutron_pile" }
         }),
-        result: { id: 'minecraft:dragon_egg' },
+        result: { id: "minecraft:dragon_egg" },
         show_notification: false
     })
 
@@ -797,8 +797,8 @@
         Item.of('minecraft:music_disc_strad'),
         ['a a', ' b ', 'a a'],
         ({
-            a: { item: 'avaritia:record_fragment' },
-            b: { item: 'minecraft:white_dye' }
+            a: { item: "avaritia:record_fragment" },
+            b: { item: "minecraft:white_dye" }
         })
     )
 
@@ -807,7 +807,7 @@
         Item.of('minecraft:music_disc_11'),
         ['a a', ' a ', 'a a'],
         ({
-            a: { item: 'avaritia:record_fragment' }
+            a: { item: "avaritia:record_fragment" }
         })
     )
 
@@ -816,7 +816,7 @@
         Item.of('minecraft:sculk'),
         ['aa', 'aa'],
         ({
-            a: { item: 'minecraft:echo_shard' }
+            a: { item: "minecraft:echo_shard" }
         })
     )
 
@@ -825,8 +825,8 @@
         Item.of('minecraft:music_disc_otherside'),
         ['a a', ' b ', 'a a'],
         ({
-            a: { item: 'avaritia:record_fragment' },
-            b: { item: 'minecraft:grass_block' }
+            a: { item: "avaritia:record_fragment" },
+            b: { item: "minecraft:grass_block" }
         })
     )
 
@@ -835,9 +835,9 @@
         Item.of('minecraft:heart_of_the_sea'),
         ['bdb', 'dcd', 'bdb'],
         ({
-            b: { item: 'minecraft:prismarine_shard' },
-            c: { item: 'minecraft:ender_eye' },
-            d: { item: 'minecraft:nautilus_shell' }
+            b: { item: "minecraft:prismarine_shard" },
+            c: { item: "minecraft:ender_eye" },
+            d: { item: "minecraft:nautilus_shell" }
         })
     )
 
@@ -846,16 +846,16 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['     ', 'fghgf', 'ecace', 'dcccd', 'bbbbb'],
         key: ({
-            a: { item: 'minecraft:end_crystal' },
-            b: { item: 'minecraft:end_stone_bricks' },
-            c: { item: 'minecraft:end_stone' },
-            d: { item: 'minecraft:end_stone_brick_wall' },
-            e: { item: 'minecraft:emerald_block' },
-            f: { item: 'avaritia:crystal_matrix_ingot' },
-            g: { item: 'minecraft:ender_eye' },
-            h: { item: 'minecraft:sculk_shrieker' }
+            a: { item: "minecraft:end_crystal" },
+            b: { item: "minecraft:end_stone_bricks" },
+            c: { item: "minecraft:end_stone" },
+            d: { item: "minecraft:end_stone_brick_wall" },
+            e: { item: "minecraft:emerald_block" },
+            f: { item: "avaritia:crystal_matrix_ingot" },
+            g: { item: "minecraft:ender_eye" },
+            h: { item: "minecraft:sculk_shrieker" }
         }),
-        result: { id: 'minecraft:end_portal_frame' }
+        result: { id: "minecraft:end_portal_frame" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -863,16 +863,16 @@
         category: 'misc',
         pattern: ['     ', 'fghgf', 'ecace', 'dcccd', 'bbbbb'],
         key: ({
-            a: { item: 'minecraft:end_crystal' },
-            b: { item: 'minecraft:end_stone_bricks' },
-            c: { item: 'minecraft:end_stone' },
-            d: { item: 'minecraft:end_stone_brick_wall' },
-            e: { item: 'minecraft:emerald_block' },
-            f: { item: 'avaritia:crystal_matrix_ingot' },
-            g: { item: 'minecraft:ender_eye' },
-            h: { item: 'minecraft:sculk_shrieker' }
+            a: { item: "minecraft:end_crystal" },
+            b: { item: "minecraft:end_stone_bricks" },
+            c: { item: "minecraft:end_stone" },
+            d: { item: "minecraft:end_stone_brick_wall" },
+            e: { item: "minecraft:emerald_block" },
+            f: { item: "avaritia:crystal_matrix_ingot" },
+            g: { item: "minecraft:ender_eye" },
+            h: { item: "minecraft:sculk_shrieker" }
         }),
-        result: { id: 'minecraft:end_portal_frame' },
+        result: { id: "minecraft:end_portal_frame" },
         show_notification: false
     })
 
@@ -881,8 +881,8 @@
         Item.of('minecraft:music_disc_13'),
         ['a a', ' b ', 'a a'],
         ({
-            a: { item: 'avaritia:record_fragment' },
-            b: { item: 'minecraft:yellow_dye' }
+            a: { item: "avaritia:record_fragment" },
+            b: { item: "minecraft:yellow_dye" }
         })
     )
 
@@ -891,8 +891,8 @@
         Item.of('minecraft:gilded_blackstone'),
         [' a ', 'aba', ' a '],
         ({
-            a: { item: 'minecraft:gold_nugget' },
-            b: { item: 'minecraft:blackstone' }
+            a: { item: "minecraft:gold_nugget" },
+            b: { item: "minecraft:blackstone" }
         })
     )
 
@@ -901,8 +901,8 @@
         Item.of('minecraft:music_disc_far'),
         ['a a', ' b ', 'a a'],
         ({
-            a: { item: 'avaritia:record_fragment' },
-            b: { item: 'minecraft:lime_dye' }
+            a: { item: "avaritia:record_fragment" },
+            b: { item: "minecraft:lime_dye" }
         })
     )
 
@@ -911,8 +911,8 @@
         Item.of('minecraft:sculk_catalyst'),
         ['b', 'c'],
         ({
-            b: { item: 'minecraft:sculk' },
-            c: { item: 'minecraft:bone_block' }
+            b: { item: "minecraft:sculk" },
+            c: { item: "minecraft:bone_block" }
         })
     )
 
@@ -921,9 +921,9 @@
         Item.of('minecraft:budding_amethyst'),
         ['cac', 'aba', 'cac'],
         ({
-            a: { item: 'avaritia:soul_farmland' },
-            b: { item: 'minecraft:amethyst_block' },
-            c: { item: 'minecraft:amethyst_cluster' }
+            a: { item: "avaritia:soul_farmland" },
+            b: { item: "minecraft:amethyst_block" },
+            c: { item: "minecraft:amethyst_cluster" }
         })
     )
 
@@ -932,10 +932,10 @@
         Item.of('minecraft:trident'),
         [' ba', ' cb', 'd  '],
         ({
-            a: { item: 'minecraft:nautilus_shell' },
-            b: { item: 'minecraft:prismarine_crystals' },
-            c: { item: 'minecraft:heart_of_the_sea' },
-            d: { item: 'minecraft:prismarine_shard' }
+            a: { item: "minecraft:nautilus_shell" },
+            b: { item: "minecraft:prismarine_crystals" },
+            c: { item: "minecraft:heart_of_the_sea" },
+            d: { item: "minecraft:prismarine_shard" }
         })
     )
 
@@ -944,8 +944,8 @@
         Item.of('minecraft:music_disc_blocks'),
         ['a a', ' b ', 'a a'],
         ({
-            a: { item: 'avaritia:record_fragment' },
-            b: { item: 'minecraft:orange_dye' }
+            a: { item: "avaritia:record_fragment" },
+            b: { item: "minecraft:orange_dye" }
         })
     )
 
@@ -954,8 +954,8 @@
         Item.of('minecraft:music_disc_relic'),
         ['a a', ' b ', 'a a'],
         ({
-            a: { item: 'avaritia:record_fragment' },
-            b: { item: 'minecraft:waxed_weathered_copper' }
+            a: { item: "avaritia:record_fragment" },
+            b: { item: "minecraft:waxed_weathered_copper" }
         })
     )
 
@@ -964,8 +964,8 @@
         Item.of('minecraft:soul_sand', 4),
         ['ab ', 'ba '],
         ({
-            a: { item: 'minecraft:soul_soil' },
-            b: { item: 'minecraft:sand' }
+            a: { item: "minecraft:soul_soil" },
+            b: { item: "minecraft:sand" }
         })
     )
 
@@ -974,9 +974,9 @@
         Item.of('minecraft:dragon_head'),
         [' a ', 'bcb', ' b '],
         ({
-            a: { item: 'minecraft:wither_skeleton_skull' },
-            b: { item: 'minecraft:end_crystal' },
-            c: { item: 'minecraft:dragon_egg' }
+            a: { item: "minecraft:wither_skeleton_skull" },
+            b: { item: "minecraft:end_crystal" },
+            c: { item: "minecraft:dragon_egg" }
         })
     )
 
@@ -985,9 +985,9 @@
         Item.of('minecraft:spore_blossom'),
         ['aba', 'bcb', 'aba'],
         ({
-            a: { item: 'minecraft:bone_meal' },
-            b: { item: 'minecraft:pink_petals' },
-            c: { item: 'minecraft:torchflower_seeds' }
+            a: { item: "minecraft:bone_meal" },
+            b: { item: "minecraft:pink_petals" },
+            c: { item: "minecraft:torchflower_seeds" }
         })
     )
 
@@ -996,8 +996,8 @@
         Item.of('minecraft:music_disc_cat'),
         ['a a', ' b ', 'a a'],
         ({
-            a: { item: 'avaritia:record_fragment' },
-            b: { item: 'minecraft:green_dye' }
+            a: { item: "avaritia:record_fragment" },
+            b: { item: "minecraft:green_dye" }
         })
     )
 
@@ -1006,10 +1006,10 @@
         Item.of('minecraft:sniffer_egg'),
         ['aaa', 'dbd', 'ccc'],
         ({
-            a: { item: 'minecraft:brick' },
-            b: { item: 'minecraft:egg' },
-            c: { item: 'minecraft:gravel' },
-            d: { item: 'minecraft:sand' }
+            a: { item: "minecraft:brick" },
+            b: { item: "minecraft:egg" },
+            c: { item: "minecraft:gravel" },
+            d: { item: "minecraft:sand" }
         })
     )
 
@@ -1018,8 +1018,8 @@
         Item.of('minecraft:crying_obsidian'),
         ['bab', 'aba', 'bab'],
         ({
-            a: { item: 'minecraft:amethyst_block' },
-            b: { item: 'minecraft:obsidian' }
+            a: { item: "minecraft:amethyst_block" },
+            b: { item: "minecraft:obsidian" }
         })
     )
 
@@ -1028,8 +1028,8 @@
         Item.of('minecraft:music_disc_wait'),
         ['a a', ' b ', 'a a'],
         ({
-            a: { item: 'avaritia:record_fragment' },
-            b: { item: 'minecraft:light_blue_dye' }
+            a: { item: "avaritia:record_fragment" },
+            b: { item: "minecraft:light_blue_dye" }
         })
     )
 
@@ -1038,8 +1038,8 @@
         Item.of('minecraft:music_disc_mellohi'),
         ['a a', ' b ', 'a a'],
         ({
-            a: { item: 'avaritia:record_fragment' },
-            b: { item: 'minecraft:magenta_dye' }
+            a: { item: "avaritia:record_fragment" },
+            b: { item: "minecraft:magenta_dye" }
         })
     )
 
@@ -1048,8 +1048,8 @@
         Item.of('minecraft:music_disc_stal'),
         ['a a', ' b ', 'a a'],
         ({
-            a: { item: 'avaritia:record_fragment' },
-            b: { item: 'minecraft:black_dye' }
+            a: { item: "avaritia:record_fragment" },
+            b: { item: "minecraft:black_dye" }
         })
     )
 
@@ -1058,8 +1058,8 @@
         Item.of('minecraft:music_disc_5'),
         ['a a', ' b ', 'a a'],
         ({
-            a: { item: 'avaritia:record_fragment' },
-            b: { item: 'minecraft:echo_shard' }
+            a: { item: "avaritia:record_fragment" },
+            b: { item: "minecraft:echo_shard" }
         })
     )
 
@@ -1068,7 +1068,7 @@
         Item.of('minecraft:dragon_breath'),
         [' a ', 'a a', ' a '],
         ({
-            a: { item: 'minecraft:end_crystal' }
+            a: { item: "minecraft:end_crystal" }
         })
     )
 
@@ -1077,10 +1077,10 @@
         Item.of('minecraft:reinforced_deepslate'),
         ['ada', 'cbc', 'aba'],
         ({
-            a: { item: 'minecraft:obsidian' },
-            b: { item: 'minecraft:deepslate' },
-            c: { item: 'minecraft:dripstone_block' },
-            d: { item: 'minecraft:sculk_catalyst' }
+            a: { item: "minecraft:obsidian" },
+            b: { item: "minecraft:deepslate" },
+            c: { item: "minecraft:dripstone_block" },
+            d: { item: "minecraft:sculk_catalyst" }
         })
     )
 
@@ -1089,9 +1089,9 @@
         Item.of('avaritia:side_config_card'),
         ['iii', 'iai', ' b '],
         ({
-            a: { item: 'avaritia:diamond_lattice' },
-            b: { item: 'minecraft:gold_ingot' },
-            i: { item: 'minecraft:iron_ingot' }
+            a: { item: "avaritia:diamond_lattice" },
+            b: { item: "minecraft:gold_ingot" },
+            i: { item: "minecraft:iron_ingot" }
         })
     )
 
@@ -1101,7 +1101,7 @@
         pattern: ['   EEE   ', ' EEPPPEE ', ' EPPPPPE ', 'EPPPNPPPE', 'EPPNSNPPE', 'EPPPNPPPE', ' EPPPPPE ', ' EEPPPEE ', '   EEE   '],
         key: ({
             E: { tag: 'c:end_stones' },
-            N: { item: 'avaritia:neutron_ingot' },
+            N: { item: "avaritia:neutron_ingot" },
             P: { tag: 'c:ender_pearls' },
             S: { item: "actuallyadditions:ender_star" }
         }),
@@ -1114,7 +1114,7 @@
         pattern: ['   EEE   ', ' EEPPPEE ', ' EPPPPPE ', 'EPPPNPPPE', 'EPPNSNPPE', 'EPPPNPPPE', ' EPPPPPE ', ' EEPPPEE ', '   EEE   '],
         key: ({
             E: { tag: 'c:end_stones' },
-            N: { item: 'avaritia:neutron_ingot' },
+            N: { item: "avaritia:neutron_ingot" },
             P: { tag: 'c:ender_pearls' },
             S: { item: "actuallyadditions:ender_star" }
         }),
@@ -1127,32 +1127,32 @@
         type: 'extendedcrafting:shaped_table',
         pattern: [' aaabaaa ', ' accecca ', ' acefeca ', 'dijkelmnd', 'dogphqgrd', 'dstufvwxd', ' acdfdca ', ' accecca ', ' aaabaaa '],
         key: ({
-            a: { item: 'avaritia:crystal_matrix_ingot' },
-            b: { item: 'avaritia:crystal_matrix' },
-            c: { item: 'avaritia:neutron_ingot' },
-            d: { item: 'avaritia:neutron_pile' },
-            e: { item: 'avaritia:infinity_nugget' },
-            f: { item: 'avaritia:infinity_ingot' },
-            g: { item: 'avaritia:infinity_catalyst' },
-            h: { item: 'minecraft:netherite_upgrade_smithing_template' },
-            i: { item: 'minecraft:sentry_armor_trim_smithing_template' },
-            j: { item: 'minecraft:dune_armor_trim_smithing_template' },
-            k: { item: 'minecraft:coast_armor_trim_smithing_template' },
-            l: { item: 'minecraft:wild_armor_trim_smithing_template' },
-            m: { item: 'minecraft:ward_armor_trim_smithing_template' },
-            n: { item: 'minecraft:eye_armor_trim_smithing_template' },
-            o: { item: 'minecraft:vex_armor_trim_smithing_template' },
-            p: { item: 'minecraft:tide_armor_trim_smithing_template' },
-            q: { item: 'minecraft:snout_armor_trim_smithing_template' },
-            r: { item: 'minecraft:rib_armor_trim_smithing_template' },
-            s: { item: 'minecraft:spire_armor_trim_smithing_template' },
-            t: { item: 'minecraft:wayfinder_armor_trim_smithing_template' },
-            u: { item: 'minecraft:shaper_armor_trim_smithing_template' },
-            v: { item: 'minecraft:silence_armor_trim_smithing_template' },
-            w: { item: 'minecraft:raiser_armor_trim_smithing_template' },
-            x: { item: 'minecraft:host_armor_trim_smithing_template' }
+            a: { item: "avaritia:crystal_matrix_ingot" },
+            b: { item: "avaritia:crystal_matrix" },
+            c: { item: "avaritia:neutron_ingot" },
+            d: { item: "avaritia:neutron_pile" },
+            e: { item: "avaritia:infinity_nugget" },
+            f: { item: "avaritia:infinity_ingot" },
+            g: { item: "avaritia:infinity_catalyst" },
+            h: { item: "minecraft:netherite_upgrade_smithing_template" },
+            i: { item: "minecraft:sentry_armor_trim_smithing_template" },
+            j: { item: "minecraft:dune_armor_trim_smithing_template" },
+            k: { item: "minecraft:coast_armor_trim_smithing_template" },
+            l: { item: "minecraft:wild_armor_trim_smithing_template" },
+            m: { item: "minecraft:ward_armor_trim_smithing_template" },
+            n: { item: "minecraft:eye_armor_trim_smithing_template" },
+            o: { item: "minecraft:vex_armor_trim_smithing_template" },
+            p: { item: "minecraft:tide_armor_trim_smithing_template" },
+            q: { item: "minecraft:snout_armor_trim_smithing_template" },
+            r: { item: "minecraft:rib_armor_trim_smithing_template" },
+            s: { item: "minecraft:spire_armor_trim_smithing_template" },
+            t: { item: "minecraft:wayfinder_armor_trim_smithing_template" },
+            u: { item: "minecraft:shaper_armor_trim_smithing_template" },
+            v: { item: "minecraft:silence_armor_trim_smithing_template" },
+            w: { item: "minecraft:raiser_armor_trim_smithing_template" },
+            x: { item: "minecraft:host_armor_trim_smithing_template" }
         }),
-        result: { id: 'avaritia:upgrade_smithing_template' }
+        result: { id: "avaritia:upgrade_smithing_template" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -1160,63 +1160,32 @@
         category: 'misc',
         pattern: [' aaabaaa ', ' accecca ', ' acefeca ', 'dijkelmnd', 'dogphqgrd', 'dstufvwxd', ' acdfdca ', ' accecca ', ' aaabaaa '],
         key: ({
-            a: { item: 'avaritia:crystal_matrix_ingot' },
-            b: { item: 'avaritia:crystal_matrix' },
-            c: { item: 'avaritia:neutron_ingot' },
-            d: { item: 'avaritia:neutron_pile' },
-            e: { item: 'avaritia:infinity_nugget' },
-            f: { item: 'avaritia:infinity_ingot' },
-            g: { item: 'avaritia:infinity_catalyst' },
-            h: { item: 'minecraft:netherite_upgrade_smithing_template' },
-            i: { item: 'minecraft:sentry_armor_trim_smithing_template' },
-            j: { item: 'minecraft:dune_armor_trim_smithing_template' },
-            k: { item: 'minecraft:coast_armor_trim_smithing_template' },
-            l: { item: 'minecraft:wild_armor_trim_smithing_template' },
-            m: { item: 'minecraft:ward_armor_trim_smithing_template' },
-            n: { item: 'minecraft:eye_armor_trim_smithing_template' },
-            o: { item: 'minecraft:vex_armor_trim_smithing_template' },
-            p: { item: 'minecraft:tide_armor_trim_smithing_template' },
-            q: { item: 'minecraft:snout_armor_trim_smithing_template' },
-            r: { item: 'minecraft:rib_armor_trim_smithing_template' },
-            s: { item: 'minecraft:spire_armor_trim_smithing_template' },
-            t: { item: 'minecraft:wayfinder_armor_trim_smithing_template' },
-            u: { item: 'minecraft:shaper_armor_trim_smithing_template' },
-            v: { item: 'minecraft:silence_armor_trim_smithing_template' },
-            w: { item: 'minecraft:raiser_armor_trim_smithing_template' },
-            x: { item: 'minecraft:host_armor_trim_smithing_template' }
+            a: { item: "avaritia:crystal_matrix_ingot" },
+            b: { item: "avaritia:crystal_matrix" },
+            c: { item: "avaritia:neutron_ingot" },
+            d: { item: "avaritia:neutron_pile" },
+            e: { item: "avaritia:infinity_nugget" },
+            f: { item: "avaritia:infinity_ingot" },
+            g: { item: "avaritia:infinity_catalyst" },
+            h: { item: "minecraft:netherite_upgrade_smithing_template" },
+            i: { item: "minecraft:sentry_armor_trim_smithing_template" },
+            j: { item: "minecraft:dune_armor_trim_smithing_template" },
+            k: { item: "minecraft:coast_armor_trim_smithing_template" },
+            l: { item: "minecraft:wild_armor_trim_smithing_template" },
+            m: { item: "minecraft:ward_armor_trim_smithing_template" },
+            n: { item: "minecraft:eye_armor_trim_smithing_template" },
+            o: { item: "minecraft:vex_armor_trim_smithing_template" },
+            p: { item: "minecraft:tide_armor_trim_smithing_template" },
+            q: { item: "minecraft:snout_armor_trim_smithing_template" },
+            r: { item: "minecraft:rib_armor_trim_smithing_template" },
+            s: { item: "minecraft:spire_armor_trim_smithing_template" },
+            t: { item: "minecraft:wayfinder_armor_trim_smithing_template" },
+            u: { item: "minecraft:shaper_armor_trim_smithing_template" },
+            v: { item: "minecraft:silence_armor_trim_smithing_template" },
+            w: { item: "minecraft:raiser_armor_trim_smithing_template" },
+            x: { item: "minecraft:host_armor_trim_smithing_template" }
         }),
-        result: { id: 'avaritia:upgrade_smithing_template' },
-        show_notification: false
-    })
-
-    // avaritia:neutron_compressor
-    event.custom({
-        type: 'extendedcrafting:shaped_table',
-        pattern: ['IIIHHHIII', 'C N   N C', 'I N   N I', 'C N   N C', 'RNN O NNR', 'C N   N C', 'I N   N I', 'C N   N C', 'IIICICIII'],
-        key: ({
-            C: { item: 'avaritia:crystal_matrix_ingot' },
-            H: { item: 'minecraft:hopper' },
-            I: { item: 'minecraft:iron_block' },
-            N: { item: 'avaritia:neutron_ingot' },
-            O: { item: 'avaritia:neutron' },
-            R: { item: 'minecraft:redstone_block' }
-        }),
-        result: { id: 'avaritia:neutron_compressor' }
-    })
-    event.custom({
-        type: 'create:mechanical_crafting',
-        accept_mirrored: false,
-        category: 'misc',
-        pattern: ['IIIHHHIII', 'C N   N C', 'I N   N I', 'C N   N C', 'RNN O NNR', 'C N   N C', 'I N   N I', 'C N   N C', 'IIICICIII'],
-        key: ({
-            C: { item: 'avaritia:crystal_matrix_ingot' },
-            H: { item: 'minecraft:hopper' },
-            I: { item: 'minecraft:iron_block' },
-            N: { item: 'avaritia:neutron_ingot' },
-            O: { item: 'avaritia:neutron' },
-            R: { item: 'minecraft:redstone_block' }
-        }),
-        result: { id: 'avaritia:neutron_compressor' },
+        result: { id: "avaritia:upgrade_smithing_template" },
         show_notification: false
     })
 
@@ -1225,11 +1194,11 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['     CA', '    CAC', ' C CAC ', ' CCAC  ', 'CAAC   ', ' BACC  ', 'A C    '],
         key: ({
-            A: { item: 'avaritia:crystal_matrix' },
-            B: { item: 'avaritia:neutron' },
-            C: { item: 'avaritia:crystal_matrix_ingot' }
+            A: { item: "avaritia:crystal_matrix" },
+            B: { item: "avaritia:neutron" },
+            C: { item: "avaritia:crystal_matrix_ingot" }
         }),
-        result: { id: 'avaritia:crystal_sword' }
+        result: { id: "avaritia:crystal_sword" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -1237,11 +1206,11 @@
         category: 'misc',
         pattern: ['     CA', '    CAC', ' C CAC ', ' CCAC  ', 'CAAC   ', ' BACC  ', 'A C    '],
         key: ({
-            A: { item: 'avaritia:crystal_matrix' },
-            B: { item: 'avaritia:neutron' },
-            C: { item: 'avaritia:crystal_matrix_ingot' }
+            A: { item: "avaritia:crystal_matrix" },
+            B: { item: "avaritia:neutron" },
+            C: { item: "avaritia:crystal_matrix_ingot" }
         }),
-        result: { id: 'avaritia:crystal_sword' },
+        result: { id: "avaritia:crystal_sword" },
         show_notification: false
     })
 
@@ -1250,14 +1219,14 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['   IIIIIP', ' AC N  C ', ' CXN  C  ', 'I NIPC   ', 'IN PCN   ', 'I  CNIN  ', 'I C  NNA ', 'IC    AAN', 'P      NN'],
         key: ({
-            A: { item: 'avaritia:crystal_matrix' },
-            C: { item: 'avaritia:crystal_matrix_ingot' },
-            I: { item: 'avaritia:infinity_ingot' },
-            N: { item: 'avaritia:neutron_ingot' },
-            P: { item: 'avaritia:neutron_pile' },
-            X: { item: 'avaritia:infinity_catalyst' }
+            A: { item: "avaritia:crystal_matrix" },
+            C: { item: "avaritia:crystal_matrix_ingot" },
+            I: { item: "avaritia:infinity_ingot" },
+            N: { item: "avaritia:neutron_ingot" },
+            P: { item: "avaritia:neutron_pile" },
+            X: { item: "avaritia:infinity_catalyst" }
         }),
-        result: { id: 'avaritia:infinity_crossbow' }
+        result: { id: "avaritia:infinity_crossbow" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -1265,14 +1234,14 @@
         category: 'misc',
         pattern: ['   IIIIIP', ' AC N  C ', ' CXN  C  ', 'I NIPC   ', 'IN PCN   ', 'I  CNIN  ', 'I C  NNA ', 'IC    AAN', 'P      NN'],
         key: ({
-            A: { item: 'avaritia:crystal_matrix' },
-            C: { item: 'avaritia:crystal_matrix_ingot' },
-            I: { item: 'avaritia:infinity_ingot' },
-            N: { item: 'avaritia:neutron_ingot' },
-            P: { item: 'avaritia:neutron_pile' },
-            X: { item: 'avaritia:infinity_catalyst' }
+            A: { item: "avaritia:crystal_matrix" },
+            C: { item: "avaritia:crystal_matrix_ingot" },
+            I: { item: "avaritia:infinity_ingot" },
+            N: { item: "avaritia:neutron_ingot" },
+            P: { item: "avaritia:neutron_pile" },
+            X: { item: "avaritia:infinity_catalyst" }
         }),
-        result: { id: 'avaritia:infinity_crossbow' },
+        result: { id: "avaritia:infinity_crossbow" },
         show_notification: false
     })
 
@@ -1281,15 +1250,15 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['AAC   CAA', 'AB     BA', 'C DEEED C', '  EGGGE  ', '  EGFGE  ', '  EGGGE  ', 'C DEEED C', 'AB     BA', 'AAC   CAA'],
         key: ({
-            A: { item: 'minecraft:ender_pearl' },
-            B: { item: 'minecraft:nether_star' },
-            C: { item: 'avaritia:diamond_lattice' },
-            D: { item: 'avaritia:neutron_ingot' },
-            E: { item: 'minecraft:emerald_block' },
-            F: { item: 'avaritia:endest_pearl' },
-            G: { item: 'avaritia:neutron_compressor' }
+            A: { item: "minecraft:ender_pearl" },
+            B: { item: "minecraft:nether_star" },
+            C: { item: "avaritia:diamond_lattice" },
+            D: { item: "avaritia:neutron_ingot" },
+            E: { item: "minecraft:emerald_block" },
+            F: { item: "avaritia:endest_pearl" },
+            G: { item: "avaritia:neutron_compressor" }
         }),
-        result: { id: 'avaritia:dense_neutron_compressor' }
+        result: { id: "avaritia:dense_neutron_compressor" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -1297,15 +1266,15 @@
         category: 'misc',
         pattern: ['AAC   CAA', 'AB     BA', 'C DEEED C', '  EGGGE  ', '  EGFGE  ', '  EGGGE  ', 'C DEEED C', 'AB     BA', 'AAC   CAA'],
         key: ({
-            A: { item: 'minecraft:ender_pearl' },
-            B: { item: 'minecraft:nether_star' },
-            C: { item: 'avaritia:diamond_lattice' },
-            D: { item: 'avaritia:neutron_ingot' },
-            E: { item: 'minecraft:emerald_block' },
-            F: { item: 'avaritia:endest_pearl' },
-            G: { item: 'avaritia:neutron_compressor' }
+            A: { item: "minecraft:ender_pearl" },
+            B: { item: "minecraft:nether_star" },
+            C: { item: "avaritia:diamond_lattice" },
+            D: { item: "avaritia:neutron_ingot" },
+            E: { item: "minecraft:emerald_block" },
+            F: { item: "avaritia:endest_pearl" },
+            G: { item: "avaritia:neutron_compressor" }
         }),
-        result: { id: 'avaritia:dense_neutron_compressor' },
+        result: { id: "avaritia:dense_neutron_compressor" },
         show_notification: false
     })
 
@@ -1314,12 +1283,12 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['CAAAA D', ' CCCC  ', '    CCA', '   B CA', '  B  CA', ' B   CA', 'A     C'],
         key: ({
-            A: { item: 'avaritia:crystal_matrix' },
-            B: { item: 'avaritia:neutron_ingot' },
-            C: { item: 'avaritia:crystal_matrix_ingot' },
-            D: { item: 'avaritia:neutron' }
+            A: { item: "avaritia:crystal_matrix" },
+            B: { item: "avaritia:neutron_ingot" },
+            C: { item: "avaritia:crystal_matrix_ingot" },
+            D: { item: "avaritia:neutron" }
         }),
-        result: { id: 'avaritia:crystal_pickaxe' }
+        result: { id: "avaritia:crystal_pickaxe" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -1327,12 +1296,12 @@
         category: 'misc',
         pattern: ['CAAAA D', ' CCCC  ', '    CCA', '   B CA', '  B  CA', ' B   CA', 'A     C'],
         key: ({
-            A: { item: 'avaritia:crystal_matrix' },
-            B: { item: 'avaritia:neutron_ingot' },
-            C: { item: 'avaritia:crystal_matrix_ingot' },
-            D: { item: 'avaritia:neutron' }
+            A: { item: "avaritia:crystal_matrix" },
+            B: { item: "avaritia:neutron_ingot" },
+            C: { item: "avaritia:crystal_matrix_ingot" },
+            D: { item: "avaritia:neutron" }
         }),
-        result: { id: 'avaritia:crystal_pickaxe' },
+        result: { id: "avaritia:crystal_pickaxe" },
         show_notification: false
     })
 
@@ -1341,13 +1310,13 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['DDCCA', ' DDAC', '  A D', ' E   ', 'B    '],
         key: ({
-            A: { item: 'minecraft:bone_block' },
-            B: { item: 'avaritia:diamond_lattice' },
-            C: { item: 'avaritia:blaze_cube' },
-            D: { item: 'minecraft:blaze_powder' },
-            E: { item: 'minecraft:soul_soil' }
+            A: { item: "minecraft:bone_block" },
+            B: { item: "avaritia:diamond_lattice" },
+            C: { item: "avaritia:blaze_cube" },
+            D: { item: "minecraft:blaze_powder" },
+            E: { item: "minecraft:soul_soil" }
         }),
-        result: { id: 'avaritia:blaze_hoe' }
+        result: { id: "avaritia:blaze_hoe" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -1355,13 +1324,13 @@
         category: 'misc',
         pattern: ['DDCCA', ' DDAC', '  A D', ' E   ', 'B    '],
         key: ({
-            A: { item: 'minecraft:bone_block' },
-            B: { item: 'avaritia:diamond_lattice' },
-            C: { item: 'avaritia:blaze_cube' },
-            D: { item: 'minecraft:blaze_powder' },
-            E: { item: 'minecraft:soul_soil' }
+            A: { item: "minecraft:bone_block" },
+            B: { item: "avaritia:diamond_lattice" },
+            C: { item: "avaritia:blaze_cube" },
+            D: { item: "minecraft:blaze_powder" },
+            E: { item: "minecraft:soul_soil" }
         }),
-        result: { id: 'avaritia:blaze_hoe' },
+        result: { id: "avaritia:blaze_hoe" },
         show_notification: false
     })
 
@@ -1371,11 +1340,11 @@
         pattern: ['         ', '  aaaaa  ', ' abbcbba ', ' abaaaba ', ' acadaca ', ' abaaaba ', ' abbcbba ', '  aaaaa  ', '         '],
         key: ({
             a: { item: "avaritia:refined_coal_block" },
-            b: { item: 'minecraft:magma_block' },
+            b: { item: "minecraft:magma_block" },
             c: { item: "allthemodium:soul_lava_bucket" },
             d: { item: "allthecompressed:coal_block_9x" }
         }),
-        result: { id: 'avaritia:star_fuel' }
+        result: { id: "avaritia:star_fuel" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -1384,11 +1353,11 @@
         pattern: ['         ', '  aaaaa  ', ' abbcbba ', ' abaaaba ', ' acadaca ', ' abaaaba ', ' abbcbba ', '  aaaaa  ', '         '],
         key: ({
             a: { item: "avaritia:refined_coal_block" },
-            b: { item: 'minecraft:magma_block' },
+            b: { item: "minecraft:magma_block" },
             c: { item: "allthemodium:soul_lava_bucket" },
             d: { item: "allthecompressed:coal_block_9x" }
         }),
-        result: { id: 'avaritia:star_fuel' },
+        result: { id: "avaritia:star_fuel" },
         show_notification: false
     })
 
@@ -1397,7 +1366,7 @@
         Item.of('avaritia:record_fragment', 4),
         [' a ', 'aba', ' a '],
         ({
-            a: { item: 'avaritia:neutron_pile' },
+            a: { item: "avaritia:neutron_pile" },
             b: { tag: 'c:music_discs' }
         })
     )
@@ -1407,16 +1376,16 @@
         type: 'extendedcrafting:shaped_table',
         pattern: [' MNNCNNM ', ' NCCDCCN ', ' NSIIISN ', ' NIAAAIN ', ' NIAXAIN ', ' NIAAAIN ', ' NSIIISN ', ' NCCDCCN ', ' MNNCNNM '],
         key: ({
-            A: { item: 'avaritia:crystal_matrix' },
-            C: { item: 'avaritia:crystal_matrix_ingot' },
-            D: { item: 'avaritia:diamond_lattice' },
-            I: { item: 'avaritia:infinity_ingot' },
-            M: { item: 'avaritia:neutron' },
-            N: { item: 'avaritia:neutron_ingot' },
-            S: { item: 'minecraft:shield' },
-            X: { item: 'avaritia:infinity_catalyst' }
+            A: { item: "avaritia:crystal_matrix" },
+            C: { item: "avaritia:crystal_matrix_ingot" },
+            D: { item: "avaritia:diamond_lattice" },
+            I: { item: "avaritia:infinity_ingot" },
+            M: { item: "avaritia:neutron" },
+            N: { item: "avaritia:neutron_ingot" },
+            S: { item: "minecraft:shield" },
+            X: { item: "avaritia:infinity_catalyst" }
         }),
-        result: { id: 'avaritia:infinity_shield' }
+        result: { id: "avaritia:infinity_shield" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -1424,16 +1393,16 @@
         category: 'misc',
         pattern: [' MNNCNNM ', ' NCCDCCN ', ' NSIIISN ', ' NIAAAIN ', ' NIAXAIN ', ' NIAAAIN ', ' NSIIISN ', ' NCCDCCN ', ' MNNCNNM '],
         key: ({
-            A: { item: 'avaritia:crystal_matrix' },
-            C: { item: 'avaritia:crystal_matrix_ingot' },
-            D: { item: 'avaritia:diamond_lattice' },
-            I: { item: 'avaritia:infinity_ingot' },
-            M: { item: 'avaritia:neutron' },
-            N: { item: 'avaritia:neutron_ingot' },
-            S: { item: 'minecraft:shield' },
-            X: { item: 'avaritia:infinity_catalyst' }
+            A: { item: "avaritia:crystal_matrix" },
+            C: { item: "avaritia:crystal_matrix_ingot" },
+            D: { item: "avaritia:diamond_lattice" },
+            I: { item: "avaritia:infinity_ingot" },
+            M: { item: "avaritia:neutron" },
+            N: { item: "avaritia:neutron_ingot" },
+            S: { item: "minecraft:shield" },
+            X: { item: "avaritia:infinity_catalyst" }
         }),
-        result: { id: 'avaritia:infinity_shield' },
+        result: { id: "avaritia:infinity_shield" },
         show_notification: false
     })
 
@@ -1442,14 +1411,14 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['      III', '  AAIINNP', ' AXA   C ', ' AA   C  ', ' I   C   ', ' I  C    ', 'IN C     ', 'INC      ', 'IP       '],
         key: ({
-            A: { item: 'avaritia:crystal_matrix' },
-            C: { item: 'avaritia:crystal_matrix_ingot' },
-            I: { item: 'avaritia:infinity_ingot' },
-            N: { item: 'avaritia:neutron_ingot' },
-            P: { item: 'avaritia:neutron_pile' },
-            X: { item: 'avaritia:infinity_catalyst' }
+            A: { item: "avaritia:crystal_matrix" },
+            C: { item: "avaritia:crystal_matrix_ingot" },
+            I: { item: "avaritia:infinity_ingot" },
+            N: { item: "avaritia:neutron_ingot" },
+            P: { item: "avaritia:neutron_pile" },
+            X: { item: "avaritia:infinity_catalyst" }
         }),
-        result: { id: 'avaritia:infinity_bow' }
+        result: { id: "avaritia:infinity_bow" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -1457,14 +1426,14 @@
         category: 'misc',
         pattern: ['      III', '  AAIINNP', ' AXA   C ', ' AA   C  ', ' I   C   ', ' I  C    ', 'IN C     ', 'INC      ', 'IP       '],
         key: ({
-            A: { item: 'avaritia:crystal_matrix' },
-            C: { item: 'avaritia:crystal_matrix_ingot' },
-            I: { item: 'avaritia:infinity_ingot' },
-            N: { item: 'avaritia:neutron_ingot' },
-            P: { item: 'avaritia:neutron_pile' },
-            X: { item: 'avaritia:infinity_catalyst' }
+            A: { item: "avaritia:crystal_matrix" },
+            C: { item: "avaritia:crystal_matrix_ingot" },
+            I: { item: "avaritia:infinity_ingot" },
+            N: { item: "avaritia:neutron_ingot" },
+            P: { item: "avaritia:neutron_pile" },
+            X: { item: "avaritia:infinity_catalyst" }
         }),
-        result: { id: 'avaritia:infinity_bow' },
+        result: { id: "avaritia:infinity_bow" },
         show_notification: false
     })
 
@@ -1473,15 +1442,15 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['BBBCECBBB', 'BDDDADDDB', 'BDSDADSDB', 'CDDDIDDDC', 'EAAISIAAE', 'CDDDIDDDC', 'BDSDADSDB', 'BDDDADDDB', 'BBBCECBBB'],
         key: ({
-            A: { item: 'mekanism:ultimate_energy_cube' },
+            A: { item: "mekanism:ultimate_energy_cube" },
             B: { item: "mekanismsun:advance_induction_casing" },
-            C: { item: 'mekanism:induction_port' },
+            C: { item: "mekanism:induction_port" },
             D: { item: "mekanism_extras:infinite_induction_cell" },
             E: { item: "mekanism_extras:infinite_induction_provider" },
-            I: { item: 'avaritia:infinity_ingot' },
+            I: { item: "avaritia:infinity_ingot" },
             S: { item: "ufo:dimensional_catalyst" }
         }),
-        result: { id: 'mekanism:creative_energy_cube' }
+        result: { id: "mekanism:creative_energy_cube" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -1489,15 +1458,15 @@
         category: 'misc',
         pattern: ['BBBCECBBB', 'BDDDADDDB', 'BDSDADSDB', 'CDDDIDDDC', 'EAAISIAAE', 'CDDDIDDDC', 'BDSDADSDB', 'BDDDADDDB', 'BBBCECBBB'],
         key: ({
-            A: { item: 'mekanism:ultimate_energy_cube' },
+            A: { item: "mekanism:ultimate_energy_cube" },
             B: { item: "mekanismsun:advance_induction_casing" },
-            C: { item: 'mekanism:induction_port' },
+            C: { item: "mekanism:induction_port" },
             D: { item: "mekanism_extras:infinite_induction_cell" },
             E: { item: "mekanism_extras:infinite_induction_provider" },
-            I: { item: 'avaritia:infinity_ingot' },
+            I: { item: "avaritia:infinity_ingot" },
             S: { item: "ufo:dimensional_catalyst" }
         }),
-        result: { id: 'mekanism:creative_energy_cube' },
+        result: { id: "mekanism:creative_energy_cube" },
         show_notification: false
     })
 
@@ -1506,15 +1475,15 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['   PPP   ', ' NPCCCPN ', ' PABBBAP ', 'PCBBXBBCP', 'PCBXEXBCP', 'PCBBXBBCP', ' PABBBAP ', ' NPCCCPN ', '   PPP   '],
         key: ({
-            A: { item: 'avaritia:crystal_matrix' },
-            B: { item: 'avaritia:infinity_nugget' },
-            C: { item: 'avaritia:crystal_matrix_ingot' },
-            E: { item: 'avaritia:endest_pearl' },
-            N: { item: 'avaritia:neutron_ingot' },
-            P: { item: 'avaritia:neutron_pile' },
-            X: { item: 'avaritia:infinity_catalyst' }
+            A: { item: "avaritia:crystal_matrix" },
+            B: { item: "avaritia:infinity_nugget" },
+            C: { item: "avaritia:crystal_matrix_ingot" },
+            E: { item: "avaritia:endest_pearl" },
+            N: { item: "avaritia:neutron_ingot" },
+            P: { item: "avaritia:neutron_pile" },
+            X: { item: "avaritia:infinity_catalyst" }
         }),
-        result: { id: 'avaritia:enhancement_core' }
+        result: { id: "avaritia:enhancement_core" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -1522,15 +1491,15 @@
         category: 'misc',
         pattern: ['   PPP   ', ' NPCCCPN ', ' PABBBAP ', 'PCBBXBBCP', 'PCBXEXBCP', 'PCBBXBBCP', ' PABBBAP ', ' NPCCCPN ', '   PPP   '],
         key: ({
-            A: { item: 'avaritia:crystal_matrix' },
-            B: { item: 'avaritia:infinity_nugget' },
-            C: { item: 'avaritia:crystal_matrix_ingot' },
-            E: { item: 'avaritia:endest_pearl' },
-            N: { item: 'avaritia:neutron_ingot' },
-            P: { item: 'avaritia:neutron_pile' },
-            X: { item: 'avaritia:infinity_catalyst' }
+            A: { item: "avaritia:crystal_matrix" },
+            B: { item: "avaritia:infinity_nugget" },
+            C: { item: "avaritia:crystal_matrix_ingot" },
+            E: { item: "avaritia:endest_pearl" },
+            N: { item: "avaritia:neutron_ingot" },
+            P: { item: "avaritia:neutron_pile" },
+            X: { item: "avaritia:infinity_catalyst" }
         }),
-        result: { id: 'avaritia:enhancement_core' },
+        result: { id: "avaritia:enhancement_core" },
         show_notification: false
     })
 
@@ -1539,8 +1508,8 @@
         Item.of('avaritia:refined_coal'),
         ['aaa', 'aba', 'aaa'],
         ({
-            a: { item: 'minecraft:coal' },
-            b: { item: 'avaritia:neutron_nugget' }
+            a: { item: "minecraft:coal" },
+            b: { item: "avaritia:neutron_nugget" }
         })
     )
 
@@ -1549,13 +1518,13 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['    II   ', '   II  B ', '  IIIAA  ', '  IIAXA  ', '  I AAII ', '   N  II ', '  N      ', ' N       ', 'A        '],
         key: ({
-            A: { item: 'avaritia:crystal_matrix' },
-            B: { item: 'avaritia:neutron' },
-            I: { item: 'avaritia:infinity_ingot' },
-            N: { item: 'avaritia:neutron_ingot' },
-            X: { item: 'avaritia:infinity_catalyst' }
+            A: { item: "avaritia:crystal_matrix" },
+            B: { item: "avaritia:neutron" },
+            I: { item: "avaritia:infinity_ingot" },
+            N: { item: "avaritia:neutron_ingot" },
+            X: { item: "avaritia:infinity_catalyst" }
         }),
-        result: { id: 'avaritia:infinity_axe' }
+        result: { id: "avaritia:infinity_axe" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -1563,13 +1532,13 @@
         category: 'misc',
         pattern: ['    II   ', '   II  B ', '  IIIAA  ', '  IIAXA  ', '  I AAII ', '   N  II ', '  N      ', ' N       ', 'A        '],
         key: ({
-            A: { item: 'avaritia:crystal_matrix' },
-            B: { item: 'avaritia:neutron' },
-            I: { item: 'avaritia:infinity_ingot' },
-            N: { item: 'avaritia:neutron_ingot' },
-            X: { item: 'avaritia:infinity_catalyst' }
+            A: { item: "avaritia:crystal_matrix" },
+            B: { item: "avaritia:neutron" },
+            I: { item: "avaritia:infinity_ingot" },
+            N: { item: "avaritia:neutron_ingot" },
+            X: { item: "avaritia:infinity_catalyst" }
         }),
-        result: { id: 'avaritia:infinity_axe' },
+        result: { id: "avaritia:infinity_axe" },
         show_notification: false
     })
 
@@ -1578,13 +1547,13 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['   DC', 'A DCD', 'ADCD ', ' ED  ', 'B AA '],
         key: ({
-            A: { item: 'minecraft:bone_block' },
-            B: { item: 'avaritia:diamond_lattice' },
-            C: { item: 'avaritia:blaze_cube' },
-            D: { item: 'minecraft:blaze_powder' },
-            E: { item: 'minecraft:soul_soil' }
+            A: { item: "minecraft:bone_block" },
+            B: { item: "avaritia:diamond_lattice" },
+            C: { item: "avaritia:blaze_cube" },
+            D: { item: "minecraft:blaze_powder" },
+            E: { item: "minecraft:soul_soil" }
         }),
-        result: { id: 'avaritia:blaze_sword' }
+        result: { id: "avaritia:blaze_sword" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -1592,13 +1561,13 @@
         category: 'misc',
         pattern: ['   DC', 'A DCD', 'ADCD ', ' ED  ', 'B AA '],
         key: ({
-            A: { item: 'minecraft:bone_block' },
-            B: { item: 'avaritia:diamond_lattice' },
-            C: { item: 'avaritia:blaze_cube' },
-            D: { item: 'minecraft:blaze_powder' },
-            E: { item: 'minecraft:soul_soil' }
+            A: { item: "minecraft:bone_block" },
+            B: { item: "avaritia:diamond_lattice" },
+            C: { item: "avaritia:blaze_cube" },
+            D: { item: "minecraft:blaze_powder" },
+            E: { item: "minecraft:soul_soil" }
         }),
-        result: { id: 'avaritia:blaze_sword' },
+        result: { id: "avaritia:blaze_sword" },
         show_notification: false
     })
 
@@ -1607,18 +1576,18 @@
         type: 'extendedcrafting:shaped_table',
         pattern: [' IBNND  C', ' INENNNA ', ' XINNNBN ', '  INNFNND', '   INNNNN', '   NINNGN', '  N  IINB', ' B    XII', 'ACC      '],
         key: ({
-            A: { item: 'avaritia:crystal_matrix' },
-            B: { item: 'avaritia:neutron' },
-            C: { item: 'avaritia:crystal_matrix_ingot' },
-            D: { item: 'avaritia:neutron_nugget' },
-            E: { item: 'minecraft:flint_and_steel' },
-            F: { item: 'minecraft:water_bucket' },
-            G: { item: 'minecraft:trident' },
-            I: { item: 'avaritia:infinity_ingot' },
-            N: { item: 'avaritia:neutron_ingot' },
-            X: { item: 'avaritia:infinity_nugget' }
+            A: { item: "avaritia:crystal_matrix" },
+            B: { item: "avaritia:neutron" },
+            C: { item: "avaritia:crystal_matrix_ingot" },
+            D: { item: "avaritia:neutron_nugget" },
+            E: { item: "minecraft:flint_and_steel" },
+            F: { item: "minecraft:water_bucket" },
+            G: { item: "minecraft:trident" },
+            I: { item: "avaritia:infinity_ingot" },
+            N: { item: "avaritia:neutron_ingot" },
+            X: { item: "avaritia:infinity_nugget" }
         }),
-        result: { id: 'avaritia:infinity_umbrella' }
+        result: { id: "avaritia:infinity_umbrella" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -1626,18 +1595,18 @@
         category: 'misc',
         pattern: [' IBNND  C', ' INENNNA ', ' XINNNBN ', '  INNFNND', '   INNNNN', '   NINNGN', '  N  IINB', ' B    XII', 'ACC      '],
         key: ({
-            A: { item: 'avaritia:crystal_matrix' },
-            B: { item: 'avaritia:neutron' },
-            C: { item: 'avaritia:crystal_matrix_ingot' },
-            D: { item: 'avaritia:neutron_nugget' },
-            E: { item: 'minecraft:flint_and_steel' },
-            F: { item: 'minecraft:water_bucket' },
-            G: { item: 'minecraft:trident' },
-            I: { item: 'avaritia:infinity_ingot' },
-            N: { item: 'avaritia:neutron_ingot' },
-            X: { item: 'avaritia:infinity_nugget' }
+            A: { item: "avaritia:crystal_matrix" },
+            B: { item: "avaritia:neutron" },
+            C: { item: "avaritia:crystal_matrix_ingot" },
+            D: { item: "avaritia:neutron_nugget" },
+            E: { item: "minecraft:flint_and_steel" },
+            F: { item: "minecraft:water_bucket" },
+            G: { item: "minecraft:trident" },
+            I: { item: "avaritia:infinity_ingot" },
+            N: { item: "avaritia:neutron_ingot" },
+            X: { item: "avaritia:infinity_nugget" }
         }),
-        result: { id: 'avaritia:infinity_umbrella' },
+        result: { id: "avaritia:infinity_umbrella" },
         show_notification: false
     })
 
@@ -1646,14 +1615,14 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['     I  I', '    I  I ', '   CAAI  ', '    AXA I', '    PAAI ', '   N  C  ', '  N      ', ' C       ', 'A        '],
         key: ({
-            A: { item: 'avaritia:crystal_matrix' },
-            C: { item: 'avaritia:crystal_matrix_ingot' },
-            I: { item: 'avaritia:infinity_ingot' },
-            N: { item: 'avaritia:neutron_ingot' },
-            P: { item: 'minecraft:heart_of_the_sea' },
-            X: { item: 'avaritia:infinity_catalyst' }
+            A: { item: "avaritia:crystal_matrix" },
+            C: { item: "avaritia:crystal_matrix_ingot" },
+            I: { item: "avaritia:infinity_ingot" },
+            N: { item: "avaritia:neutron_ingot" },
+            P: { item: "minecraft:heart_of_the_sea" },
+            X: { item: "avaritia:infinity_catalyst" }
         }),
-        result: { id: 'avaritia:infinity_trident' }
+        result: { id: "avaritia:infinity_trident" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -1661,14 +1630,14 @@
         category: 'misc',
         pattern: ['     I  I', '    I  I ', '   CAAI  ', '    AXA I', '    PAAI ', '   N  C  ', '  N      ', ' C       ', 'A        '],
         key: ({
-            A: { item: 'avaritia:crystal_matrix' },
-            C: { item: 'avaritia:crystal_matrix_ingot' },
-            I: { item: 'avaritia:infinity_ingot' },
-            N: { item: 'avaritia:neutron_ingot' },
-            P: { item: 'minecraft:heart_of_the_sea' },
-            X: { item: 'avaritia:infinity_catalyst' }
+            A: { item: "avaritia:crystal_matrix" },
+            C: { item: "avaritia:crystal_matrix_ingot" },
+            I: { item: "avaritia:infinity_ingot" },
+            N: { item: "avaritia:neutron_ingot" },
+            P: { item: "minecraft:heart_of_the_sea" },
+            X: { item: "avaritia:infinity_catalyst" }
         }),
-        result: { id: 'avaritia:infinity_trident' },
+        result: { id: "avaritia:infinity_trident" },
         show_notification: false
     })
 
@@ -1677,12 +1646,12 @@
         type: 'extendedcrafting:shaped_table',
         pattern: [' IIIIIIAA', '  IIIIAXA', '      AAI', '     N II', '    N    ', '   N     ', '  N      ', ' N       ', 'A        '],
         key: ({
-            A: { item: 'avaritia:crystal_matrix' },
-            I: { item: 'avaritia:infinity_ingot' },
-            N: { item: 'avaritia:neutron_ingot' },
-            X: { item: 'avaritia:infinity_catalyst' }
+            A: { item: "avaritia:crystal_matrix" },
+            I: { item: "avaritia:infinity_ingot" },
+            N: { item: "avaritia:neutron_ingot" },
+            X: { item: "avaritia:infinity_catalyst" }
         }),
-        result: { id: 'avaritia:infinity_hoe' }
+        result: { id: "avaritia:infinity_hoe" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -1690,12 +1659,12 @@
         category: 'misc',
         pattern: [' IIIIIIAA', '  IIIIAXA', '      AAI', '     N II', '    N    ', '   N     ', '  N      ', ' N       ', 'A        '],
         key: ({
-            A: { item: 'avaritia:crystal_matrix' },
-            I: { item: 'avaritia:infinity_ingot' },
-            N: { item: 'avaritia:neutron_ingot' },
-            X: { item: 'avaritia:infinity_catalyst' }
+            A: { item: "avaritia:crystal_matrix" },
+            I: { item: "avaritia:infinity_ingot" },
+            N: { item: "avaritia:neutron_ingot" },
+            X: { item: "avaritia:infinity_catalyst" }
         }),
-        result: { id: 'avaritia:infinity_hoe' },
+        result: { id: "avaritia:infinity_hoe" },
         show_notification: false
     })
 
@@ -1704,13 +1673,13 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['  aaa  ', ' cbbbc ', 'ab d ba', 'abdedba', 'ab d ba', ' cbbbc ', '  aaa  '],
         key: ({
-            a: { item: 'avaritia:neutron_ingot' },
-            b: { item: 'avaritia:crystal_matrix_ingot' },
-            c: { item: 'avaritia:diamond_lattice_block' },
-            d: { item: 'avaritia:endest_pearl' },
-            e: { item: 'avaritia:infinity_catalyst' }
+            a: { item: "avaritia:neutron_ingot" },
+            b: { item: "avaritia:crystal_matrix_ingot" },
+            c: { item: "avaritia:diamond_lattice_block" },
+            d: { item: "avaritia:endest_pearl" },
+            e: { item: "avaritia:infinity_catalyst" }
         }),
-        result: { id: 'avaritia:neutron_ring' }
+        result: { id: "avaritia:neutron_ring" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -1718,13 +1687,13 @@
         category: 'misc',
         pattern: ['  aaa  ', ' cbbbc ', 'ab d ba', 'abdedba', 'ab d ba', ' cbbbc ', '  aaa  '],
         key: ({
-            a: { item: 'avaritia:neutron_ingot' },
-            b: { item: 'avaritia:crystal_matrix_ingot' },
-            c: { item: 'avaritia:diamond_lattice_block' },
-            d: { item: 'avaritia:endest_pearl' },
-            e: { item: 'avaritia:infinity_catalyst' }
+            a: { item: "avaritia:neutron_ingot" },
+            b: { item: "avaritia:crystal_matrix_ingot" },
+            c: { item: "avaritia:diamond_lattice_block" },
+            d: { item: "avaritia:endest_pearl" },
+            e: { item: "avaritia:infinity_catalyst" }
         }),
-        result: { id: 'avaritia:neutron_ring' },
+        result: { id: "avaritia:neutron_ring" },
         show_notification: false
     })
 
@@ -1733,13 +1702,13 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['   DC', '  DCD', '  AD ', ' E   ', 'B    '],
         key: ({
-            A: { item: 'minecraft:bone_block' },
-            B: { item: 'avaritia:diamond_lattice' },
-            C: { item: 'avaritia:blaze_cube' },
-            D: { item: 'minecraft:blaze_powder' },
-            E: { item: 'minecraft:soul_soil' }
+            A: { item: "minecraft:bone_block" },
+            B: { item: "avaritia:diamond_lattice" },
+            C: { item: "avaritia:blaze_cube" },
+            D: { item: "minecraft:blaze_powder" },
+            E: { item: "minecraft:soul_soil" }
         }),
-        result: { id: 'avaritia:blaze_shovel' }
+        result: { id: "avaritia:blaze_shovel" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -1747,13 +1716,13 @@
         category: 'misc',
         pattern: ['   DC', '  DCD', '  AD ', ' E   ', 'B    '],
         key: ({
-            A: { item: 'minecraft:bone_block' },
-            B: { item: 'avaritia:diamond_lattice' },
-            C: { item: 'avaritia:blaze_cube' },
-            D: { item: 'minecraft:blaze_powder' },
-            E: { item: 'minecraft:soul_soil' }
+            A: { item: "minecraft:bone_block" },
+            B: { item: "avaritia:diamond_lattice" },
+            C: { item: "avaritia:blaze_cube" },
+            D: { item: "minecraft:blaze_powder" },
+            E: { item: "minecraft:soul_soil" }
         }),
-        result: { id: 'avaritia:blaze_shovel' },
+        result: { id: "avaritia:blaze_shovel" },
         show_notification: false
     })
 
@@ -1762,11 +1731,11 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['    CCC', '   CCCC', '    CCC', '   B C ', '  B    ', ' B     ', 'A      '],
         key: ({
-            A: { item: 'avaritia:crystal_matrix' },
-            B: { item: 'avaritia:neutron_ingot' },
-            C: { item: 'avaritia:crystal_matrix_ingot' }
+            A: { item: "avaritia:crystal_matrix" },
+            B: { item: "avaritia:neutron_ingot" },
+            C: { item: "avaritia:crystal_matrix_ingot" }
         }),
-        result: { id: 'avaritia:crystal_shovel' }
+        result: { id: "avaritia:crystal_shovel" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -1774,11 +1743,11 @@
         category: 'misc',
         pattern: ['    CCC', '   CCCC', '    CCC', '   B C ', '  B    ', ' B     ', 'A      '],
         key: ({
-            A: { item: 'avaritia:crystal_matrix' },
-            B: { item: 'avaritia:neutron_ingot' },
-            C: { item: 'avaritia:crystal_matrix_ingot' }
+            A: { item: "avaritia:crystal_matrix" },
+            B: { item: "avaritia:neutron_ingot" },
+            C: { item: "avaritia:crystal_matrix_ingot" }
         }),
-        result: { id: 'avaritia:crystal_shovel' },
+        result: { id: "avaritia:crystal_shovel" },
         show_notification: false
     })
     // avaritia:infinity_boots
@@ -1786,10 +1755,10 @@
         type: 'extendedcrafting:shaped_table',
         pattern: [' NNN NNN ', ' NIN NIN ', ' NIN NIN ', 'NNIN NINN', 'NIIN NIIN', 'NNNN NNNN'],
         key: ({
-            I: { item: 'avaritia:infinity_ingot' },
-            N: { item: 'avaritia:neutron_ingot' }
+            I: { item: "avaritia:infinity_ingot" },
+            N: { item: "avaritia:neutron_ingot" }
         }),
-        result: { id: 'avaritia:infinity_boots' }
+        result: { id: "avaritia:infinity_boots" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -1797,10 +1766,10 @@
         category: 'misc',
         pattern: [' NNN NNN ', ' NIN NIN ', ' NIN NIN ', 'NNIN NINN', 'NIIN NIIN', 'NNNN NNNN'],
         key: ({
-            I: { item: 'avaritia:infinity_ingot' },
-            N: { item: 'avaritia:neutron_ingot' }
+            I: { item: "avaritia:infinity_ingot" },
+            N: { item: "avaritia:neutron_ingot" }
         }),
-        result: { id: 'avaritia:infinity_boots' },
+        result: { id: "avaritia:infinity_boots" },
         show_notification: false
     })
 
@@ -1809,13 +1778,13 @@
         type: 'extendedcrafting:shaped_table',
         pattern: [' ABBA', 'ACDDC', 'BD E ', 'BDE  ', 'AC   '],
         key: ({
-            A: { item: 'minecraft:bone_block' },
-            B: { item: 'avaritia:blaze_cube' },
-            C: { item: 'avaritia:diamond_lattice' },
-            D: { item: 'minecraft:blaze_powder' },
-            E: { item: 'minecraft:soul_soil' }
+            A: { item: "minecraft:bone_block" },
+            B: { item: "avaritia:blaze_cube" },
+            C: { item: "avaritia:diamond_lattice" },
+            D: { item: "minecraft:blaze_powder" },
+            E: { item: "minecraft:soul_soil" }
         }),
-        result: { id: 'avaritia:blaze_bow' }
+        result: { id: "avaritia:blaze_bow" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -1823,13 +1792,13 @@
         category: 'misc',
         pattern: [' ABBA', 'ACDDC', 'BD E ', 'BDE  ', 'AC   '],
         key: ({
-            A: { item: 'minecraft:bone_block' },
-            B: { item: 'avaritia:blaze_cube' },
-            C: { item: 'avaritia:diamond_lattice' },
-            D: { item: 'minecraft:blaze_powder' },
-            E: { item: 'minecraft:soul_soil' }
+            A: { item: "minecraft:bone_block" },
+            B: { item: "avaritia:blaze_cube" },
+            C: { item: "avaritia:diamond_lattice" },
+            D: { item: "minecraft:blaze_powder" },
+            E: { item: "minecraft:soul_soil" }
         }),
-        result: { id: 'avaritia:blaze_bow' },
+        result: { id: "avaritia:blaze_bow" },
         show_notification: false
     })
 
@@ -1838,12 +1807,12 @@
         Item.of('avaritia:nether_crafting_table'),
         ['cbc', 'dad', 'efe'],
         ({
-            a: { item: 'avaritia:double_compressed_crafting_table' },
-            b: { item: 'minecraft:respawn_anchor' },
-            c: { item: 'minecraft:wither_skeleton_skull' },
-            d: { item: 'minecraft:netherrack' },
-            e: { item: 'minecraft:netherite_ingot' },
-            f: { item: 'minecraft:nether_star' }
+            a: { item: "avaritia:double_compressed_crafting_table" },
+            b: { item: "minecraft:respawn_anchor" },
+            c: { item: "minecraft:wither_skeleton_skull" },
+            d: { item: "minecraft:netherrack" },
+            e: { item: "minecraft:netherite_ingot" },
+            f: { item: "minecraft:nether_star" }
         })
     )
 
@@ -1852,11 +1821,11 @@
         type: 'extendedcrafting:shaped_table',
         pattern: [' NN   NN ', 'NNN   NNN', 'NNN   NNN', ' NIIIIIN ', ' NIIXIIN ', ' NIIIIIN ', ' NIIIIIN ', ' NIIIIIN ', '  NNNNN  '],
         key: ({
-            I: { item: 'avaritia:infinity_ingot' },
-            N: { item: 'avaritia:neutron_ingot' },
-            X: { item: 'avaritia:crystal_matrix' }
+            I: { item: "avaritia:infinity_ingot" },
+            N: { item: "avaritia:neutron_ingot" },
+            X: { item: "avaritia:crystal_matrix" }
         }),
-        result: { id: 'avaritia:infinity_chestplate' }
+        result: { id: "avaritia:infinity_chestplate" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -1864,11 +1833,11 @@
         category: 'misc',
         pattern: [' NN   NN ', 'NNN   NNN', 'NNN   NNN', ' NIIIIIN ', ' NIIXIIN ', ' NIIIIIN ', ' NIIIIIN ', ' NIIIIIN ', '  NNNNN  '],
         key: ({
-            I: { item: 'avaritia:infinity_ingot' },
-            N: { item: 'avaritia:neutron_ingot' },
-            X: { item: 'avaritia:crystal_matrix' }
+            I: { item: "avaritia:infinity_ingot" },
+            N: { item: "avaritia:neutron_ingot" },
+            X: { item: "avaritia:crystal_matrix" }
         }),
-        result: { id: 'avaritia:infinity_chestplate' },
+        result: { id: "avaritia:infinity_chestplate" },
         show_notification: false
     })
 
@@ -1877,13 +1846,13 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['       II', '      III', '     III ', '  C III  ', 'CCAIII   ', ' CAXI    ', '  NAAC   ', ' N CC    ', 'A   C    '],
         key: ({
-            A: { item: 'avaritia:crystal_matrix' },
-            C: { item: 'avaritia:crystal_matrix_ingot' },
-            I: { item: 'avaritia:infinity_ingot' },
-            N: { item: 'avaritia:neutron_ingot' },
-            X: { item: 'avaritia:infinity_catalyst' }
+            A: { item: "avaritia:crystal_matrix" },
+            C: { item: "avaritia:crystal_matrix_ingot" },
+            I: { item: "avaritia:infinity_ingot" },
+            N: { item: "avaritia:neutron_ingot" },
+            X: { item: "avaritia:infinity_catalyst" }
         }),
-        result: { id: 'avaritia:infinity_sword' }
+        result: { id: "avaritia:infinity_sword" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -1891,13 +1860,13 @@
         category: 'misc',
         pattern: ['       II', '      III', '     III ', '  C III  ', 'CCAIII   ', ' CAXI    ', '  NAAC   ', ' N CC    ', 'A   C    '],
         key: ({
-            A: { item: 'avaritia:crystal_matrix' },
-            C: { item: 'avaritia:crystal_matrix_ingot' },
-            I: { item: 'avaritia:infinity_ingot' },
-            N: { item: 'avaritia:neutron_ingot' },
-            X: { item: 'avaritia:infinity_catalyst' }
+            A: { item: "avaritia:crystal_matrix" },
+            C: { item: "avaritia:crystal_matrix_ingot" },
+            I: { item: "avaritia:infinity_ingot" },
+            N: { item: "avaritia:neutron_ingot" },
+            X: { item: "avaritia:infinity_catalyst" }
         }),
-        result: { id: 'avaritia:infinity_sword' },
+        result: { id: "avaritia:infinity_sword" },
         show_notification: false
     })
 
@@ -1906,13 +1875,13 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['      III', '     IIII', '    CIIII', '    ACII ', '   AXAC  ', '   NA    ', '  N      ', ' N       ', 'A        '],
         key: ({
-            A: { item: 'avaritia:crystal_matrix' },
-            C: { item: 'avaritia:crystal_matrix_ingot' },
-            I: { item: 'avaritia:infinity_ingot' },
-            N: { item: 'avaritia:neutron_ingot' },
-            X: { item: 'avaritia:infinity_catalyst' }
+            A: { item: "avaritia:crystal_matrix" },
+            C: { item: "avaritia:crystal_matrix_ingot" },
+            I: { item: "avaritia:infinity_ingot" },
+            N: { item: "avaritia:neutron_ingot" },
+            X: { item: "avaritia:infinity_catalyst" }
         }),
-        result: { id: 'avaritia:infinity_shovel' }
+        result: { id: "avaritia:infinity_shovel" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -1920,13 +1889,13 @@
         category: 'misc',
         pattern: ['      III', '     IIII', '    CIIII', '    ACII ', '   AXAC  ', '   NA    ', '  N      ', ' N       ', 'A        '],
         key: ({
-            A: { item: 'avaritia:crystal_matrix' },
-            C: { item: 'avaritia:crystal_matrix_ingot' },
-            I: { item: 'avaritia:infinity_ingot' },
-            N: { item: 'avaritia:neutron_ingot' },
-            X: { item: 'avaritia:infinity_catalyst' }
+            A: { item: "avaritia:crystal_matrix" },
+            C: { item: "avaritia:crystal_matrix_ingot" },
+            I: { item: "avaritia:infinity_ingot" },
+            N: { item: "avaritia:neutron_ingot" },
+            X: { item: "avaritia:infinity_catalyst" }
         }),
-        result: { id: 'avaritia:infinity_shovel' },
+        result: { id: "avaritia:infinity_shovel" },
         show_notification: false
     })
 
@@ -1935,15 +1904,15 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['AAC   CAA', 'AB     BA', 'C DEEED C', '  EGGGE  ', '  EGFGE  ', '  EGGGE  ', 'C DEEED C', 'AB     BA', 'AAC   CAA'],
         key: ({
-            A: { item: 'minecraft:ender_pearl' },
-            B: { item: 'minecraft:nether_star' },
-            C: { item: 'avaritia:diamond_lattice' },
-            D: { item: 'avaritia:neutron_ingot' },
-            E: { item: 'minecraft:emerald_block' },
-            F: { item: 'avaritia:endest_pearl' },
-            G: { item: 'avaritia:neutron_collector' }
+            A: { item: "minecraft:ender_pearl" },
+            B: { item: "minecraft:nether_star" },
+            C: { item: "avaritia:diamond_lattice" },
+            D: { item: "avaritia:neutron_ingot" },
+            E: { item: "minecraft:emerald_block" },
+            F: { item: "avaritia:endest_pearl" },
+            G: { item: "avaritia:neutron_collector" }
         }),
-        result: { id: 'avaritia:dense_neutron_collector' }
+        result: { id: "avaritia:dense_neutron_collector" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -1951,15 +1920,15 @@
         category: 'misc',
         pattern: ['AAC   CAA', 'AB     BA', 'C DEEED C', '  EGGGE  ', '  EGFGE  ', '  EGGGE  ', 'C DEEED C', 'AB     BA', 'AAC   CAA'],
         key: ({
-            A: { item: 'minecraft:ender_pearl' },
-            B: { item: 'minecraft:nether_star' },
-            C: { item: 'avaritia:diamond_lattice' },
-            D: { item: 'avaritia:neutron_ingot' },
-            E: { item: 'minecraft:emerald_block' },
-            F: { item: 'avaritia:endest_pearl' },
-            G: { item: 'avaritia:neutron_collector' }
+            A: { item: "minecraft:ender_pearl" },
+            B: { item: "minecraft:nether_star" },
+            C: { item: "avaritia:diamond_lattice" },
+            D: { item: "avaritia:neutron_ingot" },
+            E: { item: "minecraft:emerald_block" },
+            F: { item: "avaritia:endest_pearl" },
+            G: { item: "avaritia:neutron_collector" }
         }),
-        result: { id: 'avaritia:dense_neutron_collector' },
+        result: { id: "avaritia:dense_neutron_collector" },
         show_notification: false
     })
 
@@ -1968,12 +1937,12 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['  CCC  ', ' CAA D ', ' CAA   ', ' C  AC ', '  B CC ', ' B     ', 'A      '],
         key: ({
-            A: { item: 'avaritia:crystal_matrix' },
-            B: { item: 'avaritia:neutron_ingot' },
-            C: { item: 'avaritia:crystal_matrix_ingot' },
-            D: { item: 'avaritia:neutron' }
+            A: { item: "avaritia:crystal_matrix" },
+            B: { item: "avaritia:neutron_ingot" },
+            C: { item: "avaritia:crystal_matrix_ingot" },
+            D: { item: "avaritia:neutron" }
         }),
-        result: { id: 'avaritia:crystal_axe' }
+        result: { id: "avaritia:crystal_axe" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -1981,12 +1950,12 @@
         category: 'misc',
         pattern: ['  CCC  ', ' CAA D ', ' CAA   ', ' C  AC ', '  B CC ', ' B     ', 'A      '],
         key: ({
-            A: { item: 'avaritia:crystal_matrix' },
-            B: { item: 'avaritia:neutron_ingot' },
-            C: { item: 'avaritia:crystal_matrix_ingot' },
-            D: { item: 'avaritia:neutron' }
+            A: { item: "avaritia:crystal_matrix" },
+            B: { item: "avaritia:neutron_ingot" },
+            C: { item: "avaritia:crystal_matrix_ingot" },
+            D: { item: "avaritia:neutron" }
         }),
-        result: { id: 'avaritia:crystal_axe' },
+        result: { id: "avaritia:crystal_axe" },
         show_notification: false
     })
 
@@ -1995,13 +1964,13 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['DCCCA', ' DDAC', '  ADC', ' E DC', 'B   D'],
         key: ({
-            A: { item: 'minecraft:bone_block' },
-            B: { item: 'avaritia:diamond_lattice' },
-            C: { item: 'avaritia:blaze_cube' },
-            D: { item: 'minecraft:blaze_powder' },
-            E: { item: 'minecraft:soul_soil' }
+            A: { item: "minecraft:bone_block" },
+            B: { item: "avaritia:diamond_lattice" },
+            C: { item: "avaritia:blaze_cube" },
+            D: { item: "minecraft:blaze_powder" },
+            E: { item: "minecraft:soul_soil" }
         }),
-        result: { id: 'avaritia:blaze_pickaxe' }
+        result: { id: "avaritia:blaze_pickaxe" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -2009,13 +1978,13 @@
         category: 'misc',
         pattern: ['DCCCA', ' DDAC', '  ADC', ' E DC', 'B   D'],
         key: ({
-            A: { item: 'minecraft:bone_block' },
-            B: { item: 'avaritia:diamond_lattice' },
-            C: { item: 'avaritia:blaze_cube' },
-            D: { item: 'minecraft:blaze_powder' },
-            E: { item: 'minecraft:soul_soil' }
+            A: { item: "minecraft:bone_block" },
+            B: { item: "avaritia:diamond_lattice" },
+            C: { item: "avaritia:blaze_cube" },
+            D: { item: "minecraft:blaze_powder" },
+            E: { item: "minecraft:soul_soil" }
         }),
-        result: { id: 'avaritia:blaze_pickaxe' },
+        result: { id: "avaritia:blaze_pickaxe" },
         show_notification: false
     })
 
@@ -2024,17 +1993,17 @@
         type: 'extendedcrafting:shaped_table',
         pattern: [' aaadaaa ', 'baeegeea ', 'baegggea ', 'bdiegeid ', 'bdfehefdc', ' diegeidc', ' aedgdeac', ' aeegeeac', ' aaadaaa '],
         key: ({
-            a: { item: 'avaritia:neutron' },
-            b: { item: 'avaritia:blaze_cube_block' },
-            c: { item: 'avaritia:crystal_matrix_ingot' },
-            d: { item: 'avaritia:neutron_ingot' },
-            e: { item: 'avaritia:neutron_gear' },
-            f: { item: 'avaritia:infinity_catalyst' },
-            g: { item: 'avaritia:star_fuel' },
-            h: { item: 'avaritia:eternal_singularity' },
-            i: { item: 'avaritia:neutron_nugget' }
+            a: { item: "avaritia:neutron" },
+            b: { item: "avaritia:blaze_cube_block" },
+            c: { item: "avaritia:crystal_matrix_ingot" },
+            d: { item: "avaritia:neutron_ingot" },
+            e: { item: "avaritia:neutron_gear" },
+            f: { item: "avaritia:infinity_catalyst" },
+            g: { item: "avaritia:star_fuel" },
+            h: { item: "avaritia:eternal_singularity" },
+            i: { item: "avaritia:neutron_nugget" }
         }),
-        result: { id: 'avaritia:infinity_upgrade' }
+        result: { id: "avaritia:infinity_upgrade" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -2042,17 +2011,17 @@
         category: 'misc',
         pattern: [' aaadaaa ', 'baeegeea ', 'baegggea ', 'bdiegeid ', 'bdfehefdc', ' diegeidc', ' aedgdeac', ' aeegeeac', ' aaadaaa '],
         key: ({
-            a: { item: 'avaritia:neutron' },
-            b: { item: 'avaritia:blaze_cube_block' },
-            c: { item: 'avaritia:crystal_matrix_ingot' },
-            d: { item: 'avaritia:neutron_ingot' },
-            e: { item: 'avaritia:neutron_gear' },
-            f: { item: 'avaritia:infinity_catalyst' },
-            g: { item: 'avaritia:star_fuel' },
-            h: { item: 'avaritia:eternal_singularity' },
-            i: { item: 'avaritia:neutron_nugget' }
+            a: { item: "avaritia:neutron" },
+            b: { item: "avaritia:blaze_cube_block" },
+            c: { item: "avaritia:crystal_matrix_ingot" },
+            d: { item: "avaritia:neutron_ingot" },
+            e: { item: "avaritia:neutron_gear" },
+            f: { item: "avaritia:infinity_catalyst" },
+            g: { item: "avaritia:star_fuel" },
+            h: { item: "avaritia:eternal_singularity" },
+            i: { item: "avaritia:neutron_nugget" }
         }),
-        result: { id: 'avaritia:infinity_upgrade' },
+        result: { id: "avaritia:infinity_upgrade" },
         show_notification: false
     })
 
@@ -2061,11 +2030,11 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['CAAAAA ', ' CCCA A', '     AA', '   B CA', '  B   C', ' B     ', 'A      '],
         key: ({
-            A: { item: 'avaritia:crystal_matrix' },
-            B: { item: 'avaritia:neutron_ingot' },
-            C: { item: 'avaritia:crystal_matrix_ingot' }
+            A: { item: "avaritia:crystal_matrix" },
+            B: { item: "avaritia:neutron_ingot" },
+            C: { item: "avaritia:crystal_matrix_ingot" }
         }),
-        result: { id: 'avaritia:crystal_hoe' }
+        result: { id: "avaritia:crystal_hoe" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -2073,11 +2042,11 @@
         category: 'misc',
         pattern: ['CAAAAA ', ' CCCA A', '     AA', '   B CA', '  B   C', ' B     ', 'A      '],
         key: ({
-            A: { item: 'avaritia:crystal_matrix' },
-            B: { item: 'avaritia:neutron_ingot' },
-            C: { item: 'avaritia:crystal_matrix_ingot' }
+            A: { item: "avaritia:crystal_matrix" },
+            B: { item: "avaritia:neutron_ingot" },
+            C: { item: "avaritia:crystal_matrix_ingot" }
         }),
-        result: { id: 'avaritia:crystal_hoe' },
+        result: { id: "avaritia:crystal_hoe" },
         show_notification: false
     })
 
@@ -2086,13 +2055,13 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['     CC C', '    CIIC ', '    CIMIC', '     CIIC', '    N CC ', '   D     ', '  N      ', ' N       ', 'C        '],
         key: ({
-            C: { item: 'avaritia:crystal_matrix_ingot' },
-            D: { item: 'minecraft:breeze_rod' },
-            I: { item: 'avaritia:infinity_nugget' },
-            M: { item: 'minecraft:heavy_core' },
-            N: { item: 'avaritia:neutron_ingot' }
+            C: { item: "avaritia:crystal_matrix_ingot" },
+            D: { item: "minecraft:breeze_rod" },
+            I: { item: "avaritia:infinity_nugget" },
+            M: { item: "minecraft:heavy_core" },
+            N: { item: "avaritia:neutron_ingot" }
         }),
-        result: { id: 'avaritia:infinity_mace' }
+        result: { id: "avaritia:infinity_mace" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -2100,13 +2069,13 @@
         category: 'misc',
         pattern: ['     CC C', '    CIIC ', '    CIMIC', '     CIIC', '    N CC ', '   D     ', '  N      ', ' N       ', 'C        '],
         key: ({
-            C: { item: 'avaritia:crystal_matrix_ingot' },
-            D: { item: 'minecraft:breeze_rod' },
-            I: { item: 'avaritia:infinity_nugget' },
-            M: { item: 'minecraft:heavy_core' },
-            N: { item: 'avaritia:neutron_ingot' }
+            C: { item: "avaritia:crystal_matrix_ingot" },
+            D: { item: "minecraft:breeze_rod" },
+            I: { item: "avaritia:infinity_nugget" },
+            M: { item: "minecraft:heavy_core" },
+            N: { item: "avaritia:neutron_ingot" }
         }),
-        result: { id: 'avaritia:infinity_mace' },
+        result: { id: "avaritia:infinity_mace" },
         show_notification: false
     })
 
@@ -2115,11 +2084,11 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['  NNNNN  ', ' NIIIIIN ', ' N XIX N ', ' NIIIIIN ', ' NIIIIIN ', ' NI I IN ', '         ', '         ', '         '],
         key: ({
-            I: { item: 'avaritia:infinity_ingot' },
-            N: { item: 'avaritia:neutron_ingot' },
-            X: { item: 'avaritia:infinity_catalyst' }
+            I: { item: "avaritia:infinity_ingot" },
+            N: { item: "avaritia:neutron_ingot" },
+            X: { item: "avaritia:infinity_catalyst" }
         }),
-        result: { id: 'avaritia:infinity_helmet' }
+        result: { id: "avaritia:infinity_helmet" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -2127,11 +2096,11 @@
         category: 'misc',
         pattern: ['  NNNNN  ', ' NIIIIIN ', ' N XIX N ', ' NIIIIIN ', ' NIIIIIN ', ' NI I IN ', '         ', '         ', '         '],
         key: ({
-            I: { item: 'avaritia:infinity_ingot' },
-            N: { item: 'avaritia:neutron_ingot' },
-            X: { item: 'avaritia:infinity_catalyst' }
+            I: { item: "avaritia:infinity_ingot" },
+            N: { item: "avaritia:neutron_ingot" },
+            X: { item: "avaritia:infinity_catalyst" }
         }),
-        result: { id: 'avaritia:infinity_helmet' },
+        result: { id: "avaritia:infinity_helmet" },
         show_notification: false
     })
 
@@ -2140,13 +2109,13 @@
         type: 'extendedcrafting:shaped_table',
         pattern: [' IIIIII B', '    IIAA ', '     AXAI', '     AAII', '    N  II', '   N    I', '  N     I', ' N      I', 'A        '],
         key: ({
-            A: { item: 'avaritia:crystal_matrix' },
-            B: { item: 'avaritia:neutron' },
-            I: { item: 'avaritia:infinity_ingot' },
-            N: { item: 'avaritia:neutron_ingot' },
-            X: { item: 'avaritia:infinity_catalyst' }
+            A: { item: "avaritia:crystal_matrix" },
+            B: { item: "avaritia:neutron" },
+            I: { item: "avaritia:infinity_ingot" },
+            N: { item: "avaritia:neutron_ingot" },
+            X: { item: "avaritia:infinity_catalyst" }
         }),
-        result: { id: 'avaritia:infinity_pickaxe' }
+        result: { id: "avaritia:infinity_pickaxe" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -2154,13 +2123,13 @@
         category: 'misc',
         pattern: [' IIIIII B', '    IIAA ', '     AXAI', '     AAII', '    N  II', '   N    I', '  N     I', ' N      I', 'A        '],
         key: ({
-            A: { item: 'avaritia:crystal_matrix' },
-            B: { item: 'avaritia:neutron' },
-            I: { item: 'avaritia:infinity_ingot' },
-            N: { item: 'avaritia:neutron_ingot' },
-            X: { item: 'avaritia:infinity_catalyst' }
+            A: { item: "avaritia:crystal_matrix" },
+            B: { item: "avaritia:neutron" },
+            I: { item: "avaritia:infinity_ingot" },
+            N: { item: "avaritia:neutron_ingot" },
+            X: { item: "avaritia:infinity_catalyst" }
         }),
-        result: { id: 'avaritia:infinity_pickaxe' },
+        result: { id: "avaritia:infinity_pickaxe" },
         show_notification: false
     })
 
@@ -2169,20 +2138,20 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['aaaaaaaaa', 'bccfgfccb', 'bcdhhhdcb', 'lfhijihfl', 'eghjkjhge', 'lfhijihfl', 'bcdhhhdcb', 'bccfgfccb', 'bleeeeelb'],
         key: ({
-            a: { item: 'avaritia:neutron' },
-            b: { item: 'avaritia:neutron_ingot' },
-            c: { item: 'avaritia:diamond_lattice' },
-            d: { item: 'avaritia:blaze_cube' },
-            e: { item: 'avaritia:crystal_matrix' },
-            f: { item: 'avaritia:infinity_nugget' },
-            g: { item: 'avaritia:infinity_ingot' },
-            h: { item: 'avaritia:neutron_gear' },
-            i: { item: 'avaritia:infinity_catalyst' },
-            j: { item: 'minecraft:smithing_table' },
-            k: { item: 'avaritia:extreme_crafting_table' },
-            l: { item: 'avaritia:crystal_matrix_ingot' }
+            a: { item: "avaritia:neutron" },
+            b: { item: "avaritia:neutron_ingot" },
+            c: { item: "avaritia:diamond_lattice" },
+            d: { item: "avaritia:blaze_cube" },
+            e: { item: "avaritia:crystal_matrix" },
+            f: { item: "avaritia:infinity_nugget" },
+            g: { item: "avaritia:infinity_ingot" },
+            h: { item: "avaritia:neutron_gear" },
+            i: { item: "avaritia:infinity_catalyst" },
+            j: { item: "minecraft:smithing_table" },
+            k: { item: "avaritia:extreme_crafting_table" },
+            l: { item: "avaritia:crystal_matrix_ingot" }
         }),
-        result: { id: 'avaritia:extreme_smithing_table' }
+        result: { id: "avaritia:extreme_smithing_table" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -2190,20 +2159,20 @@
         category: 'misc',
         pattern: ['aaaaaaaaa', 'bccfgfccb', 'bcdhhhdcb', 'lfhijihfl', 'eghjkjhge', 'lfhijihfl', 'bcdhhhdcb', 'bccfgfccb', 'bleeeeelb'],
         key: ({
-            a: { item: 'avaritia:neutron' },
-            b: { item: 'avaritia:neutron_ingot' },
-            c: { item: 'avaritia:diamond_lattice' },
-            d: { item: 'avaritia:blaze_cube' },
-            e: { item: 'avaritia:crystal_matrix' },
-            f: { item: 'avaritia:infinity_nugget' },
-            g: { item: 'avaritia:infinity_ingot' },
-            h: { item: 'avaritia:neutron_gear' },
-            i: { item: 'avaritia:infinity_catalyst' },
-            j: { item: 'minecraft:smithing_table' },
-            k: { item: 'avaritia:extreme_crafting_table' },
-            l: { item: 'avaritia:crystal_matrix_ingot' }
+            a: { item: "avaritia:neutron" },
+            b: { item: "avaritia:neutron_ingot" },
+            c: { item: "avaritia:diamond_lattice" },
+            d: { item: "avaritia:blaze_cube" },
+            e: { item: "avaritia:crystal_matrix" },
+            f: { item: "avaritia:infinity_nugget" },
+            g: { item: "avaritia:infinity_ingot" },
+            h: { item: "avaritia:neutron_gear" },
+            i: { item: "avaritia:infinity_catalyst" },
+            j: { item: "minecraft:smithing_table" },
+            k: { item: "avaritia:extreme_crafting_table" },
+            l: { item: "avaritia:crystal_matrix_ingot" }
         }),
-        result: { id: 'avaritia:extreme_smithing_table' },
+        result: { id: "avaritia:extreme_smithing_table" },
         show_notification: false
     })
 
@@ -2212,13 +2181,13 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['  DDA', ' DCA ', ' DACD', ' E DD', 'B    '],
         key: ({
-            A: { item: 'minecraft:bone_block' },
-            B: { item: 'avaritia:diamond_lattice' },
-            C: { item: 'avaritia:blaze_cube' },
-            D: { item: 'minecraft:blaze_powder' },
-            E: { item: 'minecraft:soul_soil' }
+            A: { item: "minecraft:bone_block" },
+            B: { item: "avaritia:diamond_lattice" },
+            C: { item: "avaritia:blaze_cube" },
+            D: { item: "minecraft:blaze_powder" },
+            E: { item: "minecraft:soul_soil" }
         }),
-        result: { id: 'avaritia:blaze_axe' }
+        result: { id: "avaritia:blaze_axe" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -2226,13 +2195,13 @@
         category: 'misc',
         pattern: ['  DDA', ' DCA ', ' DACD', ' E DD', 'B    '],
         key: ({
-            A: { item: 'minecraft:bone_block' },
-            B: { item: 'avaritia:diamond_lattice' },
-            C: { item: 'avaritia:blaze_cube' },
-            D: { item: 'minecraft:blaze_powder' },
-            E: { item: 'minecraft:soul_soil' }
+            A: { item: "minecraft:bone_block" },
+            B: { item: "avaritia:diamond_lattice" },
+            C: { item: "avaritia:blaze_cube" },
+            D: { item: "minecraft:blaze_powder" },
+            E: { item: "minecraft:soul_soil" }
         }),
-        result: { id: 'avaritia:blaze_axe' },
+        result: { id: "avaritia:blaze_axe" },
         show_notification: false
     })
 
@@ -2241,13 +2210,13 @@
         type: 'extendedcrafting:shaped_table',
         pattern: [' bcb ', 'byxyb', 'cxaxc', 'byxyb', ' bcb '],
         key: ({
-            a: { item: 'minecraft:ancient_debris' },
+            a: { item: "minecraft:ancient_debris" },
             b: { item: "rainbowcompound:blazeite_ingot" },
             c: { item: "ae2cs:purified_ember_crystal" },
-            x: { item: 'minecraft:blaze_rod' },
+            x: { item: "minecraft:blaze_rod" },
             y: { item: "cataclysm:burning_ashes" }
         }),
-        result: { id: 'avaritia:blaze_cube' }
+        result: { id: "avaritia:blaze_cube" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -2255,13 +2224,13 @@
         category: 'misc',
         pattern: [' bcb ', 'byxyb', 'cxaxc', 'byxyb', ' bcb '],
         key: ({
-            a: { item: 'minecraft:ancient_debris' },
+            a: { item: "minecraft:ancient_debris" },
             b: { item: "rainbowcompound:blazeite_ingot" },
             c: { item: "ae2cs:purified_ember_crystal" },
-            x: { item: 'minecraft:blaze_rod' },
+            x: { item: "minecraft:blaze_rod" },
             y: { item: "cataclysm:burning_ashes" }
         }),
-        result: { id: 'avaritia:blaze_cube' },
+        result: { id: "avaritia:blaze_cube" },
         show_notification: false
     })
 
@@ -2270,12 +2239,12 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['NNNNNNNNN', 'NIIIXIIIN', 'NINNXNNIN', 'NIN   NIN', 'NCN   NCN', 'NIN   NIN', 'NIN   NIN', 'NIN   NIN', 'NNN   NNN'],
         key: ({
-            C: { item: 'avaritia:crystal_matrix_ingot' },
-            I: { item: 'avaritia:infinity_ingot' },
-            N: { item: 'avaritia:neutron_ingot' },
-            X: { item: 'avaritia:infinity_catalyst' }
+            C: { item: "avaritia:crystal_matrix_ingot" },
+            I: { item: "avaritia:infinity_ingot" },
+            N: { item: "avaritia:neutron_ingot" },
+            X: { item: "avaritia:infinity_catalyst" }
         }),
-        result: { id: 'avaritia:infinity_pants' }
+        result: { id: "avaritia:infinity_pants" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -2283,12 +2252,12 @@
         category: 'misc',
         pattern: ['NNNNNNNNN', 'NIIIXIIIN', 'NINNXNNIN', 'NIN   NIN', 'NCN   NCN', 'NIN   NIN', 'NIN   NIN', 'NIN   NIN', 'NNN   NNN'],
         key: ({
-            C: { item: 'avaritia:crystal_matrix_ingot' },
-            I: { item: 'avaritia:infinity_ingot' },
-            N: { item: 'avaritia:neutron_ingot' },
-            X: { item: 'avaritia:infinity_catalyst' }
+            C: { item: "avaritia:crystal_matrix_ingot" },
+            I: { item: "avaritia:infinity_ingot" },
+            N: { item: "avaritia:neutron_ingot" },
+            X: { item: "avaritia:infinity_catalyst" }
         }),
-        result: { id: 'avaritia:infinity_pants' },
+        result: { id: "avaritia:infinity_pants" },
         show_notification: false
     })
 
@@ -2297,12 +2266,12 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['  CDAAC', '   CCCD', 'C A  B ', 'DC  B  ', 'AC B   ', 'ACB    ', 'CD     '],
         key: ({
-            A: { item: 'avaritia:crystal_matrix' },
-            B: { item: 'avaritia:neutron_ingot' },
-            C: { item: 'avaritia:crystal_matrix_ingot' },
-            D: { item: 'avaritia:diamond_lattice' }
+            A: { item: "avaritia:crystal_matrix" },
+            B: { item: "avaritia:neutron_ingot" },
+            C: { item: "avaritia:crystal_matrix_ingot" },
+            D: { item: "avaritia:diamond_lattice" }
         }),
-        result: { id: 'avaritia:crystal_bow' }
+        result: { id: "avaritia:crystal_bow" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -2310,12 +2279,12 @@
         category: 'misc',
         pattern: ['  CDAAC', '   CCCD', 'C A  B ', 'DC  B  ', 'AC B   ', 'ACB    ', 'CD     '],
         key: ({
-            A: { item: 'avaritia:crystal_matrix' },
-            B: { item: 'avaritia:neutron_ingot' },
-            C: { item: 'avaritia:crystal_matrix_ingot' },
-            D: { item: 'avaritia:diamond_lattice' }
+            A: { item: "avaritia:crystal_matrix" },
+            B: { item: "avaritia:neutron_ingot" },
+            C: { item: "avaritia:crystal_matrix_ingot" },
+            D: { item: "avaritia:diamond_lattice" }
         }),
-        result: { id: 'avaritia:crystal_bow' },
+        result: { id: "avaritia:crystal_bow" },
         show_notification: false
     })
     //添加有序合成"苦难核心"配方
@@ -2331,15 +2300,15 @@
             '   A   '
         ],
         key: ({
-            A: { item: 'chaosworld_core:ingot_tech_5' },
-            B: { item: 'naturesaura:token_rage' },
-            C: { item: 'twilightforest:fiery_ingot' },
-            D: { item: 'avaritia_expand:blaze_totem' },
-            E: { item: 'naturesaura:fortress_finder' },
-            F: { item: 'naturesaura:token_fear' },
-            G: { item: 'avaritia_expand:blaze_totem' }
+            A: { item: "chaosworld_core:ingot_tech_5" },
+            B: { item: "naturesaura:token_rage" },
+            C: { item: "twilightforest:fiery_ingot" },
+            D: { item: "aoa3:wither_rune" },
+            E: { item: "naturesaura:fortress_finder" },
+            F: { item: "naturesaura:token_fear" },
+            G: { item: "avaritia_expand:blaze_totem" }
         }),
-        result: { id: 'chaosworld_core:cryptid_core' }
+        result: { id: "chaosworld_core:cryptid_core" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -2355,15 +2324,15 @@
             '   A   '
         ],
         key: ({
-            A: { item: 'chaosworld_core:ingot_tech_5' },
-            B: { item: 'naturesaura:token_rage' },
-            C: { item: 'twilightforest:fiery_ingot' },
-            D: { item: 'avaritia_expand:blaze_totem' },
-            E: { item: 'naturesaura:fortress_finder' },
-            F: { item: 'naturesaura:token_fear' },
-            G: { item: 'avaritia_expand:blaze_totem' }
+            A: { item: "chaosworld_core:ingot_tech_5" },
+            B: { item: "naturesaura:token_rage" },
+            C: { item: "twilightforest:fiery_ingot" },
+            D: { item: "aoa3:wither_rune" },
+            E: { item: "naturesaura:fortress_finder" },
+            F: { item: "naturesaura:token_fear" },
+            G: { item: "avaritia_expand:blaze_totem" }
         }),
-        result: { id: 'chaosworld_core:cryptid_core' },
+        result: { id: "chaosworld_core:cryptid_core" },
         show_notification: false
     })
     //添加有序合成"反应仓"配方
@@ -2594,14 +2563,14 @@
             'AABAA'
         ],
         key: ({
-            A: { item: 'ae2lt:matter_warping_matrix_casing' },
-            B: { item: 'ae2lt:overload_alloy_plate' },
+            A: { item: "ae2lt:matter_warping_matrix_casing" },
+            B: { item: "ae2lt:overload_alloy_plate" },
             C: { item: "chaosworld_core:nano_processor" },
             D: { item: "neoecoae:aluminum_alloy_casing" },
-            E: { item: 'enderio:vibrant_gear' },
+            E: { item: "enderio:vibrant_gear" },
             F: { item: "enderio:z_logic_controller" }
         }),
-        result: { id: 'ae2lt:overload_machine_frame' }
+        result: { id: "ae2lt:overload_machine_frame" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -2615,14 +2584,14 @@
             'AABAA'
         ],
         key: ({
-            A: { item: 'ae2lt:matter_warping_matrix_casing' },
-            B: { item: 'ae2lt:overload_alloy_plate' },
+            A: { item: "ae2lt:matter_warping_matrix_casing" },
+            B: { item: "ae2lt:overload_alloy_plate" },
             C: { item: "chaosworld_core:nano_processor" },
             D: { item: "neoecoae:aluminum_alloy_casing" },
-            E: { item: 'enderio:vibrant_gear' },
+            E: { item: "enderio:vibrant_gear" },
             F: { item: "enderio:z_logic_controller" }
         }),
-        result: { id: 'ae2lt:overload_machine_frame' },
+        result: { id: "ae2lt:overload_machine_frame" },
         show_notification: false
     })
     // neoecoae:integrated_working_station
@@ -2630,13 +2599,13 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['AAAAAAA','ABCCCBA','ACDBDCA','ACBEBCA','ACDBDCA','ABCCCBA','AAAAAAA'],
         key: ({
-            A: { item: 'ae2omnicells:omni_crafting_unit_block' },
-            B: { item: 'extendedae:ex_molecular_assembler' },
-            C: { item: 'advanced_ae:quantum_alloy_plate' },
-            D: { item: 'chaosworld_core:nano_processor' },
-            E: { item: 'ae2lt:overload_machine_frame' }
+            A: { item: "ae2omnicells:omni_crafting_unit_block" },
+            B: { item: "extendedae:ex_molecular_assembler" },
+            C: { item: "advanced_ae:quantum_alloy_plate" },
+            D: { item: "chaosworld_core:nano_processor" },
+            E: { item: "ae2lt:overload_machine_frame" }
         }),
-        result: { id: 'neoecoae:integrated_working_station' }
+        result: { id: "neoecoae:integrated_working_station" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -2644,13 +2613,13 @@
         category: 'misc',
         pattern: ['AAAAAAA','ABCCCBA','ACDBDCA','ACBEBCA','ACDBDCA','ABCCCBA','AAAAAAA'],
         key: ({
-            A: { item: 'ae2omnicells:omni_crafting_unit_block' },
-            B: { item: 'extendedae:ex_molecular_assembler' },
-            C: { item: 'advanced_ae:quantum_alloy_plate' },
-            D: { item: 'chaosworld_core:nano_processor' },
-            E: { item: 'ae2lt:overload_machine_frame' }
+            A: { item: "ae2omnicells:omni_crafting_unit_block" },
+            B: { item: "extendedae:ex_molecular_assembler" },
+            C: { item: "advanced_ae:quantum_alloy_plate" },
+            D: { item: "chaosworld_core:nano_processor" },
+            E: { item: "ae2lt:overload_machine_frame" }
         }),
-        result: { id: 'neoecoae:integrated_working_station' },
+        result: { id: "neoecoae:integrated_working_station" },
         show_notification: false
     })
     // data_energistics:data_reassembler
@@ -2658,16 +2627,16 @@
         type: 'extendedcrafting:shaped_table',
         pattern: ['AAAAAAA','ABCDCBA','ACEFECA','AGFHFGA','ACEFECA','ABCDCBA','AAAAAAA'],
         key: ({
-            A: { item: 'ae2lt:matter_warping_matrix_casing' },
-            B: { item: 'data_energistics:singularity_block' },
-            C: { item: 'ae2lt:lightning_assembly_chamber' },
-            D: { item: 'draconicevolution:wyvern_energy_core' },
-            E: { item: 'data_energistics:data_framework' },
+            A: { item: "ae2lt:matter_warping_matrix_casing" },
+            B: { item: "data_energistics:singularity_block" },
+            C: { item: "ae2lt:lightning_assembly_chamber" },
+            D: { item: "draconicevolution:wyvern_energy_core" },
+            E: { item: "data_energistics:data_framework" },
             F: { item: "ufo:obsidian_matrix" },
-            G: { item: 'draconicevolution:wyvern_core' },
-            H: { item: 'industrialforegoing:machine_frame_supreme' }
+            G: { item: "draconicevolution:wyvern_core" },
+            H: { item: "industrialforegoing:machine_frame_supreme" }
         }),
-        result: { id: 'data_energistics:data_reassembler' }
+        result: { id: "data_energistics:data_reassembler" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -2675,16 +2644,16 @@
         category: 'misc',
         pattern: ['AAAAAAA','ABCDCBA','ACEFECA','AGFHFGA','ACEFECA','ABCDCBA','AAAAAAA'],
         key: ({
-            A: { item: 'ae2lt:matter_warping_matrix_casing' },
-            B: { item: 'data_energistics:singularity_block' },
-            C: { item: 'ae2lt:lightning_assembly_chamber' },
-            D: { item: 'draconicevolution:wyvern_energy_core' },
-            E: { item: 'data_energistics:data_framework' },
+            A: { item: "ae2lt:matter_warping_matrix_casing" },
+            B: { item: "data_energistics:singularity_block" },
+            C: { item: "ae2lt:lightning_assembly_chamber" },
+            D: { item: "draconicevolution:wyvern_energy_core" },
+            E: { item: "data_energistics:data_framework" },
             F: { item: "ufo:obsidian_matrix" },
-            G: { item: 'draconicevolution:wyvern_core' },
-            H: { item: 'industrialforegoing:machine_frame_supreme' }
+            G: { item: "draconicevolution:wyvern_core" },
+            H: { item: "industrialforegoing:machine_frame_supreme" }
         }),
-        result: { id: 'data_energistics:data_reassembler' },
+        result: { id: "data_energistics:data_reassembler" },
         show_notification: false
     })
     // extendedcrafting:ultimate_catalyst
@@ -2702,15 +2671,15 @@
             'ADBCCCBAA'
         ],
         key: ({
-            A: { item: 'data_energistics:empty_trinity_unit' },
-            B: { item: 'extendedcrafting:ultimate_component' },
+            A: { item: "data_energistics:empty_trinity_unit" },
+            B: { item: "extendedcrafting:ultimate_component" },
             C: { item: "avaritia:crystal_matrix_ingot" },
-            D: { item: 'allthemodium:vibranium_plate' },
+            D: { item: "allthemodium:vibranium_plate" },
             E: { item: "draconicevolution:basic_crafting_injector" },
-            F: { item: 'extendedcrafting:crystaltine_ingot' },
-            G: { item: 'extendedcrafting:basic_catalyst' }
+            F: { item: "extendedcrafting:crystaltine_ingot" },
+            G: { item: "extendedcrafting:basic_catalyst" }
         }),
-        result: { id: 'extendedcrafting:ultimate_catalyst' }
+        result: { id: "extendedcrafting:ultimate_catalyst" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -2728,15 +2697,15 @@
             'ADBCCCBAA'
         ],
         key: ({
-            A: { item: 'data_energistics:empty_trinity_unit' },
-            B: { item: 'extendedcrafting:ultimate_component' },
+            A: { item: "data_energistics:empty_trinity_unit" },
+            B: { item: "extendedcrafting:ultimate_component" },
             C: { item: "avaritia:crystal_matrix_ingot" },
-            D: { item: 'allthemodium:vibranium_plate' },
+            D: { item: "allthemodium:vibranium_plate" },
             E: { item: "draconicevolution:basic_crafting_injector" },
-            F: { item: 'extendedcrafting:crystaltine_ingot' },
-            G: { item: 'extendedcrafting:basic_catalyst' }
+            F: { item: "extendedcrafting:crystaltine_ingot" },
+            G: { item: "extendedcrafting:basic_catalyst" }
         }),
-        result: { id: 'extendedcrafting:ultimate_catalyst' },
+        result: { id: "extendedcrafting:ultimate_catalyst" },
         show_notification: false
     })
     // extendedcrafting:elite_catalyst
@@ -2752,14 +2721,14 @@
             'ACBABAA'
         ],
         key: ({
-            A: { item: 'enderio_evolution:crystalline_alloy_ingot' },
-            B: { item: 'extendedcrafting:elite_component' },
-            C: { item: 'mekanism:alloy_reinforced' },
-            D: { item: 'mekanism:elite_control_circuit' },
-            E: { item: 'avaritia:diamond_lattice' },
-            F: { item: 'extendedcrafting:basic_catalyst' }
+            A: { item: "enderio_evolution:crystalline_alloy_ingot" },
+            B: { item: "extendedcrafting:elite_component" },
+            C: { item: "mekanism:alloy_reinforced" },
+            D: { item: "mekanism:elite_control_circuit" },
+            E: { item: "avaritia:diamond_lattice" },
+            F: { item: "extendedcrafting:basic_catalyst" }
         }),
-        result: { id: 'extendedcrafting:elite_catalyst' }
+        result: { id: "extendedcrafting:elite_catalyst" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -2775,14 +2744,14 @@
             'ACBABAA'
         ],
         key: ({
-            A: { item: 'enderio_evolution:crystalline_alloy_ingot' },
-            B: { item: 'extendedcrafting:elite_component' },
-            C: { item: 'mekanism:alloy_reinforced' },
-            D: { item: 'mekanism:elite_control_circuit' },
-            E: { item: 'avaritia:diamond_lattice' },
-            F: { item: 'extendedcrafting:basic_catalyst' }
+            A: { item: "enderio_evolution:crystalline_alloy_ingot" },
+            B: { item: "extendedcrafting:elite_component" },
+            C: { item: "mekanism:alloy_reinforced" },
+            D: { item: "mekanism:elite_control_circuit" },
+            E: { item: "avaritia:diamond_lattice" },
+            F: { item: "extendedcrafting:basic_catalyst" }
         }),
-        result: { id: 'extendedcrafting:elite_catalyst' },
+        result: { id: "extendedcrafting:elite_catalyst" },
         show_notification: false
     })
     // chaosworld_core:dragon_soul_forge
@@ -2800,26 +2769,26 @@
             'AAAAAAAAA'
         ],
         key: ({
-            A: { item: 'ufo:graviton_plated_casing' },
-            B: { item: 'minecraft:dragon_head' },
-            C: { item: 'iceandfire:dragonforge_ice_brick' },
-            D: { item: 'iceandfire:dragonforge_ice_input' },
-            E: { item: 'ufo:obsidian_matrix' },
-            F: { item: 'draconicevolution:item_draconium_energy' },
-            G: { item: 'ae2lt:lightning_assembly_chamber' },
-            H: { item: 'chaosworld_core:nano_computer' },
-            I: { item: 'iceandfire:dragonforge_fire_brick' },
-            J: { item: 'draconicevolution:draconium_core' },
-            K: { item: 'iceandfire:dragonforge_ice_core_disabled' },
-            L: { item: 'iceandfire:dragonforge_lightning_brick' },
-            M: { item: 'iceandfire:dragonforge_fire_input' },
-            N: { item: 'iceandfire:dragonforge_fire_core_disabled' },
-            O: { item: 'draconicevolution:crafting_core' },
-            P: { item: 'iceandfire:dragonforge_lightning_core_disabled' },
-            Q: { item: 'iceandfire:dragonforge_lightning_input' },
-            R: { item: 'industrialforegoing:machine_frame_supreme' }
+            A: { item: "ufo:graviton_plated_casing" },
+            B: { item: "minecraft:dragon_head" },
+            C: { item: "iceandfire:dragonforge_ice_brick" },
+            D: { item: "iceandfire:dragonforge_ice_input" },
+            E: { item: "ufo:obsidian_matrix" },
+            F: { item: "draconicevolution:item_draconium_energy" },
+            G: { item: "ae2lt:lightning_assembly_chamber" },
+            H: { item: "chaosworld_core:nano_computer" },
+            I: { item: "iceandfire:dragonforge_fire_brick" },
+            J: { item: "draconicevolution:draconium_core" },
+            K: { item: "iceandfire:dragonforge_ice_core_disabled" },
+            L: { item: "iceandfire:dragonforge_lightning_brick" },
+            M: { item: "iceandfire:dragonforge_fire_input" },
+            N: { item: "iceandfire:dragonforge_fire_core_disabled" },
+            O: { item: "draconicevolution:crafting_core" },
+            P: { item: "iceandfire:dragonforge_lightning_core_disabled" },
+            Q: { item: "iceandfire:dragonforge_lightning_input" },
+            R: { item: "industrialforegoing:machine_frame_supreme" }
         }),
-        result: { id: 'chaosworld_core:dragon_soul_forge' }
+        result: { id: "chaosworld_core:dragon_soul_forge" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -2837,26 +2806,26 @@
             'AAAAAAAAA'
         ],
         key: ({
-            A: { item: 'ufo:graviton_plated_casing' },
-            B: { item: 'minecraft:dragon_head' },
-            C: { item: 'iceandfire:dragonforge_ice_brick' },
-            D: { item: 'iceandfire:dragonforge_ice_input' },
-            E: { item: 'ufo:obsidian_matrix' },
-            F: { item: 'draconicevolution:item_draconium_energy' },
-            G: { item: 'ae2lt:lightning_assembly_chamber' },
-            H: { item: 'chaosworld_core:nano_computer' },
-            I: { item: 'iceandfire:dragonforge_fire_brick' },
-            J: { item: 'draconicevolution:draconium_core' },
-            K: { item: 'iceandfire:dragonforge_ice_core_disabled' },
-            L: { item: 'iceandfire:dragonforge_lightning_brick' },
-            M: { item: 'iceandfire:dragonforge_fire_input' },
-            N: { item: 'iceandfire:dragonforge_fire_core_disabled' },
-            O: { item: 'draconicevolution:crafting_core' },
-            P: { item: 'iceandfire:dragonforge_lightning_core_disabled' },
-            Q: { item: 'iceandfire:dragonforge_lightning_input' },
-            R: { item: 'industrialforegoing:machine_frame_supreme' }
+            A: { item: "ufo:graviton_plated_casing" },
+            B: { item: "minecraft:dragon_head" },
+            C: { item: "iceandfire:dragonforge_ice_brick" },
+            D: { item: "iceandfire:dragonforge_ice_input" },
+            E: { item: "ufo:obsidian_matrix" },
+            F: { item: "draconicevolution:item_draconium_energy" },
+            G: { item: "ae2lt:lightning_assembly_chamber" },
+            H: { item: "chaosworld_core:nano_computer" },
+            I: { item: "iceandfire:dragonforge_fire_brick" },
+            J: { item: "draconicevolution:draconium_core" },
+            K: { item: "iceandfire:dragonforge_ice_core_disabled" },
+            L: { item: "iceandfire:dragonforge_lightning_brick" },
+            M: { item: "iceandfire:dragonforge_fire_input" },
+            N: { item: "iceandfire:dragonforge_fire_core_disabled" },
+            O: { item: "draconicevolution:crafting_core" },
+            P: { item: "iceandfire:dragonforge_lightning_core_disabled" },
+            Q: { item: "iceandfire:dragonforge_lightning_input" },
+            R: { item: "industrialforegoing:machine_frame_supreme" }
         }),
-        result: { id: 'chaosworld_core:dragon_soul_forge' },
+        result: { id: "chaosworld_core:dragon_soul_forge" },
         show_notification: false
     })
     // ufo:dimensional_matter_assembler
@@ -2870,14 +2839,14 @@
             'AABAA'
         ],
         key: ({
-            A: { item: 'ufo:graviton_plated_casing' },
-            B: { item: 'ufo:obsidian_matrix' },
-            C: { item: 'ae2lt:lightning_assembly_chamber' },
-            D: { item: 'chaosworld_core:crystal_processor' },
-            E: { item: 'data_energistics:trinity_information_exchange_depot' },
-            F: { item: 'ifeu:ultimate_machine_frame' }
+            A: { item: "ufo:graviton_plated_casing" },
+            B: { item: "ufo:obsidian_matrix" },
+            C: { item: "ae2lt:lightning_assembly_chamber" },
+            D: { item: "chaosworld_core:crystal_processor" },
+            E: { item: "data_energistics:trinity_information_exchange_depot" },
+            F: { item: "ifeu:ultimate_machine_frame" }
         }),
-        result: { id: 'ufo:dimensional_matter_assembler' }
+        result: { id: "ufo:dimensional_matter_assembler" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -2891,14 +2860,14 @@
             'AABAA'
         ],
         key: ({
-            A: { item: 'ufo:graviton_plated_casing' },
-            B: { item: 'ufo:obsidian_matrix' },
-            C: { item: 'ae2lt:lightning_assembly_chamber' },
-            D: { item: 'chaosworld_core:crystal_processor' },
-            E: { item: 'data_energistics:trinity_information_exchange_depot' },
-            F: { item: 'ifeu:ultimate_machine_frame' }
+            A: { item: "ufo:graviton_plated_casing" },
+            B: { item: "ufo:obsidian_matrix" },
+            C: { item: "ae2lt:lightning_assembly_chamber" },
+            D: { item: "chaosworld_core:crystal_processor" },
+            E: { item: "data_energistics:trinity_information_exchange_depot" },
+            F: { item: "ifeu:ultimate_machine_frame" }
         }),
-        result: { id: 'ufo:dimensional_matter_assembler' },
+        result: { id: "ufo:dimensional_matter_assembler" },
         show_notification: false
     })
     event.custom({
@@ -2911,14 +2880,14 @@
             'AABAA'
         ],
         key: ({
-            A: { item: 'ufo:graviton_plated_casing' },
-            B: { item: 'ufo:obsidian_matrix' },
-            C: { item: 'ae2lt:lightning_assembly_chamber' },
+            A: { item: "ufo:graviton_plated_casing" },
+            B: { item: "ufo:obsidian_matrix" },
+            C: { item: "ae2lt:lightning_assembly_chamber" },
             D: { item: "chaosworld_core:quantum_assembly" },
-            E: { item: 'data_energistics:trinity_information_exchange_depot' },
-            F: { item: 'ifeu:ultimate_machine_frame' }
+            E: { item: "data_energistics:trinity_information_exchange_depot" },
+            F: { item: "ifeu:ultimate_machine_frame" }
         }),
-        result: { id: 'ufo:dimensional_matter_assembler' }
+        result: { id: "ufo:dimensional_matter_assembler" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -2932,14 +2901,14 @@
             'AABAA'
         ],
         key: ({
-            A: { item: 'ufo:graviton_plated_casing' },
-            B: { item: 'ufo:obsidian_matrix' },
-            C: { item: 'ae2lt:lightning_assembly_chamber' },
+            A: { item: "ufo:graviton_plated_casing" },
+            B: { item: "ufo:obsidian_matrix" },
+            C: { item: "ae2lt:lightning_assembly_chamber" },
             D: { item: "chaosworld_core:quantum_assembly" },
-            E: { item: 'data_energistics:trinity_information_exchange_depot' },
-            F: { item: 'ifeu:ultimate_machine_frame' }
+            E: { item: "data_energistics:trinity_information_exchange_depot" },
+            F: { item: "ifeu:ultimate_machine_frame" }
         }),
-        result: { id: 'ufo:dimensional_matter_assembler' },
+        result: { id: "ufo:dimensional_matter_assembler" },
         show_notification: false
     })
     // extendedcrafting:ultimate_component
@@ -2953,10 +2922,10 @@
             'AAABA'
         ],
         key: ({
-            A: { item: 'extendedcrafting:black_iron_slate' },
-            B: { item: 'chaosworld_core:plate_tech_4' }
+            A: { item: "extendedcrafting:black_iron_slate" },
+            B: { item: "chaosworld_core:plate_tech_4" }
         }),
-        result: { id: 'extendedcrafting:ultimate_component' }
+        result: { id: "extendedcrafting:ultimate_component" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -2970,10 +2939,10 @@
             'AAABA'
         ],
         key: ({
-            A: { item: 'extendedcrafting:black_iron_slate' },
-            B: { item: 'chaosworld_core:plate_tech_4' }
+            A: { item: "extendedcrafting:black_iron_slate" },
+            B: { item: "chaosworld_core:plate_tech_4" }
         }),
-        result: { id: 'extendedcrafting:ultimate_component' },
+        result: { id: "extendedcrafting:ultimate_component" },
         show_notification: false
     })
     // avaritia:neutron_collector
@@ -2991,16 +2960,16 @@
             'AAAAAAAAA'
         ],
         key: ({
-            A: { item: 'ae2lt:matter_warping_matrix_casing' },
-            B: { item: 'data_energistics:data_framework' },
-            C: { item: 'appflux:charged_redstone_block' },
-            D: { item: 'draconicevolution:wyvern_energy_core' },
-            E: { item: 'ae2lt:matter_warping_matrix_overload_main_core' },
-            F: { item: 'extendedcrafting:elite_catalyst' },
-            G: { item: 'chaosworld_core:nano_computer' },
-            H: { item: 'industrialforegoing:machine_frame_supreme' }
+            A: { item: "ae2lt:matter_warping_matrix_casing" },
+            B: { item: "data_energistics:data_framework" },
+            C: { item: "appflux:charged_redstone_block" },
+            D: { item: "draconicevolution:wyvern_energy_core" },
+            E: { item: "ae2lt:matter_warping_matrix_overload_main_core" },
+            F: { item: "extendedcrafting:elite_catalyst" },
+            G: { item: "chaosworld_core:nano_computer" },
+            H: { item: "industrialforegoing:machine_frame_supreme" }
         }),
-        result: { id: 'avaritia:neutron_collector' }
+        result: { id: "avaritia:neutron_collector" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -3018,16 +2987,16 @@
             'AAAAAAAAA'
         ],
         key: ({
-            A: { item: 'ae2lt:matter_warping_matrix_casing' },
-            B: { item: 'data_energistics:data_framework' },
-            C: { item: 'appflux:charged_redstone_block' },
-            D: { item: 'draconicevolution:wyvern_energy_core' },
-            E: { item: 'ae2lt:matter_warping_matrix_overload_main_core' },
-            F: { item: 'extendedcrafting:elite_catalyst' },
-            G: { item: 'chaosworld_core:nano_computer' },
-            H: { item: 'industrialforegoing:machine_frame_supreme' }
+            A: { item: "ae2lt:matter_warping_matrix_casing" },
+            B: { item: "data_energistics:data_framework" },
+            C: { item: "appflux:charged_redstone_block" },
+            D: { item: "draconicevolution:wyvern_energy_core" },
+            E: { item: "ae2lt:matter_warping_matrix_overload_main_core" },
+            F: { item: "extendedcrafting:elite_catalyst" },
+            G: { item: "chaosworld_core:nano_computer" },
+            H: { item: "industrialforegoing:machine_frame_supreme" }
         }),
-        result: { id: 'avaritia:neutron_collector' },
+        result: { id: "avaritia:neutron_collector" },
         show_notification: false
     })
     // avaritia:endest_pearl
@@ -3045,12 +3014,12 @@
             '   AAA   '
         ],
         key: ({
-            A: { item: 'allthecompressed:end_stone_6x' },
-            B: { item: 'minecraft:ender_eye' },
-            C: { item: 'ufo:charged_enriched_neutronium_sphere' },
-            D: { item: 'bountifulbaubles:endless_pearl' }
+            A: { item: "allthecompressed:end_stone_6x" },
+            B: { item: "minecraft:ender_eye" },
+            C: { item: "ufo:charged_enriched_neutronium_sphere" },
+            D: { item: "bountifulbaubles:endless_pearl" }
         }),
-        result: { id: 'avaritia:endest_pearl' }
+        result: { id: "avaritia:endest_pearl" }
     })
     event.custom({
         type: 'create:mechanical_crafting',
@@ -3068,12 +3037,73 @@
             '   AAA   '
         ],
         key: ({
-            A: { item: 'allthecompressed:end_stone_6x' },
-            B: { item: 'minecraft:ender_eye' },
-            C: { item: 'ufo:charged_enriched_neutronium_sphere' },
-            D: { item: 'bountifulbaubles:endless_pearl' }
+            A: { item: "allthecompressed:end_stone_6x" },
+            B: { item: "minecraft:ender_eye" },
+            C: { item: "ufo:charged_enriched_neutronium_sphere" },
+            D: { item: "bountifulbaubles:endless_pearl" }
         }),
-        result: { id: 'avaritia:endest_pearl' },
+        result: { id: "avaritia:endest_pearl" },
+        show_notification: false
+    })
+
+    // avaritia:neutron_compressor
+    event.custom({
+        type: 'extendedcrafting:shaped_table',
+        pattern: [
+            'AAABBBAAA',
+            'C DE ED C',
+            'A D F D A',
+            'CEDGHGDEC',
+            'IDDHJHDDI',
+            'CEDGHGDEC',
+            'K D F D K',
+            'C DE ED C',
+            'KKKCKCKKK'
+        ],
+        key: ({
+            A: { item: "ae2lt:matter_warping_matrix_casing" },
+            B: { item: "actuallyadditions:hopping_item_interface" },
+            C: { item: "avaritia:crystal_matrix_ingot" },
+            D: { item: "avaritia:neutron_ingot" },
+            E: { item: "data_energistics:singularity_block" },
+            F: { item: "draconicevolution:wyvern_energy_core" },
+            G: { item: "draconicevolution:wyvern_core" },
+            H: { item: "extendedcrafting:ultimate_catalyst" },
+            I: { item: "actuallyadditions:phantom_redstoneface" },
+            J: { item: "ifeu:ultimate_machine_frame" },
+            K: { item: "ufo:graviton_plated_casing" }
+        }),
+        result: { id: "avaritia:neutron_compressor" }
+    })
+    event.custom({
+        type: 'create:mechanical_crafting',
+        accept_mirrored: false,
+        category: 'misc',
+        pattern: [
+            'AAABBBAAA',
+            'C DE ED C',
+            'A D F D A',
+            'CEDGHGDEC',
+            'IDDHJHDDI',
+            'CEDGHGDEC',
+            'K D F D K',
+            'C DE ED C',
+            'KKKCKCKKK'
+        ],
+        key: ({
+            A: { item: "ae2lt:matter_warping_matrix_casing" },
+            B: { item: "actuallyadditions:hopping_item_interface" },
+            C: { item: "avaritia:crystal_matrix_ingot" },
+            D: { item: "avaritia:neutron_ingot" },
+            E: { item: "data_energistics:singularity_block" },
+            F: { item: "draconicevolution:wyvern_energy_core" },
+            G: { item: "draconicevolution:wyvern_core" },
+            H: { item: "extendedcrafting:ultimate_catalyst" },
+            I: { item: "actuallyadditions:phantom_redstoneface" },
+            J: { item: "ifeu:ultimate_machine_frame" },
+            K: { item: "ufo:graviton_plated_casing" }
+        }),
+        result: { id: "avaritia:neutron_compressor" },
         show_notification: false
     })
 })
