@@ -5,7 +5,7 @@ PlayerEvents.chat(event => {
     let player = event.player
     if (player.persistentData.getBoolean("author_greeting_reward")) {
         player.tell("§c你怎么这么贪心？我TM让你飞起来！")
-        player.potionEffects.add("minecraft:levitation", 100, 3)
+        player.potionEffects.add("minecraft:levitation", 100, 10)
         return
     }
     player.persistentData.putBoolean("author_greeting_reward", true)

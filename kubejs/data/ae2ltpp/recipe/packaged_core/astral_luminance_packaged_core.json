@@ -1,0 +1,60 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "astralsorcery"
+    }
+  ],
+  "type": "astralsorcery:altar_crafting",
+  "base_focus_shatter_chance": 0.0,
+  "duration": 100,
+  "effects": [],
+  "grid": {
+    "key": {
+      "A": {
+        "type": "item",
+        "ingredient": {
+          "item": "astralsorcery:aquamarine"
+        }
+      },
+      "C": {
+        "type": "item",
+        "ingredient": {
+          "item": "ae2ltpp:astral_resonance_packaged_core"
+        }
+      },
+      "M": {
+        "type": "item",
+        "ingredient": {
+          "item": "astralsorcery:marble_runed"
+        }
+      }
+    },
+    "pattern": [
+      "AMA",
+      "MCM",
+      "AMA"
+    ],
+    "relay_pattern": [
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "     "
+    ]
+  },
+  "may_chain": false,
+  "only_night": true,
+  "output_modifiers": [],
+  "outputs": [
+    {
+      "id": "ae2ltpp:astral_luminance_packaged_core",
+      "count": 1
+    }
+  ],
+  "required_additional_inputs": [],
+  "required_fluid": [],
+  "required_lumen": [],
+  "required_starlight": [],
+  "required_type": "luminance"
+}

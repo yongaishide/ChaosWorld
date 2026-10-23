@@ -1,20 +1,20 @@
 [UpgradeLimits]
-	#Machine Upgrade Install-Limit Rules (Server-side)
-	#Limits boolean-type upgrades that take full effect with a single install, preventing waste.
-	#Each line is a JSON object:
+	#机器插件安装数量上限规则（服务端）
+	#用于限制"装 1 个即完整生效"的布尔型升级，避免浪费。
+	#每行是一个 JSON 对象：
 	#  {
-	#    "item"    : item registry id, required. Supports "#item-tag"
-	#    "machine" : machine block registry id, required. Supports "#block-tag"; "*" = every ProductiveLib machine
-	#    "max"     : max install count, required. 0 = forbid installing this upgrade
+	#    "item"    : 物品注册id，必填。支持 "#物品标签"
+	#    "machine" : 机器方块注册id，必填。支持 "#方块标签"；"*" = 所有 ProductiveLib 机器
+	#    "max"     : 最多可装数量，必填。0 = 禁止安装该升级
 	#  }
-	#Wrap each JSON with single quotes '' to avoid escaping.
-	#Built-in defaults cover Productive Bees / Productive Bees Genesis boolean upgrades.
+	#请用单引号 '' 包裹 JSON，避免内部引号转义。
+	#内置默认规则已覆盖 资源蜜蜂 / 资源蜜蜂：创世 的布尔型升级；第三方布尔型升级请自行追加。
 	#
-	#How to use:
-	#1. Edit the rules under [UpgradeLimits], save, then restart (or reload configs).
-	#2. Find ids: press F3+H for advanced tooltips, hover items/blocks to see registry ids.
-	#   Tags live in data/<mod>/tags/(item|block)/.
-	#3. Examples:
+	#怎么用：
+	#1. 编辑 [UpgradeLimits] 下的 rules，保存后重启游戏（或重载配置）生效。
+	#2. 物品/方块 id：游戏中按 F3+H 打开高级提示，悬停物品/方块即可看到注册id；
+	#   标签在 data/<模组>/tags/(item|block)/ 下可查。
+	#3. 示例：
 	#   '{"item":"mymod:my_boolean_upgrade","machine":"mymod:my_machine","max":1}'
 	#   '{"item":"mymod:my_boolean_upgrade","machine":"*","max":1}'
 	#   '{"item":"#mymod:boolean_upgrades","machine":"mymod:my_machine","max":1}'
