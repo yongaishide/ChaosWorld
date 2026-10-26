@@ -253,7 +253,10 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["01EEA0F4B8F06245"]
+			dependencies: [
+				"01EEA0F4B8F06245"
+				"270D37D1759B1A29"
+			]
 			id: "3137548559C85FBA"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [{
@@ -1301,6 +1304,20 @@
 			]
 			x: -4.0d
 			y: -4.0d
+		}
+		{
+			dependencies: ["683FA8DA5355B568"]
+			id: "270D37D1759B1A29"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "5BE89711C11CF8E4"
+				key_type: "ae2:i"
+				resource: "chaosworld_core:ingot_tech_3"
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 10.0d
+			y: 4.0d
 		}
 	]
 }

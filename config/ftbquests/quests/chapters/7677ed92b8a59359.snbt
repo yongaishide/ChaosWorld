@@ -238,7 +238,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["4A86403CA81D5BF3"]
+			dependencies: ["0AB99936429AE835"]
 			id: "08F624F538DBE83C"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [{
@@ -252,7 +252,7 @@
 				item: { count: 1, id: "ae2omnicells:ender_ingot" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 0.5d
 			y: 2.0d
 		}
 		{
@@ -307,7 +307,7 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
+			x: 2.5d
 			y: 2.0d
 		}
 		{
@@ -325,7 +325,7 @@
 				item: { count: 1, id: "ae2omnicells:omni_cell_component_1k" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 0.5d
 			y: 4.0d
 		}
 		{
@@ -343,7 +343,7 @@
 				item: { count: 1, id: "ae2omnicells:omni_cell_1k" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: -1.0d
 			y: 6.0d
 		}
 		{
@@ -361,7 +361,7 @@
 				item: { count: 1, id: "ae2omnicells:omni_crafting_storage_1k_block" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.0d
 			y: 6.0d
 		}
 		{
@@ -670,8 +670,8 @@
 				item: { count: 1, id: "powah:dielectric_casing" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 4.0d
+			x: -3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3BBEE5A0A7B90ACC"]
@@ -682,8 +682,8 @@
 				item: { count: 1, id: "powah:energizing_orb" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 6.0d
+			x: -5.5d
+			y: 2.0d
 		}
 	]
 }

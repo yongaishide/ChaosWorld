@@ -13,7 +13,10 @@
 //   钢/末影），其余用 alltheores:molten_<金属>；见下面的 fluidOf()。
 //   文件末尾另有 NC 自己的 18 种锭（钆/铍/硼/镝/钬/锂/镁/锰/二氧化锰/氧化镍/钯/钍/锆等）
 //   -> nuclearcraftneohaul:<金属>，这些金属 AllTheOres 没有。
-//   Allthemodium 的 3 种金属锭 + 3 种合金锭 -> allthemodium:molten_*（同样 144 mB）。
+//   Allthemodium 的 3 种金属锭 -> allthemodium:molten_*（同样 144 mB）。
+//   3 种合金锭没有对应的熔融液：Allthemodium 3.2.1 只注册了 molten_allthemodium /
+//   molten_vibranium / molten_unobtainium，molten_atmvib / molten_vibunob / molten_atmunob
+//   是 TiC 时代的遗留数据（只剩语言键和 tconstruct:alloy 文件，流体未注册），所以跳过。
 //   1 锭 = 144 mB（熔融金属通用换算，1 个块的 9 锭 = 1296 mB）
 //
 // 只做「物品进 -> 流体出」：结构的 D/E 位可以装任意档位的物品输入仓 / 流体输出仓，
@@ -175,15 +178,16 @@ ServerEvents.recipes(event => {
         ])
     })
 
-    // ---- Allthemodium：三种金属 + 三种合金 ----
+    // ---- Allthemodium：3 种金属锭 ----
     // 熔融液和锭都是 allthemodium 自己的（allthemodium:molten_*），同样 1 锭 = 144 mB。
+    // 3 种合金锭（vibranium_allthemodium / unobtainium_vibranium / unobtainium_allthemodium）
+    // 没有对应熔融液：Allthemodium 3.2.1 只注册 molten_allthemodium / molten_vibranium /
+    // molten_unobtainium；molten_atmvib / molten_vibunob / molten_atmunob 是 TiC 时代遗留数据
+    // （只剩 lang 键和 tconstruct:alloy 文件，流体本身未注册），所以这里跳过。
     const ATM = [
         ['molten_allthemodium', 'allthemodium:allthemodium_ingot'],
         ['molten_vibranium',    'allthemodium:vibranium_ingot'],
-        ['molten_unobtainium',  'allthemodium:unobtainium_ingot'],
-        ['molten_atmvib',       'allthemodium:vibranium_allthemodium_alloy_ingot'],
-        ['molten_vibunob',      'allthemodium:unobtainium_vibranium_alloy_ingot'],
-        ['molten_atmunob',      'allthemodium:unobtainium_allthemodium_alloy_ingot']
+        ['molten_unobtainium',  'allthemodium:unobtainium_ingot']
     ]
     ATM.forEach(([fluid, itemId]) => {
         recipe('atm_' + fluid, 100, [

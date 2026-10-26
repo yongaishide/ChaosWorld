@@ -17,8 +17,11 @@
 //   铜/金/铁/下界合金用原版锭（minecraft:*_ingot），AllTheOres 没有这四种的独立锭
 //   NC 独有的 13 种金属（钆/铍/硼/镝/钬/锂/镁/锰/二氧化锰/氧化镍/钯/钍/锆）用
 //   nuclearcraftneohaul:<金属>_ingot，它们的熔融液也只有 NC 有
-//   Allthemodium 的 3 种金属 + 3 种合金（allthemodium:*_ingot）用它自己的熔融液
-//   allthemodium:molten_*（合金液：molten_atmvib / molten_vibunob / molten_atmunob）
+//   Allthemodium 的 3 种金属（allthemodium:*_ingot）用它自己的熔融液 allthemodium:molten_*
+//   注意：3 种合金锭没有熔融液。Allthemodium 3.2.1 的 FluidRegistry 只注册了
+//   molten_allthemodium / molten_vibranium / molten_unobtainium（+ soul_lava），
+//   molten_atmvib / molten_vibunob / molten_atmunob 只剩语言键和 TiC 时代的 data 文件，
+//   流体本身没有注册，写进来会让整条配方解析失败，所以这里不生成合金浇筑配方。
 // ============================================================
 
 ServerEvents.recipes(event => {
@@ -113,13 +116,13 @@ ServerEvents.recipes(event => {
     })
 
     // Allthemodium：熔融液和锭都是它自己的（allthemodium:molten_*）
+    // 只列真正注册了流体的 3 种金属；3 种合金锭（vibranium_allthemodium /
+    // unobtainium_vibranium / unobtainium_allthemodium）没有 molten_atmvib /
+    // molten_vibunob / molten_atmunob 这几个流体，加进来会解析失败，不要补。
     const ATM = [
         ['molten_allthemodium', 'allthemodium:allthemodium_ingot'],
         ['molten_vibranium',    'allthemodium:vibranium_ingot'],
-        ['molten_unobtainium',  'allthemodium:unobtainium_ingot'],
-        ['molten_atmvib',       'allthemodium:vibranium_allthemodium_alloy_ingot'],
-        ['molten_vibunob',      'allthemodium:unobtainium_vibranium_alloy_ingot'],
-        ['molten_atmunob',      'allthemodium:unobtainium_allthemodium_alloy_ingot']
+        ['molten_unobtainium',  'allthemodium:unobtainium_ingot']
     ]
     ATM.forEach(([fluid, itemId]) => {
         event.custom({
