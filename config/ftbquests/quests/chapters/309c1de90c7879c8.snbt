@@ -31,11 +31,18 @@
 	]
 	order_index: 0
 	quest_enhance_decorative_lines: [ ]
-	quest_enhance_hidden_dependency_lines: [{
-		dependency: "q:1f379e4879715aeb"
-		reveal_on_hover: 0b
-		source: "q:358a3b366239edda"
-	}]
+	quest_enhance_hidden_dependency_lines: [
+		{
+			dependency: "q:1f379e4879715aeb"
+			reveal_on_hover: 1b
+			source: "q:358a3b366239edda"
+		}
+		{
+			dependency: "q:1cec9aaed3f36061"
+			reveal_on_hover: 1b
+			source: "q:2b2ec533abdddc7"
+		}
+	]
 	quest_links: [ ]
 	quests: [
 		{
@@ -76,7 +83,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["7BE82C704232E651"]
+			dependencies: ["525A4058005E568C"]
 			id: "5C37E68B0948402D"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [{
@@ -108,7 +115,7 @@
 				item: { count: 1, id: "immersiveengineering:coal_coke" }
 				type: "item"
 			}]
-			x: -6.0d
+			x: -10.0d
 			y: 2.0d
 		}
 		{
@@ -163,7 +170,7 @@
 				item: { count: 1, id: "immersiveengineering:alloybrick" }
 				type: "item"
 			}]
-			x: -4.0d
+			x: -12.0d
 			y: 2.0d
 		}
 		{
@@ -417,7 +424,7 @@
 				type: "fluid"
 			}]
 			x: -6.0d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -569,7 +576,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["51B7F56EFFA0D046"]
@@ -587,7 +594,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["33B884E73BF1E8A2"]
@@ -604,7 +611,7 @@
 				item: { count: 1, id: "create:mechanical_press" }
 				type: "item"
 			}]
-			x: -8.0d
+			x: -10.0d
 			y: 0.0d
 		}
 		{
@@ -623,7 +630,7 @@
 				type: "item"
 			}]
 			x: -10.0d
-			y: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2BB4EC2A82263EC9"]
@@ -1182,6 +1189,118 @@
 			}]
 			x: 12.0d
 			y: 6.0d
+		}
+		{
+			dependencies: [
+				"03EA598AA6016CF5"
+				"1CEC9AAED3F36061"
+			]
+			id: "02B2EC533ABDDDC7"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [
+				{
+					amount: 1L
+					id: "116EC8E56AD964BB"
+					key_type: "ae2:i"
+					resource: "mekanism:fuelwood_heater"
+					type: "chaosworld_core:ae_resource"
+				}
+				{
+					amount: 1L
+					id: "798F97949611BF43"
+					key_type: "ae2:i"
+					resource: "mmcr:heat_input_hatch"
+					type: "chaosworld_core:ae_resource"
+				}
+				{
+					amount: 1L
+					id: "4DC21C5BD1264A23"
+					key_type: "ae2:i"
+					resource: "mmcr:heat_output_hatch"
+					type: "chaosworld_core:ae_resource"
+				}
+			]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6CE917D464E26AEB"]
+			id: "228D54800243D9FD"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "43932E0122B3E019"
+				key_type: "ae2:i"
+				resource: "extendedcrafting:redstone_ingot"
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7BE82C704232E651"]
+			id: "525A4058005E568C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "553A9B7E22ABF4AA"
+				key_type: "ae2:i"
+				resource: "immersiveengineering:seed"
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["228D54800243D9FD"]
+			id: "1B2519D534A702FC"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "488DB7837A984DA1"
+				key_type: "ae2:i"
+				resource: "mekanism:basic_universal_cable"
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1B2519D534A702FC"]
+			id: "1CEC9AAED3F36061"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "5D75E40411AF68BF"
+				key_type: "ae2:i"
+				resource: "mekanism:energy_tablet"
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4AB4C21598BD6A12"]
+			id: "728C928129EDFEC3"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [
+				{
+					amount: 1L
+					id: "51947D313C6C8480"
+					key_type: "ae2:i"
+					resource: "mmcr:smelting_furnace_controller"
+					type: "chaosworld_core:ae_resource"
+				}
+				{
+					amount: 1L
+					id: "42EDBA8FA986D04B"
+					key_type: "ae2:i"
+					resource: "mmcr:casting_machine_controller"
+					type: "chaosworld_core:ae_resource"
+				}
+			]
+			x: -4.0d
+			y: -4.0d
 		}
 	]
 }

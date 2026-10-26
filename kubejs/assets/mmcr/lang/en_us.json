@@ -12,5 +12,20 @@
     "machine.mmcr_kubejs.kubejs_space_elevator": "Space Elevator",
     "machine.mmcr_kubejs.kubejs_space_reassembler": "Space Reassembler",
     "recipe_pool.mmcr_kubejs.kubejs_space_elevator": "Space Elevator",
-    "recipe_pool.mmcr_kubejs.kubejs_space_reassembler": "Space Reassembler"
+    "recipe_pool.mmcr_kubejs.kubejs_space_reassembler": "Space Reassembler",
+
+    "machine.mmcr_kubejs.machine_circuit": "§dHyper§6 Circuit §aEtcher",
+    "block.mmcr.machine_circuit_controller": "Hyper Circuit Etcher Controller",
+    "item.mmcr.machine_circuit_controller": "Hyper Circuit Etcher Controller",
+    "recipe_pool.mmcr_kubejs.machine_circuit": "Hyper Circuit Etcher",
+
+    "machine.mmcr_kubejs.smelting_furnace": "Smelting Furnace",
+    "block.mmcr.smelting_furnace_controller": "Smelting Furnace Controller",
+    "item.mmcr.smelting_furnace_controller": "Smelting Furnace Controller",
+    "recipe_pool.mmcr_kubejs.smelting_furnace": "Smelting Furnace",
+
+    "machine.mmcr_kubejs.casting_machine": "Casting Machine",
+    "block.mmcr.casting_machine_controller": "Casting Machine Controller",
+    "item.mmcr.casting_machine_controller": "Casting Machine Controller",
+    "recipe_pool.mmcr_kubejs.casting_machine": "Casting Machine"
 }

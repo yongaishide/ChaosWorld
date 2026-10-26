@@ -14,11 +14,11 @@
 	# Default: 2000
 	# Range: 10 ~ 60000
 	timeoutMillis = 2000
-	#Producer alternatives beyond the first that switch RaishxCore from exact
-	#reversible search to its deterministic fast planner. Both modes are internal;
-	#Eight keeps real multi-route graphs out of exponential proof searches while
-	#leaving small shared-stock conflicts to the exact planner.
-	#this never delegates a request to AE2, Thunderbolt or Tianshu.
+	#Producer alternatives beyond the first that switch RaishxCore from its exact
+	#planner to its deterministic fast planner. The exact planner is bounded and falls
+	#back to the fast plan on its own, so lowering this is no longer needed to avoid
+	#timeouts; it only skips the search for a better route on very wide graphs.
+	#Both modes are internal: this never delegates a request to AE2, Thunderbolt or Tianshu.
 	# Default: 8
 	# Range: 1 ~ 1000000
 	exactSearchChoiceLimit = 8

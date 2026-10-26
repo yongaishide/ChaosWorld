@@ -3,3 +3,45 @@
 	# Default: 8.0
 	# Range: 0.1 ~ 64.0
 	infinity_cell_energy_cost = 8.0
+
+		[compat.productivebees.white_dwarf_fragment]
+			#Chance per fed ingot that the parent bee converts into this bee (0-1).
+			# Default: 0.08
+			# Range: 0.0 ~ 1.0
+			conversionChance = 0.08
+			#Chance that a centrifuged comb yields nuggets (0-1).
+			# Default: 0.15
+			# Range: 0.0 ~ 1.0
+			nuggetChance = 0.15
+			#Maximum nuggets per successful roll (at least one).
+			# Default: 1
+			# Range: 1 ~ 64
+			nuggetMax = 1
+
+		[compat.productivebees.neutron_star_fragment]
+			#Chance per fed ingot that the parent bee converts into this bee (0-1).
+			# Default: 0.05
+			# Range: 0.0 ~ 1.0
+			conversionChance = 0.05
+			#Chance that a centrifuged comb yields nuggets (0-1).
+			# Default: 0.1
+			# Range: 0.0 ~ 1.0
+			nuggetChance = 0.1
+			#Maximum nuggets per successful roll (at least one).
+			# Default: 1
+			# Range: 1 ~ 64
+			nuggetMax = 1
+
+		[compat.productivebees.pulsar_fragment]
+			#Chance per fed ingot that the parent bee converts into this bee (0-1).
+			# Default: 0.03
+			# Range: 0.0 ~ 1.0
+			conversionChance = 0.03
+			#Chance that a centrifuged comb yields nuggets (0-1).
+			# Default: 0.06
+			# Range: 0.0 ~ 1.0
+			nuggetChance = 0.06
+			#Maximum nuggets per successful roll (at least one).
+			# Default: 1
+			# Range: 1 ~ 64
+			nuggetMax = 1

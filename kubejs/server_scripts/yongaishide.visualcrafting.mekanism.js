@@ -1,15 +1,15 @@
 ServerEvents.recipes(event => {
   event.shaped(
-    Item.of('mekanism:isotopic_centrifuge'),
+    Item.of('mekanism:fuelwood_heater'),
     [
       'AAA',
       'BCB',
       'AAA'
     ],
     {
-      A: 'enderio_evolution:stellar_alloy_ingot',
-      B: 'mekanism_extras:absolute_control_circuit',
-      C: 'mekanism:ultimate_chemical_tank'
+      A: 'alltheores:steel_ingot',
+      B: 'ironfurnaces:iron_furnace',
+      C: 'actuallyadditions:coal_generator'
     }
-  );//添加有序合成"同位素离心机"配方
+  );//添加有序合成"固体燃料加热器"配方
 });

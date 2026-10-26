@@ -1,0 +1,117 @@
+	[stellar.explosion]
+		#Explicit opt-in for the Stellar Nexus catastrophic block-destruction wave. Default is local damage/visuals only.
+		enableBlockGrief = false
+		#Maximum destructive radius when block grief is enabled. Hard-capped at 64.
+		# Default: 24
+		# Range: 1 ~ 64
+		maxRadius = 24
+		#Maximum block changes in one tick during an opted-in destructive wave.
+		# Default: 256
+		# Range: 1 ~ 4096
+		maxBlockChangesPerTick = 256
+		#Maximum total block changes for one destructive wave.
+		# Default: 8192
+		# Range: 1 ~ 1000000
+		maxTotalBlockChanges = 8192
+		#CPU time budget per tick for the destructive wave.
+		# Default: 2000000
+		# Range: 100000 ~ 50000000
+		maxNanosPerTick = 2000000
+		#Allow the opted-in destructive wave to replace inner blocks with lava.
+		createLava = false
+		#Allow secondary block explosions during the opted-in destructive wave.
+		secondaryExplosions = false
+		#Dimension IDs where opted-in block grief is allowed. Other dimensions always use local-only mode.
+		allowedDimensions = ["minecraft:overworld"]
+
+	[stellar.coolant]
+		#Gelid Cryotheum efficiency in the Stellar Nexus coolant formula. Zero disables this coolant for the Nexus.
+		# Default: 1
+		# Range: 0 ~ 1000000
+		gelidCryotheumEfficiency = 1
+		#Stable Coolant efficiency in the Stellar Nexus coolant formula. Zero disables this coolant for the Nexus.
+		# Default: 4
+		# Range: 0 ~ 1000000
+		stableCoolantEfficiency = 4
+		#Bose-Einstein Condensate efficiency in the Stellar Nexus coolant formula. Zero disables this coolant for the Nexus.
+		# Default: 16
+		# Range: 0 ~ 1000000
+		boseEinsteinCondensateEfficiency = 16
+
+	[stellar.thermal]
+		#Heat units passively dissipated by an idle Stellar Nexus each second. Zero disables passive dissipation.
+		# Default: 1
+		# Range: 0 ~ 1000
+		passiveDissipationPerSecond = 1
+		#Ticks between coolant attempts while the Stellar Nexus is idle. Zero disables idle coolant use.
+		# Default: 20
+		# Range: 0 ~ 1200
+		idleCoolantIntervalTicks = 20
+
+[performance]
+	#Maximum updates a UFO ticked block entity may run in one real game tick when an external mod accelerates it. Limits TPS cost while preserving up to this much acceleration.
+	# Default: 64
+	# Range: 1 ~ 256
+	maxExternalAccelerationTicksPerGameTick = 64
+
+	[armor.moduleCaps]
+		#Server cap for flight_speed. Design maximum is 400.
+		# Default: 400
+		# Range: 25 ~ 400
+		flight_speed = 400
+		#Server cap for flight_inertia. Design maximum is 100.
+		# Default: 100
+		# Range: 0 ~ 100
+		flight_inertia = 100
+		#Server cap for step_height. Design maximum is 8.
+		# Default: 8
+		# Range: 1 ~ 8
+		step_height = 8
+		#Server cap for reach_distance. Design maximum is 32.
+		# Default: 32
+		# Range: 0 ~ 32
+		reach_distance = 32
+		#Server cap for magnet_range. Design maximum is 32.
+		# Default: 32
+		# Range: 4 ~ 32
+		magnet_range = 32
+		#Server cap for translocator_threshold. Design maximum is 50.
+		# Default: 50
+		# Range: 5 ~ 50
+		translocator_threshold = 50
+		#Server cap for translocator_heal. Design maximum is 100.
+		# Default: 100
+		# Range: 25 ~ 100
+		translocator_heal = 100
+		#Server cap for regeneration_level. Design maximum is 10.
+		# Default: 10
+		# Range: 1 ~ 10
+		regeneration_level = 10
+		#Server cap for relay_transfer_rate. Design maximum is 1000000.
+		# Default: 1000000
+		# Range: 50000 ~ 1000000
+		relay_transfer_rate = 1000000
+		#Server cap for cloaking_range. Design maximum is 128.
+		# Default: 128
+		# Range: 16 ~ 128
+		cloaking_range = 128
+		#Server cap for kinetic_speed. Design maximum is 1000.
+		# Default: 1000
+		# Range: 25 ~ 1000
+		kinetic_speed = 1000
+		#Server cap for kinetic_jump. Design maximum is 10.
+		# Default: 10
+		# Range: 1 ~ 10
+		kinetic_jump = 10
+		#Server cap for strike_multiplier. Design maximum is 100.
+		# Default: 100
+		# Range: 2 ~ 100
+		strike_multiplier = 100
+		#Server cap for reprisal_multiplier. Design maximum is 1000.
+		# Default: 1000
+		# Range: 10 ~ 1000
+		reprisal_multiplier = 1000
+		#Server cap for luck_level. Design maximum is 20.
+		# Default: 20
+		# Range: 1 ~ 20
+		luck_level = 20

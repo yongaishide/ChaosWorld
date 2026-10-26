@@ -132,3 +132,11 @@
 	#Off by default because AE2 and CPU addons do not throttle dispatch by stored energy.
 	#Only meaningful when nexus.ignorePatternEnergy is false and the network cannot sustain the craft drain.
 	energyThrottle = false
+
+[machines]
+	#Multiplier on the AE cost of Dimensional Matter Assembler and parallel multiblock recipes
+	#(QMF, Cryoforge, Slicer, Processor Assembler). Applied after tier and catalyst modifiers.
+	#Keeps power a secondary constraint for crafting; set to 1.0 to restore the full recipe cost.
+	# Default: 0.25
+	# Range: 0.0 ~ 4.0
+	recipeEnergyMultiplier = 0.25

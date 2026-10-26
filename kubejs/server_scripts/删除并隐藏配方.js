@@ -462,7 +462,22 @@ const HIDE_ITEMS = [
     'neoecoae:eco_data_cell_housing', 
     'neoecoae:eco_data_storage_cell_16m', 
     'neoecoae:eco_data_storage_cell_64m', 
-    'neoecoae:eco_data_storage_cell_256m'
+    'neoecoae:eco_data_storage_cell_256m',
+    'ufo:white_dwarf_storage_component_40m', 
+    'ufo:white_dwarf_storage_component_100m', 
+    'ufo:white_dwarf_storage_component_250m', 
+    'ufo:white_dwarf_storage_component_750m', 
+    'ufo:white_dwarf_storage_component_infinity', 
+    'ufo:neutron_star_storage_component_40m', 
+    'ufo:neutron_star_storage_component_100m', 
+    'ufo:neutron_star_storage_component_250m', 
+    'ufo:neutron_star_storage_component_750m', 
+    'ufo:neutron_star_storage_component_infinity', 
+    'ufo:pulsar_storage_component_40m', 
+    'ufo:pulsar_storage_component_100m', 
+    'ufo:pulsar_storage_component_250m', 
+    'ufo:pulsar_storage_component_750m', 
+    'ufo:pulsar_storage_component_infinity'
 ]
 
 ServerEvents.recipes(event => {

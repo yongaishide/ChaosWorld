@@ -1,0 +1,109 @@
+[planner]
+	#Replace AE2's crafting planner with the RaishxCore iterative planner.
+	#When false, every crafting calculation is served by AE2's built-in planner.
+	enabled = true
+	#Planner worker threads. Applied when the planner pool is first created; restart to change.
+	# Default: 2
+	# Range: 1 ~ 16
+	workers = 2
+	#Global pending planner queue capacity. Restart required after the pool is created.
+	# Default: 32
+	# Range: 1 ~ 4096
+	queueCapacity = 32
+	#Wall-clock deadline shared by all attempts for one crafting request.
+	# Default: 2000
+	# Range: 10 ~ 60000
+	timeoutMillis = 2000
+	#Producer alternatives beyond the first that switch RaishxCore from exact
+	#reversible search to its deterministic fast planner. Both modes are internal;
+	#Eight keeps real multi-route graphs out of exponential proof searches while
+	#leaving small shared-stock conflicts to the exact planner.
+	#this never delegates a request to AE2, Thunderbolt or Tianshu.
+	# Default: 8
+	# Range: 1 ~ 1000000
+	exactSearchChoiceLimit = 8
+	#Maximum deterministic planner operations per attempt.
+	# Default: 10000000
+	# Range: 1000 ~ 1000000000
+	maxOperations = 10000000
+	#Maximum dependency depth accepted by the iterative planner.
+	# Default: 100000
+	# Range: 16 ~ 1000000
+	maxDepth = 100000
+	#Operations between timeout, interrupt and cancellation checks.
+	# Default: 128
+	# Range: 1 ~ 8192
+	checkpointInterval = 128
+	#Maximum distinct calculations in flight for one AE2 grid.
+	#Equivalent requests still share an existing calculation at this limit.
+	# Default: 4
+	# Range: 1 ~ 256
+	maxInFlightPerGrid = 4
+
+	[planner.snapshot]
+		#Maximum main-thread time for one AE2 graph snapshot before falling back to AE2.
+		# Default: 50
+		# Range: 1 ~ 1000
+		timeoutMillis = 50
+		#Maximum pattern/input/output edges captured in one graph snapshot.
+		# Default: 100000
+		# Range: 100 ~ 10000000
+		maxEdges = 100000
+		#Maximum distinct AE keys captured in one graph snapshot.
+		# Default: 25000
+		# Range: 100 ~ 1000000
+		maxKeys = 25000
+		#Conservative estimated heap ceiling for one cached graph snapshot.
+		# Default: 67108864
+		# Range: 1048576 ~ 1073741824
+		maxEstimatedBytes = 67108864
+		#Maximum target-specific snapshots cached per AE2 grid revision.
+		# Default: 16
+		# Range: 1 ~ 256
+		cacheEntries = 16
+		#Conservative estimated heap ceiling for the whole per-grid snapshot cache.
+		#Snapshots are evicted least-recently-used until both the entry count and this ceiling fit.
+		# Default: 134217728
+		# Range: 1048576 ~ 1073741824
+		cacheBytes = 134217728
+		#Main-thread time one grid may spend on one capture slice before yielding the tick.
+		#The capture continues on later ticks; it is never handed to AE2 just because a slice ended.
+		# Default: 2
+		# Range: 1 ~ 50
+		sliceMillis = 2
+		#Pattern/input/output edges one capture slice may consume.
+		#Bounds a slice deterministically, independent of wall-clock resolution.
+		# Default: 512
+		# Range: 1 ~ 1000000
+		sliceEdges = 512
+		#Shared capture budget for every grid in one server tick.
+		#Applied when the budget is first used; restart to change.
+		# Default: 4
+		# Range: 1 ~ 50
+		tickBudgetMillis = 4
+		#Captures one grid may keep in progress across ticks before further requests wait for AE2.
+		# Default: 8
+		# Range: 1 ~ 256
+		maxPendingCaptures = 8
+
+	[planner.circuitBreaker]
+		#Consecutive planner failures that open one grid's circuit breaker.
+		# Default: 3
+		# Range: 1 ~ 100
+		failureThreshold = 3
+		#Time an unhealthy grid delegates directly to AE2 before one recovery probe.
+		# Default: 10000
+		# Range: 100 ~ 300000
+		cooldownMillis = 10000
+
+	[planner.missingWeights]
+		#Scales every missing weight a consumer registered through the Core planner API.
+		#A value above one makes each declared shortage that many times more expensive, so a
+		#pack can disagree with an addon without recompiling either. One leaves weights untouched.
+		# Default: 1
+		# Range: 1 ~ 1000000
+		multiplier = 1
+		#Per-key missing-weight multipliers, written as "<serialized-key>=<multiplier>".
+		#An entry replaces planner.missingWeights.multiplier for that key, and a key no consumer
+		#registered can still be weighted this way.
+		overrides = []

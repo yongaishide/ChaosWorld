@@ -1,8 +1,8 @@
 # Carrier rule columns. Values at the same array index form one row.
-# è½½ä½“è§„åˆ™åˆ—ï¼›å„æ•°ç»„ä¸­ç›¸åŒç´¢å¼•çš„å€¼ç»„æˆä¸€è¡Œã€‚
+# ÔØÌå¹æÔòÁĞ£»¸÷Êı×éÖĞÏàÍ¬Ë÷ÒıµÄÖµ×é³ÉÒ»ĞĞ¡£
 carrierRules:
   # Carrier slot for each row. All carrier arrays must have the same length.
-  # æ¯è¡Œçš„è½½ä½“æ§½ä½ï¼›æ‰€æœ‰è½½ä½“æ•°ç»„çš„é•¿åº¦å¿…é¡»ç›¸åŒã€‚
+  # Ã¿ĞĞµÄÔØÌå²ÛÎ»£»ËùÓĞÔØÌåÊı×éµÄ³¤¶È±ØĞëÏàÍ¬¡£
   # Allowed values:
   # - ORE
   # - CROP
@@ -47,7 +47,7 @@ carrierRules:
     - ORE
 
   # Recorded data type for each row.
-  # æ¯è¡Œè®°å½•çš„æ•°æ®ç±»å‹ã€‚
+  # Ã¿ĞĞ¼ÇÂ¼µÄÊı¾İÀàĞÍ¡£
   # Allowed values:
   # - MOB
   # - ORE
@@ -93,7 +93,7 @@ carrierRules:
     - ORE
 
   # Input item registry id for each row.
-  # æ¯è¡Œçš„è¾“å…¥ç‰©å“æ³¨å†Œè¡¨ IDã€‚
+  # Ã¿ĞĞµÄÊäÈëÎïÆ·×¢²á±í ID¡£
   inputItems:
     - minecraft:wheat_seeds
     - minecraft:beetroot_seeds
@@ -135,7 +135,7 @@ carrierRules:
     - minecraft:raw_gold
 
   # Recorded item registry id for each row.
-  # æ¯è¡Œè®°å½•çš„ç‰©å“æ³¨å†Œè¡¨ IDã€‚
+  # Ã¿ĞĞ¼ÇÂ¼µÄÎïÆ·×¢²á±í ID¡£
   recordedItems:
     - minecraft:wheat
     - minecraft:beetroot
@@ -177,7 +177,7 @@ carrierRules:
     - minecraft:gold_ore
 
   # Positive progress contributed by one input item.
-  # æ¯ä¸ªè¾“å…¥ç‰©å“æä¾›çš„æ­£è¿›åº¦ã€‚
+  # Ã¿¸öÊäÈëÎïÆ·Ìá¹©µÄÕı½ø¶È¡£
   progressPerItems:
     - 0.5
     - 0.5
@@ -219,7 +219,7 @@ carrierRules:
     - 1.0
 
   # Positive progress required to complete each carrier.
-  # å®Œæˆæ¯ä¸ªè½½ä½“æ‰€éœ€çš„æ­£è¿›åº¦ã€‚
+  # Íê³ÉÃ¿¸öÔØÌåËùĞèµÄÕı½ø¶È¡£
   requiredAmounts:
     - 4096.0
     - 4096.0
@@ -261,10 +261,10 @@ carrierRules:
     - 4096.0
 
 # Output rule columns. Values at the same array index form one output stack row.
-# è¾“å‡ºè§„åˆ™åˆ—ï¼›å„æ•°ç»„ä¸­ç›¸åŒç´¢å¼•çš„å€¼ç»„æˆä¸€è¡Œè¾“å‡ºã€‚
+# Êä³ö¹æÔòÁĞ£»¸÷Êı×éÖĞÏàÍ¬Ë÷ÒıµÄÖµ×é³ÉÒ»ĞĞÊä³ö¡£
 outputRules:
   # Recorded data type for each output row. All output arrays must have the same length.
-  # æ¯ä¸ªè¾“å‡ºè¡Œè®°å½•çš„æ•°æ®ç±»å‹ï¼›æ‰€æœ‰è¾“å‡ºæ•°ç»„çš„é•¿åº¦å¿…é¡»ç›¸åŒã€‚
+  # Ã¿¸öÊä³öĞĞ¼ÇÂ¼µÄÊı¾İÀàĞÍ£»ËùÓĞÊä³öÊı×éµÄ³¤¶È±ØĞëÏàÍ¬¡£
   # Allowed values:
   # - MOB
   # - ORE
@@ -277,7 +277,7 @@ outputRules:
     - ORE
 
   # Recorded item registry id for each output row.
-  # æ¯ä¸ªè¾“å‡ºè¡Œè®°å½•çš„ç‰©å“æ³¨å†Œè¡¨ IDã€‚
+  # Ã¿¸öÊä³öĞĞ¼ÇÂ¼µÄÎïÆ·×¢²á±í ID¡£
   recordedItems:
     - minecraft:oak_sapling
     - minecraft:oak_sapling
@@ -286,7 +286,7 @@ outputRules:
     - minecraft:gold_ore
 
   # Output item registry id. Repeat data type and recorded item to add another stack to the same rule.
-  # è¾“å‡ºç‰©å“æ³¨å†Œè¡¨ IDï¼›é‡å¤æ•°æ®ç±»å‹å’Œè®°å½•ç‰©å“å³å¯ä¸ºåŒä¸€è§„åˆ™å¢åŠ å¦ä¸€ç»„è¾“å‡ºã€‚
+  # Êä³öÎïÆ·×¢²á±í ID£»ÖØ¸´Êı¾İÀàĞÍºÍ¼ÇÂ¼ÎïÆ·¼´¿ÉÎªÍ¬Ò»¹æÔòÔö¼ÓÁíÒ»×éÊä³ö¡£
   items:
     - minecraft:oak_log
     - minecraft:oak_leaves
@@ -295,7 +295,7 @@ outputRules:
     - minecraft:gold_ore
 
   # Positive output count for each row.
-  # æ¯ä¸ªè¾“å‡ºè¡Œçš„æ­£æ•´æ•°æ•°é‡ã€‚
+  # Ã¿¸öÊä³öĞĞµÄÕıÕûÊıÊıÁ¿¡£
   counts:
     - 4
     - 2

@@ -4288,17 +4288,6 @@
           "type": "block"
         },
         {
-          "name": "nuclearcraftneohaul:graphite_block",
-          "blockstate": {},
-          "type": "block",
-          "modules": {
-            "nuclearcraft:overhaul_msr:moderator": {
-              "efficiency": 1.1,
-              "flux": 10
-            }
-          }
-        },
-        {
           "name": "nuclearcraftneohaul:beryllium_block",
           "blockstate": {},
           "type": "block",
@@ -4306,6 +4295,17 @@
             "nuclearcraft:overhaul_msr:moderator": {
               "efficiency": 1.05,
               "flux": 22
+            }
+          }
+        },
+        {
+          "name": "nuclearcraftneohaul:graphite_block",
+          "blockstate": {},
+          "type": "block",
+          "modules": {
+            "nuclearcraft:overhaul_msr:moderator": {
+              "efficiency": 1.1,
+              "flux": 10
             }
           }
         },
@@ -7693,17 +7693,6 @@
           }
         },
         {
-          "name": "nuclearcraftneohaul:graphite_block",
-          "blockstate": {},
-          "type": "block",
-          "modules": {
-            "nuclearcraft:overhaul_sfr:moderator": {
-              "efficiency": 1.1,
-              "flux": 10
-            }
-          }
-        },
-        {
           "name": "nuclearcraftneohaul:beryllium_block",
           "blockstate": {},
           "type": "block",
@@ -7711,6 +7700,17 @@
             "nuclearcraft:overhaul_sfr:moderator": {
               "efficiency": 1.05,
               "flux": 22
+            }
+          }
+        },
+        {
+          "name": "nuclearcraftneohaul:graphite_block",
+          "blockstate": {},
+          "type": "block",
+          "modules": {
+            "nuclearcraft:overhaul_sfr:moderator": {
+              "efficiency": 1.1,
+              "flux": 10
             }
           }
         },
