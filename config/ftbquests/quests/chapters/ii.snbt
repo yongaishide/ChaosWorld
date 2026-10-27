@@ -552,7 +552,7 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: -3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6BE7539266AF7C95"]
@@ -723,7 +723,7 @@
 				resource: "industrialforegoing:pink_slime"
 				type: "chaosworld_core:ae_resource"
 			}]
-			x: 7.0d
+			x: 3.0d
 			y: 3.0d
 		}
 		{
@@ -763,7 +763,7 @@
 				item: { count: 1, id: "industrialforegoing:pink_slime_ingot" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 7.0d
 			y: 3.0d
 		}
 		{
@@ -775,7 +775,7 @@
 				item: { count: 1, id: "ae2lt:overload_singularity" }
 				type: "item"
 			}]
-			x: 17.0d
+			x: 21.0d
 			y: -7.0d
 		}
 		{
@@ -787,7 +787,7 @@
 				item: { count: 1, id: "extendedae_plus:oblivion_singularity" }
 				type: "item"
 			}]
-			x: 15.0d
+			x: 19.0d
 			y: -7.0d
 		}
 		{
@@ -830,8 +830,8 @@
 				item: { count: 1, id: "minecraft:nether_star" }
 				type: "item"
 			}]
-			x: 13.0d
-			y: -9.0d
+			x: 15.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["2B13452C3DEF2D24"]
@@ -842,8 +842,8 @@
 				item: { count: 1, id: "advanced_ae:quantum_alloy_plate" }
 				type: "item"
 			}]
-			x: 15.0d
-			y: -9.0d
+			x: 17.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["684A3199C1FA9044"]
@@ -856,8 +856,31 @@
 				resource: "neoecoae:crystal_matrix"
 				type: "chaosworld_core:ae_resource"
 			}]
-			x: 9.0d
+			x: 1.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["64C5FFCA74BC9CBF"]
+			id: "141D81D1967A9971"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [
+				{
+					amount: 1L
+					id: "2EAF70DE8A4C5BEF"
+					key_type: "ae2lt:lightning"
+					resource: "ae2lt:high_voltage_lightning"
+					type: "chaosworld_core:ae_resource"
+				}
+				{
+					amount: 1L
+					id: "4F8CEEF759567791"
+					key_type: "ae2lt:lightning"
+					resource: "ae2lt:extreme_high_voltage_lightning"
+					type: "chaosworld_core:ae_resource"
+				}
+			]
+			x: 19.0d
+			y: -3.0d
 		}
 	]
 }

@@ -17,6 +17,7 @@
     {"type": "item", "id": "minecraft:netherite_ingot", "weight": 1, "quality_cost": 100, "min_drill_level": 9},
     {"type": "item", "id": "minecraft:obsidian", "weight": 20, "quality_cost": 3, "min_drill_level": 6},
     {"type": "item", "id": "minecraft:ender_pearl", "weight": 25, "quality_cost": 8, "min_drill_level": 7},
+    {"type": "item", "id": "chaosworld_core:zeluosishuijing", "weight": 4, "quality_cost": 30, "min_drill_level": 8},
     {"type": "item", "id": "minecraft:shulker_shell", "weight": 4, "quality_cost": 30, "min_drill_level": 8},
     {"type": "item", "id": "minecraft:dragon_breath", "weight": 2, "quality_cost": 50, "min_drill_level": 9}
   ]

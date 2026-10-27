@@ -1,0 +1,32 @@
+{
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+    {
+      "item": "enderio:powdered_ender_pearl"
+    },
+    {
+      "item": "enderio:powdered_ender_pearl"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "ae2:certus_quartz_dust"
+    },
+    {
+      "item": "ae2:certus_quartz_dust"
+    }
+  ],
+  "inputFluid": {
+    "amount": 1000,
+    "fluid": "minecraft:water"
+  },
+  "output": {
+    "count": 4,
+    "id": "ae2omnicells:ender_ingot"
+  },
+  "processingTime": 300
+}

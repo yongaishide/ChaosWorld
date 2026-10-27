@@ -50,6 +50,7 @@
 				"6B9796920E141DD3"
 				"724DBF9B5576A1DB"
 				"10281CD0A0295904"
+				"49E4EC36E250BB5E"
 			]
 			id: "5C27A3F09BF8BDC4"
 			quest_enhance_disable_scroll_paging: false
@@ -216,7 +217,7 @@
 				resource: "mekanism:superheated_sodium"
 				type: "chaosworld_core:ae_resource"
 			}]
-			x: -7.5d
+			x: -5.5d
 			y: 6.0d
 		}
 		{
@@ -231,7 +232,7 @@
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: -5.5d
-			y: 6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["237C00587D1BA7D8"]
@@ -245,7 +246,7 @@
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: -3.5d
-			y: 6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["7B803975F0B59F1D"]
@@ -259,7 +260,7 @@
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: -1.5d
-			y: 6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["34E571E39C278C7E"]
@@ -273,7 +274,7 @@
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: 0.5d
-			y: 6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["7474281CB33F34D2"]
@@ -287,7 +288,7 @@
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: 2.5d
-			y: 6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["5ABBA616D7B7CEAE"]
@@ -301,7 +302,7 @@
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: 4.5d
-			y: 6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["068C4165D99A1DF7"]
@@ -315,7 +316,7 @@
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: 6.5d
-			y: 6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["65584907526F5B11"]
@@ -329,7 +330,7 @@
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: 8.5d
-			y: 6.0d
+			y: 8.0d
 		}
 		{
 			id: "64A97B742CF92A4F"
@@ -346,14 +347,14 @@
 		}
 		{
 			dependencies: ["3A2F9F1137099761"]
+			icon: {
+				id: "avaritia:singularity"
+			}
 			id: "5DAD87ACDD92642B"
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
-				amount: 1L
-				id: "4F6799902C031C64"
-				key_type: "ae2:i"
-				resource: "avaritia:singularity"
-				type: "chaosworld_core:ae_resource"
+				id: "5D827BD3E9612FC4"
+				type: "checkmark"
 			}]
 			x: -3.5d
 			y: 2.0d
@@ -385,6 +386,34 @@
 			}]
 			x: -7.5d
 			y: 4.0d
+		}
+		{
+			dependencies: ["43053BCA4007A5E3"]
+			id: "576B182CDD4C82A8"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1000L
+				id: "679D2CDB9C5336A3"
+				key_type: "ae2:f"
+				resource: "mekanism:superheated_sodium"
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["576B182CDD4C82A8"]
+			id: "49E4EC36E250BB5E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "7523C620A21FB595"
+				key_type: "ae2:i"
+				resource: "chaosworld_core:ingot_tech_8"
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -1.5d
+			y: 6.0d
 		}
 	]
 }

@@ -15,7 +15,7 @@
 		id: "3F5C6A87C728FBAC"
 		linked_quest: "54A1DBA152A7BA4E"
 		x: -3.5d
-		y: 0.0d
+		y: -1.0d
 	}]
 	quests: [
 		{
@@ -31,7 +31,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -134,7 +134,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -161,7 +161,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2DCF1F1EC3B41270"]
@@ -173,7 +173,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["43934B282C484BAC"]
@@ -185,7 +185,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3E6429C6DBF5447D"]
@@ -209,10 +209,13 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
-			dependencies: ["2DCF1F1EC3B41270"]
+			dependencies: [
+				"2DCF1F1EC3B41270"
+				"103C9B2580FF8D15"
+			]
 			id: "4B107E0048BA3880"
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
@@ -221,7 +224,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0CCBB6169806C679"]
@@ -233,7 +236,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0D83CD47B45B50B4"]
@@ -269,6 +272,34 @@
 				type: "item"
 			}]
 			x: 12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["54A1DBA152A7BA4E"]
+			id: "764A3E236CB9113C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "5D28C11BA7335F8B"
+				key_type: "ae2:i"
+				resource: "industrialforegoing:fluid_laser_base"
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["764A3E236CB9113C"]
+			id: "103C9B2580FF8D15"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "3D0A2A9CE87ADACC"
+				key_type: "ae2:f"
+				resource: "ifeu:liquid_sculk_matter"
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -1.5d
 			y: 1.0d
 		}
 	]

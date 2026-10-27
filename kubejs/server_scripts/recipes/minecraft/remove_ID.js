@@ -61,7 +61,8 @@ ServerEvents.recipes(event => {
         'allthecompressed:energizing/blazing_crystal_block/x1',
         'allthecompressed:energizing/blazing_crystal_block/x0',
         'data_energistics:crafting/data_reassembler',
-        'extendedae_plus:transform/lattra_crystal'
+        'extendedae_plus:transform/lattra_crystal',
+        'nuclearcraftneohaul:alloy_furnace/pulsating_crystal'
         
     ]
     recipeTypeshapeless.forEach((item) => {

@@ -75,8 +75,7 @@ ServerEvents.recipes((event) => {
                 {"ingredient":{"item":"ufo:white_dwarf_fragment_ingot"},"count":3},
                 {"ingredient":{"item":"ufo:neutron_star_fragment_ingot"},"count":3},
                 {"ingredient":{"item":"ufo:pulsar_fragment_ingot"},"count":3},
-                {"ingredient":{"item":"chaosworld_core:ingot_xuancai"},"count":3},
-                {"ingredient":{"item":"chaosworld_core:holy_gold_ingot"},"count":3}
+                {"ingredient":{"item":"chaosworld_core:ingot_xuancai"},"count":3}
             ],
             "fluidInputs":[
                 {"fluid":"ufo:source_spatial_fluid","amount":1000}
