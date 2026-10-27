@@ -477,7 +477,13 @@ const HIDE_ITEMS = [
     'ufo:pulsar_storage_component_100m', 
     'ufo:pulsar_storage_component_250m', 
     'ufo:pulsar_storage_component_750m', 
-    'ufo:pulsar_storage_component_infinity'
+    'ufo:pulsar_storage_component_infinity',
+    'extendedae_plus:assembler_matrix_speed_plus', 
+    'extendedae_plus:assembler_matrix_crafter_plus', 
+    'extendedae_plus:assembler_matrix_pattern_plus', 
+    'extendedae_plus:assembler_matrix_hybrid_plus', 
+    'extendedae_plus:super_assembler_matrix_frame', 
+    'extendedae_plus:super_assembler_matrix_wall'
 ]
 
 ServerEvents.recipes(event => {

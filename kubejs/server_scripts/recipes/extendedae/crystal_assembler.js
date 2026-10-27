@@ -218,4 +218,13 @@ ServerEvents.recipes((event) => {
             ],
             "output":{"count":1,"id":"ae2omnicells:omni_cell_component_256m"}}
     )
+    //水晶晶格
+    event.custom(
+        {"type":"extendedae:crystal_assembler",
+            "input_items":[
+                {"amount":5,"ingredient":{"item":"neoecoae:crystal_ingot"}},
+                {"amount":2,"ingredient":{"item":"industrialforegoing:pink_slime"}}
+            ],
+            "output":{"count":1,"id":"neoecoae:crystal_matrix"}}
+    )
 })

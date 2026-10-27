@@ -1,0 +1,20 @@
+{
+	"type": "data_energistics:right_click",
+	"ingredients": [
+		{
+			"item": {
+				"item": "data_energistics:radix_containment_sphere",
+				"data_cost": 8,
+				"energy_cost": 10000.0
+			}
+		},
+		{
+			"block": "mysticalagradditions:end_prosperity_ore"
+		}
+	],
+	"results": [
+		{
+			"id": "data_energistics:residual_data_ore"
+		}
+	]
+}

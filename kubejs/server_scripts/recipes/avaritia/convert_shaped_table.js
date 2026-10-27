@@ -2347,7 +2347,7 @@
         ],
         "key": {
             "A": {"item": "ae2:quartz_vibrant_glass"},
-            "B": {"item": "mekanism:advanced_control_circuit"},
+            "B": {"item": "enderio:z_logic_controller"},
             "C": {"item": "ae2:crafting_unit"},
             "D": {"item": "mekanism:basic_fluid_tank"},
             "E": {"item": "industrialforegoing:machine_frame_simple"},
@@ -2369,7 +2369,7 @@
         ],
         key: ({
             "A": {"item": "ae2:quartz_vibrant_glass"},
-            "B": {"item": "mekanism:advanced_control_circuit"},
+            "B": {"item": "enderio:z_logic_controller"},
             "C": {"item": "ae2:crafting_unit"},
             "D": {"item": "mekanism:basic_fluid_tank"},
             "E": {"item": "industrialforegoing:machine_frame_simple"},

@@ -4288,13 +4288,13 @@
           "type": "block"
         },
         {
-          "name": "nuclearcraftneohaul:beryllium_block",
+          "name": "nuclearcraftneohaul:heavy_water_moderator",
           "blockstate": {},
           "type": "block",
           "modules": {
             "nuclearcraft:overhaul_msr:moderator": {
-              "efficiency": 1.05,
-              "flux": 22
+              "efficiency": 1.0,
+              "flux": 36
             }
           }
         },
@@ -4310,24 +4310,13 @@
           }
         },
         {
-          "name": "nuclearcraftneohaul:heavy_water_moderator",
+          "name": "nuclearcraftneohaul:beryllium_block",
           "blockstate": {},
           "type": "block",
           "modules": {
             "nuclearcraft:overhaul_msr:moderator": {
-              "efficiency": 1.0,
-              "flux": 36
-            }
-          }
-        },
-        {
-          "name": "nuclearcraftneohaul:beryllium_carbon_reflector",
-          "blockstate": {},
-          "type": "block",
-          "modules": {
-            "nuclearcraft:overhaul_msr:reflector": {
-              "efficiency": 0.5,
-              "reflectivity": 1.0
+              "efficiency": 1.05,
+              "flux": 22
             }
           }
         },
@@ -4339,6 +4328,17 @@
             "nuclearcraft:overhaul_msr:reflector": {
               "efficiency": 0.25,
               "reflectivity": 0.5
+            }
+          }
+        },
+        {
+          "name": "nuclearcraftneohaul:beryllium_carbon_reflector",
+          "blockstate": {},
+          "type": "block",
+          "modules": {
+            "nuclearcraft:overhaul_msr:reflector": {
+              "efficiency": 0.5,
+              "reflectivity": 1.0
             }
           }
         }
@@ -7693,13 +7693,13 @@
           }
         },
         {
-          "name": "nuclearcraftneohaul:beryllium_block",
+          "name": "nuclearcraftneohaul:heavy_water_moderator",
           "blockstate": {},
           "type": "block",
           "modules": {
             "nuclearcraft:overhaul_sfr:moderator": {
-              "efficiency": 1.05,
-              "flux": 22
+              "efficiency": 1.0,
+              "flux": 36
             }
           }
         },
@@ -7715,24 +7715,13 @@
           }
         },
         {
-          "name": "nuclearcraftneohaul:heavy_water_moderator",
+          "name": "nuclearcraftneohaul:beryllium_block",
           "blockstate": {},
           "type": "block",
           "modules": {
             "nuclearcraft:overhaul_sfr:moderator": {
-              "efficiency": 1.0,
-              "flux": 36
-            }
-          }
-        },
-        {
-          "name": "nuclearcraftneohaul:beryllium_carbon_reflector",
-          "blockstate": {},
-          "type": "block",
-          "modules": {
-            "nuclearcraft:overhaul_sfr:reflector": {
-              "efficiency": 0.5,
-              "reflectivity": 1.0
+              "efficiency": 1.05,
+              "flux": 22
             }
           }
         },
@@ -7744,6 +7733,17 @@
             "nuclearcraft:overhaul_sfr:reflector": {
               "efficiency": 0.25,
               "reflectivity": 0.5
+            }
+          }
+        },
+        {
+          "name": "nuclearcraftneohaul:beryllium_carbon_reflector",
+          "blockstate": {},
+          "type": "block",
+          "modules": {
+            "nuclearcraft:overhaul_sfr:reflector": {
+              "efficiency": 0.5,
+              "reflectivity": 1.0
             }
           }
         }

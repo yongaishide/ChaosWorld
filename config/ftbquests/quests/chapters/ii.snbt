@@ -55,15 +55,11 @@
 	]
 	order_index: 2
 	quest_enhance_decorative_lines: [ ]
-	quest_enhance_hidden_dependency_lines: [{
-		dependency: "q:21f982499c136982"
-		reveal_on_hover: 0b
-		source: "q:6be3dccdf1084aa3"
-	}]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [{
 		id: "64D50E795E523A89"
 		linked_quest: "6BE7539266AF7C95"
-		x: -1.0d
+		x: -3.0d
 		y: -1.0d
 	}]
 	quests: [
@@ -76,8 +72,8 @@
 				item: { count: 1, id: "enderio:alloy_smelter" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -1.0d
+			x: -1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6BE7539266AF7C95"]
@@ -202,10 +198,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: [
-				"619CD43B0A5127B6"
-				"21F982499C136982"
-			]
+			dependencies: ["619CD43B0A5127B6"]
 			id: "4F12CF990DC17183"
 			quest_enhance_disable_scroll_paging: false
 			tasks: [
@@ -233,24 +226,12 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["13762B7209A5F19A"]
-			id: "1A1A4A2329D1F8A9"
-			quest_enhance_disable_scroll_paging: false
-			tasks: [{
-				id: "3229A5E91702BC23"
-				item: { count: 1, id: "naturesaura:tainted_gold" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
-				"1A1A4A2329D1F8A9"
 				"21F982499C136982"
+				"13762B7209A5F19A"
 			]
 			id: "616725ED3318BCB3"
 			quest_enhance_disable_scroll_paging: false
@@ -259,11 +240,14 @@
 				item: { count: 1, id: "enderio:soularium_ingot" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 1.0d
+			x: 1.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["616725ED3318BCB3"]
+			dependencies: [
+				"616725ED3318BCB3"
+				"71A0C31A36DF3BC3"
+			]
 			id: "2EDD6974CFC0D12A"
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
@@ -271,8 +255,8 @@
 				item: { count: 1, id: "enderio:slice_and_splice" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 1.0d
+			x: 3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["30575A0B9A63AFC5"]
@@ -287,7 +271,10 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["2EDD6974CFC0D12A"]
+			dependencies: [
+				"2EDD6974CFC0D12A"
+				"3970B1ED264E6A14"
+			]
 			id: "30575A0B9A63AFC5"
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
@@ -295,8 +282,8 @@
 				item: { count: 1, id: "enderio:z_logic_controller" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 1.0d
+			x: 5.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["684FD1C745323C2A"]
@@ -307,7 +294,7 @@
 				item: { count: 1, id: "enderio:ender_crystal" }
 				type: "item"
 			}]
-			x: 8.5d
+			x: 9.0d
 			y: 1.0d
 		}
 		{
@@ -319,7 +306,7 @@
 				item: { count: 1, id: "alltheores:enderium_ingot" }
 				type: "item"
 			}]
-			x: 10.0d
+			x: 11.0d
 			y: 1.0d
 		}
 		{
@@ -343,7 +330,7 @@
 				item: { count: 1, id: "chaosworld_core:circuit_processor" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: -5.0d
 			y: -3.0d
 		}
 		{
@@ -367,7 +354,7 @@
 				item: { count: 1, id: "chaosworld_core:workstation" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: -5.0d
 			y: -7.0d
 		}
 		{
@@ -379,7 +366,7 @@
 				item: { count: 1, id: "chaosworld_core:assembly" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: -5.0d
 			y: -5.0d
 		}
 		{
@@ -391,11 +378,11 @@
 				item: { count: 1, id: "chaosworld_core:mechanical_assembler" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: -5.0d
 			y: -1.0d
 		}
 		{
-			dependencies: ["3970B1ED264E6A14"]
+			dependencies: ["30575A0B9A63AFC5"]
 			id: "6F7353C5C8BF839A"
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
@@ -403,23 +390,8 @@
 				item: { count: 1, id: "advanced_ae:reaction_chamber" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["6F7353C5C8BF839A"]
-			id: "4A1D994D20D0D14B"
-			quest_enhance_disable_scroll_paging: false
-			tasks: [{
-				fluid: {
-					amount: 1000
-					id: "advanced_ae:quantum_infusion_source"
-				}
-				id: "6A74F467D018ED14"
-				type: "fluid"
-			}]
-			x: 6.0d
-			y: -4.0d
+			x: 7.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["27939AAD5737C1AC"]
@@ -430,7 +402,7 @@
 				item: { count: 1, id: "mekanism:alloy_reinforced" }
 				type: "item"
 			}]
-			x: 11.5d
+			x: 13.0d
 			y: 1.0d
 		}
 		{
@@ -442,7 +414,7 @@
 				item: { count: 1, id: "mekanism:elite_control_circuit" }
 				type: "item"
 			}]
-			x: 13.0d
+			x: 15.0d
 			y: 1.0d
 		}
 		{
@@ -469,8 +441,8 @@
 				item: { components: { "ae2:stored_energy": 50000.0d }, count: 1, id: "data_energistics:radix_containment_sphere" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: -3.0d
+			x: 9.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -484,8 +456,8 @@
 				item: { count: 1, id: "data_energistics:budding_data_crystal_3" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: -3.0d
+			x: 11.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["24126FA5B4F37967"]
@@ -501,8 +473,8 @@
 		}
 		{
 			dependencies: [
+				"640476EAA270B721"
 				"35D519C7E7EB19D3"
-				"02D19F2825564949"
 			]
 			id: "63C55110F142AA1A"
 			quest_enhance_disable_scroll_paging: false
@@ -512,10 +484,10 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: -3.0d
+			y: -5.0d
 		}
 		{
-			dependencies: ["3970B1ED264E6A14"]
+			dependencies: ["30575A0B9A63AFC5"]
 			id: "6EC5FEAA20A0DE39"
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
@@ -523,8 +495,8 @@
 				item: { count: 1, id: "ae2cs:crystal_aggregator" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -5.0d
+			x: 7.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6EC5FEAA20A0DE39"]
@@ -535,8 +507,8 @@
 				item: { count: 1, id: "data_energistics:budding_data_crystal_0" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: -5.0d
+			x: 9.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6CA91BE7AE4CEEA2"]
@@ -547,7 +519,7 @@
 				item: { count: 1, id: "ae2lt:overload_alloy_plate" }
 				type: "item"
 			}]
-			x: 15.0d
+			x: 17.0d
 			y: -5.0d
 		}
 		{
@@ -562,25 +534,13 @@
 				item: { count: 1, id: "ae2lt:lightning_simulation_room" }
 				type: "item"
 			}]
-			x: 13.0d
+			x: 15.0d
 			y: -5.0d
 		}
 		{
-			dependencies: ["6EC5FEAA20A0DE39"]
-			id: "3A7D70075A7E9BDE"
-			quest_enhance_disable_scroll_paging: false
-			tasks: [{
-				id: "44D53245ECD3BE00"
-				item: { count: 1, id: "ae2:flawed_budding_quartz" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: -7.0d
-		}
-		{
 			dependencies: [
-				"18CB31F1BDBC7F12"
 				"079FAFD999F6FAF8"
+				"18CB31F1BDBC7F12"
 			]
 			id: "54A1DBA152A7BA4E"
 			quest_enhance_disable_scroll_paging: false
@@ -591,7 +551,7 @@
 				item: { count: 1, id: "ae2lt:overload_machine_frame" }
 				type: "item"
 			}]
-			x: 15.0d
+			x: 17.0d
 			y: -3.0d
 		}
 		{
@@ -603,11 +563,14 @@
 				item: { count: 1, id: "mekanism:enrichment_chamber" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: -5.0d
 			y: 1.0d
 		}
 		{
-			dependencies: ["5151F30F4F0BEC14"]
+			dependencies: [
+				"5151F30F4F0BEC14"
+				"4C697DE472C92C4D"
+			]
 			id: "6D36D2232CA903F7"
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
@@ -615,38 +578,11 @@
 				item: { count: 1, id: "ae2lt:overload_processor" }
 				type: "item"
 			}]
-			x: 11.0d
-			y: -7.0d
+			x: 13.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["21F982499C136982"]
-			id: "6BE3DCCDF1084AA3"
-			quest_enhance_disable_scroll_paging: false
-			tasks: [{
-				id: "6495F03303950978"
-				item: { count: 1, id: "ae2lt:overload_alloy_blank" }
-				type: "item"
-			}]
-			x: 9.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["6BE3DCCDF1084AA3"]
-			id: "02D19F2825564949"
-			quest_enhance_disable_scroll_paging: false
-			tasks: [{
-				id: "5C701DB7990D30ED"
-				item: { count: 1, id: "ae2lt:overload_alloy" }
-				type: "item"
-			}]
-			x: 11.0d
-			y: -5.0d
-		}
-		{
-			dependencies: [
-				"6F7353C5C8BF839A"
-				"4904D7E5094CB162"
-			]
+			dependencies: ["4904D7E5094CB162"]
 			id: "640476EAA270B721"
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
@@ -654,11 +590,14 @@
 				item: { count: 1, id: "advanced_ae:quantum_alloy" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: -1.5d
+			x: 11.0d
+			y: -5.0d
 		}
 		{
-			dependencies: ["6BD843EAB87F3222"]
+			dependencies: [
+				"6BD843EAB87F3222"
+				"6EC5FEAA20A0DE39"
+			]
 			id: "4904D7E5094CB162"
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
@@ -666,8 +605,8 @@
 				item: { count: 1, id: "neoecoae:crystal_ingot" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -1.0d
+			x: 9.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1D9D2A6147FA58AE"]
@@ -678,8 +617,8 @@
 				item: { count: 1, id: "draconicevolution:draconium_ingot" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 0.0d
+			x: 11.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["640476EAA270B721"]
@@ -690,27 +629,11 @@
 				item: { count: 1, id: "ae2cs:quantum_crystal_dust" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 0.0d
+			x: 11.0d
+			y: -7.0d
 		}
 		{
-			dependencies: ["640476EAA270B721"]
-			id: "4C7BD4BDC5186B2E"
-			quest_enhance_disable_scroll_paging: false
-			tasks: [{
-				id: "64A502F48D41992A"
-				item: { count: 1, id: "ae2omnicells:multidimensional_expansion_circuit_print" }
-				type: "item"
-			}]
-			x: 10.0d
-			y: -1.5d
-		}
-		{
-			dependencies: [
-				"4C7BD4BDC5186B2E"
-				"11530B12837BCF77"
-				"63C55110F142AA1A"
-			]
+			dependencies: ["11530B12837BCF77"]
 			id: "079FAFD999F6FAF8"
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
@@ -718,8 +641,8 @@
 				item: { count: 1, id: "chaosworld_core:nano_processor" }
 				type: "item"
 			}]
-			x: 13.0d
-			y: -1.5d
+			x: 15.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6D36D2232CA903F7"]
@@ -730,8 +653,211 @@
 				item: { count: 1, id: "ae2lt:lightning_collector" }
 				type: "item"
 			}]
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["21F982499C136982"]
+			id: "33A8554183730832"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "35D7A312E687C919"
+				key_type: "ae2:i"
+				resource: "enderio:energetic_alloy_ingot"
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["33A8554183730832"]
+			id: "71A0C31A36DF3BC3"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "43A367AD0233E898"
+				key_type: "ae2:i"
+				resource: "enderio:energized_gear"
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["71A0C31A36DF3BC3"]
+			id: "076D4E9345E7E08A"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "2CC4AFC136F5D829"
+				key_type: "ae2:i"
+				resource: "industrialforegoing:mob_slaughter_factory"
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["076D4E9345E7E08A"]
+			id: "48D4F0F9DFD1516E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1000L
+				id: "40D4F4DC7EA43892"
+				key_type: "ae2:f"
+				resource: "industrialforegoing:pink_slime"
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["48D4F0F9DFD1516E"]
+			id: "684A3199C1FA9044"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "159C8F565CEE3F47"
+				key_type: "ae2:i"
+				resource: "industrialforegoing:pink_slime"
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5151F30F4F0BEC14"]
+			id: "4C697DE472C92C4D"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "47F894E6C1D7CF00"
+				key_type: "ae2:i"
+				resource: "ae2lt:overload_circuit_board"
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["30575A0B9A63AFC5"]
+			id: "25108E1F98833BFA"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "393CF8E0747DF823"
+				key_type: "ae2:i"
+				resource: "enderio:frank_n_zombie"
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["48D4F0F9DFD1516E"]
+			id: "372EBB47138C1C71"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "0791480BB1D20C05"
+				item: { count: 1, id: "industrialforegoing:pink_slime_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2311C640692DFE5B"]
+			id: "5A7710A6B8BEDBDD"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "235209B8CB1BA9DC"
+				item: { count: 1, id: "ae2lt:overload_singularity" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2FEADB5C6918A8A3"]
+			id: "2311C640692DFE5B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "70871EBBD9BF97D5"
+				item: { count: 1, id: "extendedae_plus:oblivion_singularity" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["63C55110F142AA1A"]
+			id: "42A0D1F16E6A0ECC"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [
+				{
+					id: "2205FF9794C390B5"
+					item: { count: 1, id: "chaosworld_core:cryptid_core" }
+					type: "item"
+				}
+				{
+					id: "51EB9A9D5D7B26C6"
+					item: { count: 1, id: "avaritia:blaze_cube_block" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "194064650BFEC53A"
+					item: { count: 1, id: "minecraft:wither_skeleton_skull" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "7720083C6E3CF8E4"
+					item: { count: 1, id: "minecraft:soul_sand" }
+					type: "item"
+				}
+			]
 			x: 13.0d
 			y: -7.0d
+		}
+		{
+			dependencies: ["42A0D1F16E6A0ECC"]
+			id: "2B13452C3DEF2D24"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "22171FC10FAA2B7B"
+				item: { count: 1, id: "minecraft:nether_star" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2B13452C3DEF2D24"]
+			id: "2FEADB5C6918A8A3"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "25E5D43012D9C64A"
+				item: { count: 1, id: "advanced_ae:quantum_alloy_plate" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["684A3199C1FA9044"]
+			id: "6AB510BBC9321EFA"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "513CC57470C74313"
+				key_type: "ae2:i"
+				resource: "neoecoae:crystal_matrix"
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 9.0d
+			y: 3.0d
 		}
 	]
 }

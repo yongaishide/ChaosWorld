@@ -64,8 +64,7 @@ ServerEvents.recipes((event) => {
             "experience":0.3,
             "inputs":[
                 {"count":2,"item":"mysticalagriculture:soulium_dust"},
-                {"count":3,"item":"naturesaura:tainted_gold"},
-                {"count":3,"item":"mysticalagriculture:soul_dust"}
+                {"count":3,"item":"naturesaura:tainted_gold"}
             ],
             "output":{"count":3,"id":"enderio:soularium_ingot"}}
     )

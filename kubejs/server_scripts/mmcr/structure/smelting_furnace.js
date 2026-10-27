@@ -33,7 +33,7 @@ MMCREvents.server(event => {
         .pattern(['XEEEX', 'XXCXX', 'XXXXX', 'XXXXX', 'XXXXX']) // z=4
         .set('X', api.block('quark:blackstone_bricks'))
         .set('A', api.block('mmcr:heat_input_hatch'))
-        .set('B', api.block('botania:blaze_mesh'))
+        .set('B', api.block("allthecompressed:blaze_rod_block"))
         .set('D', api.anyOf(
             api.block('mmcr:item_input_bus_tiny'), // 只认小型物品输入总线（不放其它档位/仓）
             api.block('quark:blackstone_bricks')  // 或者用黑石砖把这个口封上

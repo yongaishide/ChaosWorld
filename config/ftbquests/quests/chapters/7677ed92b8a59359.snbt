@@ -685,5 +685,19 @@
 			x: -5.5d
 			y: 2.0d
 		}
+		{
+			dependencies: ["4A86403CA81D5BF3"]
+			id: "3407507A60AB70EA"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "4748C0062AA99F7A"
+				key_type: "ae2:i"
+				resource: "extendedae_plus:lattra_crystal"
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
 	]
 }

@@ -61,6 +61,7 @@ ServerEvents.recipes(event => {
         'allthecompressed:energizing/blazing_crystal_block/x1',
         'allthecompressed:energizing/blazing_crystal_block/x0',
         'data_energistics:crafting/data_reassembler',
+        'extendedae_plus:transform/lattra_crystal'
         
     ]
     recipeTypeshapeless.forEach((item) => {

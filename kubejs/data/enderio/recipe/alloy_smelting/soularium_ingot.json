@@ -4,24 +4,16 @@
   "experience": 0.3,
   "inputs": [
     {
-      "type": "neoforge:compound",
-      "children": [
-        {
-          "item": "minecraft:soul_sand"
-        },
-        {
-          "item": "minecraft:soul_soil"
-        }
-      ],
-      "count": 1
+      "count": 2,
+      "item": "mysticalagriculture:soulium_dust"
     },
     {
-      "count": 1,
-      "tag": "c:ingots/gold"
+      "count": 3,
+      "item": "naturesaura:tainted_gold"
     }
   ],
   "output": {
-    "count": 1,
+    "count": 3,
     "id": "enderio:soularium_ingot"
   }
 }
