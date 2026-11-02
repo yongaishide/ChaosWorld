@@ -4288,17 +4288,6 @@
           "type": "block"
         },
         {
-          "name": "nuclearcraftneohaul:beryllium_block",
-          "blockstate": {},
-          "type": "block",
-          "modules": {
-            "nuclearcraft:overhaul_msr:moderator": {
-              "efficiency": 1.05,
-              "flux": 22
-            }
-          }
-        },
-        {
           "name": "nuclearcraftneohaul:graphite_block",
           "blockstate": {},
           "type": "block",
@@ -4321,13 +4310,13 @@
           }
         },
         {
-          "name": "nuclearcraftneohaul:lead_steel_reflector",
+          "name": "nuclearcraftneohaul:beryllium_block",
           "blockstate": {},
           "type": "block",
           "modules": {
-            "nuclearcraft:overhaul_msr:reflector": {
-              "efficiency": 0.25,
-              "reflectivity": 0.5
+            "nuclearcraft:overhaul_msr:moderator": {
+              "efficiency": 1.05,
+              "flux": 22
             }
           }
         },
@@ -4339,6 +4328,17 @@
             "nuclearcraft:overhaul_msr:reflector": {
               "efficiency": 0.5,
               "reflectivity": 1.0
+            }
+          }
+        },
+        {
+          "name": "nuclearcraftneohaul:lead_steel_reflector",
+          "blockstate": {},
+          "type": "block",
+          "modules": {
+            "nuclearcraft:overhaul_msr:reflector": {
+              "efficiency": 0.25,
+              "reflectivity": 0.5
             }
           }
         }
@@ -7693,17 +7693,6 @@
           }
         },
         {
-          "name": "nuclearcraftneohaul:beryllium_block",
-          "blockstate": {},
-          "type": "block",
-          "modules": {
-            "nuclearcraft:overhaul_sfr:moderator": {
-              "efficiency": 1.05,
-              "flux": 22
-            }
-          }
-        },
-        {
           "name": "nuclearcraftneohaul:graphite_block",
           "blockstate": {},
           "type": "block",
@@ -7726,13 +7715,13 @@
           }
         },
         {
-          "name": "nuclearcraftneohaul:lead_steel_reflector",
+          "name": "nuclearcraftneohaul:beryllium_block",
           "blockstate": {},
           "type": "block",
           "modules": {
-            "nuclearcraft:overhaul_sfr:reflector": {
-              "efficiency": 0.25,
-              "reflectivity": 0.5
+            "nuclearcraft:overhaul_sfr:moderator": {
+              "efficiency": 1.05,
+              "flux": 22
             }
           }
         },
@@ -7744,6 +7733,17 @@
             "nuclearcraft:overhaul_sfr:reflector": {
               "efficiency": 0.5,
               "reflectivity": 1.0
+            }
+          }
+        },
+        {
+          "name": "nuclearcraftneohaul:lead_steel_reflector",
+          "blockstate": {},
+          "type": "block",
+          "modules": {
+            "nuclearcraft:overhaul_sfr:reflector": {
+              "efficiency": 0.25,
+              "reflectivity": 0.5
             }
           }
         }
