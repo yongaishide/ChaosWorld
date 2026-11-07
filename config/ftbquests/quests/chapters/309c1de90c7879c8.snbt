@@ -185,7 +185,7 @@
 			}]
 			tasks: [{
 				id: "45BDFD592C0EA718"
-				item: { count: 1, id: "alloy_smelter:forge_controller_tier2" }
+				item: { count: 1, id: "mmcr:brick_alloy_furnace_controller" }
 				type: "item"
 			}]
 			x: -2.0d
@@ -579,10 +579,10 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: 0.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["51B7F56EFFA0D046"]
+			dependencies: ["4CB1408E36A1E831"]
 			id: "14C97AA6221400F2"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [{
@@ -596,44 +596,8 @@
 				item: { count: 1, id: "alltheores:iron_plate" }
 				type: "item"
 			}]
-			x: -8.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["33B884E73BF1E8A2"]
-			id: "51B7F56EFFA0D046"
-			quest_enhance_disable_scroll_paging: false
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6BC3F19A3FE3BC69"
-				table_id: 5798946034287369178L
-				type: "random"
-			}]
-			tasks: [{
-				id: "4D8C55F4D71F38CC"
-				item: { count: 1, id: "create:mechanical_press" }
-				type: "item"
-			}]
-			x: -10.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["7BE82C704232E651"]
-			id: "33B884E73BF1E8A2"
-			quest_enhance_disable_scroll_paging: false
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "58C2C01A333D7708"
-				table_id: 5798946034287369178L
-				type: "random"
-			}]
-			tasks: [{
-				id: "790457993F70624D"
-				item: { count: 1, id: "create:andesite_casing" }
-				type: "item"
-			}]
-			x: -10.0d
-			y: -2.0d
+			x: -6.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["2BB4EC2A82263EC9"]
@@ -887,6 +851,7 @@
 				id: "6362A850288DF849"
 				key_type: "ae2:i"
 				resource: "mmcr:modularium"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: -2.0d
@@ -901,6 +866,7 @@
 				id: "28CA5C1775AB05C6"
 				key_type: "ae2:i"
 				resource: "ae2lt:pigmee_synthesis_station"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: -2.0d
@@ -915,6 +881,7 @@
 				id: "6634FA43DAED5C19"
 				key_type: "ae2:i"
 				resource: "ae2lt:pigmee_core"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: 0.0d
@@ -929,6 +896,7 @@
 				id: "047803F8B1568E19"
 				key_type: "ae2:i"
 				resource: "ae2lt:pigmee_crystal_catalyzer"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: -2.0d
@@ -943,6 +911,7 @@
 				id: "06138896E67ABDC7"
 				key_type: "ae2:i"
 				resource: "ae2lt:overload_crystal"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: 0.0d
@@ -957,6 +926,7 @@
 				id: "0828D251406C3B99"
 				key_type: "ae2:i"
 				resource: "ae2lt:cracked_budding_overload_crystal"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: 0.0d
@@ -971,6 +941,7 @@
 				id: "7CD7EA91BFEE6C83"
 				key_type: "ae2:i"
 				resource: "ae2:flawed_budding_quartz"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: 0.0d
@@ -985,6 +956,7 @@
 				id: "296AA866A03DD5E6"
 				key_type: "ae2:i"
 				resource: "ae2:charger"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: 2.0d
@@ -999,6 +971,7 @@
 				id: "4E3C7E88FB8A6D46"
 				key_type: "ae2:i"
 				resource: "ae2:certus_quartz_crystal"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: 2.0d
@@ -1013,6 +986,7 @@
 				id: "2D758A0E5A09A55A"
 				key_type: "ae2:i"
 				resource: "chaosworld_core:crystal_core_2"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: 6.0d
@@ -1027,6 +1001,7 @@
 				id: "6FD33AADD4F29F80"
 				key_type: "ae2:f"
 				resource: "immersiveengineering:phenolic_resin"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: 8.0d
@@ -1044,6 +1019,7 @@
 				id: "50FE47122AF390C1"
 				key_type: "ae2:f"
 				resource: "immersiveengineering:acetaldehyde"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: 6.0d
@@ -1058,6 +1034,7 @@
 				id: "2B081160FD1DDEAA"
 				key_type: "ae2:f"
 				resource: "pneumaticcraft:ethanol"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: 6.0d
@@ -1133,6 +1110,7 @@
 					id: "7AADA67E1ED12C9B"
 					key_type: "ae2:i"
 					resource: "chaosworld_core:ingot_tech_2"
+					tag: ""
 					type: "chaosworld_core:ae_resource"
 				}
 				{
@@ -1140,6 +1118,7 @@
 					id: "5707F2358BD067AA"
 					key_type: "ae2:i"
 					resource: "chaosworld_core:ingot_tech_1"
+					tag: ""
 					type: "chaosworld_core:ae_resource"
 				}
 				{
@@ -1160,6 +1139,7 @@
 				id: "052ECDE9BD18E956"
 				key_type: "ae2:i"
 				resource: "immersiveengineering:mold_rod"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: 0.0d
@@ -1174,6 +1154,7 @@
 				id: "641C15115745868B"
 				key_type: "ae2:i"
 				resource: "immersiveengineering:plate_duroplast"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: 10.0d
@@ -1188,6 +1169,7 @@
 				id: "5D401E94C08F1632"
 				key_type: "ae2:i"
 				resource: "immersiveengineering:component_electronic_adv"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: 12.0d
@@ -1206,6 +1188,7 @@
 					id: "116EC8E56AD964BB"
 					key_type: "ae2:i"
 					resource: "mekanism:fuelwood_heater"
+					tag: ""
 					type: "chaosworld_core:ae_resource"
 				}
 				{
@@ -1213,6 +1196,7 @@
 					id: "798F97949611BF43"
 					key_type: "ae2:i"
 					resource: "mmcr:heat_input_hatch"
+					tag: ""
 					type: "chaosworld_core:ae_resource"
 				}
 				{
@@ -1220,6 +1204,7 @@
 					id: "4DC21C5BD1264A23"
 					key_type: "ae2:i"
 					resource: "mmcr:heat_output_hatch"
+					tag: ""
 					type: "chaosworld_core:ae_resource"
 				}
 			]
@@ -1235,6 +1220,7 @@
 				id: "43932E0122B3E019"
 				key_type: "ae2:i"
 				resource: "extendedcrafting:redstone_ingot"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: -12.0d
@@ -1249,6 +1235,7 @@
 				id: "553A9B7E22ABF4AA"
 				key_type: "ae2:i"
 				resource: "immersiveengineering:seed"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: -12.0d
@@ -1263,10 +1250,11 @@
 				id: "488DB7837A984DA1"
 				key_type: "ae2:i"
 				resource: "mekanism:basic_universal_cable"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
-			x: -12.0d
-			y: -2.0d
+			x: -10.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1B2519D534A702FC"]
@@ -1277,10 +1265,11 @@
 				id: "5D75E40411AF68BF"
 				key_type: "ae2:i"
 				resource: "mekanism:energy_tablet"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
-			x: -12.0d
-			y: -4.0d
+			x: -8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4AB4C21598BD6A12"]
@@ -1292,6 +1281,7 @@
 					id: "51947D313C6C8480"
 					key_type: "ae2:i"
 					resource: "mmcr:smelting_furnace_controller"
+					tag: ""
 					type: "chaosworld_core:ae_resource"
 				}
 				{
@@ -1299,6 +1289,7 @@
 					id: "42EDBA8FA986D04B"
 					key_type: "ae2:i"
 					resource: "mmcr:casting_machine_controller"
+					tag: ""
 					type: "chaosworld_core:ae_resource"
 				}
 			]
@@ -1314,10 +1305,60 @@
 				id: "5BE89711C11CF8E4"
 				key_type: "ae2:i"
 				resource: "chaosworld_core:ingot_tech_3"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: 10.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["19956E485A7B1B15"]
+			id: "4CB1408E36A1E831"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "3F50DEC3C88AC8DD"
+				item: {
+					count: 1
+					id: "minecraft:oak_log"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				amount: 1L
+				id: "562486DBC2B0EEE3"
+				key_type: "ae2:i"
+				resource: "minecraft:anvil"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			id: "19956E485A7B1B15"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "minecraft:story/smelt_iron"
+				criterion: ""
+				id: "74198539E5549E05"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			id: "042FF0AE938FD4E3"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 2000L
+				id: "5A5AF6ED8E15E654"
+				key_type: "ae2:f"
+				resource: "immersiveengineering:creosote"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -8.0d
+			y: -2.5d
 		}
 	]
 }

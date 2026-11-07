@@ -1,0 +1,4 @@
+[keyReuse]
+	#Reuse plain resource keys inside ECO only. AE2/addon public factories are unchanged; existing saves remain compatible.
+	#仅在 ECO 内部复用无额外数据的资源 key；不替换 AE2 或附属的公共工厂，保留值相等与旧存档格式。
+	enabled = true

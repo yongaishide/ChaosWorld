@@ -1,28 +1,31 @@
 [BatchInstall]
-	#顺序填充模式（默认关闭）。
-	#开启：先把一台机器塞满，再塞下一台。
-	#关闭：在所有机器之间平均分配插件。
-	#游戏中按 Shift+N 切换。
+	#Sequential Fill Mode (default: OFF).
+	#ON : Fill one machine completely before moving on to the next one.
+	#OFF: Evenly distribute upgrades across all machines.
+	#Toggled in game with Shift+N.
 	sequentialFillMode = false
-	#对角检测模式（默认关闭）。
-	#开启：批量检测会同时检查斜对角的机器（正方形范围扫描）。
-	#关闭：只检查直接相邻的机器。
-	#游戏中按 Shift+M 切换。
+	#Diagonal Detection Mode (default: OFF).
+	#ON : Batch detection spreads to diagonal neighbors as well (square-shaped scan).
+	#OFF: Only directly adjacent neighbors are checked.
+	#Toggled in game with Shift+M.
 	diagonalDetectionMode = false
 
 [General]
-	#总开关（默认开启）。
-	#关闭后全能升级完全不工作：批量安装、高亮预览与右键接管全部跳过，
-	#把操作交还原版或其他模组。游戏中按 Shift+O 切换，也可直接修改本文件。
+	#Master Switch (default: ON).
+	#Turn OFF to fully disable Omni Upgrades: batch install, highlights and right-click
+	#interception are all skipped, giving control back to vanilla/other mods.
+	#Toggled in game with Shift+O; also editable in this file.
 	enabled = true
 
 [Blacklist]
-	#物品黑名单（客户端，每个玩家独立生效）。
-	#列入此名单的物品，全能升级一律不再当升级卡处理：
-	#右键拦截与高亮预览全部跳过，把操作交还原版或其他模组。
-	#适用于继承 AE2 卡片 API 但并非可安装机器升级的功能卡
-	#（例如闪电科技的过载频道卡 'ae2lt:overloaded_frequency_card'）。
-	#每行填物品注册 id；以 '#' 开头表示屏蔽整个物品标签
-	#（例如 '#ae2:upgrade_cards'）。
-	#该名单在进入服务器时同步给服务端；修改后重启游戏生效。
+	#Item Blacklist (Client-side, per-player).
+	#Items listed here are never treated as upgrade items by Omni Upgrades:
+	#right-click interception and highlights are skipped for them, letting the
+	#original mod / vanilla game handle them normally.
+	#Useful for AE2-family cards that are NOT installable machine upgrades but are
+	#still recognized through the upgrade-card API (e.g. AE2 Lightning Tech's
+	#Overloaded Frequency Card 'ae2lt:overloaded_frequency_card').
+	#Each entry is an item registry id. Prefix '#' to block a whole item tag
+	#(e.g. '#ae2:upgrade_cards').
+	#The list is synced to the server on login; changes apply after restarting the game.
 	blacklist = []

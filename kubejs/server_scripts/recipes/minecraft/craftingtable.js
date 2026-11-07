@@ -503,4 +503,29 @@ ServerEvents.recipes(event => {
       C: 'mekanism:ultimate_chemical_tank'
     }
   );//添加有序合成"同位素离心机"配方
+  event.shaped(
+    Item.of('mekanism:fuelwood_heater'),
+    [
+      'AAA',
+      'BCB',
+      'AAA'
+    ],
+    {
+      A: 'alltheores:steel_ingot',
+      B: 'ironfurnaces:iron_furnace',
+      C: 'actuallyadditions:coal_generator'
+    }
+  );//添加有序合成"固体燃料加热器"配方
+  event.shaped(
+    Item.of("minecraft:smithing_table"),
+    [
+      'BB',
+      'AA',
+      'AA'
+    ],
+    {
+      A: '#minecraft:planks',
+      B: "alltheores:iron_plate"
+    }
+  );//添加有序合成"锻造台"配方
 });

@@ -16,26 +16,6 @@ const HIDE_ITEMS = [
     'allthecompressed:copper_alloy_block_9x',
     "avaritia:sculk_crafting_table",
     "avaritia:nether_crafting_table",
-    'data_energistics:data_flow_cell_1k',
-    'data_energistics:data_flow_cell_4k',
-    'data_energistics:data_flow_cell_16k',
-    'data_energistics:data_flow_cell_64k',
-    'data_energistics:data_flow_cell_256k',
-    'data_energistics:data_flow_cell_1m',
-    'data_energistics:data_flow_cell_4m',
-    'data_energistics:data_flow_cell_16m',
-    'data_energistics:data_flow_cell_64m',
-    'data_energistics:data_flow_cell_256m',
-    'data_energistics:portable_data_flow_cell_1k',
-    'data_energistics:portable_data_flow_cell_4k',
-    'data_energistics:portable_data_flow_cell_16k',
-    'data_energistics:portable_data_flow_cell_64k',
-    'data_energistics:portable_data_flow_cell_256k',
-    'data_energistics:portable_data_flow_cell_1m',
-    'data_energistics:portable_data_flow_cell_4m',
-    'data_energistics:portable_data_flow_cell_16m',
-    'data_energistics:portable_data_flow_cell_64m',
-    'data_energistics:portable_data_flow_cell_256m',
     "data_energistics:data_flow_component_housing",
     'data_energistics:data_storage_component_1k', 
     'data_energistics:data_storage_component_4k', 
@@ -483,7 +463,9 @@ const HIDE_ITEMS = [
     'extendedae_plus:assembler_matrix_pattern_plus', 
     'extendedae_plus:assembler_matrix_hybrid_plus', 
     'extendedae_plus:super_assembler_matrix_frame', 
-    'extendedae_plus:super_assembler_matrix_wall'
+    'extendedae_plus:super_assembler_matrix_wall',
+    "enderio:pressurized_fluid_tank",
+    "enderio:fluid_tank"
 ]
 
 ServerEvents.recipes(event => {

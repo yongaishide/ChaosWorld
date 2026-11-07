@@ -64,6 +64,12 @@
 		#Applied Enhancements 已移除临时规划日志。
 		#Default / 默认值: false
 		enable_diagnostics = false
+		#Use the AELIS crafting-plan screen on this client.
+		#Disable to use AE2's original confirmation screen without changing planning or execution.
+		#在当前客户端使用 AELIS 合成计划新界面。
+		#关闭后使用 AE2 原版确认界面，不影响规划与合成执行。
+		#Default / 默认值: true
+		enable_plan_screen = true
 
 		#Bounded solver for cyclic crafting dependencies
 		#循环合成依赖的有界求解器

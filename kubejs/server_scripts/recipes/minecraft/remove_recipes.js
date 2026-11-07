@@ -71,7 +71,8 @@ ServerEvents.recipes(event => {
         'mmcr:heat_output_hatch',
         "mmcr:modularium",
         "mekanism:isotopic_centrifuge",
-        "mekanism:fuelwood_heater"
+        "mekanism:fuelwood_heater",
+        "minecraft:smithing_table"
     ]
     recipeTypeall.forEach((item) => {
         event.remove({ output: item, type: 'minecraft:crafting_shaped' })

@@ -132,3 +132,15 @@ largeWorkstationIgnoreUpgradeCards = false
 	# Default: 20000
 	# Range: 0 ~ 9223372036854775807
 	megaBulkAutoMarkThreshold = 20000
+	#存储主机迁移到无限存储时，每 tick 最多使用的时间（微秒），同一主机的所有矩阵共享。
+	#每 tick 至少迁移一种资源，因此迁移总会推进；调低可减轻卡顿，调高可加快迁移。
+	#Time budget, in microseconds, that a storage host may spend per tick migrating into infinite storage; shared by all its matrices.
+	#At least one resource type is migrated per tick, so a migration always advances; lower values reduce lag, higher values migrate faster.
+	# Default: 2000
+	# Range: 0 ~ 1000000
+	infiniteMigrationTickBudgetMicros = 2000
+	#存储主机迁移到无限存储时，每 tick 最多迁移的资源种类数，同一主机的所有矩阵共享。
+	#Maximum number of resource types a storage host migrates into infinite storage per tick; shared by all its matrices.
+	# Default: 512
+	# Range: 1 ~ 1000000
+	infiniteMigrationKeysPerTick = 512

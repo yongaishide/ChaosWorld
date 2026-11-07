@@ -10,13 +10,24 @@ postCraftingEvent = false
 # Default: 1
 # Range: 1 ~ 8
 craftingPatternBusPages = 1
-#允许大型集成工作站处理受支持模组的联动配方，默认关闭。
-#关闭时仅处理本模组的集成工作站配方。
-#修改后重新进入世界或重启服务器，以刷新配方浏览器。
-#Allow the large integrated workstation to process supported mods' recipes. Disabled by default.
-#When disabled, only native integrated workstation recipes are available.
-#Reopen the world or restart the server after changing this option to refresh recipe viewers.
-largeWorkstationCompatRecipesEnabled = true
+#启用大型集成工作站的温度、预热和过热恢复机制，默认开启。
+#关闭后使用冷却液模式：同时开启超频与主动冷却，水/钠/凛冰分别提供 16384/65536/262144 并行，常规为 256。
+#冷却液模式仅在超频批次实际推进时消耗 100 mB 冷却液，不检查温度；全部档位保持 1 倍配方能耗。
+#修改后重新进入世界或重启服务器。
+#Enable large workstation temperature, preheating and overheat recovery. Enabled by default.
+#When disabled, overclock plus active cooling selects 16384/65536/262144 parallel from water/sodium/cryotheum; normal is 256.
+#Coolant mode consumes 100 mB only when an overclocked batch advances, ignores temperature and keeps x1 recipe energy.
+#Reopen the world or restart the server after changing this option.
+largeWorkstationTemperatureEnabled = true
+#忽略大型集成工作站的升级卡限制，直接解锁所有受支持的兼容配方，默认关闭。
+#兼容配方默认加载；关闭此选项时，高级 AE、扩展 AE、水晶科技和闪电科技的配方由对应升级卡解锁。
+#空白卡不增加配方类别，常规配方与没有专用升级卡的兼容配方始终可用。
+#修改后重新进入世界或重启服务器。
+#Ignore large workstation upgrade cards and unlock every supported compatible recipe. Disabled by default.
+#Compatible recipes are always loaded; with this option off, install the matching card to unlock its recipe family.
+#The blank card adds no recipe family; native recipes and adapters without a dedicated card remain available.
+#Reopen the world or restart the server after changing this option.
+largeWorkstationIgnoreUpgradeCards = false
 
 #多方块结构尺寸限制。
 #Multiblock structure size limits.
@@ -65,12 +76,12 @@ largeWorkstationCompatRecipesEnabled = true
 	ecoFastPathCacheSize = 512
 	#一次 ECO 规划会话的总耗时预算（毫秒），路线、种子和 CRAFT_LESS 探测共享；超限显示未解。
 	#Shared cooperative time budget for one ECO planning session, including routes, seeds and CRAFT_LESS probes.
-	# Default: 10000
+	# Default: 120000
 	# Range: 1 ~ 600000
 	ecoPlanningMaxMillis = 10000
 	#一次 ECO 规划会话的检查点总预算；切换路线和种子不会重置预算。
 	#Shared checkpoint work budget; changing routes or startup seeds does not reset it.
-	# Default: 5000000
+	# Default: 50000000
 	# Range: > 1
 	ecoPlanningMaxWork = 5000000
 	#循环求解保留数据的估算内存预算（MiB），覆盖矩阵和搜索状态；超限显示未解。

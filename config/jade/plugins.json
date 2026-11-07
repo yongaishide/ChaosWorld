@@ -2,6 +2,41 @@
   "astralsorcery": {
     "lumen": true
   },
+  "thaumaturge": {
+    "display.everfull_urns": "GOGGLES",
+    "display.crystalizers": "GOGGLES",
+    "display.tubes": "GOGGLES",
+    "display.golem_builders": "GOGGLES",
+    "display.node_transducers": "GOGGLES",
+    "display.void_siphons": "GOGGLES",
+    "display.reservoirs": "GOGGLES",
+    "display.focal_manipulators": "GOGGLES",
+    "display.flux_scrubbers": "GOGGLES",
+    "display.valves": "GOGGLES",
+    "display.crucibles": "GOGGLES",
+    "display.one_way_tubes": "GOGGLES",
+    "display.centrifuges": "GOGGLES",
+    "display.restricted_tubes": "GOGGLES",
+    "display.brain_jars": "GOGGLES",
+    "display.smelters": "GOGGLES",
+    "display.mirrors": "GOGGLES",
+    "display": true,
+    "display.nodes": "GOGGLES",
+    "display.advanced_alchemical_furnaces": "GOGGLES",
+    "display.thaumatoriums": "GOGGLES",
+    "display.jars": "GOGGLES",
+    "display.essentia_mirrors": "GOGGLES",
+    "display.vis_relays": "GOGGLES",
+    "display.spas": "GOGGLES",
+    "display.buffers": "GOGGLES",
+    "display.filter_tubes": "GOGGLES",
+    "display.alembics": "GOGGLES",
+    "display.infernal_furnaces": "GOGGLES",
+    "display.golems": "GOGGLES",
+    "display.potion_sprayers": "GOGGLES",
+    "display.deconstruction_tables": "GOGGLES",
+    "machine_icon": true
+  },
   "productivebeesgenesis": {
     "resource_output": true,
     "apiary_status": true,
@@ -58,7 +93,8 @@
   "ae2lt": {
     "frequency_card_wireless_node": true,
     "lightning_collector": true,
-    "firmament_conversion_core": true
+    "firmament_conversion_core": true,
+    "wireless_energy": true
   },
   "projecte": {
     "emc_provider": true
@@ -90,6 +126,7 @@
     "digital_storage_depot": true,
     "data_teleport_anchor": true,
     "data_reassembler": true,
+    "digital_supply_interface": true,
     "data_sanctum.mode": false,
     "data_sanctum_interface": true,
     "data_extractor": true,

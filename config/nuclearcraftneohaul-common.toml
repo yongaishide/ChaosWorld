@@ -230,7 +230,7 @@
 	entity_tracking_range = 8
 
 [radiation]
-	radiation_enabled = true
+	radiation_enabled = false
 	radiation_immune_players = []
 	# Default: 5
 	# Range: 1 ~ 400

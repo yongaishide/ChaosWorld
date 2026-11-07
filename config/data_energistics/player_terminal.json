@@ -1,0 +1,217 @@
+{
+  "shift_click_to_network": false,
+  "sort": "name",
+  "filter": "all",
+  "descending": false,
+  "disabled_key_types": [],
+  "screens": {
+    "net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen": {
+      "x_percent": 0.047058824,
+      "y_percent": 0.11111111,
+      "width": 176,
+      "height": 168,
+      "folded": true,
+      "open": true
+    },
+    "sk.alloy_smelter.screen.ForgeControllerScreen": {
+      "x_percent": 0.047058824,
+      "y_percent": 0.11111111,
+      "width": 176,
+      "height": 168,
+      "folded": true,
+      "open": true
+    },
+    "cn.howxu.mmcr.client.gui.MachineControllerScreen": {
+      "x_percent": 0.047058824,
+      "y_percent": 0.11111111,
+      "width": 176,
+      "height": 168,
+      "folded": true,
+      "open": true
+    },
+    "sonar.fluxnetworks.client.gui.GuiFluxDeviceHome": {
+      "x_percent": 0.047058824,
+      "y_percent": 0.11111111,
+      "width": 176,
+      "height": 168,
+      "folded": true,
+      "open": true
+    },
+    "sonar.fluxnetworks.client.gui.tab.GuiTabSelection": {
+      "x_percent": 0.047058824,
+      "y_percent": 0.11111111,
+      "width": 176,
+      "height": 168,
+      "folded": true,
+      "open": true
+    },
+    "sonar.fluxnetworks.client.gui.tab.GuiTabWireless": {
+      "x_percent": 0.047058824,
+      "y_percent": 0.11111111,
+      "width": 176,
+      "height": 168,
+      "folded": true,
+      "open": true
+    },
+    "sonar.fluxnetworks.client.gui.tab.GuiTabConnections": {
+      "x_percent": 0.047058824,
+      "y_percent": 0.11111111,
+      "width": 176,
+      "height": 168,
+      "folded": true,
+      "open": true
+    },
+    "com.blakebr0.extendedcrafting.client.screen.UltimateTableScreen": {
+      "x_percent": 0.047058824,
+      "y_percent": 0.11111111,
+      "width": 176,
+      "height": 168,
+      "folded": true,
+      "open": true
+    },
+    "com.blakebr0.extendedcrafting.client.screen.EliteTableScreen": {
+      "x_percent": 0.047058824,
+      "y_percent": 0.11111111,
+      "width": 176,
+      "height": 168,
+      "folded": true,
+      "open": true
+    },
+    "com.blakebr0.extendedcrafting.client.screen.AdvancedTableScreen": {
+      "x_percent": 0.047058824,
+      "y_percent": 0.11111111,
+      "width": 176,
+      "height": 168,
+      "folded": true,
+      "open": true
+    },
+    "cn.howxu.mmcr.client.gui.ItemBusScreen": {
+      "x_percent": 0.047058824,
+      "y_percent": 0.11111111,
+      "width": 176,
+      "height": 168,
+      "folded": true,
+      "open": true
+    },
+    "cn.howxu.mmcr.client.gui.FluidHatchScreen": {
+      "x_percent": 0.047058824,
+      "y_percent": 0.11111111,
+      "width": 176,
+      "height": 168,
+      "folded": true,
+      "open": true
+    },
+    "mekanism.client.gui.GuiQuantumEntangloporter": {
+      "x_percent": 0.047058824,
+      "y_percent": 0.11111111,
+      "width": 176,
+      "height": 168,
+      "folded": true,
+      "open": true
+    },
+    "cn.howxu.mmcr.client.gui.HeatHatchScreen": {
+      "x_percent": 0.047058824,
+      "y_percent": 0.11111111,
+      "width": 176,
+      "height": 168,
+      "folded": true,
+      "open": true
+    },
+    "mekanism.client.gui.machine.GuiResistiveHeater": {
+      "x_percent": 0.047058824,
+      "y_percent": 0.11111111,
+      "width": 176,
+      "height": 168,
+      "folded": true,
+      "open": true
+    },
+    "net.minecraft.client.gui.screens.inventory.AnvilScreen": {
+      "x_percent": 0.047058824,
+      "y_percent": 0.11111111,
+      "width": 176,
+      "height": 168,
+      "folded": true,
+      "open": true
+    },
+    "net.minecraft.client.gui.screens.inventory.InventoryScreen": {
+      "x_percent": 0.047058824,
+      "y_percent": 0.11111111,
+      "width": 176,
+      "height": 168,
+      "folded": true,
+      "open": true
+    },
+    "net.minecraft.client.gui.screens.inventory.SmithingScreen": {
+      "x_percent": 0.047058824,
+      "y_percent": 0.11111111,
+      "width": 176,
+      "height": 168,
+      "folded": true,
+      "open": true
+    },
+    "com.moakiee.ae2lt.client.tianshu.TianshuCraftingTermScreen": {
+      "x_percent": 0.047058824,
+      "y_percent": 0.11111111,
+      "width": 176,
+      "height": 168,
+      "folded": true,
+      "open": true
+    },
+    "appeng.client.gui.implementations.WirelessAccessPointScreen": {
+      "x_percent": 0.047058824,
+      "y_percent": 0.11111111,
+      "width": 176,
+      "height": 168,
+      "folded": true,
+      "open": true
+    },
+    "mekanism.client.gui.GuiEnergyCube": {
+      "x_percent": 0.047058824,
+      "y_percent": 0.11111111,
+      "width": 176,
+      "height": 168,
+      "folded": true,
+      "open": true
+    },
+    "de.mari_023.ae2wtlib.wct.WCTScreen": {
+      "x_percent": 0.047058824,
+      "y_percent": 0.11111111,
+      "width": 176,
+      "height": 168,
+      "folded": true,
+      "open": true
+    },
+    "appeng.client.gui.implementations.DriveScreen": {
+      "x_percent": 0.047058824,
+      "y_percent": 0.11111111,
+      "width": 176,
+      "height": 168,
+      "folded": true,
+      "open": true
+    },
+    "com.moakiee.ae2lt.client.tianshu.TianshuGlobalReserveScreen": {
+      "x_percent": 0.047058824,
+      "y_percent": 0.11111111,
+      "width": 176,
+      "height": 168,
+      "folded": true,
+      "open": true
+    },
+    "com.moakiee.ae2lt.client.machine.MiningFactoryScreen": {
+      "x_percent": 0.047058824,
+      "y_percent": 0.11111111,
+      "width": 176,
+      "height": 168,
+      "folded": true,
+      "open": true
+    },
+    "appeng.client.gui.me.items.CraftingTermScreen": {
+      "x_percent": 0.047058824,
+      "y_percent": 0.11111111,
+      "width": 176,
+      "height": 168,
+      "folded": true,
+      "open": true
+    }
+  }
+}

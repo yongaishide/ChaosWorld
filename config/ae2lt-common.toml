@@ -429,3 +429,30 @@ configVersion = 3
 	# Default: 768
 	# Range: 0 ~ 500000
 	planeExtraEnergyPerBlock = 768
+
+[wirelessFrequency]
+	#Maximum number of frequencies in which a player may hold OWNER membership.
+	#Applies to creation and owner promotions. Existing memberships are retained when lowered.
+	# Default: 16
+	# Range: > 1
+	maxOwnedFrequenciesPerPlayer = 16
+
+[wirelessControllerEnergy]
+	#Experimental: supplement AE requests from FE only while an advanced-controller network is already running. Never cold-starts a grid.
+	runningNetworkFeFallback = false
+	#FE-to-AE fallback budget only. Does not limit wireless FE output; 0 disables fallback withdrawals.
+	# Default: 65536
+	# Range: > 0
+	networkFePerTick = 65536
+	#FE-to-AE fallback IO attempts per grid per tick only.
+	# Default: 32
+	# Range: 1 ~ 1024
+	networkTargetsPerTick = 32
+	#Soft global wireless FE work budget in milliseconds per server tick. Unfinished work resumes fairly next tick; a single mod callback cannot be interrupted.
+	# Default: 2.0
+	# Range: 0.1 ~ 10.0
+	tickBudgetMillis = 2.0
+	#FE left in ME storage by this output path. Does not power AE or constrain other exporters.
+	# Default: 10000
+	# Range: > 0
+	networkFeReserve = 10000

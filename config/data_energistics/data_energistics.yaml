@@ -1,598 +1,598 @@
 # Machine and network component settings.
-# æœºå™¨ä¸ç½‘ç»œç»„ä»¶è®¾ç½®ã€‚
+# »úÆ÷ÓëÍøÂç×é¼şÉèÖÃ¡£
 machines:
   # Data Ripper power and target selection.
-  # æ•°æ®æ’•è£‚å™¨çš„åŠŸè€—ä¸ç›®æ ‡é€‰æ‹©è®¾ç½®ã€‚
+  # Êı¾İËºÁÑÆ÷µÄ¹¦ºÄÓëÄ¿±êÑ¡ÔñÉèÖÃ¡£
   dataRipper:
     # Base power cost for the data ripper power curve.
-    # æ•°æ®æ’•è£‚å™¨åŠŸè€—æ›²çº¿çš„åŸºç¡€æ•°æ®æµæ¶ˆè€—ã€‚
+    # Êı¾İËºÁÑÆ÷¹¦ºÄÇúÏßµÄ»ù´¡Êı¾İÁ÷ÏûºÄ¡£
     baseCost: 512
 
     # Regex patterns for block ids that the data ripper should never accelerate.
-    # æ•°æ®æ’•è£‚å™¨æ°¸è¿œä¸ä¼šåŠ é€Ÿçš„æ–¹å— ID æ­£åˆ™è¡¨è¾¾å¼ã€‚
+    # Êı¾İËºÁÑÆ÷ÓÀÔ¶²»»á¼ÓËÙµÄ·½¿é ID ÕıÔò±í´ïÊ½¡£
     blacklist:
 
     # Power multipliers paired by array index.
-    # æŒ‰æ•°ç»„ç´¢å¼•é…å¯¹çš„åŠŸè€—å€ç‡ã€‚
+    # °´Êı×éË÷ÒıÅä¶ÔµÄ¹¦ºÄ±¶ÂÊ¡£
     multipliers:
       # Block id regex patterns. Each index pairs with the value at the same index.
-      # æ–¹å— ID æ­£åˆ™è¡¨è¾¾å¼ï¼›æ¯é¡¹ä¸ values ä¸­ç›¸åŒç´¢å¼•çš„å€ç‡é…å¯¹ã€‚
+      # ·½¿é ID ÕıÔò±í´ïÊ½£»Ã¿ÏîÓë values ÖĞÏàÍ¬Ë÷ÒıµÄ±¶ÂÊÅä¶Ô¡£
       patterns:
         - minecraft:hopper
         - appeng:.*
 
       # Positive power multipliers paired with patterns by index.
-      # ä¸ patterns æŒ‰ç´¢å¼•é…å¯¹çš„æ­£åŠŸè€—å€ç‡ã€‚
+      # Óë patterns °´Ë÷ÒıÅä¶ÔµÄÕı¹¦ºÄ±¶ÂÊ¡£
       values:
         - 1.5
         - 2.0
 
   # Data Distribution Tower chunk coverage.
-  # æ•°æ®åˆ†é…å¡”çš„åŒºå—è¦†ç›–è®¾ç½®ã€‚
+  # Êı¾İ·ÖÅäËşµÄÇø¿é¸²¸ÇÉèÖÃ¡£
   dataDistributionTower:
     # Base chunk coverage level. 1=1x1 chunk, 2=3x3 chunks, and so on.
-    # åŸºç¡€åŒºå—è¦†ç›–ç­‰çº§ã€‚1=1x1 åŒºå—ï¼Œ2=3x3 åŒºå—ï¼Œä¾æ­¤ç±»æ¨ã€‚
+    # »ù´¡Çø¿é¸²¸ÇµÈ¼¶¡£1=1x1 Çø¿é£¬2=3x3 Çø¿é£¬ÒÀ´ËÀàÍÆ¡£
     range: 1
 
   # Data Extractor work and carrier requirements.
-  # æ•°æ®æå–å™¨çš„å·¥ä½œä¸è½½ä½“éœ€æ±‚è®¾ç½®ã€‚
+  # Êı¾İÌáÈ¡Æ÷µÄ¹¤×÷ÓëÔØÌåĞèÇóÉèÖÃ¡£
   dataExtractor:
     # Base damage dealt each cycle.
-    # æ¯æ¬¡å·¥ä½œé€ æˆçš„åŸºç¡€ä¼¤å®³ã€‚
+    # Ã¿´Î¹¤×÷Ôì³ÉµÄ»ù´¡ÉËº¦¡£
     baseDamage: 5
 
     # Seconds between work cycles before speed cards.
-    # é€Ÿåº¦å¡ç”Ÿæ•ˆå‰æ¯æ¬¡å·¥ä½œä¹‹é—´çš„ç§’æ•°ã€‚
+    # ËÙ¶È¿¨ÉúĞ§Ç°Ã¿´Î¹¤×÷Ö®¼äµÄÃëÊı¡£
     workIntervalSeconds: 5
 
     # Base data flow generated per cycle.
-    # æ¯æ¬¡å·¥ä½œç”Ÿæˆçš„åŸºç¡€æ•°æ®æµã€‚
+    # Ã¿´Î¹¤×÷Éú³ÉµÄ»ù´¡Êı¾İÁ÷¡£
     baseDataFlowPerCycle: 100
 
     # Additional data flow per point of sword or base damage.
-    # æ¯ç‚¹å‰‘æˆ–åŸºç¡€ä¼¤å®³é¢å¤–ç”Ÿæˆçš„æ•°æ®æµã€‚
+    # Ã¿µã½£»ò»ù´¡ÉËº¦¶îÍâÉú³ÉµÄÊı¾İÁ÷¡£
     dataFlowPerSwordDamage: 20
 
     # Base maximum number of affected targets.
-    # å¯å½±å“ç›®æ ‡æ•°é‡çš„åŸºç¡€ä¸Šé™ã€‚
+    # ¿ÉÓ°ÏìÄ¿±êÊıÁ¿µÄ»ù´¡ÉÏÏŞ¡£
     baseTargetLimit: 20
 
     # Additional target limit per capacity card.
-    # æ¯å¼ å®¹é‡å¡æä¾›çš„é¢å¤–ç›®æ ‡ä¸Šé™ã€‚
+    # Ã¿ÕÅÈİÁ¿¿¨Ìá¹©µÄ¶îÍâÄ¿±êÉÏÏŞ¡£
     targetLimitPerCapacityCard: 5
 
     # Additional data flow multiplier per extra target.
-    # æ¯ä¸ªé¢å¤–ç›®æ ‡æä¾›çš„æ•°æ®æµå€ç‡åŠ æˆã€‚
+    # Ã¿¸ö¶îÍâÄ¿±êÌá¹©µÄÊı¾İÁ÷±¶ÂÊ¼Ó³É¡£
     extraTargetDataFlowMultiplier: 0.25
 
     # Required total damage for a mob data carrier.
-    # å®Œæˆç”Ÿç‰©æ•°æ®è½½ä½“æ‰€éœ€çš„æ€»ä¼¤å®³ã€‚
+    # Íê³ÉÉúÎïÊı¾İÔØÌåËùĞèµÄ×ÜÉËº¦¡£
     mobRequiredDamage: 1024.0
 
     # Blocked entity ids. Each array element is one registry id.
-    # ç¦ç”¨çš„å®ä½“ IDï¼›æ¯ä¸ªæ•°ç»„å…ƒç´ å¯¹åº”ä¸€ä¸ªæ³¨å†Œè¡¨ IDã€‚
+    # ½ûÓÃµÄÊµÌå ID£»Ã¿¸öÊı×éÔªËØ¶ÔÓ¦Ò»¸ö×¢²á±í ID¡£
     mobDataBlacklist:
 
     # Required total amount for an ore data carrier.
-    # å®ŒæˆçŸ¿çŸ³æ•°æ®è½½ä½“æ‰€éœ€çš„æ€»æ•°é‡ã€‚
+    # Íê³É¿óÊ¯Êı¾İÔØÌåËùĞèµÄ×ÜÊıÁ¿¡£
     oreRequiredAmount: 4096.0
 
     # Blocked item ids for ore data. Each array element is one registry id.
-    # çŸ¿ç‰©æ•°æ®ç¦ç”¨çš„ç‰©å“ IDï¼›æ¯ä¸ªæ•°ç»„å…ƒç´ å¯¹åº”ä¸€ä¸ªæ³¨å†Œè¡¨ IDã€‚
+    # ¿óÎïÊı¾İ½ûÓÃµÄÎïÆ· ID£»Ã¿¸öÊı×éÔªËØ¶ÔÓ¦Ò»¸ö×¢²á±í ID¡£
     oreDataBlacklist:
 
     # Required total amount for a crop data carrier.
-    # å®Œæˆå†œä½œæ•°æ®è½½ä½“æ‰€éœ€çš„æ€»æ•°é‡ã€‚
+    # Íê³ÉÅ©×÷Êı¾İÔØÌåËùĞèµÄ×ÜÊıÁ¿¡£
     cropRequiredAmount: 4096.0
 
     # Blocked item ids for crop data. Each array element is one registry id.
-    # å†œä½œæ•°æ®ç¦ç”¨çš„ç‰©å“ IDï¼›æ¯ä¸ªæ•°ç»„å…ƒç´ å¯¹åº”ä¸€ä¸ªæ³¨å†Œè¡¨ IDã€‚
+    # Å©×÷Êı¾İ½ûÓÃµÄÎïÆ· ID£»Ã¿¸öÊı×éÔªËØ¶ÔÓ¦Ò»¸ö×¢²á±í ID¡£
     cropDataBlacklist:
 
     # Additional allowed crop item ids. Each array element is one registry id.
-    # é¢å¤–å…è®¸çš„å†œä½œç‰©å“ IDï¼›æ¯ä¸ªæ•°ç»„å…ƒç´ å¯¹åº”ä¸€ä¸ªæ³¨å†Œè¡¨ IDã€‚
+    # ¶îÍâÔÊĞíµÄÅ©×÷ÎïÆ· ID£»Ã¿¸öÊı×éÔªËØ¶ÔÓ¦Ò»¸ö×¢²á±í ID¡£
     cropDataWhitelist:
 
   # Solar generation and upgrade bonuses.
-  # å¤ªé˜³èƒ½å‘ç”µä¸å‡çº§åŠ æˆè®¾ç½®ã€‚
+  # Ì«ÑôÄÜ·¢µçÓëÉı¼¶¼Ó³ÉÉèÖÃ¡£
   solarPanel:
     # Daytime AE generation per tick.
-    # ç™½å¤©æ¯ tick ç”Ÿæˆçš„ AEã€‚
+    # °×ÌìÃ¿ tick Éú³ÉµÄ AE¡£
     dayGenerationAEPerTick: 3000.0
 
     # Nighttime AE generation per tick.
-    # å¤œæ™šæ¯ tick ç”Ÿæˆçš„ AEã€‚
+    # Ò¹ÍíÃ¿ tick Éú³ÉµÄ AE¡£
     nightGenerationAEPerTick: 1000.0
 
     # Additional generation ratio per speed card.
-    # æ¯å¼ é€Ÿåº¦å¡æä¾›çš„é¢å¤–å‘ç”µå€ç‡ã€‚
+    # Ã¿ÕÅËÙ¶È¿¨Ìá¹©µÄ¶îÍâ·¢µç±¶ÂÊ¡£
     speedCardBonusRatio: 0.75
 
     # Additional AE storage per energy card.
-    # æ¯å¼ èƒ½é‡å¡æä¾›çš„é¢å¤– AE å­˜å‚¨å®¹é‡ã€‚
+    # Ã¿ÕÅÄÜÁ¿¿¨Ìá¹©µÄ¶îÍâ AE ´æ´¢ÈİÁ¿¡£
     energyCardCapacityBonusAE: 80000.0
 
 # Explosive and terrain transformation settings.
-# çˆ†ç‚¸ç‰©ä¸åœ°å½¢å˜æ¢è®¾ç½®ã€‚
+# ±¬Õ¨ÎïÓëµØĞÎ±ä»»ÉèÖÃ¡£
 explosives:
   # Configurable TNT terrain replacement.
-  # å¯é…ç½® TNT çš„åœ°å½¢æ›¿æ¢è®¾ç½®ã€‚
+  # ¿ÉÅäÖÃ TNT µÄµØĞÎÌæ»»ÉèÖÃ¡£
   flatteningTnt:
     # Chunk radius for the cleared area. 1 = 3x3 chunks.
-    # æ¸…é™¤åŒºåŸŸçš„åŒºå—åŠå¾„ã€‚1 = 3x3 åŒºå—ã€‚
+    # Çå³ıÇøÓòµÄÇø¿é°ë¾¶¡£1 = 3x3 Çø¿é¡£
     clearChunkRadius: 1
 
     # Vertical offset where clearing starts.
-    # æ¸…é™¤èµ·å§‹ä½ç½®çš„å‚ç›´åç§»ã€‚
+    # Çå³ıÆğÊ¼Î»ÖÃµÄ´¹Ö±Æ«ÒÆ¡£
     clearStartYOffset: 0
 
     # Number of vertical blocks to clear.
-    # è¦æ¸…é™¤çš„å‚ç›´æ–¹å—æ•°é‡ã€‚
+    # ÒªÇå³ıµÄ´¹Ö±·½¿éÊıÁ¿¡£
     clearHeight: 25
 
     # Chunk radius for the filled floor. 1 = 3x3 chunks.
-    # å¡«å……åœ°æ¿çš„åŒºå—åŠå¾„ã€‚1 = 3x3 åŒºå—ã€‚
+    # Ìî³äµØ°åµÄÇø¿é°ë¾¶¡£1 = 3x3 Çø¿é¡£
     fillChunkRadius: 1
 
     # Vertical offset for the filled floor layer.
-    # å¡«å……åœ°æ¿å±‚çš„å‚ç›´åç§»ã€‚
+    # Ìî³äµØ°å²ãµÄ´¹Ö±Æ«ÒÆ¡£
     fillYOffset: -1
 
     # Block id used for the filled floor.
-    # ç”¨äºå¡«å……åœ°æ¿çš„æ–¹å— IDã€‚
+    # ÓÃÓÚÌî³äµØ°åµÄ·½¿é ID¡£
     fillBlock: minecraft:dirt
 
     # X offset applied to the TNT center.
-    # åº”ç”¨åˆ° TNT ä¸­å¿ƒçš„ X åç§»ã€‚
+    # Ó¦ÓÃµ½ TNT ÖĞĞÄµÄ X Æ«ÒÆ¡£
     centerOffsetX: 0
 
     # Y offset applied to the TNT center.
-    # åº”ç”¨åˆ° TNT ä¸­å¿ƒçš„ Y åç§»ã€‚
+    # Ó¦ÓÃµ½ TNT ÖĞĞÄµÄ Y Æ«ÒÆ¡£
     centerOffsetY: 0
 
     # Z offset applied to the TNT center.
-    # åº”ç”¨åˆ° TNT ä¸­å¿ƒçš„ Z åç§»ã€‚
+    # Ó¦ÓÃµ½ TNT ÖĞĞÄµÄ Z Æ«ÒÆ¡£
     centerOffsetZ: 0
 
     # Preserve water and lava while clearing.
-    # æ¸…é™¤æ—¶ä¿ç•™æ°´å’Œå²©æµ†ã€‚
+    # Çå³ıÊ±±£ÁôË®ºÍÑÒ½¬¡£
     preserveFluids: false
 
     # Allow unbreakable blocks to be removed or replaced.
-    # å…è®¸ç§»é™¤æˆ–æ›¿æ¢ä¸å¯ç ´åæ–¹å—ã€‚
+    # ÔÊĞíÒÆ³ı»òÌæ»»²»¿ÉÆÆ»µ·½¿é¡£
     replaceUnbreakableBlocks: false
 
   # Incremental Data Nuke consumption.
-  # æ•°æ®æ ¸å¼¹çš„æ¸è¿›åå™¬è®¾ç½®ã€‚
+  # Êı¾İºËµ¯µÄ½¥½øÍÌÊÉÉèÖÃ¡£
   dataNuke:
     # Server ticks between block-devouring cycles.
-    # åå™¬æ–¹å—å·¥ä½œå‘¨æœŸä¹‹é—´çš„æœåŠ¡å™¨ tickã€‚
+    # ÍÌÊÉ·½¿é¹¤×÷ÖÜÆÚÖ®¼äµÄ·şÎñÆ÷ tick¡£
     workIntervalTicks: 1
 
     # Maximum spherical radius in blocks.
-    # æœ€å¤§çƒå½¢åŠå¾„ï¼Œå•ä½æ–¹å—ã€‚
+    # ×î´óÇòĞÎ°ë¾¶£¬µ¥Î»·½¿é¡£
     maxRadius: 2048
 
     # Entity-devouring radius checked every tick.
-    # æ¯ tick æ£€æŸ¥çš„å®ä½“åå™¬åŠå¾„ã€‚
+    # Ã¿ tick ¼ì²éµÄÊµÌåÍÌÊÉ°ë¾¶¡£
     centerEntityConsumeRadius: 4.0
 
 # Astronomy production and dimension multipliers.
-# å¤©æ–‡è§‚æµ‹äº§å‡ºä¸ç»´åº¦å€ç‡è®¾ç½®ã€‚
+# ÌìÎÄ¹Û²â²ú³öÓëÎ¬¶È±¶ÂÊÉèÖÃ¡£
 astronomy:
   # Stellar Flux produced per clear-weather tick by one low-tier observatory.
-  # å•ä¸ªä½é˜¶å¤©æ–‡è§‚æµ‹å°åœ¨æ™´æœ—å¤©æ°”ä¸‹æ¯ tick äº§å‡ºçš„è€€æ˜Ÿæµã€‚
+  # µ¥¸öµÍ½×ÌìÎÄ¹Û²âÌ¨ÔÚÇçÀÊÌìÆøÏÂÃ¿ tick ²ú³öµÄÒ«ĞÇÁ÷¡£
   lowTierStellarFluxPerTick: 8
 
   # AE energy consumed by one successful low-tier observation tick.
-  # ä½é˜¶å¤©æ–‡è§‚æµ‹å°æ¯æ¬¡æˆåŠŸè§‚æµ‹ tick æ¶ˆè€—çš„ AE èƒ½é‡ã€‚
+  # µÍ½×ÌìÎÄ¹Û²âÌ¨Ã¿´Î³É¹¦¹Û²â tick ÏûºÄµÄ AE ÄÜÁ¿¡£
   lowTierAeEnergyPerTick: 4000
 
   # Stellar Flux produced per tick by each valid high-tier mirror from mirror 1 through 4.
-  # é«˜é˜¶é˜µåˆ—ç¬¬ 1 è‡³ 4 ä¸ªæœ‰æ•ˆé•œå•å…ƒå„è‡ªæ¯ tick äº§å‡ºçš„è€€æ˜Ÿæµã€‚
+  # ¸ß½×ÕóÁĞµÚ 1 ÖÁ 4 ¸öÓĞĞ§¾µµ¥Ôª¸÷×ÔÃ¿ tick ²ú³öµÄÒ«ĞÇÁ÷¡£
   highTierMirrorStellarFluxPerTick1To4: 40
 
   # Stellar Flux produced per tick by each valid high-tier mirror from mirror 5 through 8.
-  # é«˜é˜¶é˜µåˆ—ç¬¬ 5 è‡³ 8 ä¸ªæœ‰æ•ˆé•œå•å…ƒå„è‡ªæ¯ tick äº§å‡ºçš„è€€æ˜Ÿæµã€‚
+  # ¸ß½×ÕóÁĞµÚ 5 ÖÁ 8 ¸öÓĞĞ§¾µµ¥Ôª¸÷×ÔÃ¿ tick ²ú³öµÄÒ«ĞÇÁ÷¡£
   highTierMirrorStellarFluxPerTick5To8: 30
 
   # Stellar Flux produced per tick by each valid high-tier mirror from mirror 9 through 12.
-  # é«˜é˜¶é˜µåˆ—ç¬¬ 9 è‡³ 12 ä¸ªæœ‰æ•ˆé•œå•å…ƒå„è‡ªæ¯ tick äº§å‡ºçš„è€€æ˜Ÿæµã€‚
+  # ¸ß½×ÕóÁĞµÚ 9 ÖÁ 12 ¸öÓĞĞ§¾µµ¥Ôª¸÷×ÔÃ¿ tick ²ú³öµÄÒ«ĞÇÁ÷¡£
   highTierMirrorStellarFluxPerTick9To12: 20
 
   # Stellar Flux produced per tick by each valid high-tier mirror from mirror 13 through 16.
-  # é«˜é˜¶é˜µåˆ—ç¬¬ 13 è‡³ 16 ä¸ªæœ‰æ•ˆé•œå•å…ƒå„è‡ªæ¯ tick äº§å‡ºçš„è€€æ˜Ÿæµã€‚
+  # ¸ß½×ÕóÁĞµÚ 13 ÖÁ 16 ¸öÓĞĞ§¾µµ¥Ôª¸÷×ÔÃ¿ tick ²ú³öµÄÒ«ĞÇÁ÷¡£
   highTierMirrorStellarFluxPerTick13To16: 10
 
   # Fixed AE energy consumed per successful high-tier array tick.
-  # é«˜é˜¶é˜µåˆ—æ¯æ¬¡æˆåŠŸå·¥ä½œ tick å›ºå®šæ¶ˆè€—çš„ AE èƒ½é‡ã€‚
+  # ¸ß½×ÕóÁĞÃ¿´Î³É¹¦¹¤×÷ tick ¹Ì¶¨ÏûºÄµÄ AE ÄÜÁ¿¡£
   highTierCoreAeEnergyPerTick: 25000
 
   # Additional AE energy consumed per valid high-tier mirror and successful tick.
-  # é«˜é˜¶é˜µåˆ—æ¯ä¸ªæœ‰æ•ˆé•œå•å…ƒåœ¨æ¯æ¬¡æˆåŠŸå·¥ä½œ tick é¢å¤–æ¶ˆè€—çš„ AE èƒ½é‡ã€‚
+  # ¸ß½×ÕóÁĞÃ¿¸öÓĞĞ§¾µµ¥ÔªÔÚÃ¿´Î³É¹¦¹¤×÷ tick ¶îÍâÏûºÄµÄ AE ÄÜÁ¿¡£
   highTierMirrorAeEnergyPerTick: 10000
 
   # Minimum valid mirrors required to operate.
-  # é«˜é˜¶é˜µåˆ—å¼€å§‹å·¥ä½œæ‰€éœ€çš„æœ€å°‘æœ‰æ•ˆé•œå•å…ƒæ•°ã€‚
+  # ¸ß½×ÕóÁĞ¿ªÊ¼¹¤×÷ËùĞèµÄ×îÉÙÓĞĞ§¾µµ¥ÔªÊı¡£
   highTierMinimumMirrors: 4
 
   # Maximum mirrors claimed and used by one core.
-  # å•ä¸ªé«˜é˜¶é˜µåˆ—æ ¸å¿ƒå¯ç»‘å®šå¹¶ä½¿ç”¨çš„æœ€å¤§é•œå•å…ƒæ•°ã€‚
+  # µ¥¸ö¸ß½×ÕóÁĞºËĞÄ¿É°ó¶¨²¢Ê¹ÓÃµÄ×î´ó¾µµ¥ÔªÊı¡£
   highTierMaximumMirrors: 16
 
   # Maximum horizontal distance from a high-tier core to a mirror center.
-  # é«˜é˜¶é˜µåˆ—æ ¸å¿ƒåˆ°é•œå•å…ƒä¸­å¿ƒçš„æœ€å¤§æ°´å¹³è·ç¦»ã€‚
+  # ¸ß½×ÕóÁĞºËĞÄµ½¾µµ¥ÔªÖĞĞÄµÄ×î´óË®Æ½¾àÀë¡£
   highTierMirrorHorizontalRange: 32
 
   # Maximum absolute height difference from a high-tier core to a mirror center.
-  # é«˜é˜¶é˜µåˆ—æ ¸å¿ƒåˆ°é•œå•å…ƒä¸­å¿ƒå…è®¸çš„æœ€å¤§é«˜åº¦å·®ã€‚
+  # ¸ß½×ÕóÁĞºËĞÄµ½¾µµ¥ÔªÖĞĞÄÔÊĞíµÄ×î´ó¸ß¶È²î¡£
   highTierMirrorVerticalRange: 4
 
   # Maximum waveguide path length from a high-tier core port to a mirror.
-  # é«˜é˜¶é˜µåˆ—æ ¸å¿ƒç«¯å£åˆ°é•œå•å…ƒçš„æœ€å¤§æ˜Ÿèƒ½æ³¢å¯¼è·¯å¾„é•¿åº¦ã€‚
+  # ¸ß½×ÕóÁĞºËĞÄ¶Ë¿Úµ½¾µµ¥ÔªµÄ×î´óĞÇÄÜ²¨µ¼Â·¾¶³¤¶È¡£
   highTierWaveguidePathLength: 32
 
   # Output multiplier while raining.
-  # é™é›¨æ—¶çš„äº§å‡ºå€ç‡ã€‚
+  # ½µÓêÊ±µÄ²ú³ö±¶ÂÊ¡£
   rainOutputMultiplier: 0.25
 
   # Inclusive observation-window start within a 24,000-tick day.
-  # æ™®é€šæ˜¼å¤œç»´åº¦åœ¨ 24000 tick å‘¨æœŸå†…çš„è§‚æµ‹çª—å£èµ·å§‹å€¼ï¼ˆåŒ…å«ï¼‰ã€‚
+  # ÆÕÍ¨ÖçÒ¹Î¬¶ÈÔÚ 24000 tick ÖÜÆÚÄÚµÄ¹Û²â´°¿ÚÆğÊ¼Öµ£¨°üº¬£©¡£
   observationWindowStartTick: 13000
 
   # Exclusive observation-window end within a 24,000-tick day.
-  # æ™®é€šæ˜¼å¤œç»´åº¦åœ¨ 24000 tick å‘¨æœŸå†…çš„è§‚æµ‹çª—å£ç»“æŸå€¼ï¼ˆä¸åŒ…å«ï¼‰ã€‚
+  # ÆÕÍ¨ÖçÒ¹Î¬¶ÈÔÚ 24000 tick ÖÜÆÚÄÚµÄ¹Û²â´°¿Ú½áÊøÖµ£¨²»°üº¬£©¡£
   observationWindowEndTick: 23000
 
   # Output multiplier for tagged observable dimensions without an explicit override.
-  # æœªæ˜¾å¼è¦†ç›–çš„å¯è§‚æµ‹ç»´åº¦ä½¿ç”¨çš„äº§å‡ºå€ç‡ã€‚
+  # Î´ÏÔÊ½¸²¸ÇµÄ¿É¹Û²âÎ¬¶ÈÊ¹ÓÃµÄ²ú³ö±¶ÂÊ¡£
   defaultDimensionMultiplier: 1.0
 
   # Dimension ids paired by index with dimensionMultiplierValues.
-  # ä¸ dimensionMultiplierValues æŒ‰ç´¢å¼•é…å¯¹çš„ç»´åº¦ IDã€‚
+  # Óë dimensionMultiplierValues °´Ë÷ÒıÅä¶ÔµÄÎ¬¶È ID¡£
   dimensionIds:
     - minecraft:overworld
     - minecraft:the_end
     - minecraft:the_nether
 
   # Per-dimension output multipliers paired by index with dimensionIds.
-  # ä¸ dimensionIds æŒ‰ç´¢å¼•é…å¯¹çš„ç»´åº¦äº§å‡ºå€ç‡ã€‚
+  # Óë dimensionIds °´Ë÷ÒıÅä¶ÔµÄÎ¬¶È²ú³ö±¶ÂÊ¡£
   dimensionMultiplierValues:
     - 1.0
     - 2.0
     - 0.0
 
 # Orbital weapon reserves, deployment and endpoint limits.
-# è½¨é“æ­¦å™¨å‚¨å¤‡ã€éƒ¨ç½²ä¸ç«¯ç‚¹é™åˆ¶ã€‚
+# ¹ìµÀÎäÆ÷´¢±¸¡¢²¿ÊğÓë¶ËµãÏŞÖÆ¡£
 stellarErasureDevice:
   # Maximum orbital Stellar Flux reserve.
-  # è½¨é“è€€æ˜Ÿæµå‚¨å¤‡ä¸Šé™ã€‚
+  # ¹ìµÀÒ«ĞÇÁ÷´¢±¸ÉÏÏŞ¡£
   stellarFluxCapacity: 500000000
 
   # Maximum orbital AE energy reserve, separate from Stellar Flux.
-  # è½¨é“ AE èƒ½é‡å‚¨å¤‡ä¸Šé™ï¼Œä¸è€€æ˜Ÿæµç›¸äº’ç‹¬ç«‹ã€‚
+  # ¹ìµÀ AE ÄÜÁ¿´¢±¸ÉÏÏŞ£¬ÓëÒ«ĞÇÁ÷Ïà»¥¶ÀÁ¢¡£
   aeEnergyCapacity: 500000000000
 
   # Stellar Flux consumed per deployed tick.
-  # éƒ¨ç½²çŠ¶æ€æ¯ tick æ¶ˆè€—çš„è€€æ˜Ÿæµã€‚
+  # ²¿Êğ×´Ì¬Ã¿ tick ÏûºÄµÄÒ«ĞÇÁ÷¡£
   stellarFluxUpkeepPerTick: 100
 
   # AE energy consumed per deployed tick.
-  # éƒ¨ç½²çŠ¶æ€æ¯ tick æ¶ˆè€—çš„ AE èƒ½é‡ã€‚
+  # ²¿Êğ×´Ì¬Ã¿ tick ÏûºÄµÄ AE ÄÜÁ¿¡£
   aeEnergyUpkeepPerTick: 250000
 
   # Maximum Stellar Flux transferred by one endpoint per tick.
-  # å•ä¸ªç«¯ç‚¹æ¯ tick å¯ä¼ è¾“çš„è€€æ˜Ÿæµä¸Šé™ã€‚
+  # µ¥¸ö¶ËµãÃ¿ tick ¿É´«ÊäµÄÒ«ĞÇÁ÷ÉÏÏŞ¡£
   stellarFluxChargePerTick: 20000
 
   # Maximum AE energy transferred by one endpoint per tick.
-  # å•ä¸ªç«¯ç‚¹æ¯ tick å¯ä¼ è¾“çš„ AE èƒ½é‡ä¸Šé™ã€‚
+  # µ¥¸ö¶ËµãÃ¿ tick ¿É´«ÊäµÄ AE ÄÜÁ¿ÉÏÏŞ¡£
   aeEnergyChargePerTick: 10000000
 
   # Ticks at zero reserve before returning to dormancy.
-  # å‚¨å¤‡å½’é›¶åè¿”å›ä¼‘çœ çŠ¶æ€å‰çš„å®½é™ tick æ•°ã€‚
+  # ´¢±¸¹éÁãºó·µ»ØĞİÃß×´Ì¬Ç°µÄ¿íÏŞ tick Êı¡£
   reserveGraceTicks: 12000
 
   # Fraction of both reserve capacities required to deploy.
-  # å¼€å§‹éƒ¨ç½²æ‰€éœ€çš„ä¸¤ç§å‚¨å¤‡å®¹é‡æ¯”ä¾‹ã€‚
+  # ¿ªÊ¼²¿ÊğËùĞèµÄÁ½ÖÖ´¢±¸ÈİÁ¿±ÈÀı¡£
   deploymentThreshold: 0.1
 
   # Ticks spent tearing down and rebuilding after changing the primary uplink beacon.
-  # åˆ‡æ¢ä¸»ä¸Šè¡Œä¿¡æ ‡åæ‹†è§£å¹¶é‡ç»„æŠ•å½±æ‰€éœ€çš„ tick æ•°ã€‚
+  # ÇĞ»»Ö÷ÉÏĞĞĞÅ±êºó²ğ½â²¢ÖØ×éÍ¶Ó°ËùĞèµÄ tick Êı¡£
   redeploymentTicks: 1200
 
   # Maximum control consoles and uplink beacons bound to one weapon.
-  # å•ä»¶æ­¦å™¨å¯ç»‘å®šçš„æ§åˆ¶ç»ˆç«¯ä¸ä¸Šè¡Œä¿¡æ ‡æ€»ä¸Šé™ã€‚
+  # µ¥¼şÎäÆ÷¿É°ó¶¨µÄ¿ØÖÆÖÕ¶ËÓëÉÏĞĞĞÅ±ê×ÜÉÏÏŞ¡£
   maxEndpointsPerWeapon: 32
 
   # Maximum endpoints for one weapon in a single dimension.
-  # å•ä»¶æ­¦å™¨åœ¨åŒä¸€ç»´åº¦å†…çš„ç«¯ç‚¹ä¸Šé™ã€‚
+  # µ¥¼şÎäÆ÷ÔÚÍ¬Ò»Î¬¶ÈÄÚµÄ¶ËµãÉÏÏŞ¡£
   maxEndpointsPerDimension: 8
 
   # Keep each bound endpoint chunk loaded.
-  # è®©æ¯ä¸ªå·²ç»‘å®šç«¯ç‚¹å¼ºåˆ¶åŠ è½½è‡ªèº«åŒºå—ã€‚
+  # ÈÃÃ¿¸öÒÑ°ó¶¨¶ËµãÇ¿ÖÆ¼ÓÔØ×ÔÉíÇø¿é¡£
   endpointChunkLoadingEnabled: true
 
   # Maximum attack work chunk tickets held by one task.
-  # å•ä¸ªæ”»å‡»ä»»åŠ¡åŒæ—¶æŒæœ‰çš„å·¥ä½œåŒºå—ç¥¨æ®ä¸Šé™ã€‚
+  # µ¥¸ö¹¥»÷ÈÎÎñÍ¬Ê±³ÖÓĞµÄ¹¤×÷Çø¿éÆ±¾İÉÏÏŞ¡£
   maxAttackChunkTicketsPerTask: 8
 
   # Maximum attack work chunk tickets held across the server.
-  # å…¨æœæ”»å‡»å·¥ä½œåŒºå—ç¥¨æ®æ€»ä¸Šé™ã€‚
+  # È«·ş¹¥»÷¹¤×÷Çø¿éÆ±¾İ×ÜÉÏÏŞ¡£
   maxAttackChunkTicketsGlobal: 64
 
   # Maximum concurrent attack chunk requests per dimension.
-  # æ¯ä¸ªç»´åº¦åŒæ—¶æ‰§è¡Œçš„æ”»å‡»åŒºå—è¯·æ±‚ä¸Šé™ã€‚
+  # Ã¿¸öÎ¬¶ÈÍ¬Ê±Ö´ĞĞµÄ¹¥»÷Çø¿éÇëÇóÉÏÏŞ¡£
   maxAttackChunkGenerationPerDimension: 2
 
   # Maximum concurrent attack chunk requests across the server.
-  # å…¨æœåŒæ—¶æ‰§è¡Œçš„æ”»å‡»åŒºå—è¯·æ±‚ä¸Šé™ã€‚
+  # È«·şÍ¬Ê±Ö´ĞĞµÄ¹¥»÷Çø¿éÇëÇóÉÏÏŞ¡£
   maxAttackChunkGenerationGlobal: 8
 
   # Maximum terrain positions visited by one attack per tick.
-  # å•ä¸ªæ”»å‡»ä»»åŠ¡æ¯ tick è®¿é—®çš„åœ°å½¢ä½ç½®ä¸Šé™ã€‚
+  # µ¥¸ö¹¥»÷ÈÎÎñÃ¿ tick ·ÃÎÊµÄµØĞÎÎ»ÖÃÉÏÏŞ¡£
   maxAttackBlockMutationsPerTaskTick: 8192
 
   # Maximum terrain positions visited by all orbital attacks per tick.
-  # å…¨æœè½¨é“æ”»å‡»æ¯ tick è®¿é—®çš„åœ°å½¢ä½ç½®æ€»ä¸Šé™ã€‚
+  # È«·ş¹ìµÀ¹¥»÷Ã¿ tick ·ÃÎÊµÄµØĞÎÎ»ÖÃ×ÜÉÏÏŞ¡£
   maxAttackBlockMutationsGlobalTick: 32768
 
   # Maximum preview chunk cells checked by one player per tick.
-  # å•åç©å®¶çš„æ”»å‡»é¢„è§ˆæ¯ tick æ£€æŸ¥çš„åŒºå—å•å…ƒä¸Šé™ã€‚
+  # µ¥ÃûÍæ¼ÒµÄ¹¥»÷Ô¤ÀÀÃ¿ tick ¼ì²éµÄÇø¿éµ¥ÔªÉÏÏŞ¡£
   previewChunkChecksPerTaskTick: 4096
 
   # Maximum preview chunk cells checked across the server per tick.
-  # å…¨æœæ”»å‡»é¢„è§ˆæ¯ tick æ£€æŸ¥çš„åŒºå—å•å…ƒæ€»ä¸Šé™ã€‚
+  # È«·ş¹¥»÷Ô¤ÀÀÃ¿ tick ¼ì²éµÄÇø¿éµ¥Ôª×ÜÉÏÏŞ¡£
   previewChunkChecksGlobalTick: 16384
 
   # Maximum warning, committed and delivering orbital attack tasks.
-  # å…¨æœé¢„è­¦ã€å·²æäº¤å’ŒæŠ•é€ä¸­çš„è½¨é“æ”»å‡»ä»»åŠ¡ä¸Šé™ã€‚
+  # È«·şÔ¤¾¯¡¢ÒÑÌá½»ºÍÍ¶ËÍÖĞµÄ¹ìµÀ¹¥»÷ÈÎÎñÉÏÏŞ¡£
   maxCommittedAttackTasks: 32
 
   # Allow new kinetic attack confirmations. Existing attacks continue.
-  # å…è®¸ç¡®è®¤æ–°çš„åŠ¨èƒ½æ”»å‡»ã€‚å·²å¼€å§‹çš„æ”»å‡»ç»§ç»­æ‰§è¡Œã€‚
+  # ÔÊĞíÈ·ÈÏĞÂµÄ¶¯ÄÜ¹¥»÷¡£ÒÑ¿ªÊ¼µÄ¹¥»÷¼ÌĞøÖ´ĞĞ¡£
   kineticAttackEnabled: true
 
   # Allow new directed-energy attack confirmations. Existing attacks continue.
-  # å…è®¸ç¡®è®¤æ–°çš„å®šå‘èƒ½æ”»å‡»ã€‚å·²å¼€å§‹çš„æ”»å‡»ç»§ç»­æ‰§è¡Œã€‚
+  # ÔÊĞíÈ·ÈÏĞÂµÄ¶¨ÏòÄÜ¹¥»÷¡£ÒÑ¿ªÊ¼µÄ¹¥»÷¼ÌĞøÖ´ĞĞ¡£
   directedEnergyAttackEnabled: true
 
   # Allow new digital-annihilation attack confirmations. Existing attacks continue.
-  # å…è®¸ç¡®è®¤æ–°çš„æ•°ä½æ¹®ç­æ”»å‡»ã€‚å·²å¼€å§‹çš„æ”»å‡»ç»§ç»­æ‰§è¡Œã€‚
+  # ÔÊĞíÈ·ÈÏĞÂµÄÊıÎ»äÎÃğ¹¥»÷¡£ÒÑ¿ªÊ¼µÄ¹¥»÷¼ÌĞøÖ´ĞĞ¡£
   digitalAnnihilationAttackEnabled: true
 
   # Radius of the kinetic strike's vertical clearing column.
-  # åŠ¨èƒ½æ”»å‡»å‚ç›´æ¸…é™¤æŸ±çš„åŠå¾„ã€‚
+  # ¶¯ÄÜ¹¥»÷´¹Ö±Çå³ıÖùµÄ°ë¾¶¡£
   kineticColumnRadius: 8
 
   # Blocks cleared below the kinetic target by its vertical column.
-  # åŠ¨èƒ½æ”»å‡»å‚ç›´æ¸…é™¤æŸ±å‘ç›®æ ‡ä¸‹æ–¹å»¶ä¼¸çš„æ·±åº¦ã€‚
+  # ¶¯ÄÜ¹¥»÷´¹Ö±Çå³ıÖùÏòÄ¿±êÏÂ·½ÑÓÉìµÄÉî¶È¡£
   kineticColumnDepth: 192
 
   # Radius of the shallow crater below a kinetic impact.
-  # åŠ¨èƒ½æ”»å‡»å‘½ä¸­ç‚¹ä¸‹æ–¹æµ…é™¨å‘çš„åŠå¾„ã€‚
+  # ¶¯ÄÜ¹¥»÷ÃüÖĞµãÏÂ·½Ç³ÔÉ¿ÓµÄ°ë¾¶¡£
   kineticCraterRadius: 64
 
   # Maximum depth of the bowl-shaped crater below a kinetic impact.
-  # åŠ¨èƒ½æ”»å‡»å‘½ä¸­ç‚¹ä¸‹æ–¹ç¢—çŠ¶é™¨çŸ³å‘çš„æœ€å¤§æ·±åº¦ã€‚
+  # ¶¯ÄÜ¹¥»÷ÃüÖĞµãÏÂ·½Íë×´ÔÉÊ¯¿ÓµÄ×î´óÉî¶È¡£
   kineticCraterDepth: 32
 
   # Radius of the instantaneous kinetic impact shockwave.
-  # åŠ¨èƒ½æ”»å‡»ç¬æ—¶å†²å‡»æ³¢çš„åŠå¾„ã€‚
+  # ¶¯ÄÜ¹¥»÷Ë²Ê±³å»÷²¨µÄ°ë¾¶¡£
   kineticShockwaveRadius: 64
 
   # Stellar Flux reserved by one kinetic strike.
-  # ä¸€æ¬¡åŠ¨èƒ½æ”»å‡»é¢„ç•™çš„è€€æ˜Ÿæµã€‚
+  # Ò»´Î¶¯ÄÜ¹¥»÷Ô¤ÁôµÄÒ«ĞÇÁ÷¡£
   kineticStellarFluxCost: 5000000
 
   # AE energy reserved by one kinetic strike.
-  # ä¸€æ¬¡åŠ¨èƒ½æ”»å‡»é¢„ç•™çš„ AE èƒ½é‡ã€‚
+  # Ò»´Î¶¯ÄÜ¹¥»÷Ô¤ÁôµÄ AE ÄÜÁ¿¡£
   kineticAeEnergyCost: 5000000000
 
   # Public warning duration before an attack commits.
-  # æ”»å‡»æäº¤å‰çš„å…¬å¼€é¢„è­¦æ—¶é•¿ã€‚
+  # ¹¥»÷Ìá½»Ç°µÄ¹«¿ªÔ¤¾¯Ê±³¤¡£
   attackWarningTicks: 300
 
   # Kinetic strike cooldown after its effect completes; zero disables cooldown.
-  # åŠ¨èƒ½æ”»å‡»æ•ˆæœå®Œæˆåçš„å†·å´æ—¶é•¿ï¼›è®¾ä¸ºé›¶æ—¶æ— å†·å´ã€‚
+  # ¶¯ÄÜ¹¥»÷Ğ§¹ûÍê³ÉºóµÄÀäÈ´Ê±³¤£»ÉèÎªÁãÊ±ÎŞÀäÈ´¡£
   kineticCooldownTicks: 0
 
   # Minimum selectable directed-energy scan radius.
-  # å®šå‘èƒ½æ‰«æå¯é€‰çš„æœ€å°åŠå¾„ã€‚
+  # ¶¨ÏòÄÜÉ¨Ãè¿ÉÑ¡µÄ×îĞ¡°ë¾¶¡£
   directedEnergyMinimumRadius: 16
 
   # Maximum selectable directed-energy scan radius.
-  # å®šå‘èƒ½æ‰«æå¯é€‰çš„æœ€å¤§åŠå¾„ã€‚
+  # ¶¨ÏòÄÜÉ¨Ãè¿ÉÑ¡µÄ×î´ó°ë¾¶¡£
   directedEnergyMaximumRadius: 256
 
   # Radius increment measured from the configured directed-energy minimum.
-  # ä»å®šå‘èƒ½æœ€å°åŠå¾„å¼€å§‹è®¡ç®—çš„åŠå¾„æ­¥è¿›ã€‚
+  # ´Ó¶¨ÏòÄÜ×îĞ¡°ë¾¶¿ªÊ¼¼ÆËãµÄ°ë¾¶²½½ø¡£
   directedEnergyRadiusStep: 16
 
   # Captured block depth of the shallow directed-energy profile.
-  # å®šå‘èƒ½æµ…å±‚æ¡£å†»ç»“çš„æ–¹å—æ·±åº¦ã€‚
+  # ¶¨ÏòÄÜÇ³²ãµµ¶³½áµÄ·½¿éÉî¶È¡£
   directedEnergyShallowDepth: 32
 
   # Captured block depth of the medium directed-energy profile.
-  # å®šå‘èƒ½ä¸­å±‚æ¡£å†»ç»“çš„æ–¹å—æ·±åº¦ã€‚
+  # ¶¨ÏòÄÜÖĞ²ãµµ¶³½áµÄ·½¿éÉî¶È¡£
   directedEnergyMediumDepth: 128
 
   # Captured block depth of the deep directed-energy profile.
-  # å®šå‘èƒ½æ·±å±‚æ¡£å†»ç»“çš„æ–¹å—æ·±åº¦ã€‚
+  # ¶¨ÏòÄÜÉî²ãµµ¶³½áµÄ·½¿éÉî¶È¡£
   directedEnergyDeepDepth: 512
 
   # Fixed Stellar Flux base escrow for one directed-energy scan.
-  # ä¸€æ¬¡å®šå‘èƒ½æ‰«æå›ºå®šé¢„ç•™çš„è€€æ˜ŸæµåŸºç¡€è´¹ç”¨ã€‚
+  # Ò»´Î¶¨ÏòÄÜÉ¨Ãè¹Ì¶¨Ô¤ÁôµÄÒ«ĞÇÁ÷»ù´¡·ÑÓÃ¡£
   directedEnergyBaseStellarFluxCost: 2000000
 
   # Fixed AE base escrow for one directed-energy scan.
-  # ä¸€æ¬¡å®šå‘èƒ½æ‰«æå›ºå®šé¢„ç•™çš„ AE åŸºç¡€è´¹ç”¨ã€‚
+  # Ò»´Î¶¨ÏòÄÜÉ¨Ãè¹Ì¶¨Ô¤ÁôµÄ AE »ù´¡·ÑÓÃ¡£
   directedEnergyBaseAeEnergyCost: 2000000000
 
   # Stellar Flux escrow per directed-energy disk coordinate.
-  # å®šå‘èƒ½æ‰«ææ¯ä¸ªåœ†ç›˜è°ƒåº¦åæ ‡çš„è€€æ˜Ÿæµè´¹ç”¨ã€‚
+  # ¶¨ÏòÄÜÉ¨ÃèÃ¿¸öÔ²ÅÌµ÷¶È×ø±êµÄÒ«ĞÇÁ÷·ÑÓÃ¡£
   directedEnergyStellarFluxPerCoordinate: 4
 
   # AE escrow per directed-energy disk coordinate.
-  # å®šå‘èƒ½æ‰«ææ¯ä¸ªåœ†ç›˜è°ƒåº¦åæ ‡çš„ AE èƒ½é‡è´¹ç”¨ã€‚
+  # ¶¨ÏòÄÜÉ¨ÃèÃ¿¸öÔ²ÅÌµ÷¶È×ø±êµÄ AE ÄÜÁ¿·ÑÓÃ¡£
   directedEnergyAeEnergyPerCoordinate: 2000
 
   # Directed-energy cooldown after its scan completes.
-  # å®šå‘èƒ½æ‰«æå®Œæˆåçš„å†·å´æ—¶é•¿ã€‚
+  # ¶¨ÏòÄÜÉ¨ÃèÍê³ÉºóµÄÀäÈ´Ê±³¤¡£
   directedEnergyCooldownTicks: 100
 
   # Stellar Flux reserved by one digital annihilation payload.
-  # ä¸€æ¬¡æ•°ä½æ¹®ç­ä½“è½¨é“è½½è·é¢„ç•™çš„è€€æ˜Ÿæµã€‚
+  # Ò»´ÎÊıÎ»äÎÃğÌå¹ìµÀÔØºÉÔ¤ÁôµÄÒ«ĞÇÁ÷¡£
   digitalAnnihilationStellarFluxCost: 80000000
 
   # AE energy reserved by one digital annihilation payload.
-  # ä¸€æ¬¡æ•°ä½æ¹®ç­ä½“è½¨é“è½½è·é¢„ç•™çš„ AE èƒ½é‡ã€‚
+  # Ò»´ÎÊıÎ»äÎÃğÌå¹ìµÀÔØºÉÔ¤ÁôµÄ AE ÄÜÁ¿¡£
   digitalAnnihilationAeEnergyCost: 80000000000
 
   # Digital annihilation cooldown after its payload completes.
-  # æ•°ä½æ¹®ç­ä½“è½½è·å®Œæˆåçš„å†·å´æ—¶é•¿ã€‚
+  # ÊıÎ»äÎÃğÌåÔØºÉÍê³ÉºóµÄÀäÈ´Ê±³¤¡£
   digitalAnnihilationCooldownTicks: 72000
 
 # Trinity planning and dispatch settings.
-# ä¸‰ä½ä¸€ä½“è§„åˆ’ä¸æ´¾å‘è®¾ç½®ã€‚
+# ÈıÎ»Ò»Ìå¹æ»®ÓëÅÉ·¢ÉèÖÃ¡£
 trinity:
   # Trinity planning limits and quantity semantics.
-  # ä¸‰ä½ä¸€ä½“è§„åˆ’é™åˆ¶ä¸æ•°é‡è¯­ä¹‰è®¾ç½®ã€‚
+  # ÈıÎ»Ò»Ìå¹æ»®ÏŞÖÆÓëÊıÁ¿ÓïÒåÉèÖÃ¡£
   crafting:
     # Maximum AEKey count in one strongly connected component.
-    # å•ä¸ªå¼ºè¿é€šåˆ†é‡å…è®¸çš„æœ€å¤§ AEKey æ•°é‡ã€‚
+    # µ¥¸öÇ¿Á¬Í¨·ÖÁ¿ÔÊĞíµÄ×î´ó AEKey ÊıÁ¿¡£
     maxSccKeys: 64
 
     # Maximum deduplicated input-binding variants materialized for one request.
-    # å•æ¬¡è¯·æ±‚å…è®¸ç‰©åŒ–çš„æœ€å¤§å»é‡è¾“å…¥ç»‘å®šå˜ä½“æ€»æ•°ã€‚
+    # µ¥´ÎÇëÇóÔÊĞíÎï»¯µÄ×î´óÈ¥ÖØÊäÈë°ó¶¨±äÌå×ÜÊı¡£
     maxBindingVariants: 32768
 
     # Maximum compressed states for each independent route search or cyclic component.
-    # æ¯ä¸ªç‹¬ç«‹è·¯çº¿æœç´¢æˆ–å¾ªç¯åˆ†é‡å…è®¸çš„æœ€å¤§å‹ç¼©çŠ¶æ€æ•°ã€‚
+    # Ã¿¸ö¶ÀÁ¢Â·ÏßËÑË÷»òÑ­»··ÖÁ¿ÔÊĞíµÄ×î´óÑ¹Ëõ×´Ì¬Êı¡£
     maxScheduleStates: 500000
 
     # Shared time budget for background planning in milliseconds, including compilation, route search and diagnostics. Stops at a verified executable plan or the budget; no unbounded retry. Does not limit server-thread input capture.
-    # åå°è§„åˆ’å…±äº«çš„æ€»æ—¶é—´é¢„ç®—ï¼Œå•ä½æ¯«ç§’ï¼ŒåŒ…å«ç»“æ„ç¼–è¯‘ã€è·¯çº¿æœç´¢å’Œè¯Šæ–­ã€‚æ‰¾åˆ°å¹¶éªŒè¯å¯æ‰§è¡Œæ–¹æ¡ˆåè¿”å›ï¼Œåˆ°æœŸåœæ­¢ï¼Œä¸è¦æ±‚æœ€ä¼˜è§£ï¼Œä¹Ÿä¸å¯åŠ¨ä¸é™æ—¶é‡è¯•ã€‚æœåŠ¡ç«¯è¾“å…¥æ•è·ä¸è®¡å…¥æ­¤é¢„ç®—ã€‚
+    # ºóÌ¨¹æ»®¹²ÏíµÄ×ÜÊ±¼äÔ¤Ëã£¬µ¥Î»ºÁÃë£¬°üº¬½á¹¹±àÒë¡¢Â·ÏßËÑË÷ºÍÕï¶Ï¡£ÕÒµ½²¢ÑéÖ¤¿ÉÖ´ĞĞ·½°¸ºó·µ»Ø£¬µ½ÆÚÍ£Ö¹£¬²»ÒªÇó×îÓÅ½â£¬Ò²²»Æô¶¯²»ÏŞÊ±ÖØÊÔ¡£·şÎñ¶ËÊäÈë²¶»ñ²»¼ÆÈë´ËÔ¤Ëã¡£
     planningBudgetMs: 30000
 
     # Per-tick graph rebuild budget in milliseconds.
-    # æ¯ tick åˆæˆå›¾é‡å»ºé¢„ç®—ï¼Œå•ä½æ¯«ç§’ã€‚
+    # Ã¿ tick ºÏ³ÉÍ¼ÖØ½¨Ô¤Ëã£¬µ¥Î»ºÁÃë¡£
     graphRebuildBudgetMs: 4
 
     # Bounded workers for initial Trinity plan calculations. Default: clamp(CPU / 2, 1, 8). Requires a game restart.
-    # Trinity åˆå§‹è®¡åˆ’è®¡ç®—çš„æœ‰ç•Œå·¥ä½œçº¿ç¨‹æ•°ã€‚é»˜è®¤ï¼šclamp(CPU / 2, 1, 8)ã€‚éœ€è¦é‡å¯æ¸¸æˆã€‚
+    # Trinity ³õÊ¼¼Æ»®¼ÆËãµÄÓĞ½ç¹¤×÷Ïß³ÌÊı¡£Ä¬ÈÏ£ºclamp(CPU / 2, 1, 8)¡£ĞèÒªÖØÆôÓÎÏ·¡£
     plannerThreads: 8
 
     # Bounded workers for Trinity CPU remaining-work replanning. Default: clamp(CPU / 2, 1, 8). Requires a game restart.
-    # Trinity CPU å‰©ä½™å·¥ä½œé‡è§„åˆ’çš„æœ‰ç•Œå·¥ä½œçº¿ç¨‹æ•°ã€‚é»˜è®¤ï¼šclamp(CPU / 2, 1, 8)ã€‚éœ€è¦é‡å¯æ¸¸æˆã€‚
+    # Trinity CPU Ê£Óà¹¤×÷ÖØ¹æ»®µÄÓĞ½ç¹¤×÷Ïß³ÌÊı¡£Ä¬ÈÏ£ºclamp(CPU / 2, 1, 8)¡£ĞèÒªÖØÆôÓÎÏ·¡£
     cpuPlannerThreads: 8
 
     # Maximum queued requests per planning lane. Requires a game restart.
-    # æ¯æ¡è§„åˆ’è½¨é“å…è®¸æ’é˜Ÿçš„æœ€å¤§è¯·æ±‚æ•°ã€‚éœ€è¦é‡å¯æ¸¸æˆã€‚
+    # Ã¿Ìõ¹æ»®¹ìµÀÔÊĞíÅÅ¶ÓµÄ×î´óÇëÇóÊı¡£ĞèÒªÖØÆôÓÎÏ·¡£
     plannerQueueCapacity: 128
 
     # Maximum dynamic-input retry backoff in ticks.
-    # åŠ¨æ€è¾“å…¥é‡è¯•é€€é¿çš„æœ€å¤§ tick é—´éš”ã€‚
+    # ¶¯Ì¬ÊäÈëÖØÊÔÍË±ÜµÄ×î´ó tick ¼ä¸ô¡£
     dynamicRetryMaxTicks: 200
 
     # Default quantity semantics for non-player requests.
-    # éç©å®¶è¯·æ±‚ä½¿ç”¨çš„é»˜è®¤æ•°é‡è¯­ä¹‰ã€‚
+    # ·ÇÍæ¼ÒÇëÇóÊ¹ÓÃµÄÄ¬ÈÏÊıÁ¿ÓïÒå¡£
     # Allowed values:
     # - NET_NEW
     # - FINAL_TOTAL
     defaultQuantityMode: NET_NEW
 
   # Trinity dispatch governor tuning.
-  # ä¸‰ä½ä¸€ä½“æ´¾å‘è°ƒèŠ‚å™¨è®¾ç½®ã€‚
+  # ÈıÎ»Ò»ÌåÅÉ·¢µ÷½ÚÆ÷ÉèÖÃ¡£
   dispatch:
     # Maximum physical provider attempts per grid tick.
-    # æ¯ä¸ªç½‘æ ¼æ¯ tick çš„æœ€å¤§ provider ç‰©ç†è°ƒç”¨æ¬¡æ•°ã€‚
+    # Ã¿¸öÍø¸ñÃ¿ tick µÄ×î´ó provider ÎïÀíµ÷ÓÃ´ÎÊı¡£
     hardGridAttempts: 32768
 
     # Maximum attempts per provider and grid tick.
-    # å•ä¸ª provider æ¯ä¸ªç½‘æ ¼ tick çš„æœ€å¤§è°ƒç”¨æ¬¡æ•°ã€‚
+    # µ¥¸ö provider Ã¿¸öÍø¸ñ tick µÄ×î´óµ÷ÓÃ´ÎÊı¡£
     hardProviderAttempts: 32768
 
     # Maximum dispatch commit time per grid tick in milliseconds.
-    # æ¯ä¸ªç½‘æ ¼ tick çš„æ´¾å‘æäº¤æ—¶é—´ä¸Šé™ï¼Œå•ä½æ¯«ç§’ã€‚
+    # Ã¿¸öÍø¸ñ tick µÄÅÉ·¢Ìá½»Ê±¼äÉÏÏŞ£¬µ¥Î»ºÁÃë¡£
     hardCommitBudgetMs: 30
 
     # SAFE-mode grid attempts per tick.
-    # SAFE æ¨¡å¼æ¯ä¸ªç½‘æ ¼æ¯ tick çš„è°ƒç”¨æ¬¡æ•°ã€‚
+    # SAFE Ä£Ê½Ã¿¸öÍø¸ñÃ¿ tick µÄµ÷ÓÃ´ÎÊı¡£
     safeGridAttempts: 16
 
     # SAFE-mode attempts per provider and grid tick.
-    # SAFE æ¨¡å¼å•ä¸ª provider æ¯ä¸ªç½‘æ ¼ tick çš„è°ƒç”¨æ¬¡æ•°ã€‚
+    # SAFE Ä£Ê½µ¥¸ö provider Ã¿¸öÍø¸ñ tick µÄµ÷ÓÃ´ÎÊı¡£
     safeProviderAttempts: 2
 
     # SAFE-mode commit budget in milliseconds.
-    # SAFE æ¨¡å¼æäº¤é¢„ç®—ï¼Œå•ä½æ¯«ç§’ã€‚
+    # SAFE Ä£Ê½Ìá½»Ô¤Ëã£¬µ¥Î»ºÁÃë¡£
     safeCommitBudgetMs: 2
 
     # Outstanding proposal permits retained by SAFE mode.
-    # SAFE æ¨¡å¼ä¿ç•™çš„ outstanding proposal permit æ•°é‡ã€‚
+    # SAFE Ä£Ê½±£ÁôµÄ outstanding proposal permit ÊıÁ¿¡£
     safeActorPermits: 1
 
     # Maximum adaptive and SAFE retry backoff in ticks.
-    # è‡ªé€‚åº”åŠ SAFE é‡è¯•é€€é¿ä¸Šé™ï¼Œå•ä½ tickã€‚
+    # ×ÔÊÊÓ¦¼° SAFE ÖØÊÔÍË±ÜÉÏÏŞ£¬µ¥Î» tick¡£
     safeRetryBackoffTicks: 8
 
     # Observation ticks before adaptive decisions.
-    # å…è®¸è‡ªé€‚åº”å†³ç­–å‰çš„è§‚å¯Ÿ tick æ•°ã€‚
+    # ÔÊĞí×ÔÊÊÓ¦¾ö²ßÇ°µÄ¹Û²ì tick Êı¡£
     warmupTicks: 200
 
     # Ticks aggregated into one metrics window.
-    # æ¯ä¸ªæŒ‡æ ‡çª—å£èšåˆçš„ tick æ•°ã€‚
+    # Ã¿¸öÖ¸±ê´°¿Ú¾ÛºÏµÄ tick Êı¡£
     metricsWindowTicks: 20
 
     # EWMA alpha for complete server tick duration.
-    # å®Œæ•´æœåŠ¡å™¨ tick è€—æ—¶ä½¿ç”¨çš„ EWMA alphaã€‚
+    # ÍêÕû·şÎñÆ÷ tick ºÄÊ±Ê¹ÓÃµÄ EWMA alpha¡£
     ewmaAlpha: 0.25
 
     # Consecutive windows required for a transition.
-    # çŠ¶æ€åˆ‡æ¢å‰è¦æ±‚è¿ç»­æ»¡è¶³æ¡ä»¶çš„çª—å£æ•°ã€‚
+    # ×´Ì¬ÇĞ»»Ç°ÒªÇóÁ¬ĞøÂú×ãÌõ¼şµÄ´°¿ÚÊı¡£
     transitionWindows: 3
 
     # Cooldown ticks after a budget adjustment.
-    # é¢„ç®—è°ƒæ•´åçš„ cooldown tick æ•°ã€‚
+    # Ô¤Ëãµ÷ÕûºóµÄ cooldown tick Êı¡£
     cooldownTicks: 60
 
     # Ticks retained in SAFE mode before observation.
-    # SAFE æ¨¡å¼è¿”å›è§‚å¯ŸçŠ¶æ€å‰ä¿æŒçš„ tick æ•°ã€‚
+    # SAFE Ä£Ê½·µ»Ø¹Û²ì×´Ì¬Ç°±£³ÖµÄ tick Êı¡£
     safeHoldTicks: 200
 
 # Developer and diagnostic settings.
-# å¼€å‘è€…ä¸è¯Šæ–­è®¾ç½®ã€‚
+# ¿ª·¢ÕßÓëÕï¶ÏÉèÖÃ¡£
 developer:
   # Enable packaged crafting operation failure logs.
-  # å¯ç”¨å°åŒ…åˆæˆä»»åŠ¡å¤±è´¥æ—¥å¿—ã€‚
+  # ÆôÓÃ·â°üºÏ³ÉÈÎÎñÊ§°ÜÈÕÖ¾¡£
   packagedCraftingLogging: false
 
   # Enable high-frequency Trinity planning logs.
-  # å¯ç”¨é«˜é¢‘ä¸‰ä½ä¸€ä½“è§„åˆ’æ—¥å¿—ã€‚
+  # ÆôÓÃ¸ßÆµÈıÎ»Ò»Ìå¹æ»®ÈÕÖ¾¡£
   trinityPlanningLogging: false
 
   # Enable high-frequency Trinity dispatch logs.
-  # å¯ç”¨é«˜é¢‘ä¸‰ä½ä¸€ä½“æ´¾å‘æ—¥å¿—ã€‚
+  # ÆôÓÃ¸ßÆµÈıÎ»Ò»ÌåÅÉ·¢ÈÕÖ¾¡£
   trinityDispatchLogging: false
 
   # Enable Data Distribution Tower runtime logs.
-  # å¯ç”¨æ•°æ®åˆ†é…å¡”è¿è¡Œæ—¶æ—¥å¿—ã€‚
+  # ÆôÓÃÊı¾İ·ÖÅäËşÔËĞĞÊ±ÈÕÖ¾¡£
   dataDistributionTowerLogging: false
 
   # Enable AE2 crafting service runtime logs.
-  # å¯ç”¨ AE2 åˆæˆæœåŠ¡è¿è¡Œæ—¶æ—¥å¿—ã€‚
+  # ÆôÓÃ AE2 ºÏ³É·şÎñÔËĞĞÊ±ÈÕÖ¾¡£
   craftingServiceLogging: false
 
   # Enable powered tool runtime logs.
-  # å¯ç”¨èƒ½é‡å·¥å…·è¿è¡Œæ—¶æ—¥å¿—ã€‚
+  # ÆôÓÃÄÜÁ¿¹¤¾ßÔËĞĞÊ±ÈÕÖ¾¡£
   poweredToolLogging: false
 
   # Write standalone Trinity planning failure reports under the game log directory.
-  # å°†ä¸‰ä½ä¸€ä½“è§„åˆ’å¤±è´¥æ˜ç»†å†™å…¥æ¸¸æˆæ—¥å¿—ç›®å½•ä¸‹çš„ç‹¬ç«‹æŠ¥å‘Šæ–‡ä»¶ã€‚
+  # ½«ÈıÎ»Ò»Ìå¹æ»®Ê§°ÜÃ÷Ï¸Ğ´ÈëÓÎÏ·ÈÕÖ¾Ä¿Â¼ÏÂµÄ¶ÀÁ¢±¨¸æÎÄ¼ş¡£
   trinityPlanningFailureReports: false
 
   # Capture the first failed Trinity solver model under the game log directory.
-  # å°†é¦–æ¬¡å¤±è´¥çš„ä¸‰ä½ä¸€ä½“æ±‚è§£å™¨æ¨¡å‹æ•è·åˆ°æ¸¸æˆæ—¥å¿—ç›®å½•ä¸‹ã€‚
+  # ½«Ê×´ÎÊ§°ÜµÄÈıÎ»Ò»ÌåÇó½âÆ÷Ä£ĞÍ²¶»ñµ½ÓÎÏ·ÈÕÖ¾Ä¿Â¼ÏÂ¡£
   trinitySolverFailureModelCapture: false
 

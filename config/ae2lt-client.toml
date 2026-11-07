@@ -8,6 +8,9 @@
 	uploadAliases = []
 	#Let existing JEI recipe-transfer handlers refill the backpack from a carried wireless Tianshu terminal
 	jeiWirelessSupply = false
+	#Automatic unique-target selection: OFF, SAVED_ALIAS, or ANY_MATCH (includes suggested aliases)
+	#Allowed Values: OFF, SAVED_ALIAS, ANY_MATCH
+	uploadMatchMode = "OFF"
 
 [compatibility]
 	#Compatibility switch: disable custom core shaders provided by AE2 Lightning Tech Reborn.

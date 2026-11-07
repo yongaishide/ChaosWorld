@@ -6,9 +6,11 @@
 	interceptDuplicatePatternEncoding = true
 	#Recipe type/category id to pattern-provider alias mappings (source=alias)
 	uploadAliases = []
+	#Let existing JEI recipe-transfer handlers refill the backpack from a carried wireless Tianshu terminal
+	jeiWirelessSupply = false
 
 [compatibility]
-	#Compatibility switch: disable custom core shaders provided by AE2 Lightning Tech.
+	#Compatibility switch: disable custom core shaders provided by AE2 Lightning Tech Reborn.
 	#Enable only when a graphics driver or another rendering mod is incompatible with them.
 	disableCoreShaderRendering = false
 

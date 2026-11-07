@@ -173,6 +173,7 @@
 				id: "03B12123CCF94D26"
 				key_type: "ufo:chemical"
 				resource: "mekanism:polonium"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: -0.5d
@@ -187,6 +188,7 @@
 				id: "0D3D8D842F54AC69"
 				key_type: "ufo:chemical"
 				resource: "mekanism:plutonium"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: 1.5d
@@ -201,6 +203,7 @@
 				id: "64EBD9DB9654FDE0"
 				key_type: "ufo:chemical"
 				resource: "mekanism:nuclear_waste"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: 0.5d
@@ -215,6 +218,7 @@
 				id: "7DB42DA8C1FA2135"
 				key_type: "ufo:chemical"
 				resource: "mekanism:superheated_sodium"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: -5.5d
@@ -229,6 +233,7 @@
 				id: "0EDED5AD1BCC34D5"
 				key_type: "ufo:chemical"
 				resource: "mekanism_extras:molten_thermonuclear"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: -5.5d
@@ -243,6 +248,7 @@
 				id: "32FD88D6EC48576C"
 				key_type: "ae2:i"
 				resource: "mekanism_extras:enriched_thermonuclear"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: -3.5d
@@ -257,6 +263,7 @@
 				id: "415A77691C58FB9D"
 				key_type: "ae2:i"
 				resource: "mekanism_extras:alloy_thermonuclear"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: -1.5d
@@ -271,6 +278,7 @@
 				id: "1BB6C7C90BDF7A46"
 				key_type: "ae2:i"
 				resource: "mekanism_extras:supreme_control_circuit"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: 0.5d
@@ -285,6 +293,7 @@
 				id: "1F766F2C4BD7AC46"
 				key_type: "ae2:i"
 				resource: "chaosworld_core:crystal_processor"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: 2.5d
@@ -299,6 +308,7 @@
 				id: "4766FB514DE05DAB"
 				key_type: "ae2:i"
 				resource: "chaosworld_core:crystal_assembly"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: 4.5d
@@ -313,6 +323,7 @@
 				id: "294644A9480A836A"
 				key_type: "ae2:i"
 				resource: "chaosworld_core:crystal_computer"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: 6.5d
@@ -327,6 +338,7 @@
 				id: "5D280E7034869824"
 				key_type: "ae2:i"
 				resource: "chaosworld_core:crystal_mainframe"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: 8.5d
@@ -340,6 +352,7 @@
 				id: "3C35AD38B11E9A99"
 				key_type: "ae2:i"
 				resource: "ufo:neutron_star_fragment_ingot"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: 6.5d
@@ -368,6 +381,7 @@
 				id: "159AFFCFFCC346D0"
 				key_type: "ae2:i"
 				resource: "avaritia:neutron_compressor"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: -5.5d
@@ -382,6 +396,7 @@
 				id: "238F24EEA0EF69A6"
 				key_type: "ae2:i"
 				resource: "mekanismgenerators:fission_reactor_port"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: -7.5d
@@ -396,6 +411,7 @@
 				id: "679D2CDB9C5336A3"
 				key_type: "ae2:f"
 				resource: "mekanism:superheated_sodium"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: -3.5d
@@ -410,6 +426,7 @@
 				id: "7523C620A21FB595"
 				key_type: "ae2:i"
 				resource: "chaosworld_core:ingot_tech_8"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: -1.5d

@@ -4,7 +4,8 @@
 #Allowed Values: BASIC, PARADOX_INFINITY, CUSTOM
 balanceProfile = "CUSTOM"
 #启用万象创世蜜蜂
-#false时禁用蜜蜂相关功能，仅保留通用机械资源蜜蜂机器
+#false 时只停止万象创世蜜蜂的获取、繁殖、采蜜、蜂箱生产及专属蜜脾转化；其它蜜蜂和通用机器照常工作。
+#已有蜜蜂、物品和已付周期保留；重新启用后重载配方或重启服务器可恢复。
 myriadCreationsEnabled = true
 
 #蜜蜂产出配方配置（万象创世蜜脾产出参数）
@@ -143,7 +144,7 @@ myriadCreationsEnabled = true
 	# Default: 2.147483647E9
 	# Range: 0.0 ~ 2.147483647E9
 	attack = 20.0
-	#繁殖物品ID
+	#繁殖物品 ID、#物品标签；空值使用 PB 默认
 	breedingItem = "productivebees:honey_treat"
 	#繁殖所需物品数量
 	# Default: 1
@@ -183,6 +184,28 @@ myriadCreationsEnabled = true
 	stingless = false
 	translucent = false
 	colorCycle = false
+	#第三颜色；空值跟随主颜色
+	tertiaryColor = ""
+	#采蜜后体型；0 表示跟随基础体型
+	# Default: 0.0
+	# Range: 0.0 ~ 10.0
+	pollinatedSize = 0.0
+	#PB 蜜蜂发光图层
+	useGlowLayer = false
+	#攻击附加效果：none / fire / lava
+	attackResponse = "none"
+	#免疫的伤害类型 msgId；空列表不增加免疫
+	invulnerability = []
+	#PB 渲染变换名称；none 表示默认
+	renderTransform = "none"
+	#方块花源 ID；空值不覆盖其它花源
+	flowerBlock = ""
+	#花源标签；可用 ! 前缀反向匹配方块标签
+	flowerTag = ""
+	#流体花源 ID；由支持该花源的蜂箱执行
+	flowerFluid = ""
+	#花源标签匹配：blocks / entity_types
+	flowerType = "blocks"
 
 	[bee_attributes.colors]
 		#颜色配置（写入蜜蜂数据并在客户端渲染）

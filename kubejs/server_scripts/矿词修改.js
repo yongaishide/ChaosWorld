@@ -5,10 +5,21 @@ ServerEvents.tags("item", event => {
         "naturesaura:ancient_log",
         "naturesaura:ancient_bark"
     ])
-    event.add("iceandfire:dragonsteel_block", [
+    //锻造锤
+    event.add('chaosworld_core:ore_hammers', [
         "iceandfire:dragonsteel_fire_block",
+        '#alltheores:ore_hammers'
+    ])
+    event.add("iceandfire:dragonsteel_block", [
+        "iceandfire:dragonsteel_fire_block_block",
         "iceandfire:dragonsteel_ice_block",
         "iceandfire:dragonsteel_lightning_block"
+    ])
+    //铁砧制板用的锤子（铁砧左槽，每块板扣 1 点耐久）
+    event.add('chaosworld_core:hammers', [
+        '#c:tools/hammers',
+        '#immersiveengineering:tools/hammers',
+        '#alltheores:ore_hammers'
     ])
     //移除物品矿词
     event.remove("c:ingots/uranium", "bigreactors:yellorium_ingot")

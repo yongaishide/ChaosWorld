@@ -1,141 +1,60 @@
-ServerEvents.recipes((event) => {
-    event.custom(
-        {"type":"enderio:alloy_smelting",
-            "energy":3200,
-            "experience":0.3,
-            "inputs":[
-                {"count":1,"item":"extendedcrafting:redstone_ingot"},
-                {"count":1,"item":"enderio_evolution:construction_alloy_ingot"},
-                {"count":2,"item":"ae2:silicon"}
-            ],
-            "output":{"count":2,"id":"enderio:redstone_alloy_ingot"}}
-    )
-    //绝缘玻璃
-    event.custom(
-        {"type":"enderio:alloy_smelting",
-            "energy":3200,
-            "experience":0.3,
-            "inputs":[
-                {"count":2,"item":"appflux:insulating_resin"},
-                {"count":1,"item":"alltheores:iron_dust"}
-            ],
-            "output":{"count":2,"id":"immersiveengineering:insulating_glass"}}
-    )
-    //一阶科技锭
-    event.custom(
-        {"type":"enderio:alloy_smelting",
-            "energy":3200,
-            "experience":0.3,
-            "inputs":[
-                {"count":1,"item":"alltheores:electrum_ingot"},
-                {"count":1,"item":"alltheores:constantan_ingot"},
-                {"count":2,"item":"ae2:certus_quartz_dust"}
-            ],
-            "output":{"count":2,"id":"chaosworld_core:ingot_tech_1"}}
-    )
-    //二阶科技锭
-    event.custom(
-        {"type":"enderio:alloy_smelting",
-            "energy":3200,
-            "experience":0.3,
-            "inputs":[
-                {"count":1,"item":"enderio:redstone_alloy_ingot"},
-                {"count":1,"item":"enderio_evolution:crude_steel_ingot"},
-                {"count":1,"item":"immersiveengineering:dust_coke"}
-            ],
-            "output":{"count":2,"id":"chaosworld_core:ingot_tech_2"}}
-    )
-    //三阶科技锭
-    event.custom(
-        {"type":"enderio:alloy_smelting",
-            "energy":3200,
-            "experience":0.3,
-            "inputs":[
-                {"count":2,"item":"minecraft:netherite_scrap"},
-                {"count":3,"item":"enderio:dark_steel_ingot"},
-                {"count":3,"item":"pneumaticcraft:ingot_iron_compressed"}
-            ],
-            "output":{"count":4,"id":"chaosworld_core:ingot_tech_3"}}
-    )
-    //魂金锭
-    event.custom(
-        {"type":"enderio:alloy_smelting",
-            "energy":3200,
-            "experience":0.3,
-            "inputs":[
-                {"count":2,"item":"mysticalagriculture:soulium_dust"},
-                {"count":3,"item":"naturesaura:tainted_gold"}
-            ],
-            "output":{"count":3,"id":"enderio:soularium_ingot"}}
-    )
-    //末影锭
-    event.custom(
-        {"type":"enderio:alloy_smelting",
-            "energy":3200,
-            "experience":0.3,
-            "inputs":[
-                {"count":2,"item":"rainbowcompound:enderite_ingot"},
-                {"count":4,"item":"ae2omnicells:ender_ingot"},
-                {"count":1,"item":"enderio:ender_crystal_powder"}
-            ],
-            "output":{"count":4,"id":"alltheores:enderium_ingot"}}
-    )
-    //振动合金锭
-    event.custom(
-        {"type":"enderio:alloy_smelting",
-            "energy":3200,
-            "experience":0.3,
-            "inputs":[
-                {"count":2,"item":"enderio:energetic_alloy_ingot"},
-                {"count":3,"item":"chaosworld_core:ingot_tech_4"},
-                {"count":1,"item":"allthemodium:allthemodium_ingot"}
-            ],
-            "output":{"count":3,"id":"enderio:vibrant_alloy_ingot"}}
-    )
-    //晶化合金锭
-    event.custom(
-        {"type":"enderio:alloy_smelting",
-            "energy":3200,
-            "experience":0.3,
-            "inputs":[
-                {"count":1,"item":"enderio:pulsating_powder"},
-                {"count":2,"item":"alltheores:enderium_ingot"},
-                {"count":2,"item":"enderio:vibrant_alloy_ingot"}
-            ],
-            "output":{"count":4,"id":"enderio_evolution:crystalline_alloy_ingot"}}
-    )
-    //炽铁锭
-    event.custom(
-        {"type":"enderio:alloy_smelting",
-            "energy":3200,
-            "experience":0.3,
-            "inputs":[
-                {"count":2,"item":"chaosworld_core:ingot_tech_2"},
-                {"count":1,"tag":'twilightforest:fiery_vial'},
-            ],
-            "output":{"count":2,"id":"twilightforest:fiery_ingot"}}
-    )
-    //铝合金锭
-    event.custom(
-        {"type":"enderio:alloy_smelting",
-            "energy":3200,
-            "experience":0.3,
-            "inputs":[
-                {"count":2,"item":"alltheores:aluminum_ingot"},
-                {"count":1,"item":"chaosworld_core:ingot_tech_3"},
-            ],
-            "output":{"count":2,"id":"neoecoae:aluminum_alloy_ingot"}}
-    )
-    //暮色合金锭
-    event.custom(
-        {"type":"enderio:alloy_smelting",
-            "energy":3200,
-            "experience":0.3,
-            "inputs":[
-                {"count":1,"item":"chaosworld_core:ingot_ice"},
-                {"count":1,"item":"chaosworld_core:ingot_lich"},
-                {"count":1,"item":"twilightforest:fiery_ingot"},
-            ],
-            "output":{"count":3,"id":"chaosworld_core:ingot_twilight_alloy"}}
-    )
+// Ender IO 合金炉配方 —— 只保留科技锭这几条，其余的自己往下加。
+//
+// 字段：inputs[] 每项 { item 或 tag, count }，output{ id, count }，energy 是总 FE，
+// experience 是经验。id 用 kubejs: 前缀，避免和 Ender IO 自带的配方重名。
+//
+// 砖制合金炉（MMCR 机器）的配方另在：kubejs/server_scripts/recipes/mmcr/brick_alloy_furnace.js
+
+ServerEvents.recipes(event => {
+    // 科技锭 1：琥珀金 + 康铜 + 赛特斯石英粉
+    event.custom({
+        type: 'enderio:alloy_smelting',
+        energy: 3200,
+        experience: 0.3,
+        inputs: [
+            { item: 'alltheores:electrum_ingot', count: 1 },
+            { item: 'alltheores:constantan_ingot', count: 1 },
+            { item: 'ae2:certus_quartz_dust', count: 2 }
+        ],
+        output: { id: 'chaosworld_core:ingot_tech_1', count: 2 }
+    }).id('kubejs:alloy_smelting/tech_1_ingot')
+
+    // 科技锭 2：红石合金锭 + 粗钢锭 + 焦炭粉
+    event.custom({
+        type: 'enderio:alloy_smelting',
+        energy: 3200,
+        experience: 0.3,
+        inputs: [
+            { item: 'enderio:redstone_alloy_ingot', count: 1 },
+            { item: 'enderio_evolution:crude_steel_ingot', count: 1 },
+            { item: 'immersiveengineering:dust_coke', count: 1 }
+        ],
+        output: { id: 'chaosworld_core:ingot_tech_2', count: 2 }
+    }).id('kubejs:alloy_smelting/tech_2_ingot')
+
+    // 科技锭
+    event.custom({
+        type: 'enderio:alloy_smelting',
+        energy: 3200,
+        experience: 0.3,
+        inputs: [
+            { item: 'minecraft:netherite_scrap', count: 2 },
+            { item: 'enderio:dark_steel_ingot', count: 3 },
+            { item: 'pneumaticcraft:ingot_iron_compressed', count: 3 }
+        ],
+        output: { id: 'chaosworld_core:ingot_tech_3', count: 4 }
+    }).id('kubejs:alloy_smelting/tech_3_ingot')
+
+    // ---- 模块化合金 ----
+    event.custom({
+        type: 'enderio:alloy_smelting',
+        energy: 3200,
+        experience: 0.3,
+        inputs: [
+            { item: 'alltheores:bronze_ingot', count: 2 },
+            { item: 'minecraft:iron_ingot', count: 1 },
+            { item: 'extendedcrafting:redstone_ingot', count: 2 }
+        ],
+        output: { id: 'mmcr:modularium', count: 4 }
+    }).id('kubejs:alloy_smelting/modularium')
 })

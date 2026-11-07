@@ -1,0 +1,5 @@
+#Maximum straight-line distance in blocks from a resonant child input to its machine anchor.
+#Legacy output bindings remain supported but cannot be created or edited.
+# Default: 32
+# Range: 1 ~ 1024
+resonantInputRange = 32

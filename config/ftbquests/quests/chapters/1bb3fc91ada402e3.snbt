@@ -518,6 +518,7 @@
 				id: "65412733A737BAA6"
 				key_type: "data_energistics:digitalization"
 				resource: "data_energistics:data_flow"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: 12.0d
@@ -532,6 +533,7 @@
 				id: "7E1A5AA50704A4AA"
 				key_type: "data_energistics:manifest_binary"
 				resource: "data_energistics:data"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: 8.0d
@@ -582,6 +584,7 @@
 				id: "03C8B22040ABF743"
 				key_type: "ufo:chemical"
 				resource: "mekanism:fissile_fuel"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: 20.0d
@@ -596,6 +599,7 @@
 				id: "4D291804EE9D4975"
 				key_type: "ae2:i"
 				resource: "mekanism:isotopic_centrifuge"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: 18.0d

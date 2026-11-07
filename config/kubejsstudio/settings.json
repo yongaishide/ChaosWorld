@@ -1,9 +1,9 @@
 {
-  "theme": "dark",
+  "theme": "catppuccin-latte",
   "guiScaleMode": "sync",
   "guiScaleFixed": 2,
   "guiScaleCustom": 1.0,
-  "uiFont": "kubejsstudio:jetbrains_mono",
+  "uiFont": "modonomicon:default",
   "editorFont": "kubejsstudio:jetbrains_mono",
   "uiFontSize": 9,
   "editorFontSize": 9,
@@ -16,6 +16,8 @@
   "autoCloseBrackets": true,
   "autoIndent": true,
   "currentLineHighlight": true,
+  "indentGuides": true,
+  "codeFolding": true,
   "tabSize": 2,
   "autocomplete": true,
   "completionRows": 8,
@@ -28,6 +30,7 @@
   "strictAnalysis": true,
   "diagDelayMs": 250,
   "kubejs": true,
+  "recipeNamespace": "kubejsstudio",
   "reviewBeforeApply": true,
   "autoReloadAfterApply": true,
   "backupBeforeWrite": true,
@@ -35,5 +38,7 @@
   "previewTabs": true,
   "restoreSession": true,
   "keepWorkspace": true,
+  "popOut": false,
+  "windowScale": 0.0,
   "confirmDiscard": true
 }

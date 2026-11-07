@@ -15,7 +15,7 @@
 
 [async]
 	#Worker threads used for asynchronous machine execution; requires restarting the server process
-	# Default: 4
+	# Default: 6
 	# Range: 1 ~ 256
 	worker_count = 6
 	#Milliseconds to wait for asynchronous worker progress before another fence pass
@@ -23,7 +23,7 @@
 	# Range: 1 ~ 1000
 	worker_progress_wait_ms = 10
 	#Maximum queued asynchronous worker segments; requires restarting the server process
-	# Default: 256
+	# Default: 384
 	# Range: 1 ~ 1000000
 	worker_queue_capacity = 384
 	#Maximum asynchronous main-thread logic units processed per level tick

@@ -665,6 +665,7 @@
 				id: "35D7A312E687C919"
 				key_type: "ae2:i"
 				resource: "enderio:energetic_alloy_ingot"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: 1.0d
@@ -679,6 +680,7 @@
 				id: "43A367AD0233E898"
 				key_type: "ae2:i"
 				resource: "enderio:energized_gear"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: 3.0d
@@ -693,6 +695,7 @@
 				id: "2CC4AFC136F5D829"
 				key_type: "ae2:i"
 				resource: "industrialforegoing:mob_slaughter_factory"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: 5.0d
@@ -707,6 +710,7 @@
 				id: "40D4F4DC7EA43892"
 				key_type: "ae2:f"
 				resource: "industrialforegoing:pink_slime"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: 5.0d
@@ -721,6 +725,7 @@
 				id: "159C8F565CEE3F47"
 				key_type: "ae2:i"
 				resource: "industrialforegoing:pink_slime"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: 3.0d
@@ -735,6 +740,7 @@
 				id: "47F894E6C1D7CF00"
 				key_type: "ae2:i"
 				resource: "ae2lt:overload_circuit_board"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: 13.0d
@@ -749,6 +755,7 @@
 				id: "393CF8E0747DF823"
 				key_type: "ae2:i"
 				resource: "enderio:frank_n_zombie"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: 5.0d
@@ -854,6 +861,7 @@
 				id: "513CC57470C74313"
 				key_type: "ae2:i"
 				resource: "neoecoae:crystal_matrix"
+				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: 1.0d
@@ -869,6 +877,7 @@
 					id: "2EAF70DE8A4C5BEF"
 					key_type: "ae2lt:lightning"
 					resource: "ae2lt:high_voltage_lightning"
+					tag: ""
 					type: "chaosworld_core:ae_resource"
 				}
 				{
@@ -876,6 +885,7 @@
 					id: "4F8CEEF759567791"
 					key_type: "ae2lt:lightning"
 					resource: "ae2lt:extreme_high_voltage_lightning"
+					tag: ""
 					type: "chaosworld_core:ae_resource"
 				}
 			]

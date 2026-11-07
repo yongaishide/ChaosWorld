@@ -88,15 +88,7 @@
 	]
 	quest.683CF00B79A9E0FA.quest_subtitle: "工厂！"
 	quest.6C4EB991E2A1D634.quest_desc: ["通量访问端口允许你通过通量网络直接访问AE网络的存储系统"]
-	quest.6C5E33EEDAA5C40B.quest_desc: [
-		"冶炼炉，用于冶炼矿石。"
-		""
-		"1 级冶炼炉由红砖制成"
-		"2 级冶炼炉由磨制黑石砖制成"
-		"3 级冶炼炉由末地石砖制成"
-		"所有来自较低级别冶炼炉的配方都可以在更高级别的冶炼炉中使用，并提升冶炼速度。"
-		"{image:kubejs:item/alloy_smelter width:100 height:50 align:center fit:true click_action:none:}"
-	]
+	quest.6C5E33EEDAA5C40B.quest_desc: ["第一个模块化机器，效率不怎么好"]
 	quest.728C928129EDFEC3.quest_subtitle: "简单二倍矿"
 	quest.74E628EDB3557BF7.title: "&6外置加热器&r"
 	quest.76CE2B1D7C026BD9.quest_subtitle: "猪咪才会用这个"
