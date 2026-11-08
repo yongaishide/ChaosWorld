@@ -83,3 +83,16 @@ ponders_watched.json
 *.jar.bak
 *.jar.bak-*
 /botania-neoforge-*.jar
+
+# 本地产物 / 生成物：不需要版本管理，永远不入库
+/.acl-recovery/
+/.cf-publish/
+/mmcr_structure_export/
+/kubejs/server_scripts/mmcr/structure/__write_test.txt
+/.abnormal
+/dev/
+/natives-windows-x86_64/
+/icon-exports-*/
+/.probe/
+/.tmp_diag/
+/.vscode/
