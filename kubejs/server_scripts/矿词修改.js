@@ -5,13 +5,8 @@ ServerEvents.tags("item", event => {
         "naturesaura:ancient_log",
         "naturesaura:ancient_bark"
     ])
-    //锻造锤
-    event.add('chaosworld_core:ore_hammers', [
-        "iceandfire:dragonsteel_fire_block",
-        '#alltheores:ore_hammers'
-    ])
     event.add("iceandfire:dragonsteel_block", [
-        "iceandfire:dragonsteel_fire_block_block",
+        "iceandfire:dragonsteel_fire_block",
         "iceandfire:dragonsteel_ice_block",
         "iceandfire:dragonsteel_lightning_block"
     ])
@@ -31,3 +26,4 @@ ServerEvents.tags("item", event => {
     event.removeAll("twilightforest:portal/activator")
     event.add("twilightforest:portal/activator", "chaosworld_core:twilight_catalyst")
 })
+S
