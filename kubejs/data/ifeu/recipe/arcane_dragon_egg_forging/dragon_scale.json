@@ -1,0 +1,20 @@
+{
+  "type": "ifeu:arcane_dragon_egg_forging",
+  "input": {
+    "count": 1,
+    "id": "productivebees:inactive_dragon_egg"
+  },
+  "inputFluid1": {
+    "amount": 300,
+    "id": "industrialforegoing:ether_gas"
+  },
+  "inputFluid2": {
+    "amount": 300,
+    "id": "ifeu:liquid_sculk_matter"
+  },
+  "output": {
+    "count": 3,
+    "id": "mysticalagradditions:dragon_scale"
+  },
+  "processingTime": 200
+}

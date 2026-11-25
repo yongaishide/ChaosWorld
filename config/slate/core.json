@@ -1,0 +1,57 @@
+{
+  "layout": "OVERHAUL",
+  "screens": {
+    "minecraft:disconnected": {
+      "layout": "CUSTOM"
+    }
+  },
+  "customLayout": true,
+  "layoutMigrated": true,
+  "setupDone": true,
+  "yieldToMenuMods": true,
+  "skin": "DARK",
+  "accent": "#8A1C1C",
+  "accentMigrated": true,
+  "motion": 1.0,
+  "headingFont": true,
+  "pixelFont": "pixeloid",
+  "transitions": true,
+  "containerOpen": "POP",
+  "containerOpenMs": 110,
+  "quickActions": true,
+  "uiSounds": true,
+  "toasts": true,
+  "radius": 3,
+  "smoothCorners": false,
+  "cursor": "SYSTEM",
+  "blurInGame": true,
+  "translucentPanels": true,
+  "compactAutoScale": true,
+  "menuBackground": "title",
+  "startupScene": "factory",
+  "startupTimer": true,
+  "devMode": false,
+  "devGrid": true,
+  "devSnap": 4,
+  "devPencil": "BOTTOM_RIGHT",
+  "reskinScope": "ALLOWLIST",
+  "reskinAllowlist": [
+    "me.shedaniel.clothconfig2",
+    "dev.isxander.yacl3",
+    "com.mrcrayfish.configured",
+    "net.neoforged.neoforge.client.gui",
+    "com.terraformersmc.modmenu",
+    "com.blamejared.controlling",
+    "com.mojang.realmsclient",
+    "net.caffeinemc.mods.sodium.client.gui",
+    "net.irisshaders.iris.gui"
+  ],
+  "reskinDenylist": [
+    "de.keksuccino.fancymenu",
+    "mezz.jei",
+    "com.simibubi.create"
+  ],
+  "xaeroMigrated": true,
+  "reskinContainers": true,
+  "betterInventoryStyle": "SLATE"
+}

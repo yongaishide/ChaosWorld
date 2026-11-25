@@ -1,0 +1,20 @@
+{
+  "name": "patchouli.chaosworld.entry.worldgen.dim_mining",
+  "icon": "allthemodium:allthemodium_ore",
+  "category": "patchouli:worldgen",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "patchouli.chaosworld.entry.worldgen.dim_mining.page1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "patchouli.chaosworld.entry.worldgen.dim_mining.page2"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "patchouli.chaosworld.entry.worldgen.dim_mining.page3"
+    }
+  ]
+}

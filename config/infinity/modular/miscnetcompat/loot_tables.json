@@ -1,0 +1,53 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Type": "vault"
+			},
+			"weight": 1.0,
+			"key": "miscnetcompat:chests/armor_magic"
+		},
+		{
+			"data": {
+				"Type": "vault"
+			},
+			"weight": 1.0,
+			"key": "miscnetcompat:chests/armor_magic_common"
+		},
+		{
+			"data": {
+				"Type": "vault"
+			},
+			"weight": 1.0,
+			"key": "miscnetcompat:chests/armor_magic_rare_ars"
+		},
+		{
+			"data": {
+				"Type": "vault"
+			},
+			"weight": 1.0,
+			"key": "miscnetcompat:chests/ominous_magic"
+		},
+		{
+			"data": {
+				"Type": "vault"
+			},
+			"weight": 1.0,
+			"key": "miscnetcompat:chests/valuables_magic"
+		},
+		{
+			"data": {
+				"Type": "vault"
+			},
+			"weight": 1.0,
+			"key": "miscnetcompat:chests/valuables_other"
+		},
+		{
+			"data": {
+				"Type": "vault"
+			},
+			"weight": 1.0,
+			"key": "miscnetcompat:chests/weapons_magic"
+		}
+	]
+}

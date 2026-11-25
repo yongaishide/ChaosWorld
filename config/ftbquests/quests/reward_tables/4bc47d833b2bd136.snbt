@@ -1,0 +1,11 @@
+{
+	id: "4BC47D833B2BD136"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{ id: "78E0883C06FA0EAF", item: { count: 1, id: "projectexpansion:arcane_transmutation_tablet" } }
+		{ id: "2109C46F4C20C633", item: { components: { "minecraft:enchantments": { levels: { "minecraft:fortune": 10, "minecraft:looting": 10 } } }, count: 1, id: "useless_mod:endless_beaf_item" } }
+		{ id: "71D517FDCDE314AE", item: { count: 1, id: "extendedae_plus:infinity_biginteger_cell" } }
+		{ id: "22ADC850A50E992C", item: { components: { "mekanism:energy": { energy_containers: [L;9223372036854775807L] }, "mekanism:side_config": { config: { energy: { eject: 1b, side: { back: "output", bottom: "output", front: "output", left: "output", right: "output", top: "output" } }, items: { side: { back: "input", bottom: "input", front: "output", left: "input", right: "input", top: "input" } } } } }, count: 1, id: "mekanism:creative_energy_cube" } }
+	]
+}

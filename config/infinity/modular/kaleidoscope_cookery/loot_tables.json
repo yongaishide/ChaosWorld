@@ -1,0 +1,823 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/apple_platter"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/bamboo_tray"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/baozi_plate"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/berry_platter"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/blaze_lamb_chop"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/braised_pork_ribs"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/brown_mushroom_pot_soup"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/buddha_jumps_over_the_wall"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/candied_potato"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/chair_acacia"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/chair_bamboo"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/chair_birch"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/chair_cherry"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/chair_crimson"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/chair_dark_oak"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/chair_jungle"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/chair_mangrove"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/chair_oak"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/chair_spruce"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/chair_warped"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/chili_crop"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/chili_ristra"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/chopping_board"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/chorus_fried_egg"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/chorus_fruit_platter"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/clay_pot_milk_tea"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/cold_cut_ham_slices"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/cold_roasted_meat"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/cold_style_sashimi"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/cook_stool_acacia"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/cook_stool_bamboo"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/cook_stool_birch"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/cook_stool_cherry"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/cook_stool_crimson"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/cook_stool_dark_oak"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/cook_stool_jungle"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/cook_stool_mangrove"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/cook_stool_oak"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/cook_stool_spruce"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/cook_stool_warped"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/crimson_fungus_pot_soup"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/crystal_lamb_chop"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/dark_cuisine"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/desert_style_sashimi"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/dongpo_pork"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/dough_drop_soup"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/eight_immortals_table"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/enamel_basin"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/end_style_sashimi"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/fondant_pie"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/fondant_spider_eye"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/four_joy_meatball_soup"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/fried_caterpillar"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/fried_spring_roll"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/frost_lamb_chop"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/fruit_basket"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/golden_salad"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/kitchenware_racks"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/lettuce_crop"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/long_bench"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/nether_style_sashimi"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/numbing_spicy_chicken"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/oil_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/oil_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/oil_splashed_fish"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/pan_seared_knight_steak"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/qingtuan_plate"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/red_lantern"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/red_mushroom_pot_soup"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/rice_crop"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/shawarma_spit"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/shengjian_mantou_plate"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/slime_ball_meal"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/spicy_blood_stew"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/spicy_chicken"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/spicy_rabbit_head"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/stargazy_pie"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/sticky_candy_plate"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/sticky_rice_cake_plate"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/stockpot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/stove"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/straw_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/strung_mushrooms"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/stuffed_tiger_skin_pepper"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/suspicious_stir_fry"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/sweet_and_sour_ender_pearls"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/table_acacia"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/table_bamboo"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/table_birch"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/table_cherry"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/table_crimson"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/table_dark_oak"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/table_jungle"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/table_mangrove"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/table_oak"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/table_spruce"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/table_warped"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/tea_banner"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/tea_tree"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/tomato_crop"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/tomato_platter"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/trash_can"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/tundra_style_sashimi"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/warped_fungus_pot_soup"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/watermelon_platter"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:blocks/zongzi_plate"
+		},
+		{
+			"data": {
+				"Type": "chest"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:chest/village_chest"
+		},
+		{
+			"data": {
+				"Type": "chest"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:chest/village_hide_chest"
+		},
+		{
+			"data": {
+				"Type": "gift"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:gameplay/hero_of_the_village/chef_gift"
+		},
+		{
+			"data": {
+				"Type": "entity"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:hoglin"
+		},
+		{
+			"data": {
+				"Type": "entity"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:pig"
+		},
+		{
+			"data": {
+				"Type": "entity"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:piglin"
+		},
+		{
+			"data": {
+				"Type": "entity"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:piglin_brute"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:straw_hat_seed_drop"
+		},
+		{
+			"data": {
+				"Type": "entity"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:zoglin"
+		},
+		{
+			"data": {
+				"Type": "entity"
+			},
+			"weight": 1.0,
+			"key": "kaleidoscope_cookery:zombified_piglin"
+		}
+	]
+}

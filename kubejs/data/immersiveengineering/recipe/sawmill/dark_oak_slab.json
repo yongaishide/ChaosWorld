@@ -1,0 +1,17 @@
+{
+  "type": "immersiveengineering:sawmill",
+  "energy": 800,
+  "input": {
+    "item": "minecraft:dark_oak_planks"
+  },
+  "result": {
+    "count": 2,
+    "id": "minecraft:dark_oak_slab"
+  },
+  "secondaryOutputs": [],
+  "strippingSecondaries": [
+    {
+      "tag": "c:dusts/wood"
+    }
+  ]
+}

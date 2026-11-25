@@ -1,0 +1,77 @@
+{
+  "type": "astralsorcery:altar_crafting",
+  "base_focus_shatter_chance": 0.0,
+  "duration": 100,
+  "effects": [
+    "astralsorcery:default_altar_sparkle",
+    "astralsorcery:default_central_beam",
+    "astralsorcery:default_lumen_input",
+    "astralsorcery:default_relay_input"
+  ],
+  "grid": {
+    "key": {
+      "C": {
+        "type": "item",
+        "ingredient": {
+          "tag": "astralsorcery:crystal"
+        }
+      },
+      "F": {
+        "type": "item",
+        "ingredient": {
+          "item": "astralsorcery:lumen_filament"
+        }
+      },
+      "G": {
+        "type": "item",
+        "ingredient": {
+          "tag": "c:nuggets/gold"
+        }
+      },
+      "M": {
+        "type": "item",
+        "ingredient": {
+          "tag": "c:ingots/starmetal"
+        }
+      },
+      "R": {
+        "type": "item",
+        "ingredient": {
+          "item": "astralsorcery:marble_runed"
+        }
+      },
+      "S": {
+        "type": "item",
+        "ingredient": {
+          "item": "astralsorcery:sooty_marble_raw"
+        }
+      }
+    },
+    "pattern": [
+      "R R",
+      "RCR",
+      " M "
+    ],
+    "relay_pattern": [
+      "     ",
+      " SSS ",
+      "     ",
+      "  F  ",
+      "GSSSG"
+    ]
+  },
+  "may_chain": false,
+  "only_night": true,
+  "output_modifiers": [],
+  "outputs": [
+    {
+      "count": 1,
+      "id": "astralsorcery:lumen_crystallizer"
+    }
+  ],
+  "required_additional_inputs": [],
+  "required_fluid": [],
+  "required_lumen": [],
+  "required_starlight": [],
+  "required_type": "resonance"
+}

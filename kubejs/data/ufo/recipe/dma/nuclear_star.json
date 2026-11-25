@@ -1,0 +1,38 @@
+{
+  "type": "ufo:dimensional_assembly",
+  "energy": 25000000,
+  "fluid_inputs": [
+    {
+      "amount": 5000,
+      "ingredient": {
+        "fluid": "ufo:source_liquid_starlight_fluid"
+      }
+    }
+  ],
+  "fluid_outputs": [],
+  "item_inputs": [
+    {
+      "ingredient": {
+        "item": "ufo:white_dwarf_fragment_block"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ufo:neutron_star_fragment_block"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ufo:pulsar_fragment_block"
+      }
+    }
+  ],
+  "item_outputs": [
+    {
+      "#": 1,
+      "#t": "ae2:i",
+      "id": "ufo:nuclear_star"
+    }
+  ],
+  "time": 3000
+}

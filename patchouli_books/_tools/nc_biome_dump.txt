@@ -1,0 +1,154 @@
+=== dimension/nuclear_wasteland.json ===
+{
+  "type": "nuclearcraftneohaul:nuclear_wasteland_type",
+  "generator": {
+    "type": "minecraft:noise",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "nuclearcraftneohaul:nuclear_wasteland"
+    },
+    "settings": "nuclearcraftneohaul:nuclear_wasteland"
+  }
+}
+=== worldgen/biome/nuclear_wasteland.json ===
+{
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "downfall": 0.0,
+  "effects": {
+    "fog_color": 2269670,
+    "foliage_color": 10046464,
+    "grass_color": 10046464,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "music": {
+      "max_delay": 24000,
+      "min_delay": 12000,
+      "replace_current_music": false,
+      "sound": "minecraft:music.overworld.deep_dark"
+    },
+    "sky_color": 10330225,
+    "water_color": 10046464,
+    "water_fog_color": 12524326
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground",
+      "minecraft:lake_lava_surface",
+      "nuclearcraftneohaul:lake_wasteland_portal"
+    ],
+    [
+      "minecraft:amethyst_geode"
+    ],
+    [
+      "minecraft:fossil_upper",
+      "minecraft:fossil_lower",
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
+    [],
+    [],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite_upper",
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_tuff",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_medium",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:underwater_magma",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel"
+    ],
+    [],
+    [],
+    [
+      "minecraft:glow_lichen"
+    ]
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [
+      {
+        "type": "nuclearcraftneohaul:feral_ghoul",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 100
+      }
+    ],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 2.0
+}
+=== placed_feature list ===
+data/nuclearcraftneohaul/worldgen/placed_feature/
+data/nuclearcraftneohaul/worldgen/placed_feature/boron_placed_large.json
+data/nuclearcraftneohaul/worldgen/placed_feature/boron_placed_small.json
+data/nuclearcraftneohaul/worldgen/placed_feature/glowing_mushroom_placed.json
+data/nuclearcraftneohaul/worldgen/placed_feature/lake_wasteland_portal.json
+data/nuclearcraftneohaul/worldgen/placed_feature/lead_placed_large.json
+data/nuclearcraftneohaul/worldgen/placed_feature/lead_placed_small.json
+data/nuclearcraftneohaul/worldgen/placed_feature/lithium_placed_large.json
+data/nuclearcraftneohaul/worldgen/placed_feature/lithium_placed_small.json
+data/nuclearcraftneohaul/worldgen/placed_feature/magnesium_placed_large.json
+data/nuclearcraftneohaul/worldgen/placed_feature/magnesium_placed_small.json
+data/nuclearcraftneohaul/worldgen/placed_feature/thorium_placed_large.json
+data/nuclearcraftneohaul/worldgen/placed_feature/thorium_placed_small.json
+data/nuclearcraftneohaul/worldgen/placed_feature/tin_placed_large.json
+data/nuclearcraftneohaul/worldgen/placed_feature/tin_placed_small.json
+data/nuclearcraftneohaul/worldgen/placed_feature/uranium_placed_large.json
+data/nuclearcraftneohaul/worldgen/placed_feature/uranium_placed_small.json
+=== biome_modifier / structure / template_pool dirs ===
+data/nuclearcraftneohaul/neoforge/biome_modifier/
+data/nuclearcraftneohaul/neoforge/biome_modifier/add_glowing_mushroom.json
+data/nuclearcraftneohaul/neoforge/biome_modifier/add_glowing_mushroom_nether.json
+data/nuclearcraftneohaul/neoforge/biome_modifier/boron_large.json
+data/nuclearcraftneohaul/neoforge/biome_modifier/boron_small.json
+data/nuclearcraftneohaul/neoforge/biome_modifier/lead_large.json
+data/nuclearcraftneohaul/neoforge/biome_modifier/lead_small.json
+data/nuclearcraftneohaul/neoforge/biome_modifier/lithium_large.json
+data/nuclearcraftneohaul/neoforge/biome_modifier/lithium_small.json
+data/nuclearcraftneohaul/neoforge/biome_modifier/magnesium_large.json
+data/nuclearcraftneohaul/neoforge/biome_modifier/magnesium_small.json
+data/nuclearcraftneohaul/neoforge/biome_modifier/thorium_large.json
+data/nuclearcraftneohaul/neoforge/biome_modifier/thorium_small.json
+data/nuclearcraftneohaul/neoforge/biome_modifier/tin_large.json
+data/nuclearcraftneohaul/neoforge/biome_modifier/tin_small.json
+data/nuclearcraftneohaul/neoforge/biome_modifier/uranium_large.json
+data/nuclearcraftneohaul/neoforge/biome_modifier/uranium_small.json

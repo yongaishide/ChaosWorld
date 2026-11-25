@@ -1,0 +1,604 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:charged_ender_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:complex_crafting_monitor_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:complex_crafting_storage_16k_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:complex_crafting_storage_16m_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:complex_crafting_storage_1k_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:complex_crafting_storage_1m_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:complex_crafting_storage_256k_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:complex_crafting_storage_256m_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:complex_crafting_storage_4k_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:complex_crafting_storage_4m_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:complex_crafting_storage_64k_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:complex_crafting_storage_64m_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:complex_crafting_unit_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:complex_link_circuit_print"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:complex_link_print_press"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:complex_link_processor"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:complex_omni_cell_16k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:complex_omni_cell_16m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:complex_omni_cell_1k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:complex_omni_cell_1m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:complex_omni_cell_256k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:complex_omni_cell_256m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:complex_omni_cell_4k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:complex_omni_cell_4m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:complex_omni_cell_64k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:complex_omni_cell_64m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:complex_omni_cell_component_16k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:complex_omni_cell_component_16m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:complex_omni_cell_component_1k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:complex_omni_cell_component_1m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:complex_omni_cell_component_256k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:complex_omni_cell_component_256m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:complex_omni_cell_component_4k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:complex_omni_cell_component_4m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:complex_omni_cell_component_64k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:complex_omni_cell_component_64m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:complex_omni_cell_housing"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:creative_ae_cell_biginteger"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:creative_ae_cell_long"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:ender_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:ender_ingot_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:ender_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:multidimensional_expansion_circuit_print"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:multidimensional_expansion_print_press"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:multidimensional_expansion_processor"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:netherite_scrap_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:omni_cell_16k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:omni_cell_16m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:omni_cell_1k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:omni_cell_1m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:omni_cell_256k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:omni_cell_256m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:omni_cell_4k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:omni_cell_4m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:omni_cell_64k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:omni_cell_64m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:omni_cell_component_16k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:omni_cell_component_16m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:omni_cell_component_1k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:omni_cell_component_1m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:omni_cell_component_256k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:omni_cell_component_256m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:omni_cell_component_4k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:omni_cell_component_4m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:omni_cell_component_64k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:omni_cell_component_64m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:omni_cell_housing"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:omni_crafting_monitor_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:omni_crafting_storage_16k_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:omni_crafting_storage_16m_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:omni_crafting_storage_1k_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:omni_crafting_storage_1m_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:omni_crafting_storage_256k_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:omni_crafting_storage_256m_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:omni_crafting_storage_4k_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:omni_crafting_storage_4m_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:omni_crafting_storage_64k_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:omni_crafting_storage_64m_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:omni_crafting_unit_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:omni_link_circuit_print"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:omni_link_print_press"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:omni_link_processor"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:portable_complex_omni_cell_16k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:portable_complex_omni_cell_16m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:portable_complex_omni_cell_1k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:portable_complex_omni_cell_1m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:portable_complex_omni_cell_256k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:portable_complex_omni_cell_256m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:portable_complex_omni_cell_4k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:portable_complex_omni_cell_4m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:portable_complex_omni_cell_64k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:portable_complex_omni_cell_64m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:portable_omni_cell_16k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:portable_omni_cell_16m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:portable_omni_cell_1k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:portable_omni_cell_1m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:portable_omni_cell_256k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:portable_omni_cell_256m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:portable_omni_cell_4k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:portable_omni_cell_4m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:portable_omni_cell_64k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:portable_omni_cell_64m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:portable_quantum_omni_cell_16k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:portable_quantum_omni_cell_16m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:portable_quantum_omni_cell_1k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:portable_quantum_omni_cell_1m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:portable_quantum_omni_cell_256k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:portable_quantum_omni_cell_256m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:portable_quantum_omni_cell_4k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:portable_quantum_omni_cell_4m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:portable_quantum_omni_cell_64k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:portable_quantum_omni_cell_64m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:quantum_crafting_monitor_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:quantum_crafting_storage_16k_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:quantum_crafting_storage_16m_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:quantum_crafting_storage_1k_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:quantum_crafting_storage_1m_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:quantum_crafting_storage_256k_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:quantum_crafting_storage_256m_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:quantum_crafting_storage_4k_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:quantum_crafting_storage_4m_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:quantum_crafting_storage_64k_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:quantum_crafting_storage_64m_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:quantum_crafting_unit_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:quantum_omni_cell_16k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:quantum_omni_cell_16m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:quantum_omni_cell_1k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:quantum_omni_cell_1m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:quantum_omni_cell_256k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:quantum_omni_cell_256m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:quantum_omni_cell_4k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:quantum_omni_cell_4m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:quantum_omni_cell_64k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:quantum_omni_cell_64m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:quantum_omni_cell_component_16k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:quantum_omni_cell_component_16m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:quantum_omni_cell_component_1k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:quantum_omni_cell_component_1m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:quantum_omni_cell_component_256k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:quantum_omni_cell_component_256m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:quantum_omni_cell_component_4k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:quantum_omni_cell_component_4m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:quantum_omni_cell_component_64k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:quantum_omni_cell_component_64m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:quantum_omni_cell_housing"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:singularity_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:spent_nuclear_waste_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:spent_nuclear_waste_component"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:spent_nuclear_waste_singularity"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2omnicells:type_fuzzy_card"
+		}
+	]
+}

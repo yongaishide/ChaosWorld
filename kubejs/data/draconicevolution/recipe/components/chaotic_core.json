@@ -1,0 +1,50 @@
+{
+  "type": "draconicevolution:fusion_crafting",
+  "catalyst": {
+    "item": "draconicevolution:awakened_core"
+  },
+  "ingredients": [
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "chaosworld_core:ingot_chaotic_metal"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "chaosworld_core:ingot_chaotic_metal"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "ufo:unstable_white_hole_matter"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "ufo:unstable_white_hole_matter"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "chaosworld_core:ingot_chaotic_metal"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "chaosworld_core:ingot_chaotic_metal"
+      }
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:chaotic_core"
+  },
+  "techLevel": "chaotic", 
+  "totalEnergy": 100000000
+}

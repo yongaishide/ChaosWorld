@@ -1,0 +1,32 @@
+{
+	"elements": [
+		{
+			"data": {
+				"fluidName": "antarchy:antiwater"
+			},
+			"weight": 1.0,
+			"key": "antarchy:antiwater"
+		},
+		{
+			"data": {
+				"fluidName": "antarchy:bile"
+			},
+			"weight": 1.0,
+			"key": "antarchy:bile"
+		},
+		{
+			"data": {
+				"fluidName": "antarchy:ichor"
+			},
+			"weight": 1.0,
+			"key": "antarchy:ichor"
+		},
+		{
+			"data": {
+				"fluidName": "antarchy:lumen"
+			},
+			"weight": 1.0,
+			"key": "antarchy:lumen"
+		}
+	]
+}

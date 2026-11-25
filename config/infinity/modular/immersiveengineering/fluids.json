@@ -1,0 +1,74 @@
+{
+	"elements": [
+		{
+			"data": {
+				"fluidName": "immersiveengineering:acetaldehyde"
+			},
+			"weight": 1.0,
+			"key": "immersiveengineering:acetaldehyde_fluid_block"
+		},
+		{
+			"data": {
+				"fluidName": "immersiveengineering:biodiesel"
+			},
+			"weight": 1.0,
+			"key": "immersiveengineering:biodiesel_fluid_block"
+		},
+		{
+			"data": {
+				"fluidName": "immersiveengineering:concrete"
+			},
+			"weight": 1.0,
+			"key": "immersiveengineering:concrete_fluid_block"
+		},
+		{
+			"data": {
+				"fluidName": "immersiveengineering:creosote"
+			},
+			"weight": 1.0,
+			"key": "immersiveengineering:creosote_fluid_block"
+		},
+		{
+			"data": {
+				"fluidName": "immersiveengineering:ethanol"
+			},
+			"weight": 1.0,
+			"key": "immersiveengineering:ethanol_fluid_block"
+		},
+		{
+			"data": {
+				"fluidName": "immersiveengineering:herbicide"
+			},
+			"weight": 1.0,
+			"key": "immersiveengineering:herbicide_fluid_block"
+		},
+		{
+			"data": {
+				"fluidName": "immersiveengineering:high_power_biodiesel"
+			},
+			"weight": 1.0,
+			"key": "immersiveengineering:high_power_biodiesel_fluid_block"
+		},
+		{
+			"data": {
+				"fluidName": "immersiveengineering:phenolic_resin"
+			},
+			"weight": 1.0,
+			"key": "immersiveengineering:phenolic_resin_fluid_block"
+		},
+		{
+			"data": {
+				"fluidName": "immersiveengineering:plantoil"
+			},
+			"weight": 1.0,
+			"key": "immersiveengineering:plantoil_fluid_block"
+		},
+		{
+			"data": {
+				"fluidName": "immersiveengineering:redstone_acid"
+			},
+			"weight": 1.0,
+			"key": "immersiveengineering:redstone_acid_fluid_block"
+		}
+	]
+}

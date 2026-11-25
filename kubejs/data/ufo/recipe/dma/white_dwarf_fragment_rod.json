@@ -1,0 +1,28 @@
+{
+  "type": "ufo:dimensional_assembly",
+  "energy": 10000,
+  "fluid_inputs": [
+    {
+      "amount": 50,
+      "ingredient": {
+        "fluid": "ufo:source_liquid_starlight_fluid"
+      }
+    }
+  ],
+  "fluid_outputs": [],
+  "item_inputs": [
+    {
+      "ingredient": {
+        "item": "ufo:white_dwarf_fragment_ingot"
+      }
+    }
+  ],
+  "item_outputs": [
+    {
+      "#": 2,
+      "#t": "ae2:i",
+      "id": "ufo:white_dwarf_fragment_rod"
+    }
+  ],
+  "time": 60
+}

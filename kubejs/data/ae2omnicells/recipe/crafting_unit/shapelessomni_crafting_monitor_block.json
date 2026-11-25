@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ae2:storage_monitor"
+    },
+    {
+      "item": "ae2omnicells:omni_crafting_unit_block"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "ae2omnicells:omni_crafting_monitor_block"
+  }
+}

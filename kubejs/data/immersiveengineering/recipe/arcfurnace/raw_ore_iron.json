@@ -1,0 +1,22 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "additives": [],
+  "energy": 25600,
+  "input": {
+    "tag": "c:raw_materials/iron"
+  },
+  "results": [
+    {
+      "tag": "c:ingots/iron"
+    }
+  ],
+  "secondaries": [
+    {
+      "chance": 0.5,
+      "output": {
+        "tag": "c:ingots/iron"
+      }
+    }
+  ],
+  "time": 100
+}

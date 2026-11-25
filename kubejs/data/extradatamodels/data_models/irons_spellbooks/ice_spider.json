@@ -1,0 +1,35 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "irons_spellbooks"
+        }
+    ],
+    "entity": "irons_spellbooks:ice_spider",
+    "name": {
+        "translate": "entity.irons_spellbooks.ice_spider",
+        "color": "#0F7CCB"
+    },
+    "sim_cost": 192,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.ice_spider",
+    "fabricator_drops": [
+        {
+            "id": "irons_spellbooks:icy_fang",
+            "count": 1
+        },
+        {
+            "id": "irons_spellbooks:arcane_essence",
+            "count": 16
+        },
+        {
+            "id": "irons_spellbooks:ice_spider_egg",
+            "count": 4
+        }
+    ]
+}

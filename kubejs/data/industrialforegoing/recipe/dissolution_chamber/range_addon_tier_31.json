@@ -1,0 +1,49 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "ifmup:range_addon_tier_31"
+    }
+  ],
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+    {
+      "tag": "c:dusts/redstone"
+    },
+    {
+      "tag": "c:dusts/redstone"
+    },
+    {
+      "tag": "c:glass_panes"
+    },
+    {
+      "tag": "c:glass_panes"
+    },
+    {
+      "tag": "c:ingots/shadow_rose"
+    },
+    {
+      "tag": "c:ingots/shadow_rose"
+    },
+    {
+      "tag": "c:ingots/shadow_rose"
+    },
+    {
+      "tag": "c:ingots/shadow_rose"
+    }
+  ],
+  "inputFluid": {
+    "amount": 500,
+    "fluid": "ifmup:darkshine"
+  },
+  "output": {
+    "components": {
+      "titanium:augments": {
+        "Range": 31.0
+      }
+    },
+    "count": 1,
+    "id": "ifmup:range_addon_tier_31"
+  },
+  "processingTime": 200
+}

@@ -1,0 +1,119 @@
+	[machines.large_battery_core_capa]
+		#The energy storage capacity of large battery core
+		# Default: 64000000
+		# Range: > 1
+		storage_capacity = 64000000
+
+	[machines.green_house]
+		#The Flux per tick the green house consumes to grow plants per seed slot
+		# Default: 12
+		# Range: > 1
+		consumption = 12
+		#Compared to Cloche's fertilizer efficiency
+		# Default: 3.0
+		# Range: 1.0 ~ 100.0
+		fertilizer_efficiency = 3.0
+		#Compared to Cloche's fluid efficiency
+		# Default: 1.5
+		# Range: 1.0 ~ 100.0
+		fluid_efficiency = 1.5
+
+	[machines.small_mining_machine]
+		#The Flux per tick the small mining machine consumes when active
+		# Default: 512
+		# Range: > 1
+		consumption = 512
+		#Number of scanned blocks per tick without augers
+		# Default: 5
+		# Range: > 1
+		default_speed = 5
+		#Additional scanning speed provided by each auger
+		# Default: 5
+		# Range: > 1
+		addition_speed_per_augers = 5
+
+	[machines.industrial_furnaces]
+		#A modifier to apply to the energy costs of every industrial furnaces recipe
+		# Default: 1.0
+		# Range: 0.001 ~ 1000.0
+		energyModifier = 1.0
+		#A modifier to apply to the time of every industrial furnaces recipe
+		# Default: 1.0
+		# Range: 0.001 ~ 1000.0
+		timeModifier = 1.0
+
+	[machines.pyrolyse_oven]
+		#A modifier to apply to the energy costs of every pyrolyse oven recipe
+		# Default: 1.0
+		# Range: 0.001 ~ 1000.0
+		energyModifier = 1.0
+		#A modifier to apply to the time of every pyrolyse oven recipe
+		# Default: 1.0
+		# Range: 0.001 ~ 1000.0
+		timeModifier = 1.0
+		#Compared to the parallel multiples of coke ovens
+		# Default: 4
+		# Range: > 1
+		parallel_multiplier = 4
+
+	[machines.fly_wheel]
+		#Maximum energy storage multiplier of flywheel
+		# Default: 1
+		# Range: > 1
+		storage_coefficient = 1
+		#Maximum length of flywheel
+		# Default: 10
+		# Range: > 1
+		maximum_length = 10
+		#Maximum energy transfer of flywheel
+		# Default: 16384
+		# Range: > 1
+		maximum_energy_transfer = 16384
+		#Maximum transfer speed requirement
+		# Default: 0.5
+		# Range: 0.0 ~ 1.0
+		flywheel_maximum_transfer_requirement = 0.5
+		#Basic energy transfer of flywheel
+		# Default: 4096
+		# Range: > 1
+		basic_energy_transfer = 4096
+
+	[coils.lv_coil]
+		#The energy modifier oflv coil
+		# Default: 1.0
+		# Range: 0.001 ~ 1000.0
+		energyModifier = 1.0
+		#The time modifier oflv coil
+		# Default: 1.0
+		# Range: 0.001 ~ 1000.0
+		timeModifier = 1.0
+
+	[coils.mv_coil]
+		#The energy modifier ofmv coil
+		# Default: 1.15
+		# Range: 0.001 ~ 1000.0
+		energyModifier = 1.15
+		#The time modifier ofmv coil
+		# Default: 1.3
+		# Range: 0.001 ~ 1000.0
+		timeModifier = 1.3
+
+	[coils.hv_coil]
+		#The energy modifier ofhv coil
+		# Default: 1.25
+		# Range: 0.001 ~ 1000.0
+		energyModifier = 1.25
+		#The time modifier ofhv coil
+		# Default: 1.7
+		# Range: 0.001 ~ 1000.0
+		timeModifier = 1.7
+
+	[coils.nichrome_coil]
+		#The energy modifier ofnichrome coil
+		# Default: 1.45
+		# Range: 0.001 ~ 1000.0
+		energyModifier = 1.45
+		#The time modifier ofnichrome coil
+		# Default: 2.2
+		# Range: 0.001 ~ 1000.0
+		timeModifier = 2.2

@@ -1,0 +1,35 @@
+{
+    "entity": "minecraft:iron_golem",
+    "name": {
+        "translate": "entity.minecraft.iron_golem",
+        "color": "#CFB198"
+    },
+    "display": {
+        "scale": 0.78
+    },
+    "sim_cost": 1024,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix",
+        "count": 1
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.iron_golem",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:iron_ingot",
+            "count": 32
+        },
+        {
+            "id": "minecraft:poppy",
+            "count": 24
+        },
+        {
+			"optional": true,
+            "id": "regions_unexplored:alpha_rose",
+            "count": 24
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:dusts/osmium"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:raw_materials/osmium"
+      }
+    }
+  ],
+  "type": "immersiveengineering:crusher",
+  "energy": 6000,
+  "input": {
+    "tag": "c:raw_materials/osmium"
+  },
+  "result": {
+    "tag": "c:dusts/osmium"
+  },
+  "secondaries": [
+    {
+      "chance": 0.33333334,
+      "output": {
+        "tag": "c:dusts/osmium"
+      }
+    }
+  ]
+}

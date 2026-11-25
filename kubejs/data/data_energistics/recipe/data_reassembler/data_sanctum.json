@@ -1,0 +1,65 @@
+{
+	"type": "data_energistics:data_reassembler",
+	"inputs": {
+		"items": [
+			{
+				"item": "ae2lt:advanced_wireless_overloaded_controller",
+				"count": 4
+			},
+			{
+				"item": "draconicevolution:wyvern_wireless_crystal",
+				"count": 4
+			},
+			{
+				"item": "data_energistics:data_framework",
+				"count": 23
+			},
+			{
+				"item": "ae2lt:matter_warping_matrix_port",
+				"count": 1
+			},
+			{
+				"item": "data_energistics:budding_data_crystal_2",
+				"count": 4
+			},
+			{
+				"item": "chaosworld_core:stellar_alloy_core",
+				"count": 4
+			},
+			{
+				"item": "chaosworld_core:nano_mainframe",
+				"count": 3
+			},
+			{
+				"item": "chaosworld_core:ingot_tech_7",
+				"count": 14
+			},
+			{
+				"item": "data_energistics:time_core",
+				"count": 7
+			}
+		],
+		"fluids": [
+			{
+				"fluid": "data_energistics:ender",
+				"amount": 6625
+			},
+			{
+				"fluid": "data_energistics:data_corrosion_liquid",
+				"amount": 7250
+			}
+		],
+		"resource": {
+			"key_type": "data_energistics:digitalization",
+			"resource": "data_energistics:data_flow",
+			"amount": 102350
+		}
+	},
+	"outputs": {
+		"items": [
+			{
+				"id": "data_energistics:data_sanctum"
+			}
+		]
+	}
+}

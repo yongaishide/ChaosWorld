@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "h": {
+      "tag": "c:fiber_hemp"
+    },
+    "r": {
+      "tag": "c:rods/iron"
+    },
+    "t": {
+      "tag": "immersiveengineering:treated_wood"
+    }
+  },
+  "pattern": [
+    "rht",
+    "rt "
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersiveengineering:toolupgrade_buzzsaw_spareblades"
+  }
+}

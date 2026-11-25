@@ -1,0 +1,40 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 52224,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "avaritia_delight:endest"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 16777215,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "avaritia_delight:flower_fragrance"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 13095679,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "avaritia_delight:low_gravity"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 0,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "avaritia_delight:overweight"
+		}
+	]
+}

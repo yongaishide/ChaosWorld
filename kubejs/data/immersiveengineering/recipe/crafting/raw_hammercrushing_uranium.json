@@ -1,0 +1,9 @@
+{
+  "type": "immersiveengineering:hammer_crushing",
+  "input": {
+    "tag": "c:raw_materials/uranium"
+  },
+  "result": {
+    "tag": "c:dusts/uranium"
+  }
+}

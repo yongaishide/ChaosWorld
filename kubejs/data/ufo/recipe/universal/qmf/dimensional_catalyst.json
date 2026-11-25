@@ -1,0 +1,76 @@
+{
+  "type": "ufo:universal_multiblock",
+  "energy": 12000000000,
+  "fluid_inputs": [
+    {
+      "amount": 512000,
+      "fluid": {
+        "amount": 1,
+        "id": "ufo:transcending_matter"
+      }
+    }
+  ],
+  "item_inputs": [
+    {
+      "amount": 16,
+      "ingredient": {
+        "item": "ufo:matterflow_catalyst_t3"
+      }
+    },
+    {
+      "amount": 16,
+      "ingredient": {
+        "item": "ufo:chrono_catalyst_t3"
+      }
+    },
+    {
+      "amount": 16,
+      "ingredient": {
+        "item": "ufo:overflux_catalyst_t3"
+      }
+    },
+    {
+      "amount": 16,
+      "ingredient": {
+        "item": "ufo:quantum_catalyst_t3"
+      }
+    },
+    {
+      "amount": 24,
+      "ingredient": {
+        "item": "chaosworld_core:white_dwarf_storage_component_256g"
+      }
+    },
+    {
+      "amount": 64,
+      "ingredient": {
+        "item": "ufo:dark_matter"
+      }
+    },
+    {
+      "amount": 32,
+      "ingredient": {
+        "item": "ufo:charged_enriched_neutronium_sphere"
+      }
+    },
+    {
+      "amount": 256,
+      "ingredient": {
+        "item": "ufo:quantum_anomaly"
+      }
+    },
+    {
+      "amount": 2048,
+      "ingredient": {
+        "item": "ufo:dimensional_processor"
+      }
+    }
+  ],
+  "item_output": {
+    "id": "ufo:dimensional_catalyst"
+  },
+  "machine": "qmf",
+  "recipe_name": "universal/qmf/dimensional_catalyst",
+  "required_tier": 3,
+  "time": 38400
+}

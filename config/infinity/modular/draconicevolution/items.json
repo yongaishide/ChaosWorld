@@ -1,0 +1,720 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:advanced_dislocator"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:advanced_magnet"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:awakened_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:awakened_crafting_injector"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:awakened_draconium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:awakened_draconium_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:awakened_draconium_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:awakened_draconium_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:basic_crafting_injector"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:basic_io_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:basic_relay_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:basic_wireless_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:celestial_manipulator"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:chaos_shard"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:chaotic_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:chaotic_bow"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:chaotic_capacitor"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:chaotic_chestpiece"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:chaotic_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:chaotic_crafting_injector"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:chaotic_energy_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:chaotic_hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:chaotic_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:chaotic_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:chaotic_staff"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:chaotic_sword"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:crafting_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:creative_capacitor"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:creative_op_capacitor"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:crystal_binder"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:deepslate_draconium_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:disenchanter"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:dislocation_inhibitor"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:dislocator"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:dislocator_pedestal"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:dislocator_receptacle"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:draconic_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:draconic_bow"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:draconic_capacitor"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:draconic_chestpiece"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:draconic_energy_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:draconic_hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:draconic_io_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:draconic_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:draconic_relay_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:draconic_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:draconic_staff"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:draconic_sword"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:draconic_wireless_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:draconium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:draconium_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:draconium_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:draconium_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:draconium_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:draconium_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:dragon_heart"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:end_draconium_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:energy_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:energy_core_stabilizer"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:energy_pylon"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:energy_transfuser"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:entity_detector"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:entity_detector_advanced"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:fluid_gate"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:flux_gate"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:generator"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:grinder"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:info_tablet"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:infused_obsidian"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_chaotic_aoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_chaotic_damage"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_chaotic_energy"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_chaotic_energy_link"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_chaotic_flight"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_chaotic_jump"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_chaotic_large_shield_capacity"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_chaotic_proj_accuracy"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_chaotic_proj_damage"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_chaotic_proj_grav_comp"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_chaotic_proj_penetration"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_chaotic_proj_velocity"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_chaotic_shield_capacity"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_chaotic_shield_control"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_chaotic_shield_recovery"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_chaotic_speed"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_chaotic_tree_harvest"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_chaotic_undying"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_draconic_aoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_draconic_auto_feed"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_draconic_damage"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_draconic_ender_collection"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_draconic_energy"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_draconic_energy_link"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_draconic_flight"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_draconic_jump"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_draconic_large_shield_capacity"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_draconic_proj_accuracy"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_draconic_proj_anti_immune"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_draconic_proj_damage"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_draconic_proj_grav_comp"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_draconic_proj_penetration"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_draconic_proj_velocity"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_draconic_shield_capacity"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_draconic_shield_control"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_draconic_shield_recovery"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_draconic_speed"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_draconic_tree_harvest"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_draconic_undying"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_draconium_aoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_draconium_auto_feed"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_draconium_damage"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_draconium_energy"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_draconium_jump"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_draconium_speed"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_wyvern_aoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_wyvern_aqua_adapt"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_wyvern_auto_feed"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_wyvern_auto_fire"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_wyvern_damage"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_wyvern_ender_collection"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_wyvern_energy"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_wyvern_energy_link"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_wyvern_flight"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_wyvern_hill_step"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_wyvern_jump"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_wyvern_junk_filter"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_wyvern_large_shield_capacity"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_wyvern_mining_stability"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_wyvern_night_vision"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_wyvern_proj_accuracy"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_wyvern_proj_damage"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_wyvern_proj_grav_comp"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_wyvern_proj_penetration"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_wyvern_proj_velocity"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_wyvern_shield_capacity"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_wyvern_shield_control"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_wyvern_shield_recovery"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_wyvern_speed"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_wyvern_tree_harvest"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:item_wyvern_undying"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:large_chaos_frag"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:magnet"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:medium_chaos_frag"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:mob_soul"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:module_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:nether_draconium_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:overworld_draconium_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:p2p_dislocator"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:p2p_dislocator_unbound"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:particle_generator"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:player_dislocator"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:player_dislocator_unbound"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:potentiometer"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:rain_sensor"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:reactor_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:reactor_injector"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:reactor_prt_focus_ring"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:reactor_prt_in_rotor"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:reactor_prt_out_rotor"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:reactor_prt_rotor_full"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:reactor_prt_stab_frame"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:reactor_stabilizer"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:small_chaos_frag"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:stabilized_spawner"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:structure_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:wyvern_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:wyvern_bow"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:wyvern_capacitor"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:wyvern_chestpiece"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:wyvern_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:wyvern_crafting_injector"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:wyvern_energy_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:wyvern_hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:wyvern_io_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:wyvern_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:wyvern_relay_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:wyvern_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:wyvern_sword"
+		},
+		{
+			"weight": 1.0,
+			"key": "draconicevolution:wyvern_wireless_crystal"
+		}
+	]
+}

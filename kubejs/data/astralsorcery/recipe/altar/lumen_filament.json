@@ -1,0 +1,65 @@
+{
+  "type": "astralsorcery:altar_crafting",
+  "base_focus_shatter_chance": 0.0,
+  "duration": 100,
+  "effects": [
+    "astralsorcery:default_altar_sparkle",
+    "astralsorcery:default_central_beam",
+    "astralsorcery:default_lumen_input",
+    "astralsorcery:default_relay_input"
+  ],
+  "grid": {
+    "key": {
+      "E": {
+        "type": "item",
+        "ingredient": {
+          "item": "astralsorcery:infused_wood_enriched"
+        }
+      },
+      "G": {
+        "type": "item",
+        "ingredient": {
+          "tag": "c:nuggets/gold"
+        }
+      },
+      "I": {
+        "type": "item",
+        "ingredient": {
+          "item": "astralsorcery:infused_wood_infused"
+        }
+      },
+      "L": {
+        "type": "item",
+        "ingredient": {
+          "item": "astralsorcery:glass_lens"
+        }
+      }
+    },
+    "pattern": [
+      "   ",
+      " L ",
+      "GGG"
+    ],
+    "relay_pattern": [
+      "     ",
+      "     ",
+      "     ",
+      " GEG ",
+      "GEIEG"
+    ]
+  },
+  "may_chain": false,
+  "only_night": true,
+  "output_modifiers": [],
+  "outputs": [
+    {
+      "count": 4,
+      "id": "astralsorcery:lumen_filament"
+    }
+  ],
+  "required_additional_inputs": [],
+  "required_fluid": [],
+  "required_lumen": [],
+  "required_starlight": [],
+  "required_type": "resonance"
+}

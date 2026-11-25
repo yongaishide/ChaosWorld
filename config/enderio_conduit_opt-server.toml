@@ -1,0 +1,27 @@
+[General]
+	#Enable custom extraction frequency for Item Conduits (1-200 ticks).
+	enableItemCustomFrequency = true
+	#Enable custom extraction frequency for Fluid Conduits (1-200 ticks).
+	enableFluidCustomFrequency = true
+	#Enable custom extraction frequency for Chemical Conduits (1-200 ticks).
+	enableChemicalCustomFrequency = true
+	#Restrict the custom extraction frequency so it cannot be set faster than the conduit's native speed for the installed type/tier (e.g. 20 ticks on a regular item conduit, 5 ticks on a fluid conduit). When enabled, lower values are automatically raised to the native speed and old save data is corrected on load; when disabled, no restriction applies and the frequency can go as low as 1 tick.
+	restrictFrequencyToNative = true
+
+[Optimization]
+	#Max sleep ticks for Item Conduits when empty/full. 0 = disable sleep for this conduit type.
+	# Default: 40
+	# Range: 0 ~ 1200
+	itemMaxSleep = 40
+	#Max sleep ticks for Fluid Conduits when empty/full. 0 = disable sleep for this conduit type.
+	# Default: 40
+	# Range: 0 ~ 1200
+	fluidMaxSleep = 40
+	#Max sleep ticks for Chemical Conduits when empty/full. 0 = disable sleep for this conduit type.
+	# Default: 40
+	# Range: 0 ~ 1200
+	chemicalMaxSleep = 40
+	#Show the Smart Sleep toggle in the pipe GUI. [true / false]
+	#When disabled, the toggle disappears from the GUI and smart sleep is always ON for every connection.
+	#Note: if a pipe type's max sleep time is set to 0, that type never sleeps regardless of this setting.
+	enableSmartSleepToggle = true

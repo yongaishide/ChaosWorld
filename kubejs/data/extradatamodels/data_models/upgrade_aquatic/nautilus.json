@@ -1,0 +1,27 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "upgrade_aquatic"
+        }
+    ],
+    "entity": "upgrade_aquatic:nautilus",
+    "name": {
+        "translate": "entity.upgrade_aquatic.nautilus",
+        "color": "#A48269"
+    },
+    "sim_cost": 48,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.nautilus",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:nautilus_shell",
+            "count": 16
+        }
+    ]
+}

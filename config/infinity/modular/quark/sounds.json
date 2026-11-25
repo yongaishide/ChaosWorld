@@ -1,0 +1,272 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "quark:ambient.chatter"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:ambient.clock"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:ambient.crickets"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:ambient.drips"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:ambient.fire"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:ambient.ocean"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:ambient.rain"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:ambient.wind"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:block.monster_box.growl"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:block.pipe.pickup"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:block.pipe.pickup.lenny"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:block.pipe.shoot"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:block.pipe.shoot.lenny"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:block.potato.do_it"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:block.potato.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:block.potato.kingbdogz"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:block.potato.soda"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:block.potato.yung"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:entity.crab.die"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:entity.crab.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:entity.crab.idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:entity.foxhound.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:entity.foxhound.crackle"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:entity.foxhound.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:entity.foxhound.eat"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:entity.foxhound.growl"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:entity.foxhound.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:entity.foxhound.pant"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:entity.foxhound.shake"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:entity.foxhound.whine"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:entity.parrot.egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:entity.pickarang.clank"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:entity.pickarang.pickup"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:entity.pickarang.spark"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:entity.pickarang.throw"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:entity.shiba.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:entity.shiba.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:entity.shiba.eat_arrow"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:entity.shiba.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:entity.shiba.pant"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:entity.shiba.step"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:entity.shiba.whine"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:entity.soul_bead.idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:entity.stoneling.cry"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:entity.stoneling.die"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:entity.stoneling.eat"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:entity.stoneling.give"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:entity.stoneling.meep"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:entity.stoneling.michael"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:entity.stoneling.purr"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:entity.stoneling.take"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:entity.toretoise.angry"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:entity.toretoise.die"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:entity.toretoise.eat"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:entity.toretoise.eat_satiated"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:entity.toretoise.harvest"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:entity.toretoise.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:entity.toretoise.idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:entity.toretoise.regrow"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:item.bucket.empty_crab"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:item.bucket.fill_crab"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:item.camera.shutter"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:item.soul_powder.spawn"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:pet.device"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:pet.neko"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:pet.slime"
+		},
+		{
+			"weight": 1.0,
+			"key": "quark:pet.wire"
+		}
+	]
+}

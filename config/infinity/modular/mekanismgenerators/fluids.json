@@ -1,0 +1,32 @@
+{
+	"elements": [
+		{
+			"data": {
+				"fluidName": "mekanismgenerators:bioethanol"
+			},
+			"weight": 1.0,
+			"key": "mekanismgenerators:bioethanol"
+		},
+		{
+			"data": {
+				"fluidName": "mekanismgenerators:deuterium"
+			},
+			"weight": 1.0,
+			"key": "mekanismgenerators:deuterium"
+		},
+		{
+			"data": {
+				"fluidName": "mekanismgenerators:fusion_fuel"
+			},
+			"weight": 1.0,
+			"key": "mekanismgenerators:fusion_fuel"
+		},
+		{
+			"data": {
+				"fluidName": "mekanismgenerators:tritium"
+			},
+			"weight": 1.0,
+			"key": "mekanismgenerators:tritium"
+		}
+	]
+}

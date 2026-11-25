@@ -1,0 +1,55 @@
+{
+	"elements": [
+		{
+			"data": {
+				"terrain_adaptation": "bury",
+				"spawn_overrides": {
+					"water_creature": {
+						"bounding_box": "piece",
+						"spawns": [
+						]
+					},
+					"underground_water_creature": {
+						"bounding_box": "piece",
+						"spawns": [
+						]
+					},
+					"ambient": {
+						"bounding_box": "piece",
+						"spawns": [
+						]
+					},
+					"axolotls": {
+						"bounding_box": "piece",
+						"spawns": [
+						]
+					},
+					"creature": {
+						"bounding_box": "piece",
+						"spawns": [
+						]
+					},
+					"water_ambient": {
+						"bounding_box": "piece",
+						"spawns": [
+						]
+					},
+					"misc": {
+						"bounding_box": "piece",
+						"spawns": [
+						]
+					},
+					"monster": {
+						"bounding_box": "piece",
+						"spawns": [
+						]
+					}
+				},
+				"step": "top_layer_modification",
+				"id": "notenoughtrials:vertical_trial_chambers"
+			},
+			"weight": 1.0,
+			"key": "notenoughtrials:vertical_trial_chambers"
+		}
+	]
+}

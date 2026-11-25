@@ -1,0 +1,39 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "friendsandfoes"
+        }
+    ],
+    "entity": "friendsandfoes:wildfire",
+    "name": {
+        "translate": "entity.friendsandfoes.wildfire",
+        "color": "#C37400"
+    },
+    "display": {
+        "scale": 0.7
+    },
+    "sim_cost": 256,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+	"trivia": "custom.trivia.wildfire",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:blaze_rod",
+            "count": 32
+        },
+        {
+            "id": "friendsandfoes:wildfire_crown_fragment",
+            "count": 1
+        },
+        {
+            "optional": true,
+            "id": "reliquary:molten_core",
+            "count": 4
+        }
+    ]
+}

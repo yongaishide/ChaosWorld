@@ -1,0 +1,20 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "eclipticseasons:crops/average_moist"
+		},
+		{
+			"weight": 1.0,
+			"key": "eclipticseasons:crops/dry_average"
+		},
+		{
+			"weight": 1.0,
+			"key": "eclipticseasons:crops/humid_humid"
+		},
+		{
+			"weight": 1.0,
+			"key": "eclipticseasons:crops/moist_humid"
+		}
+	]
+}

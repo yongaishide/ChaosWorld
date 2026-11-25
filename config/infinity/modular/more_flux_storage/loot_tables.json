@@ -1,0 +1,25 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "more_flux_storage:blocks/energy_pylon_flux"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "more_flux_storage:blocks/flux_accessor_flux"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "more_flux_storage:blocks/induction_port_flux"
+		}
+	]
+}

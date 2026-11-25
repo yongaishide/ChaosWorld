@@ -1,0 +1,30 @@
+{
+  "type": "immersiveengineering:turn_and_copy",
+  "category": "misc",
+  "key": {
+    "b": {
+      "type": "immersiveengineering:fluid_stack",
+      "amount": 1000,
+      "tag": "minecraft:water"
+    },
+    "c": {
+      "tag": "c:clay"
+    },
+    "s": {
+      "tag": "c:sands"
+    },
+    "t": {
+      "item": "immersiveengineering:hemp_fabric"
+    }
+  },
+  "pattern": [
+    "scs",
+    "tbt",
+    "scs"
+  ],
+  "quarter_turn": true,
+  "result": {
+    "count": 8,
+    "id": "immersiveengineering:hempcrete"
+  }
+}

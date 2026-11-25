@@ -1,0 +1,885 @@
+{
+  "title": "ii",
+  "icon": "enderio_evolution:basic_alloy_smelter",
+  "order": 2,
+  "quests": [
+    {
+      "id": "21f982499c136982",
+      "x": -1.0,
+      "y": 1.0,
+      "deps": [
+        "7677ed92b8a59359/6be7539266af7c95"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "enderio:alloy_smelter"
+        }
+      ]
+    },
+    {
+      "id": "619cd43b0a5127b6",
+      "x": -1.0,
+      "y": -3.0,
+      "deps": [
+        "7677ed92b8a59359/6be7539266af7c95"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "mekanism:metallurgic_infuser"
+        }
+      ]
+    },
+    {
+      "id": "3edd068e6277d551",
+      "x": -1.0,
+      "y": -5.0,
+      "deps": [
+        "619cd43b0a5127b6"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "extendedcrafting:enhanced_redstone_ingot"
+        }
+      ]
+    },
+    {
+      "id": "2fd4ec14e4c6aa6b",
+      "x": -1.0,
+      "y": -7.0,
+      "deps": [
+        "3edd068e6277d551"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "extendedcrafting:flux_crafter"
+        },
+        {
+          "type": "item",
+          "item": "extendedcrafting:flux_alternator"
+        }
+      ]
+    },
+    {
+      "id": "4d287f13f1870117",
+      "x": -1.0,
+      "y": -9.0,
+      "deps": [
+        "2fd4ec14e4c6aa6b"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "fluxnetworks:flux_core"
+        },
+        {
+          "type": "item",
+          "item": "fluxnetworks:flux_block"
+        }
+      ]
+    },
+    {
+      "id": "5363061e91654005",
+      "x": -1.0,
+      "y": -11.0,
+      "deps": [
+        "4d287f13f1870117"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "fluxnetworks:flux_controller"
+        }
+      ]
+    },
+    {
+      "id": "49d62db9e3263f9d",
+      "x": -3.0,
+      "y": -13.0,
+      "deps": [
+        "5363061e91654005"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "more_flux_storage:energy_pylon_flux"
+        }
+      ]
+    },
+    {
+      "id": "6c4eb991e2a1d634",
+      "x": -1.0,
+      "y": -14.0,
+      "deps": [
+        "5363061e91654005"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "more_flux_storage:flux_accessor_flux"
+        }
+      ]
+    },
+    {
+      "id": "783c7a74612f9848",
+      "x": 1.0,
+      "y": -13.0,
+      "deps": [
+        "5363061e91654005"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "more_flux_storage:induction_port_flux"
+        }
+      ]
+    },
+    {
+      "id": "683cf00b79a9e0fa",
+      "x": 1.0,
+      "y": -5.0,
+      "deps": [
+        "4f12cf990dc17183"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "mekanism:basic_tier_installer"
+        }
+      ]
+    },
+    {
+      "id": "4f12cf990dc17183",
+      "x": 1.0,
+      "y": -3.0,
+      "deps": [
+        "619cd43b0a5127b6"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "mekanism:basic_control_circuit"
+        },
+        {
+          "type": "item",
+          "item": "mekanism:alloy_infused"
+        }
+      ]
+    },
+    {
+      "id": "13762b7209a5f19a",
+      "x": -1.0,
+      "y": -1.0,
+      "deps": [
+        "7677ed92b8a59359/6be7539266af7c95"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "naturesaura:nature_altar"
+        }
+      ]
+    },
+    {
+      "id": "616725ed3318bcb3",
+      "x": 1.0,
+      "y": -1.0,
+      "deps": [
+        "21f982499c136982",
+        "13762b7209a5f19a"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "enderio:soularium_ingot"
+        }
+      ]
+    },
+    {
+      "id": "2edd6974cfc0d12a",
+      "x": 3.0,
+      "y": -1.0,
+      "deps": [
+        "616725ed3318bcb3",
+        "71a0c31a36df3bc3"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "enderio:slice_and_splice"
+        }
+      ]
+    },
+    {
+      "id": "684fd1c745323c2a",
+      "x": 7.0,
+      "y": 1.0,
+      "deps": [
+        "30575a0b9a63afc5"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "enderio:soul_binder"
+        }
+      ]
+    },
+    {
+      "id": "30575a0b9a63afc5",
+      "x": 5.0,
+      "y": -1.0,
+      "deps": [
+        "2edd6974cfc0d12a",
+        "3970b1ed264e6a14"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "enderio:z_logic_controller"
+        }
+      ]
+    },
+    {
+      "id": "7894dbb36933d2b4",
+      "x": 9.0,
+      "y": 1.0,
+      "deps": [
+        "684fd1c745323c2a"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "enderio:ender_crystal"
+        }
+      ]
+    },
+    {
+      "id": "27939aad5737c1ac",
+      "x": 11.0,
+      "y": 1.0,
+      "deps": [
+        "7894dbb36933d2b4"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "alltheores:enderium_ingot"
+        }
+      ]
+    },
+    {
+      "id": "3970b1ed264e6a14",
+      "x": 3.0,
+      "y": -3.0,
+      "deps": [
+        "4f12cf990dc17183"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "mekanism:advanced_control_circuit"
+        }
+      ]
+    },
+    {
+      "id": "5f7f9b62de4376ca",
+      "x": -5.0,
+      "y": -3.0,
+      "deps": [
+        "7eff749330d4d3cf"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "chaosworld_core:circuit_processor"
+        }
+      ]
+    },
+    {
+      "id": "7dc0bc86c0f92be5",
+      "x": 3.0,
+      "y": -5.0,
+      "deps": [
+        "4f12cf990dc17183"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "mekanism:resistive_heater"
+        }
+      ]
+    },
+    {
+      "id": "6c5807d3e5584987",
+      "x": -5.0,
+      "y": -7.0,
+      "deps": [
+        "43b6e55cfbeb12ec"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "chaosworld_core:workstation"
+        }
+      ]
+    },
+    {
+      "id": "43b6e55cfbeb12ec",
+      "x": -5.0,
+      "y": -5.0,
+      "deps": [
+        "5f7f9b62de4376ca"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "chaosworld_core:assembly"
+        }
+      ]
+    },
+    {
+      "id": "7eff749330d4d3cf",
+      "x": -5.0,
+      "y": -1.0,
+      "deps": [
+        "7677ed92b8a59359/6be7539266af7c95"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "chaosworld_core:mechanical_assembler"
+        }
+      ]
+    },
+    {
+      "id": "6f7353c5c8bf839a",
+      "x": 7.0,
+      "y": -1.0,
+      "deps": [
+        "30575a0b9a63afc5"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "advanced_ae:reaction_chamber"
+        }
+      ]
+    },
+    {
+      "id": "586f43a7fe1b3317",
+      "x": 13.0,
+      "y": 1.0,
+      "deps": [
+        "27939aad5737c1ac"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "mekanism:alloy_reinforced"
+        }
+      ]
+    },
+    {
+      "id": "11530b12837bcf77",
+      "x": 15.0,
+      "y": 1.0,
+      "deps": [
+        "586f43a7fe1b3317"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "mekanism:elite_control_circuit"
+        }
+      ]
+    },
+    {
+      "id": "487a2fd75215dac3",
+      "x": 9.0,
+      "y": -1.0,
+      "deps": [
+        "6f7353c5c8bf839a"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "icon": "data_energistics:radix_containment_sphere[ae2:stored_energy=50000.0d]",
+          "item": "data_energistics:radix_containment_sphere"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "item",
+          "item": "data_energistics:radix_containment_sphere[ae2:storage_cell_inv=[{\"#\":120L,\"#t\":\"data_energistics:manifest_binary\"}],ae2:stored_energy=50000.0d]"
+        }
+      ]
+    },
+    {
+      "id": "24126fa5b4f37967",
+      "x": 11.0,
+      "y": -1.0,
+      "deps": [
+        "487a2fd75215dac3",
+        "23d2abf435d07899"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "data_energistics:budding_data_crystal_3"
+        }
+      ]
+    },
+    {
+      "id": "35d519c7e7eb19d3",
+      "x": 11.0,
+      "y": -3.0,
+      "deps": [
+        "24126fa5b4f37967"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "data_energistics:data_dust"
+        }
+      ]
+    },
+    {
+      "id": "63c55110f142aa1a",
+      "x": 13.0,
+      "y": -5.0,
+      "deps": [
+        "640476eaa270b721",
+        "35d519c7e7eb19d3"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "chaosworld_core:ingot_tech_5"
+        }
+      ]
+    },
+    {
+      "id": "6ec5feaa20a0de39",
+      "x": 7.0,
+      "y": -3.0,
+      "deps": [
+        "30575a0b9a63afc5"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "ae2cs:crystal_aggregator"
+        }
+      ]
+    },
+    {
+      "id": "23d2abf435d07899",
+      "x": 9.0,
+      "y": -3.0,
+      "deps": [
+        "6ec5feaa20a0de39"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "data_energistics:budding_data_crystal_0"
+        }
+      ]
+    },
+    {
+      "id": "18cb31f1bdbc7f12",
+      "x": 17.0,
+      "y": -5.0,
+      "deps": [
+        "6ca91be7ae4ceea2"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "ae2lt:overload_alloy_plate"
+        }
+      ]
+    },
+    {
+      "id": "6ca91be7ae4ceea2",
+      "x": 15.0,
+      "y": -5.0,
+      "deps": [
+        "63c55110f142aa1a",
+        "6d36d2232ca903f7"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "ae2lt:lightning_simulation_room"
+        }
+      ]
+    },
+    {
+      "id": "54a1dba152a7ba4e",
+      "x": 17.0,
+      "y": -1.0,
+      "shape": "gear",
+      "size": 2.0,
+      "deps": [
+        "079fafd999f6faf8",
+        "18cb31f1bdbc7f12"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "ae2lt:overload_machine_frame"
+        }
+      ]
+    },
+    {
+      "id": "0dd0f6a063f98e47",
+      "x": -5.0,
+      "y": 1.0,
+      "deps": [
+        "7677ed92b8a59359/6be7539266af7c95"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "mekanism:enrichment_chamber"
+        }
+      ]
+    },
+    {
+      "id": "6d36d2232ca903f7",
+      "x": 13.0,
+      "y": -3.0,
+      "deps": [
+        "25da6234ab7cf3fd/5151f30f4f0bec14",
+        "4c697de472c92c4d"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "ae2lt:overload_processor"
+        }
+      ]
+    },
+    {
+      "id": "640476eaa270b721",
+      "x": 11.0,
+      "y": -5.0,
+      "deps": [
+        "4904d7e5094cb162"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "advanced_ae:quantum_alloy"
+        }
+      ]
+    },
+    {
+      "id": "4904d7e5094cb162",
+      "x": 9.0,
+      "y": -5.0,
+      "deps": [
+        "7677ed92b8a59359/6bd843eab87f3222",
+        "6ec5feaa20a0de39"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "neoecoae:crystal_ingot"
+        }
+      ]
+    },
+    {
+      "id": "3578d8c416929f1a",
+      "x": 11.0,
+      "y": -9.0,
+      "deps": [
+        "1d9d2a6147fa58ae"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "draconicevolution:draconium_ingot"
+        }
+      ]
+    },
+    {
+      "id": "1d9d2a6147fa58ae",
+      "x": 11.0,
+      "y": -7.0,
+      "deps": [
+        "640476eaa270b721"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "ae2cs:quantum_crystal_dust"
+        }
+      ]
+    },
+    {
+      "id": "079fafd999f6faf8",
+      "x": 15.0,
+      "y": -1.0,
+      "deps": [
+        "11530b12837bcf77"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "chaosworld_core:nano_processor"
+        }
+      ]
+    },
+    {
+      "id": "64c5ffca74bc9cbf",
+      "x": 15.0,
+      "y": -3.0,
+      "deps": [
+        "6d36d2232ca903f7"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "ae2lt:lightning_collector"
+        }
+      ]
+    },
+    {
+      "id": "33a8554183730832",
+      "x": 1.0,
+      "y": 1.0,
+      "deps": [
+        "21f982499c136982"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "71a0c31a36df3bc3",
+      "x": 3.0,
+      "y": 1.0,
+      "deps": [
+        "33a8554183730832"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "076d4e9345e7e08a",
+      "x": 5.0,
+      "y": 1.0,
+      "deps": [
+        "71a0c31a36df3bc3"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "48d4f0f9dfd1516e",
+      "x": 5.0,
+      "y": 3.0,
+      "deps": [
+        "076d4e9345e7e08a"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "684a3199c1fa9044",
+      "x": 3.0,
+      "y": 3.0,
+      "deps": [
+        "48d4f0f9dfd1516e"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "4c697de472c92c4d",
+      "x": 13.0,
+      "y": -1.0,
+      "deps": [
+        "25da6234ab7cf3fd/5151f30f4f0bec14"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "25108e1f98833bfa",
+      "x": 5.0,
+      "y": -3.0,
+      "deps": [
+        "30575a0b9a63afc5"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "372ebb47138c1c71",
+      "x": 7.0,
+      "y": 3.0,
+      "deps": [
+        "48d4f0f9dfd1516e"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "industrialforegoing:pink_slime_ingot"
+        }
+      ]
+    },
+    {
+      "id": "5a7710a6b8bedbdd",
+      "x": 17.0,
+      "y": -7.0,
+      "deps": [
+        "2311c640692dfe5b"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "ae2lt:overload_singularity"
+        }
+      ]
+    },
+    {
+      "id": "2311c640692dfe5b",
+      "x": 15.0,
+      "y": -7.0,
+      "deps": [
+        "2feadb5c6918a8a3"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "extendedae_plus:oblivion_singularity"
+        }
+      ]
+    },
+    {
+      "id": "2feadb5c6918a8a3",
+      "x": 13.0,
+      "y": -7.0,
+      "deps": [
+        "6ba913128151b1ab/2b13452c3def2d24",
+        "640476eaa270b721"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "advanced_ae:quantum_alloy_plate"
+        }
+      ]
+    },
+    {
+      "id": "6ab510bbc9321efa",
+      "x": 1.0,
+      "y": 3.0,
+      "deps": [
+        "684a3199c1fa9044"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "141d81d1967a9971",
+      "x": 19.0,
+      "y": -3.0,
+      "deps": [
+        "64c5ffca74bc9cbf"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        },
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "link_6be7539266af7c95",
+      "x": -3.0,
+      "y": -1.0,
+      "optional": true,
+      "tasks": [
+        {
+          "type": "quest",
+          "quest": "7677ed92b8a59359/6be7539266af7c95"
+        }
+      ],
+      "silent": true
+    }
+  ],
+  "decorations": [
+    {
+      "type": "image",
+      "x": -3.0,
+      "y": -9.0,
+      "w": 1.4166666,
+      "h": 0.45833334
+    },
+    {
+      "type": "image",
+      "x": 0.5,
+      "y": -9.0,
+      "w": 1.0833334,
+      "h": 0.45833334
+    },
+    {
+      "type": "image",
+      "image": "ftblibrary:textures/icons/back.png",
+      "x": -1.0,
+      "y": -15.0,
+      "w": 1.0,
+      "h": 1.0,
+      "rotation": -90.0
+    },
+    {
+      "type": "image",
+      "x": -1.0,
+      "y": -16.0,
+      "w": 0.75,
+      "h": 0.45833334
+    }
+  ]
+}

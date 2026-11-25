@@ -1,0 +1,19 @@
+[game_mechanics]
+	#是否启用植物盆作物渲染
+	enable_botany_pot_rendering = true
+
+[beef_tool]
+	#造化杖连点模式每个客户端 tick 触发多少次右键
+	#调大 = 更快（默认 4 约等于 80 次/秒），调小 = 降低服务端压力
+	#仅在客户端生效，无需服务端同意
+	# Default: 4
+	# Range: 1 ~ 20
+	beef_autoclick_clicks_per_tick = 4
+	#携带造化杖或兼容扳手飞行时，在没有水平移动输入的情况下衰减水平速度
+	#该设置仅对当前客户端生效，适用于所有世界
+	cancel_flight_inertia = true
+
+[update_check]
+	#进入世界时检查 CurseForge 上是否有新版本，有则在聊天栏提示
+	#仅客户端生效；结果缓存 6 小时，每次进入世界都会提示
+	update_check_enabled = false

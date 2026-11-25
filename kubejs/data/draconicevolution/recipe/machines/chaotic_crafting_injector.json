@@ -1,0 +1,62 @@
+{
+  "type": "draconicevolution:fusion_crafting",
+  "catalyst": {
+    "item": "draconicevolution:awakened_crafting_injector"
+  },
+  "ingredients": [
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "chaosworld_core:ingot_chaotic_metal"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "chaosworld_core:ingot_chaotic_metal"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "chaosworld_core:crystal_computer"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "chaosworld_core:crystal_computer"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "draconicevolution:chaotic_energy_core"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "draconicevolution:chaotic_energy_core"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "chaosworld_core:ingot_chaotic_metal"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "chaosworld_core:ingot_chaotic_metal"
+      }
+    }
+  ],
+  "result": {
+    "count": 2,
+    "id": "draconicevolution:chaotic_crafting_injector"
+  },
+  "techLevel": "draconic",
+  "totalEnergy": 8000000
+}

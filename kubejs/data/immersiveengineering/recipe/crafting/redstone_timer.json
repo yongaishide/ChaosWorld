@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "immersiveengineering:connector_redstone"
+    },
+    "e": {
+      "item": "immersiveengineering:component_electronic"
+    },
+    "t": {
+      "item": "immersiveengineering:electron_tube"
+    }
+  },
+  "pattern": [
+    " t ",
+    "te ",
+    "  c"
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersiveengineering:redstone_timer"
+  }
+}

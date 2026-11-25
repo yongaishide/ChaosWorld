@@ -1,0 +1,41 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botania"
+    }
+  ],
+  "type": "botania:runic_altar",
+  "reagent": {
+    "item": "botania:livingrock"
+  },
+  "mana": 25000,
+  "catalysts": [],
+  "ingredients": [
+    {
+      "item": "ae2ltpp:basic_packaged_core"
+    },
+    {
+      "item": "botania:rune_of_water"
+    },
+    {
+      "item": "botania:rune_of_fire"
+    },
+    {
+      "item": "botania:rune_of_earth"
+    },
+    {
+      "item": "botania:rune_of_air"
+    },
+    {
+      "tag": "c:ingots/manasteel"
+    },
+    {
+      "tag": "c:ingots/manasteel"
+    }
+  ],
+  "output": {
+    "id": "ae2ltpp:botania_runic_altar_packaged_core",
+    "count": 1
+  }
+}

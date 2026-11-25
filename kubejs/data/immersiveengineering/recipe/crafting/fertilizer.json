@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:dusts/saltpeter"
+    },
+    {
+      "tag": "c:slag"
+    },
+    {
+      "tag": "c:dusts/sulfur"
+    },
+    {
+      "type": "immersiveengineering:fluid_stack",
+      "amount": 1000,
+      "tag": "minecraft:water"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "id": "immersiveengineering:fertilizer"
+  }
+}

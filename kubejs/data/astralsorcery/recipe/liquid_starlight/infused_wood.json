@@ -1,0 +1,24 @@
+{
+  "type": "astralsorcery:liquid_starlight",
+  "color": -1,
+  "consumes_inputs": true,
+  "consumes_liquid": false,
+  "duration": 6,
+  "input": {
+    "count": 1,
+    "ingredient": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "other_inputs": [],
+  "output_modifiers": [
+    {
+      "type": "astralsorcery:drop_item",
+      "result": {
+        "count": 1,
+        "id": "astralsorcery:infused_wood"
+      }
+    }
+  ],
+  "random_additional_duration": 10
+}

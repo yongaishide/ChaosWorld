@@ -1,0 +1,30 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "cataclysm"
+		}
+    ],
+    "entity": "cataclysm:hippocamtus",
+    "name": {
+        "translate": "entity.cataclysm.hippocamtus",
+        "color": "#6E7C95"
+    },
+	"display": {
+        "scale": 0.68
+    },
+    "sim_cost": 256,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.hippocamtus",
+    "fabricator_drops": [
+		{
+            "id": "cataclysm:lacrima",
+            "count": 8
+        }
+    ]
+}

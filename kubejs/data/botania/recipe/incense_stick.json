@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:blaze_powder"
+    },
+    "G": {
+      "item": "minecraft:ghast_tear"
+    },
+    "T": {
+      "item": "botania:livingwood_twig"
+    }
+  },
+  "pattern": [
+    "  G",
+    " B ",
+    "T  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "botania:incense_stick"
+  }
+}

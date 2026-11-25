@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "minecraft:shield"
+    },
+    "s": {
+      "tag": "c:plates/steel"
+    },
+    "w": {
+      "tag": "immersiveengineering:treated_wood"
+    }
+  },
+  "pattern": [
+    "sws",
+    "scs",
+    "sws"
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersiveengineering:shield"
+  }
+}

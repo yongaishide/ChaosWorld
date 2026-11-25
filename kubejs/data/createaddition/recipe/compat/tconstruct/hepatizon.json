@@ -1,0 +1,30 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:obsidians"
+    },
+    {
+      "tag": "c:ingots/cobalt"
+    },
+    {
+      "tag": "c:ingots/copper"
+    },
+    {
+      "tag": "c:ingots/copper"
+    }
+  ],
+  "results": [
+    {
+      "id": "tconstruct:hepatizon_ingot",
+      "count": 2
+    }
+  ],
+  "heatRequirement": "superheated",
+  "neoforge:conditions": [
+    {
+    	"type": "neoforge:mod_loaded",
+    	"modid": "tconstruct"
+  	}
+  ]
+}

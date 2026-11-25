@@ -1,0 +1,31 @@
+{
+  "type": "ae2lt:lightning_simulation",
+  "priority": 0,
+  "inputs": [
+    {
+      "ingredient": {
+        "item": "neoecoae:energized_fluix_crystal_dust"
+      },
+      "count": 16
+    },
+    {
+      "ingredient": {
+        "item": "occultism:amethyst_dust"
+      },
+      "count": 16
+    },
+    {
+      "ingredient": {
+        "item": "ae2lt:overload_crystal_dust"
+      },
+      "count": 16
+    }
+  ],
+  "result": {
+    "id": "ae2cs:overload_crystal_seed",
+    "count": 32
+  },
+  "totalEnergy": 200000,
+  "lightningCost": 4,
+  "lightningTier": "high_voltage"
+}

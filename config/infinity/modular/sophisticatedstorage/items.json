@@ -1,0 +1,584 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:acacia_storage_connector"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:advanced_alchemy_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:advanced_compacting_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:advanced_feeding_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:advanced_filter_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:advanced_hopper_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:advanced_jukebox_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:advanced_magnet_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:advanced_pickup_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:advanced_pump_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:advanced_void_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:alchemy_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:auto_blasting_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:auto_smelting_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:auto_smoking_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:bamboo_storage_connector"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:barrel"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:basic_tier_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:basic_to_copper_tier_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:basic_to_diamond_tier_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:basic_to_gold_tier_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:basic_to_iron_tier_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:basic_to_netherite_tier_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:birch_storage_connector"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:blasting_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:cherry_storage_connector"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:compacting_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:compression_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:copper_barrel"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:copper_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:copper_shulker_box"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:copper_tank"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:copper_to_diamond_tier_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:copper_to_gold_tier_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:copper_to_iron_tier_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:copper_to_netherite_tier_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:crafting_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:crimson_storage_connector"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:dark_oak_storage_connector"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:debug_tool"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:decoration_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:diamond_barrel"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:diamond_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:diamond_shulker_box"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:diamond_tank"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:diamond_to_netherite_tier_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:feeding_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:filter_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:gold_barrel"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:gold_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:gold_shulker_box"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:gold_tank"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:gold_to_diamond_tier_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:gold_to_netherite_tier_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:hopper_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:inaccessible_slot"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:infinity_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:iron_barrel"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:iron_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:iron_shulker_box"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:iron_tank"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:iron_to_diamond_tier_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:iron_to_gold_tier_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:iron_to_netherite_tier_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:jukebox_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:jungle_storage_connector"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:limited_barrel_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:limited_barrel_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:limited_barrel_3"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:limited_barrel_4"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:limited_copper_barrel_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:limited_copper_barrel_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:limited_copper_barrel_3"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:limited_copper_barrel_4"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:limited_diamond_barrel_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:limited_diamond_barrel_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:limited_diamond_barrel_3"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:limited_diamond_barrel_4"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:limited_gold_barrel_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:limited_gold_barrel_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:limited_gold_barrel_3"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:limited_gold_barrel_4"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:limited_iron_barrel_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:limited_iron_barrel_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:limited_iron_barrel_3"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:limited_iron_barrel_4"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:limited_netherite_barrel_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:limited_netherite_barrel_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:limited_netherite_barrel_3"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:limited_netherite_barrel_4"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:magnet_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:mangrove_storage_connector"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:netherite_barrel"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:netherite_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:netherite_shulker_box"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:netherite_tank"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:oak_storage_connector"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:packing_tape"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:paintbrush"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:pickup_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:pump_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:shulker_box"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:smelting_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:smoking_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:spruce_storage_connector"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:stack_downgrade_tier_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:stack_downgrade_tier_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:stack_downgrade_tier_3"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:stack_upgrade_omega_tier"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:stack_upgrade_tier_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:stack_upgrade_tier_1_plus"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:stack_upgrade_tier_1_plus_to_tier_2_conversion"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:stack_upgrade_tier_1_plus_to_tier_3_conversion"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:stack_upgrade_tier_1_plus_to_tier_4_conversion"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:stack_upgrade_tier_1_plus_to_tier_5_conversion"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:stack_upgrade_tier_1_to_tier_1_plus_conversion"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:stack_upgrade_tier_1_to_tier_2_conversion"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:stack_upgrade_tier_1_to_tier_3_conversion"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:stack_upgrade_tier_1_to_tier_4_conversion"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:stack_upgrade_tier_1_to_tier_5_conversion"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:stack_upgrade_tier_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:stack_upgrade_tier_2_to_tier_3_conversion"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:stack_upgrade_tier_2_to_tier_4_conversion"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:stack_upgrade_tier_2_to_tier_5_conversion"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:stack_upgrade_tier_3"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:stack_upgrade_tier_3_to_tier_4_conversion"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:stack_upgrade_tier_3_to_tier_5_conversion"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:stack_upgrade_tier_4"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:stack_upgrade_tier_4_to_tier_5_conversion"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:stack_upgrade_tier_5"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:stonecutter_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:storage_input"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:storage_io"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:storage_link"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:storage_output"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:storage_tool"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:super_packing_tape"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:survival_infinity_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:tank"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:upgrade_base"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:void_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:warped_storage_connector"
+		},
+		{
+			"weight": 1.0,
+			"key": "sophisticatedstorage:xp_pump_upgrade"
+		}
+	]
+}

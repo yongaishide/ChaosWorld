@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedae"
+    }
+  ],
+  "type": "ufo:universal_multiblock",
+  "machine": "quantum_processor_assembler",
+  "recipe_name": "universal/quantum_processor_assembler/concurrent_processor_print_to_concurrent_processor",
+  "item_inputs": [
+    {
+      "ingredient": {
+        "item": "extendedae:concurrent_processor_print"
+      },
+      "amount": 32768
+    },
+    {
+      "ingredient": {
+        "item": "ae2:printed_silicon"
+      },
+      "amount": 32768
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:redstone"
+      },
+      "amount": 32768
+    }
+  ],
+  "item_output": {
+    "id": "extendedae:concurrent_processor",
+    "count": 32768
+  },
+  "energy": 6000000,
+  "time": 100,
+  "required_tier": 1
+}

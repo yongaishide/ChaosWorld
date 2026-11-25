@@ -1,0 +1,15 @@
+{
+  "type": "immersiveengineering:alloy",
+  "input0": {
+    "tag": "c:ingots/copper"
+  },
+  "input1": {
+    "tag": "c:ingots/nickel"
+  },
+  "result": {
+    "basePredicate": {
+      "tag": "c:ingots/constantan"
+    },
+    "count": 2
+  }
+}

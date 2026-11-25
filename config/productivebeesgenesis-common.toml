@@ -1,0 +1,4 @@
+#通用显示配置 — 两端分别加载本地设置，不按存档区分
+[common]
+	#使用 K/M/G/T 代替千分位显示
+	enableLargeNumberAbbreviation = true

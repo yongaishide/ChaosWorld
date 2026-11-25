@@ -1,0 +1,78 @@
+{
+  "type": "astralsorcery:altar_crafting",
+  "base_focus_shatter_chance": 0.0,
+  "duration": 100,
+  "effects": [
+    "astralsorcery:default_altar_sparkle",
+    "astralsorcery:default_central_beam",
+    "astralsorcery:default_lumen_input",
+    "astralsorcery:default_relay_input"
+  ],
+  "grid": {
+    "key": {
+      "L": {
+        "type": "item",
+        "ingredient": {
+          "item": "astralsorcery:glass_lens"
+        }
+      },
+      "N": {
+        "type": "item",
+        "ingredient": {
+          "item": "astralsorcery:nocturnal_powder"
+        }
+      },
+      "S": {
+        "type": "item",
+        "ingredient": {
+          "item": "astralsorcery:stardust"
+        }
+      }
+    },
+    "pattern": [
+      " N ",
+      "NLN",
+      " N "
+    ],
+    "relay_pattern": [
+      "     ",
+      " S S ",
+      "     ",
+      " S S ",
+      "     "
+    ]
+  },
+  "may_chain": false,
+  "only_night": true,
+  "output_modifiers": [],
+  "outputs": [
+    {
+      "count": 8,
+      "id": "astralsorcery:perk_seal"
+    }
+  ],
+  "required_additional_inputs": [
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "astralsorcery:nocturnal_powder"
+      }
+    },
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "astralsorcery:nocturnal_powder"
+      }
+    },
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "astralsorcery:nocturnal_powder"
+      }
+    }
+  ],
+  "required_fluid": [],
+  "required_lumen": [],
+  "required_starlight": [],
+  "required_type": "resonance"
+}

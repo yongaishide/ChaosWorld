@@ -1,0 +1,15 @@
+{
+  "type": "createaddition:charging",
+  "energy": 4000,
+  "ingredients": [
+    {
+      "item": "minecraft:oxidized_cut_copper"
+    }
+  ],
+  "max_charge_rate": 200,
+  "results": [
+    {
+      "id": "minecraft:weathered_cut_copper"
+    }
+  ]
+}

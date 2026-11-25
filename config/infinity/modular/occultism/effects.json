@@ -1,0 +1,85 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 9830913,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "occultism:bat_lifesteal"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 6305299,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "occultism:beaver_harvest"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 16776960,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "occultism:double_jump"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 16766720,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "occultism:dragon_greed"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 14997671,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "occultism:mummy_dodge"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 16552194,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "occultism:pumpkin_head"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 3402751,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "occultism:step_blocked"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 3402751,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "occultism:step_height"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 16776960,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "occultism:third_eye"
+		}
+	]
+}

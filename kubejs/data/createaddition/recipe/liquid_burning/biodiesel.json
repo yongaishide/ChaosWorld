@@ -1,0 +1,18 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "createaddition:has_fluid_tag",
+      "fluidTag": "c:biodiesel"
+    }
+  ],
+  "type": "createaddition:liquid_burning",
+  "burn_time": 24000,
+  "ingredients": [
+    {
+      "type": "neoforge:tag",
+      "amount": 1000,
+      "tag": "c:biodiesel"
+    }
+  ],
+  "results": []
+}

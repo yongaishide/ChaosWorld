@@ -1,0 +1,26 @@
+{
+  "type": "neoecoae:integrated_working_station",
+  "energy": 144000,
+  "inputItems": [
+    {
+      "count": 1,
+      "item": "extendedcrafting:crafting_core"
+    },
+    {
+      "count": 1,
+      "item": "ae2lt:lightning_collapse_matrix"
+    },
+    {
+      "count": 4,
+      "item": "ufo:obsidian_matrix"
+    },
+    {
+      "count": 4,
+      "item": "draconicevolution:draconium_core"
+    }
+  ],
+  "itemOutput": {
+    "count": 1,
+    "id": "draconicevolution:crafting_core"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "immersiveengineering:sawmill",
+  "energy": 800,
+  "input": {
+    "item": "minecraft:stripped_bamboo_block"
+  },
+  "result": {
+    "count": 3,
+    "id": "minecraft:bamboo_planks"
+  },
+  "secondaryOutputs": [
+    {
+      "tag": "c:dusts/wood"
+    }
+  ],
+  "strippingSecondaries": []
+}

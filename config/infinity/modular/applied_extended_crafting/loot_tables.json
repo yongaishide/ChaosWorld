@@ -1,0 +1,53 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "applied_extended_crafting:blocks/crafter_core_pattern_provider"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "applied_extended_crafting:blocks/ender_crafter_pattern_provider"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "applied_extended_crafting:blocks/flux_crafter_pattern_provider"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "applied_extended_crafting:blocks/table_advanced_pattern_provider"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "applied_extended_crafting:blocks/table_basic_pattern_provider"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "applied_extended_crafting:blocks/table_elite_pattern_provider"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "applied_extended_crafting:blocks/table_ultimate_pattern_provider"
+		}
+	]
+}

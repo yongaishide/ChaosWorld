@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "enderio_evolution:energetic_silver_ingot"
+    },
+    "B": {
+      "tag": "c:dusts/coal"
+    },
+    "C": {
+      "item": "enderio_evolution:capacitor_silver"
+    }
+  },
+  "pattern": [
+    " A ",
+    "CBC",
+    " A "
+  ],
+  "result": {
+    "count": 1,
+    "id": "enderio_evolution:capacitor_energetic_silver"
+  }
+}

@@ -1,0 +1,30 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "ars_nouveau"
+        }
+    ],
+    "entity": "ars_nouveau:drygmy",
+    "name": {
+        "translate": "entity.ars_nouveau.drygmy",
+        "color": "#644117"
+    },
+    "display": {
+        "scale": 1.5
+    },
+    "sim_cost": 64,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+	"trivia": "custom.trivia.drygmy",
+    "fabricator_drops": [
+        {
+            "id": "ars_nouveau:drygmy_charm",
+            "count": 1
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:not",
+      "value": {
+        "condition": "fabric:all_mods_loaded",
+        "values": [
+          "gardenofglass"
+        ]
+      }
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:mod_loaded",
+        "modid": "gardenofglass"
+      }
+    }
+  ],
+  "type": "botania:orechid",
+  "cooldown": 100,
+  "input": {
+    "type": "botania:block",
+    "block": "minecraft:stone"
+  },
+  "mana": 17500,
+  "output": {
+    "type": "botania:block",
+    "block": "minecraft:diamond_ore"
+  },
+  "weight": 10
+}

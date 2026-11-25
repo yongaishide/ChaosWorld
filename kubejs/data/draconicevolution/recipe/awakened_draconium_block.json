@@ -1,0 +1,64 @@
+{
+  "type": "draconicevolution:fusion_crafting",
+  "catalyst": {
+    "type": "draconicevolution:stack",
+    "count": 4,
+    "items": "draconicevolution:draconium_block"
+  },
+  "ingredients": [
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "chaosworld_core:ingot_draconic_metal"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "chaosworld_core:ingot_draconic_metal"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "ufo:neutron_star_fragment_ingot"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "ufo:neutron_star_fragment_ingot"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "mysticalagriculture:awakened_supremium_essence"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "draconicevolution:dragon_heart"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "chaosworld_core:ingot_draconic_metal"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "chaosworld_core:ingot_draconic_metal"
+      }
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "draconicevolution:awakened_draconium_block"
+  },
+  "techLevel": "draconic",
+  "totalEnergy": 50000000
+}

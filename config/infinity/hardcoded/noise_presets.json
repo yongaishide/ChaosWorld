@@ -1,0 +1,37 @@
+{
+  "infinity_version": 2000003,
+  "elements": [
+    {
+      "key": "minecraft:overworld",
+      "weight": 2.0
+    },
+    {
+      "key": "minecraft:nether",
+      "weight": 0.5
+    },
+    {
+      "key": "minecraft:amplified",
+      "weight": 1.0
+    },
+    {
+      "key": "minecraft:caves",
+      "weight": 0.5
+    },
+    {
+      "key": "minecraft:end",
+      "weight": 0.2
+    },
+    {
+      "key": "minecraft:floating_islands",
+      "weight": 1.0
+    },
+    {
+      "key": "infinity:whack",
+      "weight": 1.0
+    },
+    {
+      "key": "infinity:tangled",
+      "weight": 0.5
+    }
+  ]
+}

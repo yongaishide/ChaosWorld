@@ -1,0 +1,11 @@
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "tag": "c:ingots/iron"
+  },
+  "mana": 3000,
+  "output": {
+    "count": 1,
+    "id": "botania:manasteel_ingot"
+  }
+}

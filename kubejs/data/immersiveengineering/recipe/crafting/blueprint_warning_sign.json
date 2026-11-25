@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "tag": "c:dyes/black"
+    },
+    "d": {
+      "tag": "c:dyes/blue"
+    },
+    "p": {
+      "tag": "c:paper"
+    },
+    "y": {
+      "tag": "c:dyes/yellow"
+    }
+  },
+  "pattern": [
+    "yby",
+    "ddd",
+    "ppp"
+  ],
+  "result": {
+    "components": {
+      "immersiveengineering:blueprint": "warning_sign"
+    },
+    "count": 1,
+    "id": "immersiveengineering:blueprint"
+  },
+  "show_notification": false
+}

@@ -1,0 +1,42 @@
+{
+  "type": "ufo:universal_multiblock",
+  "energy": 50000000,
+  "fluid_inputs": [
+    {
+      "amount": 128000,
+      "fluid": {
+        "amount": 1,
+        "id": "ufo:source_gelid_cryotheum"
+      }
+    }
+  ],
+  "fluid_output": {
+    "amount": 1,
+    "id": "ufo:source_stable_coolant"
+  },
+  "fluid_output_amount": 128000,
+  "item_inputs": [
+    {
+      "amount": 256,
+      "ingredient": {
+        "item": "minecraft:blue_ice"
+      }
+    },
+    {
+      "amount": 64,
+      "ingredient": {
+        "item": "ufo:obsidian_matrix"
+      }
+    },
+    {
+      "amount": 16,
+      "ingredient": {
+        "item": "ufo:quantum_anomaly"
+      }
+    }
+  ],
+  "machine": "quantum_cryoforge",
+  "recipe_name": "universal/quantum_cryoforge/stable_coolant_t3",
+  "required_tier": 3,
+  "time": 9600
+}

@@ -1,0 +1,22 @@
+{
+  "type": "powah:energizing",
+  "energy": 120000,
+  "ingredients": [
+    {
+      "item": "ae2cs:purified_ember_crystal"
+    },
+    {
+      "item": "ae2cs:purified_ember_crystal"
+    },
+    {
+      "item": "ae2cs:purified_ember_crystal"
+    },
+    {
+      "item": "ae2cs:purified_ember_crystal"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "powah:crystal_blazing"
+  }
+}

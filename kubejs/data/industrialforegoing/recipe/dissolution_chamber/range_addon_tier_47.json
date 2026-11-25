@@ -1,0 +1,49 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "ifmup:range_addon_tier_47"
+    }
+  ],
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+    {
+      "tag": "c:dusts/redstone"
+    },
+    {
+      "tag": "c:dusts/redstone"
+    },
+    {
+      "tag": "c:glass_panes"
+    },
+    {
+      "tag": "c:glass_panes"
+    },
+    {
+      "tag": "c:nether_stars"
+    },
+    {
+      "tag": "c:nether_stars"
+    },
+    {
+      "tag": "c:nether_stars"
+    },
+    {
+      "tag": "c:nether_stars"
+    }
+  ],
+  "inputFluid": {
+    "amount": 1000,
+    "fluid": "ifmup:darkshine"
+  },
+  "output": {
+    "components": {
+      "titanium:augments": {
+        "Range": 47.0
+      }
+    },
+    "count": 1,
+    "id": "ifmup:range_addon_tier_47"
+  },
+  "processingTime": 200
+}

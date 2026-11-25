@@ -1,0 +1,34 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "cataclysm"
+		}
+    ],
+    "entity": "cataclysm:the_prowler",
+    "name": {
+        "translate": "entity.cataclysm.the_prowler",
+        "color": "#FF5E5E"
+    },
+	"display": {
+        "scale": 0.5
+    },
+    "sim_cost": 256,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:nether_prediction"
+    },
+    "trivia": "custom.trivia.the_prowler",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:iron_ingot",
+            "count": 24
+        },
+        {
+            "id": "minecraft:redstone",
+            "count": 24
+        }
+    ]
+}

@@ -1,0 +1,200 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Type": "advancement_reward"
+			},
+			"weight": 1.0,
+			"key": "touhou_little_maid:advancement/cake"
+		},
+		{
+			"data": {
+				"Type": "advancement_reward"
+			},
+			"weight": 1.0,
+			"key": "touhou_little_maid:advancement/power_point"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "touhou_little_maid:blocks/bookshelf"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "touhou_little_maid:blocks/computer"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "touhou_little_maid:blocks/keyboard"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "touhou_little_maid:blocks/maid_bed"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "touhou_little_maid:blocks/model_switcher"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "touhou_little_maid:blocks/scarecrow"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "touhou_little_maid:blocks/shrine"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "touhou_little_maid:blocks/snack_cabinet"
+		},
+		{
+			"data": {
+				"Type": "chest"
+			},
+			"weight": 1.0,
+			"key": "touhou_little_maid:chest/ender_chest_backpack"
+		},
+		{
+			"data": {
+				"Type": "chest"
+			},
+			"weight": 1.0,
+			"key": "touhou_little_maid:chest/furnace_or_crafting_table_backpack"
+		},
+		{
+			"data": {
+				"Type": "chest"
+			},
+			"weight": 1.0,
+			"key": "touhou_little_maid:chest/maid_buried_treasure"
+		},
+		{
+			"data": {
+				"Type": "chest"
+			},
+			"weight": 1.0,
+			"key": "touhou_little_maid:chest/normal_backpack"
+		},
+		{
+			"data": {
+				"Type": "chest"
+			},
+			"weight": 1.0,
+			"key": "touhou_little_maid:chest/normal_bauble"
+		},
+		{
+			"data": {
+				"Type": "chest"
+			},
+			"weight": 1.0,
+			"key": "touhou_little_maid:chest/power_point"
+		},
+		{
+			"data": {
+				"Type": "chest"
+			},
+			"weight": 1.0,
+			"key": "touhou_little_maid:chest/random_board_state"
+		},
+		{
+			"data": {
+				"Type": "chest"
+			},
+			"weight": 1.0,
+			"key": "touhou_little_maid:chest/rare_bauble"
+		},
+		{
+			"data": {
+				"Type": "chest"
+			},
+			"weight": 1.0,
+			"key": "touhou_little_maid:chest/shrine_less"
+		},
+		{
+			"data": {
+				"Type": "chest"
+			},
+			"weight": 1.0,
+			"key": "touhou_little_maid:chest/shrine_more"
+		},
+		{
+			"data": {
+				"Type": "chest"
+			},
+			"weight": 1.0,
+			"key": "touhou_little_maid:chest/spawn_bonus"
+		},
+		{
+			"data": {
+				"Type": "chest"
+			},
+			"weight": 1.0,
+			"key": "touhou_little_maid:chest/structure_spawn_maid_gift"
+		},
+		{
+			"data": {
+				"Type": "chest"
+			},
+			"weight": 1.0,
+			"key": "touhou_little_maid:chest/tank_backpack"
+		},
+		{
+			"data": {
+				"Type": "chest"
+			},
+			"weight": 1.0,
+			"key": "touhou_little_maid:chest/very_rare_bauble"
+		},
+		{
+			"data": {
+				"Type": "entity"
+			},
+			"weight": 1.0,
+			"key": "touhou_little_maid:entities/box"
+		},
+		{
+			"data": {
+				"Type": "chest"
+			},
+			"weight": 1.0,
+			"key": "touhou_little_maid:fishing/power_point"
+		},
+		{
+			"data": {
+				"Type": "advancement_reward"
+			},
+			"weight": 1.0,
+			"key": "touhou_little_maid:give_smart_slab"
+		},
+		{
+			"data": {
+				"Type": "advancement_reward"
+			},
+			"weight": 1.0,
+			"key": "touhou_little_maid:grant_patchouli_book"
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+  "type": "ae2lt:overload_processing",
+  "priority": 0,
+  "inputs": [
+    {
+      "ingredient": {
+        "item": "chaosworld_core:tech_3_block"
+      },
+      "count": 4
+    },
+    {
+      "ingredient": {
+        "item": "enderio_evolution:infinity_dust_block"
+      },
+      "count": 3
+    },
+    {
+      "ingredient": {
+        "item": "ae2cs:purified_entro_crystal"
+      },
+      "count": 18
+    }
+  ],
+  "results": [
+    {
+      "id": "chaosworld_core:ingot_tech_4",
+      "count": 36
+    }
+  ],
+  "totalEnergy": 100000,
+  "lightningCost": 1,
+  "lightningTier": "high_voltage"
+}

@@ -1,0 +1,47 @@
+{
+  "type": "ufo:dimensional_assembly",
+  "energy": 600000,
+  "fluid_inputs": [
+    {
+      "amount": 2000,
+      "ingredient": {
+        "fluid": "ufo:raw_star_matter_plasma"
+      }
+    }
+  ],
+  "fluid_outputs": [],
+  "item_inputs": [
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "ufo:overflux_catalyst_t1"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "ufo:corporeal_matter"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "ae2:quartz_vibrant_glass"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "ufo:dimensional_processor"
+      }
+    }
+  ],
+  "item_outputs": [
+    {
+      "#": 1,
+      "#t": "ae2:i",
+      "id": "ufo:overflux_catalyst_t2"
+    }
+  ],
+  "time": 400
+}

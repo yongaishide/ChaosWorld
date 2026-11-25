@@ -1,0 +1,358 @@
+{
+	"biomes": [
+		"unbound:neptune_dark_spot"
+	],
+	"rule": {
+		"sequence": [
+			{
+				"sequence": [
+					{
+						"type": "minecraft:condition",
+						"if_true": {
+							"min_threshold": 0.45,
+							"max_threshold": 3.0E7,
+							"noise": "unbound:neptune/streak",
+							"type": "minecraft:noise_threshold"
+						},
+						"then_run": {
+							"result_state": {
+								"Name": "unbound:neptune_cloud_white"
+							},
+							"type": "minecraft:block"
+						}
+					},
+					{
+						"type": "minecraft:condition",
+						"if_true": {
+							"min_threshold": 0.2,
+							"max_threshold": 3.0E7,
+							"noise": "unbound:neptune/tint",
+							"type": "minecraft:noise_threshold"
+						},
+						"then_run": {
+							"result_state": {
+								"Name": "unbound:neptune_cloud_cobalt"
+							},
+							"type": "minecraft:block"
+						}
+					},
+					{
+						"result_state": {
+							"Name": "unbound:neptune_cloud_indigo"
+						},
+						"type": "minecraft:block"
+					}
+				],
+				"type": "minecraft:sequence"
+			},
+			{
+				"type": "minecraft:condition",
+				"if_true": {
+					"invert": {
+						"surface_depth_multiplier": 0,
+						"anchor": {
+							"absolute": 46
+						},
+						"type": "minecraft:y_above",
+						"add_stone_depth": false
+					},
+					"type": "minecraft:not"
+				},
+				"then_run": {
+					"result_state": {
+						"Name": "unbound:neptune_haze"
+					},
+					"type": "minecraft:block"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"if_true": {
+					"surface_depth_multiplier": 0,
+					"anchor": {
+						"absolute": 232
+					},
+					"type": "minecraft:y_above",
+					"add_stone_depth": false
+				},
+				"then_run": {
+					"type": "minecraft:condition",
+					"if_true": {
+						"min_threshold": 0.42,
+						"max_threshold": 3.0E7,
+						"noise": "unbound:neptune/bergs",
+						"type": "minecraft:noise_threshold"
+					},
+					"then_run": {
+						"result_state": {
+							"Name": "unbound:methane_ice"
+						},
+						"type": "minecraft:block"
+					}
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"if_true": {
+					"surface_depth_multiplier": 0,
+					"anchor": {
+						"absolute": 200
+					},
+					"type": "minecraft:y_above",
+					"add_stone_depth": false
+				},
+				"then_run": {
+					"result_state": {
+						"Name": "unbound:neptune_cloud_white"
+					},
+					"type": "minecraft:block"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"if_true": {
+					"invert": {
+						"surface_depth_multiplier": 0,
+						"anchor": {
+							"absolute": 110
+						},
+						"type": "minecraft:y_above",
+						"add_stone_depth": false
+					},
+					"type": "minecraft:not"
+				},
+				"then_run": {
+					"type": "minecraft:condition",
+					"if_true": {
+						"min_threshold": 0.3,
+						"max_threshold": 3.0E7,
+						"noise": "unbound:neptune/tint",
+						"type": "minecraft:noise_threshold"
+					},
+					"then_run": {
+						"result_state": {
+							"Name": "unbound:neptune_cloud_indigo"
+						},
+						"type": "minecraft:block"
+					}
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"if_true": {
+					"invert": {
+						"surface_depth_multiplier": 0,
+						"anchor": {
+							"absolute": 110
+						},
+						"type": "minecraft:y_above",
+						"add_stone_depth": false
+					},
+					"type": "minecraft:not"
+				},
+				"then_run": {
+					"result_state": {
+						"Name": "unbound:neptune_cloud_cobalt"
+					},
+					"type": "minecraft:block"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"if_true": {
+					"min_threshold": 0.2,
+					"max_threshold": 3.0E7,
+					"noise": "unbound:neptune/tint",
+					"type": "minecraft:noise_threshold"
+				},
+				"then_run": {
+					"result_state": {
+						"Name": "unbound:neptune_cloud_cobalt"
+					},
+					"type": "minecraft:block"
+				}
+			},
+			{
+				"result_state": {
+					"Name": "unbound:neptune_cloud_azure"
+				},
+				"type": "minecraft:block"
+			},
+			{
+				"sequence": [
+					{
+						"type": "minecraft:condition",
+						"if_true": {
+							"min_threshold": 0.45,
+							"max_threshold": 3.0E7,
+							"noise": "unbound:neptune/streak",
+							"type": "minecraft:noise_threshold"
+						},
+						"then_run": {
+							"result_state": {
+								"Name": "unbound:neptune_cloud_white"
+							},
+							"type": "minecraft:block"
+						}
+					},
+					{
+						"type": "minecraft:condition",
+						"if_true": {
+							"min_threshold": 0.2,
+							"max_threshold": 3.0E7,
+							"noise": "unbound:neptune/tint",
+							"type": "minecraft:noise_threshold"
+						},
+						"then_run": {
+							"result_state": {
+								"Name": "unbound:neptune_cloud_cobalt"
+							},
+							"type": "minecraft:block"
+						}
+					},
+					{
+						"result_state": {
+							"Name": "unbound:neptune_cloud_indigo"
+						},
+						"type": "minecraft:block"
+					}
+				],
+				"type": "minecraft:sequence"
+			},
+			{
+				"type": "minecraft:condition",
+				"if_true": {
+					"invert": {
+						"surface_depth_multiplier": 0,
+						"anchor": {
+							"absolute": 46
+						},
+						"type": "minecraft:y_above",
+						"add_stone_depth": false
+					},
+					"type": "minecraft:not"
+				},
+				"then_run": {
+					"result_state": {
+						"Name": "unbound:neptune_haze"
+					},
+					"type": "minecraft:block"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"if_true": {
+					"surface_depth_multiplier": 0,
+					"anchor": {
+						"absolute": 232
+					},
+					"type": "minecraft:y_above",
+					"add_stone_depth": false
+				},
+				"then_run": {
+					"type": "minecraft:condition",
+					"if_true": {
+						"min_threshold": 0.42,
+						"max_threshold": 3.0E7,
+						"noise": "unbound:neptune/bergs",
+						"type": "minecraft:noise_threshold"
+					},
+					"then_run": {
+						"result_state": {
+							"Name": "unbound:methane_ice"
+						},
+						"type": "minecraft:block"
+					}
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"if_true": {
+					"surface_depth_multiplier": 0,
+					"anchor": {
+						"absolute": 200
+					},
+					"type": "minecraft:y_above",
+					"add_stone_depth": false
+				},
+				"then_run": {
+					"result_state": {
+						"Name": "unbound:neptune_cloud_white"
+					},
+					"type": "minecraft:block"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"if_true": {
+					"invert": {
+						"surface_depth_multiplier": 0,
+						"anchor": {
+							"absolute": 110
+						},
+						"type": "minecraft:y_above",
+						"add_stone_depth": false
+					},
+					"type": "minecraft:not"
+				},
+				"then_run": {
+					"type": "minecraft:condition",
+					"if_true": {
+						"min_threshold": 0.3,
+						"max_threshold": 3.0E7,
+						"noise": "unbound:neptune/tint",
+						"type": "minecraft:noise_threshold"
+					},
+					"then_run": {
+						"result_state": {
+							"Name": "unbound:neptune_cloud_indigo"
+						},
+						"type": "minecraft:block"
+					}
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"if_true": {
+					"invert": {
+						"surface_depth_multiplier": 0,
+						"anchor": {
+							"absolute": 110
+						},
+						"type": "minecraft:y_above",
+						"add_stone_depth": false
+					},
+					"type": "minecraft:not"
+				},
+				"then_run": {
+					"result_state": {
+						"Name": "unbound:neptune_cloud_cobalt"
+					},
+					"type": "minecraft:block"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"if_true": {
+					"min_threshold": 0.2,
+					"max_threshold": 3.0E7,
+					"noise": "unbound:neptune/tint",
+					"type": "minecraft:noise_threshold"
+				},
+				"then_run": {
+					"result_state": {
+						"Name": "unbound:neptune_cloud_cobalt"
+					},
+					"type": "minecraft:block"
+				}
+			},
+			{
+				"result_state": {
+					"Name": "unbound:neptune_cloud_azure"
+				},
+				"type": "minecraft:block"
+			}
+		],
+		"type": "minecraft:sequence"
+	}
+}

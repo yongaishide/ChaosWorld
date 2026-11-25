@@ -1,0 +1,46 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Type": "tree"
+			},
+			"weight": 1.0,
+			"key": "thaumaturge:greatwood_tree_grown"
+		},
+		{
+			"data": {
+				"Type": "huge_brown_mushroom"
+			},
+			"weight": 1.0,
+			"key": "thaumaturge:magic_forest_brown_mushroom"
+		},
+		{
+			"data": {
+				"Type": "huge_red_mushroom"
+			},
+			"weight": 1.0,
+			"key": "thaumaturge:magic_forest_red_mushroom"
+		},
+		{
+			"data": {
+				"Type": "tree"
+			},
+			"weight": 1.0,
+			"key": "thaumaturge:magical_cave_greatwood_tree"
+		},
+		{
+			"data": {
+				"Type": "tree"
+			},
+			"weight": 1.0,
+			"key": "thaumaturge:silverwood_tree_cave"
+		},
+		{
+			"data": {
+				"Type": "tree"
+			},
+			"weight": 1.0,
+			"key": "thaumaturge:silverwood_tree_grown"
+		}
+	]
+}

@@ -1,0 +1,48 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "fluxnetworks:admin_configurator"
+		},
+		{
+			"weight": 1.0,
+			"key": "fluxnetworks:basic_flux_storage"
+		},
+		{
+			"weight": 1.0,
+			"key": "fluxnetworks:flux_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "fluxnetworks:flux_configurator"
+		},
+		{
+			"weight": 1.0,
+			"key": "fluxnetworks:flux_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "fluxnetworks:flux_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "fluxnetworks:flux_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "fluxnetworks:flux_plug"
+		},
+		{
+			"weight": 1.0,
+			"key": "fluxnetworks:flux_point"
+		},
+		{
+			"weight": 1.0,
+			"key": "fluxnetworks:gargantuan_flux_storage"
+		},
+		{
+			"weight": 1.0,
+			"key": "fluxnetworks:herculean_flux_storage"
+		}
+	]
+}

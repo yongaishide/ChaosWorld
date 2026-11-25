@@ -1,0 +1,15 @@
+[behavior]
+	#Ticks before Staff Of Traveling Keybind is considered 'held' for anchor teleports 
+	# Default: 8
+	# Range: > 0
+	travelKeyHoldDelayTicks = 8
+
+[visual]
+	#Enable machine particles
+	machineParticles = true
+	#Whether Travel Anchors try to render items as blocks
+	anchorsUseIconAsBlock = true
+	#The color of the travel anchor background
+	anchorBackgroundColor = "0B4D42"
+	#The color of the travel anchor background when selected
+	anchorActiveColor = "55FFFF"

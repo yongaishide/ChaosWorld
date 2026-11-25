@@ -1,0 +1,391 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "416723ba5a07cdd2"
+	group: "594C594928EE3D88"
+	icon: {
+		components: {
+			"ftbquests:icon": "draconicevolution:item/components/chaotic_core"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "416723BA5A07CDD2"
+	images: [ ]
+	order_index: 1
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [{
+		id: "721879650686722D"
+		linked_quest: "1A2444FD0C5676B5"
+		x: -6.5d
+		y: 3.5d
+	}]
+	quests: [
+		{
+			dependencies: [
+				"14F93380B5F86677"
+				"2F3587D93CF7D99E"
+			]
+			id: "2D9B54072C00DB80"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "45CB8EF12A34BA89"
+				item: { count: 1, id: "draconicevolution:chaotic_core" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"3D0405D66A4FC09C"
+				"47BE208DAD4CCDA0"
+			]
+			id: "0E9D66B608F6B727"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "2A2B98443E87F272"
+				item: { count: 1, id: "chaosworld_core:ingot_chaotic_metal" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0E9D66B608F6B727"]
+			id: "71B05F8E64B75860"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "5985BDB4A90BCEE1"
+				item: { count: 1, id: "draconicevolution:chaotic_energy_core" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["453D09494656F2EF"]
+			id: "47EE61629C15A75C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "3EC7768D671E0A90"
+				item: { count: 1, id: "chaosworld_core:ingot_xuancai" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"5A2DB9F6876403DF"
+				"7D76650414F68173"
+			]
+			id: "7D909784DF310409"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "006E699BD5215C48"
+				item: { count: 1, id: "ufo:corporeal_matter" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["09DD6862B8D4D281"]
+			id: "5A2DB9F6876403DF"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "260BF6F9EE0B866A"
+				item: { count: 1, id: "chaosworld_core:neutronite_ingot" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			id: "09DD6862B8D4D281"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "317B257E83E60F81"
+				item: { count: 1, id: "mekanismgenerators:fusion_reactor_controller" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["537634384A0DD3BC"]
+			id: "7D76650414F68173"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				fluid: {
+					amount: 1000
+					id: "ufo:source_uu_amplifier_fluid"
+				}
+				id: "761A7CDB905657CD"
+				type: "fluid"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1C1ADD3C1A03B75E"]
+			id: "3D0405D66A4FC09C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "37CA42AAC2E447A0"
+				item: { count: 1, id: "ufo:charged_enriched_neutronium_sphere" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["26DE210C96DBC4DC"]
+			id: "52661457B26A2AFD"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "5A41CE73D3D4F8A8"
+				item: { count: 1, id: "ufo:nuclear_star" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["52661457B26A2AFD"]
+			id: "47BE208DAD4CCDA0"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				fluid: {
+					amount: 1000
+					id: "ufo:raw_star_matter_plasma"
+				}
+				id: "09E64B8A6697F3B9"
+				type: "fluid"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["47EE61629C15A75C"]
+			id: "4EAD2C0C1A1C3FB8"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				fluid: {
+					amount: 1000
+					id: "ufo:transcending_matter"
+				}
+				id: "21685967B318511B"
+				type: "fluid"
+			}]
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"7377C285089E9356"
+				"7D909784DF310409"
+			]
+			id: "26DE210C96DBC4DC"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6B57ECDF06082F74"
+				item: { count: 1, id: "ufo:pulsar_fragment_ingot" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"1A2444FD0C5676B5"
+				"2DD5DA63B677EC1B"
+			]
+			id: "7377C285089E9356"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "3927F0A75DE4C9A4"
+				item: { count: 1, id: "chaosworld_core:ingot_tech_9" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1694334C4EEAF5A3"]
+			id: "2DD5DA63B677EC1B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "790A9CCC5F19472B"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "mekanism_extras:alloy_shining"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			id: "1694334C4EEAF5A3"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				icon: {
+					id: "mekanism:sps_port"
+				}
+				id: "30F276C85579E47E"
+				observation_type: "block"
+				observe_type: 0
+				timer: 0L
+				to_observe: "mekanismgenerators:reactor_glass"
+				type: "observation"
+			}]
+			x: -8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"7312356665633FAB"
+				"7D76650414F68173"
+			]
+			id: "1C1ADD3C1A03B75E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "2D72C4A165EC4EE1"
+				item: { count: 1, id: "ufo:enriched_neutronium_sphere" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2D9B54072C00DB80"]
+			id: "08EA4FDADEBE59D0"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				fluid: {
+					amount: 1000
+					id: "ufo:source_primordial_matter_fluid"
+				}
+				id: "7994D31AB3B308C1"
+				type: "fluid"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["71B05F8E64B75860"]
+			id: "14F93380B5F86677"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "7BDD1E298F543AAD"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "draconicevolution:chaotic_crafting_injector"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["498C50EC73835A6B"]
+			id: "7312356665633FAB"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "59C0E1C544CDB3F9"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "avaritia:neutron"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["26DE210C96DBC4DC"]
+			id: "002D6AEB8C52A246"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "53C3BEA9EAFEB634"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "ufo:quantum_anomaly"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["002D6AEB8C52A246"]
+			id: "2F3587D93CF7D99E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "1E947EE835C91AB1"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "ufo:unstable_white_hole_matter"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["08EA4FDADEBE59D0"]
+			id: "453D09494656F2EF"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "6A1EC907ACB15669"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "ufo:proto_matter"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4EAD2C0C1A1C3FB8"]
+			id: "60AC7E2B2828AE2C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "531B9816D1CFEFDF"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "ufo:dark_matter"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 14.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2DD5DA63B677EC1B"]
+			id: "3E341CA9A20A52B5"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "26E62BE56FCB9AED"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "mekanism_extras:cosmic_control_circuit"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -4.5d
+			y: 5.5d
+		}
+	]
+}

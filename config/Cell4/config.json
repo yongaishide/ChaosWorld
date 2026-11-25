@@ -1,0 +1,12 @@
+{
+  "enabled": true,
+  "maxTextureSets": 64,
+  "textureFolder": "texture",
+  "imageFile": "item.png",
+  "portable": {
+    "defaultMaxPower": 100000,
+    "defaultCostPerItem": 20,
+    "chargeRate": 8.0,
+    "idleDrain": 0.0
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "botania:mana_infusion",
+  "catalyst": {
+    "type": "botania:block",
+    "block": "botania:alchemy_catalyst"
+  },
+  "group": "botania:cactus_and_slime_cycle",
+  "input": {
+    "item": "minecraft:slime_ball"
+  },
+  "mana": 1200,
+  "output": {
+    "count": 1,
+    "id": "minecraft:cactus"
+  }
+}

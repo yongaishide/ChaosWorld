@@ -1,0 +1,23 @@
+{
+  "type": "immersiveengineering:bottling_machine",
+  "fluid": {
+    "amount": 125,
+    "tag": "c:plantoil"
+  },
+  "inputs": [
+    {
+      "item": "immersiveengineering:mold_plate"
+    },
+    {
+      "tag": "c:fabric_hemp"
+    }
+  ],
+  "results": [
+    {
+      "id": "immersiveengineering:ersatz_leather"
+    },
+    {
+      "id": "immersiveengineering:mold_plate"
+    }
+  ]
+}

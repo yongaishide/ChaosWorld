@@ -1,0 +1,48 @@
+{
+  "featureConfigs": [
+    {
+      "id": "feature_a",
+      "weight": 10,
+      "extraConfig": {
+        "enabled": true,
+        "level": 3
+      }
+    },
+    {
+      "id": "feature_b",
+      "weight": 20
+    }
+  ],
+  "featureConfigMap": {
+    "beta": {
+      "id": "beta",
+      "weight": 20,
+      "extraConfig": {
+        "enabled": false,
+        "level": 5
+      }
+    },
+    "alpha": {
+      "id": "alpha",
+      "weight": 10
+    }
+  },
+  "testEnum": "TEST",
+  "demoMode": {
+    "level": 2,
+    "type": "level"
+  },
+  "nestedDemo": {
+    "enabled": true,
+    "level": 3
+  },
+  "testString": "test",
+  "testDouble": 50.0,
+  "testInt": 50,
+  "enableExampleContent": false,
+  "testList": [
+    "test1",
+    "test2"
+  ],
+  "__cfg_version": 0
+}

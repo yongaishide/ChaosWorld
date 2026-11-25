@@ -1,0 +1,41 @@
+{
+  "type": "ufo:dimensional_assembly",
+  "energy": 1200000,
+  "fluid_inputs": [
+    {
+      "amount": 1000,
+      "ingredient": {
+        "fluid": "ufo:source_liquid_starlight_fluid"
+      }
+    }
+  ],
+  "fluid_outputs": [],
+  "item_inputs": [
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "ufo:dimensional_processor"
+      }
+    },
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "chaosworld_core:ingot_tech_7"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "neoecoae:superconducting_processor"
+      }
+    }
+  ],
+  "item_outputs": [
+    {
+      "#": 1,
+      "#t": "ae2:i",
+      "id": "chaosworld_core:white_dwarf_storage_component_1g"
+    }
+  ],
+  "time": 600
+}

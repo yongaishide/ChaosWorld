@@ -1,0 +1,25 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "growthacceleratortiers:blocks/boosted_growth_accelerator"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "growthacceleratortiers:blocks/cranked_growth_accelerator"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "growthacceleratortiers:blocks/directional_growth_accelerator"
+		}
+	]
+}

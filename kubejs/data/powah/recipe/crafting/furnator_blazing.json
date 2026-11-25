@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "powah:crystal_blazing"
+    },
+    "c": {
+      "item": "powah:capacitor_blazing"
+    },
+    "d": {
+      "item": "powah:dielectric_casing"
+    },
+    "f": {
+      "item": "powah:furnator_hardened"
+    }
+  },
+  "pattern": [
+    "bbb",
+    "cdc",
+    "bfb"
+  ],
+  "result": {
+    "count": 1,
+    "id": "powah:furnator_blazing"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "title": "7118d5b36c0a4945",
+  "icon": "texture:avaritia:textures/item/resource/infinity/infinity_ingot.png",
+  "quests": [
+    {
+      "id": "7ce66cfde2004a8b",
+      "y": -1.5,
+      "deps": [
+        "190ab63d4ece2c34"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "avaritia:infinity_ingot"
+        }
+      ],
+      "x": 0.0
+    },
+    {
+      "id": "190ab63d4ece2c34",
+      "y": -4.0,
+      "deps": [
+        "335dd6c437d55e16",
+        "025e75bb17d49155",
+        "7f0c99ea8cde9396"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "avaritia:infinity_catalyst"
+        }
+      ],
+      "x": 0.0
+    },
+    {
+      "id": "335dd6c437d55e16",
+      "y": -7.0,
+      "tasks": [
+        {
+          "type": "item",
+          "item": "avaritia:endest_pearl"
+        }
+      ],
+      "x": 0.0
+    },
+    {
+      "id": "7f0c99ea8cde9396",
+      "x": -3.0,
+      "y": -6.0,
+      "tasks": [
+        {
+          "type": "item",
+          "item": "avaritia:ultimate_stew"
+        }
+      ]
+    },
+    {
+      "id": "025e75bb17d49155",
+      "x": 3.0,
+      "y": -6.0,
+      "tasks": [
+        {
+          "type": "item",
+          "item": "avaritia:cosmic_meatballs"
+        }
+      ]
+    }
+  ]
+}

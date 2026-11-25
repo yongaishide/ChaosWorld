@@ -1,0 +1,36 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "friendsandfoes"
+        }
+    ],
+    "entity": "friendsandfoes:glare",
+    "name": {
+        "translate": "entity.friendsandfoes.glare",
+        "color": "#40531A"
+    },
+    "sim_cost": 64,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+	"trivia": "custom.trivia.glare",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:moss_block",
+            "count": 1
+        },
+        {
+            "id": "minecraft:glow_berries",
+            "count": 8
+        },
+        {
+			"optional": true,
+            "id": "ecologics:surface_moss",
+            "count": 16
+        }
+    ]
+}

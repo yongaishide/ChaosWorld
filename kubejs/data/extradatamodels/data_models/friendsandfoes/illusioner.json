@@ -1,0 +1,35 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "friendsandfoes"
+        }
+    ],
+    "entity": "minecraft:illusioner",
+    "name": {
+        "translate": "entity.minecraft.illusioner",
+        "color": "#402A3E"
+    },
+    "sim_cost": 1024,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+	"trivia": "custom.trivia.illusioner",
+    "fabricator_drops": [
+        {
+            "id": "friendsandfoes:totem_of_illusion",
+            "count": 1
+        },
+        {
+            "id": "minecraft:emerald",
+            "count": 16
+        },
+        {
+            "id": "minecraft:arrow",
+            "count": 16
+        }
+    ]
+}

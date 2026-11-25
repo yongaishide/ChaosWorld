@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "powah:capacitor_basic_tiny"
+    },
+    "d": {
+      "item": "powah:dielectric_casing"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "ici",
+    "cdc",
+    "ici"
+  ],
+  "result": {
+    "count": 1,
+    "id": "powah:energy_cell_starter"
+  }
+}

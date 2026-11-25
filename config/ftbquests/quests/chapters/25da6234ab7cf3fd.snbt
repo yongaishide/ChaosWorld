@@ -1,0 +1,394 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "25da6234ab7cf3fd"
+	group: "6B9CFFEE5CD53D67"
+	icon: {
+		id: "ae2lt:pigmee_molecular_assembler"
+	}
+	id: "25DA6234AB7CF3FD"
+	images: [
+		{
+			height: 1.0d
+			id: "4A25BAB1BCD25ECE"
+			image: "kubejs:item/infinity_piggy"
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			id: "5366007F6E3C0041"
+			image: "kubejs:item/infinity_piggy"
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -3.0d
+		}
+	]
+	order_index: 2
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7BE82C704232E651"]
+			id: "004E10BDB05C90E2"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FDC2BDFBDFF3842"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "73D78E7E31C3CEEE"
+				item: { count: 1, id: "ae2:sky_stone_block" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["004E10BDB05C90E2"]
+			id: "6B7884AF3CD6C9DA"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "307FC3BF38184D2B"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
+			tasks: [{
+				id: "53FF3B00B4B5F09B"
+				item: { count: 1, id: "ae2:sky_dust" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6B7884AF3CD6C9DA"]
+			id: "3432AD4EECF6AC6A"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D923F1B057C91B9"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4945FB71FE9B4C81"
+				item: { count: 1, id: "ae2cs:meteor_seed" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"03BEF7A5F428095E"
+				"15EDE65564D41787"
+			]
+			id: "2BB4EC2A82263EC9"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57E5077F3A5A780C"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6DF3F405DA560CEC"
+				item: { count: 1, id: "ae2:charged_certus_quartz_crystal" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["14CC268CC791E5FC"]
+			id: "76CE2B1D7C026BD9"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C2000403B09147A"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6EB36C78EAD463F0"
+				item: { count: 1, id: "ae2lt:pigmee_molecular_assembler" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["14CC268CC791E5FC"]
+			id: "3DB9A5433772AD7A"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40B9855F7CE8E5F1"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
+			tasks: [{
+				id: "68DD10EA0B96F735"
+				item: { count: 1, id: "ae2lt:pigmee_pattern_provider" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["14CC268CC791E5FC"]
+			id: "00627D73E0613230"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6EBFA51158C03A98"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1C8DE0A8B61BB666"
+				item: { count: 1, id: "ae2lt:pigmee_mentalmath_unit" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["14CC268CC791E5FC"]
+			id: "37879C779971DB32"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "28CA5C1775AB05C6"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "ae2lt:pigmee_synthesis_station"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5151F30F4F0BEC14"]
+			id: "14CC268CC791E5FC"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "6634FA43DAED5C19"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "ae2lt:pigmee_core"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["14CC268CC791E5FC"]
+			id: "24BC80DDD931CE2C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "047803F8B1568E19"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "ae2lt:pigmee_crystal_catalyzer"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["42BF09B39CEB6C5F"]
+			id: "5151F30F4F0BEC14"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "06138896E67ABDC7"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "ae2lt:overload_crystal"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E957EC8615E8CB2"]
+			id: "42BF09B39CEB6C5F"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "0828D251406C3B99"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "ae2lt:cracked_budding_overload_crystal"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["004E10BDB05C90E2"]
+			id: "0E957EC8615E8CB2"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "7CD7EA91BFEE6C83"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "ae2:flawed_budding_quartz"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0E957EC8615E8CB2"]
+			id: "03BEF7A5F428095E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "4E3C7E88FB8A6D46"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "ae2:certus_quartz_crystal"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5765EA80754ACCC7"]
+			id: "15EDE65564D41787"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "296AA866A03DD5E6"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "ae2:charger"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2BB4EC2A82263EC9"]
+			id: "7C7626AECC14B1B9"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "2D758A0E5A09A55A"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "chaosworld_core:crystal_core_2"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["004E10BDB05C90E2"]
+			id: "2CA35A8079103A6D"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "67C1F91D48533B93"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "ae2:calculation_processor_press"
+				tag: "ae2:inscriber_presses"
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"319A9151928FAF29"
+				"1A6BECC0111D5CA8"
+			]
+			id: "4A9E813977CAC5E2"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					id: "52815B51461463D9"
+					item: {
+						count: 1
+						id: "ae2lt:pigmee_core"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F3A7BFA77E23B15"
+					table_id: 5798946034287369178L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5CD12F9EB89EB2A0"
+				item: { count: 1, id: "ae2:drive" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1686FB9553ACAFE4"]
+			id: "319A9151928FAF29"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "73210C361F58A4FD"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
+			tasks: [{
+				id: "706686941D70E2D1"
+				item: { count: 1, id: "ae2:inscriber" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2CA35A8079103A6D"]
+			id: "1A6BECC0111D5CA8"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "612190CBADC9CCFC"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "ae2:engineering_processor"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+	]
+}

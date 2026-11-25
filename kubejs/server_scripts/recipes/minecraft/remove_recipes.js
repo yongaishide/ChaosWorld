@@ -1,0 +1,126 @@
+ServerEvents.recipes(event => {
+    let recipeTypeall = [
+        'extendedcrafting:redstone_ingot',
+        '#c:plates',
+        "minecraft:netherite_ingot",
+        '#c:dusts',
+        "extendedcrafting:advanced_catalyst",
+        "immersiveengineering:blastbrick_reinforced",
+        "industrialforegoing:machine_frame_pity",
+        "pneumaticcraft:reinforced_stone",
+        "pneumaticcraft:pressure_chamber_interface",
+        "mekanism:metallurgic_infuser",
+        "extendedcrafting:flux_crafter",
+        "extendedcrafting:flux_alternator",
+        "fluxnetworks:flux_core",
+        "fluxnetworks:flux_block",
+        "enderio:soul_binder",
+        "extendedae:machine_frame",
+        "extendedae:crystal_assembler",
+        "extendedae:entro_seed",
+        "ae2cs:crystal_growth_chamber",
+        "extendedcrafting:elite_catalyst",
+        "ufo:dark_matter",
+        "mekanismgenerators:wind_generator",
+        "mekanism:energy_tablet",
+        "mekanism:basic_universal_cable",
+        "mekanismgenerators:heat_generator",
+        "ae2:crafting_terminal",
+        "minecraft:ender_eye",
+        "advanced_ae:reaction_chamber",
+        "powah:dielectric_paste",
+        "ifeu:arcane_dragon_egg_forging",
+        "powah:energizing_orb",
+        "pneumaticcraft:amadron_tablet",
+        'immersiveengineering:blast_furnace', 
+        'immersiveengineering:coke_oven', 
+        'immersiveengineering:sawmill', 
+        'immersiveengineering:fermenter', 
+        'immersiveengineering:squeezer', 
+        'immersiveengineering:alloy_smelter', 
+        'immersiveengineering:bottling_machine', 
+        'immersiveengineering:arc_furnace', 
+        'immersiveengineering:metal_press',
+        "mekanism:energized_smelter",
+        "ae2lt:overload_machine_frame",
+        "mekanism:enrichment_chamber",
+        "data_energistics:radix_containment_sphere",
+        "draconicevolution:draconium_core",
+        "extendedcrafting:ultimate_catalyst",
+        "extendedcrafting:ultimate_component",
+        "extendedcrafting:elite_component",
+        "ufo:obsidian_matrix",
+        "draconicevolution:infused_obsidian",
+        "enderio_evolution:capacitor_melodic",
+        "enderio:vibrant_gear",
+        "ufo:dimensional_matter_assembler",
+        "projectexpansion:final_power_flower",
+        "minecraft:blast_furnace",
+        "pneumaticcraft:refinery",
+        "ae2lt:overload_alloy_blank",
+        "avaritia:crystal_matrix_ingot",
+        "draconicevolution:crafting_core",  
+        "draconicevolution:wyvern_core",
+        "draconicevolution:wyvern_energy_core",
+        "mekanismgenerators:fission_reactor_port",
+        "draconicevolution:chaotic_energy_core",
+        'mmcr:heat_input_hatch',
+        'mmcr:heat_output_hatch',
+        "mmcr:modularium",
+        "mekanism:isotopic_centrifuge",
+        "mekanism:fuelwood_heater",
+        "minecraft:smithing_table",
+        "botania:terrestrial_agglomeration_plate",
+        "naturesaura:gold_fiber",
+        "botania:mana_pylon"
+    ]
+    recipeTypeall.forEach((item) => {
+        event.remove({ output: item, type: 'minecraft:crafting_shaped' })
+        event.remove({ output: item, type: 'minecraft:crafting_shapeless' })
+    })
+
+    let recipeTypeshaped = [
+        "mekanism:basic_fluid_tank",
+        "enderio:pulsating_crystal",
+        "ae2omnicells:omni_cell_component_1k",
+        "ae2omnicells:omni_cell_component_4k",
+        "ae2omnicells:omni_cell_component_16k",
+        "ae2omnicells:omni_cell_component_64k",
+        "ae2omnicells:omni_cell_component_256k",
+        "powah:dielectric_rod",
+        "powah:dielectric_rod_horizontal",
+        "projectexpansion:fading_matter",
+        'projectexpansion:magenta_matter', 
+        'projectexpansion:pink_matter', 
+        'projectexpansion:purple_matter', 
+        'projectexpansion:violet_matter', 
+        'projectexpansion:blue_matter', 
+        'projectexpansion:cyan_matter', 
+        'projectexpansion:green_matter', 
+        'projectexpansion:lime_matter', 
+        'projectexpansion:yellow_matter', 
+        'projectexpansion:orange_matter', 
+        'projectexpansion:white_matter',
+        "projecte:red_matter",
+        "neoecoae:crystal_matrix",
+        "botania:glimmering_livingwood",
+        "botania:elven_gateway_core"
+        
+    ]
+    recipeTypeshaped.forEach((item) => {
+        event.remove({ output: item, type: 'minecraft:crafting_shaped' })
+    })
+
+    let coinItems = [
+        'coinsje:copper_coin',
+        'coinsje:iron_coin',
+        'coinsje:gold_coin',
+        'coinsje:diamond_coin',
+        'coinsje:netherite_coin',
+        "draconicevolution:draconium_ingot"
+    ]
+    coinItems.forEach((item) => {
+        event.remove({ output: item, type: 'minecraft:smelting' })
+        event.remove({ output: item, type: 'minecraft:blasting' })
+    })
+})

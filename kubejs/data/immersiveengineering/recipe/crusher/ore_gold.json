@@ -1,0 +1,13 @@
+{
+  "type": "immersiveengineering:crusher",
+  "energy": 6000,
+  "input": {
+    "tag": "c:ores/gold"
+  },
+  "result": {
+    "basePredicate": {
+      "tag": "c:dusts/gold"
+    },
+    "count": 2
+  }
+}

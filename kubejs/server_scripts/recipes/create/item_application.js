@@ -1,0 +1,30 @@
+ServerEvents.recipes((event) => {
+    //高级工作台
+    event.custom(
+        {"type":"create:item_application",
+            "ingredients":[
+                {"item":"avaritia:double_compressed_crafting_table"},
+                {"item":"extendedcrafting:advanced_catalyst"}
+            ],
+            "results":[{"id":"extendedcrafting:advanced_table"}]}
+    )
+    //精英工作台
+    event.custom(
+        {"type":"create:item_application",
+            "ingredients":[
+                {"item":"extendedcrafting:advanced_table"},
+                {"item":"extendedcrafting:elite_catalyst"}
+            ],
+            "results":[{"id":"extendedcrafting:elite_table"}]}
+    )
+    //终极工作台
+    event.custom(
+        {"type":"create:item_application",
+            "ingredients":[
+                {"item":"extendedcrafting:elite_table"},
+                {"item":"extendedcrafting:ultimate_catalyst"}
+            ],
+            "results":[{"id":"extendedcrafting:ultimate_table"}]}
+    )
+
+})

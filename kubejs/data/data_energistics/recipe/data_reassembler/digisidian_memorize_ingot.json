@@ -1,0 +1,37 @@
+{
+	"type": "data_energistics:data_reassembler",
+	"inputs": {
+		"items": [
+			{
+				"tag": "c:gems/data_crystal",
+				"count": 8
+			},
+			{
+				"item": "allthemodium:vibranium_ingot",
+				"count": 6
+			},
+			{
+				"item": "mekanism:dust_refined_obsidian",
+				"count": 9
+			},
+			{
+				"item": "neoecoae:energized_crystal",
+				"count": 13
+			}
+		],
+		"fluids": [
+			{
+				"fluid": "data_energistics:data_corrosion_liquid",
+				"amount": 424
+			}
+		]
+	},
+	"outputs": {
+		"items": [
+			{
+				"id": "data_energistics:digisidian_memorize_ingot",
+				"count": 2
+			}
+		]
+	}
+}

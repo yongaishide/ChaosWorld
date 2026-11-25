@@ -1,0 +1,16 @@
+{
+  "type": "botania:mana_infusion",
+  "catalyst": {
+    "type": "botania:block",
+    "block": "botania:alchemy_catalyst"
+  },
+  "group": "botania:stone_cycle",
+  "input": {
+    "item": "minecraft:andesite"
+  },
+  "mana": 200,
+  "output": {
+    "count": 1,
+    "id": "minecraft:diorite"
+  }
+}

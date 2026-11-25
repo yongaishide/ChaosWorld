@@ -1,0 +1,11 @@
+{
+  "description": "折叠八重压缩物品",
+  "type": "item",
+  "tag": "allthecompressed:8x",
+  "icon": "allthecompressed:diamond_block_8x",
+  "display_name": "jei_tag_groups.group.compressed_8x.name",
+  "tooltip": [
+    "jei_tag_groups.group.compressed_8x.tooltip"
+  ],
+  "border_color": "#FFAA55"
+}

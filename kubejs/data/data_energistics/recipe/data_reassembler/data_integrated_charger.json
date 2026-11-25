@@ -1,0 +1,43 @@
+{
+	"type": "data_energistics:data_reassembler",
+	"inputs": {
+		"items": [
+			{
+				"item": "extendedae:ex_inscriber",
+				"count": 3
+			},
+			{
+				"item": "data_energistics:data_charger",
+				"count": 3
+			},
+			{
+				"item": "chaosworld_core:ingot_tech_7",
+				"count": 18
+			},
+			{
+				"item": "data_energistics:data_framework"
+			},
+			{
+				"item": "chaosworld_core:quantum_assembly",
+				"count": 2
+			},
+			{
+				"item": "data_energistics:data_processor",
+				"count": 37
+			}
+		],
+		"fluids": [
+			{
+				"fluid": "data_energistics:ender",
+				"amount": 4000
+			}
+		]
+	},
+	"outputs": {
+		"items": [
+			{
+				"id": "data_energistics:data_integrated_charger"
+			}
+		]
+	}
+}

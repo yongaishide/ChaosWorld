@@ -1,0 +1,27 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "cataclysm"
+		}
+    ],
+    "entity": "cataclysm:urchinkin",
+    "name": {
+        "translate": "entity.cataclysm.urchinkin",
+        "color": "#2A1051"
+    },
+    "sim_cost": 128,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:nether_prediction"
+    },
+    "trivia": "custom.trivia.urchinkin",
+    "fabricator_drops": [
+        {
+            "id": "cataclysm:lacrima",
+            "count": 4
+        }
+    ]
+}

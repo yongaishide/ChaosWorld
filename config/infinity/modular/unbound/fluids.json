@@ -1,0 +1,67 @@
+{
+	"elements": [
+		{
+			"data": {
+				"fluidName": "unbound:acid"
+			},
+			"weight": 1.0,
+			"key": "unbound:acid"
+		},
+		{
+			"data": {
+				"fluidName": "unbound:coolant"
+			},
+			"weight": 1.0,
+			"key": "unbound:coolant"
+		},
+		{
+			"data": {
+				"fluidName": "unbound:helium3"
+			},
+			"weight": 1.0,
+			"key": "unbound:helium3"
+		},
+		{
+			"data": {
+				"fluidName": "unbound:liquid_methane"
+			},
+			"weight": 1.0,
+			"key": "unbound:liquid_methane"
+		},
+		{
+			"data": {
+				"fluidName": "unbound:liquid_pearl"
+			},
+			"weight": 1.0,
+			"key": "unbound:liquid_pearl"
+		},
+		{
+			"data": {
+				"fluidName": "unbound:molten_gold"
+			},
+			"weight": 1.0,
+			"key": "unbound:molten_gold"
+		},
+		{
+			"data": {
+				"fluidName": "unbound:molten_iron"
+			},
+			"weight": 1.0,
+			"key": "unbound:molten_iron"
+		},
+		{
+			"data": {
+				"fluidName": "unbound:rocket_fuel"
+			},
+			"weight": 1.0,
+			"key": "unbound:rocket_fuel"
+		},
+		{
+			"data": {
+				"fluidName": "unbound:tears"
+			},
+			"weight": 1.0,
+			"key": "unbound:tear_pool"
+		}
+	]
+}

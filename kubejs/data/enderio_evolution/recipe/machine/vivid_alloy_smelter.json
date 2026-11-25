@@ -1,0 +1,35 @@
+{
+  "type": "enderio_evolution:machine_upgrade",
+  "category": "misc",
+  "key": {
+    "C": [
+      {
+        "item": "enderio_evolution:capacitor_vivid"
+      },
+      {
+        "item": "enderio:octadic_capacitor"
+      }
+    ],
+    "H": {
+      "item": "enderio_evolution:basic_alloy_smelter"
+    },
+    "I": {
+      "item": "minecraft:ender_eye"
+    },
+    "M": {
+      "item": "enderio_evolution:vivid_alloy_ingot"
+    },
+    "P": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "pattern": [
+    "PCP",
+    "CHC",
+    "MIM"
+  ],
+  "result": {
+    "count": 1,
+    "id": "enderio_evolution:vivid_alloy_smelter"
+  }
+}

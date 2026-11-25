@@ -1,0 +1,24 @@
+{
+  "name": "patchouli.chaosworld.entry.worldgen.dim_other",
+  "icon": "allthemodium:other_vibranium_ore",
+  "category": "patchouli:worldgen",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "patchouli.chaosworld.entry.worldgen.dim_other.page1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "patchouli.chaosworld.entry.worldgen.dim_other.page2"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "patchouli.chaosworld.entry.worldgen.dim_other.page3"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "patchouli.chaosworld.entry.worldgen.dim_other.page4"
+    }
+  ]
+}

@@ -1,0 +1,4288 @@
+{
+  "title": "309c1de90c7879c8",
+  "icon": "mmcr:brick_alloy_furnace_controller",
+  "order": 1,
+  "quests": [
+    {
+      "id": "334e64f6db734989",
+      "x": -8.0,
+      "y": 2.0,
+      "deps": [
+        "1891c245d48adc3f"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "count": 27,
+          "item": "immersiveengineering:cokebrick"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "random",
+          "icon": "ftbquests:lootcrate[ftbquests:loot_crate=\"putong\"]",
+          "choices": [
+            {
+              "type": "item",
+              "item": "minecraft:diamond",
+              "count": 10
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_iron",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_copper",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_gold",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_osmium",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_tin",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_lead",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_nickel",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "allthemodium:raw_allthemodium"
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "ae2omnicells:omni_cell_component_1k"
+            },
+            {
+              "type": "item",
+              "item": "avaritia:compressed_chest"
+            },
+            {
+              "type": "item",
+              "item": "botania:livingrock",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:livingwood_log",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:manasteel_ingot",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_pearl",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_diamond",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_powder",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_quartz",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:black_lotus",
+              "count": 8
+            },
+            {
+              "type": "item",
+              "item": "botania:blacker_lotus",
+              "count": 4
+            }
+          ],
+          "excluded": true
+        }
+      ]
+    },
+    {
+      "id": "1891c245d48adc3f",
+      "x": -8.0,
+      "y": 4.0,
+      "deps": [
+        "491071d288816a76/5c37e68b0948402d"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "immersiveengineering:hempcrete"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "random",
+          "icon": "ftbquests:lootcrate[ftbquests:loot_crate=\"putong\"]",
+          "choices": [
+            {
+              "type": "item",
+              "item": "minecraft:diamond",
+              "count": 10
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_iron",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_copper",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_gold",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_osmium",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_tin",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_lead",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_nickel",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "allthemodium:raw_allthemodium"
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "ae2omnicells:omni_cell_component_1k"
+            },
+            {
+              "type": "item",
+              "item": "avaritia:compressed_chest"
+            },
+            {
+              "type": "item",
+              "item": "botania:livingrock",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:livingwood_log",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:manasteel_ingot",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_pearl",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_diamond",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_powder",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_quartz",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:black_lotus",
+              "count": 8
+            },
+            {
+              "type": "item",
+              "item": "botania:blacker_lotus",
+              "count": 4
+            }
+          ],
+          "excluded": true
+        }
+      ]
+    },
+    {
+      "id": "3f45a062d29cb428",
+      "x": -10.0,
+      "y": 2.0,
+      "deps": [
+        "334e64f6db734989"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "immersiveengineering:coal_coke"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "random",
+          "icon": "ftbquests:lootcrate[ftbquests:loot_crate=\"putong\"]",
+          "choices": [
+            {
+              "type": "item",
+              "item": "minecraft:diamond",
+              "count": 10
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_iron",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_copper",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_gold",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_osmium",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_tin",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_lead",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_nickel",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "allthemodium:raw_allthemodium"
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "ae2omnicells:omni_cell_component_1k"
+            },
+            {
+              "type": "item",
+              "item": "avaritia:compressed_chest"
+            },
+            {
+              "type": "item",
+              "item": "botania:livingrock",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:livingwood_log",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:manasteel_ingot",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_pearl",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_diamond",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_powder",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_quartz",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:black_lotus",
+              "count": 8
+            },
+            {
+              "type": "item",
+              "item": "botania:blacker_lotus",
+              "count": 4
+            }
+          ],
+          "excluded": true
+        }
+      ]
+    },
+    {
+      "id": "6154730899d5dc24",
+      "x": -6.0,
+      "y": 4.0,
+      "deps": [
+        "1891c245d48adc3f"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "immersiveengineering:blastbrick"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "random",
+          "icon": "ftbquests:lootcrate[ftbquests:loot_crate=\"putong\"]",
+          "choices": [
+            {
+              "type": "item",
+              "item": "minecraft:diamond",
+              "count": 10
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_iron",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_copper",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_gold",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_osmium",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_tin",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_lead",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_nickel",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "allthemodium:raw_allthemodium"
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "ae2omnicells:omni_cell_component_1k"
+            },
+            {
+              "type": "item",
+              "item": "avaritia:compressed_chest"
+            },
+            {
+              "type": "item",
+              "item": "botania:livingrock",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:livingwood_log",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:manasteel_ingot",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_pearl",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_diamond",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_powder",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_quartz",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:black_lotus",
+              "count": 8
+            },
+            {
+              "type": "item",
+              "item": "botania:blacker_lotus",
+              "count": 4
+            }
+          ],
+          "excluded": true
+        }
+      ]
+    },
+    {
+      "id": "03ea598aa6016cf5",
+      "x": -4.0,
+      "y": 4.0,
+      "deps": [
+        "6154730899d5dc24"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "alltheores:steel_ingot"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "random",
+          "icon": "ftbquests:lootcrate[ftbquests:loot_crate=\"putong\"]",
+          "choices": [
+            {
+              "type": "item",
+              "item": "minecraft:diamond",
+              "count": 10
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_iron",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_copper",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_gold",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_osmium",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_tin",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_lead",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_nickel",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "allthemodium:raw_allthemodium"
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "ae2omnicells:omni_cell_component_1k"
+            },
+            {
+              "type": "item",
+              "item": "avaritia:compressed_chest"
+            },
+            {
+              "type": "item",
+              "item": "botania:livingrock",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:livingwood_log",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:manasteel_ingot",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_pearl",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_diamond",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_powder",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_quartz",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:black_lotus",
+              "count": 8
+            },
+            {
+              "type": "item",
+              "item": "botania:blacker_lotus",
+              "count": 4
+            }
+          ],
+          "excluded": true
+        }
+      ]
+    },
+    {
+      "id": "6ce917d464e26aeb",
+      "x": -10.0,
+      "y": 4.0,
+      "deps": [
+        "3f45a062d29cb428"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "count": 8,
+          "item": "immersiveengineering:alloybrick"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "random",
+          "icon": "ftbquests:lootcrate[ftbquests:loot_crate=\"putong\"]",
+          "choices": [
+            {
+              "type": "item",
+              "item": "minecraft:diamond",
+              "count": 10
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_iron",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_copper",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_gold",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_osmium",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_tin",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_lead",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_nickel",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "allthemodium:raw_allthemodium"
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "ae2omnicells:omni_cell_component_1k"
+            },
+            {
+              "type": "item",
+              "item": "avaritia:compressed_chest"
+            },
+            {
+              "type": "item",
+              "item": "botania:livingrock",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:livingwood_log",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:manasteel_ingot",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_pearl",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_diamond",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_powder",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_quartz",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:black_lotus",
+              "count": 8
+            },
+            {
+              "type": "item",
+              "item": "botania:blacker_lotus",
+              "count": 4
+            }
+          ],
+          "excluded": true
+        }
+      ]
+    },
+    {
+      "id": "6c5e33eedaa5c40b",
+      "x": -2.0,
+      "y": 4.0,
+      "deps": [
+        "03ea598aa6016cf5"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "mmcr:brick_alloy_furnace_controller"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "random",
+          "icon": "ftbquests:lootcrate[ftbquests:loot_crate=\"putong\"]",
+          "choices": [
+            {
+              "type": "item",
+              "item": "minecraft:diamond",
+              "count": 10
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_iron",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_copper",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_gold",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_osmium",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_tin",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_lead",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_nickel",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "allthemodium:raw_allthemodium"
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "ae2omnicells:omni_cell_component_1k"
+            },
+            {
+              "type": "item",
+              "item": "avaritia:compressed_chest"
+            },
+            {
+              "type": "item",
+              "item": "botania:livingrock",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:livingwood_log",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:manasteel_ingot",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_pearl",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_diamond",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_powder",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_quartz",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:black_lotus",
+              "count": 8
+            },
+            {
+              "type": "item",
+              "item": "botania:blacker_lotus",
+              "count": 4
+            }
+          ],
+          "excluded": true
+        }
+      ]
+    },
+    {
+      "id": "1686fb9553acafe4",
+      "x": 2.0,
+      "y": 6.0,
+      "deps": [
+        "6296ddefd4a3dd27"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "immersiveengineering:rs_engineering"
+        },
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "random",
+          "icon": "ftbquests:lootcrate[ftbquests:loot_crate=\"putong\"]",
+          "choices": [
+            {
+              "type": "item",
+              "item": "minecraft:diamond",
+              "count": 10
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_iron",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_copper",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_gold",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_osmium",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_tin",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_lead",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_nickel",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "allthemodium:raw_allthemodium"
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "ae2omnicells:omni_cell_component_1k"
+            },
+            {
+              "type": "item",
+              "item": "avaritia:compressed_chest"
+            },
+            {
+              "type": "item",
+              "item": "botania:livingrock",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:livingwood_log",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:manasteel_ingot",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_pearl",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_diamond",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_powder",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_quartz",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:black_lotus",
+              "count": 8
+            },
+            {
+              "type": "item",
+              "item": "botania:blacker_lotus",
+              "count": 4
+            }
+          ],
+          "excluded": true
+        }
+      ]
+    },
+    {
+      "id": "358a3b366239edda",
+      "x": 6.0,
+      "y": 4.0,
+      "deps": [
+        "1f379e4879715aeb",
+        "522b978d1d85df9e"
+      ],
+      "depMode": "any",
+      "tasks": [
+        {
+          "type": "item",
+          "item": "immersiveengineering:graphite_electrode"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "random",
+          "icon": "ftbquests:lootcrate[ftbquests:loot_crate=\"putong\"]",
+          "choices": [
+            {
+              "type": "item",
+              "item": "minecraft:diamond",
+              "count": 10
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_iron",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_copper",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_gold",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_osmium",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_tin",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_lead",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_nickel",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "allthemodium:raw_allthemodium"
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "ae2omnicells:omni_cell_component_1k"
+            },
+            {
+              "type": "item",
+              "item": "avaritia:compressed_chest"
+            },
+            {
+              "type": "item",
+              "item": "botania:livingrock",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:livingwood_log",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:manasteel_ingot",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_pearl",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_diamond",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_powder",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_quartz",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:black_lotus",
+              "count": 8
+            },
+            {
+              "type": "item",
+              "item": "botania:blacker_lotus",
+              "count": 4
+            }
+          ],
+          "excluded": true
+        }
+      ]
+    },
+    {
+      "id": "1f379e4879715aeb",
+      "x": 2.0,
+      "y": 10.0,
+      "deps": [
+        "64ef8877e25069d3",
+        "7212d6fed17b9305"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "immersiveengineering:dust_hop_graphite"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "random",
+          "icon": "ftbquests:lootcrate[ftbquests:loot_crate=\"putong\"]",
+          "choices": [
+            {
+              "type": "item",
+              "item": "minecraft:diamond",
+              "count": 10
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_iron",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_copper",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_gold",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_osmium",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_tin",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_lead",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_nickel",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "allthemodium:raw_allthemodium"
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "ae2omnicells:omni_cell_component_1k"
+            },
+            {
+              "type": "item",
+              "item": "avaritia:compressed_chest"
+            },
+            {
+              "type": "item",
+              "item": "botania:livingrock",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:livingwood_log",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:manasteel_ingot",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_pearl",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_diamond",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_powder",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_quartz",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:black_lotus",
+              "count": 8
+            },
+            {
+              "type": "item",
+              "item": "botania:blacker_lotus",
+              "count": 4
+            }
+          ],
+          "excluded": true
+        }
+      ]
+    },
+    {
+      "id": "3137548559c85fba",
+      "x": 12.0,
+      "y": 4.0,
+      "shape": "gear",
+      "size": 2.0,
+      "deps": [
+        "01eea0f4b8f06245",
+        "270d37d1759b1a29"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "industrialforegoing:machine_frame_pity"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "random",
+          "icon": "ftbquests:lootcrate[ftbquests:loot_crate=\"xiyou\"]",
+          "excluded": true
+        }
+      ]
+    },
+    {
+      "id": "7212d6fed17b9305",
+      "y": 10.0,
+      "deps": [
+        "4e8adb3b1fe7d6e8"
+      ],
+      "depsStarted": true,
+      "tasks": [
+        {
+          "type": "item",
+          "item": "immersiveengineering:dust_coke"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "random",
+          "icon": "ftbquests:lootcrate[ftbquests:loot_crate=\"putong\"]",
+          "choices": [
+            {
+              "type": "item",
+              "item": "minecraft:diamond",
+              "count": 10
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_iron",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_copper",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_gold",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_osmium",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_tin",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_lead",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_nickel",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "allthemodium:raw_allthemodium"
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "ae2omnicells:omni_cell_component_1k"
+            },
+            {
+              "type": "item",
+              "item": "avaritia:compressed_chest"
+            },
+            {
+              "type": "item",
+              "item": "botania:livingrock",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:livingwood_log",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:manasteel_ingot",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_pearl",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_diamond",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_powder",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_quartz",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:black_lotus",
+              "count": 8
+            },
+            {
+              "type": "item",
+              "item": "botania:blacker_lotus",
+              "count": 4
+            }
+          ],
+          "excluded": true
+        }
+      ],
+      "x": 0.0
+    },
+    {
+      "id": "4e8adb3b1fe7d6e8",
+      "y": 8.0,
+      "deps": [
+        "1686fb9553acafe4"
+      ],
+      "tasks": [
+        {
+          "type": "observe",
+          "icon": "immersiveengineering:crusher",
+          "block": "immersiveengineering:crusher",
+          "seconds": 0
+        }
+      ],
+      "rewards": [
+        {
+          "type": "random",
+          "icon": "ftbquests:lootcrate[ftbquests:loot_crate=\"putong\"]",
+          "choices": [
+            {
+              "type": "item",
+              "item": "minecraft:diamond",
+              "count": 10
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_iron",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_copper",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_gold",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_osmium",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_tin",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_lead",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_nickel",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "allthemodium:raw_allthemodium"
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "ae2omnicells:omni_cell_component_1k"
+            },
+            {
+              "type": "item",
+              "item": "avaritia:compressed_chest"
+            },
+            {
+              "type": "item",
+              "item": "botania:livingrock",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:livingwood_log",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:manasteel_ingot",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_pearl",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_diamond",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_powder",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_quartz",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:black_lotus",
+              "count": 8
+            },
+            {
+              "type": "item",
+              "item": "botania:blacker_lotus",
+              "count": 4
+            }
+          ],
+          "excluded": true
+        }
+      ],
+      "x": 0.0
+    },
+    {
+      "id": "683fa8da5355b568",
+      "x": 8.0,
+      "y": 4.0,
+      "deps": [
+        "358a3b366239edda"
+      ],
+      "tasks": [
+        {
+          "type": "observe",
+          "icon": "immersiveengineering:arc_furnace",
+          "block": "immersiveengineering:arc_furnace",
+          "seconds": 0
+        }
+      ],
+      "rewards": [
+        {
+          "type": "random",
+          "icon": "ftbquests:lootcrate[ftbquests:loot_crate=\"putong\"]",
+          "choices": [
+            {
+              "type": "item",
+              "item": "minecraft:diamond",
+              "count": 10
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_iron",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_copper",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_gold",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_osmium",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_tin",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_lead",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_nickel",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "allthemodium:raw_allthemodium"
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "ae2omnicells:omni_cell_component_1k"
+            },
+            {
+              "type": "item",
+              "item": "avaritia:compressed_chest"
+            },
+            {
+              "type": "item",
+              "item": "botania:livingrock",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:livingwood_log",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:manasteel_ingot",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_pearl",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_diamond",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_powder",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_quartz",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:black_lotus",
+              "count": 8
+            },
+            {
+              "type": "item",
+              "item": "botania:blacker_lotus",
+              "count": 4
+            }
+          ],
+          "excluded": true
+        }
+      ]
+    },
+    {
+      "id": "522b978d1d85df9e",
+      "x": 4.0,
+      "y": 4.0,
+      "deps": [
+        "0127b9af5f4e8cf2"
+      ],
+      "tasks": [
+        {
+          "type": "observe",
+          "icon": "immersiveengineering:metal_press",
+          "block": "immersiveengineering:metal_press",
+          "seconds": 0
+        }
+      ],
+      "rewards": [
+        {
+          "type": "random",
+          "icon": "ftbquests:lootcrate[ftbquests:loot_crate=\"putong\"]",
+          "choices": [
+            {
+              "type": "item",
+              "item": "minecraft:diamond",
+              "count": 10
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_iron",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_copper",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_gold",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_osmium",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_tin",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_lead",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_nickel",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "allthemodium:raw_allthemodium"
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "ae2omnicells:omni_cell_component_1k"
+            },
+            {
+              "type": "item",
+              "item": "avaritia:compressed_chest"
+            },
+            {
+              "type": "item",
+              "item": "botania:livingrock",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:livingwood_log",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:manasteel_ingot",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_pearl",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_diamond",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_powder",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_quartz",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:black_lotus",
+              "count": 8
+            },
+            {
+              "type": "item",
+              "item": "botania:blacker_lotus",
+              "count": 4
+            }
+          ],
+          "excluded": true
+        }
+      ]
+    },
+    {
+      "id": "64ef8877e25069d3",
+      "x": 2.0,
+      "y": 8.0,
+      "deps": [
+        "1686fb9553acafe4"
+      ],
+      "tasks": [
+        {
+          "type": "observe",
+          "icon": "immersiveengineering:squeezer",
+          "block": "immersiveengineering:squeezer",
+          "seconds": 0
+        }
+      ],
+      "rewards": [
+        {
+          "type": "random",
+          "icon": "ftbquests:lootcrate[ftbquests:loot_crate=\"putong\"]",
+          "choices": [
+            {
+              "type": "item",
+              "item": "minecraft:diamond",
+              "count": 10
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_iron",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_copper",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_gold",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_osmium",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_tin",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_lead",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_nickel",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "allthemodium:raw_allthemodium"
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "ae2omnicells:omni_cell_component_1k"
+            },
+            {
+              "type": "item",
+              "item": "avaritia:compressed_chest"
+            },
+            {
+              "type": "item",
+              "item": "botania:livingrock",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:livingwood_log",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:manasteel_ingot",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_pearl",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_diamond",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_powder",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_quartz",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:black_lotus",
+              "count": 8
+            },
+            {
+              "type": "item",
+              "item": "botania:blacker_lotus",
+              "count": 4
+            }
+          ],
+          "excluded": true
+        }
+      ]
+    },
+    {
+      "id": "278c09b08dbf6153",
+      "x": -6.0,
+      "y": 2.0,
+      "deps": [
+        "334e64f6db734989"
+      ],
+      "tasks": [
+        {
+          "type": "fluid",
+          "count": 1000,
+          "consume": true,
+          "fluid": "immersiveengineering:creosote"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "random",
+          "icon": "ftbquests:lootcrate[ftbquests:loot_crate=\"putong\"]",
+          "choices": [
+            {
+              "type": "item",
+              "item": "minecraft:diamond",
+              "count": 10
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_iron",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_copper",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_gold",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_osmium",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_tin",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_lead",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_nickel",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "allthemodium:raw_allthemodium"
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "ae2omnicells:omni_cell_component_1k"
+            },
+            {
+              "type": "item",
+              "item": "avaritia:compressed_chest"
+            },
+            {
+              "type": "item",
+              "item": "botania:livingrock",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:livingwood_log",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:manasteel_ingot",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_pearl",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_diamond",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_powder",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_quartz",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:black_lotus",
+              "count": 8
+            },
+            {
+              "type": "item",
+              "item": "botania:blacker_lotus",
+              "count": 4
+            }
+          ],
+          "excluded": true
+        }
+      ]
+    },
+    {
+      "id": "7834d0649fd0874f",
+      "x": -4.0,
+      "deps": [
+        "278c09b08dbf6153",
+        "4ab4c21598bd6a12"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "immersiveengineering:treated_wood_horizontal"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "random",
+          "icon": "ftbquests:lootcrate[ftbquests:loot_crate=\"putong\"]",
+          "choices": [
+            {
+              "type": "item",
+              "item": "minecraft:diamond",
+              "count": 10
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_iron",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_copper",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_gold",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_osmium",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_tin",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_lead",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_nickel",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "allthemodium:raw_allthemodium"
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "ae2omnicells:omni_cell_component_1k"
+            },
+            {
+              "type": "item",
+              "item": "avaritia:compressed_chest"
+            },
+            {
+              "type": "item",
+              "item": "botania:livingrock",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:livingwood_log",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:manasteel_ingot",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_pearl",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_diamond",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_powder",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_quartz",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:black_lotus",
+              "count": 8
+            },
+            {
+              "type": "item",
+              "item": "botania:blacker_lotus",
+              "count": 4
+            }
+          ],
+          "excluded": true
+        }
+      ],
+      "y": 0.0
+    },
+    {
+      "id": "4ab4c21598bd6a12",
+      "x": -6.0,
+      "deps": [
+        "491071d288816a76/7be82c704232e651"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "create:spout"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "random",
+          "icon": "ftbquests:lootcrate[ftbquests:loot_crate=\"putong\"]",
+          "choices": [
+            {
+              "type": "item",
+              "item": "minecraft:diamond",
+              "count": 10
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_iron",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_copper",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_gold",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_osmium",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_tin",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_lead",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_nickel",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "allthemodium:raw_allthemodium"
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "ae2omnicells:omni_cell_component_1k"
+            },
+            {
+              "type": "item",
+              "item": "avaritia:compressed_chest"
+            },
+            {
+              "type": "item",
+              "item": "botania:livingrock",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:livingwood_log",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:manasteel_ingot",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_pearl",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_diamond",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_powder",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_quartz",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:black_lotus",
+              "count": 8
+            },
+            {
+              "type": "item",
+              "item": "botania:blacker_lotus",
+              "count": 4
+            }
+          ],
+          "excluded": true
+        }
+      ],
+      "y": 0.0
+    },
+    {
+      "id": "711c62ea2e9076ee",
+      "x": -2.0,
+      "deps": [
+        "7834d0649fd0874f"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "immersiveengineering:workbench"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "random",
+          "icon": "ftbquests:lootcrate[ftbquests:loot_crate=\"putong\"]",
+          "choices": [
+            {
+              "type": "item",
+              "item": "minecraft:diamond",
+              "count": 10
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_iron",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_copper",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_gold",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_osmium",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_tin",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_lead",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_nickel",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "allthemodium:raw_allthemodium"
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "ae2omnicells:omni_cell_component_1k"
+            },
+            {
+              "type": "item",
+              "item": "avaritia:compressed_chest"
+            },
+            {
+              "type": "item",
+              "item": "botania:livingrock",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:livingwood_log",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:manasteel_ingot",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_pearl",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_diamond",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_powder",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_quartz",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:black_lotus",
+              "count": 8
+            },
+            {
+              "type": "item",
+              "item": "botania:blacker_lotus",
+              "count": 4
+            }
+          ],
+          "excluded": true
+        }
+      ],
+      "y": 0.0
+    },
+    {
+      "id": "5fbf91883e98d4da",
+      "x": -4.0,
+      "y": -2.0,
+      "deps": [
+        "7834d0649fd0874f",
+        "14c97aa6221400f2"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "actuallyadditions:iron_casing"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "random",
+          "icon": "ftbquests:lootcrate[ftbquests:loot_crate=\"putong\"]",
+          "choices": [
+            {
+              "type": "item",
+              "item": "minecraft:diamond",
+              "count": 10
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_iron",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_copper",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_gold",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_osmium",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_tin",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_lead",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_nickel",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "allthemodium:raw_allthemodium"
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "ae2omnicells:omni_cell_component_1k"
+            },
+            {
+              "type": "item",
+              "item": "avaritia:compressed_chest"
+            },
+            {
+              "type": "item",
+              "item": "botania:livingrock",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:livingwood_log",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:manasteel_ingot",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_pearl",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_diamond",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_powder",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_quartz",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:black_lotus",
+              "count": 8
+            },
+            {
+              "type": "item",
+              "item": "botania:blacker_lotus",
+              "count": 4
+            }
+          ],
+          "excluded": true
+        }
+      ]
+    },
+    {
+      "id": "14c97aa6221400f2",
+      "x": -6.0,
+      "y": -2.0,
+      "deps": [
+        "4cb1408e36a1e831"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "alltheores:iron_plate"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "random",
+          "icon": "ftbquests:lootcrate[ftbquests:loot_crate=\"putong\"]",
+          "choices": [
+            {
+              "type": "item",
+              "item": "minecraft:diamond",
+              "count": 10
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_iron",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_copper",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_gold",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_osmium",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_tin",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_lead",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_nickel",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "allthemodium:raw_allthemodium"
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "ae2omnicells:omni_cell_component_1k"
+            },
+            {
+              "type": "item",
+              "item": "avaritia:compressed_chest"
+            },
+            {
+              "type": "item",
+              "item": "botania:livingrock",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:livingwood_log",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:manasteel_ingot",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_pearl",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_diamond",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_powder",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_quartz",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:black_lotus",
+              "count": 8
+            },
+            {
+              "type": "item",
+              "item": "botania:blacker_lotus",
+              "count": 4
+            }
+          ],
+          "excluded": true
+        }
+      ]
+    },
+    {
+      "id": "5765ea80754accc7",
+      "deps": [
+        "711c62ea2e9076ee"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "immersiveengineering:electron_tube"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "random",
+          "icon": "ftbquests:lootcrate[ftbquests:loot_crate=\"putong\"]",
+          "choices": [
+            {
+              "type": "item",
+              "item": "minecraft:diamond",
+              "count": 10
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_iron",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_copper",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_gold",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_osmium",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_tin",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_lead",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_nickel",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "allthemodium:raw_allthemodium"
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "ae2omnicells:omni_cell_component_1k"
+            },
+            {
+              "type": "item",
+              "item": "avaritia:compressed_chest"
+            },
+            {
+              "type": "item",
+              "item": "botania:livingrock",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:livingwood_log",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:manasteel_ingot",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_pearl",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_diamond",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_powder",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_quartz",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:black_lotus",
+              "count": 8
+            },
+            {
+              "type": "item",
+              "item": "botania:blacker_lotus",
+              "count": 4
+            }
+          ],
+          "excluded": true
+        }
+      ],
+      "x": 0.0,
+      "y": 0.0
+    },
+    {
+      "id": "63c77b6668460099",
+      "x": -2.0,
+      "y": 2.0,
+      "deps": [
+        "711c62ea2e9076ee"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "mekanismgenerators:wind_generator"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "random",
+          "icon": "ftbquests:lootcrate[ftbquests:loot_crate=\"putong\"]",
+          "choices": [
+            {
+              "type": "item",
+              "item": "minecraft:diamond",
+              "count": 10
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_iron",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_copper",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_gold",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_osmium",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_tin",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_lead",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_nickel",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "allthemodium:raw_allthemodium"
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "ae2omnicells:omni_cell_component_1k"
+            },
+            {
+              "type": "item",
+              "item": "avaritia:compressed_chest"
+            },
+            {
+              "type": "item",
+              "item": "botania:livingrock",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:livingwood_log",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:manasteel_ingot",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_pearl",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_diamond",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_powder",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_quartz",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:black_lotus",
+              "count": 8
+            },
+            {
+              "type": "item",
+              "item": "botania:blacker_lotus",
+              "count": 4
+            }
+          ],
+          "excluded": true
+        }
+      ]
+    },
+    {
+      "id": "74e628edb3557bf7",
+      "y": 6.0,
+      "deps": [
+        "1686fb9553acafe4"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "immersiveengineering:furnace_heater"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "random",
+          "icon": "ftbquests:lootcrate[ftbquests:loot_crate=\"putong\"]",
+          "choices": [
+            {
+              "type": "item",
+              "item": "minecraft:diamond",
+              "count": 10
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_iron",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_copper",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_gold",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_osmium",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_tin",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_lead",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_nickel",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "allthemodium:raw_allthemodium"
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "ae2omnicells:omni_cell_component_1k"
+            },
+            {
+              "type": "item",
+              "item": "avaritia:compressed_chest"
+            },
+            {
+              "type": "item",
+              "item": "botania:livingrock",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:livingwood_log",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:manasteel_ingot",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_pearl",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_diamond",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_powder",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_quartz",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:black_lotus",
+              "count": 8
+            },
+            {
+              "type": "item",
+              "item": "botania:blacker_lotus",
+              "count": 4
+            }
+          ],
+          "excluded": true
+        }
+      ],
+      "x": 0.0
+    },
+    {
+      "id": "07350473b80fb014",
+      "x": 8.0,
+      "y": 2.0,
+      "deps": [
+        "683fa8da5355b568"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "extendedcrafting:luminessence"
+        }
+      ]
+    },
+    {
+      "id": "53182fd162dd9f83",
+      "x": 8.0,
+      "y": -2.0,
+      "shape": "gear",
+      "size": 2.0,
+      "deps": [
+        "2dda8a2510662b54"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "extendedcrafting:advanced_table"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "random",
+          "icon": "ftbquests:lootcrate[ftbquests:loot_crate=\"shishi\"]",
+          "excluded": true
+        }
+      ]
+    },
+    {
+      "id": "2dda8a2510662b54",
+      "x": 8.0,
+      "deps": [
+        "07350473b80fb014"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "extendedcrafting:advanced_catalyst"
+        }
+      ],
+      "y": 0.0
+    },
+    {
+      "id": "3202a9534d992e50",
+      "x": -2.0,
+      "y": 6.0,
+      "deps": [
+        "6c5e33eedaa5c40b"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "15160c6d26582e42",
+      "x": 8.0,
+      "y": 6.0,
+      "deps": [
+        "2d1475384aee3b88"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "2d1475384aee3b88",
+      "x": 6.0,
+      "y": 6.0,
+      "deps": [
+        "7cae0c357e2296b3",
+        "5a660889219e18fd"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "7cae0c357e2296b3",
+      "x": 6.0,
+      "y": 8.0,
+      "deps": [
+        "0dd01b02b11a0e72"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "0dd01b02b11a0e72",
+      "x": 4.0,
+      "y": 8.0,
+      "deps": [
+        "1686fb9553acafe4"
+      ],
+      "tasks": [
+        {
+          "type": "observe",
+          "icon": "immersiveengineering:fermenter",
+          "block": "immersiveengineering:fermenter",
+          "seconds": 0
+        }
+      ]
+    },
+    {
+      "id": "5a660889219e18fd",
+      "x": 4.0,
+      "y": 6.0,
+      "deps": [
+        "0127b9af5f4e8cf2"
+      ],
+      "tasks": [
+        {
+          "type": "observe",
+          "icon": "immersiveengineering:refinery",
+          "block": "immersiveengineering:refinery",
+          "seconds": 0
+        }
+      ]
+    },
+    {
+      "id": "0127b9af5f4e8cf2",
+      "x": 2.0,
+      "y": 4.0,
+      "deps": [
+        "6296ddefd4a3dd27"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "immersiveengineering:heavy_engineering"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "random",
+          "icon": "ftbquests:lootcrate[ftbquests:loot_crate=\"putong\"]",
+          "choices": [
+            {
+              "type": "item",
+              "item": "minecraft:diamond",
+              "count": 10
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_iron",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_copper",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_gold",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_osmium",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_tin",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_lead",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_nickel",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "allthemodium:raw_allthemodium"
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "ae2omnicells:omni_cell_component_1k"
+            },
+            {
+              "type": "item",
+              "item": "avaritia:compressed_chest"
+            },
+            {
+              "type": "item",
+              "item": "botania:livingrock",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:livingwood_log",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:manasteel_ingot",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_pearl",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_diamond",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_powder",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_quartz",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:black_lotus",
+              "count": 8
+            },
+            {
+              "type": "item",
+              "item": "botania:blacker_lotus",
+              "count": 4
+            }
+          ],
+          "excluded": true
+        }
+      ]
+    },
+    {
+      "id": "6296ddefd4a3dd27",
+      "y": 4.0,
+      "deps": [
+        "6c5e33eedaa5c40b"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        },
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        },
+        {
+          "type": "item",
+          "item": "enderio:redstone_alloy_ingot"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "random",
+          "icon": "ftbquests:lootcrate[ftbquests:loot_crate=\"putong\"]",
+          "choices": [
+            {
+              "type": "item",
+              "item": "minecraft:diamond",
+              "count": 10
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_iron",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_copper",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_gold",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_osmium",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_tin",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_lead",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_nickel",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "allthemodium:raw_allthemodium"
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "ae2omnicells:omni_cell_component_1k"
+            },
+            {
+              "type": "item",
+              "item": "avaritia:compressed_chest"
+            },
+            {
+              "type": "item",
+              "item": "botania:livingrock",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:livingwood_log",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:manasteel_ingot",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_pearl",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_diamond",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_powder",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_quartz",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:black_lotus",
+              "count": 8
+            },
+            {
+              "type": "item",
+              "item": "botania:blacker_lotus",
+              "count": 4
+            }
+          ],
+          "excluded": true
+        }
+      ],
+      "x": 0.0
+    },
+    {
+      "id": "179710599b675898",
+      "x": -4.0,
+      "y": 2.0,
+      "deps": [
+        "711c62ea2e9076ee"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "6ea39066cc710bed",
+      "x": 10.0,
+      "y": 6.0,
+      "deps": [
+        "15160c6d26582e42"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "01eea0f4b8f06245",
+      "x": 12.0,
+      "y": 6.0,
+      "deps": [
+        "6ea39066cc710bed"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "02b2ec533abdddc7",
+      "x": -6.0,
+      "y": 8.0,
+      "deps": [
+        "1cec9aaed3f36061"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        },
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        },
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "228d54800243d9fd",
+      "x": -10.0,
+      "y": 6.0,
+      "deps": [
+        "6ce917d464e26aeb"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "1b2519d534a702fc",
+      "x": -8.0,
+      "y": 6.0,
+      "deps": [
+        "228d54800243d9fd"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "1cec9aaed3f36061",
+      "x": -6.0,
+      "y": 6.0,
+      "deps": [
+        "1b2519d534a702fc",
+        "46dd5d748e3d4b4d"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "728c928129edfec3",
+      "x": -8.0,
+      "deps": [
+        "4ab4c21598bd6a12"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        },
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ],
+      "y": 0.0
+    },
+    {
+      "id": "270d37d1759b1a29",
+      "x": 10.0,
+      "y": 4.0,
+      "deps": [
+        "683fa8da5355b568"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "4cb1408e36a1e831",
+      "x": -8.0,
+      "y": -2.0,
+      "deps": [
+        "491071d288816a76/7ac9208fa7636531"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "item",
+          "item": "minecraft:oak_log"
+        }
+      ]
+    },
+    {
+      "id": "46dd5d748e3d4b4d",
+      "x": -4.0,
+      "y": 6.0,
+      "deps": [
+        "03ea598aa6016cf5"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "386982edc00df9fe",
+      "x": -2.0,
+      "y": -2.0,
+      "deps": [
+        "5fbf91883e98d4da"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    }
+  ]
+}

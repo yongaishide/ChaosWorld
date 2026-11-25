@@ -1,0 +1,65 @@
+{
+  "title": "61da5a07406bdb78",
+  "icon": "texture:chaosworld_core:textures/item/diqiu.png",
+  "focus": "44b1d89c5d74be65",
+  "quests": [
+    {
+      "id": "44b1d89c5d74be65",
+      "icon": "texture:chaosworld_core:textures/item/diqiu.png",
+      "size": 2.5,
+      "iconScale": 1.5,
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "item",
+          "item": "patchouli:guide_book[patchouli:book=\"patchouli:chaosworld_books\"]"
+        }
+      ],
+      "x": 0.0,
+      "y": 0.0
+    },
+    {
+      "id": "7db9ba6022cc4b54",
+      "x": 4.0,
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "command",
+          "command": "viscript_shop editor chaosworld",
+          "auto": true
+        }
+      ],
+      "repeatable": true,
+      "y": 0.0
+    },
+    {
+      "id": "712948062a4ecd80",
+      "x": 4.0,
+      "y": 2.0,
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "item",
+          "item": "extendedcrafting:recipe_maker[extendedcrafting:recipe_maker={shapeless:1b,type:\"Kubejs\"}]"
+        },
+        {
+          "type": "item",
+          "item": "extendedcrafting:recipe_maker[extendedcrafting:recipe_maker={shapeless:0b,type:\"Kubejs\"}]"
+        }
+      ],
+      "repeatable": true
+    }
+  ]
+}

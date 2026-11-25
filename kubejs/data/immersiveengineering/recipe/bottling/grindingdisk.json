@@ -1,0 +1,32 @@
+{
+  "type": "immersiveengineering:bottling_machine",
+  "fluid": {
+    "amount": 500,
+    "tag": "c:phenolic_resin"
+  },
+  "inputs": [
+    {
+      "item": "immersiveengineering:mold_gear"
+    },
+    {
+      "basePredicate": {
+        "tag": "c:dusts/aluminum"
+      },
+      "count": 6
+    },
+    {
+      "basePredicate": {
+        "tag": "c:fiber_hemp"
+      },
+      "count": 8
+    }
+  ],
+  "results": [
+    {
+      "id": "immersiveengineering:grindingdisk"
+    },
+    {
+      "id": "immersiveengineering:mold_gear"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+	"elements": [
+		{
+			"data": {
+				"fluidName": "thaumaturge:flux_goo"
+			},
+			"weight": 1.0,
+			"key": "thaumaturge:flux_goo"
+		},
+		{
+			"data": {
+				"fluidName": "thaumaturge:liquid_death"
+			},
+			"weight": 1.0,
+			"key": "thaumaturge:liquid_death"
+		},
+		{
+			"data": {
+				"fluidName": "thaumaturge:purifying"
+			},
+			"weight": 1.0,
+			"key": "thaumaturge:purifying_fluid"
+		}
+	]
+}

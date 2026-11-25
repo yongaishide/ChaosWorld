@@ -1,0 +1,64 @@
+{
+  "type": "draconicevolution:fusion_crafting",
+  "catalyst": {
+    "type": "draconicevolution:stack",
+    "count": 2,
+    "items": "draconicevolution:basic_crafting_injector"
+  },
+  "ingredients": [
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "chaosworld_core:ingot_wyvern_metal"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "chaosworld_core:ingot_wyvern_metal"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "draconicevolution:wyvern_energy_core"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "draconicevolution:wyvern_energy_core"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "ae2lt:entangled_topological_lattice"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "ae2lt:entangled_topological_lattice"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "chaosworld_core:ingot_wyvern_metal"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "chaosworld_core:ingot_wyvern_metal"
+      }
+    }
+  ],
+  "result": {
+    "count": 2,
+    "id": "draconicevolution:wyvern_crafting_injector"
+  },
+  "techLevel": "draconium",
+  "totalEnergy": 320000
+}

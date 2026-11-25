@@ -1,0 +1,28 @@
+{
+  "name": "patchouli.chaosworld.entry.worldgen.dim_aether",
+  "icon": "aether:aether_portal_frame",
+  "category": "patchouli:worldgen",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "patchouli.chaosworld.entry.worldgen.dim_aether.page1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "patchouli.chaosworld.entry.worldgen.dim_aether.page2"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "patchouli.chaosworld.entry.worldgen.dim_aether.page3"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "patchouli.chaosworld.entry.worldgen.dim_aether.page4"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "patchouli.chaosworld.entry.worldgen.dim_aether.page5"
+    }
+  ]
+}

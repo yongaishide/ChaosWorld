@@ -1,0 +1,2380 @@
+{
+	"elements": [
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:ash_ash_well"
+			},
+			"weight": 1.0,
+			"key": "unbound:ash_ash_well"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:ash_bone_gate"
+			},
+			"weight": 1.0,
+			"key": "unbound:ash_bone_gate"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:ash_cinder_field"
+			},
+			"weight": 1.0,
+			"key": "unbound:ash_cinder_field"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:ash_frozen_caravan"
+			},
+			"weight": 1.0,
+			"key": "unbound:ash_frozen_caravan"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:ash_gate"
+			},
+			"weight": 1.0,
+			"key": "unbound:ash_gate"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:ash_giant_skull"
+			},
+			"weight": 1.0,
+			"key": "unbound:ash_giant_skull"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:ash_gnawer_burrow"
+			},
+			"weight": 1.0,
+			"key": "unbound:ash_gnawer_burrow"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "underground_structures",
+				"id": "unbound:ash_ossuary_deeps"
+			},
+			"weight": 1.0,
+			"key": "unbound:ash_ossuary_deeps"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:ash_soul_pyre"
+			},
+			"weight": 1.0,
+			"key": "unbound:ash_soul_pyre"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:ash_wraith_cairn"
+			},
+			"weight": 1.0,
+			"key": "unbound:ash_wraith_cairn"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:breath_acid_shrine"
+			},
+			"weight": 1.0,
+			"key": "unbound:breath_acid_shrine"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:breath_drake_nest"
+			},
+			"weight": 1.0,
+			"key": "unbound:breath_drake_nest"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:breath_drowned_platform"
+			},
+			"weight": 1.0,
+			"key": "unbound:breath_drowned_platform"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "underground_structures",
+				"id": "unbound:breath_fulgurite_deeps"
+			},
+			"weight": 1.0,
+			"key": "unbound:breath_fulgurite_deeps"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:breath_fulgurite_forest"
+			},
+			"weight": 1.0,
+			"key": "unbound:breath_fulgurite_forest"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:breath_gate"
+			},
+			"weight": 1.0,
+			"key": "unbound:breath_gate"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:breath_glass_reef"
+			},
+			"weight": 1.0,
+			"key": "unbound:breath_glass_reef"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:breath_lightning_bridge"
+			},
+			"weight": 1.0,
+			"key": "unbound:breath_lightning_bridge"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:breath_storm_lantern"
+			},
+			"weight": 1.0,
+			"key": "unbound:breath_storm_lantern"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:breath_vapour_chimes"
+			},
+			"weight": 1.0,
+			"key": "unbound:breath_vapour_chimes"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:ceres_brine_seep"
+			},
+			"weight": 1.0,
+			"key": "unbound:ceres_brine_seep"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:ceres_dawn_camp"
+			},
+			"weight": 1.0,
+			"key": "unbound:ceres_dawn_camp"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:ceres_occator_lights"
+			},
+			"weight": 1.0,
+			"key": "unbound:ceres_occator_lights"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:charon_ammonia_seep"
+			},
+			"weight": 1.0,
+			"key": "unbound:charon_ammonia_seep"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:charon_ferry_pier"
+			},
+			"weight": 1.0,
+			"key": "unbound:charon_ferry_pier"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "underground_structures",
+				"id": "unbound:depths_crucible"
+			},
+			"weight": 1.0,
+			"key": "unbound:depths_crucible"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:earth_gate"
+			},
+			"weight": 1.0,
+			"key": "unbound:earth_gate"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:enceladus_frozen_fountain"
+			},
+			"weight": 1.0,
+			"key": "unbound:enceladus_frozen_fountain"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:enceladus_plume_catcher"
+			},
+			"weight": 1.0,
+			"key": "unbound:enceladus_plume_catcher"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:enceladus_tiger_organ"
+			},
+			"weight": 1.0,
+			"key": "unbound:enceladus_tiger_organ"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:europa_clipper_deep"
+			},
+			"weight": 1.0,
+			"key": "unbound:europa_clipper_deep"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:europa_sleeping_ark"
+			},
+			"weight": 1.0,
+			"key": "unbound:europa_sleeping_ark"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:eye_blink_gate"
+			},
+			"weight": 1.0,
+			"key": "unbound:eye_blink_gate"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:eye_gate"
+			},
+			"weight": 1.0,
+			"key": "unbound:eye_gate"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "underground_structures",
+				"id": "unbound:eye_iris_deeps"
+			},
+			"weight": 1.0,
+			"key": "unbound:eye_iris_deeps"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:eye_lash_pillars"
+			},
+			"weight": 1.0,
+			"key": "unbound:eye_lash_pillars"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:eye_lens_shard"
+			},
+			"weight": 1.0,
+			"key": "unbound:eye_lens_shard"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:eye_pigment_quarry"
+			},
+			"weight": 1.0,
+			"key": "unbound:eye_pigment_quarry"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:eye_pupil_mooring"
+			},
+			"weight": 1.0,
+			"key": "unbound:eye_pupil_mooring"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:eye_tear_duct"
+			},
+			"weight": 1.0,
+			"key": "unbound:eye_tear_duct"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:eye_vessel_knot"
+			},
+			"weight": 1.0,
+			"key": "unbound:eye_vessel_knot"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:eye_watcher_nest"
+			},
+			"weight": 1.0,
+			"key": "unbound:eye_watcher_nest"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:facet_crystal_grove"
+			},
+			"weight": 1.0,
+			"key": "unbound:facet_crystal_grove"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:facet_dust_dunes"
+			},
+			"weight": 1.0,
+			"key": "unbound:facet_dust_dunes"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:facet_endersmith_forge"
+			},
+			"weight": 1.0,
+			"key": "unbound:facet_endersmith_forge"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:facet_gate"
+			},
+			"weight": 1.0,
+			"key": "unbound:facet_gate"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:facet_glass_tomb"
+			},
+			"weight": 1.0,
+			"key": "unbound:facet_glass_tomb"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:facet_light_well"
+			},
+			"weight": 1.0,
+			"key": "unbound:facet_light_well"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:facet_mirror_hall"
+			},
+			"weight": 1.0,
+			"key": "unbound:facet_mirror_hall"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "underground_structures",
+				"id": "unbound:facet_prism_deeps"
+			},
+			"weight": 1.0,
+			"key": "unbound:facet_prism_deeps"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:facet_prism_gate"
+			},
+			"weight": 1.0,
+			"key": "unbound:facet_prism_gate"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:facet_resonance_ring"
+			},
+			"weight": 1.0,
+			"key": "unbound:facet_resonance_ring"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:forge_chain_bridge"
+			},
+			"weight": 1.0,
+			"key": "unbound:forge_chain_bridge"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:forge_crucible"
+			},
+			"weight": 1.0,
+			"key": "unbound:forge_crucible"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:forge_ember_ring"
+			},
+			"weight": 1.0,
+			"key": "unbound:forge_ember_ring"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "underground_structures",
+				"id": "unbound:forge_forge_deeps"
+			},
+			"weight": 1.0,
+			"key": "unbound:forge_forge_deeps"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:forge_foundry_ruin"
+			},
+			"weight": 1.0,
+			"key": "unbound:forge_foundry_ruin"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:forge_gate"
+			},
+			"weight": 1.0,
+			"key": "unbound:forge_gate"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:forge_gilded_anvil"
+			},
+			"weight": 1.0,
+			"key": "unbound:forge_gilded_anvil"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:forge_gold_pier"
+			},
+			"weight": 1.0,
+			"key": "unbound:forge_gold_pier"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:forge_salamander_den"
+			},
+			"weight": 1.0,
+			"key": "unbound:forge_salamander_den"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:forge_slag_lighthouse"
+			},
+			"weight": 1.0,
+			"key": "unbound:forge_slag_lighthouse"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:hive_amber_tower"
+			},
+			"weight": 1.0,
+			"key": "unbound:hive_amber_tower"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:hive_comb_bridge"
+			},
+			"weight": 1.0,
+			"key": "unbound:hive_comb_bridge"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:hive_drone_perch"
+			},
+			"weight": 1.0,
+			"key": "unbound:hive_drone_perch"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:hive_gate"
+			},
+			"weight": 1.0,
+			"key": "unbound:hive_gate"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:hive_purpur_arch"
+			},
+			"weight": 1.0,
+			"key": "unbound:hive_purpur_arch"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:hive_queen_cell"
+			},
+			"weight": 1.0,
+			"key": "unbound:hive_queen_cell"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:hive_shulker_nest"
+			},
+			"weight": 1.0,
+			"key": "unbound:hive_shulker_nest"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "underground_structures",
+				"id": "unbound:hive_wax_deeps"
+			},
+			"weight": 1.0,
+			"key": "unbound:hive_wax_deeps"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:hive_wax_hall"
+			},
+			"weight": 1.0,
+			"key": "unbound:hive_wax_hall"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:hive_wax_well"
+			},
+			"weight": 1.0,
+			"key": "unbound:hive_wax_well"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "underground_structures",
+				"id": "unbound:interrift_loom"
+			},
+			"weight": 1.0,
+			"key": "unbound:interrift_loom"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:io_flux_foot"
+			},
+			"weight": 1.0,
+			"key": "unbound:io_flux_foot"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:io_loki_bell"
+			},
+			"weight": 1.0,
+			"key": "unbound:io_loki_bell"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:io_prometheus_post"
+			},
+			"weight": 1.0,
+			"key": "unbound:io_prometheus_post"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:jupiter_ammonia_hive"
+			},
+			"weight": 1.0,
+			"key": "unbound:jupiter_ammonia_hive"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:jupiter_balloon_lab"
+			},
+			"weight": 1.0,
+			"key": "unbound:jupiter_balloon_lab"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:jupiter_cloud_whale_bones"
+			},
+			"weight": 1.0,
+			"key": "unbound:jupiter_cloud_whale_bones"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:jupiter_drift_shrine"
+			},
+			"weight": 1.0,
+			"key": "unbound:jupiter_drift_shrine"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:jupiter_gas_skimmer"
+			},
+			"weight": 1.0,
+			"key": "unbound:jupiter_gas_skimmer"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:jupiter_gate"
+			},
+			"weight": 1.0,
+			"key": "unbound:jupiter_gate"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:jupiter_lightning_catcher"
+			},
+			"weight": 1.0,
+			"key": "unbound:jupiter_lightning_catcher"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:jupiter_spot_pylon"
+			},
+			"weight": 1.0,
+			"key": "unbound:jupiter_spot_pylon"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:jupiter_storm_buoy"
+			},
+			"weight": 1.0,
+			"key": "unbound:jupiter_storm_buoy"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "underground_structures",
+				"id": "unbound:jupiter_storm_deeps"
+			},
+			"weight": 1.0,
+			"key": "unbound:jupiter_storm_deeps"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:lament_crushed_bell"
+			},
+			"weight": 1.0,
+			"key": "unbound:lament_crushed_bell"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:lament_gate"
+			},
+			"weight": 1.0,
+			"key": "unbound:lament_gate"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:lament_glass_crypt"
+			},
+			"weight": 1.0,
+			"key": "unbound:lament_glass_crypt"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:lament_mourning_bell"
+			},
+			"weight": 1.0,
+			"key": "unbound:lament_mourning_bell"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:lament_prowler_den"
+			},
+			"weight": 1.0,
+			"key": "unbound:lament_prowler_den"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:lament_shard_bridge"
+			},
+			"weight": 1.0,
+			"key": "unbound:lament_shard_bridge"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:lament_sorrow_choir"
+			},
+			"weight": 1.0,
+			"key": "unbound:lament_sorrow_choir"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:lament_tear_cistern"
+			},
+			"weight": 1.0,
+			"key": "unbound:lament_tear_cistern"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "underground_structures",
+				"id": "unbound:lament_tear_deeps"
+			},
+			"weight": 1.0,
+			"key": "unbound:lament_tear_deeps"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:lament_tear_falls"
+			},
+			"weight": 1.0,
+			"key": "unbound:lament_tear_falls"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:lament_weeping_statue"
+			},
+			"weight": 1.0,
+			"key": "unbound:lament_weeping_statue"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:low_sun_hearth"
+			},
+			"weight": 1.0,
+			"key": "unbound:low_sun_hearth"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:mars_blueberry_field"
+			},
+			"weight": 1.0,
+			"key": "unbound:mars_blueberry_field"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:mars_canyon_arch"
+			},
+			"weight": 1.0,
+			"key": "unbound:mars_canyon_arch"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:mars_face_mesa"
+			},
+			"weight": 1.0,
+			"key": "unbound:mars_face_mesa"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:mars_gate"
+			},
+			"weight": 1.0,
+			"key": "unbound:mars_gate"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:mars_opal_crown"
+			},
+			"weight": 1.0,
+			"key": "unbound:mars_opal_crown"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:mars_polar_drill"
+			},
+			"weight": 1.0,
+			"key": "unbound:mars_polar_drill"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:mars_rover_wreck"
+			},
+			"weight": 1.0,
+			"key": "unbound:mars_rover_wreck"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "underground_structures",
+				"id": "unbound:mars_rust_deeps"
+			},
+			"weight": 1.0,
+			"key": "unbound:mars_rust_deeps"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:mars_seed_vault"
+			},
+			"weight": 1.0,
+			"key": "unbound:mars_seed_vault"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:mars_signal_dish"
+			},
+			"weight": 1.0,
+			"key": "unbound:mars_signal_dish"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:mars_storm_shelter"
+			},
+			"weight": 1.0,
+			"key": "unbound:mars_storm_shelter"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:mars_strata_tower"
+			},
+			"weight": 1.0,
+			"key": "unbound:mars_strata_tower"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:mercury_cinder_ring"
+			},
+			"weight": 1.0,
+			"key": "unbound:mercury_cinder_ring"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:mercury_cooling_bunker"
+			},
+			"weight": 1.0,
+			"key": "unbound:mercury_cooling_bunker"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:mercury_gate"
+			},
+			"weight": 1.0,
+			"key": "unbound:mercury_gate"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:mercury_heat_shield_wreck"
+			},
+			"weight": 1.0,
+			"key": "unbound:mercury_heat_shield_wreck"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:mercury_hollow_chapel"
+			},
+			"weight": 1.0,
+			"key": "unbound:mercury_hollow_chapel"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:mercury_iridium_dig"
+			},
+			"weight": 1.0,
+			"key": "unbound:mercury_iridium_dig"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:mercury_mirror_array"
+			},
+			"weight": 1.0,
+			"key": "unbound:mercury_mirror_array"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:mercury_salt_pillars"
+			},
+			"weight": 1.0,
+			"key": "unbound:mercury_salt_pillars"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:mercury_sun_shrine"
+			},
+			"weight": 1.0,
+			"key": "unbound:mercury_sun_shrine"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "underground_structures",
+				"id": "unbound:mercury_terminator_deeps"
+			},
+			"weight": 1.0,
+			"key": "unbound:mercury_terminator_deeps"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:mercury_terminator_obelisk"
+			},
+			"weight": 1.0,
+			"key": "unbound:mercury_terminator_obelisk"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:miranda_inverness_chevron"
+			},
+			"weight": 1.0,
+			"key": "unbound:miranda_inverness_chevron"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:miranda_seam_druse"
+			},
+			"weight": 1.0,
+			"key": "unbound:miranda_seam_druse"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:miranda_verona_beacon"
+			},
+			"weight": 1.0,
+			"key": "unbound:miranda_verona_beacon"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:moon_cairn_trail"
+			},
+			"weight": 1.0,
+			"key": "unbound:moon_cairn_trail"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "underground_structures",
+				"id": "unbound:moon_deeps"
+			},
+			"weight": 1.0,
+			"key": "unbound:moon_deeps"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:moon_dust_tomb"
+			},
+			"weight": 1.0,
+			"key": "unbound:moon_dust_tomb"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:moon_fallen_lander"
+			},
+			"weight": 1.0,
+			"key": "unbound:moon_fallen_lander"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:moon_gate"
+			},
+			"weight": 1.0,
+			"key": "unbound:moon_gate"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:moon_monolith"
+			},
+			"weight": 1.0,
+			"key": "unbound:moon_monolith"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:moon_moonstone_geode"
+			},
+			"weight": 1.0,
+			"key": "unbound:moon_moonstone_geode"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:moon_orbital_debris"
+			},
+			"weight": 1.0,
+			"key": "unbound:moon_orbital_debris"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:moon_regolith_quarry"
+			},
+			"weight": 1.0,
+			"key": "unbound:moon_regolith_quarry"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:moon_relay_mast"
+			},
+			"weight": 1.0,
+			"key": "unbound:moon_relay_mast"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:moon_selenite_garden"
+			},
+			"weight": 1.0,
+			"key": "unbound:moon_selenite_garden"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:moon_sleeping_observatory"
+			},
+			"weight": 1.0,
+			"key": "unbound:moon_sleeping_observatory"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:mycelium_felt_nest"
+			},
+			"weight": 1.0,
+			"key": "unbound:mycelium_felt_nest"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:mycelium_gate"
+			},
+			"weight": 1.0,
+			"key": "unbound:mycelium_gate"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:mycelium_hypha_bridge"
+			},
+			"weight": 1.0,
+			"key": "unbound:mycelium_hypha_bridge"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:mycelium_lantern_mushroom"
+			},
+			"weight": 1.0,
+			"key": "unbound:mycelium_lantern_mushroom"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:mycelium_shelf_stack"
+			},
+			"weight": 1.0,
+			"key": "unbound:mycelium_shelf_stack"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "underground_structures",
+				"id": "unbound:mycelium_spore_deeps"
+			},
+			"weight": 1.0,
+			"key": "unbound:mycelium_spore_deeps"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:mycelium_spore_tower"
+			},
+			"weight": 1.0,
+			"key": "unbound:mycelium_spore_tower"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:mycelium_thread_loom"
+			},
+			"weight": 1.0,
+			"key": "unbound:mycelium_thread_loom"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:mycelium_titan_cap"
+			},
+			"weight": 1.0,
+			"key": "unbound:mycelium_titan_cap"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:mycelium_titan_cap_elder"
+			},
+			"weight": 1.0,
+			"key": "unbound:mycelium_titan_cap_elder"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:mycelium_titan_cap_warped"
+			},
+			"weight": 1.0,
+			"key": "unbound:mycelium_titan_cap_warped"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:mycelium_verdigris_bones"
+			},
+			"weight": 1.0,
+			"key": "unbound:mycelium_verdigris_bones"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "underground_structures",
+				"id": "unbound:neptune_abyss_deeps"
+			},
+			"weight": 1.0,
+			"key": "unbound:neptune_abyss_deeps"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:neptune_black_spire"
+			},
+			"weight": 1.0,
+			"key": "unbound:neptune_black_spire"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:neptune_dark_altar"
+			},
+			"weight": 1.0,
+			"key": "unbound:neptune_dark_altar"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:neptune_gate"
+			},
+			"weight": 1.0,
+			"key": "unbound:neptune_gate"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:neptune_kite_wreck"
+			},
+			"weight": 1.0,
+			"key": "unbound:neptune_kite_wreck"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:neptune_storm_anchor"
+			},
+			"weight": 1.0,
+			"key": "unbound:neptune_storm_anchor"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:neptune_sunken_station"
+			},
+			"weight": 1.0,
+			"key": "unbound:neptune_sunken_station"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:neptune_superionic_core"
+			},
+			"weight": 1.0,
+			"key": "unbound:neptune_superionic_core"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:neptune_wind_harp"
+			},
+			"weight": 1.0,
+			"key": "unbound:neptune_wind_harp"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:pluto_edge_ring"
+			},
+			"weight": 1.0,
+			"key": "unbound:pluto_edge_ring"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:pluto_horizon_lander"
+			},
+			"weight": 1.0,
+			"key": "unbound:pluto_horizon_lander"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:pluto_sublimation_well"
+			},
+			"weight": 1.0,
+			"key": "unbound:pluto_sublimation_well"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:pluto_threshold_waymark"
+			},
+			"weight": 1.0,
+			"key": "unbound:pluto_threshold_waymark"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:saturn_gate"
+			},
+			"weight": 1.0,
+			"key": "unbound:saturn_gate"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:saturn_helium_still"
+			},
+			"weight": 1.0,
+			"key": "unbound:saturn_helium_still"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:saturn_hexagon_tower"
+			},
+			"weight": 1.0,
+			"key": "unbound:saturn_hexagon_tower"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:saturn_ice_cathedral"
+			},
+			"weight": 1.0,
+			"key": "unbound:saturn_ice_cathedral"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:saturn_moored_zeppelin"
+			},
+			"weight": 1.0,
+			"key": "unbound:saturn_moored_zeppelin"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:saturn_pale_lighthouse"
+			},
+			"weight": 1.0,
+			"key": "unbound:saturn_pale_lighthouse"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "underground_structures",
+				"id": "unbound:saturn_ring_deeps"
+			},
+			"weight": 1.0,
+			"key": "unbound:saturn_ring_deeps"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:saturn_ring_fall"
+			},
+			"weight": 1.0,
+			"key": "unbound:saturn_ring_fall"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:saturn_ring_shard"
+			},
+			"weight": 1.0,
+			"key": "unbound:saturn_ring_shard"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:saturn_tholin_garden"
+			},
+			"weight": 1.0,
+			"key": "unbound:saturn_tholin_garden"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:titan_dragonfly_camp"
+			},
+			"weight": 1.0,
+			"key": "unbound:titan_dragonfly_camp"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:titan_huygens_probe"
+			},
+			"weight": 1.0,
+			"key": "unbound:titan_huygens_probe"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:titan_kraken_beacon"
+			},
+			"weight": 1.0,
+			"key": "unbound:titan_kraken_beacon"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:triton_anchor_chain"
+			},
+			"weight": 1.0,
+			"key": "unbound:triton_anchor_chain"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:triton_black_spring"
+			},
+			"weight": 1.0,
+			"key": "unbound:triton_black_spring"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:triton_wind_dock"
+			},
+			"weight": 1.0,
+			"key": "unbound:triton_wind_dock"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:uranus_clathrate_fountain"
+			},
+			"weight": 1.0,
+			"key": "unbound:uranus_clathrate_fountain"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:uranus_cryo_vault"
+			},
+			"weight": 1.0,
+			"key": "unbound:uranus_cryo_vault"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:uranus_diamond_cairn"
+			},
+			"weight": 1.0,
+			"key": "unbound:uranus_diamond_cairn"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "underground_structures",
+				"id": "unbound:uranus_frost_deeps"
+			},
+			"weight": 1.0,
+			"key": "unbound:uranus_frost_deeps"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:uranus_frozen_probe"
+			},
+			"weight": 1.0,
+			"key": "unbound:uranus_frozen_probe"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:uranus_gate"
+			},
+			"weight": 1.0,
+			"key": "unbound:uranus_gate"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:uranus_ghost_station"
+			},
+			"weight": 1.0,
+			"key": "unbound:uranus_ghost_station"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:uranus_ice_bridge"
+			},
+			"weight": 1.0,
+			"key": "unbound:uranus_ice_bridge"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:uranus_tilted_observatory"
+			},
+			"weight": 1.0,
+			"key": "unbound:uranus_tilted_observatory"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:venus_acid_cistern"
+			},
+			"weight": 1.0,
+			"key": "unbound:venus_acid_cistern"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "underground_structures",
+				"id": "unbound:venus_acid_deeps"
+			},
+			"weight": 1.0,
+			"key": "unbound:venus_acid_deeps"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:venus_basalt_columns"
+			},
+			"weight": 1.0,
+			"key": "unbound:venus_basalt_columns"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:venus_brimstone_spires"
+			},
+			"weight": 1.0,
+			"key": "unbound:venus_brimstone_spires"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:venus_cloud_harbour"
+			},
+			"weight": 1.0,
+			"key": "unbound:venus_cloud_harbour"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:venus_gate"
+			},
+			"weight": 1.0,
+			"key": "unbound:venus_gate"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:venus_lava_bridge"
+			},
+			"weight": 1.0,
+			"key": "unbound:venus_lava_bridge"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:venus_pressure_dome"
+			},
+			"weight": 1.0,
+			"key": "unbound:venus_pressure_dome"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:venus_sulfur_pools"
+			},
+			"weight": 1.0,
+			"key": "unbound:venus_sulfur_pools"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:venus_tessera_steps"
+			},
+			"weight": 1.0,
+			"key": "unbound:venus_tessera_steps"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:venus_venera_probe"
+			},
+			"weight": 1.0,
+			"key": "unbound:venus_venera_probe"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:village_ash"
+			},
+			"weight": 1.0,
+			"key": "unbound:village_ash"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:village_breath"
+			},
+			"weight": 1.0,
+			"key": "unbound:village_breath"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:village_eye"
+			},
+			"weight": 1.0,
+			"key": "unbound:village_eye"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:village_facet"
+			},
+			"weight": 1.0,
+			"key": "unbound:village_facet"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:village_forge"
+			},
+			"weight": 1.0,
+			"key": "unbound:village_forge"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:village_hive"
+			},
+			"weight": 1.0,
+			"key": "unbound:village_hive"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:village_jupiter"
+			},
+			"weight": 1.0,
+			"key": "unbound:village_jupiter"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:village_lament"
+			},
+			"weight": 1.0,
+			"key": "unbound:village_lament"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:village_mars"
+			},
+			"weight": 1.0,
+			"key": "unbound:village_mars"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:village_mercury"
+			},
+			"weight": 1.0,
+			"key": "unbound:village_mercury"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:village_moon"
+			},
+			"weight": 1.0,
+			"key": "unbound:village_moon"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:village_mycelium"
+			},
+			"weight": 1.0,
+			"key": "unbound:village_mycelium"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:village_neptune"
+			},
+			"weight": 1.0,
+			"key": "unbound:village_neptune"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:village_saturn"
+			},
+			"weight": 1.0,
+			"key": "unbound:village_saturn"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:village_uranus"
+			},
+			"weight": 1.0,
+			"key": "unbound:village_uranus"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:village_venus"
+			},
+			"weight": 1.0,
+			"key": "unbound:village_venus"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:wanderer_orphan_beacon"
+			},
+			"weight": 1.0,
+			"key": "unbound:wanderer_orphan_beacon"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:wanderer_orphan_hall"
+			},
+			"weight": 1.0,
+			"key": "unbound:wanderer_orphan_hall"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "unbound:wanderer_orphan_vigil"
+			},
+			"weight": 1.0,
+			"key": "unbound:wanderer_orphan_vigil"
+		}
+	]
+}

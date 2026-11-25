@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "count": 1,
+    "item": "immersiveengineering:ingot_hop_graphite"
+  },
+  "output": {
+    "count": 1,
+    "id": "immersiveengineering:graphite_electrode"
+  }
+}

@@ -1,0 +1,172 @@
+[world]
+	#Setting this to true disables Warp, Taint spread and similar mechanics. You wuss.
+	wussMode = false
+	#The % chance of taint fibres spreading on a block tick. Setting this to 0 will effectively stop taint fibre spread.
+	# Default: 100.0
+	# Range: 0.0 ~ 100.0
+	taintSpreadRate = 100.0
+	#The range in blocks that a taint origin (a taint seed or a tainted node) claims. Taint outside the range of every living origin decays, except inside naturally generated Tainted Lands.
+	# Default: 32
+	# Range: 1 ~ 128
+	taintSpreadArea = 32
+	#How many chunks around itself a taint origin can eat flux from.
+	# Default: 2
+	# Range: 0 ~ 8
+	taintFeedRadius = 2
+	#Flux a taint origin eats from the aura each second.
+	# Default: 5.0
+	# Range: 0.0 ~ 1000.0
+	taintFeedRate = 5.0
+	#Most flux a taint origin can store for growth.
+	# Default: 100.0
+	# Range: 1.0 ~ 100000.0
+	taintReserveCap = 100.0
+	#Stored flux a taint origin spends for each block of taint it grows. A chunk polluted up to its base aura pays for roughly one chunk of taint at the default.
+	# Default: 1.0
+	# Range: 0.0 ~ 1000.0
+	taintGrowthCost = 1.0
+	#Stored flux a well fed taint origin spends to sprout a new taint seed at the edge of its range.
+	# Default: 25.0
+	# Range: 0.0 ~ 100000.0
+	taintChildSeedCost = 25.0
+	#Ticks a taint seed survives with nothing to eat before it withers away. A tainted node inside an Ethereal Bloom's range is purified after the same time.
+	# Default: 12000
+	# Range: 20 ~ 1000000
+	taintStarveTicks = 12000
+	#Flux a freshly generated Tainted Lands chunk starts with, as a multiple of its base aura. The tainted nodes and seeds there feed on it. 0 leaves Tainted Lands dormant until flux reaches them.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	taintedLandsStartingFlux = 1.0
+	#Allows deep, exposed Flux Goo to fester into a taint seed.
+	taintFromFlux = true
+	#Allows physical Flux Goo and Gas to sustain a capped minimum Aura Flux in their chunk. Disabling this does not remove physical Flux.
+	physicalFluxAuraFloor = true
+	#Allows large accumulations of Flux Goo and Gas to sprout a taint seed independently of individual Goo blocks.
+	physicalFluxTaintOutbreaks = true
+	#Allows high Aura Flux to trigger Flux-pressure events. Disabling this does not affect Flux Rifts.
+	fluxPressureEvents = true
+	#Aura Vis consumed per aspect point restored by an energized node. Higher values increase consumption; 0 makes recharging free.
+	# Default: 6.0
+	# Range: 0.0 ~ 100.0
+	energizedNodeVisPerPoint = 6.0
+	#Average chunks per naturally generated lesser Crimson Portal. Higher values make portals rarer; 0, the default, disables natural generation and crimson ranger patrols open portals instead.
+	# Default: 0
+	# Range: 0 ~ 1000000
+	crimsonPortalRarity = 0
+	#Chance from 0 to 100 that a crimson ranger patrol spawns near a random overworld player at each daytime attempt, about every 10 minutes from day 5 on. 0 disables patrols.
+	# Default: 10.0
+	# Range: 0.0 ~ 100.0
+	crimsonPatrolChance = 10.0
+	#Allows hungry nodes to destroy edible blocks.
+	hungryNodeEatsBlocks = true
+	#Allows hungry nodes to pull in and consume entities, including dropped items.
+	hungryNodeEatsEntities = true
+	#Allows hungry nodes to pull players toward them. Disabling this does not prevent damage to players who enter the maw.
+	hungryNodePullsPlayers = true
+	#Allows hungry nodes to damage and consume players that reach the maw. Creative and spectator players are excluded. Does not control player pulling.
+	hungryNodeDamagesPlayers = true
+	#Maximum range in blocks for hungry node block eating and entity pulling. Dropped items are pulled from this range plus half a block.
+	# Default: 16
+	# Range: 1 ~ 64
+	hungryNodeBlockEatRange = 16
+	#Scales hungry node range by quality. Uses the minimum and maximum ranges below instead of the fixed range.
+	scaleHungryNodeBlockEatRangeByModifier = false
+	#Range for fading hungry nodes when quality scaling is enabled. Ignored when scaling is disabled.
+	# Default: 16
+	# Range: 1 ~ 64
+	hungryNodeMinimumBlockEatRange = 16
+	#Range for bright hungry nodes when quality scaling is enabled. Values below the minimum use the minimum for all qualities.
+	# Default: 32
+	# Range: 1 ~ 64
+	hungryNodeMaximumBlockEatRange = 32
+	#Maximum edible block hardness (exclusive). Default: 5; obsidian is 50. 0 disables block destruction. Unbreakable blocks are excluded.
+	# Default: 5.0
+	# Range: 0.0 ~ 100.0
+	hungryNodeBlockEatHardness = 5.0
+	#Ticks between hungry node block-eating attempts. Lower values are faster; 20 ticks = 1 second. Attempts may miss.
+	# Default: 50
+	# Range: 1 ~ 12000
+	hungryNodeBlockEatInterval = 50
+	#Ticks between each point of runic shielding recharge. Lower values recharge faster.
+	# Default: 40
+	# Range: 1 ~ 12000
+	shieldRecharge = 40
+	#Ticks before runic shielding begins recharging after being fully depleted.
+	# Default: 80
+	# Range: 0 ~ 12000
+	shieldWait = 80
+	#Aura Vis consumed per point of runic shielding restored. 0 makes recharging free.
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	shieldCost = 1.0
+	#Allows champion mobs to spawn.
+	allowChampionMobs = true
+	#Setting this to true will make you get the recipe book for salis mundus without having to sleep first.
+	noSleep = false
+
+	[world.nodes]
+		#Chance (%) of a wild node placement attempt per Overworld chunk. Default: ~2.7778% (1 in 36 chunks). 0 disables wild node generation.
+		# Default: 2.7777777777777777
+		# Range: 0.0 ~ 100.0
+		wildSpawnChance = 2.7777777777777777
+		#Additional node spawn chance (%) per Magical Forest chunk. Stacks with wild node chance. Default: 0%.
+		# Default: 0.0
+		# Range: 0.0 ~ 100.0
+		magicalBonusSpawnChance = 0.0
+		#Additional node spawn chance (%) per Eerie biome chunk. Stacks with wild node chance. These nodes are always dark. Default: 12.5%.
+		# Default: 12.5
+		# Range: 0.0 ~ 100.0
+		eerieBonusSpawnChance = 12.5
+		#Chance (%) of a node placement attempt per Nether chunk. Default: ~2.7778% (1 in 36 chunks). 0 disables Nether nodes.
+		# Default: 2.7777777777777777
+		# Range: 0.0 ~ 100.0
+		netherSpawnChance = 2.7777777777777777
+
+		#Node type percentages for ordinary random nodes. Defaults leave ~93.3333% normal nodes. Above 100% total, values become relative weights and normal nodes cannot spawn.
+		[world.nodes.types]
+			#Chance (%) for ordinary random nodes to be dark. Default: ~1.6667%.
+			# Default: 1.6666666666666667
+			# Range: 0.0 ~ 100.0
+			darkChance = 1.6666666666666667
+			#Chance (%) for ordinary random nodes to be unstable. Default: ~1.6667%.
+			# Default: 1.6666666666666667
+			# Range: 0.0 ~ 100.0
+			unstableChance = 1.6666666666666667
+			#Chance (%) for ordinary random nodes to be pure. Default: ~1.6667%.
+			# Default: 1.6666666666666667
+			# Range: 0.0 ~ 100.0
+			pureChance = 1.6666666666666667
+			#Chance (%) for ordinary random nodes to be tainted. Default: ~1.1111%. Disabled by Wuss Mode.
+			# Default: 1.1111111111111112
+			# Range: 0.0 ~ 100.0
+			taintedChance = 1.1111111111111112
+			#Chance (%) for ordinary random nodes to be hungry. Default: ~0.5556% (1 in 180 nodes).
+			# Default: 0.5555555555555556
+			# Range: 0.0 ~ 100.0
+			hungryChance = 0.5555555555555556
+
+[sounds]
+	#Disables anxiety effects such as heartbeat sounds and Warp-event jump scares.
+	nostress = false
+
+[golems]
+	#Will golems display emote particles if they receive orders or encounter problems.
+	showGolemEmotes = true
+
+[fluxScrubber]
+	#Flux Goo or Gas units cleaned per Praecantatio recovery attempt. Lower values increase recovery frequency.
+	# Default: 4
+	# Range: 1 ~ 64
+	chargesPerRoll = 4
+	#Chance (0-1) of recovering Praecantatio per roll. 1.0 guarantees recovery.
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	essentiaChance = 0.25
+	#Praecantatio produced per successful recovery roll. Increase capacity to accommodate larger amounts.
+	# Default: 1
+	# Range: 0 ~ 64
+	essentiaPerRoll = 1
+	#Maximum Praecantatio stored before the scrubber must be drained by an attached pipe or jar.
+	# Default: 4
+	# Range: 1 ~ 1024
+	essentiaCapacity = 4

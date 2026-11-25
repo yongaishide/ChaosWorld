@@ -1,0 +1,16 @@
+{
+  "type": "botania:mana_infusion",
+  "catalyst": {
+    "type": "botania:block",
+    "block": "botania:alchemy_catalyst"
+  },
+  "group": "botania:lossless_deconstruction",
+  "input": {
+    "item": "minecraft:melon"
+  },
+  "mana": 36,
+  "output": {
+    "count": 9,
+    "id": "minecraft:melon_slice"
+  }
+}

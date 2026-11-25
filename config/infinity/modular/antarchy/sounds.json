@@ -1,0 +1,1004 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "antarchy:ambient.elythia.firefly"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:ambient.elythia.grass_wind"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:ambient.elythia.ouranwood_forest"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:ant_ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:ant_bite"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:ant_gather"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:ant_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:ant_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:ant_nest"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:antimetal_place"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:antimetal_scaffold"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:antimetal_step"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:basilisk_bite"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:basilisk_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:basilisk_hiss"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:basilisk_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:basilisk_idle_loop"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:basilisk_slither_loop"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:bed_bug_ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:bed_bug_attack"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:bed_bug_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:blood_crystal_armor_equip"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:blood_crystal_katana_dash"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:bloodglass_ward_heart_break"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:bloodglass_ward_heart_regen"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:bomber_explode"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:bomber_knock"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:bomber_walk"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:brutalfly_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:brutalfly_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:brutalfly_spit"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:butterfly_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:caterpillar_crawl"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:caterpillar_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:caterpillar_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:cavaryn_heartbeat"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:crawling_blight_bite"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:crawling_blight_growl"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:crawling_blight_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:dimensional_tear_close"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:dimensional_tear_creature_leaves"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:dimensional_tear_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:dimensional_tear_open"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:duct_tape_use"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:emperor_scorpion_ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:emperor_scorpion_attack"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:emperor_scorpion_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:emperor_scorpion_roar"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:entity.player.hurt_classic"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:flying_squirrel_beg"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:flying_squirrel_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:flying_squirrel_glide_loop"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:flying_squirrel_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:flying_squirrel_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:flying_squirrel_nut"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:flytrap_attack"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:flytrap_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:flytrap_grab"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:flytrap_growl"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:flytrap_hiss"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:flytrap_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:gravity_gun_drop"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:gravity_gun_dryfire"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:gravity_gun_hold_loop"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:gravity_gun_launch"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:gravity_gun_pickup"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:growth_ray_charge"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:growth_ray_loop"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:hercules_beetle_attack"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:hercules_beetle_charge_start"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:hercules_beetle_cry"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:hercules_beetle_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:hercules_beetle_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:hercules_beetle_knocked_down"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:hoverboard_dismount"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:hoverboard_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:hoverboard_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:jerry_adult_attack"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:jerry_adult_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:jerry_adult_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:jerry_adult_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:jerry_young_attack"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:jerry_young_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:jerry_young_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:jerry_young_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:king_beam_shoot"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:king_bite"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:king_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:king_decree"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:king_decree_cast"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:king_fireball_shoot"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:king_fly_loop"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:king_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:king_ice_spikes"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:king_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:king_judgement"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:king_roar"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:king_stomp"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:king_success"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:king_walk"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:king_wing_flap"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:kraken_attack"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:kraken_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:kraken_flying_loop"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:kraken_flying_sideways_loop"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:kraken_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:kraken_roar"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:kraken_spin"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:kraken_summon"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:lucid_ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:lucid_attack"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:lucid_bolt"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:lucid_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:lucid_flying"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:lucid_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:lucid_lullaby"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:manticore_bite"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:manticore_fly"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:manticore_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:manticore_walk"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:mantis_ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:mantis_attack"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:mantis_fly_loop"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:mantis_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:missile_squid_ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:missile_squid_attack"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:missile_squid_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:missile_squid_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:molevore_ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:molevore_attack"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:molevore_dig"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:molevore_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:moleworm_ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:moleworm_attack"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:moleworm_dig"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:moleworm_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:nightmare_bite"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:nightmare_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:nightmare_flap"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:nightmare_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:nightmare_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:nightmare_roar"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:portal_ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:portal_enter"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:portal_exit"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:portal_fizzle"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:portal_gun_fire_blue"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:portal_gun_fire_orange"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:portal_gun_invalid_surface"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:portal_open_blue"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:portal_open_orange"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:potent_nyxite_geyser_continuous_active"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:potent_nyxite_geyser_continuous_start"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:potent_nyxite_geyser_eruption_active"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:potent_nyxite_geyser_eruption_start"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:potent_nyxite_hypnotic_gas"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:prince_bite"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:prince_fly"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:prince_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:prince_shoot"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:prince_step"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:princess_bite"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:princess_fly"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:princess_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:princess_shoot"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:princess_step"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:queen_beam_end"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:queen_beam_loop"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:queen_beam_shoot"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:queen_beam_start"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:queen_bite"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:queen_black_hole_shoot"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:queen_cast_shoot"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:queen_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:queen_fly_loop"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:queen_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:queen_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:queen_roar"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:queen_stomp"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:queen_walk"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:queen_wing_flap"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:reverie_alert"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:reverie_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:reverie_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:reverie_join_player"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:reverie_save"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:reverie_worry"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:rolly_polly_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:rolly_polly_normal_mode"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:rolly_polly_roll"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:rolly_polly_wheel_mode"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:scorpion_ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:scorpion_attack"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:scorpion_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:shrink_ray_charge"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:shrink_ray_loop"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:size_ray_critshot"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:size_ray_mediumshot"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:size_ray_weakshot"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:skulking_fright_bite"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:skulking_fright_fly_loop"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:skulking_fright_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:skulking_fright_snarl"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:spit_bug_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:spit_bug_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:spit_bug_spit"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:springbug_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:springbug_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:springbug_jump"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:squidzooka_fire"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:stink_bug_fart"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:stink_bug_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:stinky_fly"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:stratoshark_bite"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:stratoshark_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:stratoshark_fly"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:stratoshark_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:stratoshark_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:the_queen"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:thoraxis_dream_dunes_additions"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:thoraxis_dream_dunes_ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:thoraxis_dream_dunes_biome_additions"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:thoraxis_dream_dunes_mood"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:thoraxis_lucid_pools_additions"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:thoraxis_lucid_pools_ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:thoraxis_lucid_pools_biome_additions"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:thoraxis_lucid_pools_mood"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:thoraxis_nightmare_wastes_additions"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:thoraxis_nightmare_wastes_ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:thoraxis_nightmare_wastes_biome_additions"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:thoraxis_nightmare_wastes_mood"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:toreterror_bomber_fire"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:toreterror_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:toreterror_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:toreterror_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:toreterror_jump_land"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:toreterror_jump_up"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:toreterror_ricochet"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:toreterror_spin"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:undertrial_detect_player1"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:undertrial_detect_player2"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:venenatus"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:wasp_attack"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:wasp_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:wasp_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:wasp_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:water_cannon_fire"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:whistling_void"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:wistful_wanderings"
+		},
+		{
+			"weight": 1.0,
+			"key": "antarchy:worm_hook_flying"
+		}
+	]
+}

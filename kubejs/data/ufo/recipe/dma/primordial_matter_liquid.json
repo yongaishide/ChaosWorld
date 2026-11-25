@@ -1,0 +1,28 @@
+{
+  "type": "ufo:dimensional_assembly",
+  "energy": 3000000,
+  "fluid_inputs": [
+    {
+      "amount": 5000,
+      "ingredient": {
+        "fluid": "ufo:raw_star_matter_plasma"
+      }
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "#": 5000,
+      "#t": "ae2:f",
+      "id": "ufo:source_primordial_matter_fluid"
+    }
+  ],
+  "item_inputs": [
+    {
+      "ingredient": {
+        "item": "draconicevolution:chaotic_core"
+      }
+    }
+  ],
+  "item_outputs": [],
+  "time": 700
+}

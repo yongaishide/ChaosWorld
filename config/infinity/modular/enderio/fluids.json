@@ -1,0 +1,81 @@
+{
+	"elements": [
+		{
+			"data": {
+				"fluidName": "enderio:fluid_cloud_seed_still"
+			},
+			"weight": 1.0,
+			"key": "enderio:cloud_seed"
+		},
+		{
+			"data": {
+				"fluidName": "enderio:fluid_cloud_seed_concentrated_still"
+			},
+			"weight": 1.0,
+			"key": "enderio:cloud_seed_concentrated"
+		},
+		{
+			"data": {
+				"fluidName": "enderio:fluid_dew_of_the_void_still"
+			},
+			"weight": 1.0,
+			"key": "enderio:dew_of_the_void"
+		},
+		{
+			"data": {
+				"fluidName": "enderio:fluid_fire_water_still"
+			},
+			"weight": 1.0,
+			"key": "enderio:fire_water"
+		},
+		{
+			"data": {
+				"fluidName": "enderio:fluid_hootch_still"
+			},
+			"weight": 1.0,
+			"key": "enderio:hootch"
+		},
+		{
+			"data": {
+				"fluidName": "enderio:fluid_liquid_darkness_still"
+			},
+			"weight": 1.0,
+			"key": "enderio:liquid_darkness"
+		},
+		{
+			"data": {
+				"fluidName": "enderio:fluid_liquid_sunshine_still"
+			},
+			"weight": 1.0,
+			"key": "enderio:liquid_sunshine"
+		},
+		{
+			"data": {
+				"fluidName": "enderio:fluid_nutrient_distillation_still"
+			},
+			"weight": 1.0,
+			"key": "enderio:nutrient_distillation"
+		},
+		{
+			"data": {
+				"fluidName": "enderio:fluid_rocket_fuel_still"
+			},
+			"weight": 1.0,
+			"key": "enderio:rocket_fuel"
+		},
+		{
+			"data": {
+				"fluidName": "enderio:fluid_vapor_of_levity_still"
+			},
+			"weight": 1.0,
+			"key": "enderio:vapor_of_levity"
+		},
+		{
+			"data": {
+				"fluidName": "enderio:fluid_xp_juice_still"
+			},
+			"weight": 1.0,
+			"key": "enderio:xp_juice"
+		}
+	]
+}

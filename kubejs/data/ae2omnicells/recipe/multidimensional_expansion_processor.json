@@ -1,0 +1,19 @@
+{
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "bottom": {
+      "item": "chaosworld_core:plate_tech_5"
+    },
+    "middle": {
+      "item": "minecraft:redstone"
+    },
+    "top": {
+      "item": "ae2omnicells:multidimensional_expansion_circuit_print"
+    }
+  },
+  "mode": "press",
+  "result": {
+    "count": 1,
+    "id": "ae2omnicells:multidimensional_expansion_processor"
+  }
+}

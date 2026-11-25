@@ -1,0 +1,55 @@
+{
+  "title": "7536b34264078ab1",
+  "icon": "minecraft:furnace",
+  "quests": [
+    {
+      "id": "00e83b6632ab5ebd",
+      "x": -12.5,
+      "y": 3.0,
+      "deps": [
+        "14dbded46a2851a5"
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ]
+    },
+    {
+      "id": "14dbded46a2851a5",
+      "x": -14.5,
+      "y": 3.0,
+      "deps": [
+        "61da5a07406bdb78/44b1d89c5d74be65"
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ]
+    },
+    {
+      "id": "4d390c9a5120143d",
+      "x": -12.5,
+      "y": 5.0,
+      "deps": [
+        "00e83b6632ab5ebd"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    }
+  ],
+  "decorations": [
+    {
+      "type": "image",
+      "x": -12.5,
+      "y": 2.0,
+      "w": 1.4444444,
+      "h": 0.6111111
+    }
+  ]
+}

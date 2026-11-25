@@ -1,0 +1,12 @@
+{
+  "name": "patchouli.chaosworld.entry.structures.overview",
+  "icon": "minecraft:chiseled_stone_bricks",
+  "category": "patchouli:structures",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "patchouli.chaosworld.entry.structures.overview.page1"
+    }
+  ]
+}

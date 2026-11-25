@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ],
+  "type": "ae2cs:crystal_aggregator_recipe_serializer",
+  "energy_cost": 51200,
+  "input_a": {
+    "count": 8,
+    "item": "ae2cs:link_crystal_seed"
+  },
+  "input_b": {
+    "count": 32,
+    "item": "extendedae:entro_dust"
+  },
+  "input_c": {
+    "count": 4,
+    "item": "neoecoae:energized_crystal_block"
+  },
+  "result": {
+    "count": 4,
+    "id": "data_energistics:budding_data_crystal_0"
+  }
+}

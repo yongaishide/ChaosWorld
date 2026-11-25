@@ -1,0 +1,34 @@
+{
+  "type": "botania:terrestrial_agglomeration_plate",
+  "ingredients": [
+    {
+     "item": "chaosworld_core:nature_gemstone"
+    },
+    {
+      "item": "botania:terrasteel_ingot"
+    },
+    {
+      "item": "botania:terrasteel_ingot"
+    },
+    {
+      "item": "botania:terrasteel_ingot"
+    },
+    {
+      "item": "chaosworld_core:ingot_tech_4"
+    },
+    {
+      "item": "chaosworld_core:ingot_tech_4"
+    },
+    {
+      "item": "botania:livingwood_log"
+    },
+    {
+      "item": "botania:livingwood_log"
+    }
+  ],
+  "mana": 500000,
+  "result": {
+    "count": 1,
+    "id": "botania:elven_gateway_core"
+  }
+}

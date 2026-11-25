@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ifeu"
+    }
+  ],
+  "type": "industrialforegoing:laser_drill_fluid",
+  "catalyst": {
+    "item": "ifeu:laser_lens_sculk"
+  },
+  "entity_data": {
+    "data": {},
+    "display": "",
+    "entity": {
+      "type": "minecraft:warden"
+    }
+  },
+  "output": {
+    "amount": 10,
+    "fluid": "ifeu:liquid_sculk_matter"
+  },
+  "rarity": [
+    {
+      "biome_filter": {
+        "blacklist": [],
+        "whitelist": []
+      },
+      "depth_max": 256,
+      "depth_min": -64,
+      "dimension_filter": {
+        "blacklist": [],
+        "whitelist": []
+      },
+      "weight": 8
+    }
+  ]
+}

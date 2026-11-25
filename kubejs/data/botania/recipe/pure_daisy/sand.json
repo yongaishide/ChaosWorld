@@ -1,0 +1,14 @@
+{
+  "type": "botania:pure_daisy",
+  "input": {
+    "type": "botania:block",
+    "block": "minecraft:soul_sand"
+  },
+  "output": {
+    "type": "botania:state",
+    "state": {
+      "Name": "minecraft:sand"
+    }
+  },
+  "time": 150
+}

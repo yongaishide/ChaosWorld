@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "tag": "c:plates/copper"
+    },
+    "T": {
+      "item": "minecraft:redstone_torch"
+    },
+    "Z": {
+      "tag": "c:plates/zinc"
+    }
+  },
+  "pattern": [
+    "Z",
+    "C",
+    "T"
+  ],
+  "result": {
+    "count": 1,
+    "id": "createaddition:capacitor"
+  }
+}

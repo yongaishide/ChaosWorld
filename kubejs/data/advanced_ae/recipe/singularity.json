@@ -1,0 +1,35 @@
+{
+  "type": "advanced_ae:reaction",
+  "input_energy": 1000000,
+  "input_fluid": {
+    "amount": 1000,
+    "ingredient": {
+      "fluid": "minecraft:lava"
+    }
+  },
+  "input_items": [
+    {
+      "amount": 32,
+      "ingredient": {
+        "item": "ae2:matter_ball"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "ae2:fluix_pearl"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "ae2cs:resonating_crystal_dust"
+      }
+    }
+  ],
+  "output": {
+    "#": 1,
+    "#t": "ae2:i",
+    "id": "ae2:singularity"
+  }
+}

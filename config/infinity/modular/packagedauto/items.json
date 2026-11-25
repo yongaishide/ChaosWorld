@@ -1,0 +1,72 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "packagedauto:crafter"
+		},
+		{
+			"weight": 1.0,
+			"key": "packagedauto:crafting_proxy"
+		},
+		{
+			"weight": 1.0,
+			"key": "packagedauto:distributor"
+		},
+		{
+			"weight": 1.0,
+			"key": "packagedauto:distributor_marker"
+		},
+		{
+			"weight": 1.0,
+			"key": "packagedauto:encoder"
+		},
+		{
+			"weight": 1.0,
+			"key": "packagedauto:fluid_package_filler"
+		},
+		{
+			"weight": 1.0,
+			"key": "packagedauto:me_package_component"
+		},
+		{
+			"weight": 1.0,
+			"key": "packagedauto:package"
+		},
+		{
+			"weight": 1.0,
+			"key": "packagedauto:package_component"
+		},
+		{
+			"weight": 1.0,
+			"key": "packagedauto:packager"
+		},
+		{
+			"weight": 1.0,
+			"key": "packagedauto:packager_extension"
+		},
+		{
+			"weight": 1.0,
+			"key": "packagedauto:packaging_provider"
+		},
+		{
+			"weight": 1.0,
+			"key": "packagedauto:proxy_marker"
+		},
+		{
+			"weight": 1.0,
+			"key": "packagedauto:recipe_holder"
+		},
+		{
+			"weight": 1.0,
+			"key": "packagedauto:settings_cloner"
+		},
+		{
+			"weight": 1.0,
+			"key": "packagedauto:unpackager"
+		},
+		{
+			"weight": 1.0,
+			"key": "packagedauto:volume_package"
+		}
+	]
+}

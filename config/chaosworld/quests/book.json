@@ -1,0 +1,231 @@
+{
+  "title": "ChaosWorld Field Guide",
+  "chapters": [
+    {
+      "id": "first_steps",
+      "title": "First Steps",
+      "icon": "minecraft:grass_block",
+      "quests": [
+        {
+          "id": "start",
+          "title": "A Place to Begin",
+          "description": "Every world starts with a punch. Gather some wood and get your footing.",
+          "icon": "minecraft:oak_log",
+          "x": 0,
+          "y": 0,
+          "dependencies": [],
+          "tasks": [
+            {
+              "id": "logs",
+              "type": "item",
+              "target": "minecraft:oak_log",
+              "count": 8,
+              "title": "Collect 8 oak logs"
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "item": "minecraft:bread",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "table",
+          "title": "A Workbench",
+          "description": "Four planks and a dream. Crafting opens the rest of the journey.",
+          "icon": "minecraft:crafting_table",
+          "x": 1,
+          "y": 0,
+          "dependencies": [
+            "start"
+          ],
+          "tasks": [
+            {
+              "id": "craft_table",
+              "type": "item",
+              "target": "minecraft:crafting_table",
+              "count": 1,
+              "title": "Craft a crafting table"
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "item": "minecraft:torch",
+              "count": 8
+            }
+          ]
+        },
+        {
+          "id": "tools",
+          "title": "Stone Tools",
+          "description": "Wood is a start; stone is a statement.",
+          "icon": "minecraft:stone_pickaxe",
+          "x": 2,
+          "y": 0,
+          "dependencies": [
+            "table"
+          ],
+          "tasks": [
+            {
+              "id": "pickaxe",
+              "type": "item",
+              "target": "minecraft:stone_pickaxe",
+              "count": 1,
+              "title": "Craft a stone pickaxe"
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "item": "minecraft:iron_ingot",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "hunt",
+          "title": "Monster Hunter",
+          "description": "The night is loud. Make it quieter.",
+          "icon": "minecraft:iron_sword",
+          "x": 0,
+          "y": 1,
+          "dependencies": [
+            "start"
+          ],
+          "tasks": [
+            {
+              "id": "zombies",
+              "type": "kill",
+              "target": "minecraft:zombie",
+              "count": 3,
+              "title": "Defeat 3 zombies"
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "item": "minecraft:arrow",
+              "count": 16
+            }
+          ]
+        },
+        {
+          "id": "shelter",
+          "title": "A Safe Corner",
+          "description": "A door, four walls, and a torch are enough for the first night.",
+          "icon": "minecraft:oak_door",
+          "x": 1,
+          "y": 1,
+          "dependencies": [
+            "table"
+          ],
+          "tasks": [
+            {
+              "id": "planks",
+              "type": "block",
+              "target": "minecraft:oak_planks",
+              "count": 4,
+              "title": "Break 4 oak planks"
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "item": "minecraft:oak_door",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the_deep",
+      "title": "The Deep",
+      "icon": "minecraft:deepslate",
+      "quests": [
+        {
+          "id": "iron",
+          "title": "Iron Age",
+          "description": "Stone breaks; iron builds.",
+          "icon": "minecraft:iron_ingot",
+          "x": 3,
+          "y": 1,
+          "dependencies": [
+            "tools"
+          ],
+          "tasks": [
+            {
+              "id": "ingots",
+              "type": "item",
+              "target": "minecraft:iron_ingot",
+              "count": 8,
+              "title": "Collect 8 iron ingots"
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "item": "minecraft:iron_pickaxe",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "diamonds",
+          "title": "Diamonds!",
+          "description": "The deep is dangerous. The reward is worth it.",
+          "icon": "minecraft:diamond",
+          "x": 4,
+          "y": 1,
+          "dependencies": [
+            "iron"
+          ],
+          "tasks": [
+            {
+              "id": "gems",
+              "type": "item",
+              "target": "minecraft:diamond",
+              "count": 3,
+              "title": "Collect 3 diamonds"
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "item": "minecraft:golden_apple",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "notes",
+          "title": "Field Notes",
+          "description": "Read the guide, then tick this box. The book is yours to edit.",
+          "icon": "minecraft:written_book",
+          "x": 3,
+          "y": 2,
+          "dependencies": [
+            "start"
+          ],
+          "tasks": [
+            {
+              "id": "read",
+              "type": "checkmark",
+              "count": 1,
+              "title": "I have read the field guide"
+            }
+          ],
+          "rewards": [
+            {
+              "type": "command",
+              "command": "give @s minecraft:book 1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

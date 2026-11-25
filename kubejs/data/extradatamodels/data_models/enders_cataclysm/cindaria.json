@@ -1,0 +1,30 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "cataclysm"
+		}
+    ],
+    "entity": "cataclysm:cindaria",
+    "name": {
+        "translate": "entity.cataclysm.cindaria",
+        "color": "rainbow"
+    },
+	"display": {
+        "scale": 0.5
+    },
+    "sim_cost": 256,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.cindaria",
+    "fabricator_drops": [
+		{
+            "id": "cataclysm:lacrima",
+            "count": 8
+        }
+    ]
+}

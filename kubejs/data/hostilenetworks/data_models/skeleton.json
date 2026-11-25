@@ -1,0 +1,47 @@
+{
+    "entity": "minecraft:skeleton",
+    "variants": [
+        "minecraft:stray",
+        "minecraft:bogged",
+		"occultism:possessed_skeleton",
+		"occultism:wild_skeleton",
+		"occultism:wild_hunt_skeleton",
+		"occultism:wild_bogged",
+		"occultism:wild_stray",
+        "savage_and_ravage:skeleton_villager",
+		"mekanismadditions:baby_skeleton",
+		"mekanismadditions:baby_bogged",
+		"mekanismadditions:baby_stray"
+    ],
+    "name": {
+        "translate": "entity.minecraft.skeleton",
+        "color": "#BCBCBC"
+    },
+    "sim_cost": 128,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.skeleton",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:arrow",
+            "count": 32
+        },
+        {
+            "id": "minecraft:bone",
+            "count": 24
+        },
+        {
+            "id": "minecraft:skeleton_skull",
+            "count": 4
+        },
+        {
+            "optional": true,
+            "id": "reliquary:rib_bone",
+            "count": 2
+        }
+    ]
+}

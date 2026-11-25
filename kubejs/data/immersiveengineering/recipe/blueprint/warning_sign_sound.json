@@ -1,0 +1,15 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "category": "warning_sign",
+  "inputs": [
+    {
+      "tag": "c:plates"
+    },
+    {
+      "tag": "c:dyes/yellow"
+    }
+  ],
+  "result": {
+    "id": "immersiveengineering:warning_sign_sound"
+  }
+}

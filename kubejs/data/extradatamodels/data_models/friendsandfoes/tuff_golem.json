@@ -1,0 +1,27 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "friendsandfoes"
+        }
+    ],
+    "entity": "friendsandfoes:tuff_golem",
+    "name": {
+        "translate": "entity.friendsandfoes.tuff_golem",
+        "color": "#605E58"
+    },
+    "sim_cost": 256,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+	"trivia": "custom.trivia.tuff_golem",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:tuff",
+            "count": 16
+        }
+    ]
+}

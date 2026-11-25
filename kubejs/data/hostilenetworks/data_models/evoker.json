@@ -1,0 +1,28 @@
+{
+    "entity": "minecraft:evoker",
+    "variants": [
+		"occultism:possessed_evoker"
+    ],
+    "name": {
+        "translate": "entity.minecraft.evoker",
+        "color": "#BCA341"
+    },
+    "sim_cost": 1024,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.evoker",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:totem_of_undying",
+            "count": 1
+        },
+        {
+            "id": "minecraft:emerald",
+            "count": 16
+        }
+    ]
+}

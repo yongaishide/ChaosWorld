@@ -1,0 +1,30 @@
+{
+    "entity": "minecraft:pufferfish",
+    "name": {
+        "translate": "entity.minecraft.pufferfish",
+        "color": "#9E6D13"
+    },
+    "sim_cost": 32,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.pufferfish",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:pufferfish",
+            "count": 32
+        },
+        {
+            "id": "minecraft:bone_meal",
+            "count": 2
+        },
+        {
+            "optional": true,
+            "id": "croptopia:roe",
+            "count": 64
+        }
+    ]
+}

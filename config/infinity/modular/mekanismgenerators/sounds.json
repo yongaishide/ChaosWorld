@@ -1,0 +1,32 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "mekanismgenerators:tile.generator.bio"
+		},
+		{
+			"weight": 1.0,
+			"key": "mekanismgenerators:tile.generator.gas"
+		},
+		{
+			"weight": 1.0,
+			"key": "mekanismgenerators:tile.generator.heat"
+		},
+		{
+			"weight": 1.0,
+			"key": "mekanismgenerators:tile.generator.solar"
+		},
+		{
+			"weight": 1.0,
+			"key": "mekanismgenerators:tile.generator.wind"
+		},
+		{
+			"weight": 1.0,
+			"key": "mekanismgenerators:tile.machine.fission_reactor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mekanismgenerators:tile.machine.fusion_reactor"
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "immersiveengineering:crusher",
+  "energy": 2400,
+  "input": {
+    "tag": "c:coal_coke"
+  },
+  "result": {
+    "tag": "c:dusts/coal_coke"
+  }
+}

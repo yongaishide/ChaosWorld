@@ -1,0 +1,85 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 7829401,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "thaumaturge:blurred_vision"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 1703970,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "thaumaturge:death_gaze"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 16711808,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "thaumaturge:flux_taint"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 6303855,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "thaumaturge:infectious_vis_exhaust"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 16768341,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "thaumaturge:sun_scorned"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 11731123,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "thaumaturge:thaumarhia"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 2825486,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "thaumaturge:unnatural_hunger"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 8405119,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "thaumaturge:vis_exhaust"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 11141375,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "thaumaturge:warp_ward"
+		}
+	]
+}

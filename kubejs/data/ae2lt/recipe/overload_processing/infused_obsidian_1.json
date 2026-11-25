@@ -1,0 +1,33 @@
+{
+  "type": "ae2lt:overload_processing",
+  "priority": 0,
+  "inputs": [
+    {
+      "ingredient": {
+        "item": "minecraft:obsidian"
+      },
+      "count": 64
+    },
+    {
+      "ingredient": {
+        "item": "draconicevolution:draconium_dust"
+      },
+      "count": 4
+    },
+    {
+      "ingredient": {
+        "item": "powah:crystal_blazing"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "id": "draconicevolution:infused_obsidian",
+      "count": 16
+    }
+  ],
+  "totalEnergy": 8000000,
+  "lightningCost": 4,
+  "lightningTier": "high_voltage"
+}

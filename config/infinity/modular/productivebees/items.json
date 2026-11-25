@@ -1,0 +1,832 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "productivebees:acacia_wood_nest"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:adv_breed_all_bees"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:adv_breed_bee"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_acacia_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_acacia_canvas_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_aspen_canvas_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_bamboo_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_bamboo_canvas_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_birch_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_birch_canvas_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_cherry_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_cherry_canvas_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_comb_canvas_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_concrete_canvas_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_crimson_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_crimson_canvas_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_dark_oak_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_dark_oak_canvas_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_dead_canvas_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_driftwood_canvas_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_fir_canvas_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_grimwood_canvas_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_hellbark_canvas_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_jacaranda_canvas_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_jungle_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_jungle_canvas_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_kousa_canvas_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_magic_canvas_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_mahogany_canvas_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_mangrove_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_mangrove_canvas_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_maple_canvas_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_oak_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_oak_canvas_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_palm_canvas_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_quark_azalea_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_quark_blossom_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_redwood_canvas_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_river_canvas_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_rosewood_canvas_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_snake_block_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_snake_block_canvas_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_spruce_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_spruce_canvas_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_umbran_canvas_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_warped_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_warped_canvas_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_willow_canvas_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_wisteria_canvas_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:advanced_yucca_canvas_beehive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:amber"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:bamboo_hive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:bee_bomb"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:bee_bomb_angry"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:bee_cage"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:bee_nest_diamond_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:birch_wood_nest"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:black_petrified_honey"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:blue_petrified_honey"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:bottler"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:breeding_chamber"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:brown_petrified_honey"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:bumble_bee_nest"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:catcher"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:centrifuge"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:cherry_wood_nest"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:coarse_dirt_nest"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:comb_ghostly"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:comb_milky"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:comb_powdery"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:configurable_comb"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:configurable_honeycomb"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:crimson_bee_nest"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:cyan_petrified_honey"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:dark_oak_wood_nest"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:draconic_chunk"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:draconic_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:dragon_egg_hive"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:end_stone_nest"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_acacia"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_acacia_canvas"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_aspen_canvas"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_bamboo"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_bamboo_canvas"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_birch"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_birch_canvas"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_cherry"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_cherry_canvas"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_comb_canvas"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_concrete_canvas"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_crimson"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_crimson_canvas"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_dark_oak"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_dark_oak_canvas"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_dead_canvas"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_driftwood_canvas"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_fir_canvas"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_grimwood_canvas"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_hellbark_canvas"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_jacaranda_canvas"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_jungle"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_jungle_canvas"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_kousa_canvas"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_magic_canvas"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_mahogany_canvas"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_mangrove"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_mangrove_canvas"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_maple_canvas"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_oak"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_oak_canvas"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_palm_canvas"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_quark_azalea"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_quark_blossom"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_redwood_canvas"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_river_canvas"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_rosewood_canvas"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_snake_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_snake_block_canvas"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_spruce"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_spruce_canvas"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_umbran_canvas"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_warped"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_warped_canvas"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_willow_canvas"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_wisteria_canvas"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:expansion_box_yucca_canvas"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:feeder"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:gene"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:gene_bottle"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:gene_indexer"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:glowstone_nest"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:gravel_nest"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:gray_petrified_honey"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:green_petrified_honey"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:heated_centrifuge"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:honey_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:honey_generator"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:honey_treat"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:honeycomb_ghostly"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:honeycomb_milky"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:honeycomb_powdery"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:inactive_dragon_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:incubator"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:invisible_redstone_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:jar_oak"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:jungle_wood_nest"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:light_blue_petrified_honey"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:light_gray_petrified_honey"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:lime_petrified_honey"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:magenta_petrified_honey"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:mangrove_wood_nest"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:milk_bottle"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:nest_locator"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:nether_brick_nest"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:nether_gold_nest"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:nether_quartz_nest"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:oak_wood_nest"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:obsidian_nest"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:obsidian_shard"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:orange_petrified_honey"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:petrified_honey"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:pink_petrified_honey"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:powered_centrifuge"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:purple_petrified_honey"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:quartz_netherrack"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:red_petrified_honey"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:sand_nest"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:slimy_nest"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:snow_nest"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:soul_sand_nest"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:spawn_egg_ashy_mining_bee"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:spawn_egg_blue_banded_bee"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:spawn_egg_bumble_bee"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:spawn_egg_chocolate_mining_bee"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:spawn_egg_collector_bee"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:spawn_egg_configurable_bee"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:spawn_egg_creeper_bee"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:spawn_egg_cupid_bee"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:spawn_egg_digger_bee"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:spawn_egg_dye_bee"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:spawn_egg_farmer_bee"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:spawn_egg_green_carpenter_bee"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:spawn_egg_hoarder_bee"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:spawn_egg_leafcutter_bee"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:spawn_egg_lumber_bee"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:spawn_egg_mason_bee"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:spawn_egg_neon_cuckoo_bee"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:spawn_egg_nomad_bee"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:spawn_egg_quarry_bee"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:spawn_egg_rancher_bee"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:spawn_egg_reed_bee"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:spawn_egg_resin_bee"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:spawn_egg_sweat_bee"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:spawn_egg_yellow_black_carpenter_bee"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:spruce_wood_nest"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:stone_nest"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:sturdy_bee_cage"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:sugar_cane_nest"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:sugarbag_honeycomb"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:sugarbag_nest"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:treat_on_a_stick"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:warped_bee_nest"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:wax"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:wax_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:white_petrified_honey"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:wither_skull_chip"
+		},
+		{
+			"weight": 1.0,
+			"key": "productivebees:yellow_petrified_honey"
+		}
+	]
+}

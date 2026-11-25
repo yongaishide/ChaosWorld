@@ -1,0 +1,14 @@
+{
+  "type": "iceandfire:dragonforge",
+  "dragonType": "ice",
+  "cookTime": 750,
+  "input": {
+    "tag": "iceandfire:scales/dragon/ice"
+  },
+  "blood": {
+    "item": "minecraft:glass_bottle"
+  },
+  "result": {
+    "id": "iceandfire:ice_dragon_blood"
+  }
+}

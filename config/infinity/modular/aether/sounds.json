@@ -1,0 +1,476 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "aether:block.aercloud.blue_aercloud_bounce"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:block.aether_portal.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:block.aether_portal.travel"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:block.aether_portal.trigger"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:block.altar.crackle"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:block.chest_mimic.open"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:block.dungeon_trap.trigger"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:block.freezer.crackle"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:block.incubator.crackle"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:block.water.evaporate"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.aechor_plant.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.aechor_plant.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.aechor_plant.shoot"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.aerbunny.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.aerbunny.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.aerbunny.lift"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.aerwhale.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.aerwhale.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.aerwhale.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.cloud_crystal.explode"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.cloud_minion.shoot"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.cockatrice.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.cockatrice.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.cockatrice.flap"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.cockatrice.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.cockatrice.shoot"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.dart.hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.fire_crystal.explode"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.fire_minion.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.fire_minion.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.flying_cow.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.flying_cow.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.flying_cow.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.flying_cow.milk"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.flying_cow.saddle"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.flying_cow.step"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.ice_crystal.explode"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.mimic.attack"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.mimic.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.mimic.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.mimic.kill"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.moa.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.moa.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.moa.egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.moa.flap"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.moa.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.moa.saddle"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.moa.step"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.phyg.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.phyg.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.phyg.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.phyg.saddle"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.phyg.step"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.sentry.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.sentry.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.sentry.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.sentry.jump"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.sentry.squish"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.sheepuff.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.sheepuff.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.sheepuff.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.sheepuff.shear"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.sheepuff.step"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.slider.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.slider.awaken"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.slider.collide"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.slider.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.slider.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.slider.move"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.sun_spirit.activate"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.sun_spirit.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.sun_spirit.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.sun_spirit.interact"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.sun_spirit.shoot_fire"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.sun_spirit.shoot_ice"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.swet.attack"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.swet.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.swet.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.swet.jump"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.swet.squish"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.thunder_crystal.explode"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.valkyrie.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.valkyrie.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.valkyrie.interact"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.valkyrie_queen.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.valkyrie_queen.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.valkyrie_queen.interact"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.whirlwind.drop"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.zephyr.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.zephyr.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.zephyr.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:entity.zephyr.shoot"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:item.accessory.equip_cape"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:item.accessory.equip_generic"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:item.accessory.equip_gold_pendant"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:item.accessory.equip_gold_ring"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:item.accessory.equip_ice_pendant"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:item.accessory.equip_ice_ring"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:item.accessory.equip_iron_pendant"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:item.accessory.equip_iron_ring"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:item.accessory.equip_zanite_pendant"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:item.accessory.equip_zanite_ring"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:item.ambrosium_shard.use"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:item.armor.equip_gravitite"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:item.armor.equip_neptune"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:item.armor.equip_obsidian"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:item.armor.equip_phoenix"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:item.armor.equip_sentry"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:item.armor.equip_valkyrie"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:item.armor.equip_zanite"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:item.dart_shooter.shoot"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:item.hammer_of_kingbdogz.shoot"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:item.lightning_knife.shoot"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:item.swet_ball.use"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:ui.toast.aether_bronze"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:ui.toast.aether_general"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:ui.toast.aether_gold"
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:ui.toast.aether_silver"
+		}
+	]
+}

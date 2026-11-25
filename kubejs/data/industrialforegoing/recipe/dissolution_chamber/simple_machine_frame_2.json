@@ -1,0 +1,44 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "industrialforegoing:machine_frame_simple"
+    }
+  ],
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+    {
+      "tag": "c:plastics"
+    },
+    {
+      "item": "chaosworld_core:circuit_processor"
+    },
+    {
+      "tag": "c:plastics"
+    },
+    {
+      "item": "extendedae:entro_ingot"
+    },
+    {
+      "item": "extendedae:entro_ingot"
+    },
+    {
+      "item": "chaosworld_core:plate_tech_4"
+    },
+    {
+      "tag": "c:gears/gold"
+    },
+    {
+      "item": "chaosworld_core:plate_tech_4"
+    }
+  ],
+  "inputFluid": {
+    "amount": 250,
+    "fluid": "industrialforegoing:latex"
+  },
+  "output": {
+    "count": 2,
+    "id": "industrialforegoing:machine_frame_simple"
+  },
+  "processingTime": 300
+}

@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:nucleosynthesizing",
+  "chemical_input": {
+    "amount": 2,
+    "chemical": "mekanism:antimatter"
+  },
+  "duration": 5000,
+  "item_input": {
+    "count": 64,
+    "item": "mekmm:empty_crystal"
+  },
+  "output": {
+    "count": 1,
+    "id": "mekmm:uu_matter"
+  },
+  "per_tick_usage": false
+}

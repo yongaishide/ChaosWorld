@@ -1,0 +1,431 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5ecf131d718c7f03"
+	group: "6B9CFFEE5CD53D67"
+	icon: {
+		id: "neovitae:ara_vitae"
+	}
+	id: "5ECF131D718C7F03"
+	images: [ ]
+	order_index: 5
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			id: "478E3D0BA26D4997"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "60E282EAC3A3BD9E"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "neovitae:ara_vitae"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["478E3D0BA26D4997"]
+			id: "1A7CA3977ABEE634"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "4A99E98E7325FB10"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "neovitae:tabula_rasa"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1A7CA3977ABEE634"]
+			id: "19E8C6D70ED52A04"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "122CB4A26DB1CFDE"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "neovitae:rune_blank"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["478E3D0BA26D4997"]
+			id: "27FB0A69212022A9"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "14AC1827F0E12D34"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "neovitae:blood_orb_weak"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1A7CA3977ABEE634"]
+			id: "06AFE116B181F699"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "0938DA88ABC79DD5"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "neovitae:tabula_robur"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["06AFE116B181F699"]
+			id: "3A70CFD885CB63B4"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "5A5258DE94B5FFAE"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "neovitae:tabula_animata"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A70CFD885CB63B4"]
+			id: "003ECD9DC12F3543"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "4D3D850146FB3078"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "neovitae:tabula_spiritus"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["003ECD9DC12F3543"]
+			id: "408F0BD05B5FE3EB"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "03438A10756AABF6"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "neovitae:tabula_aetherea"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["06AFE116B181F699"]
+			id: "3A4D98AAF480C348"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "1F2481B3156EBEAF"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "neovitae:rune_sacrifice"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["06AFE116B181F699"]
+			id: "629060E70C38C109"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "6AB64E72543B5ED3"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "neovitae:rune_sacrifice_self"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3A70CFD885CB63B4"]
+			id: "6D9CAD5EB35C152C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "662C3FF5A35B0829"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "neovitae:rune_dislocation"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3A70CFD885CB63B4"]
+			id: "6F67EBE5CFB10017"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "21437F09021B93BC"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "neovitae:rune_capacity"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1A7CA3977ABEE634"]
+			id: "49C0E5915AB2F192"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "27FE45B41D241E41"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "neovitae:rune_speed"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["003ECD9DC12F3543"]
+			id: "43B5E1B70C7E7F64"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "200DC1AD1CB68808"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "neovitae:rune_acceleration"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["003ECD9DC12F3543"]
+			id: "09C4F521B4BA8AB4"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "526F33257471F1B1"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "neovitae:rune_capacity_augmented"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["003ECD9DC12F3543"]
+			id: "53A8FB442131E995"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "476ED434DC7227E8"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "neovitae:rune_charging"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["408F0BD05B5FE3EB"]
+			id: "1A1AA5EB06154B34"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "1600D81319B269DF"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "neovitae:rune_efficiency"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1A7CA3977ABEE634"]
+			id: "23627899CCC0927E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "564D78970583C286"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "neovitae:hellfire_forge"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1A7CA3977ABEE634"]
+			id: "37CDE9146AA1C9FC"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "1B4E2804878CBF07"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "neovitae:tabula_vitae"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["37CDE9146AA1C9FC"]
+			id: "4A13A95D6B03F09D"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "1246BAE1F276C43A"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "neovitae:throwing_dagger"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4A13A95D6B03F09D"]
+			id: "0359BCC480FC1CEC"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				components: {
+					"neovitae:spiritus_amount": 3.3365827209070353d
+				}
+				id: "2E30077C1DDD0FBB"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "neovitae:base_spiritus_soul_raw"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["23627899CCC0927E"]
+			id: "63DAEFA65D73118D"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "13920DC2214AD8F8"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "neovitae:spiritus_gem_petty"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"63DAEFA65D73118D"
+				"3A70CFD885CB63B4"
+			]
+			id: "14BC9B8A4FB3501A"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				components: {
+					"neovitae:spiritus_amount": 1024.0d
+				}
+				id: "53F4C0782DF859BF"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "neovitae:spiritus_gem_common"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"14BC9B8A4FB3501A"
+				"003ECD9DC12F3543"
+			]
+			id: "15E2035328B4C6D6"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "14189D5F0A4F6B50"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "neovitae:spiritus_gem_greater"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"15E2035328B4C6D6"
+				"408F0BD05B5FE3EB"
+			]
+			id: "166AB78F3D3EC6BD"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "56AD48D8693542ED"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "neovitae:spiritus_gem_grand"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedae"
+    }
+  ],
+  "type": "ufo:universal_multiblock",
+  "machine": "quantum_slicer",
+  "recipe_name": "universal/quantum_slicer/entro_block_to_concurrent_processor_print",
+  "item_inputs": [
+    {
+      "ingredient": {
+        "item": "extendedae:entro_block"
+      },
+      "amount": 8192
+    }
+  ],
+  "item_output": {
+    "id": "extendedae:concurrent_processor_print",
+    "count": 32768
+  },
+  "energy": 8000000,
+  "time": 200,
+  "required_tier": 1
+}

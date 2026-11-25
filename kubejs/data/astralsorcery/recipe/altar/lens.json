@@ -1,0 +1,85 @@
+{
+  "type": "astralsorcery:altar_crafting",
+  "base_focus_shatter_chance": 0.0,
+  "duration": 100,
+  "effects": [
+    "astralsorcery:default_altar_sparkle",
+    "astralsorcery:default_central_beam",
+    "astralsorcery:default_lumen_input",
+    "astralsorcery:default_relay_input"
+  ],
+  "grid": {
+    "key": {
+      "A": {
+        "type": "item",
+        "ingredient": {
+          "tag": "c:gems/aquamarine"
+        }
+      },
+      "C": {
+        "type": "item",
+        "ingredient": {
+          "tag": "astralsorcery:crystal"
+        }
+      },
+      "L": {
+        "type": "item",
+        "ingredient": {
+          "item": "astralsorcery:glass_lens"
+        }
+      },
+      "R": {
+        "type": "item",
+        "ingredient": {
+          "item": "astralsorcery:marble_runed"
+        }
+      },
+      "W": {
+        "type": "item",
+        "ingredient": {
+          "item": "astralsorcery:infused_wood_engraved"
+        }
+      }
+    },
+    "pattern": [
+      " L ",
+      "LCL",
+      "WWW"
+    ],
+    "relay_pattern": [
+      "     ",
+      "A   A",
+      "A   A",
+      " RRR ",
+      "     "
+    ]
+  },
+  "may_chain": false,
+  "only_night": true,
+  "output_modifiers": [
+    {
+      "type": "astralsorcery:copy_data_components",
+      "components_to_copy": [
+        "astralsorcery:crystal_attributes"
+      ],
+      "copy_all": false,
+      "input_slot": 4,
+      "slot_type": "altar_grid"
+    },
+    {
+      "type": "astralsorcery:set_crystal_count",
+      "count_per_size": 2
+    }
+  ],
+  "outputs": [
+    {
+      "count": 1,
+      "id": "astralsorcery:lens"
+    }
+  ],
+  "required_additional_inputs": [],
+  "required_fluid": [],
+  "required_lumen": [],
+  "required_starlight": [],
+  "required_type": "luminance"
+}

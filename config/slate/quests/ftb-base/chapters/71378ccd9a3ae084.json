@@ -1,0 +1,113 @@
+{
+  "title": "71378ccd9a3ae084",
+  "icon": "patchouli:guide_book[patchouli:book=\"naturesaura:book\"]",
+  "order": 4,
+  "quests": [
+    {
+      "id": "0719db4503937e00",
+      "x": -0.5,
+      "y": 0.5,
+      "deps": [
+        "5eb8032318aa9ef3/600de114f5a1735c"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "item",
+          "item": "patchouli:guide_book[patchouli:book=\"naturesaura:book\"]"
+        }
+      ]
+    },
+    {
+      "id": "33f7cb3c1fd872d0",
+      "x": 1.5,
+      "y": 0.5,
+      "deps": [
+        "0719db4503937e00"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "08e0993cde544aa7",
+      "x": 3.5,
+      "y": 0.5,
+      "deps": [
+        "33f7cb3c1fd872d0"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "06253c4f07c765fa",
+      "x": 3.5,
+      "y": 2.5,
+      "deps": [
+        "33f7cb3c1fd872d0"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "3bb8ee15cc821b80",
+      "x": 5.5,
+      "y": 2.5,
+      "deps": [
+        "06253c4f07c765fa"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "6d3442b0c5348b64",
+      "x": 7.5,
+      "y": 2.5,
+      "deps": [
+        "3bb8ee15cc821b80"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        },
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        },
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        },
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        },
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    }
+  ]
+}

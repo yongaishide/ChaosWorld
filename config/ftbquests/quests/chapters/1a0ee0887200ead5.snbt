@@ -1,0 +1,212 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1a0ee0887200ead5"
+	group: "3349C1ACA6519635"
+	icon: {
+		id: "ae2:controller"
+	}
+	id: "1A0EE0887200EAD5"
+	images: [ ]
+	order_index: 5
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2BB4EC2A82263EC9"]
+			id: "2AFC51C204AAE490"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "153814E020C1EBEF"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
+			tasks: [{
+				id: "42CAB1DBFDCA1C72"
+				item: { count: 1, id: "ae2:fluix_crystal" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"319A9151928FAF29"
+				"08F624F538DBE83C"
+			]
+			icon: {
+				id: "ae2:controller"
+			}
+			id: "1E759BD8CC5BEAB1"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "066D1685EE4FE601"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1A3A504AB9881D42"
+				item: { count: 1, id: "ae2:controller" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"0AB99936429AE835"
+				"2AFC51C204AAE490"
+			]
+			id: "08F624F538DBE83C"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D38B2FE3CE0306E"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
+			tasks: [{
+				id: "506B398270F9DBA3"
+				item: { count: 1, id: "ae2omnicells:ender_ingot" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4A3F865768C91EC3"]
+			id: "37E540513A2057D6"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A5D24B807A32209"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6A0EB6A2657254E7"
+				item: { count: 1, id: "ae2omnicells:omni_cell_component_1k" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["37E540513A2057D6"]
+			id: "41E123C6B5F105C7"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FEB4A873604C2FB"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5A0FDF19CF10B64A"
+				item: { count: 1, id: "ae2omnicells:omni_cell_1k" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["37E540513A2057D6"]
+			id: "223E859154A32203"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "08DF23C61B2A194A"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
+			tasks: [{
+				id: "23DE1319E8471563"
+				item: { count: 1, id: "ae2omnicells:omni_crafting_storage_1k_block" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"08F624F538DBE83C"
+				"20FB375394BD4098"
+			]
+			id: "4A3F865768C91EC3"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "489B7D2847E2D4B3"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "ae2omnicells:omni_link_processor"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2CA35A8079103A6D"]
+			id: "433692862E60FE8D"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "19127C49C79F63F5"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "ae2cs:ender_blank_print_press"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["433692862E60FE8D"]
+			id: "20FB375394BD4098"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "186E85C4A955B7A8"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "ae2omnicells:omni_link_circuit_print"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2AFC51C204AAE490"]
+			id: "6866F84B6B348308"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [
+				{
+					amount: 1L
+					id: "463CE2E8240340AD"
+					key_type: "ae2:i"
+					match_components: "none"
+					resource: "ae2:formation_core"
+					tag: ""
+					type: "chaosworld_core:ae_resource"
+				}
+				{
+					amount: 1L
+					id: "778ACDBE31A2A1D5"
+					key_type: "ae2:i"
+					match_components: "none"
+					resource: "ae2:annihilation_core"
+					tag: ""
+					type: "chaosworld_core:ae_resource"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+	]
+}

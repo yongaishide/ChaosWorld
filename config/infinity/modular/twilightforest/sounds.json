@@ -1,0 +1,1276 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.beanstalk.grow"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.boss_chest.appear"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.bug.squish"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.builder.create"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.builder.off"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.builder.on"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.builder.replace"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.candelabra.light"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.candelabra.ominous"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.casket.close"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.casket.locked"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.casket.open"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.casket.repair"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.chiseled_bookshelf.convert"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.cicada"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.core.time"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.core.transformation"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.door.activate"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.door.reappear"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.door.vanish"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.drying_rack.add_item"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.drying_rack.remove_item"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.generic.annihilation"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.ghast_trap.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.ghast_trap.on"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.ghast_trap.spindown"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.ghast_trap.warmup"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.jar.break"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.jar.fall"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.jar.hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.jar.insert"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.jar.lid_swap"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.jar.place"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.jar.remove"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.jar.step"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.jar.wiggle"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.jet.active"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.jet.pop"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.jet.start"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.ominous_fire.light"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.portal.whoosh"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.reactor.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.reappearing_block.reappear"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.reappearing_block.vanish"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.skull_chest.close"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.skull_chest.locked"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.skull_chest.open"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.slider.move"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.smoker.start"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.torchberry.harvest"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.trophy_pedestal.activate"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.uncrafting_table.activate"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.vanish.locked"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.vanish.unlock"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.vanish.vanish"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:block.twilightforest.wrought_iron_fence.extend"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.alpha_yeti.alert"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.alpha_yeti.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.alpha_yeti.grab"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.alpha_yeti.growl"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.alpha_yeti.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.alpha_yeti.ice"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.alpha_yeti.pant"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.alpha_yeti.roar"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.alpha_yeti.throw"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.bighorn_sheep.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.bighorn_sheep.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.bighorn_sheep.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.bighorn_sheep.step"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.blockchain_goblin.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.blockchain_goblin.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.blockchain_goblin.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.boar.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.boar.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.boar.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.boar.step"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.carminite_broodling.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.carminite_broodling.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.carminite_broodling.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.carminite_broodling.step"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.carminite_ghastguard.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.carminite_ghastguard.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.carminite_ghastguard.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.carminite_ghastguard.shoot"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.carminite_ghastguard.warn"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.carminite_ghastling.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.carminite_ghastling.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.carminite_ghastling.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.carminite_ghastling.shoot"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.carminite_ghastling.warn"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.carminite_golem.attack"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.carminite_golem.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.carminite_golem.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.carminite_golem.step"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.death_tome.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.death_tome.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.death_tome.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.deer.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.deer.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.deer.eat"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.deer.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.dwarf_rabbit.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.dwarf_rabbit.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.dwarf_rabbit.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.fire_beetle.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.fire_beetle.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.fire_beetle.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.fire_beetle.shoot"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.fire_beetle.step"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.fortification_shield.add"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.fortification_shield.block"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.fortification_shield.break"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.fortification_shield.expire"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.goblin_knight.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.goblin_knight.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.goblin_knight.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.goblin_knight.muffled.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.goblin_knight.muffled.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.goblin_knight.muffled.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.hedge_spider.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.hedge_spider.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.hedge_spider.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.hedge_spider.step"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.helmet_crab.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.helmet_crab.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.helmet_crab.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.helmet_crab.step"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.hostile_wolf.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.hostile_wolf.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.hostile_wolf.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.hostile_wolf.target"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.hydra.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.hydra.growl"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.hydra.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.hydra.roar"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.hydra.shoot"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.hydra.shoot_fire"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.hydra.warn"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.ice.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.ice.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.ice.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.ice.shoot"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.king_spider.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.king_spider.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.king_spider.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.king_spider.step"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.knight_phantom.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.knight_phantom.axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.knight_phantom.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.knight_phantom.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.knight_phantom.pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.kobold.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.kobold.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.kobold.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.kobold.munch"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.lich.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.lich.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.lich.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.lich.pop_mob"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.lich.shoot"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.lich.teleport"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.lich_clone.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.loyal_zombie.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.loyal_zombie.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.loyal_zombie.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.loyal_zombie.step"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.maze_slime.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.maze_slime.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.maze_slime.squish"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.maze_slime_small.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.maze_slime_small.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.maze_slime_small.squish"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.minion.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.minion.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.minion.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.minion.step"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.minion.summon"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.minoshroom.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.minoshroom.attack"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.minoshroom.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.minoshroom.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.minoshroom.slam"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.minoshroom.step"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.minotaur.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.minotaur.attack"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.minotaur.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.minotaur.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.minotaur.step"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.mist_wolf.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.mist_wolf.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.mist_wolf.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.mist_wolf.target"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.mosquito.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.naga.hiss"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.naga.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.naga.rattle"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.parrot.imitate.alpha_yeti"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.parrot.imitate.carminite_golem"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.parrot.imitate.death_tome"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.parrot.imitate.hostile_wolf"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.parrot.imitate.hydra"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.parrot.imitate.ice_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.parrot.imitate.kobold"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.parrot.imitate.minotaur"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.parrot.imitate.mosquito"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.parrot.imitate.naga"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.parrot.imitate.redcap"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.parrot.imitate.wraith"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.penguin.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.penguin.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.penguin.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.pinch_beetle.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.pinch_beetle.attack"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.pinch_beetle.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.pinch_beetle.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.pinch_beetle.step"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.quest_ram.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.quest_ram.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.quest_ram.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.quest_ram.step"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.raven.caw"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.raven.squawk"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.redcap.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.redcap.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.redcap.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.skeleton_druid.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.skeleton_druid.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.skeleton_druid.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.skeleton_druid.shoot"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.skeleton_druid.step"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.slime_beetle.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.slime_beetle.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.slime_beetle.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.slime_beetle.squish"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.slime_beetle.step"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.snow_guardian.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.snow_guardian.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.snow_guardian.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.snow_queen.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.snow_queen.attack"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.snow_queen.break"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.snow_queen.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.snow_queen.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.squirrel.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.squirrel.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.squirrel.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.swarm_spider.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.swarm_spider.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.swarm_spider.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.swarm_spider.step"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.tear.break"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.tiny_bird.chirp"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.tiny_bird.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.tiny_bird.song"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.tiny_bird.takeoff"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.towerwood_borer.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.towerwood_borer.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.towerwood_borer.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.towerwood_borer.step"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.troll.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.troll.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.troll.grab_rock"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.troll.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.troll.throw_rock"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.ur_ghast.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.ur_ghast.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.ur_ghast.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.ur_ghast.shoot"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.ur_ghast.tantrum"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.ur_ghast.warn"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.winter_wolf.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.winter_wolf.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.winter_wolf.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.winter_wolf.shoot"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.winter_wolf.target"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.wraith.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.wraith.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.wraith.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.yeti.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.yeti.grab"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.yeti.growl"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.yeti.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:entity.twilightforest.yeti.throw"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:environment.twilightforest.acid_rain"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:item.twilightforest.block_and_chain.collide"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:item.twilightforest.block_and_chain.fire"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:item.twilightforest.block_and_chain.hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:item.twilightforest.charm.keep"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:item.twilightforest.charm.life"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:item.twilightforest.fan.whoosh"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:item.twilightforest.flask.break"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:item.twilightforest.flask.crack"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:item.twilightforest.flask.fill"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:item.twilightforest.glass_sword.break"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:item.twilightforest.ice_bomb.fired"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:item.twilightforest.knightmetal_armor.equip"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:item.twilightforest.knightmetal_shield.shatter"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:item.twilightforest.lamp.burn"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:item.twilightforest.life_scepter.drain"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:item.twilightforest.magnet.grab"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:item.twilightforest.moonworm.squish"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:item.twilightforest.ore_meter.clear"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:item.twilightforest.ore_meter.crackle"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:item.twilightforest.ore_meter.target_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:item.twilightforest.shield.shatter"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:item.twilightforest.transformation_powder.use"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:item.twilightforest.travellers_gear.cycle_maps"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:item.twilightforest.travellers_gear.cycle_maps_empty"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:item.twilightforest.travellers_gear.double_jump"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:item.twilightforest.travellers_gear.perfect_dodge"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:item.twilightforest.travellers_gear.side_step"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:item.twilightforest.travellers_gear.side_step_ready"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:item.twilightforest.travellers_gear.swap_hotbar"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:item.twilightforest.travellers_goggles.zoom_in"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:item.twilightforest.travellers_goggles.zoom_out"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:item.twilightforest.twilight_scepter.pearl_hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:item.twilightforest.twilight_scepter.use"
+		},
+		{
+			"weight": 1.0,
+			"key": "twilightforest:item.twilightforest.zombie_scepter.use"
+		}
+	]
+}

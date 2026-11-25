@@ -1,0 +1,16 @@
+{
+  "name": "patchouli.chaosworld.entry.modpack_overview",
+  "icon": "minecraft:compass",
+  "category": "patchouli:index",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "patchouli.chaosworld.entry.modpack_overview.page1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "patchouli.chaosworld.entry.modpack_overview.page2"
+    }
+  ]
+}

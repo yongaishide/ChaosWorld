@@ -1,0 +1,54 @@
+=== jar keys containing scrubber or geiger ===
+advancement.nuclearcraftneohaul.geiger_counter.description = 制作一个盖革计数器
+advancement.nuclearcraftneohaul.geiger_counter.title = 进入普里皮亚季前的准备
+advancement.nuclearcraftneohaul.radiation_scrubber.description = 制作一个辐射净化仪
+advancement.nuclearcraftneohaul.radiation_scrubber.title = 污染控制
+block.nuclearcraftneohaul.geiger_counter_block = 盖革计数器方块
+block.nuclearcraftneohaul.geiger_counter_block.desc = 检测其所在区块的辐射值。
+item.nuclearcraftneohaul.geiger_counter = 盖革计数器
+nuclearcraftneohaul.configuration.radiation_geiger_block_redstone = 盖革计数器方块比较器信号级别
+nuclearcraftneohaul.configuration.radiation_geiger_block_redstone.tooltip = 盖革计数器方块使相邻的比较器产生满级红石信号强度的辐射等级（按 10 的幂计；即其常用对数）。
+nuclearcraftneohaul.configuration.radiation_scrubber_fraction = 净化仪最大辐射消除速率
+nuclearcraftneohaul.configuration.radiation_scrubber_fraction.tooltip = 效率达 100% 的净化仪消除辐射的效率，用所在区块辐射等级的分数表示。仅在线性净化仪机制下起效。
+nuclearcraftneohaul.configuration.radiation_scrubber_non_linear = 非线性净化仪机制
+nuclearcraftneohaul.configuration.radiation_scrubber_non_linear.tooltip = 要用非线性净化方程替代线性的吗？
+nuclearcraftneohaul.configuration.radiation_scrubber_param = 非线性净化仪参数
+nuclearcraftneohaul.configuration.radiation_scrubber_param.tooltip = 方程 'F = a^[-(S/b)^(1 + S/c)^(1/d)]' 中的 a、b、c、d 四项参数，其中 'F' 是消除后区块更新缓冲中剩余的辐射分数，而 'S' 是计算效率后区块中净化仪的有效数量。最好了解机制后更改。
+nuclearcraftneohaul.configuration.radiation_scrubber_radius = 净化仪搜寻半径
+nuclearcraftneohaul.configuration.radiation_scrubber_radius.tooltip = 净化仪搜寻占用方块的范围。
+nuclearcraftneohaul.menu.title.radiation_scrubber = 辐射净化仪
+nuclearcraftneohaul.message.scrubber_removal_rate = 主动背景辐射消除速率: %s
+nuclearcraftneohaul.recipe_viewer.scrubber_process_power = 能量需求: %s
+nuclearcraftneohaul.recipe_viewer.scrubber_process_time = 净化寿命: %s
+nuclearcraftneohaul.sound.player.geiger_tick = 盖革计数器:计数
+nuclearcraftneohaul.tooltip.geiger_counter = 监测及显示玩家身上的辐射量。同样可以检测其他实体的辐射量。当不在快捷栏或饰品栏时不会显示 HUD。
+nuclearcraftneohaul.tooltip.radiation_scrubber_non_linear = 减少其所在区块的辐射量。其效用取决于附近的空方块数量。单独使用时，最多以 %2$s 的效率移除其所在区块中 %1$s 的辐射，尽管区块中所有辐射净化仪的效果都会非线性地叠加起来，而一开始的效率只会线性地叠加，但是最终会呈指数级增长，具体效率取决于净化仪的数量。效率与能耗取决于辐射净化剂的使用量。
+=== kubejs keys containing scrubber or geiger ===
+advancement.nuclearcraftneohaul.geiger_counter.description = 制作一个盖革计数器
+advancement.nuclearcraftneohaul.geiger_counter.title = 进入普里皮亚季前的准备
+advancement.nuclearcraftneohaul.radiation_scrubber.description = 制作一个辐射净化器
+advancement.nuclearcraftneohaul.radiation_scrubber.title = 污染控制
+block.nuclearcraftneohaul.geiger_counter_block = 盖革计数器方块
+block.nuclearcraftneohaul.geiger_counter_block.desc = 检测其所在区块的辐射值。
+block.nuclearcraftneohaul.radiation_scrubber = 辐射洗涤器
+item.nuclearcraftneohaul.geiger_counter = 盖革计数器
+nuclearcraftneohaul.configuration.radiation_geiger_block_redstone = 盖革计数器方块比较器信号级别
+nuclearcraftneohaul.configuration.radiation_geiger_block_redstone.tooltip = 盖革计数器方块使相邻的比较器产生满级红石信号强度的辐射等级（按 10 的幂计；即其常用对数）。
+nuclearcraftneohaul.configuration.radiation_scrubber_fraction = 净化器最大辐射消除速率
+nuclearcraftneohaul.configuration.radiation_scrubber_fraction.tooltip = 效率达 100% 的净化器消除辐射的效率，用所在区块辐射等级的分数表示。仅在线性净化器机制下起效。
+nuclearcraftneohaul.configuration.radiation_scrubber_non_linear = 非线性净化器机制
+nuclearcraftneohaul.configuration.radiation_scrubber_non_linear.tooltip = 要用非线性净化方程替代线性的吗？
+nuclearcraftneohaul.configuration.radiation_scrubber_param = 非线性净化器参数
+nuclearcraftneohaul.configuration.radiation_scrubber_param.tooltip = 方程 'F = a^[-(S/b)^(1 + S/c)^(1/d)]' 中的 a、b、c、d 四项参数，其中 'F' 是消除后区块更新缓冲中剩余的辐射分数，而 'S' 是计算效率后区块中净化器的有效数量。最好了解机制后更改。
+nuclearcraftneohaul.configuration.radiation_scrubber_radius = 净化器搜寻半径
+nuclearcraftneohaul.configuration.radiation_scrubber_radius.tooltip = 净化器搜寻占用方块的范围。
+nuclearcraftneohaul.menu.title.radiation_scrubber = 辐射净化器
+nuclearcraftneohaul.message.scrubber_removal_rate = 主动背景辐射消除速率: %s
+nuclearcraftneohaul.recipe_viewer.scrubber_process_efficiency = 效率倍率：%s
+nuclearcraftneohaul.recipe_viewer.scrubber_process_power = 能量需求: %s
+nuclearcraftneohaul.recipe_viewer.scrubber_process_time = 净化寿命: %s
+nuclearcraftneohaul.sound.player.geiger_tick = 盖革计数器:计数
+nuclearcraftneohaul.tooltip.geiger_counter = 监测及显示玩家身上的辐射量。同样可以检测其他实体的辐射量。当不在快捷栏或饰品栏时不会显示 HUD。
+nuclearcraftneohaul.tooltip.geiger_counter.rads = 辐射：%s
+nuclearcraftneohaul.tooltip.radiation_scrubber = 降低所在区块的辐射水平。其效果取决于周围空闲空间，以 %2$s 的效率最多清除其区块内 %1$s 的辐射。区块内所有净化器的贡献会线性叠加。效率与所需功率取决于所用的辐射清洗剂。
+nuclearcraftneohaul.tooltip.radiation_scrubber_non_linear = 减少其所在区块的辐射量。其效用取决于附近的空方块数量。单独使用时，最多以 %2$s 的效率移除其所在区块中 %1$s 的辐射，尽管区块中所有辐射净化器的效果都会非线性地叠加起来，而一开始的效率只会线性地叠加，但是最终会呈指数级增长，具体效率取决于净化器的数量。效率与能耗取决于辐射清洗剂的使用量。

@@ -1,0 +1,11 @@
+{
+  "description": "折叠七重压缩物品",
+  "type": "item",
+  "tag": "allthecompressed:7x",
+  "icon": "allthecompressed:diamond_block_7x",
+  "display_name": "jei_tag_groups.group.compressed_7x.name",
+  "tooltip": [
+    "jei_tag_groups.group.compressed_7x.tooltip"
+  ],
+  "border_color": "#FFAA55"
+}

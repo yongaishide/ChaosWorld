@@ -1,0 +1,35 @@
+{
+    "entity": "minecraft:slime",
+    "variants": [
+		"occultism:wild_slime",
+        "tconstruct:earth_slime",
+        "twilightforest:maze_slime",
+        "twilightforest:slime_beetle"
+    ],
+    "name": {
+        "translate": "entity.minecraft.slime",
+        "color": "#7BCA62"
+    },
+    "display": {
+        "scale": 2.0
+    },
+    "sim_cost": 128,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.slime",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:slime_ball",
+            "count": 32
+        },
+        {
+            "optional": true,
+            "id": "reliquary:slime_pearl",
+            "count": 2
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "category": "bannerpatterns",
+  "inputs": [
+    {
+      "tag": "c:paper"
+    },
+    {
+      "tag": "c:plates"
+    }
+  ],
+  "result": {
+    "id": "immersiveengineering:bannerpattern_bevels"
+  }
+}

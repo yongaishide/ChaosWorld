@@ -1,0 +1,188 @@
+{
+  "infinity_version": 2007000,
+  "amendment_version": 6,
+  "elements": [
+    {
+      "area": "fluids",
+      "mod": "minecraft",
+      "selector": "matching",
+      "matching": "minecraft:lava",
+      "results": "set_value",
+      "value": 2.0
+    },
+    {
+      "area": "fluids",
+      "mod": "minecraft",
+      "selector": "matching",
+      "matching": "minecraft:water",
+      "results": "set_value",
+      "value": 5.0
+    },
+    {
+      "area": "blocks",
+      "mod": "minecraft",
+      "selector": "matching_any",
+      "matching_any": [
+        "minecraft:slime_block",
+        "minecraft:honey_block",
+        "minecraft:mangrove_roots"
+      ],
+      "results": "set_field",
+      "field_name": "laggy",
+      "field": true
+    },
+    {
+      "area": "trees",
+      "mod": "all",
+      "selector": "containing",
+      "containing": "bees",
+      "results": "erase"
+    },
+    {
+      "area": "fluids",
+      "mod": "modern_industrialization",
+      "selector": "all",
+      "results": "erase"
+    },
+    {
+      "area": "mobs",
+      "mod": "minecolonies",
+      "selector": "all",
+      "results": "erase"
+    },
+    {
+      "area": "structures",
+      "mod": "any_of",
+      "mods": [
+        "alexscaves",
+        "vampirism"
+      ],
+      "selector": "all",
+      "results": "erase"
+    },
+    {
+      "area": "structures",
+      "mod": "any_of",
+      "mods": [
+        "aether",
+        "deep_aether"
+      ],
+      "selector": "containing",
+      "containing": "dungeon",
+      "results": "erase"
+    },
+    {
+      "area": "blocks",
+      "mod": "oritech",
+      "selector": "containing",
+      "containing": "pipe",
+      "results": "erase"
+    },
+    {
+      "area": "blocks",
+      "mod": "chipped",
+      "selector": "all",
+      "results": "set_value",
+      "value": 0.1
+    },
+    {
+      "area": "biomes",
+      "mod": "the_bumblezone",
+      "selector": "all",
+      "results": "erase"
+    },
+    {
+      "area": "mobs",
+      "mod": "cobblemon",
+      "selector": "matching_any",
+      "matching_any": [
+        "cobblemon:pokemon",
+        "cobblemon:npc"
+      ],
+      "results": "erase"
+    },
+    {
+      "area": "blocks",
+      "mod": "amendments",
+      "selector": "matching_any",
+      "matching_any": [
+        "amendments:carpet_slab",
+        "amendments:carpet_stairs"
+      ],
+      "results": "erase"
+    },
+    {
+      "area": "particles",
+      "mod": "the_bumblezone",
+      "selector": "matching_any",
+      "matching_any": [
+        "the_bumblezone:angry_particle",
+        "the_bumblezone:curious_particle",
+        "the_bumblezone:cursing_particle",
+        "the_bumblezone:embarrassed_particle",
+        "the_bumblezone:shock_particle"
+      ],
+      "results": "erase"
+    },
+    {
+      "area": "blocks",
+      "mod": "cobblemon",
+      "selector": "matching_any",
+      "matching_any": [
+        "cobblemon:pc",
+        "cobblemon:pasture",
+        "cobblemon:restoration_tank"
+      ],
+      "results": "erase"
+    },
+    {
+      "area": "blocks",
+      "mod": "mega_showdown",
+      "selector": "matching",
+      "matching": "mega_showdown:reassembly_unit",
+      "results": "erase"
+    },
+    {
+      "area": "blocks",
+      "mod": "simpletms",
+      "selector": "matching",
+      "matching": "simpletms:machine_tm",
+      "results": "erase"
+    },
+    {
+      "area": "blocks",
+      "mod": "vintageimprovements",
+      "selector": "matching",
+      "matching": "vintageimprovements:centrifuge_structure",
+      "results": "erase"
+    },
+    {
+      "load_if_mod": "irons_spellbooks",
+      "area": "mobs",
+      "mod": "minecraft",
+      "selector": "matching",
+      "matching": "minecraft:wandering_trader",
+      "results": "erase"
+    },
+    {
+      "area": "blocks",
+      "mod": "any_of",
+      "mods": [
+        "sable",
+        "aeronautics"
+      ],
+      "selector": "all",
+      "results": "erase"
+    },
+    {
+      "area": "blocks",
+      "mod": "ars_nouveau",
+      "selector": "matching_any",
+      "matching_any": [
+        "ars_nouveau:scribes_table",
+        "ars_nouveau:alteration_table"
+      ],
+      "results": "erase"
+    }
+  ]
+}

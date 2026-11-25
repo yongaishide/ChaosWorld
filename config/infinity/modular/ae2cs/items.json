@@ -1,0 +1,512 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "ae2cs:blank_print_press"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:certus_quartz_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:certus_quartz_seed"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:charged_certus_quartz_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:charged_certus_quartz_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:charged_overload_crystal_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:circuit_etcher"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:crystal_aggregator"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:crystal_grid_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:crystal_growth_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:crystal_growth_chamber"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:crystal_pulverizer"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:crystal_vibration_chamber"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:data_crystal_seed"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:deepslate_certus_quartz_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:deepslate_charged_certus_quartz_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:ember_seed"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:ender_blank_print_press"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:ender_broadcaster"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:ender_crystal_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:ender_crystal_hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:ender_crystal_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:ender_crystal_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:ender_crystal_sword"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:ender_emitter"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:ender_interface"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:ender_interface_part"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:ender_interface_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:ender_linker"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:ender_quartz_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:ender_quartz_seed"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:energized_certus_quartz_seed"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:energized_fluix_crystal_seed"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:entro_crystal_seed"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:entropy_variation_reaction_chamber"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:extended_ender_interface"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:extended_ender_interface_part"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:extended_ender_interface_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:extended_integrated_interface"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:extended_integrated_interface_part"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:extended_integrated_interface_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:extended_resonating_pattern_provider"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:extended_resonating_pattern_provider_part"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:extended_resonating_pattern_provider_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:flour"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:fluix_crystal_seed"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:integrated_interface"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:integrated_interface_part"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:integrated_interface_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:irradiated_crystal_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:irradiated_crystal_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:irradiated_seed"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:link_crystal_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:link_crystal_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:link_crystal_seed"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:meteor_crystal_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:meteor_crystal_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:meteor_crystal_hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:meteor_crystal_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:meteor_crystal_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:meteor_crystal_sword"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:meteor_pattern_provider_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:meteor_seed"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:meteorite_pattern_provider"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:meteorite_pattern_provider_part"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:mirror_linker"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:mirror_pattern_provider"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:mirror_pattern_provider_part"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:nether_quartz_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:nether_quartz_seed"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:overload_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:overload_crystal_seed"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:pattern_provider_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:purified_certus_quartz_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:purified_data_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:purified_ember_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:purified_ender_quartz"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:purified_energized_certus_quartz_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:purified_energized_fluix_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:purified_entro_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:purified_fluix_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:purified_irradiated_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:purified_link_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:purified_meteor_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:purified_nether_quartz_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:purified_overload_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:purified_quantum_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:purified_redstone_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:purified_resonating_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:purified_rose_quartz"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:quantum_crystal_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:quantum_crystal_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:quantum_crystal_seed"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:quartz_grindstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:quartz_oscillator_clock"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:quartz_oscillator_clock_part"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:redstone_crystal_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:redstone_crystal_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:redstone_crystal_seed"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:resonant_template_coding_terminal_part"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:resonating_circuit_print"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:resonating_crystal_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:resonating_crystal_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:resonating_crystal_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:resonating_crystal_hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:resonating_crystal_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:resonating_crystal_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:resonating_crystal_sword"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:resonating_linker"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:resonating_memory_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:resonating_pattern"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:resonating_pattern_converter"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:resonating_pattern_provider"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:resonating_pattern_provider_part"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:resonating_pattern_provider_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:resonating_print_press"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:resonating_processor"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:resonating_seed"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:rose_quartz_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:rose_quartz_seed"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:silicon_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:simple_circuit_print"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:simple_pattern_provider"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:simple_pattern_provider_part"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:simple_processor"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:wireless_resonant_terminal"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2cs:wooden_gear"
+		}
+	]
+}

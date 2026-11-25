@@ -1,0 +1,1411 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/black_concrete_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/black_concrete_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/black_concrete_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/black_glazed_terracotta_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/black_glazed_terracotta_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/black_glazed_terracotta_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/black_terracotta_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/black_terracotta_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/black_terracotta_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/blue_concrete_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/blue_concrete_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/blue_concrete_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/blue_glazed_terracotta_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/blue_glazed_terracotta_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/blue_glazed_terracotta_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/blue_terracotta_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/blue_terracotta_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/blue_terracotta_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/bricks_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/bricks_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/bricks_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/brown_concrete_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/brown_concrete_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/brown_concrete_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/brown_glazed_terracotta_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/brown_glazed_terracotta_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/brown_glazed_terracotta_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/brown_terracotta_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/brown_terracotta_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/brown_terracotta_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/cyan_concrete_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/cyan_concrete_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/cyan_concrete_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/cyan_glazed_terracotta_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/cyan_glazed_terracotta_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/cyan_glazed_terracotta_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/cyan_terracotta_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/cyan_terracotta_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/cyan_terracotta_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/deepslate_bricks_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/deepslate_bricks_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/deepslate_bricks_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/end_stone_bricks_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/end_stone_bricks_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/end_stone_bricks_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/gray_concrete_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/gray_concrete_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/gray_concrete_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/gray_glazed_terracotta_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/gray_glazed_terracotta_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/gray_glazed_terracotta_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/gray_terracotta_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/gray_terracotta_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/gray_terracotta_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/green_concrete_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/green_concrete_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/green_concrete_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/green_glazed_terracotta_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/green_glazed_terracotta_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/green_glazed_terracotta_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/green_terracotta_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/green_terracotta_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/green_terracotta_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/light_blue_concrete_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/light_blue_concrete_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/light_blue_concrete_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/light_blue_glazed_terracotta_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/light_blue_glazed_terracotta_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/light_blue_glazed_terracotta_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/light_blue_terracotta_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/light_blue_terracotta_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/light_blue_terracotta_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/light_gray_concrete_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/light_gray_concrete_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/light_gray_concrete_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/light_gray_glazed_terracotta_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/light_gray_glazed_terracotta_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/light_gray_glazed_terracotta_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/light_gray_terracotta_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/light_gray_terracotta_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/light_gray_terracotta_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/lime_concrete_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/lime_concrete_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/lime_concrete_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/lime_glazed_terracotta_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/lime_glazed_terracotta_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/lime_glazed_terracotta_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/lime_terracotta_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/lime_terracotta_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/lime_terracotta_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/magenta_concrete_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/magenta_concrete_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/magenta_concrete_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/magenta_glazed_terracotta_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/magenta_glazed_terracotta_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/magenta_glazed_terracotta_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/magenta_terracotta_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/magenta_terracotta_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/magenta_terracotta_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/mossy_stone_bricks_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/mossy_stone_bricks_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/mossy_stone_bricks_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/mud_bricks_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/mud_bricks_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/mud_bricks_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/nether_bricks_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/nether_bricks_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/nether_bricks_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/orange_concrete_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/orange_concrete_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/orange_concrete_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/orange_glazed_terracotta_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/orange_glazed_terracotta_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/orange_glazed_terracotta_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/orange_terracotta_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/orange_terracotta_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/orange_terracotta_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/pink_concrete_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/pink_concrete_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/pink_concrete_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/pink_glazed_terracotta_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/pink_glazed_terracotta_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/pink_glazed_terracotta_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/pink_terracotta_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/pink_terracotta_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/pink_terracotta_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/polished_blackstone_bricks_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/polished_blackstone_bricks_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/polished_blackstone_bricks_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/prismarine_bricks_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/prismarine_bricks_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/prismarine_bricks_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/purple_concrete_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/purple_concrete_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/purple_concrete_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/purple_glazed_terracotta_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/purple_glazed_terracotta_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/purple_glazed_terracotta_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/purple_terracotta_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/purple_terracotta_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/purple_terracotta_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/quartz_bricks_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/quartz_bricks_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/quartz_bricks_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/red_concrete_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/red_concrete_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/red_concrete_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/red_glazed_terracotta_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/red_glazed_terracotta_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/red_glazed_terracotta_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/red_nether_bricks_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/red_nether_bricks_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/red_nether_bricks_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/red_terracotta_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/red_terracotta_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/red_terracotta_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/stone_bricks_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/stone_bricks_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/stone_bricks_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/terracotta_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/terracotta_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/terracotta_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/tuff_bricks_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/tuff_bricks_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/tuff_bricks_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/white_concrete_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/white_concrete_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/white_concrete_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/white_glazed_terracotta_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/white_glazed_terracotta_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/white_glazed_terracotta_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/white_terracotta_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/white_terracotta_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/white_terracotta_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/yellow_concrete_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/yellow_concrete_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/yellow_concrete_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/yellow_glazed_terracotta_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/yellow_glazed_terracotta_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/yellow_glazed_terracotta_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/yellow_terracotta_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/yellow_terracotta_hopper_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:blocks/yellow_terracotta_waxed_botany_pot"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:botanypots/farmersdelight/crop/wild_rice"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:botanypots/minecraft/crop/brain_coral"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:botanypots/minecraft/crop/brown_mushroom"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:botanypots/minecraft/crop/bubble_coral"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:botanypots/minecraft/crop/chorus_flower"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:botanypots/minecraft/crop/crimson_fungus"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:botanypots/minecraft/crop/ferns"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:botanypots/minecraft/crop/fire_coral"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:botanypots/minecraft/crop/glow_lichen"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:botanypots/minecraft/crop/grass"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:botanypots/minecraft/crop/horn_coral"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:botanypots/minecraft/crop/red_mushroom"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:botanypots/minecraft/crop/sculk_bloom"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:botanypots/minecraft/crop/sculk_vein"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:botanypots/minecraft/crop/seagrass"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:botanypots/minecraft/crop/tube_coral"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:botanypots/minecraft/crop/warped_fungus"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "botanypots:botanypots/minecraft/interaction/rooted_dirt"
+		}
+	]
+}

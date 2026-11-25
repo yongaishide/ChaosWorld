@@ -1,0 +1,42 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "item": "integrateddynamics:crystalized_chorus_chunk"
+        },
+        {
+            "item": "integrateddynamics:crystalized_chorus_chunk"
+        },
+        {
+            "item": "integrateddynamics:crystalized_chorus_chunk"
+        },
+        {
+            "item": "integrateddynamics:crystalized_chorus_chunk"
+        },
+        {
+            "item": "mysticalagriculture:end_agglomeratio"
+        },
+        {
+            "item": "mysticalagriculture:end_agglomeratio"
+        },
+        {
+            "item": "occultism:amethyst_dust"
+        },
+        {
+            "item": "occultism:amethyst_dust"
+        },
+        {
+            "item": "occultism:amethyst_dust"
+        },
+        {
+            "item": "occultism:amethyst_dust"
+        }
+    ],
+    "heatRequirement": "heated",
+    "results": [
+        {
+            "id": "rainbowcompound:chorusite_ingot",
+            "count":4
+        }
+    ]
+}

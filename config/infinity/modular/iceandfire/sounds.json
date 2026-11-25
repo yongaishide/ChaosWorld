@@ -1,0 +1,484 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "iceandfire:amphithere_bite"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:amphithere_die"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:amphithere_gust"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:amphithere_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:amphithere_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:bestiary_page"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:cockatrice_cry"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:cockatrice_die"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:cockatrice_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:cockatrice_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:cyclops_bite"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:cyclops_blinded"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:cyclops_die"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:cyclops_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:cyclops_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:deathworm_attack"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:deathworm_die"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:deathworm_giant_attack"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:deathworm_giant_die"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:deathworm_giant_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:deathworm_giant_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:deathworm_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:deathworm_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:dragon_flight"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:dragonflute"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:dread_ghoul_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:dread_lich_summon"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:egg_hatch"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:firedragon_adult_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:firedragon_adult_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:firedragon_adult_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:firedragon_adult_roar"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:firedragon_breath"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:firedragon_child_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:firedragon_child_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:firedragon_child_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:firedragon_child_roar"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:firedragon_teen_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:firedragon_teen_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:firedragon_teen_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:firedragon_teen_roar"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:ghost_attack"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:ghost_die"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:ghost_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:ghost_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:ghost_jumpscare"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:gold_pile_break"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:gold_pile_step"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:gorgon_attack"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:gorgon_die"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:gorgon_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:gorgon_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:gorgon_petrify"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:hippocampus_die"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:hippocampus_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:hippocampus_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:hippogryph_die"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:hippogryph_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:hippogryph_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:hydra_die"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:hydra_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:hydra_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:hydra_regen_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:hydra_spit"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:icedragon_adult_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:icedragon_adult_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:icedragon_adult_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:icedragon_adult_roar"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:icedragon_breath"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:icedragon_child_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:icedragon_child_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:icedragon_child_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:icedragon_child_roar"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:icedragon_teen_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:icedragon_teen_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:icedragon_teen_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:icedragon_teen_roar"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:lightningdragon_adult_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:lightningdragon_adult_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:lightningdragon_adult_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:lightningdragon_adult_roar"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:lightningdragon_breath"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:lightningdragon_breath_crackle"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:lightningdragon_child_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:lightningdragon_child_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:lightningdragon_child_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:lightningdragon_child_roar"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:lightningdragon_teen_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:lightningdragon_teen_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:lightningdragon_teen_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:lightningdragon_teen_roar"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:mermaid_die"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:mermaid_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:mermaid_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:naga_attack"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:naga_die"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:naga_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:naga_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:pixie_die"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:pixie_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:pixie_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:pixie_taunt"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:pixie_wand"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:sea_serpent_bite"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:sea_serpent_breath"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:sea_serpent_die"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:sea_serpent_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:sea_serpent_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:sea_serpent_roar"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:sea_serpent_splash"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:siren_song"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:stymphalian_bird_attack"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:stymphalian_bird_die"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:stymphalian_bird_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:stymphalian_bird_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:troll_die"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:troll_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:troll_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:troll_roar"
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:turn_stone"
+		}
+	]
+}

@@ -1,0 +1,4 @@
+[keyReuse]
+	#Reuse plain resource keys in ECO and checked AE2 default factories. Component equality and saved inventories stay compatible.
+	#在 ECO 及已核对版本的 AE2 默认工厂中复用无额外数据的资源 key；保留组件内容相等与旧存档格式。
+	enabled = true

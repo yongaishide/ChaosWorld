@@ -1,0 +1,328 @@
+{
+  "title": "5ef61b17bb761862",
+  "icon": "ae2lt:lightning_collapse_matrix",
+  "quests": [
+    {
+      "id": "55aebf82cad3f5e2",
+      "x": -3.5,
+      "y": -3.0,
+      "deps": [
+        "ii/5a7710a6b8bedbdd",
+        "ii/54a1dba152a7ba4e"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "ae2lt:lightning_assembly_chamber"
+        }
+      ]
+    },
+    {
+      "id": "0d83cd47b45b50b4",
+      "x": 4.5,
+      "y": 1.0,
+      "deps": [
+        "6eefeed02528cb10",
+        "0ccbb6169806c679"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "ae2lt:overload_processing_factory"
+        }
+      ]
+    },
+    {
+      "id": "376beea4bef48dda",
+      "x": 6.5,
+      "y": -1.0,
+      "deps": [
+        "0d83cd47b45b50b4"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "ae2lt:basic_topological_lattice"
+        }
+      ]
+    },
+    {
+      "id": "61d2edc385adad2c",
+      "x": 8.5,
+      "y": 9.5,
+      "shape": "gear",
+      "size": 2.0,
+      "deps": [
+        "4bf6a9218f7def29"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "industrialforegoing:machine_frame_supreme"
+        }
+      ]
+    },
+    {
+      "id": "40ff64a45a6a88a4",
+      "x": 8.5,
+      "y": 3.0,
+      "deps": [
+        "3e8a04664db9dd56"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "draconicevolution:draconium_core"
+        }
+      ]
+    },
+    {
+      "id": "4bf6a9218f7def29",
+      "x": 8.5,
+      "y": 5.5,
+      "shape": "gear",
+      "size": 2.0,
+      "deps": [
+        "40ff64a45a6a88a4"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "draconicevolution:crafting_core"
+        },
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "3e8a04664db9dd56",
+      "x": 8.5,
+      "y": 1.0,
+      "deps": [
+        "7c67e0093a1fe08f",
+        "2bce6f515dc6f203"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "enderio_evolution:melodic_alloy_ingot"
+        }
+      ]
+    },
+    {
+      "id": "2dcf1f1ec3b41270",
+      "x": -1.5,
+      "y": -1.0,
+      "deps": [
+        "ii/54a1dba152a7ba4e"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "neoecoae:integrated_working_station"
+        }
+      ]
+    },
+    {
+      "id": "7c67e0093a1fe08f",
+      "x": 8.5,
+      "y": -1.0,
+      "deps": [
+        "376beea4bef48dda",
+        "ii/372ebb47138c1c71"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "enderio_evolution:crystalline_pink_slime_ingot"
+        }
+      ]
+    },
+    {
+      "id": "7650c0df4c9a6177",
+      "x": -1.5,
+      "y": -3.0,
+      "deps": [
+        "55aebf82cad3f5e2"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "ae2lt:crystal_catalyzer"
+        }
+      ]
+    },
+    {
+      "id": "43934b282c484bac",
+      "x": 0.5,
+      "y": -1.0,
+      "deps": [
+        "2dcf1f1ec3b41270"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "neoecoae:energized_superconductive_ingot"
+        }
+      ]
+    },
+    {
+      "id": "3e6429c6dbf5447d",
+      "x": 2.5,
+      "y": -1.0,
+      "deps": [
+        "43934b282c484bac"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "neoecoae:superconducting_processor_print"
+        }
+      ]
+    },
+    {
+      "id": "6eefeed02528cb10",
+      "x": 4.5,
+      "y": -1.0,
+      "deps": [
+        "3e6429c6dbf5447d"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "neoecoae:superconducting_processor"
+        }
+      ]
+    },
+    {
+      "id": "0ccbb6169806c679",
+      "x": 2.5,
+      "y": 1.0,
+      "deps": [
+        "4b107e0048ba3880"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "ae2lt:ultimate_overload_core"
+        }
+      ]
+    },
+    {
+      "id": "4b107e0048ba3880",
+      "x": 0.5,
+      "y": 1.0,
+      "deps": [
+        "2dcf1f1ec3b41270",
+        "103c9b2580ff8d15"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "ifeu:sculk_gear"
+        }
+      ]
+    },
+    {
+      "id": "2becca6d274914ee",
+      "x": 2.5,
+      "y": 3.0,
+      "deps": [
+        "0ccbb6169806c679"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "ae2lt:lightning_collapse_matrix"
+        }
+      ]
+    },
+    {
+      "id": "2bce6f515dc6f203",
+      "x": 6.5,
+      "y": 1.0,
+      "deps": [
+        "0d83cd47b45b50b4"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "chaosworld_core:ingot_tech_6"
+        }
+      ]
+    },
+    {
+      "id": "5afa3010da3c1be7",
+      "x": 10.5,
+      "y": 1.0,
+      "deps": [
+        "3e8a04664db9dd56"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "mekanism:alloy_atomic"
+        }
+      ]
+    },
+    {
+      "id": "0dadf4b82f40d6b4",
+      "x": 12.5,
+      "y": 1.0,
+      "deps": [
+        "5afa3010da3c1be7"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "mekanism:ultimate_control_circuit"
+        }
+      ]
+    },
+    {
+      "id": "764a3e236cb9113c",
+      "x": -3.5,
+      "y": 1.0,
+      "deps": [
+        "ii/54a1dba152a7ba4e"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "103c9b2580ff8d15",
+      "x": -1.5,
+      "y": 1.0,
+      "deps": [
+        "764a3e236cb9113c"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "link_54a1dba152a7ba4e",
+      "x": -3.5,
+      "y": -1.0,
+      "shape": "gear",
+      "size": 2.0,
+      "optional": true,
+      "tasks": [
+        {
+          "type": "quest",
+          "quest": "ii/54a1dba152a7ba4e"
+        }
+      ],
+      "silent": true
+    }
+  ]
+}

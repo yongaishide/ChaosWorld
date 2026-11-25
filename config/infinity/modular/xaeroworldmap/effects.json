@@ -1,0 +1,40 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Category": "neutral",
+				"Color": -16777216,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "xaeroworldmap:no_cave_maps"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": -16777216,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "xaeroworldmap:no_cave_maps_harmful"
+		},
+		{
+			"data": {
+				"Category": "neutral",
+				"Color": -16777216,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "xaeroworldmap:no_world_map"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": -16777216,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "xaeroworldmap:no_world_map_harmful"
+		}
+	]
+}

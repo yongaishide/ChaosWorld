@@ -1,0 +1,613 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1bb3fc91ada402e3"
+	group: "0ECD69559C70EBEB"
+	icon: {
+		id: "data_energistics:trinity_data_core"
+	}
+	id: "1BB3FC91ADA402E3"
+	images: [ ]
+	order_index: 2
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [{
+		id: "0F9A69B7DF8EA973"
+		linked_quest: "61D2EDC385ADAD2C"
+		x: -6.0d
+		y: -3.0d
+	}]
+	quests: [
+		{
+			dependencies: [
+				"54DB997063249FCA"
+				"3FA96083BB011F0D"
+			]
+			id: "5FB3495EBECEEEB6"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "768583B5CDE2A88F"
+				item: { count: 1, id: "data_energistics:data_reassembler" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["61D2EDC385ADAD2C"]
+			id: "100A7C29203926B1"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "4264F332EC7C4AD7"
+				item: { count: 1, id: "ifeu:arcane_dragon_egg_forging" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2244BF4160FFA1A3"]
+			id: "0C3FEA608831610B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "69627FB12259CEE7"
+				item: { count: 1, id: "data_energistics:data_crystal" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["36BA5182E5481CFF"]
+			id: "54DB997063249FCA"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "643CC555CD54FEF5"
+				item: { count: 1, id: "draconicevolution:wyvern_core" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"605E84AE528915D2"
+				"18A2F9A33EA2A601"
+			]
+			id: "573D97270EB7F700"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "2A67FEB9EF3AD584"
+				item: { count: 1, id: "chaosworld_core:ingot_wyvern_metal" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["573D97270EB7F700"]
+			id: "3AFF4E106C61B8EE"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "22CCBA8DB0ECAD73"
+				item: { count: 1, id: "draconicevolution:wyvern_energy_core" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3AFF4E106C61B8EE"]
+			id: "2A5484C83E4CAB3C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "3AFAD36AC684596E"
+				item: { count: 1, id: "draconicevolution:wyvern_crafting_injector" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4CC6B9B8DFD6525E"
+				"01AA30DDB5C87965"
+				"154A65EE62AF4116"
+			]
+			dependency_requirement: "one_completed"
+			id: "21CFB774A10DAE02"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [
+				{
+					id: "012B6FD92FD932D7"
+					item: { components: { "ftbfiltersystem:filter": "or(item(iceandfire:dragonforge_fire_core_disabled)item(iceandfire:dragonforge_ice_core_disabled)item(iceandfire:dragonforge_lightning_core_disabled))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "355E56507CF46F00"
+					item: { components: { "ftbfiltersystem:filter": "or(item(iceandfire:dragonforge_fire_input)item(iceandfire:dragonforge_ice_input)item(iceandfire:dragonforge_lightning_input))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["21CFB774A10DAE02"]
+			id: "605E84AE528915D2"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "4465D9AA74312452"
+				item: { components: { "ftbfiltersystem:filter": "or(item(iceandfire:dragonsteel_fire_ingot)item(iceandfire:dragonsteel_ice_ingot)item(iceandfire:dragonsteel_lightning_ingot))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["100A7C29203926B1"]
+			id: "1B8F2125E13B0AC8"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "10615FB3DB89AB33"
+				item: { count: 1, id: "ae2cs:purified_data_crystal" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"126D81B10C87D402"
+				"6AF6B3C5604D94BF"
+			]
+			id: "18A2F9A33EA2A601"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "3A4DD2DC17F8BCB9"
+				item: { count: 1, id: "ifeu:dragon_star" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"100A7C29203926B1"
+				"4836578290F995D6"
+				"4040AB5C4479C610"
+			]
+			id: "126D81B10C87D402"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "15A829A20818AE59"
+				item: { count: 1, id: "ifeu:rough_dragon_star" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["689C2EFA7BE3A544"]
+			id: "3984BE88F6828281"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "20366E3085A241A0"
+				item: { count: 1, id: "chaosworld_core:ingot_tech_7" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"79FA49303B3F9AB2"
+				"67C0A6788E6904F4"
+			]
+			id: "5CCCA915916790E6"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6E61B7D7ADE3437C"
+				item: { count: 1, id: "ifeu:ultimate_machine_frame" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["21CFB774A10DAE02"]
+			id: "6AF6B3C5604D94BF"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "022C568A5FD519D9"
+				item: { count: 1, id: "chaosworld_core:dragon_soul_forge" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"31B49787B72C14A5"
+				"3984BE88F6828281"
+			]
+			id: "79FA49303B3F9AB2"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "19F32D8B3672579B"
+				item: { count: 1, id: "enderio_evolution:stellar_alloy_ingot" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1BAACFA517B8336C"]
+			id: "4836578290F995D6"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				fluid: {
+					amount: 1000
+					id: "ifeu:liquid_malic_acid"
+				}
+				id: "5D4E0BCB6ED6EA32"
+				type: "fluid"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6AA7560207DCE57E"]
+			id: "4040AB5C4479C610"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				fluid: {
+					amount: 1000
+					id: "modularbees:dragon_breath"
+				}
+				id: "6F141B3D2E1BB7A7"
+				type: "fluid"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["06E54FB6DDD47113"]
+			id: "6AA7560207DCE57E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				fluid: {
+					amount: 1000
+					id: "ifeu:liquid_sculk_matter"
+				}
+				id: "00D899B2A6E485E0"
+				type: "fluid"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["61D2EDC385ADAD2C"]
+			id: "06E54FB6DDD47113"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "0CDFA0A51624F973"
+				item: { count: 1, id: "industrialforegoing:fluid_laser_base" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["06E54FB6DDD47113"]
+			id: "1BAACFA517B8336C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				fluid: {
+					amount: 1000
+					id: "industrialforegoing:ether_gas"
+				}
+				id: "03F9F5416F4C0144"
+				type: "fluid"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"43934B282C484BAC"
+				"1FBE995C40104612"
+			]
+			id: "36BA5182E5481CFF"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "10646AA222A89AE3"
+				item: { count: 1, id: "chaosworld_core:quantum_processor" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["100A7C29203926B1"]
+			id: "4CD088D2ADA39885"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "23A7A93C461000A8"
+				item: { count: 1, id: "mysticalagradditions:dragon_scale" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5FB3495EBECEEEB6"]
+			id: "689C2EFA7BE3A544"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "2265E3B59F87DF32"
+				item: { count: 1, id: "data_energistics:digisidian_memorize_ingot" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2A5484C83E4CAB3C"]
+			id: "1FBE995C40104612"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "4FBE6171F7558405"
+				item: { count: 1, id: "chaosworld_core:ingot_quantum" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1B8F2125E13B0AC8"]
+			id: "45227715F7040289"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6366B9F2F0D5A525"
+				item: { count: 1, id: "data_energistics:data_framework" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["45227715F7040289"]
+			id: "0EA6CB2E3292AF3F"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "5A0F99058FB2F0D6"
+				item: { count: 1, id: "data_energistics:empty_trinity_unit" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0EA6CB2E3292AF3F"]
+			id: "023E61A35C5DFC71"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [
+				{
+					id: "71252CE9B0217AA3"
+					item: { count: 1, id: "extendedcrafting:ultimate_catalyst" }
+					type: "item"
+				}
+				{
+					id: "3605EADF5267AE5A"
+					item: { count: 1, id: "extendedcrafting:ultimate_table" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"023E61A35C5DFC71"
+				"3AFF4E106C61B8EE"
+			]
+			id: "47A14267B9CEB3C3"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "646FDF339511C9B5"
+				item: { count: 1, id: "avaritia:neutron_collector" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["47A14267B9CEB3C3"]
+			id: "498C50EC73835A6B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "7A2FCFB71F1AB6BB"
+				item: { count: 1, id: "avaritia:neutron_pile" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["498C50EC73835A6B"]
+			id: "3FA96083BB011F0D"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "36CAD631D066F82B"
+				item: { count: 1, id: "data_energistics:singularity_block" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0C3FEA608831610B"]
+			id: "29BE863587F05F54"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "0B9B8A34392018DD"
+				item: { count: 1, id: "data_energistics:data_processor" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["29BE863587F05F54"]
+			id: "67C0A6788E6904F4"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "25E4CF45E0270F12"
+				item: { count: 1, id: "chaosworld_core:nano_mainframe" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["67C0A6788E6904F4"]
+			id: "20F9F9213599DC89"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "01559927A63DB603"
+				item: { count: 1, id: "data_energistics:data_sanctum" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["498C50EC73835A6B"]
+			id: "64A787509AE9D7D6"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "2939A5B698879790"
+				item: { count: 1, id: "data_energistics:me_vacuum" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"5FB3495EBECEEEB6"
+				"6949746D16F8B723"
+			]
+			id: "3621765A616719BD"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "11146323C23070F2"
+				item: { count: 1, id: "data_energistics:data_extractor" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3621765A616719BD"]
+			id: "2244BF4160FFA1A3"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 10000L
+				id: "65412733A737BAA6"
+				key_type: "data_energistics:digitalization"
+				match_components: "none"
+				resource: "data_energistics:data_flow"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["64A787509AE9D7D6"]
+			id: "6949746D16F8B723"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 100L
+				id: "7E1A5AA50704A4AA"
+				key_type: "data_energistics:manifest_binary"
+				match_components: "none"
+				resource: "data_energistics:data"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["155D2B577792AB45"]
+			id: "31B49787B72C14A5"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "0380CC7E64639EC3"
+				item: { count: 1, id: "ifmup:star_ether_alloy_ingot" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["44A9BA1C407A2A32"]
+			id: "155D2B577792AB45"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "3236770DB8ACF915"
+				item: { count: 1, id: "astralsorcery:shifting_star_armara" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["54DB997063249FCA"]
+			id: "44A9BA1C407A2A32"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "0C47C549C1C019F6"
+				item: { count: 1, id: "astralsorcery:shifting_star" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["17DF9381DCA9098A"]
+			id: "256909D07318AC5B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1000L
+				id: "03C8B22040ABF743"
+				key_type: "ufo:chemical"
+				match_components: "none"
+				resource: "mekanism:fissile_fuel"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 20.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["79FA49303B3F9AB2"]
+			id: "17DF9381DCA9098A"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "4D291804EE9D4975"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "mekanism:isotopic_centrifuge"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 18.0d
+			y: 1.0d
+		}
+	]
+}

@@ -1,0 +1,202 @@
+		[advanced_alloy_furnace.recipe_conversion.minecraft]
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_crafting_recipe_conversion = false
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_smelting_recipe_conversion = false
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_brewing_recipe_conversion = false
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_villager_trade_recipe_conversion = false
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_fishing_recipe_conversion = false
+
+		[advanced_alloy_furnace.recipe_conversion.other]
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_industrial_foregoing_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_actually_additions_recipe_conversion = false
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_powah_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_extended_crafting_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_modern_industrialization_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_bigreactors_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_ars_nouveau_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_natures_aura_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_forbidden_arcanus_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_immersiveengineering_recipe_conversion = false
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_malum_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_mystical_agriculture_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_pneumaticcraft_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_productive_bees_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_draconic_evolution_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_neovitae_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_oritech_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_occultism_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_ender_io_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_create_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_ufo_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_avaritia_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_summoningrituals_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_irons_spellbooks_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_hostilenetworks_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_apothic_flux_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_fluxnetworks_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_apotheosis_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_lychee_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_astralsorcery_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_botany_pots_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_exdeorum_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_anvilcraft_recipe_conversion = true
+
+		[advanced_alloy_furnace.recipe_conversion.kaleidoscope]
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_kaleidoscope_tavern_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_kaleidoscope_cookery_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_kaleidoscope_grilling_recipe_conversion = true
+
+		[advanced_alloy_furnace.recipe_conversion.ae]
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_ae2lt_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_ae2_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_advanced_ae_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_neo_eco_ae_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_extendedae_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_data_energistics_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_ae2cs_recipe_conversion = true
+
+		[advanced_alloy_furnace.recipe_conversion.mekanism]
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_mekanism_generators_recipe_conversion = false
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_mekanism_recipe_conversion = false
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_appmek_recipe_conversion = false
+
+		[advanced_alloy_furnace.recipe_conversion.farmers_delight]
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_nomadsdelight_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_extradelight_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_ubesdelight_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_casualnessdelight_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_farmersdelight_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_crabbersdelight_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_youkaishomecoming_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_expandeddelight_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_barbequesdelight_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_brewinandchewin_recipe_conversion = true
+
+		[advanced_alloy_furnace.recipe_conversion.justdirethings]
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_jdte_recipe_conversion = true
+			#是否启用该配方来源的配方转换
+			#修改后重启游戏生效
+			enable_justdirethings_recipe_conversion = true

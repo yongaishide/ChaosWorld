@@ -1,0 +1,41 @@
+==================== com/nred/nuclearcraft/block/WastelandPortalBlock.class
+0com/nred/nuclearcraft/block/WastelandPortalBlock
+canUsePortal
+setAsInsidePortal
+H(Lnet/minecraft/world/level/block/Portal;Lnet/minecraft/core/BlockPos;)V
+net/minecraft/world/level/Level
+&net/minecraft/server/level/ServerLevel
+dimension
+5com/nred/nuclearcraft/worldgen/dimension/NCDimensions
+getLevel
+O(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/server/level/ServerLevel;
+dimensionType
+5()Lnet/minecraft/world/level/dimension/DimensionType;
+1net/minecraft/world/level/dimension/DimensionType
+i(Lnet/minecraft/world/level/dimension/DimensionType;Lnet/minecraft/world/level/dimension/DimensionType;)D
+canPortalReplaceBlock
+A(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/Level;)Z
+4net/minecraft/world/level/portal/DimensionTransition
+NLnet/minecraft/world/level/portal/DimensionTransition$PostDimensionTransition;
+Lnet/minecraft/world/level/portal/DimensionTransition$PostDimensionTransition
+(Lnet/minecraft/world/level/portal/DimensionTransition$PostDimensionTransition;)Lnet/minecraft/world/level/portal/DimensionTransition$PostDimensionTransition;
+(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;FFLnet/minecraft/world/level/portal/DimensionTransition$PostDimensionTransition;)V
+&net/minecraft/world/level/block/Portal
+ULcom/mojang/serialization/MapCodec<Lnet/minecraft/world/level/block/EndPortalBlock;>;
+2Lcom/nred/nuclearcraft/block/WastelandPortalBlock;
+(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;)V
+!Lnet/minecraft/world/level/Level;
+(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V
+getPortalDestination
+(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/portal/DimensionTransition;
+currentLevel
+(Lnet/minecraft/server/level/ServerLevel;
+portalEntryPos
+newLevel
+HLnet/minecraft/resources/ResourceKey<Lnet/minecraft/world/level/Level;>;
+WastelandPortalBlock.java
+.net/minecraft/world/level/block/EndPortalBlock
+s(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)Lnet/minecraft/world/level/block/EndPortalBlock;
+PostDimensionTransition
+(missing) com/nred/nuclearcraft/worldgen/NCDimensions.class
+(missing) com/nred/nuclearcraft/NCDimensions.class

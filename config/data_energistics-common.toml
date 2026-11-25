@@ -1,0 +1,36 @@
+#Base power cost for the data ripper power curve.
+#数据撕裂器功耗曲线的基础数据流消耗。
+# Default: 512
+# Range: > 1
+dataRipperBaseCost = 512
+#Regex patterns for block ids that the data ripper should never accelerate.
+#数据撕裂器永远不会加速的方块 ID 正则表达式。
+dataRipperBlacklist = []
+#Regex-based power multipliers for the data ripper, formatted as pattern=value.
+#数据撕裂器基于正则表达式的额外消耗倍率，格式为 pattern=value。
+dataRipperMultipliers = ["minecraft:hopper=1.5", "appeng:.*=2.0"]
+#Base chunk coverage level for the Data Distribution Tower. 1=1x1 chunk, 2=3x3 chunks, etc.
+#数据均分塔的基础区块覆盖等级。1=1x1 区块，2=3x3 区块，依此类推。
+# Default: 1
+# Range: 1 ~ 128
+dataDistributionTowerRange = 1
+#Base stocked item amount per Data Sanctum interface config/stock slot. Each capacity card doubles this value.
+#极限承载接口每个配置/库存槽的基础物品储备数量。每张容量卡会使该值翻倍。
+# Default: 2048
+# Range: 1 ~ 268435455
+dataSanctumInterfaceItemLimit = 2048
+#Base stocked fluid buckets per Data Sanctum interface config/stock slot. Each capacity card doubles this value.
+#极限承载接口每个配置/库存槽的基础流体桶数。每张容量卡会使该值翻倍。
+# Default: 2048
+# Range: 1 ~ 268435455
+dataSanctumInterfaceFluidBuckets = 2048
+#Base item amount per Data Sanctum interface return slot. Each capacity card doubles this value.
+#极限承载接口每个返回槽的基础物品数量。每张容量卡会使该值翻倍。
+# Default: 2048
+# Range: 1 ~ 268435455
+dataSanctumInterfaceReturnItemLimit = 2048
+#Base fluid buckets per Data Sanctum interface return slot. Each capacity card doubles this value.
+#极限承载接口每个返回槽的基础流体桶数。每张容量卡会使该值翻倍。
+# Default: 2048
+# Range: 1 ~ 268435455
+dataSanctumInterfaceReturnFluidBuckets = 2048

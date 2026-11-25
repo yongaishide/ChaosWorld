@@ -1,0 +1,205 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6ba913128151b1ab"
+	group: "3349C1ACA6519635"
+	icon: {
+		id: "unbound:black_greatsword"
+	}
+	id: "6BA913128151B1AB"
+	images: [ ]
+	order_index: 0
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			id: "316FEB856376DCFA"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "minecraft:story/form_obsidian"
+				criterion: ""
+				id: "5B4A945B95B8A8C7"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["316FEB856376DCFA"]
+			id: "44191D665C0FB443"
+			quest_enhance_disable_scroll_paging: false
+			size: 2.0625d
+			tasks: [{
+				advancement: "minecraft:story/enter_the_nether"
+				criterion: ""
+				icon: {
+					components: {
+						"ftbquests:icon": "unbound:block/gate/portal_nether"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "65199BF4DB006CEA"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44191D665C0FB443"]
+			id: "702FFA09C7B2A48D"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "7D95FF27586DE46D"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "minecraft:glowstone"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["702FFA09C7B2A48D"]
+			id: "671B0E5F948560B8"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "43B19F8E9997AB61"
+				item: {
+					count: 1
+					id: "aether:golden_parachute"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				advancement: "aether:enter_aether"
+				criterion: ""
+				icon: {
+					components: {
+						"ftbquests:icon": "aether:textures/gui/menu_api/menu_icon_aether.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "02DFFAD87E7A5874"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["44191D665C0FB443"]
+			id: "4DD6C49E6D2777DC"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "minecraft:nether/find_fortress"
+				criterion: ""
+				id: "039958A1C6A85395"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4DD6C49E6D2777DC"]
+			id: "5173263CCE0AE19F"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "minecraft:nether/obtain_blaze_rod"
+				criterion: ""
+				id: "51691BB8132C266F"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4DD6C49E6D2777DC"]
+			id: "5C40E8061D6350D4"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "minecraft:nether/get_wither_skull"
+				criterion: ""
+				id: "601BA6BDB188FFF7"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"63C55110F142AA1A"
+				"5C40E8061D6350D4"
+			]
+			id: "42A0D1F16E6A0ECC"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "2205FF9794C390B5"
+				item: { count: 1, id: "chaosworld_core:cryptid_core" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["42A0D1F16E6A0ECC"]
+			id: "2B13452C3DEF2D24"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "minecraft:nether/summon_wither"
+				criterion: ""
+				id: "0547F1BEB6F86B74"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2B13452C3DEF2D24"]
+			id: "0B61DD63637923C6"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "minecraft:nether/create_beacon"
+				criterion: ""
+				id: "6F1517C62D253514"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["44191D665C0FB443"]
+			id: "55F28C6235DC2884"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "7D183D860C1858DB"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "minecraft:ancient_debris"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["55F28C6235DC2884"]
+			id: "666EBB55B52C6377"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "57FB8C9EB48758C5"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "minecraft:netherite_scrap"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+	]
+}

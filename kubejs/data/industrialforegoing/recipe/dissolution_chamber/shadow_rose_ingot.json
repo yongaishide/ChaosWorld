@@ -1,0 +1,44 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "ifmup:shadow_rose_ingot"
+    }
+  ],
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+    {
+      "tag": "c:ingots/shadow"
+    },
+    {
+      "tag": "c:ingots/shadow"
+    },
+    {
+      "tag": "c:ingots/shadow"
+    },
+    {
+      "tag": "c:ingots/shadow"
+    },
+    {
+      "item": "minecraft:wither_rose"
+    },
+    {
+      "item": "minecraft:wither_rose"
+    },
+    {
+      "tag": "c:gems/diamond"
+    },
+    {
+      "tag": "c:gems/diamond"
+    }
+  ],
+  "inputFluid": {
+    "amount": 250,
+    "fluid": "industrialforegoing:sludge"
+  },
+  "output": {
+    "count": 1,
+    "id": "ifmup:shadow_rose_ingot"
+  },
+  "processingTime": 300
+}

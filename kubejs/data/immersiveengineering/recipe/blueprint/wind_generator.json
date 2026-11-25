@@ -1,0 +1,33 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "category": "automatons",
+  "inputs": [
+    {
+      "basePredicate": {
+        "item": "pneumaticcraft:turbine_rotor"
+      },
+      "count": 1
+    },
+    {
+      "basePredicate": {
+        "item": "immersiveengineering:dynamo"
+      },
+      "count": 1
+    },
+    {
+      "basePredicate": {
+        "item": "immersiveengineering:light_engineering"
+      },
+      "count": 2
+    },
+    {
+      "basePredicate": {
+        "item": "mekanism:energy_tablet"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "id": "mekanismgenerators:wind_generator"
+  }
+}

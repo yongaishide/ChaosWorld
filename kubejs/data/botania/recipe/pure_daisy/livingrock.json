@@ -1,0 +1,14 @@
+{
+  "type": "botania:pure_daisy",
+  "input": {
+    "type": "botania:block",
+    "block": "occultism:otherstone"
+  },
+  "output": {
+    "type": "botania:state",
+    "state": {
+      "Name": "botania:livingrock"
+    }
+  },
+  "time": 150
+}

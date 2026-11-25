@@ -1,0 +1,58 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "eternal_starlight"
+        }
+    ],
+    "entity": "eternal_starlight:lunar_monstrosity",
+    "name": {
+        "translate": "entity.eternal_starlight.lunar_monstrosity",
+        "color": "#3A4770"
+    },
+	"display": {
+		"scale": 0.45
+	},
+    "sim_cost": 2560,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+	"trivia": "custom.trivia.lunar_monstrosity",
+    "fabricator_drops": [
+		{
+            "id": "eternal_starlight:soul_dew",
+            "count": 4
+        },
+		{
+            "id": "eternal_starlight:tenacious_petal",
+            "count": 10
+        },
+		{
+            "id": "eternal_starlight:lunar_berries",
+            "count": 16
+        },
+		{
+            "id": "eternal_starlight:deepsilver_ingot",
+            "count": 4
+        },
+		{
+            "id": "eternal_starlight:seeking_eye",
+            "count": 8
+        },
+		{
+            "id": "minecraft:coal",
+            "count": 6
+        },
+		{
+            "id": "minecraft:spectral_arrow",
+            "count": 64
+        },
+		{
+            "id": "minecraft:arrow",
+            "count": 128
+        }
+    ]
+}

@@ -1,0 +1,96 @@
+{
+  "type": "astralsorcery:altar_crafting",
+  "base_focus_shatter_chance": 0.0,
+  "duration": 100,
+  "effects": [
+    "astralsorcery:default_altar_sparkle",
+    "astralsorcery:default_central_beam",
+    "astralsorcery:default_lumen_input",
+    "astralsorcery:default_relay_input"
+  ],
+  "grid": {
+    "key": {
+      "D": {
+        "type": "item",
+        "ingredient": {
+          "item": "astralsorcery:stardust"
+        }
+      },
+      "G": {
+        "type": "item",
+        "ingredient": {
+          "item": "astralsorcery:resonating_gem"
+        }
+      },
+      "L": {
+        "type": "item",
+        "ingredient": {
+          "tag": "minecraft:leaves"
+        }
+      },
+      "R": {
+        "type": "item",
+        "ingredient": {
+          "item": "astralsorcery:marble_runed"
+        }
+      },
+      "S": {
+        "type": "item",
+        "ingredient": {
+          "tag": "minecraft:saplings"
+        }
+      },
+      "V": {
+        "type": "item",
+        "ingredient": {
+          "item": "astralsorcery:vivid_powder"
+        }
+      }
+    },
+    "pattern": [
+      "G G",
+      " S ",
+      "RRR"
+    ],
+    "relay_pattern": [
+      "D   D",
+      "LV VL",
+      "L   L",
+      "LV VL",
+      "D   D"
+    ]
+  },
+  "may_chain": false,
+  "only_night": true,
+  "output_modifiers": [],
+  "outputs": [
+    {
+      "count": 1,
+      "id": "astralsorcery:tree_beacon"
+    }
+  ],
+  "required_additional_inputs": [
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "astralsorcery:stardust"
+      }
+    },
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "astralsorcery:stardust"
+      }
+    },
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "astralsorcery:stardust"
+      }
+    }
+  ],
+  "required_fluid": [],
+  "required_lumen": [],
+  "required_starlight": [],
+  "required_type": "resonance"
+}

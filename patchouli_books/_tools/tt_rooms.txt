@@ -1,0 +1,245 @@
+### labyrinth_room listing
+data/thaumaturge/thaumaturge/labyrinth_room/
+data/thaumaturge/thaumaturge/labyrinth_room/bend/
+data/thaumaturge/thaumaturge/labyrinth_room/bend/glyphs.json
+data/thaumaturge/thaumaturge/labyrinth_room/bend/pillar.json
+data/thaumaturge/thaumaturge/labyrinth_room/bend/rounded.json
+data/thaumaturge/thaumaturge/labyrinth_room/bend/shrine.json
+data/thaumaturge/thaumaturge/labyrinth_room/corridor/
+data/thaumaturge/thaumaturge/labyrinth_room/corridor/bend.json
+data/thaumaturge/thaumaturge/labyrinth_room/corridor/cross.json
+data/thaumaturge/thaumaturge/labyrinth_room/corridor/dead_end.json
+data/thaumaturge/thaumaturge/labyrinth_room/corridor/straight.json
+data/thaumaturge/thaumaturge/labyrinth_room/corridor/tee.json
+data/thaumaturge/thaumaturge/labyrinth_room/cross/
+data/thaumaturge/thaumaturge/labyrinth_room/cross/gallery.json
+data/thaumaturge/thaumaturge/labyrinth_room/cross/pit.json
+data/thaumaturge/thaumaturge/labyrinth_room/cross/rotunda.json
+data/thaumaturge/thaumaturge/labyrinth_room/dead_end/
+data/thaumaturge/thaumaturge/labyrinth_room/dead_end/collapsed.json
+data/thaumaturge/thaumaturge/labyrinth_room/dead_end/shrine.json
+data/thaumaturge/thaumaturge/labyrinth_room/dead_end/urns.json
+data/thaumaturge/thaumaturge/labyrinth_room/hall/
+data/thaumaturge/thaumaturge/labyrinth_room/hall/arena.json
+data/thaumaturge/thaumaturge/labyrinth_room/hall/nave.json
+data/thaumaturge/thaumaturge/labyrinth_room/hall/ring.json
+data/thaumaturge/thaumaturge/labyrinth_room/library/
+data/thaumaturge/thaumaturge/labyrinth_room/library/archive.json
+data/thaumaturge/thaumaturge/labyrinth_room/library/scriptorium.json
+data/thaumaturge/thaumaturge/labyrinth_room/library/study.json
+data/thaumaturge/thaumaturge/labyrinth_room/nest/
+data/thaumaturge/thaumaturge/labyrinth_room/nest/crabs.json
+data/thaumaturge/thaumaturge/labyrinth_room/nest/guardians.json
+data/thaumaturge/thaumaturge/labyrinth_room/nest/spiders.json
+data/thaumaturge/thaumaturge/labyrinth_room/passage/
+data/thaumaturge/thaumaturge/labyrinth_room/passage/alcoves.json
+data/thaumaturge/thaumaturge/labyrinth_room/passage/crypt.json
+data/thaumaturge/thaumaturge/labyrinth_room/passage/pillared.json
+data/thaumaturge/thaumaturge/labyrinth_room/passage/ribbed.json
+data/thaumaturge/thaumaturge/labyrinth_room/passage/sunken.json
+data/thaumaturge/thaumaturge/labyrinth_room/passage/vaulted.json
+data/thaumaturge/thaumaturge/labyrinth_room/passage/warren.json
+data/thaumaturge/thaumaturge/labyrinth_room/rare/
+data/thaumaturge/thaumaturge/labyrinth_room/rare/crumbling_bend.json
+data/thaumaturge/thaumaturge/labyrinth_room/rare/crumbling_straight.json
+data/thaumaturge/thaumaturge/labyrinth_room/rare/trapped_bend.json
+data/thaumaturge/thaumaturge/labyrinth_room/rare/trapped_straight.json
+data/thaumaturge/thaumaturge/labyrinth_room/rare/webbed_bend.json
+data/thaumaturge/thaumaturge/labyrinth_room/rare/webbed_straight.json
+data/thaumaturge/thaumaturge/labyrinth_room/rare/weeping_bend.json
+data/thaumaturge/thaumaturge/labyrinth_room/rare/weeping_straight.json
+data/thaumaturge/thaumaturge/labyrinth_room/reliquary/
+data/thaumaturge/thaumaturge/labyrinth_room/reliquary/key.json
+data/thaumaturge/thaumaturge/labyrinth_room/reliquary/vault.json
+data/thaumaturge/thaumaturge/labyrinth_room/sanctum/
+data/thaumaturge/thaumaturge/labyrinth_room/sanctum/portal.json
+data/thaumaturge/thaumaturge/labyrinth_room/sanctum/ring.json
+data/thaumaturge/thaumaturge/labyrinth_room/tee/
+data/thaumaturge/thaumaturge/labyrinth_room/tee/guardroom.json
+data/thaumaturge/thaumaturge/labyrinth_room/tee/hall.json
+data/thaumaturge/thaumaturge/labyrinth_room/tee/pillared.json
+data/thaumaturge/thaumaturge/labyrinth_room/tee/shrine.json
+### portal/sanctum/reliquary room jsons
+--- data/thaumaturge/thaumaturge/labyrinth_room/reliquary/
+
+--- data/thaumaturge/thaumaturge/labyrinth_room/reliquary/key.json
+{
+  "decorate": false,
+  "sockets": [
+    {
+      "side": "north"
+    }
+  ],
+  "templates": [
+    {
+      "data": "thaumaturge:outer_lands/reliquary/key",
+      "weight": 1
+    }
+  ]
+}
+--- data/thaumaturge/thaumaturge/labyrinth_room/reliquary/vault.json
+{
+  "decorate": false,
+  "sockets": [
+    {
+      "side": "north"
+    }
+  ],
+  "templates": [
+    {
+      "data": "thaumaturge:outer_lands/reliquary/vault",
+      "weight": 1
+    }
+  ]
+}
+--- data/thaumaturge/thaumaturge/labyrinth_room/sanctum/
+
+--- data/thaumaturge/thaumaturge/labyrinth_room/sanctum/portal.json
+{
+  "decorate": false,
+  "sockets": [
+    {
+      "side": "north"
+    },
+    {
+      "side": "east"
+    },
+    {
+      "side": "south"
+    },
+    {
+      "side": "west"
+    }
+  ],
+  "templates": [
+    {
+      "data": "thaumaturge:outer_lands/sanctum/portal",
+      "weight": 1
+    }
+  ]
+}
+--- data/thaumaturge/thaumaturge/labyrinth_room/sanctum/ring.json
+{
+  "decorate": false,
+  "sockets": [
+    {
+      "side": "north"
+    },
+    {
+      "side": "east"
+    },
+    {
+      "side": "south"
+    },
+    {
+      "side": "west"
+    }
+  ],
+  "templates": [
+    {
+      "data": "thaumaturge:outer_lands/sanctum/ring",
+      "weight": 1
+    }
+  ]
+}
+### tags labyrinth_room
+--- data/thaumaturge/tags/thaumaturge/labyrinth_room/
+
+--- data/thaumaturge/tags/thaumaturge/labyrinth_room/labyrinth/
+
+--- data/thaumaturge/tags/thaumaturge/labyrinth_room/labyrinth/boss_halls.json
+{
+  "values": [
+    "thaumaturge:hall/nave",
+    "thaumaturge:hall/ring",
+    "thaumaturge:hall/arena"
+  ]
+}
+--- data/thaumaturge/tags/thaumaturge/labyrinth_room/labyrinth/fallback.json
+{
+  "values": [
+    "thaumaturge:corridor/dead_end",
+    "thaumaturge:corridor/straight",
+    "thaumaturge:corridor/bend",
+    "thaumaturge:corridor/tee",
+    "thaumaturge:corridor/cross"
+  ]
+}
+--- data/thaumaturge/tags/thaumaturge/labyrinth_room/labyrinth/key.json
+{
+  "values": [
+    "thaumaturge:reliquary/key",
+    "thaumaturge:reliquary/vault"
+  ]
+}
+--- data/thaumaturge/tags/thaumaturge/labyrinth_room/labyrinth/libraries.json
+{
+  "values": [
+    "thaumaturge:library/study",
+    "thaumaturge:library/archive",
+    "thaumaturge:library/scriptorium"
+  ]
+}
+--- data/thaumaturge/tags/thaumaturge/labyrinth_room/labyrinth/nests.json
+{
+  "values": [
+    "thaumaturge:nest/crabs",
+    "thaumaturge:nest/guardians",
+    "thaumaturge:nest/spiders"
+  ]
+}
+--- data/thaumaturge/tags/thaumaturge/labyrinth_room/labyrinth/passages.json
+{
+  "values": [
+    "thaumaturge:corridor/dead_end",
+    "thaumaturge:corridor/straight",
+    "thaumaturge:corridor/bend",
+    "thaumaturge:corridor/tee",
+    "thaumaturge:corridor/cross",
+    "thaumaturge:passage/ribbed",
+    "thaumaturge:passage/vaulted",
+    "thaumaturge:passage/pillared",
+    "thaumaturge:passage/sunken",
+    "thaumaturge:passage/alcoves",
+    "thaumaturge:passage/crypt",
+    "thaumaturge:passage/warren",
+    "thaumaturge:bend/rounded",
+    "thaumaturge:bend/pillar",
+    "thaumaturge:bend/shrine",
+    "thaumaturge:bend/glyphs",
+    "thaumaturge:tee/hall",
+    "thaumaturge:tee/pillared",
+    "thaumaturge:tee/shrine",
+    "thaumaturge:tee/guardroom",
+    "thaumaturge:cross/rotunda",
+    "thaumaturge:cross/pit",
+    "thaumaturge:cross/gallery",
+    "thaumaturge:dead_end/u
+--- data/thaumaturge/tags/thaumaturge/labyrinth_room/labyrinth/portal.json
+{
+  "values": [
+    "thaumaturge:sanctum/portal",
+    "thaumaturge:sanctum/ring"
+  ]
+}
+--- data/thaumaturge/tags/thaumaturge/labyrinth_room/labyrinth/rare.json
+{
+  "values": [
+    "thaumaturge:rare/trapped_straight",
+    "thaumaturge:rare/trapped_bend",
+    "thaumaturge:rare/crumbling_straight",
+    "thaumaturge:rare/crumbling_bend",
+    "thaumaturge:rare/weeping_straight",
+    "thaumaturge:rare/weeping_bend",
+    "thaumaturge:rare/webbed_straight",
+    "thaumaturge:rare/webbed_bend"
+  ]
+}
+--- data/thaumaturge/tags/thaumaturge/labyrinth_room/labyrinth/boss_halls/
+
+--- data/thaumaturge/tags/thaumaturge/labyrinth_room/labyrinth/boss_halls/open.json
+{
+  "values": [
+    "thaumaturge:hall/arena"
+  ]
+}

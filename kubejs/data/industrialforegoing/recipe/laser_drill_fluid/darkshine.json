@@ -1,0 +1,42 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ifmup"
+    }
+  ],
+  "type": "industrialforegoing:laser_drill_fluid",
+  "catalyst": {
+    "item": "industrialforegoing:blue_laser_lens"
+  },
+  "entity_data": {
+    "data": {},
+    "display": "",
+    "entity": {
+      "type": "minecraft:warden"
+    }
+  },
+  "output": {
+    "amount": 10,
+    "fluid": "ifmup:darkshine"
+  },
+  "rarity": [
+    {
+      "biome_filter": {
+        "blacklist": [],
+        "whitelist": [
+          "ifmup:deep_dark"
+        ]
+      },
+      "depth_max": -16,
+      "depth_min": -64,
+      "dimension_filter": {
+        "blacklist": [],
+        "whitelist": [
+          "minecraft:overworld"
+        ]
+      },
+      "weight": 8
+    }
+  ]
+}

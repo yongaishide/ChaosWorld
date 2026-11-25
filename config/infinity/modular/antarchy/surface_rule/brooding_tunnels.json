@@ -1,0 +1,22 @@
+{
+	"biomes": [
+		"antarchy:brooding_tunnels"
+	],
+	"rule": {
+		"sequence": [
+			{
+				"result_state": {
+					"Name": "antarchy:broodstone"
+				},
+				"type": "minecraft:block"
+			},
+			{
+				"result_state": {
+					"Name": "antarchy:broodstone"
+				},
+				"type": "minecraft:block"
+			}
+		],
+		"type": "minecraft:sequence"
+	}
+}

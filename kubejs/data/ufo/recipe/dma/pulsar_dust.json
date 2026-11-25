@@ -1,0 +1,33 @@
+{
+  "type": "ufo:dimensional_assembly",
+  "energy": 20000,
+  "fluid_inputs": [
+    {
+      "amount": 20,
+      "ingredient": {
+        "fluid": "ufo:source_liquid_starlight_fluid"
+      }
+    }
+  ],
+  "fluid_outputs": [],
+  "item_inputs": [
+    {
+      "ingredient": {
+        "item": "ufo:pulsar_fragment_ingot"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ae2:tiny_tnt"
+      }
+    }
+  ],
+  "item_outputs": [
+    {
+      "#": 1,
+      "#t": "ae2:i",
+      "id": "ufo:pulsar_fragment_dust"
+    }
+  ],
+  "time": 100
+}

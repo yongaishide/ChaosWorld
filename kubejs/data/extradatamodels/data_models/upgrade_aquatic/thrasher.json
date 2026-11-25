@@ -1,0 +1,42 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "upgrade_aquatic"
+        }
+    ],
+    "entity": "upgrade_aquatic:thrasher",
+    "name": {
+        "translate": "entity.upgrade_aquatic.thrasher",
+        "color": "#416C7E"
+    },
+    "display": {
+        "scale": 0.62
+    },
+    "sim_cost": 128,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.thrasher",
+    "fabricator_drops": [
+        {
+            "id": "upgrade_aquatic:thrasher_tooth",
+            "count": 8
+        }
+    ],
+    "tier_data": {
+        "basic": 64,
+        "advanced": 256,
+        "superior": 1024,
+        "self_aware": 4096
+    },
+    "data_per_kill": {
+        "faulty": 8,
+        "basic": 16,
+        "advanced": 32,
+        "superior": 64
+    }
+}

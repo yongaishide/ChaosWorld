@@ -1,0 +1,37 @@
+{
+    "entity": "minecraft:zombified_piglin",
+    "variants": [
+        "minecraft:piglin",
+        "minecraft:piglin_brute",
+        "ad_astra:pygro",
+        "ad_astra:pygro_brute",
+        "ad_astra:zombified_pygro",
+		"occultism:possessed_zombified_piglin"
+    ],
+    "name": {
+        "translate": "entity.minecraft.zombified_piglin",
+        "color": "#3B992F"
+    },
+    "sim_cost": 256,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:nether_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.zombified_piglin",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:rotten_flesh",
+            "count": 64
+        },
+        {
+            "id": "minecraft:gold_ingot",
+            "count": 8
+        },
+        {
+            "id": "minecraft:piglin_head",
+            "count": 4
+        }
+    ]
+}

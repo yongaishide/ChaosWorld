@@ -1,0 +1,29 @@
+{
+  "type": "ufo:dimensional_assembly",
+  "energy": 6000000,
+  "fluid_inputs": [
+    {
+      "amount": 4000,
+      "ingredient": {
+        "fluid": "ufo:source_uu_amplifier_fluid"
+      }
+    }
+  ],
+  "fluid_outputs": [],
+  "item_inputs": [
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "ufo:neutronium_sphere"
+      }
+    }
+  ],
+  "item_outputs": [
+    {
+      "#": 1,
+      "#t": "ae2:i",
+      "id": "ufo:enriched_neutronium_sphere"
+    }
+  ],
+  "time": 7200
+}

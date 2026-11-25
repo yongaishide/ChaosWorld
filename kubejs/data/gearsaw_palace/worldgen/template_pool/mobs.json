@@ -1,0 +1,78 @@
+{
+  "name": "gearsaw_palace:mobs",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gearsaw_palace:mobs/stable_ice_core",
+        "projection": "rigid",
+        "processors": "gearsaw_palace:compat"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gearsaw_palace:mobs/unstable_ice_core",
+        "projection": "rigid",
+        "processors": "gearsaw_palace:compat"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gearsaw_palace:mobs/snow_guardian",
+        "projection": "rigid",
+        "processors": "gearsaw_palace:compat"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gearsaw_palace:mobs/yeti",
+        "projection": "rigid",
+        "processors": "gearsaw_palace:compat"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gearsaw_palace:mobs/winter_wolf",
+        "projection": "rigid",
+        "processors": "gearsaw_palace:compat"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gearsaw_palace:mobs/snow_guardian_supreme",
+        "projection": "rigid",
+        "processors": "gearsaw_palace:compat"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gearsaw_palace:mobs/minotaur",
+        "projection": "rigid",
+        "processors": "gearsaw_palace:compat"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gearsaw_palace:mobs/deer",
+        "projection": "rigid",
+        "processors": "gearsaw_palace:compat"
+      }
+    }
+  ]
+}

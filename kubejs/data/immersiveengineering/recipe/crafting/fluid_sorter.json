@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "immersiveengineering:fluid_pipe"
+    },
+    "c": {
+      "item": "immersiveengineering:component_iron"
+    },
+    "w": {
+      "item": "immersiveengineering:basic_engineering"
+    }
+  },
+  "pattern": [
+    "c",
+    "w",
+    "b"
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersiveengineering:fluid_sorter"
+  }
+}

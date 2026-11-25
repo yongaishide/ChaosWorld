@@ -1,0 +1,135 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "06788bb43d01bfa3"
+	group: "6B9CFFEE5CD53D67"
+	icon: {
+		id: "thaumaturge:thaumometer"
+	}
+	id: "06788BB43D01BFA3"
+	images: [ ]
+	order_index: 7
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"5E899FDCE554B9CC"
+				"21929AFCD3E49D62"
+			]
+			id: "0D4CF808B1178264"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "2F60EADAB7BF976C"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "thaumaturge:salis_mundus"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D4CF808B1178264"]
+			id: "7B2E89060E15CDC2"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "536B27215956371A"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "thaumaturge:crucible"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0D4CF808B1178264"]
+			id: "67DD6AFDB714AA15"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "1AF12F94D8204DFA"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "thaumaturge:arcane_workbench"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7BE82C704232E651"]
+			id: "21929AFCD3E49D62"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				components: {
+					"minecraft:written_book_content": {
+						author: "yongaishide"
+						generation: 3
+						pages: [
+							{
+								raw: "{\"translate\":\"book.thaumaturge.start.1\"}"
+							}
+							{
+								raw: "{\"translate\":\"book.thaumaturge.start.2\"}"
+							}
+							{
+								raw: "{\"translate\":\"book.thaumaturge.start.3\"}"
+							}
+						]
+						title: {
+							raw: "异梦"
+						}
+					}
+				}
+				id: "5F1EF06E98DFAA37"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "minecraft:written_book"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67DD6AFDB714AA15"]
+			id: "06E5B68C306AFBFE"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "6DC963BDEDDACAEE"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "thaumaturge:thaumometer"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "1DAF8360DED0EA6C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "56CBA03AD80FE60A"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "thaumaturge:thaumonomicon"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+}

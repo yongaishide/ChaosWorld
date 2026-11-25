@@ -1,0 +1,16 @@
+{
+  "type": "botania:mana_infusion",
+  "catalyst": {
+    "type": "botania:block",
+    "block": "botania:alchemy_catalyst"
+  },
+  "group": "botania:lossy_deconstruction",
+  "input": {
+    "item": "minecraft:nether_bricks"
+  },
+  "mana": 100,
+  "output": {
+    "count": 3,
+    "id": "minecraft:nether_brick"
+  }
+}

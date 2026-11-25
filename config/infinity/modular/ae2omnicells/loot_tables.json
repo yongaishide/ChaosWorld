@@ -1,0 +1,277 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "ae2omnicells:blocks/complex_crafting_monitor_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "ae2omnicells:blocks/complex_crafting_storage_16k_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "ae2omnicells:blocks/complex_crafting_storage_16m_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "ae2omnicells:blocks/complex_crafting_storage_1k_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "ae2omnicells:blocks/complex_crafting_storage_1m_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "ae2omnicells:blocks/complex_crafting_storage_256k_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "ae2omnicells:blocks/complex_crafting_storage_256m_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "ae2omnicells:blocks/complex_crafting_storage_4k_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "ae2omnicells:blocks/complex_crafting_storage_4m_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "ae2omnicells:blocks/complex_crafting_storage_64k_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "ae2omnicells:blocks/complex_crafting_storage_64m_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "ae2omnicells:blocks/complex_crafting_unit_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "ae2omnicells:blocks/ender_ingot_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "ae2omnicells:blocks/netherite_scrap_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "ae2omnicells:blocks/omni_crafting_monitor_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "ae2omnicells:blocks/omni_crafting_storage_16k_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "ae2omnicells:blocks/omni_crafting_storage_16m_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "ae2omnicells:blocks/omni_crafting_storage_1k_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "ae2omnicells:blocks/omni_crafting_storage_1m_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "ae2omnicells:blocks/omni_crafting_storage_256k_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "ae2omnicells:blocks/omni_crafting_storage_256m_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "ae2omnicells:blocks/omni_crafting_storage_4k_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "ae2omnicells:blocks/omni_crafting_storage_4m_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "ae2omnicells:blocks/omni_crafting_storage_64k_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "ae2omnicells:blocks/omni_crafting_storage_64m_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "ae2omnicells:blocks/omni_crafting_unit_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "ae2omnicells:blocks/quantum_crafting_monitor_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "ae2omnicells:blocks/quantum_crafting_storage_16k_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "ae2omnicells:blocks/quantum_crafting_storage_16m_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "ae2omnicells:blocks/quantum_crafting_storage_1k_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "ae2omnicells:blocks/quantum_crafting_storage_1m_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "ae2omnicells:blocks/quantum_crafting_storage_256k_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "ae2omnicells:blocks/quantum_crafting_storage_256m_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "ae2omnicells:blocks/quantum_crafting_storage_4k_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "ae2omnicells:blocks/quantum_crafting_storage_4m_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "ae2omnicells:blocks/quantum_crafting_storage_64k_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "ae2omnicells:blocks/quantum_crafting_storage_64m_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "ae2omnicells:blocks/quantum_crafting_unit_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "ae2omnicells:blocks/singularity_block"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "createaddition:rolling",
+  "ingredients": [
+    {
+      "tag": "c:ingots/electrum"
+    }
+  ],
+  "results": [
+    {
+      "count": 2,
+      "id": "createaddition:electrum_rod"
+    }
+  ]
+}

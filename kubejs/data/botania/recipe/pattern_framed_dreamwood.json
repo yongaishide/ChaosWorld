@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "W": {
+      "item": "botania:dreamwood_planks"
+    }
+  },
+  "pattern": [
+    " W ",
+    "W W",
+    " W "
+  ],
+  "result": {
+    "count": 4,
+    "id": "botania:pattern_framed_dreamwood"
+  }
+}

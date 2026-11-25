@@ -1,0 +1,35 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "biomeswevegone"
+        }
+    ],
+    "entity": "biomeswevegone:man_o_war",
+    "name": {
+        "translate": "entity.biomeswevegone.man_o_war",
+        "color": "#E9B0CE"
+    },
+    "display": {
+        "scale": 0.92,
+		"y_offset": 0.7
+    },
+    "sim_cost": 80,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.man_o_war",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:phantom_membrane",
+            "count": 4
+        },
+        {
+            "id": "minecraft:string",
+            "count": 24
+        }
+    ]
+}

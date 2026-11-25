@@ -1,0 +1,71 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "yungscavebiomes"
+        }
+    ],
+    "entity": "yungscavebiomes:ice_cube",
+    "name": {
+        "translate": "entity.yungscavebiomes.ice_cube",
+        "color": "#849DCA"
+    },
+    "display": {
+        "scale": 0.8
+    },
+    "sim_cost": 128,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.ice_cube",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:ice",
+            "count": 18
+        },
+        {
+            "id": "minecraft:packed_ice",
+            "count": 2
+        },
+        {
+			"optional": true,
+            "id": "biomeswevegone:black_ice",
+            "count": 9
+        },
+        {
+			"optional": true,
+            "id": "biomeswevegone:packed_black_ice",
+            "count": 1
+        },
+        {
+			"optional": true,
+            "id": "biomeswevegone:borealis_ice",
+            "count": 9
+        },
+        {
+			"optional": true,
+            "id": "biomeswevegone:packed_borealis_ice",
+            "count": 1
+        },
+        {
+			"optional": true,
+            "id": "ecologics:thin_ice",
+            "count": 24
+        }
+    ],
+	"tier_data": {
+        "basic": 6,
+        "advanced": 12,
+        "superior": 48,
+        "self_aware": 60
+    },
+    "data_per_kill": {
+        "faulty": 6,
+        "basic": 4,
+        "advanced": 8,
+        "superior": 5
+    }
+}

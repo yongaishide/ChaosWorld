@@ -1,0 +1,49 @@
+{
+  "type": "ae2lt:overload_processing",
+  "priority": 0,
+  "inputs": [
+    {
+      "ingredient": {
+        "item": "avaritia:diamond_lattice"
+      },
+      "count": 4
+    },
+    {
+      "ingredient": {
+        "item": "ae2cs:redstone_crystal_dust"
+      },
+      "count": 8
+    },
+    {
+      "ingredient": {
+        "item": "ae2lt:overload_crystal_dust"
+      },
+      "count": 4
+    },
+    {
+      "ingredient": {
+        "item": "appflux:harden_insulating_resin"
+      },
+      "count": 8
+    },
+    {
+      "ingredient": {
+        "item": "alltheores:cinnabar_dust"
+      },
+      "count": 8
+    }
+  ],
+  "inputFluid": {
+    "id": "minecraft:lava",
+    "amount": 100
+  },
+  "results": [
+    {
+      "id": "ae2lt:basic_topological_lattice",
+      "count": 4
+    }
+  ],
+  "totalEnergy": 10000000,
+  "lightningCost": 1,
+  "lightningTier": "high_voltage"
+}

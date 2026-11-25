@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "tag": "c:ingots/iron"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "R": {
+      "tag": "c:ingots/redstone_alloy"
+    }
+  },
+  "pattern": [
+    "RPR",
+    "PIP",
+    "RPR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "enderio:redstone_filter_base"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/manyullyn"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/cobalt"
+      }
+    }
+  ],
+  "type": "immersiveengineering:alloy",
+  "input0": {
+    "basePredicate": {
+      "tag": "c:ingots/cobalt"
+    },
+    "count": 3
+  },
+  "input1": {
+    "item": "minecraft:netherite_scrap"
+  },
+  "result": {
+    "basePredicate": {
+      "tag": "c:ingots/manyullyn"
+    },
+    "count": 4
+  }
+}

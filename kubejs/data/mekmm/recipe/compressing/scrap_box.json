@@ -1,0 +1,16 @@
+{
+  "type": "mekanism:compressing",
+  "chemical_input": {
+    "amount": 1,
+    "chemical": "mekanism:osmium"
+  },
+  "item_input": {
+    "count": 64,
+    "item": "mekmm:scrap"
+  },
+  "output": {
+    "count": 1,
+    "id": "mekmm:scrap_box"
+  },
+  "per_tick_usage": true
+}

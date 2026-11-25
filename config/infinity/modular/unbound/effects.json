@@ -1,0 +1,40 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 11855932,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "unbound:acid_ward"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 14218495,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "unbound:air_reserve"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 7002367,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "unbound:coolness"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 16747068,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "unbound:warmth"
+		}
+	]
+}

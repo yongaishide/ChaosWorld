@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "powah:crystal_nitro"
+    },
+    "c": {
+      "item": "powah:energy_cell_spirited"
+    },
+    "d": {
+      "item": "powah:dielectric_casing"
+    },
+    "n": {
+      "item": "powah:capacitor_nitro"
+    }
+  },
+  "pattern": [
+    "bnb",
+    "cdc",
+    "bnb"
+  ],
+  "result": {
+    "count": 1,
+    "id": "powah:energy_cell_nitro"
+  }
+}

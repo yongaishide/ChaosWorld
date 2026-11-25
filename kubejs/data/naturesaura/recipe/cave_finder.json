@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " ST",
+        "SRS",
+        "RS "
+    ],
+    "key": {
+        "R": {
+            "item": "naturesaura:ancient_stick"
+        },
+        "S": {
+            "tag": "c:stones"
+        },
+        "T": {
+            "item": "naturesaura:token_terror"
+        }
+    },
+    "result": {
+        "id": "naturesaura:cave_finder"
+    }
+}

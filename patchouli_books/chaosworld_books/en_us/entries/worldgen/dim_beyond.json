@@ -1,0 +1,20 @@
+{
+  "name": "patchouli.chaosworld.entry.worldgen.dim_beyond",
+  "icon": "allthemodium:teleport_pad",
+  "category": "patchouli:worldgen",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "patchouli.chaosworld.entry.worldgen.dim_beyond.page1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "patchouli.chaosworld.entry.worldgen.dim_beyond.page2"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "patchouli.chaosworld.entry.worldgen.dim_beyond.page3"
+    }
+  ]
+}

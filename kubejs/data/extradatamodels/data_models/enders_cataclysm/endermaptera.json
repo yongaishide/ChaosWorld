@@ -1,0 +1,27 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "cataclysm"
+		}
+    ],
+    "entity": "cataclysm:endermaptera",
+    "name": {
+        "translate": "entity.cataclysm.endermaptera",
+        "color": "#3C284F"
+    },
+    "sim_cost": 64,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:end_prediction"
+    },
+    "trivia": "custom.trivia.endermaptera",
+    "fabricator_drops": [
+		{
+            "id": "cataclysm:void_jaw",
+            "count": 8
+        }
+    ]
+}

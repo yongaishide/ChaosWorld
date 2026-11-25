@@ -1,0 +1,27 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "environmental"
+        }
+    ],
+    "entity": "environmental:pinecone_golem",
+    "name": {
+        "translate": "entity.environmental.pinecone_golem",
+        "color": "#4E3C2F"
+    },
+    "sim_cost": 64,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.pinecone_golem",
+    "fabricator_drops": [
+        {
+            "id": "environmental:pine_sapling",
+            "count": 32
+        }
+    ]
+}

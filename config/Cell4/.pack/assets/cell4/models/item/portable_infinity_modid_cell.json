@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "cell4:item/cell_modid"
+  },
+  "overrides": [
+    {"predicate": {"cell4:texture_index": 1}, "model": "cell4:item/customtex/example"}
+  ]
+}

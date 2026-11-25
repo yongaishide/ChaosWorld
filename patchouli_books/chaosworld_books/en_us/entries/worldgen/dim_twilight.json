@@ -1,0 +1,28 @@
+{
+  "name": "patchouli.chaosworld.entry.worldgen.dim_twilight",
+  "icon": "twilightforest:twilight_portal_miniature_structure",
+  "category": "patchouli:worldgen",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "patchouli.chaosworld.entry.worldgen.dim_twilight.page1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "patchouli.chaosworld.entry.worldgen.dim_twilight.page2"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "patchouli.chaosworld.entry.worldgen.dim_twilight.page3"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "patchouli.chaosworld.entry.worldgen.dim_twilight.page4"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "patchouli.chaosworld.entry.worldgen.dim_twilight.page5"
+    }
+  ]
+}

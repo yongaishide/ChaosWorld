@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "occultism:chalk_white_impure"
+    },
+    {
+      "tag": "c:dusts/witherite"
+    },
+    {
+      "tag": "c:dusts/witherite"
+    },
+    {
+      "tag": "c:dusts/witherite"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "occultism:chalk_black_impure"
+  }
+}

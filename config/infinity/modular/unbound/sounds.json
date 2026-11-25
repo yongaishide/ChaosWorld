@@ -1,0 +1,6976 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "unbound:act.anomaly.alert"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.anomaly.ballast"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.anomaly.burn"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.anomaly.chirp"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.anomaly.codex"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.anomaly.corona"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.anomaly.count"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.anomaly.crack"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.anomaly.crate"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.anomaly.dive.in"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.anomaly.dive.out"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.anomaly.energy"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.anomaly.fed"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.anomaly.flare"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.anomaly.fuel"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.anomaly.gate"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.anomaly.gate.miss"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.anomaly.geiger"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.anomaly.heartbeat"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.anomaly.hum"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.anomaly.jet"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.anomaly.jet.charge"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.anomaly.lens"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.anomaly.nova"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.anomaly.overheat"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.anomaly.penrose"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.anomaly.plasma"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.anomaly.slingshot"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.anomaly.spark"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.anomaly.strain"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.anomaly.struck"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.anomaly.swallowed"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.anomaly.torn"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.ark.charge"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.ark.gun"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.assembler.made"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.battery.join"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.battery.split"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.blind.blast"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.blind.clear"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.blind.exhale"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.blind.inhale"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.blind.kindle"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.blind.reward"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.arcs"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.arcs.flash"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.arcs.raise"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.bar"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.bar.phase"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.beam"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.blink"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.breath"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.breath.blow"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.bullets"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.bullets.warn"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.burrow"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.burrow.surface"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.cast"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.cast.cool"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.charge"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.charge.hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.cocoon"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.cocoon.crack"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.cocoon.moth"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.cocoon.open"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.comb"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.comb.erupt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.cyclone"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.cyclone.bolt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.cyclone.calm"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.cyclone.warn"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.devils"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.devils.collapse"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.devils.grab"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.devils.warn"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.dive"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.dive.surface"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.divide"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.drain"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.drain.snap"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.drain.warn"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.embers"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.embers.out"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.erupt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.fall"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.fall.impact"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.flicker"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.flicker.arrive"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.flicker.warn"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.forge"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.forge.cue"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.gather"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.gather.absorb"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.gather.drop"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.gather.smash"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.gather.warn"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.gulp"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.gulp.chomp"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.gulp.warn"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.halo"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.halo.hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.halo.shatter"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.halo.warn"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.heal"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.heal.break"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.hexagon"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.hexagon.collapse"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.hexagon.rise"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.inhale"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.inhale.puff"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.inhale.warn"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.lash"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.lash.hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.leap"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.mirage"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.mirage.vanish"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.nova"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.phase"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.pull"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.pulls.end"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.pulls.warn"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.reel"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.rest"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.rifts"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.ring"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.shatter"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.shield.block"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.slam"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.sort"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.sort.fail"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.sort.pass"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.sort.warn"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.spectrum"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.spectrum.strike"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.spectrum.warn"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.spikes"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.spikes.erupt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.squall"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.squall.strike"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.squall.warn"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.stare.freeze"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.stare.move"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.stare.strike"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.summon"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.sweep"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.tether"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.tether.snap"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.visage"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.visage.glaze"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.visage.warn"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.volley"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.volley.dart"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.volley.spit"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.watch"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.watch.erupt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.watch.warn"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.weight"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.boss.weight.crush"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.card.erase"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.card.recipe"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.card.route"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.ceres.breath"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.charger.close"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.charger.done"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.charger.open"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.cloud.cache"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.cloud.grain"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.cloud.hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.comet.arrive"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.comet.awake"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.comet.core"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.comet.hum"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.comet.ice"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.comet.impact.ice"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.comet.impact.rock"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.comet.jet"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.comet.jet.hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.comet.jet.in"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.comet.reached"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.comet.record"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.comet.scan"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.console.open"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.convoy.delivered"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.convoy.depart"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.convoy.drone.hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.convoy.drone.jump"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.convoy.hull"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.convoy.jump"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.convoy.lost"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.convoy.raid"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.convoy.wave"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.cradle.pick"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.cradle.ripe"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.creature.blink"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.creature.block"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.creature.burrow"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.creature.choke"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.creature.shed"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.creature.shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.creature.spit"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.creature.surface"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.crucible.anvil.all"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.crucible.anvil.beat"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.crucible.anvil.burst"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.crucible.anvil.ring"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.crucible.anvil.tuned"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.crucible.anvil.wake"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.crucible.billet"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.crucible.billet.cold"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.crucible.cast.done"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.crucible.cast.drain"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.crucible.cast.flow"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.crucible.flue"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.crucible.gate.close"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.crucible.gate.open"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.crucible.quench"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.crucible.threshold"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.crucible.threshold.deny"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.crucible.wake.beat"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.cygnus.dive"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.cygnus.fling"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.cygnus.penrose"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.cygnus.sling"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.cygnus.spark"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.deep.blister"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.deep.buried.groan"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.deep.buried.shift"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.deep.buried.slide"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.deep.core"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.deep.crust"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.deep.ocean.discharge"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.deep.ocean.shed"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.deep.ocean.snow"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.deep.ocean.touch"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.deep.plume"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.deep.puff"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.deep.quarry.cleave"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.deep.quarry.seal"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.deep.quarry.shear"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.deepsky.pulsar"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.deepsky.pulsar.beam"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.deepsky.well"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.depths.plaque"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.devourer.breach"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.devourer.charge"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.devourer.choke"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.devourer.dive"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.devourer.inhale"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.devourer.roar"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.devourer.swallow"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.devourer.volley"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.dressing.close"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.dressing.open"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.dungeon.ambush"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.dungeon.ambush.done"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.dungeon.ambush.rise"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.dungeon.beam.lit"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.dungeon.floor.crack"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.dungeon.floor.fall"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.dungeon.keystone"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.dungeon.mirror"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.dungeon.plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.dungeon.plate.reset"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.dungeon.refill"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.dungeon.refill.deny"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.dungeon.secret"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.dungeon.solved"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.dungeon.trap.beam"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.dungeon.trap.beam.warn"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.dungeon.trap.gas"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.dungeon.trap.gas.warn"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.dungeon.treasury.eject"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.dungeon.treasury.open"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.dungeon.treasury.sealed"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.dungeon.treasury.taken"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.dungeon.ward"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.edge.heart"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.edge.heart.deny"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.edge.link"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.edge.whole"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.emitter.launch"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.emitter.open"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.epilogue.keepsake"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.epilogue.path"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.ahuna.creep"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.ahuna.grip"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.ahuna.knot"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.ahuna.open"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.ahuna.rumble"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.ahuna.spit"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.ahuna.vent"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.ball.discharge"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.ball.fizzle"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.ball.shock"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.ball.spawn"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.bloom.done"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.bloom.grow"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.bloom.hum"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.bloom.warn"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.boil.bubble"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.boil.hiss"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.boil.settle"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.comb.burst"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.comb.find"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.comb.lift"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.crater.breach"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.crater.burst"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.crater.hiss"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.curtain.hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.curtain.impact"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.curtain.near"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.dragon.bottle"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.dragon.cloud"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.dragon.flap"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.dragon.growl"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.dragon.land"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.eruption.impact"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.eruption.launch"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.eruption.rumble"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.flood.boil"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.flood.crust"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.flood.foam"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.flood.surge"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.flux.fuse"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.flux.hum"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.flux.shock"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.gaze.flash"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.gaze.lens"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.gaze.seen"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.geyser"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.geyser.warn"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.geyser_ring"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.geyser_ring.hiss"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.geyser_ring.hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.geyser_ring.mother"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.haze"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.haze.caught"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.haze.hum"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.hollow.collapse"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.hollow.fume"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.io.outburst"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.jet.burst"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.jet.choke"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.jet.roar"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.jet.warn"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.lava.breakout"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.lava.crack"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.lava.creep"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.lava.puff"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.lenticula.heave"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.lenticula.hiss"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.lenticula.melt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.lenticula.steam"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.metal_snow"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.molten.cool"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.molten.rain"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.molten.splash"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.molten.thread"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.moonquake"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.moonquake.crack"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.overturn"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.overturn.find"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.overturn.grip"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.overturn.swallow"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.overturn.swell"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.quake.beat"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.quake.burst"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.quake.calm"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.quake.crack"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.quake.hiss"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.quake.swell"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.quench.hiss"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.resonance.hum"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.resonance.shard"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.resonance.strike"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.resonance.warn"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.ridge.creak"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.ridge.freeze"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.ridge.gurgle"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.ridge.split"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.ridge.surge"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.rift.close"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.rift.find"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.rift.grind"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.rift.open"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.rift.rumble"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.rift.warn"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.rink"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.rink.burst"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.rink.pocket"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.rockfall"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.rockfall.bounce"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.rockfall.rumble"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.rockfall.shatter"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.saccade"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.saccade.pulse"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.serpent.breach"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.serpent.coil"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.serpent.run"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.stitch"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.stitch.knot"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.stitch.pull"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.tornado"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.tornado.arc"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.tornado.zap"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.trap.close"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.trap.crack"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.trap.hum"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.trap.redden"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.trap.warn"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.waggle"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.waggle.cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.event.waggle.hum"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.far.berth.dark"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.far.berth.fire"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.far.charge"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.far.charge.fire"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.far.dive"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.far.dive.pulse"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.far.dive.rise"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.far.pull"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.far.record"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.far.stitch"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.far.stitch.reel"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.far.warn"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.fauna.burrow"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.fauna.burst"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.fauna.burst.fire"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.fauna.lurk"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.fauna.pulse"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.fauna.ram"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.fauna.rouse"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.fauna.sail"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.field.acid.off"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.field.acid.on"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.field.air.off"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.field.air.on"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.field.gravity.off"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.field.gravity.on"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.field.induction.off"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.field.induction.on"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.field.ripple"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.focus.core.deny"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.focus.dock"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.fuel.drain"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.fuel.fill"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gate.asleep"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gate.deny"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gate.go"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gate.roads"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gate.sleep"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.again"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.anvils"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.anvils.land"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.anvils.pool"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.axis"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.beam"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.beam.burn"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.beam.end"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.binding"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.binding.snap"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.blink"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.blink.eye"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.bloom"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.bloom.burst"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.bloom.sow"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.bolt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.bolt.burst"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.bolt.refract"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.boomerang"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.boomerang.bounce"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.boomerang.catch"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.boomerang.cut"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.chain"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.chain.strike"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.charm"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.charm.take"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.chrono"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.collapse"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.comet"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.comet.shatter"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.dash"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.dash.splash"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.dawn"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.dense"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.execute"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.feast"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.feast.gather"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.feast.strike"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.fence"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.fence.discharge"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.fence.shock"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.forging"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.forging.ring"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.gate"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.gate.pass"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.gather"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.gather.burst"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.gather.hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.gather.shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.grapple"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.grapple.arrive"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.grapple.bite"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.horizon"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.lash"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.lash.snap"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.lash.strike"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.magnet"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.magnet.end"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.mastery"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.millstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.orbit"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.orbit.deflect"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.orbit.fade"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.orbit.fling"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.orbit.hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.palm"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.plume"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.pounce"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.pounce.land"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.pulse"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.pulse.off"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.puncture"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.rescue"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.siphon"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.siphon.snap"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.slam"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.spikes"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.spikes.erupt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.squall"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.squall.sweep"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.summon"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.summon.fire"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.summon.rise"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.summon.shatter"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.twin"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.twin.shot"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.venom"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.wave"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.wave.whirl"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.weight"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.weight.drop"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gear.wings"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.geode.calm"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.geode.ring"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.giants.berg.burst"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.giants.berg.warn"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.giants.comet.impact"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.giants.comet.incoming"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.giants.comet.roar"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.giants.elf"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.giants.elf.pass"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.giants.field.flip"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.giants.field.strike"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.giants.field.warn"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.giants.ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.giants.ring.jump"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.giants.ring.zap"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.giants.scooter"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.giants.spoke"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.giants.sprite"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.giants.tower.charge"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.gift.tear"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.hole.alarm"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.hydro.feed"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.io.fumarole"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.io.geiger"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.io.plume"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.io.vent"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.journal.canvas"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.journal.goto"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.journal.open"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.journal.page"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.journal.search"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.journal.search.none"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.journal.select"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.jump"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.jump.arrive"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.jump.spool"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.lamp.doused"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.lamp.lit"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.lens.dark"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.lens.down"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.lens.up"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.lift.arrive"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.lift.depart"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.lift.descend"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.lift.name"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.lift.stall"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.liquid.acid"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.liquid.flow"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.liquid.freeze"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.liquid.fuel.ignite"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.liquid.helium.boil"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.liquid.helium.gone"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.liquid.melt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.liquid.melt.pop"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.liquid.pearl"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.liquid.tears"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.loom.backstitch"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.loom.heddle.deny"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.loom.knot"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.loom.knot.snap"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.loom.knot.solved"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.loom.knot.wrong"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.loom.open"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.loom.rift.charge"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.loom.rift.closed"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.loom.rift.spin"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.loom.rift.strike"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.loom.rift.stun"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.loom.seam"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.loom.seam.rip"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.loom.seam.sewn"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.loom.seam.slip"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.loom.seam.stitch"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.loom.seam.take"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.loom.seam.torn"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.loom.unravel"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.magnetar.charge"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.magnetar.flare"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.magnetar.jam"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.mail.arrive"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.mail.launch"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.map.deny"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.map.launch"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.map.open"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.map.pick"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.mark.read"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.maser.lock"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.meteor.burn"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.meteor.core"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.meteor.fall"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.meteor.impact"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.meter.energy"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.meter.pressure"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.moon.drift"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.moon.fall"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.moon.geyser"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.moon.nitrogen"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.moon.organ"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.moon.tiger"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.moon.tremor"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.mystery.ark.bell"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.mystery.ark.call"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.mystery.ark.song.lost"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.mystery.ark.voice"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.mystery.bearing"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.mystery.slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.native.gift"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.native.level"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.native.no"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.native.talk"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.native.work"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.native.yes"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.pack.open"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.pack.refill"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.pad.cancel"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.pad.charge"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.pad.deny"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.pad.hum"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.pad.name"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.passage.open.rift"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.passage.open.vent"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.perk.bask"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.perk.breath.out"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.perk.cleanse"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.perk.flash"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.perk.glide"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.perk.glide.torn"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.perk.land"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.perk.leap"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.perk.magnetic"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.perk.mend"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.perk.reflect"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.perk.reflect.block"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.perk.reveal"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.perk.shock"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.perk.ward"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.perk.ward.break"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.pump.melt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.quest.deliver"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.quest.done"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.quest.ready"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.quest.ready.note"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.quest.take"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.quest.track"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.quest.untrack"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.race.fail"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.race.finish"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.race.miss"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.race.ring"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.radio.assemble"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.radio.blueprint"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.radio.burst"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.radio.deny"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.radio.dismantle"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.radio.flash"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.radio.found"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.radio.lost"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.radio.miss"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.radio.open"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.radio.turn"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.radio.unreachable"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.raider.charge"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.raider.disabled"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.raider.pod"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.raider.scrap"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.raider.wreck"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.realm.cache"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.realm.splash"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.refinery.done"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rescue.ask"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rescue.capture"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rescue.capture.deny"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rescue.capture.hum"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rescue.capture.stop"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rescue.hold.deny"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rescue.hold.unload"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rescue.no"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rescue.packed"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rescue.sleeve"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rescue.sleeve.in"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rescue.sleeve.out"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rescue.snapped"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rescue.take"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rescue.tow"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rescue.tow.off"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rescue.tow.snap"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rescue.transfer"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rescue.unload"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rescue.yes"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.research.deny"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.research.done"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.research.open"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.research.queue"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.research.screen"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rift.cast"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rift.hatch"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rift.island.done"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rift.island.fade"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rift.island.gone"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rift.island.grow"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rift.island.rise"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rift.nest"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rift.pocket"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rift.record"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rift.threshold"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rift.tide"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rig.darn"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rig.twin"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rig.twin.hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rocket.assemble"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rocket.board"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rocket.chain"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rocket.console"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rocket.count"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rocket.disassemble"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rocket.emerge"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rocket.hatch"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rocket.ignite"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rocket.land"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rocket.land.rift"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rocket.land.vent"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rocket.liftoff"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rocket.plunge"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rocket.recharge"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rocket.recharge.chain"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rocket.refuel"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rocket.rift"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rocket.roar"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rocket.roar.rift"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rocket.roar.vent"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rocket.roar.vent.home"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rocket.thread"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.rocket.winch"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.roster.open"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.salvage.done"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.salvage.need"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.scan.mark"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.scan.pulse"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.scanner.deny"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.scanner.dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.scanner.pulse"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.scanner.ref"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.scanner.vein"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.scheme.done"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.scheme.hide"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.scheme.show"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.scope.anomaly"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.scope.anomaly.record"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.scope.blind"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.scope.blind.swallow"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.scope.body"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.scope.cold.swallow"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.scope.heartbeat"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.scope.rift.wake"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.scope.strike"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.scope.strike.miss"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.scope.void"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.scope.weave"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.script.assign"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.script.cache"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.script.cache.locked"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.script.clear"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.script.hint"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.script.hint.deny"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.script.niche.give"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.script.niche.open"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.script.niche.silent"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.script.open"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.script.read"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.script.runes"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.script.seal.crumble"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.script.seals"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.script.tablet.open"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.script.tablet.read"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.script.wrong"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.sewn.road"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.shade.arrive"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.shade.douse"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.ship.autopilot.off"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.ship.autopilot.on"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.ship.beacon.bind"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.ship.beam"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.ship.beam.cut"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.ship.blueprint"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.ship.board"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.ship.call"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.ship.chart"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.ship.ground"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.ship.gun.hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.ship.gun.jam"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.ship.hatch"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.ship.hold"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.ship.hull.hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.ship.module"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.ship.refuel"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.ship.repair"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.ship.salvo"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.ship.touchdown"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.ship.wrecked"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.sight.chirp"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.sight.chirp.done"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.sight.crest"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.sight.early"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.sight.miss"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.sight.observe"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.sight.record"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.sight.record.deny"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.sight.tracked"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.sight.void.found"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.sight.void.sensed"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.sight.void.trace"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.spectrum.catch"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.spectrum.deny"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.spectrum.done"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.spectrum.eject"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.spectrum.exposure"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.spectrum.fit"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.spectrum.identify"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.spectrum.mark"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.spectrum.miss"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.spectrum.open"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.spectrum.pick"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.spectrum.reject"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.spectrum.sample"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.spectrum.solved"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.spectrum.weak"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.star.forge.done"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.star.forge.hum"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.star.step"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.starless.break"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.starless.burn"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.starless.charge"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.starless.crack"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.starless.heart"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.starless.mirror"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.starless.numb"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.starless.shriek"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.station.air"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.station.attend"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.station.bunk"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.station.console"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.station.deny"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.station.dock.open"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.station.feed"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.station.forecast"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.station.forecast.bell"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.station.forge"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.station.greenhouse"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.station.hangar.call"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.station.hangar.out"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.station.hangar.store"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.station.harbor"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.station.hum"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.station.lift"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.station.lift.arrive"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.station.lift.dark"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.station.lift.ready"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.station.module"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.station.module.built"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.station.observatory"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.station.order.done"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.station.order.late"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.station.order.rescue"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.station.order.scan"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.station.order.take"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.station.recruit"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.station.refinery"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.station.route"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.station.route.drone"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.station.route.pay"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.station.service"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.station.standing.down"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.station.standing.up"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.station.still"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.station.storage"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.station.tier"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.station.vault"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.station.vault.locked"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.station.welcome"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.station.workshop"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.stellar.beacon.arm"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.stellar.charge"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.stellar.charged"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.stellar.course"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.stellar.map"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.stellar.pulsar.hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.stellar.pulsar.reached"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.stellar.record"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.stellar.refuse"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.stellar.survey"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.storage.open"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.storage.order"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.storage.put"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.suit.candle"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.suit.off"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.suit.on"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.suit.sealed"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.swarm.launch"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.tabby.dip"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.tether.off"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.tether.on"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.tether.snap"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.titan.rain"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.titan.rain.fall"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.torpedo.end"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.ui.pick"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.vents.blister"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.vents.blister.pop"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.vents.caravan.bell"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.vents.caravan.cache"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.vents.draw.burn"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.vents.draw.flare"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.vents.draw.kindle"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.vents.draw.offer"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.vents.forging"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.vents.forging.impact"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.vents.forging.scale"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.vents.fruiting.burst"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.vents.fruiting.grow"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.vents.fruiting.harvest"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.vents.fruiting.pulse"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.vents.fruiting.swell"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.vents.hunger.bind"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.vents.hunger.cough"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.vents.hunger.creep"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.vents.hunger.eat"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.vents.hunger.verdigris"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.vents.quench.crack"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.vents.quench.melt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.vents.quench.plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.vents.tide"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.vents.tide.spatter"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.vents.toll"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.vents.toll.crack"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.vents.toll.glow"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.vents.toll.shatter"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.vents.toll.spikes"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.vents.weeping.fade"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.vents.weeping.lift"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.village.astronomer"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.village.fuel"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.village.hydro"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.village.power"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.village.rocket"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.watch.aim"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.watch.fire"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.watch.raise"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.watch.rest"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.wayfarer.gate"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.weapon.flak"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.weapon.flak.burst"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.weapon.flares"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.weapon.lance"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.weapon.lance.hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.weapon.salvo"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.weapon.shield.break"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.weapon.shield.down"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.weapon.shield.hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.weapon.slug"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.weapon.torpedo"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.weapon.torpedo.hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.weapon.torpedo.warn"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.weather.crackle"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.weather.current"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.weather.current.charge"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.weather.current.crack"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.weather.current.shock"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.weather.current.sulfur"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.weather.neon"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.weather.pollen"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.weather.pollen.hop"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.weather.vortex"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.weather.vortex.core"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.weather.whirl"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.weave.darn"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.weave.eye"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.weave.gust"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.weave.larva"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.weave.sampler.card"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.weave.sampler.snag"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.weave.sampler.spoil"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.weave.sampler.woven"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.weave.scan"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.weave.scar.empty"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.weave.sheer.take"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.weave.sheer.tear"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.weave.snare"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.weave.snare.tear"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.weave.thread.chord"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.weave.thread.cut"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.weave.thread.harmonic"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.weave.thread.tune"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.worm.deny"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.worm.exit"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.worm.pass"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.wow.jammed"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.wow.recorded"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.wow.silent"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.wow.tune"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.wreck.spark"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.wreck.survey"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.yard.assemble"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.yard.build"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.yard.deny"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.yard.dismantle"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.yard.finished"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.yard.open"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.yard.order"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.yard.refit"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.yard.scrap"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.yard.upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.yard.work"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.yard.work.smith"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.zoom.lock"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.zoom.off"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:act.zoom.on"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:block.ark_bell.toll"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:comfort.drone.dock"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:comfort.drone.grab"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:comfort.drone.hum"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:comfort.drone.lift"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.abyssal_gale.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.abyssal_gale.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.abyssal_gale.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.acid_fly.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.acid_fly.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.acid_fly.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.acid_matriarch.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.acid_matriarch.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.acid_matriarch.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.acid_toad.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.acid_toad.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.acid_toad.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.ash_wraith.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.ash_wraith.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.ash_wraith.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.azotosome.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.azotosome.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.azotosome.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.azure_lantern.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.azure_lantern.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.azure_lantern.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.barrow_sphinx.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.barrow_sphinx.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.barrow_sphinx.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.bell_watcher.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.bell_watcher.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.bell_watcher.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.belt_devourer.act"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.belt_devourer.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.belt_devourer.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.belt_devourer.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.belt_floater.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.belt_floater.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.belt_floater.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.bone_gnawer.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.bone_gnawer.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.bone_gnawer.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.cache_angler.act"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.cache_angler.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.cache_angler.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.cache_angler.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.cairn_chieftain.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.cairn_chieftain.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.cairn_chieftain.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.canyon_roller.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.canyon_roller.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.canyon_roller.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.cap_croaker.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.cap_croaker.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.cap_croaker.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.chorus_drifter.act"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.chorus_drifter.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.chorus_drifter.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.chorus_drifter.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.cinder_walker.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.cinder_walker.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.cinder_walker.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.cliffhanger.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.cliffhanger.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.cliffhanger.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.cloud_angler.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.cloud_angler.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.cloud_angler.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.cloud_kraken.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.cloud_kraken.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.cloud_kraken.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.comb_drone.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.comb_drone.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.comb_drone.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.comb_keeper.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.comb_keeper.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.comb_keeper.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.crater_tortoise.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.crater_tortoise.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.crater_tortoise.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.cryo_monarch.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.cryo_monarch.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.cryo_monarch.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.cryo_wisp.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.cryo_wisp.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.cryo_wisp.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.cyan_puff.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.cyan_puff.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.cyan_puff.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.dark_spot_maw.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.dark_spot_maw.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.dark_spot_maw.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.dawn_rover.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.dawn_rover.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.dawn_rover.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.devourer_segment.act"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.devourer_segment.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.devourer_segment.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.devourer_segment.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.diamond_crab.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.diamond_crab.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.diamond_crab.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.dune_maw.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.dune_maw.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.dune_maw.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.dune_serpent.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.dune_serpent.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.dune_serpent.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.dust_devil.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.dust_devil.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.dust_devil.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.dust_ray.act"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.dust_ray.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.dust_ray.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.dust_ray.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.elder_nurse.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.elder_nurse.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.elder_nurse.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.ember_mouse.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.ember_mouse.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.ember_mouse.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.endersmith.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.endersmith.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.endersmith.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.facet_golem.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.facet_golem.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.facet_golem.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.facetkin.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.facetkin.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.facetkin.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.fire_bubble.act"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.fire_bubble.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.fire_bubble.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.fire_bubble.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.firegill_salamander.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.firegill_salamander.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.firegill_salamander.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.fledgling.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.fledgling.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.fledgling.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.frost_kite.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.frost_kite.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.frost_kite.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.fulgurite_crawler.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.fulgurite_crawler.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.fulgurite_crawler.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.gale_eel.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.gale_eel.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.gale_eel.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.gatekeeper.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.gatekeeper.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.gatekeeper.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.gaze_watcher.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.gaze_watcher.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.gaze_watcher.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.geyser_hopper.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.geyser_hopper.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.geyser_hopper.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.giant_remnant.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.giant_remnant.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.giant_remnant.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.giantkin.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.giantkin.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.giantkin.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.gilded.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.gilded.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.gilded.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.gilded_knight.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.gilded_knight.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.gilded_knight.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.gilded_smith.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.gilded_smith.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.gilded_smith.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.glacier_worm.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.glacier_worm.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.glacier_worm.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.glass_hide.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.glass_hide.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.glass_hide.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.glass_larva.act"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.glass_larva.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.glass_larva.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.glass_larva.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.glassbreather.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.glassbreather.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.glassbreather.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.gold_skimmer.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.gold_skimmer.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.gold_skimmer.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.haze_manta.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.haze_manta.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.haze_manta.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.hematite_tyrant.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.hematite_tyrant.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.hematite_tyrant.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.hexagon_sovereign.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.hexagon_sovereign.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.hexagon_sovereign.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.hive_queen.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.hive_queen.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.hive_queen.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.hive_warden.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.hive_warden.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.hive_warden.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.hollow_diver.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.hollow_diver.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.hollow_diver.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.hollow_hermit.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.hollow_hermit.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.hollow_hermit.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.hunger_shade.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.hunger_shade.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.hunger_shade.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.hypha_strangler.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.hypha_strangler.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.hypha_strangler.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.ice_jelly.act"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.ice_jelly.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.ice_jelly.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.ice_jelly.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.ilmenite_borer.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.ilmenite_borer.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.ilmenite_borer.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.iris_mite.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.iris_mite.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.iris_mite.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.jovian.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.jovian.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.jovian.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.lashkin.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.lashkin.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.lashkin.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.last_giant.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.last_giant.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.last_giant.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.lava_serpent.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.lava_serpent.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.lava_serpent.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.lunarian.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.lunarian.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.lunarian.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.magma_ray.act"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.magma_ray.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.magma_ray.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.magma_ray.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.martian.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.martian.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.martian.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.mephisto_worm.act"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.mephisto_worm.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.mephisto_worm.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.mephisto_worm.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.mercurian.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.mercurian.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.mercurian.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.mirror_beetle.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.mirror_beetle.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.mirror_beetle.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.mist_lamb.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.mist_lamb.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.mist_lamb.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.moon_hopper.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.moon_hopper.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.moon_hopper.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.mourner.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.mourner.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.mourner.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.myconid.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.myconid.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.myconid.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.neptunian.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.neptunian.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.neptunian.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.obsidian_mite.act"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.obsidian_mite.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.obsidian_mite.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.obsidian_mite.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.patera_crawler.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.patera_crawler.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.patera_crawler.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.plume_eater.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.plume_eater.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.plume_eater.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.plume_moth.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.plume_moth.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.plume_moth.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.pluto_gazer.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.pluto_gazer.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.pluto_gazer.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.prism_archon.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.prism_archon.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.prism_archon.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.prism_moth.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.prism_moth.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.prism_moth.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.quicksilver_lurker.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.quicksilver_lurker.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.quicksilver_lurker.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.refractor.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.refractor.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.refractor.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.ring_glider.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.ring_glider.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.ring_glider.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.ring_shark.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.ring_shark.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.ring_shark.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.rockgnawer.act"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.rockgnawer.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.rockgnawer.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.rockgnawer.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.runaway_drone.act"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.runaway_drone.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.runaway_drone.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.runaway_drone.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.rust_scorpion.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.rust_scorpion.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.rust_scorpion.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.sail_moth.act"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.sail_moth.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.sail_moth.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.sail_moth.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.saturnian.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.saturnian.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.saturnian.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.sclera_grazer.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.sclera_grazer.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.sclera_grazer.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.seed_keeper.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.seed_keeper.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.seed_keeper.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.selenite_colossus.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.selenite_colossus.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.selenite_colossus.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.selenite_stalker.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.selenite_stalker.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.selenite_stalker.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.shard_prowler.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.shard_prowler.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.shard_prowler.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.skein_weaver.act"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.skein_weaver.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.skein_weaver.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.skein_weaver.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.slag_beetle.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.slag_beetle.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.slag_beetle.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.smoker_crab.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.smoker_crab.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.smoker_crab.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.spinner.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.spinner.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.spinner.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.spore_mother.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.spore_mother.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.spore_mother.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.spore_puff.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.spore_puff.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.spore_puff.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.spot_leviathan.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.spot_leviathan.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.spot_leviathan.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.sprite_jelly.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.sprite_jelly.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.sprite_jelly.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.starless.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.starless.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.starless.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.storm_ray.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.storm_ray.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.storm_ray.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.sun_skink.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.sun_skink.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.sun_skink.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.tear_drinker.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.tear_drinker.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.tear_drinker.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.tear_keeper.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.tear_keeper.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.tear_keeper.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.tear_worm.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.tear_worm.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.tear_worm.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.terminator_warden.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.terminator_warden.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.terminator_warden.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.thawed_specimen.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.thawed_specimen.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.thawed_specimen.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.the_unblinking.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.the_unblinking.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.the_unblinking.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.underice_whale.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.underice_whale.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.underice_whale.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.uranian.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.uranian.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.uranian.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.vapour_drake.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.vapour_drake.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.vapour_drake.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.vapour_wyrm.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.vapour_wyrm.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.vapour_wyrm.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.venus_flytrap.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.venus_flytrap.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.venus_flytrap.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.venusian.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.venusian.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.venusian.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.verdigris_beast.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.verdigris_beast.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.verdigris_beast.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.void_eel.act"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.void_eel.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.void_eel.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.void_eel.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.void_moth.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.void_moth.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.void_moth.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.void_wyrmling.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.void_wyrmling.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.void_wyrmling.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.vortex_nautilus.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.vortex_nautilus.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.vortex_nautilus.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.watch_ring.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.watch_ring.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.watch_ring.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.wax_grub.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.wax_grub.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.wax_grub.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.weeping_sentinel.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.weeping_sentinel.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:creature.weeping_sentinel.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:emitter.blast"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:emitter.bloom"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:emitter.core"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:emitter.deny"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:emitter.done"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:emitter.fire"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:emitter.hum"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:emitter.pulse"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:emitter.ring"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:emitter.shimmer"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:emitter.start"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:emitter.start.deep"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:emitter.stop"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:emitter.tear"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:emitter.thunder"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:emitter.windup"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:entity.underice_whale.call"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:entity.underice_whale.song"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:event.begin"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:machine.hum.acid_scrubber"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:machine.hum.assembler"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:machine.hum.bioreactor"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:machine.hum.charging_gantry"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:machine.hum.coal_generator"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:machine.hum.converter"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:machine.hum.crusher"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:machine.hum.cryo_still"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:machine.hum.electric_furnace"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:machine.hum.gravity_generator"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:machine.hum.inductor"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:machine.hum.launch_gantry"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:machine.hum.mail_station"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:machine.hum.melt_pump"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:machine.hum.oxygen_dome"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:machine.hum.oxygen_vent"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:machine.hum.pearl_liquefier"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:machine.hum.spectral_lab"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:machine.hum.storage_terminal"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:machine.hum.suit_station"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:machine.loop.air"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:machine.loop.assembler"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:machine.loop.bio"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:machine.loop.converter"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:machine.loop.crusher"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:machine.loop.field"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:machine.loop.furnace"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:machine.loop.generator"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:machine.loop.lab"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:machine.loop.pump"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.crucible.rest"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.crucible.wake"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.deep.arrive"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.deep.depart"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.deep.halls_burst"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.deep.halls_cut"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.deep.halls_snap_0"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.deep.halls_snap_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.deep.halls_snap_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.depths.rising"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.devourer.fall"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.devourer.rise"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.edge.wake"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.epilogue.gate"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.epilogue.light"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.epilogue.overlook"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.epilogue.prism"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.epilogue.truth"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.focus.heart"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.focus.lens_dark"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.focus.lens_fire"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.focus.lens_star"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.gate.ash"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.gate.breath"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.gate.earth"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.gate.end"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.gate.eye"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.gate.facet"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.gate.forge"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.gate.hive"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.gate.jupiter"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.gate.lament"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.gate.mars"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.gate.mercury"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.gate.moon"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.gate.mycelium"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.gate.neptune"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.gate.nether"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.gate.pass"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.gate.rift.rise"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.gate.rift.strike"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.gate.saturn"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.gate.space.rise"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.gate.space.strike"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.gate.uranus"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.gate.vent.rise"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.gate.vent.strike"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.gate.venus"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.geode.calm"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.geode.ring_fast"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.geode.ring_mid"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.geode.ring_slow"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.geode.wave"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.gift.comb_keeper"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.gift.facetkin"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.gift.giantkin"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.gift.gilded"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.gift.glassbreather"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.gift.jovian"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.gift.lashkin"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.gift.lunarian"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.gift.martian"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.gift.mourner"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.gift.myconid"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.gift.neptunian"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.gift.saturnian"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.gift.venusian"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.jump.arrive"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.jump.depart"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.loom.fall"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.loom.wake"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.mystery.ark"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.mystery.monolith"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.starless.fall"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.starless.rise"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.stellar.arrive"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.stellar.depart"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.summon.abyssal_gale"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.summon.acid_matriarch"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.summon.cryo_monarch"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.summon.gatekeeper"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.summon.giant_remnant"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.summon.gilded_smith"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.summon.hematite_tyrant"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.summon.hexagon_sovereign"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.summon.hive_queen"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.summon.last_giant"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.summon.prism_archon"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.summon.rise"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.summon.selenite_colossus"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.summon.spinner"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.summon.spore_mother"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.summon.spot_leviathan"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.summon.strike"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.summon.tear_keeper"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.summon.terminator_warden"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.summon.the_unblinking"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.summon.vapour_wyrm"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.wake"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.wanderer.cache"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.wanderer.depart"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.wanderer.stir"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.weave.arrive"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:moment.weave.depart"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:net.break"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:net.deny"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:net.link"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:net.off"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:net.on"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:net.pick"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:net.place"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:net.spark"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:net.tune"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:scope.bell"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:scope.burst"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:scope.chime"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:scope.crack"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:scope.deny"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:scope.drum"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:scope.focus"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:scope.hiss"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:scope.ignite"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:scope.lens"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:scope.note"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:scope.off"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:scope.on"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:scope.pop"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:scope.pour"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:scope.pulse"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:scope.resonate"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:scope.reveal"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:scope.reward"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:scope.rock"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:scope.shriek"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:scope.squelch"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:scope.star"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:scope.strike"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:scope.tick"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:scope.toll"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:scope.unfocus"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:scope.warp"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:ship.alarm"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:ship.alarm.bell"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:ship.alarm.low"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:ship.boost"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:ship.comm"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:ship.engine.planets"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:ship.engine.rifts"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:ship.engine.vents"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:ship.entry.boom"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:ship.entry.fire"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:ship.entry.rift"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:ship.entry.tear"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:ship.entry.vent"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:ship.gear.down"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:ship.gear.up"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:ship.gun.clank"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:ship.gun.hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:ship.gun.ring"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:ship.gun.shot"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:ship.hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:ship.ignite"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:ship.ignite.burst"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:ship.jump.charge"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:ship.jump.enter"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:ship.jump.exit"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:ship.jump.ring"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:ship.lock"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:ship.raider.warp"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:ship.reentry"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:ship.space.exit"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:ship.spool"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:ship.takeoff"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:ship.touchdown"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:ship.tunnel"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:ship.wind"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:weather.bubbles"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:weather.buzz"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:weather.chime"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:weather.clicks"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:weather.crackle"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:weather.drip"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:weather.drop"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:weather.fire"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:weather.grow"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:weather.hail"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:weather.hiss"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:weather.hum"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:weather.ping"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:weather.pop"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:weather.rain"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:weather.rain.far"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:weather.resonate"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:weather.sand"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:weather.snow"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:weather.snow.soft"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:weather.thud"
+		},
+		{
+			"weight": 1.0,
+			"key": "unbound:weather.wind"
+		}
+	]
+}

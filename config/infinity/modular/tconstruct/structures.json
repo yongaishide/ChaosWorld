@@ -1,0 +1,136 @@
+{
+	"elements": [
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+					"monster": {
+						"bounding_box": "full",
+						"spawns": [
+							{
+								"weight": 1,
+								"minCount": 4,
+								"type": "minecraft:magma_cube",
+								"maxCount": 6
+							}
+						]
+					}
+				},
+				"step": "underground_decoration",
+				"id": "tconstruct:blood_island"
+			},
+			"weight": 1.0,
+			"key": "tconstruct:blood_island"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+					"monster": {
+						"bounding_box": "full",
+						"spawns": [
+							{
+								"weight": 1,
+								"minCount": 2,
+								"type": "tconstruct:terracube",
+								"maxCount": 4
+							}
+						]
+					}
+				},
+				"step": "surface_structures",
+				"id": "tconstruct:clay_island"
+			},
+			"weight": 1.0,
+			"key": "tconstruct:clay_island"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+					"monster": {
+						"bounding_box": "full",
+						"spawns": [
+							{
+								"weight": 1,
+								"minCount": 4,
+								"type": "minecraft:slime",
+								"maxCount": 4
+							}
+						]
+					}
+				},
+				"step": "surface_structures",
+				"id": "tconstruct:earth_slime_island"
+			},
+			"weight": 1.0,
+			"key": "tconstruct:earth_slime_island"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+					"monster": {
+						"bounding_box": "full",
+						"spawns": [
+							{
+								"weight": 1,
+								"minCount": 4,
+								"type": "tconstruct:ender_slime",
+								"maxCount": 4
+							}
+						]
+					}
+				},
+				"step": "surface_structures",
+				"id": "tconstruct:end_slime_island"
+			},
+			"weight": 1.0,
+			"key": "tconstruct:end_slime_island"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+					"monster": {
+						"bounding_box": "full",
+						"spawns": [
+							{
+								"weight": 1,
+								"minCount": 3,
+								"type": "tconstruct:sky_slime",
+								"maxCount": 4
+							}
+						]
+					}
+				},
+				"step": "surface_structures",
+				"id": "tconstruct:ocean_skyslime_island"
+			},
+			"weight": 1.0,
+			"key": "tconstruct:ocean_skyslime_island"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+					"monster": {
+						"bounding_box": "full",
+						"spawns": [
+							{
+								"weight": 1,
+								"minCount": 3,
+								"type": "tconstruct:sky_slime",
+								"maxCount": 4
+							}
+						]
+					}
+				},
+				"step": "surface_structures",
+				"id": "tconstruct:sky_slime_island"
+			},
+			"weight": 1.0,
+			"key": "tconstruct:sky_slime_island"
+		}
+	]
+}

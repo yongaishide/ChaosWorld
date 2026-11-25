@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "powah:capacitor_spirited"
+    },
+    "d": {
+      "item": "powah:dielectric_rod_horizontal"
+    },
+    "t": {
+      "item": "powah:energy_cable_niotic"
+    }
+  },
+  "pattern": [
+    "ddd",
+    "tct",
+    "ddd"
+  ],
+  "result": {
+    "count": 6,
+    "id": "powah:energy_cable_spirited"
+  }
+}

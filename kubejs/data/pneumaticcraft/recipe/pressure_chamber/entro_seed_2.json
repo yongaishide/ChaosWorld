@@ -1,0 +1,24 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "count": 2,
+      "item": "extendedcrafting:luminessence"
+    },
+    {
+      "count": 4,
+      "item": "ae2cs:resonating_crystal_dust"
+    },
+    {
+      "count": 3,
+      "item": "ae2cs:resonating_seed"
+    }
+  ],
+  "pressure": 1.5,
+  "results": [
+    {
+      "count": 3,
+      "id": "extendedae:entro_seed"
+    }
+  ]
+}

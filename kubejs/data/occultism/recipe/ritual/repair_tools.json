@@ -1,0 +1,36 @@
+{
+  "type": "occultism:ritual",
+  "activation_item": {
+    "tag": "c:tools"
+  },
+  "ingredients": [
+    {
+      "item": "occultism:otherworld_essence"
+    },
+    {
+      "item": "occultism:otherworld_essence"
+    },
+    {
+      "item": "occultism:otherworld_essence"
+    },
+    {
+      "item": "occultism:spirit_attuned_gem"
+    }
+  ],
+  "pentacle_id": "occultism:craft_afrit",
+  "result": {
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.repair_tools\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.repair_tools.tooltip\"}"
+      ]
+    },
+    "count": 1,
+    "id": "occultism:repair_icon"
+  },
+  "ritual_dummy": {
+    "count": 1,
+    "id": "occultism:ritual_dummy/repair_tools"
+  },
+  "ritual_type": "occultism:repair"
+}

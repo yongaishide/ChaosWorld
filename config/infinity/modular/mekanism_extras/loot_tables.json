@@ -1,0 +1,1187 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/absolute_bin"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/absolute_centrifuging_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/absolute_chemical_infusing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/absolute_chemical_infusing_factory/absolute_chemical_infusing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/absolute_chemical_tank"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/absolute_combining_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/absolute_compressing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/absolute_crushing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/absolute_crystallizing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/absolute_dissolving_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/absolute_energy_cube"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/absolute_enriching_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/absolute_fluid_tank"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/absolute_induction_cell"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/absolute_induction_provider"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/absolute_infusing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/absolute_injecting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/absolute_lathing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/absolute_liquifying_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/absolute_logistical_transporter"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/absolute_mechanical_pipe"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/absolute_oxidizing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/absolute_painting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/absolute_pigment_extracting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/absolute_planting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/absolute_pressing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/absolute_pressurised_reacting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/absolute_pressurized_tube"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/absolute_purifying_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/absolute_radioactive_waste_barrel"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/absolute_recycling_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/absolute_replicating_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/absolute_rolling_mill_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/absolute_sawing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/absolute_smelting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/absolute_stamping_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/absolute_thermodynamic_conductor"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/absolute_universal_cable"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/absolute_washing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/advanced_electric_pump"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/block_naquadah"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/block_raw_naquadah"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/cosmic_bin"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/cosmic_centrifuging_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/cosmic_chemical_infusing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/cosmic_chemical_infusing_factory/cosmic_chemical_infusing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/cosmic_chemical_tank"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/cosmic_combining_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/cosmic_compressing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/cosmic_crushing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/cosmic_crystallizing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/cosmic_dissolving_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/cosmic_energy_cube"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/cosmic_enriching_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/cosmic_fluid_tank"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/cosmic_induction_cell"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/cosmic_induction_provider"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/cosmic_infusing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/cosmic_injecting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/cosmic_lathing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/cosmic_liquifying_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/cosmic_logistical_transporter"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/cosmic_mechanical_pipe"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/cosmic_oxidizing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/cosmic_painting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/cosmic_pigment_extracting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/cosmic_planting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/cosmic_pressing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/cosmic_pressurised_reacting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/cosmic_pressurized_tube"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/cosmic_purifying_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/cosmic_radioactive_waste_barrel"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/cosmic_recycling_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/cosmic_replicating_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/cosmic_rolling_mill_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/cosmic_sawing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/cosmic_smelting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/cosmic_stamping_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/cosmic_thermodynamic_conductor"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/cosmic_universal_cable"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/cosmic_washing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/electric_pump"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/end_naquadah_ore"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/infinite_bin"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/infinite_centrifuging_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/infinite_chemical_infusing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/infinite_chemical_infusing_factory/infinite_chemical_infusing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/infinite_chemical_tank"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/infinite_combining_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/infinite_compressing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/infinite_crushing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/infinite_crystallizing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/infinite_dissolving_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/infinite_energy_cube"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/infinite_enriching_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/infinite_fluid_tank"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/infinite_induction_cell"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/infinite_induction_provider"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/infinite_infusing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/infinite_injecting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/infinite_lathing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/infinite_liquifying_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/infinite_logistical_transporter"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/infinite_mechanical_pipe"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/infinite_oxidizing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/infinite_painting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/infinite_pigment_extracting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/infinite_planting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/infinite_pressing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/infinite_pressurised_reacting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/infinite_pressurized_tube"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/infinite_purifying_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/infinite_radioactive_waste_barrel"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/infinite_recycling_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/infinite_replicating_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/infinite_rolling_mill_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/infinite_sawing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/infinite_smelting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/infinite_stamping_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/infinite_thermodynamic_conductor"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/infinite_universal_cable"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/infinite_washing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/lead_coated_laser_focus_matrix"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/naquadah_ore"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/naquadah_reactor_casing"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/naquadah_reactor_controller"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/naquadah_reactor_logic_adapter"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/naquadah_reactor_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/reinforced_induction_casing"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/reinforced_induction_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/supreme_bin"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/supreme_centrifuging_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/supreme_chemical_infusing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/supreme_chemical_infusing_factory/supreme_chemical_infusing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/supreme_chemical_tank"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/supreme_combining_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/supreme_compressing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/supreme_crushing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/supreme_crystallizing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/supreme_dissolving_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/supreme_energy_cube"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/supreme_enriching_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/supreme_fluid_tank"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/supreme_induction_cell"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/supreme_induction_provider"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/supreme_infusing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/supreme_injecting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/supreme_lathing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/supreme_liquifying_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/supreme_logistical_transporter"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/supreme_mechanical_pipe"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/supreme_oxidizing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/supreme_painting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/supreme_pigment_extracting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/supreme_planting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/supreme_pressing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/supreme_pressurised_reacting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/supreme_pressurized_tube"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/supreme_purifying_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/supreme_radioactive_waste_barrel"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/supreme_recycling_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/supreme_replicating_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/supreme_rolling_mill_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/supreme_sawing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/supreme_smelting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/supreme_stamping_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/supreme_thermodynamic_conductor"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/supreme_universal_cable"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekanism_extras:blocks/supreme_washing_factory"
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "patchouli.chaosworld.entry.worldgen.dimensions",
+  "icon": "minecraft:ender_eye",
+  "category": "patchouli:worldgen",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "patchouli.chaosworld.entry.worldgen.dimensions.page1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "patchouli.chaosworld.entry.worldgen.dimensions.page2"
+    }
+  ]
+}

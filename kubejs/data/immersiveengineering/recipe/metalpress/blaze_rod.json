@@ -1,0 +1,14 @@
+{
+  "type": "immersiveengineering:metal_press",
+  "energy": 3200,
+  "input": {
+    "basePredicate": {
+      "item": "minecraft:blaze_powder"
+    },
+    "count": 5
+  },
+  "mold": "immersiveengineering:mold_rod",
+  "result": {
+    "id": "minecraft:blaze_rod"
+  }
+}

@@ -1,0 +1,31 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 14001722,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "anthology:contracted"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 7097014,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "anthology:dilated"
+		},
+		{
+			"data": {
+				"Category": "neutral",
+				"Color": 9109504,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "anthology:inverted"
+		}
+	]
+}

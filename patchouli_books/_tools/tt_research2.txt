@@ -1,0 +1,353 @@
+total entries: 217
+tail entries: thaumatorium.json, thaumic_slime.json, thaumium_shield.json, thaumostatic_harness.json, tubes.json, unlock_alchemy.json, unlock_artifice.json, unlock_auromancy.json, unlock_eldritch.json, unlock_golemancy.json, unlock_infusion.json, verdant_charms.json, vis_amulet.json, vis_battery.json, vis_generator.json, vis_relay.json, void_robe_armor.json, void_shield.json, void_siphon.json, voidseer_pearl.json, warded_arcana.json, warded_jars.json, warp.json, wisp.json, workbench_charger.json
+eldritch-related: base_eldritch.json, eldritch_crab.json, eldritch_guardian.json, enter_outer_lands.json, infusion_eldritch.json, oculus.json, outer_revelations.json, unlock_eldritch.json
+--- data/thaumaturge/thaumaturge/research_entry/base_eldritch.json
+{
+  "category": "thaumaturge:eldritch",
+  "name": "research.thaumaturge.base_eldritch.title",
+  "parents": [
+    "thaumaturge:metallurgy",
+    "thaumaturge:unlock_eldritch"
+  ],
+  "column": 0,
+  "row": 0,
+  "meta": [
+    "round"
+  ],
+  "icons": [
+    "thaumaturge:void_seed"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturge.base_eldritch.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:basics",
+          "amount": 1
+        },
+        {
+          "type": "theory",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        },
+        {
+          "type": "theory",
+          "category": "thaumaturge:eldritch",
+          "amount": 1
+        }
+      ],
+      "warp": 2
+    },
+    {
+      "text": "research.thaumaturge.base_eldritch.stage_1",
+      "recipes": [
+        "thaumaturge:crucible/void_ingot",
+        "thaumaturge:plate_void",
+        "thaumaturge:metal_void"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 4
+    }
+  ],
+  "complexity": 3
+}
+--- data/thaumaturge/thaumaturge/research_entry/enter_outer_lands.json
+{
+  "category": "thaumaturge:eldritch",
+  "name": "research.thaumaturge.enter_outer_lands.title",
+  "parents": [
+    "~thaumaturge:oculus"
+  ],
+  "column": -5,
+  "row": 4,
+  "meta": [
+    "round",
+    "hidden"
+  ],
+  "icons": [
+    "thaumaturge:textures/research/r_outer.png"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturge.enter_outer_lands.stage_0"
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 4
+    }
+  ],
+  "complexity": 3
+}
+--- data/thaumaturge/thaumaturge/research_entry/infusion_eldritch.json
+{
+  "category": "thaumaturge:infusion",
+  "name": "research.thaumaturge.infusion_eldritch.title",
+  "parents": [
+    "thaumaturge:infusion_boost",
+    "thaumaturge:scanned/orblock2"
+  ],
+  "column": -2,
+  "row": 6,
+  "meta": [
+    "hidden",
+    "reverse"
+  ],
+  "icons": [
+    "thaumaturge:stone_eldritch_tile"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturge.infusion_eldritch.stage_0",
+      "obtain": [
+        {
+          "items": [
+            "thaumaturge:stone_eldritch_tile"
+          ],
+          "amount": 1
+        }
+      ],
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:eldritch",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturge.infusion_eldritch.stage_1",
+      "recipes": [
+        "thaumaturge:arcane_workbench/pedestal_eldritch",
+        "thaumaturge:dust_trigger/infusion_altar_eldritch"
+      ],
+      "warp": 2
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 5
+    }
+  ],
+  "complexity": 3
+}
+--- data/thaumaturge/thaumaturge/research_entry/oculus.json
+{
+  "category": "thaumaturge:eldritch",
+  "name": "research.thaumaturge.oculus.title",
+  "parents": [
+    "thaumaturge:base_eldritch",
+    "~thaumaturge:eldritchmajor"
+  ],
+  "column": -3,
+  "row": 3,
+  "meta": [
+    "round",
+    "hidden"
+  ],
+  "icons": [
+    "thaumaturge:eldritch_eye"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturge.oculus.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:eldritch",
+          "amount": 2
+        }
+      ],
+      "warp": 6
+    },
+    {
+      "text": "research.thaumaturge.oculus.stage_1",
+      "recipes": [
+        "thaumaturge:infusion/eldritch_eye"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:cognitio",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 6
+    }
+  ],
+  "complexity": 1
+}
+--- data/thaumaturge/thaumaturge/research_entry/outer_revelations.json
+{
+  "category": "thaumaturge:eldritch",
+  "name": "research.thaumaturge.outer_revelations.title",
+  "parents": [
+    "thaumaturge:enter_outer_lands"
+  ],
+  "column": -6,
+  "row": 2,
+  "meta": [
+    "round",
+    "hidden"
+  ],
+  "icons": [
+    "thaumaturge:textures/research/r_outerrev.png"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturge.outer_revelations.stage_0"
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:cognitio",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 5
+    }
+  ],
+  "complexity": 3
+}
+--- data/thaumaturge/thaumaturge/research_entry/unlock_eldritch.json
+{
+  "category": "thaumaturge:basics",
+  "name": "research.thaumaturge.unlock_eldritch.title",
+  "parents": [
+    "thaumaturge:crimson_rites",
+    "thaumaturge:unlock_auromancy"
+  ],
+  "column": -4,
+  "row": 6,
+  "meta": [
+    "round",
+    "spiky",
+    "hidden"
+  ],
+  "icons": [
+    "thaumaturge:textures/research/cat_eldritch.png"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturge.unlock_eldritch.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:basics",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:eldritch",
+          "amount": 1
+        }
+      ],
+      "required_research": [
+        "thaumaturge:f_voidseed"
+      ],
+      "warp": 5
+    },
+    {
+      "text": "research.thaumaturge.unlock_eldritch.stage_1"
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 3
+    }
+  ],
+  "complexity": 3
+}
+--- data/thaumaturge/thaumaturge/research_entry/scanned/entity/thaumaturge/eldritch_crab.json
+{
+  "category": "thaumaturge:basics",
+  "name": "research.thaumaturge.scanned/entity/thaumaturge/eldritch_crab.title",
+  "column": -10,
+  "row": 2,
+  "meta": [
+    "hex",
+    "hidden"
+  ],
+  "icons": [
+    "thaumaturge:textures/research/r_crab.png"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturge.scanned/entity/thaumaturge/eldritch_crab.stage_0"
+    }
+  ]
+}
+--- data/thaumaturge/thaumaturge/research_entry/scanned/entity/thaumaturge/eldritch_guardian.json
+{
+  "category": "thaumaturge:basics",
+  "name": "research.thaumaturge.scanned/entity/thaumaturge/eldritch_guardian.title",
+  "column": -9,
+  "row": 2,
+  "meta": [
+    "hex",
+    "hidden"
+  ],
+  "icons": [
+    "thaumaturge:textures/research/r_eldritchguardian.png"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturge.scanned/entity/thaumaturge/eldritch_guardian.stage_0"
+    }
+  ]
+}

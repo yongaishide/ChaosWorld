@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "E": {
+      "tag": "botania:ender_essences"
+    },
+    "I": {
+      "tag": "c:ingots/elementium"
+    }
+  },
+  "pattern": [
+    "IEI",
+    " I "
+  ],
+  "result": {
+    "count": 1,
+    "id": "botania:extrapolated_bucket"
+  }
+}

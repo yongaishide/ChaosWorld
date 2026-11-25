@@ -1,0 +1,14 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "additives": [],
+  "energy": 51200,
+  "input": {
+    "tag": "c:dusts/gold"
+  },
+  "results": [
+    {
+      "tag": "c:ingots/gold"
+    }
+  ],
+  "time": 100
+}

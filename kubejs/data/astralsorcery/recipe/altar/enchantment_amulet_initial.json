@@ -1,0 +1,93 @@
+{
+  "type": "astralsorcery:altar_crafting",
+  "base_focus_shatter_chance": 0.0,
+  "duration": 100,
+  "effects": [
+    "astralsorcery:default_altar_sparkle",
+    "astralsorcery:default_central_beam",
+    "astralsorcery:default_lumen_input",
+    "astralsorcery:default_relay_input"
+  ],
+  "grid": {
+    "key": {
+      "E": {
+        "type": "item",
+        "ingredient": {
+          "item": "minecraft:ender_eye"
+        }
+      },
+      "F": {
+        "type": "item",
+        "ingredient": {
+          "tag": "c:strings"
+        }
+      },
+      "G": {
+        "type": "item",
+        "ingredient": {
+          "tag": "c:ingots/gold"
+        }
+      },
+      "S": {
+        "type": "item",
+        "ingredient": {
+          "item": "astralsorcery:stardust"
+        }
+      },
+      "Z": {
+        "type": "item",
+        "ingredient": {
+          "item": "astralsorcery:shifting_star"
+        }
+      }
+    },
+    "pattern": [
+      " F ",
+      "GEG",
+      " Z "
+    ],
+    "relay_pattern": [
+      "S   S",
+      "S   S",
+      "     ",
+      "S   S",
+      "S   S"
+    ]
+  },
+  "may_chain": false,
+  "only_night": true,
+  "output_modifiers": [],
+  "outputs": [
+    {
+      "count": 1,
+      "id": "astralsorcery:enchantment_amulet"
+    }
+  ],
+  "required_additional_inputs": [
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "astralsorcery:stardust"
+      }
+    },
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "astralsorcery:stardust"
+      }
+    }
+  ],
+  "required_fluid": [
+    {
+      "amount": 1000,
+      "id": "astralsorcery:liquid_starlight"
+    },
+    {
+      "amount": 1000,
+      "id": "astralsorcery:liquid_starlight"
+    }
+  ],
+  "required_lumen": [],
+  "required_starlight": [],
+  "required_type": "luminance"
+}

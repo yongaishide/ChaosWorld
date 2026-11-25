@@ -1,0 +1,304 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "extendedae:active_formation_plane"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:assembler_matrix_crafter"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:assembler_matrix_frame"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:assembler_matrix_glass"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:assembler_matrix_pattern"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:assembler_matrix_speed"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:assembler_matrix_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:caner"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:circuit_cutter"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:concurrent_processor"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:concurrent_processor_press"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:concurrent_processor_print"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:config_modifier"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:crystal_assembler"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:crystal_fixer"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:drive_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:entro_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:entro_budding_fully"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:entro_budding_half"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:entro_budding_hardly"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:entro_budding_mostly"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:entro_cluster"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:entro_cluster_large"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:entro_cluster_medium"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:entro_cluster_small"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:entro_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:entro_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:entro_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:entro_seed"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:entro_shard"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:ex_charger"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:ex_drive"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:ex_export_bus_part"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:ex_import_bus_part"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:ex_inscriber"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:ex_interface"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:ex_interface_part"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:ex_io_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:ex_molecular_assembler"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:ex_pattern_access_part"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:ex_pattern_provider"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:ex_pattern_provider_part"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:fishbig"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:infinity_cobblestone_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:infinity_water_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:ingredient_buffer"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:interface_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:io_bus_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:machine_frame"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:mddyue"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:me_packing_tape"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:mod_export_bus"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:mod_storage_bus"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:oversize_interface"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:oversize_interface_part"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:package"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:pattern_modifier"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:pattern_provider_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:pattern_terminal_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:precise_export_bus"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:precise_storage_bus"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:quartz_blend"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:silicon_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:smart_annihilation_plane"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:tag_export_bus"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:tag_storage_bus"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:threshold_export_bus"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:threshold_level_emitter"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:vacuum_interface"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:void_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:wireless_connect"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:wireless_connector_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:wireless_ex_pat"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:wireless_hub"
+		},
+		{
+			"weight": 1.0,
+			"key": "extendedae:wireless_tool"
+		}
+	]
+}

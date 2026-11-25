@@ -1,0 +1,928 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:advanced_coil"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:advanced_leaf_blower"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:atomic_reconstructor"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:basic_coil"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:bats_wing"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:battery_box"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:bio_reactor"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:black_quartz"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:black_quartz_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:black_quartz_brick_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:black_quartz_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:black_quartz_brick_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:black_quartz_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:black_quartz_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:black_quartz_pillar_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:black_quartz_pillar_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:black_quartz_pillar_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:black_quartz_pillar_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:black_quartz_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:black_quartz_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:black_quartz_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:book_pattern"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:booklet"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:breaker"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:canola"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:canola_oil_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:canola_press"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:canola_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:chiseled_black_quartz_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:chiseled_black_quartz_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:chiseled_black_quartz_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:chiseled_black_quartz_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:coal_generator"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:coffee_beans"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:coffee_cup"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:coffee_machine"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:crafter_on_a_stick"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:crate_keeper"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:crusher"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:crusher_double"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:crystallized_canola_seed"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:crystallized_oil_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:diamatine_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:diamatine_crystal_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:diamatine_crystal_cluster"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:diamatine_crystal_shard"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:diamond_aiot"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:display_stand"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:double_battery"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:drill_black"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:drill_blue"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:drill_brown"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:drill_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:drill_cyan"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:drill_gray"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:drill_green"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:drill_light_blue"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:drill_light_gray"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:drill_lime"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:drill_magenta"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:drill_orange"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:drill_pattern"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:drill_pink"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:drill_purple"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:drill_red"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:drill_upgrade_block_placing"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:drill_upgrade_five_by_five"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:drill_upgrade_fortune"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:drill_upgrade_fortune_ii"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:drill_upgrade_silk_touch"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:drill_upgrade_speed"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:drill_upgrade_speed_ii"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:drill_upgrade_speed_iii"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:drill_upgrade_three_by_three"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:drill_white"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:drill_yellow"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:dropper"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:emeradic_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:emeradic_crystal_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:emeradic_crystal_cluster"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:emeradic_crystal_shard"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:empowered_canola_seed"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:empowered_diamatine_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:empowered_diamatine_crystal_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:empowered_emeradic_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:empowered_emeradic_crystal_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:empowered_enori_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:empowered_enori_crystal_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:empowered_oil_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:empowered_palis_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:empowered_palis_crystal_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:empowered_restonia_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:empowered_restonia_crystal_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:empowered_void_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:empowered_void_crystal_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:empowerer"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:empty_cup"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:ender_casing"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:ender_star"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:energizer"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:enervator"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:engineers_goggles"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:engineers_goggles_advanced"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:enori_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:enori_crystal_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:enori_crystal_cluster"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:enori_crystal_shard"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:ethetic_green_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:ethetic_green_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:ethetic_green_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:ethetic_green_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:ethetic_white_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:ethetic_white_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:ethetic_white_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:ethetic_white_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:farmer"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:feeder"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:fermenting_barrel"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:filter"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:firework_box"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:flax_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:fluid_collector"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:fluid_placer"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:gold_aiot"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:greenhouse_glass"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:handheld_filler"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:heat_collector"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:hopping_item_interface"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:iron_aiot"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:iron_casing"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:item_interface"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:item_tag"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:lamp_black"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:lamp_blue"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:lamp_brown"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:lamp_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:lamp_cyan"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:lamp_gray"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:lamp_green"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:lamp_light_blue"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:lamp_light_gray"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:lamp_lime"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:lamp_magenta"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:lamp_orange"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:lamp_pink"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:lamp_purple"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:lamp_red"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:lamp_white"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:lamp_yellow"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:laser_relay"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:laser_relay_advanced"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:laser_relay_extreme"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:laser_relay_fluids"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:laser_relay_item"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:laser_relay_item_advanced"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:laser_upgrade_invisibility"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:laser_upgrade_range"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:laser_wrench"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:lava_factory_casing"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:lava_factory_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:leaf_blo_pattern"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:leaf_blower"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:leaf_generator"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:lens"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:lens_of_certain_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:lens_of_color"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:lens_of_detonation"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:lens_of_disenchanting"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:lens_of_the_killer"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:lens_of_the_miner"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:long_range_breaker"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:netherite_aiot"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:oil_generator"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:palis_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:palis_crystal_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:palis_crystal_cluster"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:palis_crystal_shard"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:phan_con_pattern"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:phantom_booster"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:phantom_breaker"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:phantom_connector"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:phantom_energyface"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:phantom_itemface"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:phantom_liquiface"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:phantom_placer"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:phantom_redstoneface"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:placer"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:player_interface"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:player_probe"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:powered_furnace"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:quadruple_battery"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:quintuple_battery"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:ranged_collector"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:refined_canola_oil_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:restonia_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:restonia_crystal_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:restonia_crystal_cluster"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:restonia_crystal_shard"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:rice"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:rice_dough"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:rice_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:rice_slimeball"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:ring"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:ring_of_growth"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:ring_of_magnetizing"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:shock_suppressor"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:single_battery"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:smooth_black_quartz_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:smooth_black_quartz_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:smooth_black_quartz_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:smooth_black_quartz_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:solidified_experience"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:stone_aiot"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:teleport_staff"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:tiny_charcoal"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:tiny_coal"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:tiny_torch"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:travelers_sack"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:triple_battery"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:vertical_digger"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:void_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:void_crystal_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:void_crystal_cluster"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:void_crystal_shard"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:void_sack"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:water_bowl"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:wings_of_the_bats"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:wood_casing"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:wooden_aiot"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:worm"
+		},
+		{
+			"weight": 1.0,
+			"key": "actuallyadditions:xp_solidifier"
+		}
+	]
+}

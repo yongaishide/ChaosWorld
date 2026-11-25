@@ -1,0 +1,44 @@
+{
+  "title": "009c9c3d60924b27",
+  "icon": "minecraft:writable_book",
+  "order": 1,
+  "quests": [
+    {
+      "id": "55d2b3830627481e",
+      "icon": "texture:integrateddynamics:textures/aspect/read/boolean/inventory/full.png",
+      "x": 1.0,
+      "y": -2.5,
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "choice",
+          "icon": "texture:integrateddynamics:textures/aspect/read/boolean/inventory/full.png",
+          "choices": [
+            {
+              "type": "command",
+              "command": "gamerule keepInventory true"
+            },
+            {
+              "type": "command",
+              "command": "gamerule keepInventory false"
+            }
+          ],
+          "excluded": true
+        }
+      ]
+    }
+  ],
+  "decorations": [
+    {
+      "type": "image",
+      "x": 1.0,
+      "y": -3.5,
+      "w": 2.4166667,
+      "h": 0.45833334
+    }
+  ]
+}

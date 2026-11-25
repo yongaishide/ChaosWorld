@@ -1,0 +1,35 @@
+{
+  "type": "ufo:dimensional_assembly",
+  "energy": 500000,
+  "fluid_inputs": [
+    {
+      "amount": 1000,
+      "ingredient": {
+        "fluid": "astralsorcery:liquid_starlight"
+      }
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "#": 10000,
+      "#t": "ae2:f",
+      "id": "ufo:source_liquid_starlight_fluid"
+    }
+  ],
+  "item_inputs": [
+    {
+      "amount": 4,
+      "ingredient": {
+        "item": "astralsorcery:resonating_gem"
+      }
+    },
+    {
+      "amount": 16,
+      "ingredient": {
+        "item": "chaosworld_core:mana_crystal3"
+      }
+    }
+  ],
+  "item_outputs": [],
+  "time": 400
+}

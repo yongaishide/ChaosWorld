@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:oxidizing",
+  "input": {
+    "count": 1,
+    "item": "ae2lt:basic_topological_lattice"
+  },
+  "output": {
+    "amount": 80,
+    "id": "kubejs:basic_topological_matter"
+  }
+}

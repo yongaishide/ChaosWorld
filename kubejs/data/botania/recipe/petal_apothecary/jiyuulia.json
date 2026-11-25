@@ -1,0 +1,30 @@
+{
+  "type": "botania:petal_apothecary",
+  "ingredients": [
+    {
+      "tag": "botania:petals/pink"
+    },
+    {
+      "tag": "botania:petals/pink"
+    },
+    {
+      "tag": "botania:petals/purple"
+    },
+    {
+      "tag": "botania:petals/light_gray"
+    },
+    {
+      "item": "botania:rune_of_water"
+    },
+    {
+      "item": "botania:rune_of_air"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "id": "botania:jiyuulia"
+  },
+  "reagent": {
+    "tag": "botania:seed_apothecary_reagent"
+  }
+}

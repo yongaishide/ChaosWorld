@@ -1,0 +1,27 @@
+{
+  "type": "immersiveengineering:bottling_machine",
+  "fluid": {
+    "amount": 250,
+    "tag": "c:phenolic_resin"
+  },
+  "inputs": [
+    {
+      "item": "immersiveengineering:mold_bullet_casing"
+    },
+    {
+      "basePredicate": {
+        "tag": "c:nuggets/copper"
+      },
+      "count": 3
+    }
+  ],
+  "results": [
+    {
+      "count": 2,
+      "id": "immersiveengineering:empty_shell"
+    },
+    {
+      "id": "immersiveengineering:mold_bullet_casing"
+    }
+  ]
+}

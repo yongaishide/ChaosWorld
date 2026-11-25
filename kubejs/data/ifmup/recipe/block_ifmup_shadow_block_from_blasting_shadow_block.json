@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "blocks",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "shadow_block",
+  "ingredient": {
+    "tag": "c:storage_blocks/raw_shadow"
+  },
+  "result": {
+    "count": 1,
+    "id": "ifmup:shadow_block"
+  }
+}

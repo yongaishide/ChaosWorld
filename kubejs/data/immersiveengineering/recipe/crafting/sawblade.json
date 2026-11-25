@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "i": {
+      "tag": "c:ingots/steel"
+    },
+    "p": {
+      "tag": "c:plates/steel"
+    }
+  },
+  "pattern": [
+    "ipi",
+    "p p",
+    "ipi"
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersiveengineering:sawblade"
+  }
+}

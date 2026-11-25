@@ -1,0 +1,492 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "jdte:advanced_ae_output_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:advanced_bio_crusher"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:advanced_bio_extractor"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:advanced_energy_transmitter"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:advanced_entity_accelerator"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:advanced_essence_conversion_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:advanced_fluid_mixer"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:advanced_fluid_receiver"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:advanced_fluid_sender"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:advanced_fluid_stabilizer"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:advanced_gel_generator"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:advanced_glue_activator"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:advanced_infusion_machine"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:advanced_item_collector"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:advanced_item_receiver"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:advanced_item_sender"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:advanced_life_extractor"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:advanced_machine_settings_copier"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:advanced_potion_brewer"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:advanced_time_accelerator"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:advanced_upgrade_storage"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:ae_acceleration_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:ae_crafting_read_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:ae_extraction_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:ae_output_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:basic_fluid_receiver"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:basic_fluid_sender"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:basic_fluid_stabilizer"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:basic_glue_activator"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:basic_item_receiver"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:basic_item_sender"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:basic_time_accelerator"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:big_fluid_tank"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:bio_factory"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:cainiaoyo_fumo"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:capacity_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:charged_lightning_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:crafting_pattern"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:creative_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:crystal_incubator"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:eclipsealloy_wrench"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:elder_guardian_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:ender_dragon_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:ender_dragon_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:energy_brewing_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:energy_overload_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:entity_acceleration_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:entity_suppressor"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:essence_conversion_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:extended_bio_crusher"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:extended_bio_extractor"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:extended_block_breaker"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:extended_block_placer"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:extended_block_swapper"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:extended_clicker"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:extended_dropper"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:extended_energy_transmitter"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:extended_entity_accelerator"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:extended_experience_holder"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:extended_fluid_collector"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:extended_fluid_generator"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:extended_fluid_mixer"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:extended_fluid_placer"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:extended_fluid_receiver"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:extended_fluid_sender"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:extended_fluid_stabilizer"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:extended_gel_generator"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:extended_generator"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:extended_glue_activator"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:extended_infusion_machine"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:extended_item_receiver"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:extended_item_sender"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:extended_life_extractor"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:extended_sensor"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:extended_time_accelerator"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:extended_time_freezer"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:extended_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:factory_package"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:factory_packer"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:filter_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:fluid_storage_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:fluid_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:fortune_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:generator_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:greenhouse"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:large_fuel_canister"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:large_greenhouse"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:large_mineral_extractor"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:large_pocket_generator"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:large_potion_canister"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:life_apple"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:life_breeder"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:life_fluid_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:life_synthesis_vat"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:loot_fabricator"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:looting_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:maiqilin_fumo"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:mineral_extractor"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:mineral_survey"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:mixing_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:overclock_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:precision_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:range_blocker"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:range_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:repair_talisman"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:seed_conversion_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:sharpness_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:thunderstorm_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:time_fluid_catalyst"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:time_freezer"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:time_multitool"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:ultimate_capacity_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:ultimate_essence_conversion_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:ultimate_mixing_parallel_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:ultimate_overclock_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:ultimate_portal_gun"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:ultimate_time_wand"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:underclock_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:upgrade_storage"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:wither_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:wither_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "jdte:xingye_fumo"
+		}
+	]
+}

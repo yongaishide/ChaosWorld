@@ -1,0 +1,19 @@
+{
+  "type": "powah:energizing",
+  "energy": 120000,
+  "ingredients": [
+    {
+      "item": "allthemodium:allthemodium_ingot"
+    },
+    {
+      "item": "allthemodium:vibranium_ingot"
+    },
+    {
+      "item": "allthemodium:unobtainium_ingot"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "chaosworld_core:ingot_atmium"
+  }
+}

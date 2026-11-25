@@ -1,0 +1,38 @@
+{
+  "type": "ufo:dimensional_assembly",
+  "energy": 25000000,
+  "fluid_inputs": [
+    {
+      "amount": 1000,
+      "ingredient": {
+        "fluid": "mekanism:superheated_sodium"
+      }
+    }
+  ],
+  "fluid_outputs": [],
+  "item_inputs": [
+    {
+      "ingredient": {
+        "item": "draconicevolution:wyvern_core"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "mekanismsun:supernova_alloy"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "chaosworld_core:ingot_wyvern_metal"
+      }
+    }
+  ],
+  "item_outputs": [
+    {
+      "#": 1,
+      "#t": "ae2:i",
+      "id": "chaosworld_core:ingot_tech_8"
+    }
+  ],
+  "time": 3000
+}

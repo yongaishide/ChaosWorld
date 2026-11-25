@@ -1,0 +1,31 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "friendsandfoes"
+        }
+    ],
+    "entity": "friendsandfoes:crab",
+    "name": {
+        "translate": "entity.friendsandfoes.crab",
+        "color": "#8A4F42"
+    },
+    "sim_cost": 256,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+	"trivia": "custom.trivia.crab_friend",
+    "fabricator_drops": [
+        {
+            "id": "friendsandfoes:crab_claw",
+            "count": 4
+        },
+        {
+            "id": "friendsandfoes:crab_egg",
+            "count": 12
+        }
+    ]
+}

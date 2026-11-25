@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "s": {
+      "tag": "immersiveengineering:treated_wood_slab"
+    },
+    "w": {
+      "tag": "immersiveengineering:treated_wood"
+    }
+  },
+  "pattern": [
+    "sss",
+    "w w",
+    "www"
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersiveengineering:wooden_barrel"
+  }
+}

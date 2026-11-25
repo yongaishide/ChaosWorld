@@ -1,0 +1,14 @@
+{
+  "type": "botania:pure_daisy",
+  "input": {
+    "type": "botania:block",
+    "block": "minecraft:netherrack"
+  },
+  "output": {
+    "type": "botania:state",
+    "state": {
+      "Name": "minecraft:cobblestone"
+    }
+  },
+  "time": 150
+}

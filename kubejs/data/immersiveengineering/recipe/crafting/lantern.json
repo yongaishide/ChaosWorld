@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "g": {
+      "tag": "c:dusts/glowstone"
+    },
+    "i": {
+      "tag": "c:nuggets/iron"
+    },
+    "p": {
+      "item": "minecraft:glass_pane"
+    }
+  },
+  "pattern": [
+    "iii",
+    "pgp",
+    "iii"
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersiveengineering:lantern"
+  }
+}

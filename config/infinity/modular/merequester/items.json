@@ -1,0 +1,16 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "merequester:requester"
+		},
+		{
+			"weight": 1.0,
+			"key": "merequester:requester_terminal"
+		},
+		{
+			"weight": 1.0,
+			"key": "merequester:wireless_requester_terminal"
+		}
+	]
+}

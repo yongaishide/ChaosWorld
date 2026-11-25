@@ -1,0 +1,92 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "integratedtunnels:dummy_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "integratedtunnels:part_exporter_energy"
+		},
+		{
+			"weight": 1.0,
+			"key": "integratedtunnels:part_exporter_fluid"
+		},
+		{
+			"weight": 1.0,
+			"key": "integratedtunnels:part_exporter_item"
+		},
+		{
+			"weight": 1.0,
+			"key": "integratedtunnels:part_exporter_world_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "integratedtunnels:part_exporter_world_energy"
+		},
+		{
+			"weight": 1.0,
+			"key": "integratedtunnels:part_exporter_world_fluid"
+		},
+		{
+			"weight": 1.0,
+			"key": "integratedtunnels:part_exporter_world_item"
+		},
+		{
+			"weight": 1.0,
+			"key": "integratedtunnels:part_importer_energy"
+		},
+		{
+			"weight": 1.0,
+			"key": "integratedtunnels:part_importer_fluid"
+		},
+		{
+			"weight": 1.0,
+			"key": "integratedtunnels:part_importer_item"
+		},
+		{
+			"weight": 1.0,
+			"key": "integratedtunnels:part_importer_world_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "integratedtunnels:part_importer_world_energy"
+		},
+		{
+			"weight": 1.0,
+			"key": "integratedtunnels:part_importer_world_fluid"
+		},
+		{
+			"weight": 1.0,
+			"key": "integratedtunnels:part_importer_world_item"
+		},
+		{
+			"weight": 1.0,
+			"key": "integratedtunnels:part_interface_energy"
+		},
+		{
+			"weight": 1.0,
+			"key": "integratedtunnels:part_interface_filter_energy"
+		},
+		{
+			"weight": 1.0,
+			"key": "integratedtunnels:part_interface_filter_fluid"
+		},
+		{
+			"weight": 1.0,
+			"key": "integratedtunnels:part_interface_filter_item"
+		},
+		{
+			"weight": 1.0,
+			"key": "integratedtunnels:part_interface_fluid"
+		},
+		{
+			"weight": 1.0,
+			"key": "integratedtunnels:part_interface_item"
+		},
+		{
+			"weight": 1.0,
+			"key": "integratedtunnels:part_player_simulator"
+		}
+	]
+}

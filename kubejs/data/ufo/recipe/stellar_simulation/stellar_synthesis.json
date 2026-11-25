@@ -1,0 +1,106 @@
+{
+  "type": "ufo:stellar_simulation",
+  "coolant_amount": 220000,
+  "cooling_level": 3,
+  "energy": 2500000000,
+  "field_tier": 3,
+  "fluid_inputs": [
+    {
+      "amount": 2500000,
+      "ingredient": {
+        "fluid": "ufo:raw_star_matter_plasma"
+      }
+    },
+    {
+      "amount": 1000000,
+      "ingredient": {
+        "fluid": "ufo:transcending_matter"
+      }
+    },
+    {
+      "amount": 500000,
+      "ingredient": {
+        "fluid": "ufo:uu_matter"
+      }
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "#": 1000000,
+      "#t": "ae2:f",
+      "id": "ufo:source_liquid_starlight_fluid"
+    },
+    {
+      "#": 600000,
+      "#t": "ae2:f",
+      "id": "ufo:raw_star_matter_plasma"
+    },
+    {
+      "#": 300000,
+      "#t": "ae2:f",
+      "id": "ufo:source_primordial_matter_fluid"
+    },
+    {
+      "#": 250000,
+      "#t": "ae2:f",
+      "id": "ufo:source_temporal_fluid"
+    }
+  ],
+  "fuel_amount": 180000,
+  "fuel_fluid": "ufo:raw_star_matter_plasma",
+  "item_inputs": [
+    {
+      "amount": 64,
+      "ingredient": {
+        "item": "ufo:charged_enriched_neutronium_sphere"
+      }
+    },
+    {
+      "amount": 32,
+      "ingredient": {
+        "item": "ufo:aether_containment_capsule"
+      }
+    },
+    {
+      "amount": 16,
+      "ingredient": {
+        "item": "ufo:dark_matter"
+      }
+    },
+    {
+      "amount": 64,
+      "ingredient": {
+        "item": "ufo:quantum_anomaly"
+      }
+    }
+  ],
+  "item_outputs": [
+    {
+      "#": 12000000,
+      "#t": "ae2:i",
+      "id": "ufo:pulsar_fragment_dust"
+    },
+    {
+      "#": 7000000,
+      "#t": "ae2:i",
+      "id": "ufo:white_dwarf_matter"
+    },
+    {
+      "#": 5000000,
+      "#t": "ae2:i",
+      "id": "ufo:neutron_star_matter"
+    },
+    {
+      "#": 3500000,
+      "#t": "ae2:i",
+      "id": "ufo:pulsar_matter"
+    },
+    {
+      "#": 500000,
+      "#t": "ae2:i",
+      "id": "ufo:quantum_anomaly"
+    }
+  ],
+  "simulation_name": "Stellar Synthesis",
+  "time": 7200
+}

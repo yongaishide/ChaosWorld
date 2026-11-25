@@ -1,0 +1,12 @@
+{
+  "type": "botania:mana_infusion",
+  "group": "botania:mana_powder",
+  "input": {
+    "tag": "botania:mana_powder_source_dusts"
+  },
+  "mana": 500,
+  "output": {
+    "count": 1,
+    "id": "botania:mana_powder"
+  }
+}

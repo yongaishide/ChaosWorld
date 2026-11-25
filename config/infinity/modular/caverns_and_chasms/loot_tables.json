@@ -1,0 +1,32 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "caverns_and_chasms:spawners/ominous/trial_chamber/token"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "caverns_and_chasms:spawners/ominous/trial_chamber/token/token"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "caverns_and_chasms:spawners/trial_chamber/token"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "caverns_and_chasms:spawners/trial_chamber/token/token"
+		}
+	]
+}

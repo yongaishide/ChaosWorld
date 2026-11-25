@@ -1,0 +1,17 @@
+alpha_modify = true
+debug_mode = false
+dynamic_lights = true
+# Default: 128
+# Range: 1 ~ 512
+max_lights = 128
+bloom = true
+bloom_with_shaders = true
+# Default: 5
+# Range: 2 ~ 10
+bloom_levels = 5
+# Default: 1.001
+# Range: 0.0 ~ 10.0
+bloom_threshold = 1.001
+# Default: 0.7
+# Range: 0.0 ~ 2.0
+bloom_strength = 0.7

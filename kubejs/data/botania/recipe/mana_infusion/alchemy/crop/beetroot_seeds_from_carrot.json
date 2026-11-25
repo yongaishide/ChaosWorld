@@ -1,0 +1,16 @@
+{
+  "type": "botania:mana_infusion",
+  "catalyst": {
+    "type": "botania:block",
+    "block": "botania:alchemy_catalyst"
+  },
+  "group": "botania:crop_cycle",
+  "input": {
+    "item": "minecraft:carrot"
+  },
+  "mana": 6000,
+  "output": {
+    "count": 1,
+    "id": "minecraft:beetroot_seeds"
+  }
+}

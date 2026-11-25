@@ -1,0 +1,41 @@
+{
+  "type": "ufo:dimensional_assembly",
+  "energy": 10000000,
+  "fluid_inputs": [
+    {
+      "amount": 4000,
+      "ingredient": {
+        "fluid": "ufo:source_primordial_matter_fluid"
+      }
+    }
+  ],
+  "fluid_outputs": [],
+  "item_inputs": [
+    {
+      "amount": 4,
+      "ingredient": {
+        "item": "ufo:white_dwarf_matter"
+      }
+    },
+    {
+      "amount": 4,
+      "ingredient": {
+        "item": "ufo:neutron_star_matter"
+      }
+    },
+    {
+      "amount": 4,
+      "ingredient": {
+        "item": "ufo:pulsar_matter"
+      }
+    }
+  ],
+  "item_outputs": [
+    {
+      "#": 64,
+      "#t": "ae2:i",
+      "id": "ufo:proto_matter"
+    }
+  ],
+  "time": 1200
+}

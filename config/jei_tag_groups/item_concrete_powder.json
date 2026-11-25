@@ -1,0 +1,11 @@
+{
+  "description": "折叠混凝土粉末",
+  "type": "item",
+  "tag": "c:concrete_powders",
+  "icon": "minecraft:white_concrete_powder",
+  "display_name": "jei_tag_groups.group.concrete_powder.name",
+  "tooltip": [
+    "jei_tag_groups.group.concrete_powder.tooltip"
+  ],
+  "border_color": "#55AAFF"
+}

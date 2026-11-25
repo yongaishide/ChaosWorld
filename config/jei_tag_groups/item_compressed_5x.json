@@ -1,0 +1,11 @@
+{
+  "description": "折叠五重压缩物品",
+  "type": "item",
+  "tag": "allthecompressed:5x",
+  "icon": "allthecompressed:diamond_block_5x",
+  "display_name": "jei_tag_groups.group.compressed_5x.name",
+  "tooltip": [
+    "jei_tag_groups.group.compressed_5x.tooltip"
+  ],
+  "border_color": "#FFAA55"
+}

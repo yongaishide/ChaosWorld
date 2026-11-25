@@ -1,0 +1,332 @@
+{
+  "title": "491071d288816a76",
+  "icon": "minecraft:grass_block",
+  "quests": [
+    {
+      "id": "7be82c704232e651",
+      "x": 1.0,
+      "y": 0.5,
+      "deps": [
+        "27dc15286a159651"
+      ],
+      "tasks": [
+        {
+          "type": "advancement",
+          "icon": "minecraft:crafting_table",
+          "advancement": "minecraft:story/root"
+        }
+      ]
+    },
+    {
+      "id": "27dc15286a159651",
+      "x": -1.0,
+      "y": 0.5,
+      "deps": [
+        "0e72c4512313573f"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "0e72c4512313573f",
+      "x": -3.0,
+      "y": 0.5,
+      "deps": [
+        "61da5a07406bdb78/44b1d89c5d74be65"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "71bfff7aa0e57c2e",
+      "x": 3.0,
+      "y": -1.5,
+      "deps": [
+        "1654a6808790b6f2"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "1654a6808790b6f2",
+      "x": 3.0,
+      "y": 0.5,
+      "deps": [
+        "7be82c704232e651"
+      ],
+      "tasks": [
+        {
+          "type": "advancement",
+          "advancement": "minecraft:story/mine_stone"
+        }
+      ]
+    },
+    {
+      "id": "4d4f9df8431f5a24",
+      "x": 5.0,
+      "y": 0.5,
+      "deps": [
+        "1654a6808790b6f2"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "7ac9208fa7636531",
+      "x": 7.0,
+      "y": 0.5,
+      "deps": [
+        "4d4f9df8431f5a24"
+      ],
+      "tasks": [
+        {
+          "type": "advancement",
+          "advancement": "minecraft:story/smelt_iron"
+        }
+      ]
+    },
+    {
+      "id": "64a7388dd2553ca7",
+      "x": 9.0,
+      "y": -1.5,
+      "deps": [
+        "7ac9208fa7636531"
+      ],
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "minecraft:iron_golem"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "item",
+          "item": "chaosworld_core:iron_golem_core"
+        }
+      ]
+    },
+    {
+      "id": "525a4058005e568c",
+      "x": 1.0,
+      "y": 2.5,
+      "deps": [
+        "7be82c704232e651"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "5c37e68b0948402d",
+      "x": 3.0,
+      "y": 2.5,
+      "deps": [
+        "525a4058005e568c"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "immersiveengineering:hemp_fiber"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "random",
+          "icon": "ftbquests:lootcrate[ftbquests:loot_crate=\"putong\"]",
+          "choices": [
+            {
+              "type": "item",
+              "item": "minecraft:diamond",
+              "count": 10
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_iron",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_copper",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "minecraft:raw_gold",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_osmium",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_tin",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_lead",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "alltheores:raw_nickel",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "allthemodium:raw_allthemodium"
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:iron_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:copper_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "coinsje:gold_coin_pile",
+              "count": 5
+            },
+            {
+              "type": "item",
+              "item": "ae2omnicells:omni_cell_component_1k"
+            },
+            {
+              "type": "item",
+              "item": "avaritia:compressed_chest"
+            },
+            {
+              "type": "item",
+              "item": "botania:livingrock",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:livingwood_log",
+              "count": 32
+            },
+            {
+              "type": "item",
+              "item": "botania:manasteel_ingot",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_pearl",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_diamond",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_powder",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:mana_quartz",
+              "count": 4
+            },
+            {
+              "type": "item",
+              "item": "botania:black_lotus",
+              "count": 8
+            },
+            {
+              "type": "item",
+              "item": "botania:blacker_lotus",
+              "count": 4
+            }
+          ],
+          "excluded": true
+        }
+      ]
+    },
+    {
+      "id": "3381f43d606859df",
+      "x": 11.0,
+      "y": 0.5,
+      "deps": [
+        "55900702de18c401"
+      ],
+      "tasks": [
+        {
+          "type": "advancement",
+          "advancement": "minecraft:story/mine_diamond"
+        }
+      ]
+    },
+    {
+      "id": "55900702de18c401",
+      "x": 9.0,
+      "y": 0.5,
+      "deps": [
+        "7ac9208fa7636531"
+      ],
+      "tasks": [
+        {
+          "type": "advancement",
+          "advancement": "minecraft:story/iron_tools"
+        }
+      ]
+    },
+    {
+      "id": "link_71ce00e96eacf464",
+      "x": 11.0,
+      "y": -1.5,
+      "shape": "gear",
+      "size": 2.0,
+      "optional": true,
+      "tasks": [
+        {
+          "type": "quest",
+          "quest": "5eb8032318aa9ef3/71ce00e96eacf464"
+        }
+      ],
+      "silent": true
+    }
+  ]
+}

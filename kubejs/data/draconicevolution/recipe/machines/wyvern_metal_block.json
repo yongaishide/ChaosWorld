@@ -1,0 +1,50 @@
+{
+  "type": "draconicevolution:fusion_crafting",
+  "catalyst": {
+    "item": "chaosworld_core:tech_6_block"
+  },
+  "ingredients": [
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "draconicevolution:draconium_block"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "draconicevolution:draconium_block"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "ifeu:dragon_star_block"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "ifeu:dragon_star_block"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "tag": "iceandfire:dragonsteel_block"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "tag": "iceandfire:dragonsteel_block"
+      }
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "chaosworld_core:wyvern_metal_block"
+  },
+  "techLevel": "draconium",
+  "totalEnergy": 5760000
+}

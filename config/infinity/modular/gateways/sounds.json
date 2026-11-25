@@ -1,0 +1,20 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "gateways:gate_ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "gateways:gate_end"
+		},
+		{
+			"weight": 1.0,
+			"key": "gateways:gate_start"
+		},
+		{
+			"weight": 1.0,
+			"key": "gateways:gate_warp"
+		}
+	]
+}

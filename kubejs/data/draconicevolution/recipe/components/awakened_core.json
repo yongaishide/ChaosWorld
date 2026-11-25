@@ -1,0 +1,62 @@
+{
+  "type": "draconicevolution:fusion_crafting",
+  "catalyst": {
+    "item": "draconicevolution:wyvern_core"
+  },
+  "ingredients": [
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "ufo:neutron_star_fragment_ingot"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "ufo:neutron_star_fragment_ingot"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "tag": "c:ingots/draconium_awakened"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "tag": "c:ingots/draconium_awakened"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "tag": "c:ingots/draconium_awakened"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "tag": "c:ingots/draconium_awakened"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "ufo:neutron_star_fragment_ingot"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "ufo:neutron_star_fragment_ingot"
+      }
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:awakened_core"
+  },
+  "techLevel": "draconic",
+  "totalEnergy": 1000000
+}

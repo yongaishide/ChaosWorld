@@ -1,0 +1,888 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "ufo:150m_mega_co_processor"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:1b_mega_crafting_storage"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:1qd_mega_crafting_storage"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:1t_mega_crafting_storage"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:250t_mega_crafting_storage"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:2b_mega_co_processor"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:300m_mega_co_processor"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:50b_mega_crafting_storage"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:50m_mega_co_processor"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:750m_mega_co_processor"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:ae_energy_input_hatch"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:aether_containment_capsule"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:bose_einstein_condensate_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:charged_enriched_neutronium_sphere"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:chrono_catalyst_t1"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:chrono_catalyst_t2"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:chrono_catalyst_t3"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:corporeal_matter"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:cosmic_string_component_matrix"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:dark_matter"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:dimensional_catalyst"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:dimensional_matter_assembler"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:dimensional_processor"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:dimensional_processor_press"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:dust_blizz"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:dust_cryotheum"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:enriched_neutronium_sphere"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:entropy_assembler_core_casing"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:entropy_computer_condensation_matrix"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:entropy_singularity_casing"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:event_horizon_component_matrix"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:gelid_cryotheum_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:graviton_plated_casing"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:hyper_dense_component_matrix"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:infinity_amethyst_shard_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:infinity_antimatter_pellet_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:infinity_black_dye_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:infinity_blue_dye_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:infinity_brown_dye_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:infinity_cobbled_deepslate_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:infinity_cobblestone_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:infinity_cyan_dye_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:infinity_end_stone_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:infinity_fabrication_singularity_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:infinity_genesis_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:infinity_glass_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:infinity_gravel_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:infinity_gray_dye_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:infinity_green_dye_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:infinity_hdpe_pellet_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:infinity_lava_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:infinity_light_blue_dye_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:infinity_light_gray_dye_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:infinity_lime_dye_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:infinity_magenta_dye_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:infinity_netherrack_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:infinity_oak_log_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:infinity_obsidian_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:infinity_orange_dye_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:infinity_pink_dye_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:infinity_plutonium_pellet_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:infinity_polonium_pellet_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:infinity_purple_dye_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:infinity_red_dye_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:infinity_sand_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:infinity_sky_stone_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:infinity_water_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:infinity_white_dye_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:infinity_yellow_dye_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:liquid_starlight_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:matterflow_catalyst_t1"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:matterflow_catalyst_t2"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:matterflow_catalyst_t3"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:me_massive_fluid_hatch"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:me_massive_input_hatch"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:me_massive_output_hatch"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:neutron_fluid_cell_housing"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:neutron_star_fragment_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:neutron_star_fragment_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:neutron_star_fragment_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:neutron_star_fragment_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:neutron_star_fragment_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:neutron_star_fragment_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:neutron_star_matter"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:neutron_star_reservoir_beaco"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:neutron_star_reservoir_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:neutron_star_reservoir_echo"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:neutron_star_reservoir_nexus"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:neutron_star_reservoir_singularity"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:neutron_star_storage_component_100m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:neutron_star_storage_component_250m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:neutron_star_storage_component_40m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:neutron_star_storage_component_750m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:neutron_star_storage_component_infinity"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:neutronium_sphere"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:nuclear_star"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:obsidian_matrix"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:overflux_catalyst_t1"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:overflux_catalyst_t2"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:overflux_catalyst_t3"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:phase_shift_component_matrix"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:primordial_matter_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:printed_dimensional_processor"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:proto_matter"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:pulsar_cell_housing"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:pulsar_chamber_beaco"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:pulsar_chamber_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:pulsar_chamber_echo"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:pulsar_chamber_nexus"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:pulsar_chamber_singularity"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:pulsar_fragment_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:pulsar_fragment_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:pulsar_fragment_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:pulsar_fragment_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:pulsar_fragment_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:pulsar_matter"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:pulsar_storage_component_100m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:pulsar_storage_component_250m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:pulsar_storage_component_40m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:pulsar_storage_component_750m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:pulsar_storage_component_infinity"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:quantum_anomaly"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:quantum_catalyst_t1"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:quantum_catalyst_t2"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:quantum_catalyst_t3"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:quantum_computation_nexus_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:quantum_cryoforge_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:quantum_energy_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:quantum_grid_link"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:quantum_hyper_mechanical_casing"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:quantum_interface"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:quantum_lattice_frame"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:quantum_matter_fabricator_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:quantum_pattern_buffer"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:quantum_pattern_fabrication_matrix_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:quantum_pattern_hatch"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:quantum_pattern_provider_part"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:quantum_pattern_proxy"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:quantum_processor_assembler_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:quantum_slicer_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:quantum_wireless_tool"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:raw_star_matter_plasma_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:reality_ripper"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:safe_containment_matter"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:scar"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:scrap"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:scrap_box"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:spatial_fluid_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:stable_coolant_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:stellar_field_generator_t1"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:stellar_field_generator_t2"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:stellar_field_generator_t3"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:stellar_nexus_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:storage_cell_side_100m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:storage_cell_side_250m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:storage_cell_side_40m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:storage_cell_side_750m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:storage_cell_side_infinity"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:structure_scanner"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:temporal_fluid_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:tesseract_component_matrix"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:thermal_resistor_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:thermal_resistor_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:thermal_resistor_mask"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:thermal_resistor_pants"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:thermal_resistor_plating"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:transcending_matter_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:ufo_abyssal_sight_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:ufo_adaptive_biosphere_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:ufo_aegis_singularity_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:ufo_astral_wings_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:ufo_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:ufo_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:ufo_bow"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:ufo_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:ufo_chrono_regenerator_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:ufo_cloaking_field_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:ufo_energy_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:ufo_entropy_magnet_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:ufo_fishing_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:ufo_greatsword"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:ufo_hammer"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:ufo_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:ufo_hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:ufo_kinetic_overdrive_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:ufo_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:ufo_loot_singularity_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:ufo_matter_translocator_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:ufo_phase_step_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:ufo_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:ufo_quantum_relay_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:ufo_reality_anchor_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:ufo_reprisal_matrix_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:ufo_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:ufo_singularity_strike_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:ufo_staff"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:ufo_sword"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:ufo_upgrade_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:ufo_void_flight_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:unstable_white_hole_matter"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:uu_amplifier_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:uu_matter_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:uu_matter_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:white_dwarf_cell_beaco"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:white_dwarf_cell_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:white_dwarf_cell_echo"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:white_dwarf_cell_nexus"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:white_dwarf_cell_singularity"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:white_dwarf_fragment_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:white_dwarf_fragment_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:white_dwarf_fragment_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:white_dwarf_fragment_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:white_dwarf_fragment_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:white_dwarf_fragment_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:white_dwarf_item_cell_housing"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:white_dwarf_matter"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:white_dwarf_storage_component_100m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:white_dwarf_storage_component_250m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:white_dwarf_storage_component_40m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:white_dwarf_storage_component_750m"
+		},
+		{
+			"weight": 1.0,
+			"key": "ufo:white_dwarf_storage_component_infinity"
+		}
+	]
+}

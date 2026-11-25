@@ -1,0 +1,147 @@
+{
+	"elements": [
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "iceandfire:cyclops_cave"
+			},
+			"weight": 1.0,
+			"key": "iceandfire:cyclops_cave"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "underground_structures",
+				"id": "iceandfire:fire_dragon_cave"
+			},
+			"weight": 1.0,
+			"key": "iceandfire:fire_dragon_cave"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "iceandfire:fire_dragon_roost"
+			},
+			"weight": 1.0,
+			"key": "iceandfire:fire_dragon_roost"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "iceandfire:gorgon_temple"
+			},
+			"weight": 1.0,
+			"key": "iceandfire:gorgon_temple"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "iceandfire:graveyard"
+			},
+			"weight": 1.0,
+			"key": "iceandfire:graveyard"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "iceandfire:hydra_cave"
+			},
+			"weight": 1.0,
+			"key": "iceandfire:hydra_cave"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "underground_structures",
+				"id": "iceandfire:ice_dragon_cave"
+			},
+			"weight": 1.0,
+			"key": "iceandfire:ice_dragon_cave"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "iceandfire:ice_dragon_roost"
+			},
+			"weight": 1.0,
+			"key": "iceandfire:ice_dragon_roost"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "underground_structures",
+				"id": "iceandfire:lightning_dragon_cave"
+			},
+			"weight": 1.0,
+			"key": "iceandfire:lightning_dragon_cave"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "iceandfire:lightning_dragon_roost"
+			},
+			"weight": 1.0,
+			"key": "iceandfire:lightning_dragon_roost"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "iceandfire:mausoleum"
+			},
+			"weight": 1.0,
+			"key": "iceandfire:mausoleum"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "iceandfire:pixie_village"
+			},
+			"weight": 1.0,
+			"key": "iceandfire:pixie_village"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "iceandfire:siren_island"
+			},
+			"weight": 1.0,
+			"key": "iceandfire:siren_island"
+		}
+	]
+}

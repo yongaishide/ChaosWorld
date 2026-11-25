@@ -1,0 +1,235 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "apothic_enchanting:blocks/apothic_enchanting_table"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "apothic_enchanting:blocks/basic_bookshelf"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "apothic_enchanting:blocks/beeshelf"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "apothic_enchanting:blocks/blazing_hellshelf"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "apothic_enchanting:blocks/crystal_seashelf"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "apothic_enchanting:blocks/deepshelf"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "apothic_enchanting:blocks/dormant_deepshelf"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "apothic_enchanting:blocks/draconic_endshelf"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "apothic_enchanting:blocks/echoing_deepshelf"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "apothic_enchanting:blocks/echoing_sculkshelf"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "apothic_enchanting:blocks/ender_library"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "apothic_enchanting:blocks/endshelf"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "apothic_enchanting:blocks/filtering_shelf"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "apothic_enchanting:blocks/geode_shelf"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "apothic_enchanting:blocks/glowing_hellshelf"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "apothic_enchanting:blocks/heart_seashelf"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "apothic_enchanting:blocks/hellshelf"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "apothic_enchanting:blocks/infused_hellshelf"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "apothic_enchanting:blocks/infused_seashelf"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "apothic_enchanting:blocks/library"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "apothic_enchanting:blocks/melonshelf"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "apothic_enchanting:blocks/pearl_endshelf"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "apothic_enchanting:blocks/raven_enchanting_table"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "apothic_enchanting:blocks/seashelf"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "apothic_enchanting:blocks/sightshelf"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "apothic_enchanting:blocks/sightshelf_t2"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "apothic_enchanting:blocks/soul_touched_deepshelf"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "apothic_enchanting:blocks/soul_touched_sculkshelf"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "apothic_enchanting:blocks/stoneshelf"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "apothic_enchanting:blocks/treasure_shelf"
+		},
+		{
+			"data": {
+				"Type": "advancement_location"
+			},
+			"weight": 1.0,
+			"key": "apothic_enchanting:boon_deepslate_drops"
+		},
+		{
+			"data": {
+				"Type": "advancement_location"
+			},
+			"weight": 1.0,
+			"key": "apothic_enchanting:boon_netherrack_drops"
+		},
+		{
+			"data": {
+				"Type": "advancement_location"
+			},
+			"weight": 1.0,
+			"key": "apothic_enchanting:boon_stone_drops"
+		}
+	]
+}

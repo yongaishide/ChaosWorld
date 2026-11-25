@@ -1,0 +1,15 @@
+{
+  "type": "botania:pure_daisy",
+  "input": {
+    "type": "botania:block",
+    "block": "minecraft:end_stone"
+  },
+  "output": {
+    "type": "botania:state",
+    "state": {
+      "Name": "minecraft:cobbled_deepslate"
+    }
+  },
+  "success_function": "botania:ender_essence_release",
+  "time": 150
+}

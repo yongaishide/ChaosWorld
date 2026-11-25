@@ -1,0 +1,21 @@
+{
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "minecraft:melon_seeds"
+  },
+  "render": {
+    "type": "immersiveengineering:stem",
+    "attachedStem": "minecraft:attached_melon_stem",
+    "crop": "minecraft:melon",
+    "stem": "minecraft:melon_stem"
+  },
+  "results": [
+    {
+      "id": "minecraft:melon"
+    }
+  ],
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 800
+}

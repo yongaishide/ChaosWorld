@@ -1,0 +1,21 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "category": "specialBullet",
+  "inputs": [
+    {
+      "item": "immersiveengineering:empty_shell"
+    },
+    {
+      "tag": "c:gunpowders"
+    },
+    {
+      "basePredicate": {
+        "item": "immersiveengineering:bullet_homing"
+      },
+      "count": 4
+    }
+  ],
+  "result": {
+    "id": "immersiveengineering:bullet_wolfpack"
+  }
+}

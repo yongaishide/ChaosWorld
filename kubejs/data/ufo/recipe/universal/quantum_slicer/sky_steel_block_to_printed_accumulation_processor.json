@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "megacells"
+    }
+  ],
+  "type": "ufo:universal_multiblock",
+  "machine": "quantum_slicer",
+  "recipe_name": "universal/quantum_slicer/sky_steel_block_to_printed_accumulation_processor",
+  "item_inputs": [
+    {
+      "ingredient": {
+        "item": "megacells:sky_steel_block"
+      },
+      "amount": 8192
+    }
+  ],
+  "item_output": {
+    "id": "megacells:printed_accumulation_processor",
+    "count": 73728
+  },
+  "energy": 12000000,
+  "time": 200,
+  "required_tier": 1
+}

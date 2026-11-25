@@ -1,0 +1,36 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "projecte:charge"
+		},
+		{
+			"weight": 1.0,
+			"key": "projecte:destruct"
+		},
+		{
+			"weight": 1.0,
+			"key": "projecte:heal"
+		},
+		{
+			"weight": 1.0,
+			"key": "projecte:power"
+		},
+		{
+			"weight": 1.0,
+			"key": "projecte:transmute"
+		},
+		{
+			"weight": 1.0,
+			"key": "projecte:uncharge"
+		},
+		{
+			"weight": 1.0,
+			"key": "projecte:watermagic"
+		},
+		{
+			"weight": 1.0,
+			"key": "projecte:windmagic"
+		}
+	]
+}

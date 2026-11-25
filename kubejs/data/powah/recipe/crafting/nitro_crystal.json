@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "powah:nitro_crystal_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "powah:crystal_nitro"
+  }
+}

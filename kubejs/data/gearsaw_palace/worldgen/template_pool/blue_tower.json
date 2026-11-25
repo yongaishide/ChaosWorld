@@ -1,0 +1,33 @@
+{
+  "name": "gearsaw_palace:blue_tower",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gearsaw_palace:blue_tower_1",
+        "projection": "rigid",
+        "processors": "gearsaw_palace:compat"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gearsaw_palace:blue_tower_2",
+        "projection": "rigid",
+        "processors": "gearsaw_palace:compat"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gearsaw_palace:blue_tower_3",
+        "projection": "rigid",
+        "processors": "gearsaw_palace:compat"
+      }
+    }
+  ]
+}

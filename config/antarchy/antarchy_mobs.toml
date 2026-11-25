@@ -1,0 +1,1445 @@
+#Whether ants will steal edible items from nearby chest inventories.
+antsStealFromChests = true
+
+[brownAnt]
+	#If true, brown ants must be activated once with a reagent before they teleport.
+	#Reagent tag:        data/antarchy/tags/item/brown_ant_activation_items.json
+	#Breeding foods tag: data/antarchy/tags/item/brown_ant_breeding_foods.json
+	requiresReagent = false
+	#If false, right-clicking brown ants will never teleport players.
+	rightClickDimension = true
+	#Base max health.
+	# Default: 5.0
+	# Range: 0.1 ~ 1024.0
+	health = 5.0
+	#Base movement speed.
+	# Default: 0.28
+	# Range: 0.0 ~ 10.0
+	movementSpeed = 0.28
+	#Base attack damage.
+	# Default: 1.0
+	# Range: 0.0 ~ 1024.0
+	attackDamage = 1.0
+	#Dimension id brown ants teleport players to.
+	destinationDimension = "antarchy:elythia"
+
+[redAnt]
+	#If true, red ants must be activated once with a reagent before they teleport.
+	#Reagent tag:        data/antarchy/tags/item/red_ant_activation_items.json
+	#Breeding foods tag: data/antarchy/tags/item/red_ant_breeding_foods.json
+	requiresReagent = false
+	#If false, right-clicking red ants will never teleport players.
+	rightClickDimension = true
+	#Base max health.
+	# Default: 5.0
+	# Range: 0.1 ~ 1024.0
+	health = 5.0
+	#Base movement speed.
+	# Default: 0.3
+	# Range: 0.0 ~ 10.0
+	movementSpeed = 0.3
+	#Base attack damage.
+	# Default: 3.0
+	# Range: 0.0 ~ 1024.0
+	attackDamage = 3.0
+	#Dimension id red ants teleport players to.
+	destinationDimension = "antarchy:thoraxis"
+
+[rainbowAnt]
+	#If true, rainbow ants must be activated with a reagent before opening an Infinity destination.
+	#Reagent tag:        data/antarchy/tags/item/rainbow_ant_activation_items.json
+	#Breeding foods tag: data/antarchy/tags/item/rainbow_ant_breeding_foods.json
+	requiresReagent = true
+	#If false, right-clicking rainbow ants will never teleport players.
+	rightClickDimension = true
+	#Base max health.
+	# Default: 5.0
+	# Range: 0.1 ~ 1024.0
+	health = 5.0
+	#Base movement speed.
+	# Default: 0.28
+	# Range: 0.0 ~ 10.0
+	movementSpeed = 0.28
+	#Base attack damage.
+	# Default: 1.0
+	# Range: 0.0 ~ 1024.0
+	attackDamage = 1.0
+	#Dimension used by rainbow ants when Infinity behavior is disabled.
+	nonInfinityFallbackDimension = "antarchy:elythia"
+
+[termite]
+	#If true, termites must be activated once with a reagent before they teleport.
+	#Reagent tag:        data/antarchy/tags/item/termite_activation_items.json
+	#Breeding foods tag: data/antarchy/tags/item/termite_breeding_foods.json
+	requiresReagent = false
+	#If false, right-clicking termites will never teleport players.
+	rightClickDimension = true
+	#Base max health.
+	# Default: 5.0
+	# Range: 0.1 ~ 1024.0
+	health = 5.0
+	#Base movement speed.
+	# Default: 0.28
+	# Range: 0.0 ~ 10.0
+	movementSpeed = 0.28
+	#Base attack damage.
+	# Default: 1.0
+	# Range: 0.0 ~ 1024.0
+	attackDamage = 1.0
+	#Dimension id termites teleport players to.
+	destinationDimension = "antarchy:cavaryn"
+
+[easterBunny]
+	#If false, Easter Bunnies stop laying spawn eggs.
+	#Blacklist tag: data/antarchy/tags/item/easter_bunny_spawn_egg_blacklist.json
+	enabled = true
+	#Percent chance a naturally spawned rabbit is replaced by an Easter Bunny.
+	#Only applies to natural and chunk-generation spawns, not breeding.
+	# Default: 1
+	# Range: 0 ~ 100
+	naturalSpawnChancePercent = 1
+
+[wasp]
+	#Base max health.
+	# Default: 16.0
+	# Range: 1.0 ~ 32768.0
+	health = 16.0
+	#Base attack damage.
+	# Default: 4.0
+	# Range: 0.0 ~ 1024.0
+	attackDamage = 4.0
+	#Base wasp speed used for both flying and movement. Vanilla bee default is 0.3, so 0.39 is 30% faster.
+	# Default: 0.39
+	# Range: 0.0 ~ 10.0
+	movementSpeed = 0.39
+
+[bomber]
+	#Base max health.
+	# Default: 10.0
+	# Range: 1.0 ~ 32768.0
+	health = 10.0
+	#Direct damage dealt on contact before detonation.
+	# Default: 4.0
+	# Range: 0.0 ~ 1024.0
+	attackDamage = 4.0
+	#Extra damage dealt at the center of the explosion.
+	# Default: 8.0
+	# Range: 0.0 ~ 1024.0
+	explosionDamage = 8.0
+	#Explosion radius when a bomber detonates. TNT uses 4.0.
+	# Default: 4.0
+	# Range: 0.0 ~ 128.0
+	explosionRadius = 4.0
+
+[springbug]
+	#Base max health.
+	# Default: 100.0
+	# Range: 1.0 ~ 32768.0
+	health = 100.0
+	#Damage dealt on a successful pounce latch.
+	# Default: 2.0
+	# Range: 0.0 ~ 1024.0
+	pounceDamage = 2.0
+	#Renderer alpha while camouflaged.
+	# Default: 0.18
+	# Range: 0.01 ~ 1.0
+	camouflageAlpha = 0.18
+
+[emperorScorpion]
+	#Base max health.
+	# Default: 420.0
+	# Range: 1.0 ~ 32768.0
+	health = 420.0
+	#Base attack damage.
+	# Default: 28.0
+	# Range: 0.0 ~ 1024.0
+	attackDamage = 28.0
+	#Base movement speed.
+	# Default: 0.384
+	# Range: 0.0 ~ 10.0
+	movementSpeed = 0.384
+	#Base armor value.
+	# Default: 22.0
+	# Range: 0.0 ~ 1024.0
+	armor = 22.0
+	#Base knockback resistance.
+	# Default: 0.8
+	# Range: 0.0 ~ 1.0
+	knockbackResistance = 0.8
+	#Base follow range.
+	# Default: 80.0
+	# Range: 1.0 ~ 256.0
+	followRange = 80.0
+	#Base experience reward.
+	# Default: 25
+	# Range: 0 ~ 100000
+	xpReward = 25
+	#Ticks for the claw attack animation window.
+	# Default: 23
+	# Range: 1 ~ 400
+	clawAnimTicks = 23
+	#Ticks remaining in the claw animation when damage is applied. Clamped to 1 through clawAnimTicks.
+	# Default: 6
+	# Range: 0 ~ 400
+	clawHitTick = 6
+	#Ticks between claw attacks.
+	# Default: 28
+	# Range: 0 ~ 2000
+	clawCooldownTicks = 28
+	#Ticks for the sting attack animation window.
+	# Default: 25
+	# Range: 1 ~ 400
+	stingAnimTicks = 25
+	#Ticks remaining in the sting animation when damage is applied. Clamped to 1 through stingAnimTicks.
+	# Default: 9
+	# Range: 0 ~ 400
+	stingHitTick = 9
+	#Ticks between sting attacks.
+	# Default: 60
+	# Range: 0 ~ 2000
+	stingCooldownTicks = 60
+	#Ticks the Poison effect from a sting lasts.
+	# Default: 300
+	# Range: 0 ~ 20000
+	poisonTicks = 300
+	#Ticks the Weakness effect from a sting lasts.
+	# Default: 120
+	# Range: 0 ~ 20000
+	weaknessTicks = 120
+	#Ticks between minion scorpion summons while hardened.
+	# Default: 140
+	# Range: 20 ~ 72000
+	summonIntervalTicks = 140
+	#Maximum scorpions summoned per hardening cast.
+	# Default: 4
+	# Range: 0 ~ 32
+	maxSummonedScorpions = 4
+	#Maximum owned scorpion minions allowed near this scorpion at once.
+	# Default: 4
+	# Range: 0 ~ 32
+	maxNearbyScorpions = 4
+	#Cooldown in ticks before the Emperor Scorpion can harden and summon again.
+	# Default: 1200
+	# Range: 0 ~ 200000
+	hardenCooldownTicks = 1200
+	#Attacker distance in blocks at which the Emperor Scorpion takes full damage. Damage falls off beyond this and reaches zero at 5/3 of this range.
+	# Default: 25.0
+	# Range: 1.0 ~ 256.0
+	damageRange = 25.0
+	#Minimum ticks after spawning before the Emperor Scorpion can despawn from being far away. It also won't despawn after taking damage until its encounter resets. 6000 ticks = 5 minutes.
+	# Default: 6000
+	# Range: 0 ~ 1000000
+	minDespawnTicks = 6000
+	#Max health multiplier for the Glimmer Emperor Scorpion summoned with a Glimmer Sigil.
+	# Default: 1.75
+	# Range: 0.1 ~ 100.0
+	glimmerHealthMultiplier = 1.75
+	#Damage multiplier for the Glimmer Emperor Scorpion's attacks.
+	# Default: 1.35
+	# Range: 0.0 ~ 100.0
+	glimmerDamageMultiplier = 1.35
+	#Cooldown multiplier for the Glimmer Emperor Scorpion's claw, sting and venom cooldowns (lower = more often). Harden is exempt.
+	# Default: 0.65
+	# Range: 0.05 ~ 10.0
+	glimmerCooldownMultiplier = 0.65
+
+[scorpion]
+	# Default: 30.0
+	# Range: 0.1 ~ 32768.0
+	health = 30.0
+	# Default: 5.0
+	# Range: 0.0 ~ 1024.0
+	attackDamage = 5.0
+	# Default: 0.29
+	# Range: 0.0 ~ 10.0
+	movementSpeed = 0.29
+	# Default: 2.0
+	# Range: 0.0 ~ 1024.0
+	armor = 2.0
+	# Default: 0.2
+	# Range: 0.0 ~ 1.0
+	knockbackResistance = 0.2
+
+[kraken]
+	#Base max health.
+	# Default: 1500.0
+	# Range: 1.0 ~ 32768.0
+	health = 1500.0
+	#Base attack damage.
+	# Default: 45.0
+	# Range: 0.0 ~ 1024.0
+	attackDamage = 45.0
+	#If true, a player killing a Missile Squid has a 1/100 chance to spawn a single Kraken nearby.
+	squidSpawnEnabled = true
+	#If true, a player killing a Missile Squid has a 1/500 chance to spawn 10 Krakens. Independent from the single spawn.
+	massSpawnEnabled = true
+	#If true, the killer must have Bad Omen to summon a single Kraken; chance scales with Bad Omen level. Mass spawn is unaffected by level but still requires Bad Omen when this is on.
+	requireBadOmenToSummon = true
+	#If true, using Ink Sacs on a Chiseled Tidestone touching water in an Elythia ocean biome begins the Kraken summoning ritual.
+	ritualEnabled = true
+	#Ink Sacs consumed from the held stack to begin the Kraken summoning ritual.
+	# Default: 8
+	# Range: 1 ~ 64
+	ritualInkCost = 8
+	#How far the Kraken can see/target players.
+	# Default: 96.0
+	# Range: 1.0 ~ 256.0
+	followRange = 96.0
+	#Range in blocks a player must be within for the Kraken to be able to take damage. Prevents cheesing it from outside its aggro range.
+	# Default: 35.0
+	# Range: 1.0 ~ 256.0
+	damageRange = 35.0
+	#Base armor value.
+	# Default: 8.0
+	# Range: 0.0 ~ 1024.0
+	armor = 8.0
+	#Base knockback resistance.
+	# Default: 0.8
+	# Range: 0.0 ~ 1.0
+	knockbackResistance = 0.8
+	#Base movement speed.
+	# Default: 0.24
+	# Range: 0.0 ~ 10.0
+	movementSpeed = 0.24
+	#Base flying speed.
+	# Default: 0.24
+	# Range: 0.0 ~ 10.0
+	flyingSpeed = 0.24
+	#Range in blocks within which the Kraken's boss bar is shown to players.
+	# Default: 40.0
+	# Range: 1.0 ~ 256.0
+	bossBarRange = 40.0
+	#Lightning strike damage during phase one.
+	# Default: 6.0
+	# Range: 0.0 ~ 1024.0
+	lightningDamagePhaseOne = 6.0
+	#Max health multiplier for the Glimmer Kraken summoned with a Glimmer Sigil.
+	# Default: 1.75
+	# Range: 0.1 ~ 100.0
+	glimmerHealthMultiplier = 1.75
+	#Damage multiplier for the Glimmer Kraken's attacks.
+	# Default: 1.35
+	# Range: 0.0 ~ 100.0
+	glimmerDamageMultiplier = 1.35
+	#Cooldown multiplier for the Glimmer Kraken's attack, minion and lightning cooldowns (lower = more often).
+	# Default: 0.65
+	# Range: 0.05 ~ 10.0
+	glimmerCooldownMultiplier = 0.65
+
+[royalBosses]
+	#Base max health for the King.
+	# Default: 3400.0
+	# Range: 1.0 ~ 32768.0
+	kingHealth = 3400.0
+	#Base max health for the Queen.
+	# Default: 4300.0
+	# Range: 1.0 ~ 32768.0
+	queenHealth = 4300.0
+	#Base attack damage for the King.
+	# Default: 50.0
+	# Range: 0.0 ~ 1024.0
+	kingAttackDamage = 50.0
+	#Base attack damage for the Queen.
+	# Default: 45.0
+	# Range: 0.0 ~ 1024.0
+	queenAttackDamage = 45.0
+	#Base armor value shared by King and Queen.
+	# Default: 20.0
+	# Range: 0.0 ~ 1024.0
+	armor = 20.0
+	# Default: 30.0
+	# Range: 0.0 ~ 1024.0
+	kingArmor = 30.0
+	#Target acquisition range shared by King and Queen.
+	# Default: 128.0
+	# Range: 1.0 ~ 256.0
+	followRange = 128.0
+	#Base grounded movement speed shared by King and Queen.
+	# Default: 0.22
+	# Range: 0.0 ~ 10.0
+	movementSpeed = 0.22
+	#Base knockback resistance shared by King and Queen.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	knockbackResistance = 1.0
+	#Base step height shared by King and Queen.
+	# Default: 3.0
+	# Range: 0.0 ~ 32.0
+	stepHeight = 3.0
+	#Maximum damage a single hit can deal to a Royal boss before later anti-burst systems are added.
+	# Default: 250.0
+	# Range: 1.0 ~ 32768.0
+	maxSingleHitDamage = 250.0
+	#Share of damage above maxSingleHitDamage that still lands. 0 makes the cap a hard limit.
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	hitOverflowRate = 0.25
+	#Radius around each head anchor that a King or Queen bite can hit.
+	# Default: 12.0
+	# Range: 1.0 ~ 64.0
+	biteReach = 12.0
+	#Multiplier applied to base attack damage for King and Queen head bites.
+	# Default: 1.6
+	# Range: 0.0 ~ 32.0
+	biteDamageMultiplier = 1.6
+	#Base cooldown in ticks between bites for a single King or Queen head (scaled down at later phases).
+	# Default: 45
+	# Range: 1 ~ 1200
+	biteCooldownTicks = 45
+	multiplayerScalingEnabled = true
+	# Default: 4
+	# Range: 1 ~ 32
+	scalingMaxPlayers = 4
+	# Default: 0.35
+	# Range: 0.0 ~ 4.0
+	healthPerAdditionalPlayer = 0.35
+	# Default: 0.1
+	# Range: 0.0 ~ 2.0
+	damagePerAdditionalPlayer = 0.1
+	# Default: 192.0
+	# Range: 32.0 ~ 1024.0
+	royalBoundaryRadius = 192.0
+	# Default: 160.0
+	# Range: 16.0 ~ 1024.0
+	royalBoundaryWarningRadius = 160.0
+	# Default: 60
+	# Range: 0 ~ 2400
+	royalBoundaryGraceTicks = 60
+	# Default: 45.0
+	# Range: 0.0 ~ 1024.0
+	queenBeamDamage = 45.0
+	# Default: 100.0
+	# Range: 1.0 ~ 256.0
+	queenBeamRange = 100.0
+	#Minimum distance from the Queen before she may begin or maintain a beam.
+	# Default: 22.0
+	# Range: 0.0 ~ 256.0
+	queenBeamMinimumRange = 22.0
+	# Default: 30
+	# Range: 1 ~ 1200
+	queenBeamDurationTicks = 30
+	#Charge time before the Queen beam actually fires.
+	# Default: 20
+	# Range: 0 ~ 1200
+	queenBeamWindupTicks = 20
+	#Time for the Queen beam to extend from its head to its committed range.
+	# Default: 12
+	# Range: 1 ~ 1200
+	queenBeamTravelTicks = 12
+	# Default: 90
+	# Range: 1 ~ 2400
+	queenBeamCooldownTicks = 90
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	queenBeamTracking = 0.1
+	# Default: 5.0
+	# Range: 0.0 ~ 32.0
+	queenBeamTerrainRadius = 5.0
+	# Default: 192
+	# Range: 0 ~ 4096
+	queenBeamTerrainCap = 192
+	#Quiet time shared by all three heads after a Queen beam volley ends, before any head may beam again. Scaled down in later phases.
+	# Default: 140
+	# Range: 0 ~ 2400
+	queenBeamVolleyGapTicks = 140
+	#Maximum simultaneous Queen beams in phase one.
+	# Default: 1
+	# Range: 1 ~ 3
+	queenBeamPhaseOneCap = 1
+	#Maximum simultaneous Queen beams in phase two.
+	# Default: 2
+	# Range: 1 ~ 3
+	queenBeamPhaseTwoCap = 2
+	#Maximum simultaneous Queen beams when phase three rolls a full volley.
+	# Default: 3
+	# Range: 1 ~ 3
+	queenBeamPhaseThreeCap = 3
+	#Chance that a new phase-three Queen beam volley may use its full configured cap; otherwise it is limited to two beams.
+	# Default: 0.2
+	# Range: 0.0 ~ 1.0
+	queenBeamPhaseThreeMaxVolleyChance = 0.2
+	# Default: 50.0
+	# Range: 0.0 ~ 1024.0
+	kingBeamDamage = 50.0
+	# Default: 100.0
+	# Range: 1.0 ~ 256.0
+	kingBeamRange = 100.0
+	#Minimum distance from the King before he may begin or maintain a beam.
+	# Default: 32.0
+	# Range: 0.0 ~ 256.0
+	kingBeamMinimumRange = 32.0
+	# Default: 30
+	# Range: 1 ~ 1200
+	kingBeamDurationTicks = 30
+	#Charge time before the King beam actually fires.
+	# Default: 20
+	# Range: 0 ~ 1200
+	kingBeamWindupTicks = 20
+	#Time for the King beam to extend from its head to its committed range.
+	# Default: 12
+	# Range: 1 ~ 1200
+	kingBeamTravelTicks = 12
+	# Default: 90
+	# Range: 1 ~ 2400
+	kingBeamCooldownTicks = 90
+	#Quiet time shared by all three heads after a King beam volley ends, before any head may beam again. Scaled down in later phases. During the gap he closes in instead of holding beam range.
+	# Default: 140
+	# Range: 0 ~ 2400
+	kingBeamVolleyGapTicks = 140
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	kingBeamTracking = 0.1
+	# Default: 5.0
+	# Range: 0.0 ~ 32.0
+	kingBeamTerrainRadius = 5.0
+	# Default: 192
+	# Range: 0 ~ 4096
+	kingBeamTerrainCap = 192
+	#Cooldown in ticks between the end of one King decree and the next.
+	# Default: 700
+	# Range: 1 ~ 72000
+	royalDecreeCooldownTicks = 700
+	#Cooldown in ticks between King's command pulses.
+	# Default: 500
+	# Range: 1 ~ 72000
+	kingRoyalMusterCooldownTicks = 500
+	#Warning time before the King commands nearby hostile mobs.
+	# Default: 30
+	# Range: 0 ~ 1200
+	kingRoyalMusterWindupTicks = 30
+	#Duration of Commanded applied by the King's muster.
+	# Default: 600
+	# Range: 1 ~ 72000
+	kingRoyalMusterDurationTicks = 600
+	#Radius of the King's command aura.
+	# Default: 32.0
+	# Range: 1.0 ~ 128.0
+	kingRoyalMusterRadius = 32.0
+	#Maximum hostile mobs affected by one command pulse.
+	# Default: 12
+	# Range: 1 ~ 128
+	kingRoyalMusterCap = 12
+	# Default: 14.0
+	# Range: 1.0 ~ 64.0
+	queenBlackHoleRadius = 14.0
+	#Active duration for Royal Assailant axe black holes. Queen black holes always follow their 20.125-second animation.
+	# Default: 120
+	# Range: 20 ~ 1200
+	queenBlackHoleActiveTicks = 120
+	# Default: 0.16
+	# Range: 0.0 ~ 2.0
+	queenBlackHolePullStrength = 0.16
+	#Maximum terrain blocks a single Queen black hole may pull into itself.
+	# Default: 160
+	# Range: 0 ~ 4096
+	queenBlackHoleBlockSuctionCap = 160
+	# Default: 48.0
+	# Range: 0.0 ~ 1024.0
+	kingFireballDamage = 48.0
+	# Default: 4.5
+	# Range: 0.5 ~ 32.0
+	kingFireballRadius = 4.5
+	# Default: 150
+	# Range: 1 ~ 2400
+	kingFireballCooldownTicks = 150
+	# Default: 18.0
+	# Range: 0.0 ~ 1024.0
+	kingIceballDamage = 18.0
+	# Default: 5.0
+	# Range: 0.5 ~ 32.0
+	kingIceballRadius = 5.0
+	# Default: 190
+	# Range: 1 ~ 2400
+	kingIceballCooldownTicks = 190
+	# Default: 24.0
+	# Range: 0.0 ~ 1024.0
+	kingIceSpikeDamage = 24.0
+	# Default: 240
+	# Range: 1 ~ 2400
+	kingIceSpikeCooldownTicks = 240
+	# Default: 256
+	# Range: 0 ~ 4096
+	kingElementalTerrainCap = 256
+	#Volume multiplier for large King and Queen presence, movement, and attack sounds.
+	# Default: 4.5
+	# Range: 0.5 ~ 16.0
+	royalBossSoundVolume = 4.5
+	#Max health multiplier for the Glimmer King summoned with a Glimmer Sigil.
+	# Default: 1.75
+	# Range: 0.1 ~ 100.0
+	kingGlimmerHealthMultiplier = 1.75
+	#Damage multiplier for the Glimmer King's attacks.
+	# Default: 1.35
+	# Range: 0.0 ~ 100.0
+	kingGlimmerDamageMultiplier = 1.35
+	#Cooldown multiplier for the Glimmer King's royal attack cooldowns (lower = more often).
+	# Default: 0.65
+	# Range: 0.05 ~ 10.0
+	kingGlimmerCooldownMultiplier = 0.65
+	#Max health multiplier for the Glimmer Queen summoned with a Glimmer Sigil.
+	# Default: 1.75
+	# Range: 0.1 ~ 100.0
+	queenGlimmerHealthMultiplier = 1.75
+	#Damage multiplier for the Glimmer Queen's attacks.
+	# Default: 1.35
+	# Range: 0.0 ~ 100.0
+	queenGlimmerDamageMultiplier = 1.35
+	#Cooldown multiplier for the Glimmer Queen's royal attack cooldowns (lower = more often).
+	# Default: 0.65
+	# Range: 0.05 ~ 10.0
+	queenGlimmerCooldownMultiplier = 0.65
+
+[royalMounts]
+	#Chance denominator for a royal egg advancing one hatch stage on a random tick.
+	# Default: 3
+	# Range: 1 ~ 100000
+	eggHatchChance = 3
+	#Direct damage dealt by a Prince or Princess royal bolt.
+	# Default: 6.0
+	# Range: 0.0 ~ 1024.0
+	boltDamage = 6.0
+	#Prince base max health.
+	# Default: 360.0
+	# Range: 1.0 ~ 32768.0
+	princeHealth = 360.0
+	#Prince bite damage.
+	# Default: 14.0
+	# Range: 0.0 ~ 1024.0
+	princeAttackDamage = 14.0
+	#Prince grounded movement speed.
+	# Default: 0.28
+	# Range: 0.0 ~ 10.0
+	princeMovementSpeed = 0.28
+	#Prince flying movement speed.
+	# Default: 0.9
+	# Range: 0.0 ~ 10.0
+	princeFlyingSpeed = 0.9
+	#Prince armor value.
+	# Default: 10.0
+	# Range: 0.0 ~ 1024.0
+	princeArmor = 10.0
+	#Prince knockback resistance.
+	# Default: 0.6
+	# Range: 0.0 ~ 1.0
+	princeKnockbackResistance = 0.6
+	#Prince owner and target range.
+	# Default: 48.0
+	# Range: 1.0 ~ 256.0
+	princeFollowRange = 48.0
+	#Princess base max health.
+	# Default: 330.0
+	# Range: 1.0 ~ 32768.0
+	princessHealth = 330.0
+	#Princess bite damage.
+	# Default: 10.0
+	# Range: 0.0 ~ 1024.0
+	princessAttackDamage = 10.0
+	#Princess grounded movement speed.
+	# Default: 0.28
+	# Range: 0.0 ~ 10.0
+	princessMovementSpeed = 0.28
+	#Princess flying movement speed.
+	# Default: 0.95
+	# Range: 0.0 ~ 10.0
+	princessFlyingSpeed = 0.95
+	#Princess armor value.
+	# Default: 8.0
+	# Range: 0.0 ~ 1024.0
+	princessArmor = 8.0
+	#Princess knockback resistance.
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	princessKnockbackResistance = 0.5
+	#Princess owner and target range.
+	# Default: 48.0
+	# Range: 1.0 ~ 256.0
+	princessFollowRange = 48.0
+
+[brutalfly]
+	#Base max health.
+	# Default: 200.0
+	# Range: 1.0 ~ 32768.0
+	health = 200.0
+	#Damage dealt by a claw swipe.
+	# Default: 15.0
+	# Range: 0.0 ~ 1024.0
+	swipeDamage = 15.0
+	#Direct hit damage from a spit orb before lingering effect.
+	# Default: 5.0
+	# Range: 0.0 ~ 1024.0
+	spitDamage = 5.0
+	#Range in blocks a player must be within for the Brutalfly to be able to take damage. Prevents cheesing it from outside its aggro range.
+	# Default: 25.0
+	# Range: 1.0 ~ 256.0
+	damageRange = 25.0
+	#Base armor value.
+	# Default: 10.0
+	# Range: 0.0 ~ 1024.0
+	armor = 10.0
+	#Base armor toughness.
+	# Default: 4.0
+	# Range: 0.0 ~ 100.0
+	armorToughness = 4.0
+	#Base knockback resistance.
+	# Default: 0.7
+	# Range: 0.0 ~ 1.0
+	knockbackResistance = 0.7
+	#Base movement speed.
+	# Default: 0.34
+	# Range: 0.0 ~ 10.0
+	movementSpeed = 0.34
+	#Base flying speed.
+	# Default: 0.55
+	# Range: 0.0 ~ 10.0
+	flyingSpeed = 0.55
+	#Max health multiplier for the Glimmer Brutalfly summoned with a Glimmer Sigil.
+	# Default: 1.75
+	# Range: 0.1 ~ 100.0
+	glimmerHealthMultiplier = 1.75
+	#Damage multiplier for the Glimmer Brutalfly's attacks.
+	# Default: 1.35
+	# Range: 0.0 ~ 100.0
+	glimmerDamageMultiplier = 1.35
+	#Cooldown multiplier for the Glimmer Brutalfly's spit and swipe cooldowns (lower = more often).
+	# Default: 0.65
+	# Range: 0.05 ~ 10.0
+	glimmerCooldownMultiplier = 0.65
+
+[mantis]
+	#Base max health.
+	# Default: 50.0
+	# Range: 1.0 ~ 32768.0
+	health = 50.0
+	#Base attack damage.
+	# Default: 9.0
+	# Range: 0.0 ~ 1024.0
+	attackDamage = 9.0
+	#Base movement speed.
+	# Default: 0.42
+	# Range: 0.0 ~ 10.0
+	movementSpeed = 0.42
+	#Base flying speed.
+	# Default: 0.77
+	# Range: 0.0 ~ 10.0
+	flyingSpeed = 0.77
+	#If false, mantises only spawn naturally in darkness (standard monster rules). If true, light level is ignored.
+	ignoreLightLevel = false
+
+[alphaMantis]
+	#Base max health.
+	# Default: 420.0
+	# Range: 1.0 ~ 32768.0
+	health = 420.0
+	#Base attack damage.
+	# Default: 18.0
+	# Range: 0.0 ~ 1024.0
+	attackDamage = 18.0
+	#Base movement speed.
+	# Default: 0.546
+	# Range: 0.0 ~ 10.0
+	movementSpeed = 0.546
+	#Base flying speed.
+	# Default: 0.77
+	# Range: 0.0 ~ 10.0
+	flyingSpeed = 0.77
+	#Ticks between mantis minion summons while in combat.
+	# Default: 300
+	# Range: 20 ~ 72000
+	summonIntervalTicks = 300
+	#Maximum summoned mantises alive near the alpha at once.
+	# Default: 4
+	# Range: 0 ~ 32
+	maxMinions = 4
+	#Attacker distance in blocks at which the Alpha Mantis takes full damage. Damage then falls off gradually and reaches zero at 5/3 of this distance.
+	# Default: 48.0
+	# Range: 1.0 ~ 256.0
+	damageRange = 48.0
+	#Max health multiplier for the Glimmer Alpha Mantis summoned with a Glimmer Sigil.
+	# Default: 1.75
+	# Range: 0.1 ~ 100.0
+	glimmerHealthMultiplier = 1.75
+	#Attack damage multiplier for the Glimmer Alpha Mantis.
+	# Default: 1.35
+	# Range: 0.0 ~ 100.0
+	glimmerDamageMultiplier = 1.35
+	#Attack cooldown and minion summon interval multiplier for the Glimmer Alpha Mantis (lower = more often).
+	# Default: 0.65
+	# Range: 0.05 ~ 10.0
+	glimmerCooldownMultiplier = 0.65
+
+[rollyPolly]
+	#Base max health.
+	# Default: 25.0
+	# Range: 1.0 ~ 32768.0
+	health = 25.0
+	#Base movement speed.
+	# Default: 0.3
+	# Range: 0.0 ~ 10.0
+	movementSpeed = 0.3
+	#Speed multiplier while rolled up.
+	# Default: 2.2
+	# Range: 0.1 ~ 20.0
+	rollSpeedMultiplier = 2.2
+	#Taming succeeds with a 1-in-N chance per food item.
+	# Default: 3
+	# Range: 1 ~ 100
+	tameChance = 3
+	#Damage dealt by a tamed rolly polly's rolling bowling attack.
+	# Default: 3.0
+	# Range: 0.0 ~ 1024.0
+	bowlingDamage = 3.0
+	#Knockback strength of a tamed rolly polly's rolling bowling attack.
+	# Default: 0.8
+	# Range: 0.0 ~ 20.0
+	bowlingKnockback = 0.8
+	#Base armor value.
+	# Default: 2.0
+	# Range: 0.0 ~ 100.0
+	armor = 2.0
+	#Additional armor gained while rolled up.
+	# Default: 16.0
+	# Range: 0.0 ~ 100.0
+	rolledArmorBonus = 16.0
+
+[flytrap]
+	#Base max health.
+	# Default: 80.0
+	# Range: 1.0 ~ 32768.0
+	health = 80.0
+	#Damage dealt by the sweep attack.
+	# Default: 10.0
+	# Range: 0.0 ~ 1024.0
+	attackDamage = 10.0
+	#Damage dealt by the grab attack.
+	# Default: 15.0
+	# Range: 0.0 ~ 1024.0
+	grabDamage = 15.0
+	#Ticks a given entity is immune to repeat sweep-attack damage attempts after being hit once, so shields/armor absorbing a hit can't be shredded by every tick of the sweep's active window.
+	# Default: 10
+	# Range: 0 ~ 200
+	sweepHitCooldownTicks = 10
+
+[caterpillar]
+	# Default: 6.0
+	# Range: 0.1 ~ 32768.0
+	health = 6.0
+	# Default: 0.24
+	# Range: 0.0 ~ 10.0
+	movementSpeed = 0.24
+	#Time in seconds before a caterpillar emerges from its chrysalis.
+	# Default: 600.0
+	# Range: 1.0 ~ 3600.0
+	pupationTimeSeconds = 600.0
+
+[flyingSquirrel]
+	# Default: 10.0
+	# Range: 0.1 ~ 32768.0
+	health = 10.0
+	# Default: 0.35
+	# Range: 0.0 ~ 10.0
+	movementSpeed = 0.35
+
+[butterfly]
+	# Default: 6.0
+	# Range: 0.1 ~ 32768.0
+	health = 6.0
+	# Default: 0.3
+	# Range: 0.0 ~ 10.0
+	movementSpeed = 0.3
+	# Default: 0.55
+	# Range: 0.0 ~ 10.0
+	flyingSpeed = 0.55
+
+[bedBug]
+	# Default: 18.0
+	# Range: 0.1 ~ 32768.0
+	health = 18.0
+	# Default: 4.0
+	# Range: 0.0 ~ 1024.0
+	attackDamage = 4.0
+	# Default: 0.24
+	# Range: 0.0 ~ 10.0
+	movementSpeed = 0.24
+	# Default: 2.0
+	# Range: 0.0 ~ 1024.0
+	armor = 2.0
+
+[stratoshark]
+	# Default: 40.0
+	# Range: 0.1 ~ 32768.0
+	health = 40.0
+	# Default: 5.0
+	# Range: 0.0 ~ 1024.0
+	attackDamage = 5.0
+	# Default: 0.34
+	# Range: 0.0 ~ 10.0
+	movementSpeed = 0.34
+	# Default: 0.5
+	# Range: 0.0 ~ 10.0
+	flyingSpeed = 0.5
+	# Default: 0.2
+	# Range: 0.0 ~ 1.0
+	knockbackResistance = 0.2
+
+[missileSquid]
+	# Default: 60.0
+	# Range: 0.1 ~ 32768.0
+	health = 60.0
+	# Default: 9.0
+	# Range: 0.0 ~ 1024.0
+	attackDamage = 9.0
+	# Default: 0.84
+	# Range: 0.0 ~ 10.0
+	movementSpeed = 0.84
+	# Default: 0.84
+	# Range: 0.0 ~ 10.0
+	flyingSpeed = 0.84
+	# Default: 0.15
+	# Range: 0.0 ~ 1.0
+	knockbackResistance = 0.15
+
+[moleworm]
+	# Default: 8.0
+	# Range: 0.1 ~ 32768.0
+	health = 8.0
+	# Default: 1.0
+	# Range: 0.0 ~ 1024.0
+	attackDamage = 1.0
+	# Default: 0.25
+	# Range: 0.0 ~ 10.0
+	movementSpeed = 0.25
+
+[molevore]
+	# Default: 140.0
+	# Range: 0.1 ~ 32768.0
+	health = 140.0
+	# Default: 10.0
+	# Range: 0.0 ~ 1024.0
+	attackDamage = 10.0
+	# Default: 12
+	# Range: 0 ~ 400
+	spinTicks = 12
+	# Default: 60
+	# Range: 0 ~ 20000
+	cooldownTicks = 60
+	# Default: 1.15
+	# Range: 0.0 ~ 10.0
+	chargeSpeed = 1.15
+	# Default: 1.8
+	# Range: 0.0 ~ 32.0
+	breakRange = 1.8
+	# Default: 2.2
+	# Range: 0.0 ~ 32.0
+	breakVerticalRange = 2.2
+	# Default: 1.1
+	# Range: 0.0 ~ 32.0
+	breakHalfWidth = 1.1
+
+[octopusBomb]
+	# Default: 100.0
+	# Range: 0.1 ~ 32768.0
+	health = 100.0
+	# Default: 16.0
+	# Range: 0.0 ~ 1024.0
+	attackDamage = 16.0
+
+[antDance]
+	#Radius in blocks where ants will dance around a playing jukebox.
+	# Default: 5.0
+	# Range: 1.0 ~ 32.0
+	radius = 5.0
+
+[reverie]
+	#Base max health.
+	# Default: 20.0
+	# Range: 1.0 ~ 1024.0
+	health = 20.0
+	#How far the Reverie notices and starts following a player.
+	# Default: 16.0
+	# Range: 1.0 ~ 64.0
+	interestRadius = 16.0
+	#Distance where the Reverie gives up and returns to ambient wandering.
+	# Default: 24.0
+	# Range: 1.0 ~ 96.0
+	abandonPlayerDistance = 24.0
+	#Ticks the Reverie watches a player before becoming bound.
+	# Default: 20
+	# Range: 1 ~ 200
+	noticeDurationTicks = 20
+	#Ticks the Reverie stays interested after a color/state change.
+	# Default: 360
+	# Range: 20 ~ 7200
+	interestDurationTicks = 360
+	#Ticks the Reverie waits after unbinding before it can bind again.
+	# Default: 100
+	# Range: 0 ~ 24000
+	rebindCooldownTicks = 100
+	#Ticks the Reverie remains in its damage reaction state.
+	# Default: 60
+	# Range: 0 ~ 24000
+	damageReactionDurationTicks = 60
+	#Minimum fall distance before the Reverie considers its player in danger. Vanilla fall damage starts at 3.
+	# Default: 3.0
+	# Range: 0.0 ~ 64.0
+	dangerousFallDistance = 3.0
+	#Minimum vertical speed before a dangerous fall triggers purple protection.
+	# Default: 0.18
+	# Range: 0.0 ~ 4.0
+	dangerousFallSpeed = 0.18
+	#Horizontal scan radius for hostiles that trigger red warning mode.
+	# Default: 10.0
+	# Range: 1.0 ~ 64.0
+	warningThreatRadius = 10.0
+	#Vertical scan range for hostiles that trigger red warning mode.
+	# Default: 5.0
+	# Range: 1.0 ~ 32.0
+	warningThreatVerticalRange = 5.0
+	#Cooldown in ticks before Blood Crystal can duplicate the Reverie again.
+	# Default: 6000
+	# Range: 20 ~ 24000
+	duplicationCooldownTicks = 6000
+
+[nightmare]
+	#Base max health.
+	# Default: 180.0
+	# Range: 1.0 ~ 32768.0
+	health = 180.0
+	#Base attack damage.
+	# Default: 16.0
+	# Range: 0.0 ~ 1024.0
+	attackDamage = 16.0
+	#Base movement speed.
+	# Default: 0.28
+	# Range: 0.0 ~ 10.0
+	movementSpeed = 0.28
+	#Ticks the Weakness effect from Big Bertha's Nightmare-mode hit lasts.
+	# Default: 100
+	# Range: 0 ~ 20000
+	weaknessTicks = 100
+	#Ticks the Dread effect from Big Bertha's Nightmare-mode hit lasts.
+	# Default: 160
+	# Range: 0 ~ 20000
+	dreadTicks = 160
+
+[dimensionalTear]
+	#Ticks before naturally generated linked Dimensional Tears collapse.
+	# Default: 24000
+	# Range: 1200 ~ 240000
+	lifetimeTicks = 24000
+	#Ticks of Inverted applied to living entities exiting a Dimensional Tear.
+	# Default: 2400
+	# Range: 0 ~ 240000
+	invertedDurationTicks = 2400
+	#Minimum ticks between Nightmare/Lucid emergence events per tear.
+	# Default: 400
+	# Range: 20 ~ 240000
+	emergenceMinIntervalTicks = 400
+	#Maximum ticks between Nightmare/Lucid emergence events per tear.
+	# Default: 1200
+	# Range: 20 ~ 240000
+	emergenceMaxIntervalTicks = 1200
+	#Chance that an emergence event spawns a Lucid instead of a Nightmare.
+	# Default: 0.65
+	# Range: 0.0 ~ 1.0
+	lucidEventChance = 0.65
+	spawnNaturally = true
+
+[basilisk]
+	#If false, the Basilisk will not use its petrifying gaze and will never apply the Paralyzed effect.
+	petrifyingGazeEnabled = true
+	#Maximum local raw light level where basilisk natural spawning is allowed.
+	# Default: 5
+	# Range: 0 ~ 15
+	spawnMaxLightLevel = 5
+	#Base max health.
+	# Default: 150.0
+	# Range: 1.0 ~ 32768.0
+	health = 150.0
+	#Base attack damage.
+	# Default: 36.0
+	# Range: 0.0 ~ 1024.0
+	attackDamage = 36.0
+	#Base movement speed.
+	# Default: 0.28
+	# Range: 0.0 ~ 10.0
+	movementSpeed = 0.28
+	#Base armor value.
+	# Default: 6.0
+	# Range: 0.0 ~ 1024.0
+	armor = 6.0
+	#Base knockback resistance.
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	knockbackResistance = 0.5
+	#Base follow range.
+	# Default: 28.0
+	# Range: 1.0 ~ 128.0
+	followRange = 28.0
+	#Base experience reward.
+	# Default: 50
+	# Range: 0 ~ 100000
+	xpReward = 50
+	#Ticks for the attack animation window.
+	# Default: 18
+	# Range: 1 ~ 400
+	attackAnimTicks = 18
+	#Tick during the attack animation when damage is applied.
+	# Default: 9
+	# Range: 0 ~ 400
+	attackDamageTick = 9
+	#Ticks between petrifying gaze attempts.
+	# Default: 600
+	# Range: 0 ~ 20000
+	hissCooldownTicks = 600
+	#Forward bite reach in blocks measured from the basilisk's center.
+	# Default: 3.0
+	# Range: 0.0 ~ 128.0
+	attackReach = 3.0
+	#Range in blocks for petrifying gaze checks.
+	# Default: 12.0
+	# Range: 0.0 ~ 128.0
+	gazeRange = 12.0
+	#Dot threshold for the player gaze check.
+	# Default: 0.64
+	# Range: -1.0 ~ 1.0
+	gazeDotThreshold = 0.64
+	#Dot threshold for the Basilisk facing check.
+	# Default: 0.45
+	# Range: -1.0 ~ 1.0
+	gazeFacingThreshold = 0.45
+	#Ticks a player must keep looking to trigger petrification.
+	# Default: 30
+	# Range: 0 ~ 2000
+	hissChargeTicks = 30
+	#Ticks the Paralyzed effect lasts on players.
+	# Default: 50
+	# Range: 0 ~ 20000
+	playerParalyzeTicks = 50
+	#Ticks between prey petrification checks.
+	# Default: 500
+	# Range: 0 ~ 20000
+	preyPetrifyCooldownTicks = 500
+	#Range in blocks for prey petrification checks.
+	# Default: 8.0
+	# Range: 0.0 ~ 128.0
+	preyPetrifyRange = 8.0
+	#Ticks the prey petrify effect lasts.
+	# Default: 200
+	# Range: 0 ~ 20000
+	preyPetrifyTicks = 200
+
+[lucid]
+	#Attack range in blocks. The Lucid fires its gravity blast when a target enters this radius.
+	# Default: 9.0
+	# Range: 1.0 ~ 32.0
+	attackRange = 9.0
+	#How long the Inverted effect from a Lucid pearl lasts, in seconds.
+	# Default: 6.0
+	# Range: 0.0 ~ 3600.0
+	pearlInvertedDurationSeconds = 6.0
+	#Base max health.
+	# Default: 30.0
+	# Range: 1.0 ~ 32768.0
+	health = 30.0
+	#Base attack damage.
+	# Default: 4.0
+	# Range: 0.0 ~ 1024.0
+	attackDamage = 4.0
+	#Base movement speed.
+	# Default: 0.22
+	# Range: 0.0 ~ 10.0
+	movementSpeed = 0.22
+	#Base flying speed.
+	# Default: 0.35
+	# Range: 0.0 ~ 10.0
+	flyingSpeed = 0.35
+	#Base knockback resistance.
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	knockbackResistance = 0.5
+
+[vortex]
+	#Base max health.
+	# Default: 70.0
+	# Range: 1.0 ~ 32768.0
+	health = 70.0
+	#Base attack damage.
+	# Default: 4.0
+	# Range: 0.0 ~ 1024.0
+	attackDamage = 4.0
+	#Base movement speed.
+	# Default: 0.22
+	# Range: 0.0 ~ 10.0
+	movementSpeed = 0.22
+	#Base flying speed.
+	# Default: 0.35
+	# Range: 0.0 ~ 10.0
+	flyingSpeed = 0.35
+	#Maximum damaging wind vortexes one Vortex mob can maintain at once.
+	# Default: 3
+	# Range: 0 ~ 32
+	maxActiveVortexes = 3
+	#Lifetime in ticks for wind vortexes spawned by Vortex charges or Vortex mobs.
+	# Default: 240
+	# Range: 1 ~ 1200
+	windVortexDurationTicks = 240
+	#How strongly wind vortexes pull entities toward their spiral path.
+	# Default: 0.32
+	# Range: 0.0 ~ 4.0
+	windVortexPullStrength = 0.32
+	#Launch velocity multiplier applied when entities exit the top of a wind vortex.
+	# Default: 1.0
+	# Range: 0.0 ~ 4.0
+	windVortexLaunchStrength = 1.0
+	#Top radius at signal strength 1 for Vortex Lens wind vortexes.
+	# Default: 1.5
+	# Range: 0.1 ~ 64.0
+	vortexLensMinRadius = 1.5
+	#Top radius at signal strength 15 for Vortex Lens wind vortexes.
+	# Default: 10.0
+	# Range: 0.1 ~ 128.0
+	vortexLensMaxRadius = 10.0
+	#Length at signal strength 1 for Vortex Lens wind vortexes.
+	# Default: 3.0
+	# Range: 0.5 ~ 128.0
+	vortexLensMinHeight = 3.0
+	#Length at signal strength 15 for Vortex Lens wind vortexes.
+	# Default: 20.0
+	# Range: 0.5 ~ 256.0
+	vortexLensMaxHeight = 20.0
+	#How strongly redstone-powered Vortex Lens vortexes pull entities inward toward the lens.
+	# Default: 0.42
+	# Range: 0.0 ~ 8.0
+	vortexLensPullStrength = 0.42
+	#How strongly bluestone-powered Vortex Lens vortexes push entities outward from the lens.
+	# Default: 0.38
+	# Range: 0.0 ~ 8.0
+	vortexLensPushStrength = 0.38
+	#Launch velocity multiplier applied at the end of bluestone-powered Vortex Lens vortexes.
+	# Default: 1.15
+	# Range: 0.0 ~ 8.0
+	vortexLensLaunchStrength = 1.15
+
+	[dread.hallucinationSounds]
+		#If false, the Dread effect will not play random hallucination sounds. Sound pool tag: data/antarchy/tags/sound_event/dread_hallucination_sounds.json
+		enabled = true
+		#Minimum seconds between hallucination sound triggers.
+		# Default: 3.0
+		# Range: 0.1 ~ 300.0
+		minIntervalSeconds = 3.0
+		#Maximum seconds between hallucination sound triggers.
+		# Default: 10.0
+		# Range: 0.1 ~ 300.0
+		maxIntervalSeconds = 10.0
+
+	[dread.hallucinationMobs]
+		#If false, the Dread effect will not render apparitions.
+		enabled = true
+		#Minimum seconds between apparition spawns.
+		# Default: 6.0
+		# Range: 0.1 ~ 300.0
+		minIntervalSeconds = 6.0
+		#Maximum seconds between apparition spawns.
+		# Default: 16.0
+		# Range: 0.1 ~ 300.0
+		maxIntervalSeconds = 16.0
+
+[crawlingBlight]
+	#Base max health.
+	# Default: 15.0
+	# Range: 1.0 ~ 32768.0
+	health = 15.0
+	#Base attack damage.
+	# Default: 6.0
+	# Range: 0.0 ~ 1024.0
+	attackDamage = 6.0
+
+[skulkingFright]
+	#Base max health.
+	# Default: 15.0
+	# Range: 1.0 ~ 32768.0
+	health = 15.0
+	#Base attack damage.
+	# Default: 6.0
+	# Range: 0.0 ~ 1024.0
+	attackDamage = 6.0
+
+[manticore]
+	#Base max health.
+	# Default: 60.0
+	# Range: 1.0 ~ 32768.0
+	health = 60.0
+	#Base attack damage for bites and stings.
+	# Default: 11.0
+	# Range: 0.0 ~ 1024.0
+	attackDamage = 11.0
+	#Poison duration in ticks applied by a Manticore sting.
+	# Default: 100
+	# Range: 0 ~ 12000
+	stingPoisonTicks = 100
+	#Maximum number of living Manticores a single Queen may keep summoned.
+	# Default: 6
+	# Range: 1 ~ 200
+	queenSummonCap = 6
+	#Ticks between Queen Manticore summon attempts.
+	# Default: 800
+	# Range: 20 ~ 200000
+	queenSummonCooldownTicks = 800
+	#Maximum Manticores created by one Queen summon attempt.
+	# Default: 2
+	# Range: 1 ~ 32
+	queenSummonCount = 2
+	#Maximum horizontal distance from the Queen used for Manticore spawn positions.
+	# Default: 24.0
+	# Range: 4.0 ~ 128.0
+	queenSummonRange = 24.0
+
+[jerry]
+	#Infant Jerry max health.
+	# Default: 20.0
+	# Range: 1.0 ~ 32768.0
+	infantHealth = 20.0
+	#Infant Jerry damage per attached damage tick.
+	# Default: 2.0
+	# Range: 0.0 ~ 1024.0
+	infantAttackDamage = 2.0
+	#Mature Jerry max health.
+	# Default: 40.0
+	# Range: 1.0 ~ 32768.0
+	matureHealth = 40.0
+	#Mature Jerry damage per attached damage tick.
+	# Default: 3.5
+	# Range: 0.0 ~ 1024.0
+	matureAttackDamage = 3.5
+	#Alpha Jerry max health.
+	# Default: 60.0
+	# Range: 1.0 ~ 32768.0
+	alphaHealth = 60.0
+	#Alpha Jerry attack damage.
+	# Default: 6.0
+	# Range: 0.0 ~ 1024.0
+	alphaAttackDamage = 6.0
+	#Gamma Jerry max health.
+	# Default: 60.0
+	# Range: 1.0 ~ 32768.0
+	gammaHealth = 60.0
+	#Gamma Jerry melee attack damage.
+	# Default: 7.0
+	# Range: 0.0 ~ 1024.0
+	gammaAttackDamage = 7.0
+
+[cheep]
+	#Base max health.
+	# Default: 8.0
+	# Range: 1.0 ~ 32768.0
+	health = 8.0
+	#Base attack damage.
+	# Default: 3.0
+	# Range: 0.0 ~ 1024.0
+	attackDamage = 3.0
+
+[dorrie]
+	#Base max health.
+	# Default: 60.0
+	# Range: 1.0 ~ 32768.0
+	health = 60.0
+
+[ouranwood_deer]
+	#Base max health.
+	# Default: 20.0
+	# Range: 1.0 ~ 32768.0
+	health = 20.0
+
+[glimmer]
+	#Base max health.
+	# Default: 20.0
+	# Range: 1.0 ~ 32768.0
+	health = 20.0
+
+[herculesBeetle]
+	#Base max health.
+	# Default: 500.0
+	# Range: 1.0 ~ 32768.0
+	health = 500.0
+	#Base melee damage for ground and flying attacks.
+	# Default: 30.0
+	# Range: 0.0 ~ 1024.0
+	attackDamage = 30.0
+	#AOE impact damage dealt when a charge collides.
+	# Default: 40.0
+	# Range: 0.0 ~ 1024.0
+	chargeDamage = 40.0
+	#Range in blocks a player must be within for the Hercules Beetle to be able to take damage. Prevents cheesing it from outside its aggro range.
+	# Default: 25.0
+	# Range: 1.0 ~ 256.0
+	damageRange = 25.0
+	#Max health multiplier for the Glimmer Hercules Beetle summoned with a Glimmer Sigil.
+	# Default: 1.75
+	# Range: 0.1 ~ 100.0
+	glimmerHealthMultiplier = 1.75
+	#Damage multiplier for the Glimmer Hercules Beetle's attacks.
+	# Default: 1.35
+	# Range: 0.0 ~ 100.0
+	glimmerDamageMultiplier = 1.35
+	#Cooldown multiplier for the Glimmer Hercules Beetle's cry, attack and charge cooldowns (lower = more often).
+	# Default: 0.65
+	# Range: 0.05 ~ 10.0
+	glimmerCooldownMultiplier = 0.65
+
+[toreterror]
+	#Base max health.
+	# Default: 300.0
+	# Range: 1.0 ~ 32768.0
+	health = 300.0
+	#Range in blocks a player must be within for the Toreterror to be able to take damage. Prevents cheesing it from outside its aggro range.
+	# Default: 25.0
+	# Range: 1.0 ~ 256.0
+	damageRange = 25.0
+	#Damage dealt by the jump shockwave.
+	# Default: 14.0
+	# Range: 0.0 ~ 1024.0
+	jumpAttackDamage = 14.0
+	#Knockback strength of the jump shockwave.
+	# Default: 2.5
+	# Range: 0.0 ~ 10.0
+	jumpAttackKnockback = 2.5
+	#Damage per spin-attack tick.
+	# Default: 8.0
+	# Range: 0.0 ~ 1024.0
+	spinDamage = 8.0
+	#Knockback strength of the spin attack.
+	# Default: 1.5
+	# Range: 0.0 ~ 10.0
+	spinKnockback = 1.5
+	#Damage multiplier applied to projectile hits on the Toreterror (0.5 = half damage).
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	projectileDamageMultiplier = 0.5
+	#Max health multiplier for the Glimmer Toreterror summoned with a Glimmer Sigil.
+	# Default: 1.75
+	# Range: 0.1 ~ 100.0
+	glimmerHealthMultiplier = 1.75
+	#Damage multiplier for the Glimmer Toreterror's jump, spin, and water bomb attacks.
+	# Default: 1.35
+	# Range: 0.0 ~ 100.0
+	glimmerDamageMultiplier = 1.35
+	#Attack cooldown multiplier for the Glimmer Toreterror (lower = attacks more often).
+	# Default: 0.65
+	# Range: 0.05 ~ 10.0
+	glimmerCooldownMultiplier = 0.65
+	#Damage dealt by a Water Bomb hit.
+	# Default: 6.0
+	# Range: 0.0 ~ 1024.0
+	waterBombDamage = 6.0
+	#Ticks before a Water Bomb despawns.
+	# Default: 120
+	# Range: 1 ~ 6000
+	waterBombLifetimeTicks = 120
+	#Gravity applied to Water Bombs (higher = steeper arc).
+	# Default: 0.12
+	# Range: 0.0 ~ 2.0
+	waterBombGravity = 0.12
+	#Knockback strength when a Water Bomb hits an entity.
+	# Default: 1.2
+	# Range: 0.0 ~ 10.0
+	waterBombKnockback = 1.2

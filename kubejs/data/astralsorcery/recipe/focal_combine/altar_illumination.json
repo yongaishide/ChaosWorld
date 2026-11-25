@@ -1,0 +1,40 @@
+{
+  "type": "astralsorcery:focal_combine",
+  "color": -2236929,
+  "duration": 400,
+  "inputs": [
+    {
+      "item": "astralsorcery:marble_bricks"
+    },
+    {
+      "item": "astralsorcery:marble_bricks"
+    },
+    {
+      "item": "astralsorcery:marble_bricks"
+    },
+    {
+      "item": "astralsorcery:marble_bricks"
+    },
+    {
+      "item": "thaumaturge:arcane_workbench"
+    },
+    {
+      "item": "immersiveengineering:treated_wood_horizontal"
+    },
+    {
+      "item": "immersiveengineering:treated_wood_horizontal"
+    },
+    {
+      "item": "immersiveengineering:treated_wood_horizontal"
+    },
+    {
+      "item": "immersiveengineering:treated_wood_horizontal"
+    }
+  ],
+  "outputs": [
+    {
+      "count": 1,
+      "id": "astralsorcery:altar_illumination"
+    }
+  ]
+}

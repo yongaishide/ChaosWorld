@@ -1,0 +1,36 @@
+{
+    "type": "naturesaura:tree_ritual",
+    "ingredients": [
+        {
+            "item": "pneumaticcraft:reinforced_bricks"
+        },
+        {
+            "item": "pneumaticcraft:reinforced_bricks"
+        },
+        {
+            "item": "pneumaticcraft:reinforced_bricks"
+        },
+        {
+            "item": "pneumaticcraft:reinforced_bricks"
+        },
+        {
+            "item": "naturesaura:gold_leaf"
+        },
+        {
+            "item": "chaosworld_core:iron_golem_core"
+        },
+        {
+            "item": "naturesaura:token_joy"
+        },
+        {
+            "tag": "minecraft:saplings"
+        }
+    ],
+    "sapling": {
+        "item": "industrialforegoing:machine_frame_simple"
+    },
+    "output": {
+        "id": "naturesaura:nature_altar"
+    },
+    "time": 500
+}

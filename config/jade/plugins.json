@@ -1,0 +1,397 @@
+{
+  "unbound": {
+    "block": true,
+    "entity": true
+  },
+  "astralsorcery": {
+    "lumen": true
+  },
+  "thaumaturge": {
+    "display.everfull_urns": "GOGGLES",
+    "display.crystalizers": "GOGGLES",
+    "display.tubes": "GOGGLES",
+    "display.golem_builders": "GOGGLES",
+    "display.node_transducers": "GOGGLES",
+    "display.void_siphons": "GOGGLES",
+    "display.reservoirs": "GOGGLES",
+    "display.focal_manipulators": "GOGGLES",
+    "display.flux_scrubbers": "GOGGLES",
+    "display.valves": "GOGGLES",
+    "display.crucibles": "GOGGLES",
+    "display.one_way_tubes": "GOGGLES",
+    "display.centrifuges": "GOGGLES",
+    "display.restricted_tubes": "GOGGLES",
+    "display.brain_jars": "GOGGLES",
+    "display.smelters": "GOGGLES",
+    "display.mirrors": "GOGGLES",
+    "display": true,
+    "display.nodes": "GOGGLES",
+    "display.advanced_alchemical_furnaces": "GOGGLES",
+    "display.thaumatoriums": "GOGGLES",
+    "display.jars": "GOGGLES",
+    "display.essentia_mirrors": "GOGGLES",
+    "display.vis_relays": "GOGGLES",
+    "display.spas": "GOGGLES",
+    "display.buffers": "GOGGLES",
+    "display.filter_tubes": "GOGGLES",
+    "display.alembics": "GOGGLES",
+    "display.infernal_furnaces": "GOGGLES",
+    "display.golems": "GOGGLES",
+    "display.potion_sprayers": "GOGGLES",
+    "display.deconstruction_tables": "GOGGLES",
+    "machine_icon": true
+  },
+  "productivebeesgenesis": {
+    "resource_output": true,
+    "apiary_status": true,
+    "ae2_status": true
+  },
+  "chaosworld_core": {
+    "quantum_pattern_hatch_cache": true,
+    "mining_level": true
+  },
+  "ae2": {
+    "part_icon": true,
+    "debug": true,
+    "charger": true,
+    "part_tooltip": true,
+    "grid_node_state": true,
+    "pattern_provider": true,
+    "part_mod_name": true,
+    "power_storage": true,
+    "crafting_monitor": true,
+    "part_name": true
+  },
+  "mbd2": {
+    "recipe_logic_provider": true,
+    "multiblock_provider": true
+  },
+  "extendedcrafting": {
+    "ender_crafter": true,
+    "elite_auto_table": true,
+    "basic_auto_table": true,
+    "flux_crafter": true,
+    "advanced_table": true,
+    "auto_ender_crafter": true,
+    "ultimate_table": true,
+    "ultimate_auto_table": true,
+    "elite_table": true,
+    "basic_table": true,
+    "crafting_core": true,
+    "advanced_auto_table": true,
+    "compressor": true
+  },
+  "extendedae_plus": {
+    "wt_locked": true,
+    "labeled_wireless_component": true,
+    "wt_frequency": true,
+    "wt_network_usable": true,
+    "wt_master_mode": true,
+    "wt_channels": true,
+    "wt_master_location": true,
+    "wt_owner": true
+  },
+  "ae2lt": {
+    "frequency_card_wireless_node": true,
+    "lightning_collector": true,
+    "firmament_conversion_core": true,
+    "wireless_energy": true
+  },
+  "projecte": {
+    "emc_provider": true
+  },
+  "mekanism": {
+    "chemical": true,
+    "remove_builtin": true,
+    "fluid": true,
+    "energy": true,
+    "tooltip_renderer": true
+  },
+  "projectexpansion": {
+    "provider": true
+  },
+  "waystones": {
+    "waystone": true
+  },
+  "jdte": {
+    "advanced_energy_transmitter_status": true,
+    "greenhouse_status": true,
+    "installed_upgrades": true,
+    "mineral_extractor_status": true
+  },
+  "data_energistics": {
+    "data_sanctum.part": false,
+    "trinity_information_exchange_depot": true,
+    "data_distribution_tower": true,
+    "multiblock.role": false,
+    "digital_storage_depot": true,
+    "data_teleport_anchor": true,
+    "data_reassembler": true,
+    "digital_supply_interface": true,
+    "data_sanctum.mode": false,
+    "data_sanctum_interface": true,
+    "data_extractor": true,
+    "me_solar_panel": true,
+    "data_sanctum": true,
+    "tuning_fork_base": true,
+    "data_mimetic_field": true,
+    "multiblock": true,
+    "data_charger": true,
+    "compartment": true,
+    "multiblock.debug": false,
+    "data_integrated_charger": true
+  },
+  "compactmachines": {
+    "show_owner": false,
+    "bound_machine": true
+  },
+  "mekenergistics": {
+    "ae_status": true
+  },
+  "jade_access": {
+    "held_item": true,
+    "sign": true,
+    "block": true,
+    "entity": true,
+    "entity_variant": true
+  },
+  "pneumaticcraft": {
+    "pneumatic": true,
+    "tube_module": true,
+    "redstone": true,
+    "camo": true,
+    "entity": true,
+    "semiblock": true
+  },
+  "iceandfire": {
+    "dragon_egg_entity": true,
+    "multipart": true,
+    "dragon_egg_block": true,
+    "dragon": true
+  },
+  "balm": {
+    "jade": true
+  },
+  "integrateddynamicscompat": {
+    "proxy": true,
+    "mechanical_squeezer": true,
+    "mechanical_drying_basin": true,
+    "drying_basin": true,
+    "part": true,
+    "squeezer": true
+  },
+  "justdynathings": {
+    "paradox_mixer": true,
+    "stabilizer": true,
+    "echoing_budding": true
+  },
+  "ars_nouveau": {
+    "mob_jar": true
+  },
+  "thaumicenergistics_ce": {
+    "gacha_box": true,
+    "alchemy_provider": true,
+    "occult_monitor": true,
+    "arcane_assembler": true,
+    "infusion_provider": true,
+    "alchemy_receiver": true,
+    "vibration_chamber": true
+  },
+  "mysticalagradditions": {
+    "infused_farmland": true
+  },
+  "twilightforest": {
+    "drying_rack": true,
+    "chiseled_bookshelf_spawner": true,
+    "quest_ram_wool": true
+  },
+  "ifeu": {
+    "machine_tile": true
+  },
+  "mmcr": {
+    "ae2_input_interface_grid": true,
+    "source_port": true,
+    "machine_controller": true,
+    "parallel_controller": true,
+    "recipe_output": true,
+    "air_port": true
+  },
+  "mysticalagriculture": {
+    "infused_farmland": true,
+    "crop": true,
+    "inferium_crop": true
+  },
+  "minecraft": {
+    "item_storage.show_name_amount": 5,
+    "furnace": true,
+    "harvest_tool.show_unbreakable": false,
+    "animal_owner": true,
+    "harvest_tool.effective_tool": true,
+    "energy_storage.style": "PROGRESS_BAR",
+    "item_storage.normal_amount": 9,
+    "item_storage": true,
+    "harvest_tool": true,
+    "armor_stand": true,
+    "fluid_storage.detailed": false,
+    "next_entity_drop": true,
+    "entity_armor.max_for_render": 20,
+    "energy_storage": true,
+    "breaking_progress": true,
+    "tnt_stability": true,
+    "item_storage.items_per_line": 9,
+    "item_frame": true,
+    "crop_progress": true,
+    "command_block": true,
+    "mob_growth": true,
+    "harvest_tool.new_line": false,
+    "waxed": true,
+    "entity_health.max_for_render": 40,
+    "entity_health.show_fractions": false,
+    "mob_spawner": true,
+    "redstone": true,
+    "fluid_storage": true,
+    "jukebox": true,
+    "brewing_stand": true,
+    "energy_storage.detailed": false,
+    "note_block": true,
+    "beehive": true,
+    "fluid_storage.style": "PROGRESS_BAR",
+    "item_storage.detailed_amount": 54,
+    "player_head": true,
+    "lectern": true,
+    "entity_armor": true,
+    "harvest_tool.creative": false,
+    "horse_stats": true,
+    "item_tooltip": true,
+    "entity_health": true,
+    "enchantment_power": true,
+    "zombie_villager": true,
+    "villager_profession": true,
+    "mob_breeding": true,
+    "entity_health.icons_per_line": 10,
+    "total_enchantment_power": true,
+    "potion_effects": true,
+    "painting": true,
+    "chiseled_bookshelf": true
+  },
+  "modularbees": {
+    "grid_node_state": true,
+    "power_storage": true
+  },
+  "apothic_spawners": {
+    "spawner": true
+  },
+  "hostilenetworks": {
+    "io_port_mode": true
+  },
+  "entangled": {
+    "entangled_block_component": true
+  },
+  "ftbquests": {
+    "barrier": true
+  },
+  "avaritia": {
+    "extreme_smithing": true,
+    "crafting_table": true,
+    "compressor": true
+  },
+  "immersiveengineering": {
+    "multiblock_icon": true
+  },
+  "growthacceleratortiers": {
+    "boosted_growth_accelerator": true,
+    "directional_growth_accelerator": true
+  },
+  "jade": {
+    "coordinates.rel": false,
+    "registry_name.special": false,
+    "block_states": false,
+    "distance": false,
+    "block_face": false,
+    "coordinates": false,
+    "registry_name": "OFF",
+    "block_properties": false,
+    "mod_name": true
+  },
+  "allthemodium": {
+    "teleport_pad": true
+  },
+  "extendedae": {
+    "jade_chamber": true,
+    "jade_wireless": true
+  },
+  "enderio": {
+    "soul_bound": true
+  },
+  "pipez": {
+    "pipe": true
+  },
+  "touhou_little_maid": {
+    "maid": true,
+    "shrine_lamp": true
+  },
+  "quark": {
+    "oretoise_eating_cooldown": true
+  },
+  "neovitae": {
+    "block_info": true
+  },
+  "neoecoae": {
+    "large_workstation_current_inputs": true,
+    "eco_computation_system": true,
+    "eco_drive": true,
+    "eco_storage_interface": true,
+    "eco_crafting_worker": true,
+    "eco_storage_system": true,
+    "eco_crafting_system": true,
+    "eco_computation_drive": true
+  },
+  "occultism": {
+    "foliot": true,
+    "sacrificial": true
+  },
+  "apothic_enchanting": {
+    "ench": true
+  },
+  "functionalstorage": {
+    "armory": true,
+    "drawer": true
+  },
+  "productivebees": {
+    "bee": true,
+    "solitary_nest": true,
+    "canvas_beehive": true,
+    "bee_attributes": true
+  },
+  "modularrouters": {
+    "router": true
+  },
+  "enderio_evolution": {
+    "capacitor_bank_render": true
+  },
+  "enderio_conduit_opt": {
+    "conduit_info": true
+  },
+  "useless_mod": {
+    "temperature_regulator": true,
+    "multiblock_alloy_furnace_core_name": true,
+    "advanced_alloy_furnace_tasks": true
+  },
+  "kaleidoscope_cookery": {
+    "chopping_board": true,
+    "shawarma_spit": true,
+    "recipe_block": true,
+    "food_bite_block": true,
+    "millstone": true,
+    "enamel_basin": true
+  },
+  "ae2cs": {
+    "ender_emitter": true,
+    "ender_channels": true,
+    "ender_broadcaster": true,
+    "mirror_pattern_provider": true
+  },
+  "ufo": {
+    "massive_fluid_hatch": true
+  }
+}

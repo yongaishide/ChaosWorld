@@ -1,0 +1,27 @@
+{
+  "type": "enderio_evolution:machine_upgrade",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "enderio_evolution:capacitor_crystalline"
+    },
+    "F": {
+      "item": "enderio_evolution:infinity_dust_block"
+    },
+    "H": {
+      "item": "enderio_evolution:basic_infinity_generator"
+    },
+    "M": {
+      "item": "enderio_evolution:crystalline_alloy_ingot"
+    }
+  },
+  "pattern": [
+    "CFC",
+    "MHM",
+    "CFC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "enderio_evolution:crystalline_infinity_generator"
+  }
+}

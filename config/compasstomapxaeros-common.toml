@@ -1,0 +1,11 @@
+[feature]
+	#Master switch. If false, no waypoints are auto-registered.
+	enabled = true
+	#If true, register Explorer's Compass structure discoveries as waypoints.
+	enableStructure = true
+	#If true, register Nature's Compass biome discoveries as waypoints.
+	enableBiome = true
+
+[notification]
+	#Send a chat message to the player when a structure or biome is found and registered.
+	notifyOnFound = true

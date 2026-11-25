@@ -1,0 +1,11 @@
+{
+  "description": "折叠栅栏门",
+  "type": "item",
+  "tag": "minecraft:fence_gates",
+  "icon": "minecraft:oak_fence_gate",
+  "display_name": "jei_tag_groups.group.fence_gates.name",
+  "tooltip": [
+    "jei_tag_groups.group.fence_gates.tooltip"
+  ],
+  "border_color": "#55AAFF"
+}

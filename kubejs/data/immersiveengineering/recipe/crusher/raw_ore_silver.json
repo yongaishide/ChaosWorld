@@ -1,0 +1,18 @@
+{
+  "type": "immersiveengineering:crusher",
+  "energy": 6000,
+  "input": {
+    "tag": "c:raw_materials/silver"
+  },
+  "result": {
+    "tag": "c:dusts/silver"
+  },
+  "secondaries": [
+    {
+      "chance": 0.33333334,
+      "output": {
+        "tag": "c:dusts/silver"
+      }
+    }
+  ]
+}

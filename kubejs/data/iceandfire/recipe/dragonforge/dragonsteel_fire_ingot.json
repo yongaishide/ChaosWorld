@@ -1,0 +1,14 @@
+{
+  "type": "iceandfire:dragonforge",
+  "dragonType": "fire",
+  "cookTime": 1000,
+  "input": {
+    "item": "chaosworld_core:ingot_tech_6"
+  },
+  "blood": {
+    "item": "iceandfire:fire_dragon_blood"
+  },
+  "result": {
+    "id": "iceandfire:dragonsteel_fire_ingot"
+  }
+}

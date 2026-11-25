@@ -1,0 +1,756 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "neoecoae:aluminum_alloy_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:aluminum_alloy_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:aluminum_alloy_casing"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:aluminum_alloy_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:aluminum_alloy_hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:aluminum_alloy_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:aluminum_alloy_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:aluminum_alloy_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:aluminum_alloy_sword"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:aluminum_alloy_upgrade_smithing_template"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:aluminum_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:aluminum_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:aluminum_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:aluminum_hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:aluminum_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:aluminum_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:aluminum_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:aluminum_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:aluminum_sword"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:black_tungsten_alloy_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:black_tungsten_alloy_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:black_tungsten_alloy_casing"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:black_tungsten_alloy_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:black_tungsten_alloy_hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:black_tungsten_alloy_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:black_tungsten_alloy_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:black_tungsten_alloy_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:black_tungsten_alloy_sword"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:black_tungsten_alloy_upgrade_smithing_template"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:chipped_budding_energized_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:computation_casing"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:computation_cooling_controller_l4"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:computation_cooling_controller_l6"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:computation_cooling_controller_l9"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:computation_drive"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:computation_high_energy_network_switch"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:computation_interface"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:computation_network_switch"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:computation_parallel_core_l4"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:computation_parallel_core_l6"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:computation_parallel_core_l9"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:computation_system_l4"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:computation_system_l6"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:computation_system_l9"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:computation_threading_core_l4"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:computation_threading_core_l6"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:computation_threading_core_l9"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:computation_transmitter"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:crafting_casing"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:crafting_high_energy_network_switch"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:crafting_interface"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:crafting_network_switch"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:crafting_parallel_core_l4"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:crafting_parallel_core_l6"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:crafting_parallel_core_l9"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:crafting_pattern_bus"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:crafting_system_l4"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:crafting_system_l6"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:crafting_system_l9"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:crafting_vent"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:crafting_worker"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:cryogenic_aluminum_alloy_casing"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:cryotheum"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:cryotheum_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:cryotheum_solution_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:crystal_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:crystal_matrix"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:damaged_budding_energized_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:dev_resource_generator"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_air_cell_16m"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_air_cell_256m"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_air_cell_64m"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_air_cell_housing"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_bulk_conversion_pattern"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_bulk_item_cell_16m"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_bulk_item_cell_256m"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_bulk_item_cell_64m"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_cell_component_16m"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_cell_component_256m"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_cell_component_64m"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_chemical_cell_housing"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_chemical_storage_cell_16m"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_chemical_storage_cell_256m"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_chemical_storage_cell_64m"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_complex_omni_cell_16m"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_complex_omni_cell_256m"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_complex_omni_cell_64m"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_complex_omni_cell_housing"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_computation_cell_l4"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_computation_cell_l6"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_computation_cell_l9"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_data_cell_housing"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_data_storage_cell_16m"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_data_storage_cell_256m"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_data_storage_cell_64m"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_drive"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_fe_cell_housing"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_fe_storage_cell_16m"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_fe_storage_cell_256m"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_fe_storage_cell_64m"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_fluid_cell_housing"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_fluid_storage_cell_16m"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_fluid_storage_cell_256m"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_fluid_storage_cell_64m"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_infinite_cell_component"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_infinite_item_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_infinite_sand_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_item_cell_housing"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_item_storage_cell_16m"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_item_storage_cell_256m"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_item_storage_cell_64m"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_lightning_cell_16m"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_lightning_cell_256m"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_lightning_cell_64m"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_lightning_cell_housing"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_omni_cell_16m"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_omni_cell_256m"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_omni_cell_64m"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_omni_cell_housing"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_quantum_omni_cell_16m"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_quantum_omni_cell_256m"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_quantum_omni_cell_64m"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_quantum_omni_cell_housing"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_source_cell_housing"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_source_storage_cell_16m"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_source_storage_cell_256m"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_source_storage_cell_64m"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_spent_nuclear_waste_cell_16m"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_spent_nuclear_waste_cell_256m"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_spent_nuclear_waste_cell_64m"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:eco_spent_nuclear_waste_cell_housing"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:energized_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:energized_crystal_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:energized_crystal_cluster"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:energized_crystal_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:energized_fluix_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:energized_fluix_crystal_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:energized_fluix_crystal_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:energized_superconductive_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:energized_superconductive_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:energy_cell_l4"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:energy_cell_l6"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:energy_cell_l9"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:flawed_budding_energized_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:flawless_budding_energized_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:fx_monitor_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:input_hatch"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:integrated_working_station"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:integrated_working_station_module_advanced_ae"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:integrated_working_station_module_ae2cs"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:integrated_working_station_module_aelt"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:integrated_working_station_module_data_energistics"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:integrated_working_station_module_empty"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:integrated_working_station_module_extendedae"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:iron_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:large_energized_crystal_bud"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:large_integrated_working_station_casing"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:large_integrated_working_station_input_hatch"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:large_integrated_working_station_interface"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:large_integrated_working_station_output_hatch"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:large_integrated_working_station_smart_cooling_module"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:medium_energized_crystal_bud"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:network_pull_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:output_hatch"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:phase_change_air_cooler"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:raw_aluminum_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:raw_aluminum_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:raw_tungsten_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:raw_tungsten_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:small_energized_crystal_bud"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:storage_casing"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:storage_interface"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:storage_system_l4"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:storage_system_l6"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:storage_system_l9"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:storage_vent"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:superconducting_processor"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:superconducting_processor_press"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:superconducting_processor_print"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:tungsten_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:tungsten_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:tungsten_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:tungsten_hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:tungsten_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:tungsten_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:tungsten_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:tungsten_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "neoecoae:tungsten_sword"
+		}
+	]
+}

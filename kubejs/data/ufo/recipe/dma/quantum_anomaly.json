@@ -1,0 +1,35 @@
+{
+  "type": "ufo:dimensional_assembly",
+  "energy": 4000000,
+  "fluid_inputs": [
+    {
+      "amount": 2000,
+      "ingredient": {
+        "fluid": "ufo:raw_star_matter_plasma"
+      }
+    }
+  ],
+  "fluid_outputs": [],
+  "item_inputs": [
+    {
+      "amount": 16,
+      "ingredient": {
+        "item": "ufo:pulsar_fragment_dust"
+      }
+    },
+    {
+      "amount": 64,
+      "ingredient": {
+        "item": "ae2:quantum_entangled_singularity"
+      }
+    }
+  ],
+  "item_outputs": [
+    {
+      "#": 1,
+      "#t": "ae2:i",
+      "id": "ufo:quantum_anomaly"
+    }
+  ],
+  "time": 600
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "enderio_evolution:vivid_alloy_block"
+    },
+    "C": {
+      "item": "enderio_evolution:capacitor_vivid"
+    },
+    "U": {
+      "item": "enderio_evolution:basic_batch_upgrade"
+    }
+  },
+  "pattern": [
+    " U ",
+    "UBU",
+    " C "
+  ],
+  "result": {
+    "count": 1,
+    "id": "enderio_evolution:vivid_batch_upgrade"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "title": "15784f2243a5a92e",
+  "icon": "texture:occultism:textures/gui/book/summoning.png",
+  "order": 3,
+  "quests": [
+    {
+      "id": "3f0748806085b75e",
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ],
+      "x": 0.0,
+      "y": 0.0
+    },
+    {
+      "id": "68d2c3e042ffc818",
+      "x": 2.0,
+      "deps": [
+        "3f0748806085b75e"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ],
+      "y": 0.0
+    },
+    {
+      "id": "0b861ff7ddc03c61",
+      "x": 4.0,
+      "deps": [
+        "68d2c3e042ffc818"
+      ],
+      "tasks": [
+        {
+          "type": "observe",
+          "icon": "occultism:spirit_fire",
+          "block": "occultism:spirit_fire",
+          "seconds": 0
+        }
+      ],
+      "y": 0.0
+    },
+    {
+      "id": "768f3b7c575f10bb",
+      "x": 6.0,
+      "y": 1.5,
+      "deps": [
+        "0b861ff7ddc03c61"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "4214d8337fcb8917",
+      "x": 6.0,
+      "y": -1.5,
+      "deps": [
+        "0b861ff7ddc03c61"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    }
+  ]
+}

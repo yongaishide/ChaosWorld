@@ -1,0 +1,18 @@
+#Chisel Modern Compat
+[chisels]
+	#FE Capacity
+	# Default: 1000
+	# Range: > 1
+	celestigem_chisel_max_energy_storage = 1000
+	#FE/t
+	# Default: 1
+	# Range: > 1
+	celestigem_chisel_energy_every_tick = 1
+	#FE Capacity
+	# Default: 10000
+	# Range: > 1
+	eclipse_alloy_chisel_max_energy_storage = 10000
+	#FE/t
+	# Default: 10
+	# Range: > 1
+	eclipse_alloy_chisel_energy_every_tick = 10

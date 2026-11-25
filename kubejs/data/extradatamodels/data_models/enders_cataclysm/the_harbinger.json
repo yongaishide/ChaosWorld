@@ -1,0 +1,42 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "cataclysm"
+		}
+    ],
+    "entity": "cataclysm:the_harbinger",
+    "name": {
+        "translate": "entity.cataclysm.the_harbinger",
+        "color": "#F33149"
+    },
+	"display": {
+        "scale": 0.4
+    },
+    "sim_cost": 2560,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:nether_prediction"
+    },
+    "trivia": "custom.trivia.the_harbinger",
+    "fabricator_drops": [
+        {
+            "id": "cataclysm:witherite_block",
+            "count": 1
+        }
+    ],
+    "tier_data": {
+        "basic": 128,
+        "advanced": 1024,
+        "superior": 4096,
+        "self_aware": 16384
+    },
+    "data_per_kill": {
+        "faulty": 128,
+        "basic": 512,
+        "advanced": 1024,
+        "superior": 2048
+    }
+}

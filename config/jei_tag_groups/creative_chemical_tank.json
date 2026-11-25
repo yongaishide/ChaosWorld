@@ -1,0 +1,11 @@
+{
+  "description": "折叠创造化学品储罐",
+  "type": "item",
+  "item": "mekanism:creative_chemical_tank",
+  "icon": "mekanism:creative_chemical_tank",
+  "display_name": "jei_tag_groups.group.creative_chemical_tank.name",
+  "tooltip": [
+    "jei_tag_groups.group.creative_chemical_tank.tooltip"
+  ],
+  "border_color": "#55AAFF"
+}

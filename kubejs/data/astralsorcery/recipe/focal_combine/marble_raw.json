@@ -1,0 +1,40 @@
+{
+  "type": "astralsorcery:focal_combine",
+  "color": -2236929,
+  "duration": 400,
+  "inputs": [
+    {
+      "item": "minecraft:diorite"
+    },
+    {
+      "item": "minecraft:diorite"
+    },
+    {
+      "item": "minecraft:diorite"
+    },
+    {
+      "item": "minecraft:diorite"
+    },
+    {
+      "item": "minecraft:diorite"
+    },
+    {
+      "item": "minecraft:diorite"
+    },
+    {
+      "item": "minecraft:diorite"
+    },
+    {
+      "item": "minecraft:diorite"
+    },
+    {
+      "item": "astralsorcery:aquamarine"
+    }
+  ],
+  "outputs": [
+    {
+      "count": 8,
+      "id": "astralsorcery:marble_raw"
+    }
+  ]
+}

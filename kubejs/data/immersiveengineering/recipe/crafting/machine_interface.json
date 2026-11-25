@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "tag": "c:wires/aluminum"
+    },
+    "e": {
+      "item": "immersiveengineering:component_electronic_adv"
+    },
+    "r": {
+      "tag": "c:dusts/redstone"
+    },
+    "w": {
+      "item": "immersiveengineering:basic_engineering"
+    }
+  },
+  "pattern": [
+    " r ",
+    "awa",
+    " e "
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersiveengineering:machine_interface"
+  }
+}

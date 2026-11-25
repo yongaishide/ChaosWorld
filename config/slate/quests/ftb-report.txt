@@ -1,0 +1,131 @@
+Slate Quests: an FTB Quests book, converted
+
+From:    C:\Users\xuhuailei\curseforge\minecraft\Instances\Chaos_world\config\ftbquests\quests
+Format:  FTB Quests 1.21 (words in the lang folder)
+Book:    no title of its own: it is called what the game calls a quest book, in each player's language
+Source fingerprint: 893e97dd4b1d4cb7def9165f6ec07539b0c017b522b53b4695ea70192e3593d4
+
+READ      22 chapters in 0 groups, 439 quests, 465 tasks, 87 rewards, 8 quest links, 20 pictures, 10 reward tables
+WRITTEN   22 chapters in 0 groups, 447 quests (439 quests and 8 links), 473 tasks (465 and one for each link that found its quest), 87 rewards
+DROPPED   0 quests, 0 tasks, 0 rewards
+
+APPROXIMATED        137   the book says something Slate cannot say exactly; the nearest thing was made
+NEEDS ANOTHER MOD   0   converted as it is; works where that mod is installed and says so where it is not
+WRITTEN ANOTHER WAY 8   the same thing in Slate's words; nothing lost
+LEFT BEHIND         77   properties that have no meaning in Slate's book, with why
+
+Chapters keep their file names as ids; quests have ids made from their titles. ftb-ids.json beside this file
+says which FTB id became which quest, task and reward: the next conversion of this book keeps those ids, so
+progress and what was edited in Slate's editor stay with their quests. Progress made in FTB Quests is carried
+over by the same list (once per world).
+
+APPROXIMATED (137), by kind, with the quests concerned:
+
+17 x A picture that names no texture (kept, and shows nothing)
+    009c9c3d60924b27 #1
+    422a663b3499a634 #1
+    422a663b3499a634 #2
+    422a663b3499a634 #3
+    422a663b3499a634 #4
+    422a663b3499a634 #5
+    422a663b3499a634 #6
+    422a663b3499a634 #7
+    422a663b3499a634 #8
+    422a663b3499a634 #9
+    422a663b3499a634 #10
+    422a663b3499a634 #11
+    422a663b3499a634 #12
+    7536b34264078ab1 #1
+    ii #1
+    ii #2
+    ii #4
+
+120 x A task of the type "chaosworld_core:ae_resource", which no mod here knows (here: a custom task, finished by /slatequests task or by another mod)
+    15784f2243a5a92e/3f0748806085b75e: chaosworld_core:ae_resource
+    15784f2243a5a92e/68d2c3e042ffc818: chaosworld_core:ae_resource
+    15784f2243a5a92e/768f3b7c575f10bb: chaosworld_core:ae_resource
+    15784f2243a5a92e/4214d8337fcb8917: chaosworld_core:ae_resource
+    1a0ee0887200ead5/4a3f865768c91ec3: chaosworld_core:ae_resource
+    1a0ee0887200ead5/433692862e60fe8d: chaosworld_core:ae_resource
+    1a0ee0887200ead5/20fb375394bd4098: chaosworld_core:ae_resource
+    1a0ee0887200ead5/6866f84b6b348308: chaosworld_core:ae_resource
+    1a0ee0887200ead5/6866f84b6b348308: chaosworld_core:ae_resource
+    1bb3fc91ada402e3/2244bf4160ffa1a3: chaosworld_core:ae_resource
+    1bb3fc91ada402e3/6949746d16f8b723: chaosworld_core:ae_resource
+    1bb3fc91ada402e3/256909d07318ac5b: chaosworld_core:ae_resource
+    1bb3fc91ada402e3/17df9381dca9098a: chaosworld_core:ae_resource
+    25da6234ab7cf3fd/37879c779971db32: chaosworld_core:ae_resource
+    25da6234ab7cf3fd/14cc268cc791e5fc: chaosworld_core:ae_resource
+    25da6234ab7cf3fd/24bc80ddd931ce2c: chaosworld_core:ae_resource
+    25da6234ab7cf3fd/5151f30f4f0bec14: chaosworld_core:ae_resource
+    25da6234ab7cf3fd/42bf09b39ceb6c5f: chaosworld_core:ae_resource
+    25da6234ab7cf3fd/0e957ec8615e8cb2: chaosworld_core:ae_resource
+    25da6234ab7cf3fd/03bef7a5f428095e: chaosworld_core:ae_resource
+    25da6234ab7cf3fd/15ede65564d41787: chaosworld_core:ae_resource
+    25da6234ab7cf3fd/7c7626aecc14b1b9: chaosworld_core:ae_resource
+    25da6234ab7cf3fd/2ca35a8079103a6d: chaosworld_core:ae_resource
+    25da6234ab7cf3fd/1a6becc0111d5ca8: chaosworld_core:ae_resource
+    25e91d4e103a707c/1dd492c11000f657: chaosworld_core:ae_resource
+    25e91d4e103a707c/748fcd725909c075: chaosworld_core:ae_resource
+    25e91d4e103a707c/0918bb40a5176c73: chaosworld_core:ae_resource
+    25e91d4e103a707c/43053bca4007a5e3: chaosworld_core:ae_resource
+    25e91d4e103a707c/237c00587d1ba7d8: chaosworld_core:ae_resource
+    25e91d4e103a707c/7b803975f0b59f1d: chaosworld_core:ae_resource
+    25e91d4e103a707c/34e571e39c278c7e: chaosworld_core:ae_resource
+    25e91d4e103a707c/7474281cb33f34d2: chaosworld_core:ae_resource
+    25e91d4e103a707c/5abba616d7b7ceae: chaosworld_core:ae_resource
+    25e91d4e103a707c/068c4165d99a1df7: chaosworld_core:ae_resource
+    25e91d4e103a707c/65584907526f5b11: chaosworld_core:ae_resource
+    25e91d4e103a707c/2f6af7e6dc0a3705: chaosworld_core:ae_resource
+    25e91d4e103a707c/64a97b742cf92a4f: chaosworld_core:ae_resource
+    25e91d4e103a707c/3a2f9f1137099761: chaosworld_core:ae_resource
+    25e91d4e103a707c/534dfa507987c11e: chaosworld_core:ae_resource
+    25e91d4e103a707c/576b182cdd4c82a8: chaosworld_core:ae_resource
+    25e91d4e103a707c/49e4ec36e250bb5e: chaosworld_core:ae_resource
+    309c1de90c7879c8/1686fb9553acafe4: chaosworld_core:ae_resource
+    309c1de90c7879c8/3202a9534d992e50: chaosworld_core:ae_resource
+    309c1de90c7879c8/15160c6d26582e42: chaosworld_core:ae_resource
+    309c1de90c7879c8/2d1475384aee3b88: chaosworld_core:ae_resource
+    309c1de90c7879c8/7cae0c357e2296b3: chaosworld_core:ae_resource
+    309c1de90c7879c8/6296ddefd4a3dd27: chaosworld_core:ae_resource
+    309c1de90c7879c8/6296ddefd4a3dd27: chaosworld_core:ae_resource
+    309c1de90c7879c8/179710599b675898: chaosworld_core:ae_resource
+    309c1de90c7879c8/6ea39066cc710bed: chaosworld_core:ae_resource
+    309c1de90c7879c8/01eea0f4b8f06245: chaosworld_core:ae_resource
+    309c1de90c7879c8/02b2ec533abdddc7: chaosworld_core:ae_resource
+    309c1de90c7879c8/02b2ec533abdddc7: chaosworld_core:ae_resource
+    309c1de90c7879c8/02b2ec533abdddc7: chaosworld_core:ae_resource
+    309c1de90c7879c8/228d54800243d9fd: chaosworld_core:ae_resource
+    309c1de90c7879c8/1b2519d534a702fc: chaosworld_core:ae_resource
+    309c1de90c7879c8/1cec9aaed3f36061: chaosworld_core:ae_resource
+    309c1de90c7879c8/728c928129edfec3: chaosworld_core:ae_resource
+    309c1de90c7879c8/728c928129edfec3: chaosworld_core:ae_resource
+    309c1de90c7879c8/270d37d1759b1a29: chaosworld_core:ae_resource
+    ... and 60 more
+
+WRITTEN ANOTHER WAY (8):
+
+8 x A link to a quest of another chapter (here: a quest of its own that is done when that one is; it is optional and gives nothing)
+    1bb3fc91ada402e3/link_61d2edc385adad2c -> 5ef61b17bb761862/61d2edc385adad2c
+    25e91d4e103a707c/link_5ccca915916790e6 -> 1bb3fc91ada402e3/5ccca915916790e6
+    416723ba5a07cdd2/link_1a2444fd0c5676b5 -> 25e91d4e103a707c/1a2444fd0c5676b5
+    491071d288816a76/link_71ce00e96eacf464 -> 5eb8032318aa9ef3/71ce00e96eacf464
+    5eb8032318aa9ef3/link_0719db4503937e00 -> 71378ccd9a3ae084/0719db4503937e00
+    5ef61b17bb761862/link_54a1dba152a7ba4e -> ii/54a1dba152a7ba4e
+    7677ed92b8a59359/link_3137548559c85fba -> 309c1de90c7879c8/3137548559c85fba
+    ii/link_6be7539266af7c95 -> 7677ed92b8a59359/6be7539266af7c95
+
+LEFT BEHIND (77): properties of FTB Quests that have no meaning in Slate's book. Nothing a player does differs.
+
+74 x loot_crate of a reward table (a crate is an item of FTB Quests; Slate Quests adds no items. The table itself is converted wherever a reward draws from it)
+
+1 x The book's own icon (Slate's book is opened by a key, a hub entry and a button that are the same for every book)
+
+1 x show_lock_icons off (a locked quest is drawn dimmed with a lock in every layout)
+
+1 x grid_scale (the grid of FTB's editor; Slate's editor has its own, and quests keep the places they have)
+
+PROGRESS carried over from FTB Quests (C:\Users\xuhuailei\curseforge\minecraft\Instances\Chaos_world\saves\新的世界\., 2026-11-22 07:48):
+  1 team files read, 1 holders of progress here took them in: 20 quests with progress, 17 of them done
+  0 parties of FTB Teams became teams of Slate Teams
+  14 entries named a quest, task or reward that is not in the book any more and were left out

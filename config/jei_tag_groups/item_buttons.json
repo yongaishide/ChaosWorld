@@ -1,0 +1,11 @@
+{
+  "description": "折叠按钮",
+  "type": "item",
+  "tag": "minecraft:buttons",
+  "icon": "minecraft:stone_button",
+  "display_name": "jei_tag_groups.group.buttons.name",
+  "tooltip": [
+    "jei_tag_groups.group.buttons.tooltip"
+  ],
+  "border_color": "#55AAFF"
+}

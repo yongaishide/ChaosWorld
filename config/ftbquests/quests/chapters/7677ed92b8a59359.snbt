@@ -1,0 +1,649 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7677ed92b8a59359"
+	group: "3349C1ACA6519635"
+	icon: {
+		id: "industrialforegoing:fluid_extractor"
+	}
+	id: "7677ED92B8A59359"
+	images: [ ]
+	order_index: 1
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [{
+		id: "3D0336BF8FF803AD"
+		linked_quest: "3137548559C85FBA"
+		shape: "gear"
+		size: 2.0d
+		x: -3.5d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["3137548559C85FBA"]
+			id: "31FF1D52F7DAC04D"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28F65140E7120C77"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
+			tasks: [{
+				id: "73E3A1EC4E43C77B"
+				item: { count: 1, id: "industrialforegoing:fluid_extractor" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31FF1D52F7DAC04D"]
+			id: "6EE24CB5B31A45EF"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E45A0EAE7E669BE"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
+			tasks: [{
+				fluid: {
+					amount: 1000
+					id: "industrialforegoing:latex"
+				}
+				id: "45FFD4F530A4CA1C"
+				type: "fluid"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D4CD52D3B40877E"]
+			id: "27396FAD0E26FAD0"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0732CA39127080CF"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0AD121C534D6466E"
+				item: { count: 1, id: "industrialforegoing:plastic" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3137548559C85FBA"]
+			id: "0AB99936429AE835"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E5918CDEEDFD6B4"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
+			tasks: [{
+				id: "605CAA2DDC8ED5C4"
+				item: { count: 1, id: "industrialforegoing:dissolution_chamber" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72D3E36C4197A53D"]
+			id: "6BE7539266AF7C95"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "543F84956D0C27FB"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
+			tasks: [{
+				id: "74FE490A83943837"
+				item: { count: 1, id: "industrialforegoing:machine_frame_simple" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A86403CA81D5BF3"]
+			id: "72D3E36C4197A53D"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00D6C1AFA81A777E"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
+			tasks: [{
+				id: "33016272618D2191"
+				item: { count: 1, id: "chaosworld_core:dust_tech_4" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7434004913A44270"]
+			id: "4A86403CA81D5BF3"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B70E2CFDDBCB878"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
+			tasks: [{
+				id: "40010C9ADFD85001"
+				item: { count: 1, id: "extendedae:crystal_assembler" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0AB99936429AE835"
+				"67CC881460BC7312"
+			]
+			id: "7434004913A44270"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4772D2617E94518D"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1B6937FA4D1EE9B4"
+				item: { count: 1, id: "extendedae:machine_frame" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6509D4C15F29CDEE"]
+			id: "5212F909ACA26A66"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C50E0032D6FDA5A"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
+			tasks: [{
+				id: "168911A7559B6F33"
+				item: { count: 1, id: "extendedae:entro_seed" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5212F909ACA26A66"]
+			id: "67CC881460BC7312"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "570E971D15FBD4CD"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6CC18A31CD92F95A"
+				item: { count: 1, id: "extendedae:entro_dust" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0AB99936429AE835"]
+			id: "64F5529172752BFC"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					id: "7A5D0219A5212E06"
+					item: {
+						components: {
+							"gateways:gateway": "gateways:basic/enderman"
+						}
+						count: 1
+						id: "gateways:gate_pearl"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "763DA17F3799DF34"
+					table_id: 5798946034287369178L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "15D5EC2F247A7E80"
+				item: { components: { "gateways:gateway": "gateways:basic/enderman" }, count: 1, id: "gateways:gate_pearl" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7434004913A44270"]
+			id: "1E56A28262AE1D17"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					id: "7829B478575638FB"
+					item: {
+						count: 1
+						id: "extendedae_plus:assembler_matrix_upload_core"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F292AF47B8FB968"
+					table_id: 5798946034287369178L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 28L
+					id: "7EC20D93BB6147F7"
+					item: { count: 1, id: "extendedae:assembler_matrix_frame" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7D60DECBE1747EC4"
+					item: { components: { "ftbfiltersystem:filter": "or(item(extendedae:assembler_matrix_wall)item(extendedae:assembler_matrix_glass))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "70E47CBE9B02B1A3"
+					item: { count: 1, id: "extendedae:assembler_matrix_pattern" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "347736ED6751232E"
+					item: { count: 1, id: "extendedae:assembler_matrix_crafter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3462A16AF50F4709"
+					item: { count: 1, id: "extendedae:assembler_matrix_speed" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["683FA8DA5355B568"]
+			id: "2253226C1919FFDE"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3EFBE1065909E6A8"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
+			tasks: [{
+				id: "39B3FE8DCC9E6FCC"
+				item: { count: 1, id: "pneumaticcraft:reinforced_stone" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2253226C1919FFDE"
+				"3137548559C85FBA"
+			]
+			icon: {
+				id: "pneumaticcraft:pressure_chamber_wall"
+			}
+			id: "6509D4C15F29CDEE"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4542A4424F796BCD"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "269B5177AFF05A09"
+					item: { count: 1, id: "pneumaticcraft:pressure_chamber_wall" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4438B3796BF01B14"
+					item: { count: 1, id: "pneumaticcraft:pressure_chamber_interface" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3DB9EB4570A0A289"
+					item: { count: 1, id: "pneumaticcraft:pressure_chamber_valve" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["635D2A0141F38EF7"]
+			id: "1D1F4A4A096EE030"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D703BD3A9784510"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
+			tasks: [{
+				id: "52925662DFD7A2C8"
+				item: { count: 1, id: "pneumaticcraft:empty_pcb" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"4F2F703E5B15578C"
+				"37CB7442517B4A6C"
+				"1D1F4A4A096EE030"
+			]
+			dependency_requirement: "one_completed"
+			id: "2BAED3D049D94FA3"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "629B5868214D6F86"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
+			tasks: [{
+				id: "051A680D7D027C4A"
+				item: { count: 1, id: "pneumaticcraft:unassembled_pcb" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7434004913A44270"]
+			id: "4F2F703E5B15578C"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23D5E9FF28AC45F9"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0B114874D46B4815"
+				item: { count: 1, id: "pneumaticcraft:assembly_controller" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0D4CD52D3B40877E"]
+			id: "37CB7442517B4A6C"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "453AFBAC52BFA72D"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "274CF68F57214E1D"
+					item: { count: 1, id: "pneumaticcraft:etching_acid_bucket" }
+					type: "item"
+				}
+				{
+					id: "15E3E49DE71E37FC"
+					item: { count: 1, id: "pneumaticcraft:etching_tank" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"135D0D009E96A604"
+				"7353A5C22967BB14"
+			]
+			id: "0D4CD52D3B40877E"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "375FC29D9E553FE0"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
+			tasks: [{
+				fluid: {
+					amount: 1000
+					id: "pneumaticcraft:plastic"
+				}
+				id: "6E300D382CB150AC"
+				type: "fluid"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2253226C1919FFDE"]
+			id: "135D0D009E96A604"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "017B97AC71349333"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1C6C49FF393AF54E"
+				item: { count: 1, id: "pneumaticcraft:thermopneumatic_processing_plant" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2253226C1919FFDE"]
+			id: "33309F072446917E"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B069A7478B86383"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "16E719614F9B6A8D"
+					item: { count: 1, id: "pneumaticcraft:refinery" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "235ED13BE31963B4"
+					item: { count: 1, id: "pneumaticcraft:refinery_output" }
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"33309F072446917E"
+				"193960A16BB4BF92"
+			]
+			dependency_requirement: "one_completed"
+			id: "7353A5C22967BB14"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7862AB3F38C056D0"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
+			tasks: [{
+				fluid: {
+					amount: 1
+					id: "pneumaticcraft:lpg"
+				}
+				id: "60755C1EC2934420"
+				type: "fluid"
+			}]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["568FA380255E4C03"]
+			id: "42FDE9E81B1E1EF4"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "406B32934D44D630"
+				item: { count: 1, id: "appliedpneumatics:me_amadron_extended_process_station" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2BAED3D049D94FA3"]
+			id: "568FA380255E4C03"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "1C8C58D6165A0D85"
+				item: { count: 1, id: "appliedpneumatics:me_amadron_process_station" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependency_requirement: "all_started"
+			id: "193960A16BB4BF92"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				fluid: {
+					amount: 1000
+					id: "pneumaticcraft:oil"
+				}
+				id: "0A4A2F78BD22FF12"
+				type: "fluid"
+			}]
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3137548559C85FBA"]
+			id: "1A520BE24A151A1E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "4A837E5BB5127CE3"
+				item: { count: 1, id: "ae2cs:crystal_growth_chamber" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0AB99936429AE835"]
+			id: "70101DFFD3998D5B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				count: 32L
+				id: "747CB797E46F4F89"
+				item: { count: 1, id: "powah:dielectric_paste" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["70101DFFD3998D5B"]
+			id: "3BBEE5A0A7B90ACC"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "569B0EC1FD40BFC7"
+				item: { count: 1, id: "powah:dielectric_casing" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3BBEE5A0A7B90ACC"]
+			id: "6BD843EAB87F3222"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "77985E9D29379E87"
+				item: { count: 1, id: "powah:energizing_orb" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4A86403CA81D5BF3"]
+			id: "3407507A60AB70EA"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "4748C0062AA99F7A"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "extendedae_plus:lattra_crystal"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["27396FAD0E26FAD0"]
+			id: "635D2A0141F38EF7"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "72F10B06B802D9DE"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "immersiveengineering:circuit_board"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+	]
+}

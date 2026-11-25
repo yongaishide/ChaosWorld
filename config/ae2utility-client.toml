@@ -1,0 +1,23 @@
+#Prefer JEI bookmarks or EMI favorites when choosing among pattern input alternatives.
+#If false, do not read favorites and preserve the original alternative order.
+preferFavoritesForPatternEncoding = true
+#If true (default), JEI encode works when you carry a wireless encoding terminal without opening it.
+#If false, require an open pattern-encoding menu (AE-style).
+allowJeiPatternEncodeWithoutOpenTerminal = true
+#Show the batch-encode-all-pages-in-this-JEI-category button next to substitutions.
+#Turn off if players accidentally click it and cause lag on multiplayer.
+showJeiBatchEncodeFullCategoryButton = true
+#When true (default): within one batch upload session, reuse the previously chosen provider
+#(matched by provider name) when the same search key resolves to multiple providers,
+#to reduce repeated provider-select popups. Still requires ExtendedAE Plus's
+#'auto upload unique match' toggle to be ON.
+#When false: every pattern must be chosen manually unless the filter is unique.
+reuseProviderWithinBatch = true
+#When hovering the JEI encode arrow, pin cycling input slots to the ingredients
+#that will actually be encoded. Selection is cached and only computed while hovered.
+#If false, leave JEI's alternative cycling unchanged.
+previewEncodeIngredientsOnArrowHover = true
+#When hovering the JEI/EMI encode arrow, show a read-only AE2 pattern-encoding
+#terminal preview in the tooltip. Uses the same cached server preview request
+#as ingredient pinning. If false, keep the text-only tooltip.
+previewEncodeTerminalOnArrowHover = true

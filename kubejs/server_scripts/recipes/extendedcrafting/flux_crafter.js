@@ -1,0 +1,54 @@
+ServerEvents.recipes((event) => {
+    event.custom(
+        {"type":"extendedcrafting:shaped_flux_crafter",
+            "power_required":400000,
+            "pattern":["BAB","C C","BBB"],
+            "key":{
+                "A":{"item":"fluxnetworks:flux_core"},
+                "B":{"item":"fluxnetworks:flux_block"},
+                "C":{"item":"fluxnetworks:flux_dust"}
+            },
+            "result":{"id":"fluxnetworks:flux_controller"}}
+    )
+    event.custom(
+        {"type":"extendedcrafting:shaped_flux_crafter",
+            "power_required":400000,
+            "pattern":["BAB","ACA","BAB"],
+            "key":{
+                "A":{"item":"minecraft:obsidian"},
+                "B":{"item":"fluxnetworks:flux_dust"},
+                "C":{"item":"minecraft:ender_eye"}
+            },
+            "result":{"count":4,"id":"fluxnetworks:flux_core"}}
+    )
+    event.custom(
+        {"type":"extendedcrafting:shaped_flux_crafter",
+            "power_required":400000,
+            "pattern":["BAB","ABA","BAB"],
+            "key":{
+                "A":{"item":"fluxnetworks:flux_core"},
+                "B":{"item":"fluxnetworks:flux_dust"}
+            },
+            "result":{"count":2,"id":"fluxnetworks:flux_block"}}
+    )
+    event.custom(
+        {"type":"extendedcrafting:shaped_flux_crafter",
+            "power_required":400000,
+            "pattern":[" A ","ABA"," A "],
+            "key":{
+                "A":{"item":"fluxnetworks:flux_core"},
+                "B":{"item":"fluxnetworks:flux_block"}
+            },
+            "result":{"id":"fluxnetworks:flux_plug"}}
+    )
+    event.custom(
+        {"type":"extendedcrafting:shaped_flux_crafter",
+            "power_required":400000,
+            "pattern":[" A ","ABA"," A "],
+            "key":{
+                "A":{"item":"fluxnetworks:flux_core"},
+                "B":{"item":"minecraft:redstone_block"}
+            },
+            "result":{"id":"fluxnetworks:flux_point"}}
+    )
+})

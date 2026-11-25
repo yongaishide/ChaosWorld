@@ -1,0 +1,32 @@
+{
+  "type": "extendedae:crystal_assembler",
+  "input_items": [
+    {
+      "amount": 4,
+      "ingredient": {
+        "item": "ae2:inscriber"
+      }
+    },
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "ae2:capacity_card"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "sophisticatedstorage:stack_upgrade_tier_2"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "extendedae:concurrent_processor"
+      }
+    }
+  ],
+  "output": {
+    "count": 1,
+    "id": "extendedae:ex_inscriber"
+  }
+}

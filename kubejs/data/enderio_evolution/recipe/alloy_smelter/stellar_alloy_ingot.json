@@ -1,0 +1,23 @@
+{
+  "type": "enderio:alloy_smelting",
+  "energy": 20000,
+  "experience": 3.0,
+  "inputs": [
+    {
+      "count": 1,
+      "item": "ifmup:star_ether_alloy_ingot"
+    },
+    {
+      "count": 2,
+      "item": "chaosworld_core:ingot_tech_7"
+    },
+    {
+      "count": 2,
+      "item": "allthemodium:unobtainium_ingot"
+    }
+  ],
+  "output": {
+    "count": 2,
+    "id": "enderio_evolution:stellar_alloy_ingot"
+  }
+}

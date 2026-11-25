@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "ae2omnicells:components/omni",
+  "key": {
+    "P": {
+      "item": "ae2omnicells:omni_link_processor"
+    },
+    "Q": {
+      "item": "ae2:quartz_glass"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "U": {
+      "item": "ae2omnicells:omni_cell_component_256k"
+    }
+  },
+  "pattern": [
+    "RPR",
+    "UQU",
+    "RUR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ae2omnicells:omni_cell_component_1m"
+  }
+}

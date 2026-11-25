@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "botania:azulejo_cycling",
+  "ingredients": [
+    {
+      "item": "botania:azulejo_11"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "botania:azulejo_12"
+  }
+}

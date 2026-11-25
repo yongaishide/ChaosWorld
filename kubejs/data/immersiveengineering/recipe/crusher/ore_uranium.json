@@ -1,0 +1,30 @@
+{
+  "type": "immersiveengineering:crusher",
+  "energy": 6000,
+  "input": {
+    "tag": "c:ores/uranium"
+  },
+  "result": {
+    "basePredicate": {
+      "tag": "c:dusts/uranium"
+    },
+    "count": 2
+  },
+  "secondaries": [
+    {
+      "chance": 0.1,
+      "conditions": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "tag": "c:dusts/lead"
+          }
+        }
+      ],
+      "output": {
+        "tag": "c:dusts/lead"
+      }
+    }
+  ]
+}

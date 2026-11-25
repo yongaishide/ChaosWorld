@@ -1,0 +1,59 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "ars_nouveau"
+        }
+    ],
+    "entity": "ars_nouveau:wilden_boss",
+    "name": {
+        "translate": "entity.ars_nouveau.wilden_boss",
+        "color": "#DAA520"
+    },
+    "display": {
+        "scale": 0.5
+    },
+    "sim_cost": 2560,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+	"trivia": "custom.trivia.wilden_chimera",
+    "fabricator_drops": [
+		{
+            "id": "ars_nouveau:wilden_tribute",
+            "count": 1
+        },
+		{
+            "id": "ars_nouveau:wilden_horn",
+            "count": 32
+        },
+		{
+            "id": "ars_nouveau:wilden_spike",
+            "count": 32
+        },
+		{
+            "id": "ars_nouveau:wilden_wing",
+            "count": 32
+        },
+        {
+            "optional": true,
+            "id": "hexerei:animal_fat",
+            "count": 64
+        }
+    ],
+	"tier_data": {
+        "basic": 128,
+        "advanced": 1024,
+        "superior": 4096,
+        "self_aware": 16384
+    },
+    "data_per_kill": {
+        "faulty": 128,
+        "basic": 512,
+        "advanced": 1024,
+        "superior": 2048
+    }
+}

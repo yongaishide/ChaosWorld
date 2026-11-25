@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "C": {
+      "item": "botania:corporea_block"
+    },
+    "E": {
+      "tag": "c:ingots/elementium"
+    },
+    "G": {
+      "item": "botania:alfglass"
+    }
+  },
+  "pattern": [
+    " G ",
+    "GCG",
+    " E "
+  ],
+  "result": {
+    "count": 1,
+    "id": "botania:corporea_crystal_cube"
+  }
+}

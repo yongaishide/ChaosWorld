@@ -1,0 +1,32 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "ae2lt:railgun.beam.chain"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2lt:railgun.beam.loop"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2lt:railgun.charge.loop"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2lt:railgun.charge.ramp"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2lt:railgun.fire.charged"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2lt:railgun.fire.impact"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2lt:railgun.fire.max"
+		}
+	]
+}

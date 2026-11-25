@@ -1,0 +1,34 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "apotheosis"
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:mod_loaded",
+                "modid": "apothic_enchanting"
+            }
+        }
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "type": "neoforge:single",
+            "amount": 250,
+            "fluid": "modularbees:dragon_breath"
+        },
+        {
+            "type": "neoforge:single",
+            "amount": 552,
+            "fluid": "enderio:fluid_xp_juice_still"
+        }
+    ],
+    "results": [
+        {
+            "amount": 750,
+            "id": "create_enchantment_industry:infused_dragon_breath"
+        }
+    ]
+}

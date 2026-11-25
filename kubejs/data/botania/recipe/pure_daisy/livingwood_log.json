@@ -1,0 +1,29 @@
+{
+  "type": "botania:pure_daisy",
+  "copy_properties": true,
+  "input": {
+    "type": "botania:all_of_excluding",
+    "excluding": [
+      {
+        "type": "botania:any_of",
+        "ingredients": [
+          {
+            "type": "botania:block",
+            "block": "botania:livingwood_log"
+          }
+        ]
+      }
+    ],
+    "ingredients": [
+      {
+        "type": "botania:tag",
+        "tag": "#minecraft:logs"
+      }
+    ]
+  },
+  "output": {
+    "type": "botania:block",
+    "block": "botania:livingwood_log"
+  },
+  "time": 150
+}

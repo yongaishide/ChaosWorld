@@ -1,0 +1,32 @@
+{
+	"elements": [
+		{
+			"data": {
+				"fluidName": "ifeu:dragon_star_essence"
+			},
+			"weight": 1.0,
+			"key": "ifeu:dragon_star_essence"
+		},
+		{
+			"data": {
+				"fluidName": "ifeu:liquid_dragon_breath"
+			},
+			"weight": 1.0,
+			"key": "ifeu:liquid_dragon_breath"
+		},
+		{
+			"data": {
+				"fluidName": "ifeu:liquid_malic_acid"
+			},
+			"weight": 1.0,
+			"key": "ifeu:liquid_malic_acid"
+		},
+		{
+			"data": {
+				"fluidName": "ifeu:liquid_sculk_matter"
+			},
+			"weight": 1.0,
+			"key": "ifeu:liquid_sculk_matter"
+		}
+	]
+}

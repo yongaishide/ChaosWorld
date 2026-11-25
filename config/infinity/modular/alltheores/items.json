@@ -1,0 +1,1436 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "alltheores:aluminum_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:aluminum_clump"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:aluminum_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:aluminum_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:aluminum_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:aluminum_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:aluminum_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:aluminum_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:aluminum_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:aluminum_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:aluminum_shard"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:brass_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:brass_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:brass_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:brass_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:brass_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:brass_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:brass_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:bronze_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:bronze_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:bronze_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:bronze_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:bronze_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:bronze_ore_hammer"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:bronze_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:bronze_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:cinnabar"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:cinnabar_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:cinnabar_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:cinnabar_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:constantan_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:constantan_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:constantan_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:constantan_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:constantan_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:constantan_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:constantan_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:copper_clump"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:copper_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:copper_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:copper_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:copper_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:copper_ore_hammer"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:copper_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:copper_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:copper_shard"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:deepslate_aluminum_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:deepslate_cinnabar_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:deepslate_fluorite_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:deepslate_iridium_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:deepslate_lead_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:deepslate_nickel_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:deepslate_osmium_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:deepslate_peridot_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:deepslate_platinum_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:deepslate_ruby_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:deepslate_salt_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:deepslate_sapphire_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:deepslate_silver_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:deepslate_sulfur_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:deepslate_tin_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:deepslate_uranium_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:deepslate_zinc_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:diamond_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:diamond_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:diamond_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:diamond_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:dirty_aluminum_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:dirty_copper_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:dirty_gold_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:dirty_iridium_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:dirty_iron_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:dirty_lead_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:dirty_nickel_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:dirty_osmium_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:dirty_platinum_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:dirty_silver_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:dirty_tin_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:dirty_uranium_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:dirty_zinc_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:electrum_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:electrum_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:electrum_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:electrum_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:electrum_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:electrum_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:electrum_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:end_aluminum_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:end_cinnabar_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:end_fluorite_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:end_iridium_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:end_lead_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:end_nickel_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:end_osmium_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:end_peridot_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:end_platinum_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:end_ruby_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:end_salt_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:end_sapphire_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:end_silver_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:end_sulfur_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:end_tin_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:end_uranium_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:end_zinc_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:enderium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:enderium_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:enderium_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:enderium_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:enderium_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:enderium_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:enderium_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:fluorite"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:fluorite_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:fluorite_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:fluorite_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:gold_clump"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:gold_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:gold_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:gold_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:gold_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:gold_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:gold_shard"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:invar_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:invar_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:invar_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:invar_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:invar_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:invar_ore_hammer"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:invar_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:invar_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:iridium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:iridium_clump"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:iridium_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:iridium_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:iridium_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:iridium_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:iridium_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:iridium_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:iridium_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:iridium_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:iridium_shard"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:iron_clump"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:iron_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:iron_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:iron_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:iron_ore_hammer"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:iron_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:iron_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:iron_shard"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:lead_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:lead_clump"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:lead_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:lead_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:lead_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:lead_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:lead_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:lead_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:lead_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:lead_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:lead_shard"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:lumium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:lumium_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:lumium_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:lumium_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:lumium_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:lumium_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:lumium_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:molten_aluminum_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:molten_brass_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:molten_bronze_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:molten_constantan_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:molten_copper_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:molten_electrum_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:molten_enderium_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:molten_gold_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:molten_invar_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:molten_iridium_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:molten_iron_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:molten_lead_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:molten_lumium_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:molten_netherite_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:molten_nickel_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:molten_osmium_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:molten_platinum_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:molten_signalum_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:molten_silver_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:molten_steel_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:molten_tin_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:molten_uranium_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:molten_zinc_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:nether_aluminum_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:nether_cinnabar_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:nether_fluorite_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:nether_iridium_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:nether_lead_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:nether_nickel_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:nether_osmium_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:nether_peridot_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:nether_platinum_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:nether_ruby_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:nether_salt_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:nether_sapphire_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:nether_silver_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:nether_sulfur_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:nether_tin_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:nether_uranium_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:nether_zinc_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:netherite_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:netherite_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:netherite_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:netherite_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:nickel_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:nickel_clump"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:nickel_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:nickel_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:nickel_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:nickel_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:nickel_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:nickel_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:nickel_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:nickel_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:nickel_shard"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:osmium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:osmium_clump"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:osmium_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:osmium_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:osmium_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:osmium_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:osmium_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:osmium_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:osmium_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:osmium_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:osmium_shard"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:other_aluminum_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:other_cinnabar_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:other_fluorite_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:other_iridium_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:other_lead_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:other_nickel_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:other_osmium_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:other_peridot_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:other_platinum_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:other_ruby_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:other_salt_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:other_sapphire_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:other_silver_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:other_sulfur_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:other_tin_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:other_uranium_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:other_zinc_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:peridot"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:peridot_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:peridot_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:peridot_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:platinum_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:platinum_clump"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:platinum_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:platinum_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:platinum_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:platinum_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:platinum_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:platinum_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:platinum_ore_hammer"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:platinum_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:platinum_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:platinum_shard"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:raw_aluminum"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:raw_aluminum_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:raw_iridium"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:raw_iridium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:raw_lead"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:raw_lead_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:raw_nickel"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:raw_nickel_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:raw_osmium"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:raw_osmium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:raw_platinum"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:raw_platinum_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:raw_silver"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:raw_silver_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:raw_tin"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:raw_tin_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:raw_uranium"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:raw_uranium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:raw_zinc"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:raw_zinc_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:ruby"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:ruby_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:ruby_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:ruby_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:salt"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:salt_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:salt_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:sapphire"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:sapphire_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:sapphire_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:sapphire_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:signalum_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:signalum_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:signalum_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:signalum_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:signalum_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:signalum_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:signalum_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:silver_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:silver_clump"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:silver_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:silver_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:silver_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:silver_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:silver_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:silver_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:silver_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:silver_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:silver_shard"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:steel_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:steel_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:steel_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:steel_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:steel_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:steel_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:steel_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:sulfur"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:sulfur_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:sulfur_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:tin_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:tin_clump"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:tin_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:tin_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:tin_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:tin_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:tin_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:tin_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:tin_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:tin_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:tin_shard"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:uranium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:uranium_clump"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:uranium_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:uranium_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:uranium_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:uranium_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:uranium_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:uranium_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:uranium_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:uranium_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:uranium_shard"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:zinc_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:zinc_clump"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:zinc_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:zinc_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:zinc_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:zinc_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:zinc_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:zinc_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:zinc_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:zinc_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "alltheores:zinc_shard"
+		}
+	]
+}

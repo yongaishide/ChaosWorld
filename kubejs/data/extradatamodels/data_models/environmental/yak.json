@@ -1,0 +1,39 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "environmental"
+        }
+    ],
+    "entity": "environmental:yak",
+    "name": {
+        "translate": "entity.environmental.yak",
+        "color": "#896B47"
+    },
+    "display": {
+        "scale": 0.9
+    },
+    "sim_cost": 64,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.yak",
+    "fabricator_drops": [
+        {
+            "id": "environmental:yak_hair",
+            "count": 32
+        },
+		{
+            "id": "minecraft:beef",
+            "count": 32
+        },
+        {
+            "optional": true,
+            "id": "hexerei:animal_fat",
+            "count": 24
+        }
+    ]
+}

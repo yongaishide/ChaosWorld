@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "C": {
+      "item": "botania:corporea_block"
+    },
+    "E": {
+      "item": "botania:pure_ender_essence"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "RER",
+    "CCC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "botania:corporea_interceptor"
+  }
+}

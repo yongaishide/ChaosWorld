@@ -1,0 +1,39 @@
+{
+  "type": "botania:petal_apothecary",
+  "ingredients": [
+    {
+      "tag": "botania:petals/cyan"
+    },
+    {
+      "tag": "botania:petals/cyan"
+    },
+    {
+      "tag": "botania:petals/light_blue"
+    },
+    {
+      "tag": "botania:petals/light_blue"
+    },
+    {
+      "tag": "botania:petals/blue"
+    },
+    {
+      "tag": "botania:petals/blue"
+    },
+    {
+      "item": "botania:rune_of_water"
+    },
+    {
+      "item": "botania:rune_of_summer"
+    },
+    {
+      "tag": "c:dusts/pixie"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "id": "botania:bubbell"
+  },
+  "reagent": {
+    "tag": "botania:seed_apothecary_reagent"
+  }
+}

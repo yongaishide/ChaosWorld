@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "botania:metamorphic_apothecary",
+  "key": {
+    "C": {
+      "item": "botania:cobbled_mycelite"
+    },
+    "P": {
+      "tag": "botania:petals"
+    },
+    "D": {
+      "item": "chaosworld_core:iron_golem_core"
+    }
+  },
+  "pattern": [
+    "CPC",
+    " C ",
+    "CDC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "botania:mycelite_petal_apothecary"
+  }
+}

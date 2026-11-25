@@ -1,0 +1,14 @@
+{
+  "type": "botania:orechid_ignem",
+  "cooldown": 100,
+  "input": {
+    "type": "botania:block",
+    "block": "minecraft:blackstone"
+  },
+  "mana": 20000,
+  "output": {
+    "type": "botania:block",
+    "block": "minecraft:gilded_blackstone"
+  },
+  "weight": 100
+}

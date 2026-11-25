@@ -1,0 +1,22 @@
+{
+  "type": "neoecoae:integrated_working_station",
+  "energy": 144000,
+  "inputFluid": {
+    "amount": 250,
+    "fluid": "ifeu:liquid_sculk_matter"
+  },
+  "inputItems": [
+    {
+      "count": 4,
+      "item": "minecraft:sculk"
+    },
+    {
+      "count": 1,
+      "item": "allthemodium:allthemodium_gear"
+    }
+  ],
+  "itemOutput": {
+    "count": 1,
+    "id": "ifeu:sculk_gear"
+  }
+}

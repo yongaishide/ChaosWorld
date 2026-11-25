@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:cobblestone"
+    },
+    "P": {
+      "tag": "botania:petals"
+    },
+    "D": {
+      "item": "chaosworld_core:iron_golem_core"
+    }
+  },
+  "pattern": [
+    "CPC",
+    " C ",
+    "CDC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "botania:petal_apothecary"
+  }
+}

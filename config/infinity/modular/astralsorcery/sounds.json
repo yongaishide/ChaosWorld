@@ -1,0 +1,132 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "astralsorcery:altar_craft_finish"
+		},
+		{
+			"weight": 1.0,
+			"key": "astralsorcery:altar_craft_loop_t1"
+		},
+		{
+			"weight": 1.0,
+			"key": "astralsorcery:altar_craft_loop_t2"
+		},
+		{
+			"weight": 1.0,
+			"key": "astralsorcery:altar_craft_loop_t3"
+		},
+		{
+			"weight": 1.0,
+			"key": "astralsorcery:altar_craft_loop_t4"
+		},
+		{
+			"weight": 1.0,
+			"key": "astralsorcery:altar_craft_loop_waiting"
+		},
+		{
+			"weight": 1.0,
+			"key": "astralsorcery:altar_craft_start"
+		},
+		{
+			"weight": 1.0,
+			"key": "astralsorcery:attunement_altar_idle_loop"
+		},
+		{
+			"weight": 1.0,
+			"key": "astralsorcery:attunement_altar_item_finish"
+		},
+		{
+			"weight": 1.0,
+			"key": "astralsorcery:attunement_altar_item_loop"
+		},
+		{
+			"weight": 1.0,
+			"key": "astralsorcery:attunement_altar_item_start"
+		},
+		{
+			"weight": 1.0,
+			"key": "astralsorcery:attunement_altar_player_attune"
+		},
+		{
+			"weight": 1.0,
+			"key": "astralsorcery:chisel_hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "astralsorcery:crystal_break"
+		},
+		{
+			"weight": 1.0,
+			"key": "astralsorcery:crystal_hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "astralsorcery:crystal_place"
+		},
+		{
+			"weight": 1.0,
+			"key": "astralsorcery:crystal_step"
+		},
+		{
+			"weight": 1.0,
+			"key": "astralsorcery:grappling_wand_attach"
+		},
+		{
+			"weight": 1.0,
+			"key": "astralsorcery:grappling_wand_cast"
+		},
+		{
+			"weight": 1.0,
+			"key": "astralsorcery:grappling_wand_fail"
+		},
+		{
+			"weight": 1.0,
+			"key": "astralsorcery:illumination_wand_highlight"
+		},
+		{
+			"weight": 1.0,
+			"key": "astralsorcery:illumination_wand_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "astralsorcery:illumination_wand_unhighlight"
+		},
+		{
+			"weight": 1.0,
+			"key": "astralsorcery:infuser_craft_finish"
+		},
+		{
+			"weight": 1.0,
+			"key": "astralsorcery:infuser_craft_loop"
+		},
+		{
+			"weight": 1.0,
+			"key": "astralsorcery:infuser_craft_start"
+		},
+		{
+			"weight": 1.0,
+			"key": "astralsorcery:lumen_transfer"
+		},
+		{
+			"weight": 1.0,
+			"key": "astralsorcery:screen_perk_seal"
+		},
+		{
+			"weight": 1.0,
+			"key": "astralsorcery:screen_perk_unlock"
+		},
+		{
+			"weight": 1.0,
+			"key": "astralsorcery:screen_perk_unseal"
+		},
+		{
+			"weight": 1.0,
+			"key": "astralsorcery:screen_tome_close"
+		},
+		{
+			"weight": 1.0,
+			"key": "astralsorcery:screen_tome_page"
+		}
+	]
+}

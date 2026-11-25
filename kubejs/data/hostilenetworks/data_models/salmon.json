@@ -1,0 +1,30 @@
+{
+    "entity": "minecraft:salmon",
+    "name": {
+        "translate": "entity.minecraft.salmon",
+        "color": "#8D3431"
+    },
+    "sim_cost": 32,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.salmon",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:salmon",
+            "count": 32
+        },
+        {
+            "id": "minecraft:bone_meal",
+            "count": 2
+        },
+        {
+            "optional": true,
+            "id": "croptopia:roe",
+            "count": 64
+        }
+    ]
+}

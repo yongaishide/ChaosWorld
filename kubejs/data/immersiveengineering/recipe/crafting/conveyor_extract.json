@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "immersiveengineering:conveyor_basic"
+    },
+    "s": {
+      "item": "immersiveengineering:strip_curtain"
+    },
+    "w": {
+      "item": "immersiveengineering:basic_engineering"
+    }
+  },
+  "pattern": [
+    " s",
+    "wc"
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersiveengineering:conveyor_extract"
+  }
+}

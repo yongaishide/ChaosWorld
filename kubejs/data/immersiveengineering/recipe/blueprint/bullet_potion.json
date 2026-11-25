@@ -1,0 +1,25 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "category": "specialBullet",
+  "inputs": [
+    {
+      "basePredicate": {
+        "item": "immersiveengineering:empty_shell"
+      },
+      "count": 4
+    },
+    {
+      "tag": "c:gunpowders"
+    },
+    {
+      "basePredicate": {
+        "item": "minecraft:glass_bottle"
+      },
+      "count": 4
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "immersiveengineering:bullet_potion"
+  }
+}

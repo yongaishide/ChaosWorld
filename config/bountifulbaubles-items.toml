@@ -1,0 +1,154 @@
+#饰品开关。设为 false 即禁用该饰品：
+#  - 不再从战利品表或怪物掉落中生成
+#  - 物品描述中显示「已禁用」
+#仍然可以装备，仍然在创造栏显示。
+#修改后在游戏内执行 /bountifulbaubles reload 即可立即生效，无需重启游戏。
+[Items]
+	#虫洞镜 (wormhole_mirror)
+	enable_wormhole_mirror = true
+	#魔镜 (magic_mirror)
+	enable_magic_mirror = true
+	#破碎的心 (broken_heart)
+	enable_broken_heart = true
+	#勾玉护符 (phylactery_charm)
+	enable_phylactery_charm = true
+	#罪恶吊坠 (空) (amulet_sin_empty)
+	enable_amulet_sin_empty = true
+	#末影龙鳞 (ender_dragon_scale)
+	enable_ender_dragon_scale = true
+	#破裂的黑龙鳞 (broken_black_dragon_scale)
+	enable_broken_black_dragon_scale = true
+	#钴盾 (cobalt_shield)
+	enable_cobalt_shield = true
+	#黑曜石头颅 (obsidian_skull)
+	enable_obsidian_skull = true
+	#黑曜石护盾 (obsidian_shield)
+	enable_obsidian_shield = true
+	#气球 (balloon)
+	enable_balloon = true
+	#太阳镜 (sunglasses)
+	enable_sunglasses = true
+	#禁果 (apple)
+	enable_apple = true
+	#维生素 (vitamins)
+	enable_vitamins = true
+	#超频戒指 (ring_overclocking)
+	enable_ring_overclocking = true
+	#潜影贝之心 (shulker_heart)
+	enable_shulker_heart = true
+	#自由行走之戒 (ring_free_action)
+	enable_ring_free_action = true
+	#牛黄 (bezoar)
+	enable_bezoar = true
+	#黑龙鳞 (black_dragon_scale)
+	enable_black_dragon_scale = true
+	#混色龙鳞 (mixed_dragon_scale)
+	enable_mixed_dragon_scale = true
+	#安卡护符 (ankh_charm)
+	enable_ankh_charm = true
+	#幸运马蹄铁 (lucky_horseshoe)
+	enable_lucky_horseshoe = true
+	#安卡护盾 (ankh_shield)
+	enable_ankh_shield = true
+	#十字项链 (cross_necklace)
+	enable_cross_necklace = true
+	#马蹄气球 (horseshoe_balloon)
+	enable_horseshoe_balloon = true
+	#灵巧手套 (gauntlets_dexterity)
+	enable_gauntlets_dexterity = true
+	#吸血手套 (vampiric_glove)
+	enable_vampiric_glove = true
+	#贪食吊坠 (gluttony_pendant)
+	enable_gluttony_pendant = true
+	#傲慢吊坠 (pride_pendant)
+	enable_pride_pendant = true
+	#愤怒吊坠 (wrath_pendant)
+	enable_wrath_pendant = true
+	#奇异戒指 (curious_ring)
+	enable_curious_ring = true
+	#奇异护符 (curious_amulet)
+	enable_curious_amulet = true
+	#奇异之冠 (curious_crown)
+	enable_curious_crown = true
+	#奇异手指 (curious_knuckles)
+	enable_curious_knuckles = true
+	#云朵瓶 (bottled_cloud)
+	enable_bottled_cloud = true
+	#永恒珍珠 (endless_pearl)
+	enable_endless_pearl = true
+	#无限图腾 (infinite_totem_of_undying)
+	enable_infinite_totem_of_undying = true
+	#自动火把 (auto_torch)
+	enable_auto_torch = true
+	#洞察之眼 (minds_eye)
+	enable_minds_eye = true
+	#幸运硬币 (luck_coin)
+	enable_luck_coin = true
+	#火龙之息 (dragon_breath)
+	enable_dragon_breath = true
+	#冰碎片 (ice_shard)
+	enable_ice_shard = true
+	#小蜘蛛 (tha_spider)
+	enable_tha_spider = true
+	#吉吉怪 (creepo)
+	enable_creepo = true
+	#小巫师 (tha_wizard)
+	enable_tha_wizard = true
+	#咒术书 (book_o_enchanting)
+	enable_book_o_enchanting = true
+	#友善虚空 (warm_void)
+	enable_warm_void = true
+	#黄金瓜 (golden_melon)
+	enable_golden_melon = true
+	#燃焱意志 (fire_mind)
+	enable_fire_mind = true
+	#永恒纺锤 (drop_spindle)
+	enable_drop_spindle = true
+	#暗影之卵 (dark_egg)
+	enable_dark_egg = true
+	#覆苔指环 (mossy_ring)
+	enable_mossy_ring = true
+	#覆苔腰带 (mossy_belt)
+	enable_mossy_belt = true
+	#炽光环 (mad_aura)
+	enable_mad_aura = true
+	#海龟鳞 (turtle_shell)
+	enable_turtle_shell = true
+	#暗影匕首 (dark_dagger)
+	enable_dark_dagger = true
+	#余烬之石 (ember)
+	enable_ember = true
+	#凋零之爪 (wither_nail)
+	enable_wither_nail = true
+	#毒蛇之牙 (serpent_tooth)
+	enable_serpent_tooth = true
+	#烈焰之心 (blaze_heart)
+	enable_blaze_heart = true
+	#小海星 (starfish)
+	enable_starfish = true
+	#黄金头颅 (golden_skull)
+	enable_golden_skull = true
+	#屠宰镰 (butchers_cleaver)
+	enable_butchers_cleaver = true
+	#摩羯护符 (karma)
+	enable_karma = true
+	#四叶草 (oxalis)
+	enable_oxalis = true
+	#荣耀碎片 (glory_shards)
+	enable_glory_shards = true
+	#红宝石之心 (ruby_heart)
+	enable_ruby_heart = true
+	#水晶糖 (rock_candy)
+	enable_rock_candy = true
+	#虫洞药水 (potion_wormhole)
+	enable_potion_wormhole = true
+	#回忆药水 (potion_recall)
+	enable_potion_recall = true
+	#幽冥粉 (spectral_silt)
+	enable_spectral_silt = true
+	#崩解牌 (disintegration_tablet)
+	enable_disintegration_tablet = true
+	#闪耀币 (resplendent_token)
+	enable_resplendent_token = true
+	#宝藏袋 (treasure_bag)
+	enable_treasure_bag = true

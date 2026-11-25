@@ -1,0 +1,5792 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:advanced_lithium_ion_battery"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:advanced_plating"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:advanced_voltaic_pile"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:alloy_furnace"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:alugentum"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:alugentum_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:alumina_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:aluminum_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:aluminum_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:aluminum_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:aluminum_fission_coolant_heater"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:aluminum_fission_coolant_heater_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:aluminum_fission_heat_sink"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:aluminum_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:aluminum_nak_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:aluminum_nak_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:aluminum_sulfide_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:aluminum_turbine_dynamo_coil"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:americium_241"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:americium_241_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:americium_241_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:americium_241_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:americium_241_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:americium_241_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:americium_242"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:americium_242_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:americium_242_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:americium_242_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:americium_242_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:americium_242_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:americium_243"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:americium_243_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:americium_243_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:americium_243_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:americium_243_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:americium_243_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:ammonia_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:ammonia_exhaust_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:ammonia_fission_gas_cooler"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:ammonia_fission_gas_cooler_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:ammonia_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:ammonium_bisulfate"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:ammonium_bisulfate_solution_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:ammonium_persulfate"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:ammonium_persulfate_solution_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:ammonium_sulfate"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:ammonium_sulfate_solution_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:arsenic_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:arsenic_fission_coolant_heater"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:arsenic_fission_coolant_heater_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:arsenic_fission_heat_sink"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:arsenic_gem_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:arsenic_nak_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:arsenic_nak_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:assembler"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:baalo_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:bacro_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:bacro_nio_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:barite_gem_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:barium_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:barium_oxide_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:barium_sulfide"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:barium_sulfide_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:bas_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:basic_lithium_ion_battery"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:basic_plating"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:basic_voltaic_pile"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:bef2_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:benzene_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:berkelium_247"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:berkelium_247_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:berkelium_247_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:berkelium_247_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:berkelium_247_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:berkelium_247_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:berkelium_248"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:berkelium_248_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:berkelium_248_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:berkelium_248_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:berkelium_248_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:berkelium_248_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:beryllium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:beryllium_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:beryllium_carbon_reflector"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:beryllium_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:beryllium_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:beryllium_turbine_dynamo_coil"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:bioplastic"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:bismuth_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:borax"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:borax_solution_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:boric_acid_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:boron_10"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:boron_10_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:boron_11"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:boron_11_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:boron_arsenide_gem"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:boron_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:boron_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:boron_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:boron_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:boron_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:boron_deepslate_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:boron_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:boron_fission_coolant_heater"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:boron_fission_coolant_heater_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:boron_fission_heat_sink"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:boron_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:boron_hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:boron_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:boron_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:boron_nak_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:boron_nak_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:boron_nitride_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:boron_nitride_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:boron_nitride_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:boron_nitride_gem"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:boron_nitride_gem_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:boron_nitride_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:boron_nitride_hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:boron_nitride_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:boron_nitride_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:boron_nitride_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:boron_nitride_solution_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:boron_nitride_spaxelhoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:boron_nitride_sword"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:boron_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:boron_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:boron_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:boron_raw"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:boron_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:boron_silver_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:boron_spaxelhoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:boron_sword"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:bronze_alloy"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:c_mn_blend"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:caesium_137_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:caesium_137_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:calcium_sulfate"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:calcium_sulfate_solution_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:californium_249"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:californium_249_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:californium_249_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:californium_249_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:californium_249_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:californium_249_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:californium_250"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:californium_250_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:californium_250_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:californium_250_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:californium_250_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:californium_250_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:californium_251"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:californium_251_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:californium_251_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:californium_251_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:californium_251_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:californium_251_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:californium_252"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:californium_252_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:californium_252_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:californium_252_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:californium_252_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:californium_252_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:californium_source"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:carbon_dioxide_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:carbon_dioxide_exhaust_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:carbon_dioxide_fission_gas_cooler"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:carbon_dioxide_fission_gas_cooler_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:carbon_dioxide_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:carbon_monoxide_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:carbon_monoxide_exhaust_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:carbon_monoxide_fission_gas_cooler"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:carbon_monoxide_fission_gas_cooler_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:carbon_monoxide_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:carobbiite_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:carobbiite_fission_coolant_heater"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:carobbiite_fission_coolant_heater_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:carobbiite_fission_heat_sink"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:carobbiite_gem"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:carobbiite_gem_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:carobbiite_nak_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:carobbiite_nak_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:centrifuge"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:chemical_reactor"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:chocolate_liquor_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:chromium_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:coal_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:coal_gem_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:cobalt_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:cobalt_oxide_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:cobalt_oxide_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:cobalt_oxide_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:cobblestone_generator"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:cobblestone_generator_compact"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:cobblestone_generator_dense"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:cocoa_butter"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:cocoa_butter_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:cocoa_solids"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:condensate_water_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:condenser_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:copper_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:copper_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:copper_fission_coolant_heater"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:copper_fission_coolant_heater_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:copper_fission_heat_sink"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:copper_heat_exchanger_tube"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:copper_nak_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:copper_nak_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:copper_oxide_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:copper_solenoid"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:copper_turbine_dynamo_coil"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:corium_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:create_turbine_rotor_bearing"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:cryotheum_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:cryotheum_fission_coolant_heater"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:cryotheum_fission_coolant_heater_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:cryotheum_fission_heat_sink"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:cryotheum_nak_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:cryotheum_nak_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:crystal_binder"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:crystallizer"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:curium_243"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:curium_243_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:curium_243_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:curium_243_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:curium_243_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:curium_243_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:curium_245"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:curium_245_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:curium_245_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:curium_245_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:curium_245_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:curium_245_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:curium_246"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:curium_246_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:curium_246_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:curium_246_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:curium_246_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:curium_246_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:curium_247"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:curium_247_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:curium_247_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:curium_247_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:curium_247_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:curium_247_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:dark_chocolate"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:dark_chocolate_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:decay_generator"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:decay_hastener"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:decay_pool_container"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:decay_pool_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hea_242_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hea_242_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hea_242_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hea_242_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hea_242_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hea_242_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hea_242_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_heb_248_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_heb_248_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_heb_248_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_heb_248_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_heb_248_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_heb_248_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_heb_248_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hecf_249_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hecf_249_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hecf_249_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hecf_249_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hecf_249_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hecf_249_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hecf_249_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hecf_251_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hecf_251_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hecf_251_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hecf_251_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hecf_251_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hecf_251_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hecf_251_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hecm_243_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hecm_243_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hecm_243_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hecm_243_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hecm_243_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hecm_243_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hecm_243_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hecm_245_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hecm_245_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hecm_245_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hecm_245_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hecm_245_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hecm_245_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hecm_245_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hecm_247_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hecm_247_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hecm_247_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hecm_247_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hecm_247_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hecm_247_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hecm_247_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hen_236_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hen_236_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hen_236_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hen_236_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hen_236_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hen_236_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hen_236_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hep_239_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hep_239_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hep_239_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hep_239_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hep_239_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hep_239_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hep_239_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hep_241_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hep_241_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hep_241_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hep_241_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hep_241_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hep_241_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hep_241_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_heu_233_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_heu_233_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_heu_233_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_heu_233_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_heu_233_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_heu_233_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_heu_233_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_heu_235_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_heu_235_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_heu_235_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_heu_235_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_heu_235_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_heu_235_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_heu_235_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_hydrogen_sulfide_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lea_242_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lea_242_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lea_242_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lea_242_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lea_242_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lea_242_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lea_242_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_leb_248_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_leb_248_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_leb_248_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_leb_248_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_leb_248_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_leb_248_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_leb_248_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lecf_249_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lecf_249_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lecf_249_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lecf_249_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lecf_249_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lecf_249_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lecf_249_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lecf_251_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lecf_251_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lecf_251_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lecf_251_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lecf_251_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lecf_251_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lecf_251_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lecm_243_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lecm_243_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lecm_243_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lecm_243_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lecm_243_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lecm_243_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lecm_243_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lecm_245_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lecm_245_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lecm_245_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lecm_245_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lecm_245_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lecm_245_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lecm_245_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lecm_247_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lecm_247_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lecm_247_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lecm_247_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lecm_247_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lecm_247_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lecm_247_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_len_236_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_len_236_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_len_236_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_len_236_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_len_236_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_len_236_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_len_236_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lep_239_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lep_239_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lep_239_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lep_239_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lep_239_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lep_239_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lep_239_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lep_241_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lep_241_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lep_241_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lep_241_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lep_241_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lep_241_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_lep_241_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_leu_233_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_leu_233_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_leu_233_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_leu_233_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_leu_233_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_leu_233_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_leu_233_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_leu_235_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_leu_235_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_leu_235_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_leu_235_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_leu_235_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_leu_235_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_leu_235_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_mix_239_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_mix_239_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_mix_239_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_mix_239_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_mix_239_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_mix_239_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_mix_239_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_mix_241_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_mix_241_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_mix_241_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_mix_241_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_mix_241_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_mix_241_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_mix_241_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_tbu_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_tbu_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_tbu_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_tbu_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_tbu_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_tbu_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:depleted_tbu_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:deuterium_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:dfdps_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:diamond_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:diamond_fission_coolant_heater"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:diamond_fission_coolant_heater_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:diamond_fission_heat_sink"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:diamond_gem_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:diamond_nak_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:diamond_nak_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:diborane_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:diborane_exhaust_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:diborane_fission_gas_cooler"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:diborane_fission_gas_cooler_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:diborane_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:difluorobenzene_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:dimensional_blend"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:dimethyldifluorosilane_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:distiller_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:distiller_liquid_distributor"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:distiller_reboiling_unit"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:distiller_reflux_unit"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:distiller_sieve_tray"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:distributor_buffer"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:distributor_inlet"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:distributor_outlet"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:dominos"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:du_lithium_ion_battery"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:du_plating"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:du_voltaic_pile"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:dysprholminite_gem_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:dysprholminite_water_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:dysprosium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:dysprosium_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:dysprosium_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:dysprosium_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:electric_furnace"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:electric_motor"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:electrolyzer"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:electrolyzer_anode_terminal"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:electrolyzer_cathode_terminal"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:electrolyzer_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:elite_lithium_ion_battery"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:elite_plating"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:elite_voltaic_pile"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:emerald_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:emerald_fission_coolant_heater"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:emerald_fission_coolant_heater_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:emerald_fission_heat_sink"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:emerald_nak_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:emerald_nak_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:emergency_coolant_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:emergency_coolant_heated_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:empty_frame"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:empty_gas_cooler"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:empty_gas_cooler_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:empty_heat_sink"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:end_stone_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:end_stone_fission_coolant_heater"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:end_stone_fission_coolant_heater_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:end_stone_fission_heat_sink"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:end_stone_gem_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:end_stone_nak_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:end_stone_nak_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:ender_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:enderium_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:enderium_fission_coolant_heater"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:enderium_fission_coolant_heater_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:enderium_fission_heat_sink"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:enderium_nak_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:enderium_nak_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:energetic_blend"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:energy_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:ethanol_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:ethene_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:ethene_exhaust_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:ethene_fission_gas_cooler"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:ethene_fission_gas_cooler_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:ethene_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:ethyne_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:ethyne_exhaust_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:ethyne_fission_gas_cooler"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:ethyne_fission_gas_cooler_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:ethyne_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:europium_155_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:europium_155_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:exhaust_steam_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:extreme_alloy"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:extreme_alloy_turbine_rotor_blade"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:feral_ghoul_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:ferroboron_alloy"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:ferroboron_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fertile_isotope_americium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fertile_isotope_berkelium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fertile_isotope_californium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fertile_isotope_curium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fertile_isotope_neptunium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fertile_isotope_plutonium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fertile_isotope_uranium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fission_computer_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fission_conductor"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fission_fuel_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fission_fuel_cell_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fission_fuel_chamber"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fission_fuel_chamber_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fission_fuel_vessel"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fission_fuel_vessel_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fission_glass"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fission_irradiator"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fission_irradiator_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fission_monitor"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fission_power_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fission_reactor_casing"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fission_shield_manager"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fission_source_manager"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fission_vent"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:flour"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fluid_enricher"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fluid_extractor"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fluid_infuser"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fluid_mixer"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fluorine_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fluorine_exhaust_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fluorine_fission_gas_cooler"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fluorine_fission_gas_cooler_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fluorine_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fluorite_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fluorite_fission_coolant_heater"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fluorite_fission_coolant_heater_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fluorite_fission_heat_sink"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fluorite_gem"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fluorite_gem_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fluorite_nak_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fluorite_nak_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fluorite_water_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fluorobenzene_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fluoromethane_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fluoromethane_exhaust_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fluoromethane_fission_gas_cooler"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fluoromethane_fission_gas_cooler_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fluoromethane_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:foursmore"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fso_vapor_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:fuel_reprocessor"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:gadolinium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:gadolinium_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:gadolinium_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:gadolinium_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:gadolinium_samarium_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:geiger_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:geiger_counter_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:gelatin"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:gelatin_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:glowing_mushroom"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:glowing_mushroom_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:glowing_mushroom_stem_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:glowstone_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:glowstone_fission_coolant_heater"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:glowstone_fission_coolant_heater_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:glowstone_fission_heat_sink"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:glowstone_nak_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:glowstone_nak_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:gold_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:gold_fission_coolant_heater"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:gold_fission_coolant_heater_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:gold_fission_heat_sink"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:gold_nak_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:gold_nak_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:gold_turbine_dynamo_coil"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:graham_cracker"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:graphite_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:graphite_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:graphite_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:ground_cocoa_nibs"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hard_carbon_alloy"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hard_carbon_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hard_carbon_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hard_carbon_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hard_carbon_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hard_carbon_heat_exchanger_tube"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hard_carbon_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hard_carbon_hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hard_carbon_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hard_carbon_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hard_carbon_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hard_carbon_spaxelhoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hard_carbon_sword"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hastelloy_alloy"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hastelloy_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hastelloy_sieve_assembly"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hazmat_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hazmat_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hazmat_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hazmat_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:he_water_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hea_242"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hea_242_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hea_242_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hea_242_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hea_242_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hea_242_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hea_242_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hea_242_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hea_242_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:heat_exchanger_casing"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:heat_exchanger_computer_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:heat_exchanger_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:heat_exchanger_glass"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:heat_exchanger_inlet"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:heat_exchanger_outlet"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:heat_exchanger_redstone_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:heat_exchanger_shell_baffle"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:heavy_radiation_shielding"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:heavy_water_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:heavy_water_moderator"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:heb_248"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:heb_248_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:heb_248_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:heb_248_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:heb_248_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:heb_248_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:heb_248_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:heb_248_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:heb_248_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecf_249"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecf_249_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecf_249_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecf_249_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecf_249_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecf_249_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecf_249_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecf_249_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecf_249_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecf_251"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecf_251_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecf_251_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecf_251_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecf_251_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecf_251_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecf_251_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecf_251_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecf_251_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecm_243"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecm_243_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecm_243_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecm_243_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecm_243_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecm_243_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecm_243_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecm_243_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecm_243_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecm_245"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecm_245_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecm_245_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecm_245_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecm_245_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecm_245_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecm_245_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecm_245_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecm_245_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecm_247"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecm_247_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecm_247_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecm_247_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecm_247_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecm_247_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecm_247_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecm_247_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hecm_247_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:helium_3_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:helium_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:helium_exhaust_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:helium_fission_gas_cooler"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:helium_fission_gas_cooler_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:helium_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hen_236"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hen_236_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hen_236_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hen_236_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hen_236_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hen_236_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hen_236_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hen_236_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hen_236_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hep_239"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hep_239_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hep_239_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hep_239_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hep_239_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hep_239_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hep_239_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hep_239_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hep_239_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hep_241"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hep_241_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hep_241_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hep_241_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hep_241_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hep_241_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hep_241_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hep_241_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hep_241_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:heu_233"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:heu_233_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:heu_233_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:heu_233_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:heu_233_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:heu_233_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:heu_233_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:heu_233_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:heu_233_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:heu_235"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:heu_235_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:heu_235_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:heu_235_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:heu_235_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:heu_235_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:heu_235_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:heu_235_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:heu_235_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:high_pressure_steam_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hodybef_vapor_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hodybeso_solution_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:holmium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:holmium_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:holmium_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:holmium_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hsla_steel_alloy"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hydrated_gelatin_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hydrofluoric_acid_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hydrogen_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hydrogen_exhaust_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hydrogen_fission_gas_cooler"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hydrogen_fission_gas_cooler_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hydrogen_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hydrogen_peroxide_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hydrogen_sulfide_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hydroquinone"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:hydroquinone_solution_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:ice_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:infiltrator_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:infiltrator_heating_unit"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:infiltrator_pressure_chamber"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:ingot_former"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:iridium_oxide_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:iridium_oxide_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:iridium_oxide_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:iron_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:iron_fission_coolant_heater"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:iron_fission_coolant_heater_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:iron_fission_heat_sink"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:iron_nak_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:iron_nak_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:irradiated_borax"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:irradiated_borax_solution_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:koh_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lapis_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lapis_fission_coolant_heater"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lapis_fission_coolant_heater_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lapis_fission_heat_sink"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lapis_nak_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lapis_nak_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:le_water_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lea_242"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lea_242_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lea_242_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lea_242_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lea_242_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lea_242_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lea_242_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lea_242_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lea_242_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lead_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lead_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lead_deepslate_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lead_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lead_fission_coolant_heater"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lead_fission_coolant_heater_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lead_fission_heat_sink"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lead_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lead_nak_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lead_nak_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lead_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lead_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lead_platinum_alloy"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lead_platinum_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lead_raw"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lead_steel_reflector"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:leb_248"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:leb_248_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:leb_248_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:leb_248_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:leb_248_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:leb_248_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:leb_248_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:leb_248_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:leb_248_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecf_249"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecf_249_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecf_249_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecf_249_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecf_249_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecf_249_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecf_249_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecf_249_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecf_249_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecf_251"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecf_251_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecf_251_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecf_251_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecf_251_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecf_251_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecf_251_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecf_251_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecf_251_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecm_243"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecm_243_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecm_243_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecm_243_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecm_243_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecm_243_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecm_243_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecm_243_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecm_243_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecm_245"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecm_245_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecm_245_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecm_245_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecm_245_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecm_245_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecm_245_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecm_245_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecm_245_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecm_247"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecm_247_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecm_247_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecm_247_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecm_247_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecm_247_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecm_247_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecm_247_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lecm_247_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:len_236"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:len_236_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:len_236_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:len_236_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:len_236_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:len_236_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:len_236_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:len_236_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:len_236_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lep_239"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lep_239_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lep_239_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lep_239_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lep_239_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lep_239_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lep_239_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lep_239_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lep_239_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lep_241"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lep_241_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lep_241_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lep_241_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lep_241_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lep_241_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lep_241_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lep_241_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lep_241_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:leu_233"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:leu_233_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:leu_233_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:leu_233_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:leu_233_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:leu_233_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:leu_233_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:leu_233_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:leu_233_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:leu_235"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:leu_235_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:leu_235_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:leu_235_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:leu_235_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:leu_235_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:leu_235_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:leu_235_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:leu_235_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lif_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:light_radiation_shielding"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:linear_actuator"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:liquid_helium_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:liquid_helium_fission_coolant_heater"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:liquid_helium_fission_coolant_heater_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:liquid_helium_fission_heat_sink"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:liquid_helium_nak_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:liquid_helium_nak_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:liquid_nitrogen_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:liquid_nitrogen_fission_coolant_heater"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:liquid_nitrogen_fission_coolant_heater_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:liquid_nitrogen_fission_heat_sink"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:liquid_nitrogen_nak_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:liquid_nitrogen_nak_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lithium_6"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lithium_6_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lithium_7"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lithium_7_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lithium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lithium_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lithium_deepslate_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lithium_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lithium_fission_coolant_heater"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lithium_fission_coolant_heater_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lithium_fission_heat_sink"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lithium_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lithium_ion_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lithium_manganese_dioxide_alloy"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lithium_nak_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lithium_nak_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lithium_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lithium_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:lithium_raw"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:low_pressure_steam_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:low_quality_steam_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:machine_casing"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:machine_chassis"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:machine_computer_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:machine_glass"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:machine_interface"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:machine_power_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:machine_process_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:machine_redstone_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:machine_reservoir_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:magnesium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:magnesium_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:magnesium_deepslate_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:magnesium_diboride_alloy"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:magnesium_diboride_solenoid"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:magnesium_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:magnesium_fission_coolant_heater"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:magnesium_fission_coolant_heater_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:magnesium_fission_heat_sink"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:magnesium_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:magnesium_nak_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:magnesium_nak_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:magnesium_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:magnesium_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:magnesium_raw"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:magnesium_turbine_dynamo_coil"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:manganese_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:manganese_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:manganese_dioxide_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:manganese_dioxide_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:manganese_dioxide_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:manganese_dioxide_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:manganese_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:manganese_fission_coolant_heater"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:manganese_fission_coolant_heater_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:manganese_fission_heat_sink"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:manganese_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:manganese_nak_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:manganese_nak_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:manganese_oxide_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:manganese_oxide_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:manganese_oxide_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:manufactory"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:marshmallow"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:marshmallow_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:medium_radiation_shielding"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:melter"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:methane_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:methane_exhaust_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:methane_fission_gas_cooler"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:methane_fission_gas_cooler_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:methane_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:methanol_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:milk_chocolate"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:milk_chocolate_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:mix_239"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:mix_239_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:mix_239_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:mix_239_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:mix_239_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:mix_239_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:mix_239_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:mix_239_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:mix_239_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:mix_241"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:mix_241_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:mix_241_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:mix_241_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:mix_241_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:mix_241_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:mix_241_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:mix_241_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:mix_241_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:molten_salt_fission_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:molybdenum_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:molybdenum_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:molybdenum_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:moresmore"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:multitool"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:music_disc_end_of_the_world"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:music_disc_hyperspace"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:music_disc_money_for_nothing"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:music_disc_wanderer"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:mysterious_soul_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:nak_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:nak_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:naoh_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:neptunium_236"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:neptunium_236_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:neptunium_236_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:neptunium_236_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:neptunium_236_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:neptunium_236_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:neptunium_237"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:neptunium_237_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:neptunium_237_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:neptunium_237_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:neptunium_237_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:neptunium_237_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:nether_brick_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:nether_brick_fission_coolant_heater"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:nether_brick_fission_coolant_heater_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:nether_brick_fission_heat_sink"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:nether_brick_nak_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:nether_brick_nak_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:nichrome_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:nichromite_gem_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:nickel_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:nickel_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:nickel_oxide_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:nickel_oxide_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:nickel_oxide_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:nickel_oxide_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:nickel_sulfide_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:nitrogen_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:nitrogen_collector"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:nitrogen_collector_compact"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:nitrogen_collector_dense"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:nitrogen_exhaust_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:nitrogen_fission_gas_cooler"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:nitrogen_fission_gas_cooler_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:nitrogen_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:nuclear_furnace"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:obsidian_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:obsidian_fission_coolant_heater"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:obsidian_fission_coolant_heater_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:obsidian_fission_heat_sink"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:obsidian_gem_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:obsidian_nak_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:obsidian_nak_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:orthosilicic_acid_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:oxygen_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:oxygen_difluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:oxygen_exhaust_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:oxygen_fission_gas_cooler"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:oxygen_fission_gas_cooler_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:oxygen_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:palladium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:palladium_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:palladium_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:palladium_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:pebble_bed_fission_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:phenol_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:plasma_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:platinum_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:plutonium_238"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:plutonium_238_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:plutonium_238_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:plutonium_238_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:plutonium_238_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:plutonium_238_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:plutonium_239"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:plutonium_239_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:plutonium_239_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:plutonium_239_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:plutonium_239_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:plutonium_239_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:plutonium_241"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:plutonium_241_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:plutonium_241_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:plutonium_241_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:plutonium_241_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:plutonium_241_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:plutonium_242"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:plutonium_242_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:plutonium_242_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:plutonium_242_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:plutonium_242_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:plutonium_242_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:polonium_beryllium_source"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:polonium_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:polydimethylsilylene"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:polydimethylsilylene_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:polyethersulfone"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:polyethersulfone_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:polyethersulfone_diaphragm"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:polymethylsilylene_methylene"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:polymethylsilylene_methylene_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:polyphenylene_sulfide_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:polytetrafluoroethene"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:polytetrafluoroethene_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:polytetrafluoroethene_sieve_assembly"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:portable_ender_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:potassium_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:potassium_fluoride"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:potassium_fluoride_solution_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:potassium_hydroquinone"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:potassium_hydroquinone_solution_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:potassium_hydroxide"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:potassium_hydroxide_solution_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:potassium_sulfide_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:preheated_water_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:pressurizer"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:prismarine_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:prismarine_fission_coolant_heater"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:prismarine_fission_coolant_heater_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:prismarine_fission_heat_sink"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:prismarine_nak_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:prismarine_nak_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:promethium_147_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:promethium_147_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:protactinium_233_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:purpur_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:purpur_fission_coolant_heater"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:purpur_fission_coolant_heater_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:purpur_fission_heat_sink"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:purpur_nak_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:purpur_nak_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:pyrolytic_carbon"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:quantum_computer_ch"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:quantum_computer_code_generator_qasm"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:quantum_computer_code_generator_qiskit"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:quantum_computer_connector"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:quantum_computer_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:quantum_computer_cp"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:quantum_computer_crx"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:quantum_computer_cry"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:quantum_computer_crz"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:quantum_computer_cs"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:quantum_computer_csdg"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:quantum_computer_cswap"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:quantum_computer_ct"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:quantum_computer_ctdg"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:quantum_computer_cx"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:quantum_computer_cy"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:quantum_computer_cz"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:quantum_computer_h"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:quantum_computer_p"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:quantum_computer_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:quantum_computer_qubit"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:quantum_computer_rx"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:quantum_computer_ry"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:quantum_computer_rz"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:quantum_computer_s"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:quantum_computer_sdg"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:quantum_computer_swap"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:quantum_computer_t"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:quantum_computer_tdg"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:quantum_computer_x"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:quantum_computer_y"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:quantum_computer_z"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:quartz_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:quartz_fission_coolant_heater"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:quartz_fission_coolant_heater_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:quartz_fission_heat_sink"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:quartz_gem_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:quartz_nak_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:quartz_nak_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:rad_x"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:radaway"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:radaway_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:radaway_slow"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:radaway_slow_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:radiation_badge"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:radiation_scrubber"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:radium_beryllium_source"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:radium_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:raw_boron_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:raw_lead_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:raw_lithium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:raw_magnesium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:raw_thorium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:raw_tin_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:raw_uranium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:redstone_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:redstone_ethanol_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:redstone_fission_coolant_heater"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:redstone_fission_coolant_heater_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:redstone_fission_heat_sink"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:redstone_nak_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:redstone_nak_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:rhodochrosite_gem"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:rhodochrosite_gem_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:roasted_cocoa_beans"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:rock_crusher"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:rtg_americium"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:rtg_californium"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:rtg_plutonium"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:rtg_uranium"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:ruthenium_106_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:ruthenium_106_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:ruthenium_oxide_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:ruthenium_oxide_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:ruthenium_oxide_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:samarium_alloy"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:separator"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:servomechanism"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:shibuichi_alloy"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:sic_sic_cmc_alloy"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:sic_turbine_rotor_blade"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:sic_vapor_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:silica"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:silicon_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:silicon_carbide_alloy"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:silicon_carbide_fiber"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:silicon_gem"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:silver_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:silver_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:silver_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:silver_fission_coolant_heater"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:silver_fission_coolant_heater_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:silver_fission_heat_sink"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:silver_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:silver_nak_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:silver_nak_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:silver_turbine_dynamo_coil"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:sintered_steel"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:sintered_steel_diaphragm"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:sintered_zirconia"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:slime_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:slime_fission_coolant_heater"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:slime_fission_coolant_heater_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:slime_fission_heat_sink"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:slime_nak_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:slime_nak_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:slurry_ice_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:smore"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:sodium_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:sodium_fluoride"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:sodium_fluoride_solution_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:sodium_hydroquinone"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:sodium_hydroquinone_solution_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:sodium_hydroxide"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:sodium_hydroxide_solution_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:sodium_sulfide_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:solar_panel_advanced"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:solar_panel_basic"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:solar_panel_du"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:solar_panel_elite"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:solid_fuel_fission_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:solidified_corium"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:soul_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:soulless_sand"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:soulless_sandstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:speed_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:standard_fission_coolant_heater"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:standard_fission_coolant_heater_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:standard_turbine_rotor_stator"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:steam_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:steel_alloy"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:steel_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:steel_chassis"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:steel_sieve_assembly"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:steel_turbine_rotor_blade"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:strontium_90_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:strontium_90_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:sugar_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:sulfur_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:sulfur_dioxide_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:sulfur_dioxide_exhaust_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:sulfur_dioxide_fission_gas_cooler"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:sulfur_dioxide_fission_gas_cooler_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:sulfur_dioxide_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:sulfur_gem_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:sulfur_hexafluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:sulfur_hexafluoride_exhaust_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:sulfur_hexafluoride_fission_gas_cooler"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:sulfur_hexafluoride_fission_gas_cooler_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:sulfur_hexafluoride_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:sulfur_trioxide_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:sulfur_trioxide_exhaust_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:sulfur_trioxide_fission_gas_cooler"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:sulfur_trioxide_fission_gas_cooler_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:sulfur_trioxide_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:sulfuric_acid_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:supercold_ice"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:supercooler"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:tbp_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:tbu"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:tbu_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:tbu_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:tbu_fluoride_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:tbu_fluoride_flibe_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:tbu_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:tbu_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:tbu_tr"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:tbu_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:tetrafluoroethene_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:thermoconducting_alloy"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:thermoconducting_alloy_heat_exchanger_tube"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:thorium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:thorium_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:thorium_deepslate_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:thorium_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:thorium_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:thorium_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:thorium_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:thorium_raw"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:tin_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:tin_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:tin_deepslate_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:tin_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:tin_fission_coolant_heater"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:tin_fission_coolant_heater_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:tin_fission_heat_sink"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:tin_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:tin_nak_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:tin_nak_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:tin_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:tin_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:tin_oxide_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:tin_oxide_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:tin_oxide_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:tin_raw"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:tin_silver_alloy"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:tough_alloy"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:tough_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:tough_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:tough_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:tough_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:tough_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:tough_hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:tough_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:tough_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:tough_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:tough_spaxelhoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:tough_sword"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:tritium_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:tritium_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:turbine_casing"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:turbine_coil_connector"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:turbine_computer_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:turbine_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:turbine_glass"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:turbine_inlet"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:turbine_outlet"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:turbine_redstone_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:turbine_rotor_bearing"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:turbine_rotor_shaft"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:universal_bin"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:unsweetened_chocolate"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:unsweetened_chocolate_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:uranium_233"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:uranium_233_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:uranium_233_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:uranium_233_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:uranium_233_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:uranium_233_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:uranium_235"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:uranium_235_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:uranium_235_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:uranium_235_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:uranium_235_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:uranium_235_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:uranium_238"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:uranium_238_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:uranium_238_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:uranium_238_ni"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:uranium_238_ox"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:uranium_238_za"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:uranium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:uranium_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:uranium_deepslate_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:uranium_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:uranium_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:uranium_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:uranium_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:uranium_raw"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:villiaumite_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:villiaumite_fission_coolant_heater"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:villiaumite_fission_coolant_heater_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:villiaumite_fission_heat_sink"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:villiaumite_gem"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:villiaumite_gem_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:villiaumite_nak_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:villiaumite_nak_hot_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:wasteland_earth"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:wasteland_portal"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:water_fission_heat_sink"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:water_source"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:water_source_compact"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:water_source_dense"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:zircaloy_alloy"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:zirconia_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:zirconia_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:zirconia_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:zirconium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:zirconium_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:zirconium_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:zirconium_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:zirconium_molybdenum_alloy"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:zirfon"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:zirfon_diaphragm"
+		}
+	]
+}

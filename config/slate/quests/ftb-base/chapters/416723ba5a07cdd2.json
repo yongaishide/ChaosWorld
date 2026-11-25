@@ -1,0 +1,380 @@
+{
+  "title": "416723ba5a07cdd2",
+  "icon": "texture:draconicevolution:textures/item/components/chaotic_core.png",
+  "order": 1,
+  "quests": [
+    {
+      "id": "2d9b54072c00db80",
+      "x": 4.0,
+      "y": 3.5,
+      "deps": [
+        "14f93380b5f86677",
+        "2f3587d93cf7d99e"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "draconicevolution:chaotic_core"
+        }
+      ]
+    },
+    {
+      "id": "0e9d66b608f6b727",
+      "y": -0.5,
+      "deps": [
+        "3d0405d66a4fc09c",
+        "47be208dad4ccda0"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "chaosworld_core:ingot_chaotic_metal"
+        }
+      ],
+      "x": 0.0
+    },
+    {
+      "id": "71b05f8e64b75860",
+      "x": 2.0,
+      "y": -0.5,
+      "deps": [
+        "0e9d66b608f6b727"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "draconicevolution:chaotic_energy_core"
+        }
+      ]
+    },
+    {
+      "id": "47ee61629c15a75c",
+      "x": 10.0,
+      "y": 3.5,
+      "deps": [
+        "453d09494656f2ef"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "chaosworld_core:ingot_xuancai"
+        }
+      ]
+    },
+    {
+      "id": "7d909784df310409",
+      "x": -4.5,
+      "y": 1.5,
+      "deps": [
+        "5a2db9f6876403df",
+        "7d76650414f68173"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "ufo:corporeal_matter"
+        }
+      ]
+    },
+    {
+      "id": "5a2db9f6876403df",
+      "x": -6.5,
+      "y": 1.5,
+      "deps": [
+        "09dd6862b8d4d281"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "chaosworld_core:neutronite_ingot"
+        }
+      ]
+    },
+    {
+      "id": "09dd6862b8d4d281",
+      "x": -8.5,
+      "y": 1.5,
+      "tasks": [
+        {
+          "type": "item",
+          "item": "mekanismgenerators:fusion_reactor_controller"
+        }
+      ]
+    },
+    {
+      "id": "7d76650414f68173",
+      "x": -6.5,
+      "y": -0.5,
+      "deps": [
+        "25e91d4e103a707c/537634384a0dd3bc"
+      ],
+      "tasks": [
+        {
+          "type": "fluid",
+          "count": 1000,
+          "consume": true,
+          "fluid": "ufo:source_uu_amplifier_fluid"
+        }
+      ]
+    },
+    {
+      "id": "3d0405d66a4fc09c",
+      "x": -2.5,
+      "y": -0.5,
+      "deps": [
+        "1c1add3c1a03b75e"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "ufo:charged_enriched_neutronium_sphere"
+        }
+      ]
+    },
+    {
+      "id": "52661457b26a2afd",
+      "x": -2.5,
+      "y": 1.5,
+      "deps": [
+        "26de210c96dbc4dc"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "ufo:nuclear_star"
+        }
+      ]
+    },
+    {
+      "id": "47be208dad4ccda0",
+      "y": 1.5,
+      "deps": [
+        "52661457b26a2afd"
+      ],
+      "tasks": [
+        {
+          "type": "fluid",
+          "count": 1000,
+          "consume": true,
+          "fluid": "ufo:raw_star_matter_plasma"
+        }
+      ],
+      "x": 0.0
+    },
+    {
+      "id": "4ead2c0c1a1c3fb8",
+      "x": 12.0,
+      "y": 3.5,
+      "deps": [
+        "47ee61629c15a75c"
+      ],
+      "tasks": [
+        {
+          "type": "fluid",
+          "count": 1000,
+          "consume": true,
+          "fluid": "ufo:transcending_matter"
+        }
+      ]
+    },
+    {
+      "id": "26de210c96dbc4dc",
+      "x": -2.5,
+      "y": 3.5,
+      "deps": [
+        "7377c285089e9356",
+        "7d909784df310409"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "ufo:pulsar_fragment_ingot"
+        }
+      ]
+    },
+    {
+      "id": "7377c285089e9356",
+      "x": -4.5,
+      "y": 3.5,
+      "deps": [
+        "25e91d4e103a707c/1a2444fd0c5676b5",
+        "2dd5da63b677ec1b"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "chaosworld_core:ingot_tech_9"
+        }
+      ]
+    },
+    {
+      "id": "2dd5da63b677ec1b",
+      "x": -6.5,
+      "y": 5.5,
+      "deps": [
+        "1694334c4eeaf5a3"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "1694334c4eeaf5a3",
+      "x": -8.5,
+      "y": 5.5,
+      "tasks": [
+        {
+          "type": "observe",
+          "icon": "mekanism:sps_port",
+          "block": "mekanismgenerators:reactor_glass",
+          "seconds": 0
+        }
+      ]
+    },
+    {
+      "id": "1c1add3c1a03b75e",
+      "x": -4.5,
+      "y": -0.5,
+      "deps": [
+        "7312356665633fab",
+        "7d76650414f68173"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "ufo:enriched_neutronium_sphere"
+        }
+      ]
+    },
+    {
+      "id": "08ea4fdadebe59d0",
+      "x": 6.0,
+      "y": 3.5,
+      "deps": [
+        "2d9b54072c00db80"
+      ],
+      "tasks": [
+        {
+          "type": "fluid",
+          "count": 1000,
+          "consume": true,
+          "fluid": "ufo:source_primordial_matter_fluid"
+        }
+      ]
+    },
+    {
+      "id": "14f93380b5f86677",
+      "x": 4.0,
+      "y": -0.5,
+      "deps": [
+        "71b05f8e64b75860"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "7312356665633fab",
+      "x": -4.5,
+      "y": -2.5,
+      "deps": [
+        "1bb3fc91ada402e3/498c50ec73835a6b"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "002d6aeb8c52a246",
+      "y": 3.5,
+      "deps": [
+        "26de210c96dbc4dc"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ],
+      "x": 0.0
+    },
+    {
+      "id": "2f3587d93cf7d99e",
+      "x": 2.0,
+      "y": 3.5,
+      "deps": [
+        "002d6aeb8c52a246"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "453d09494656f2ef",
+      "x": 8.0,
+      "y": 3.5,
+      "deps": [
+        "08ea4fdadebe59d0"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "60ac7e2b2828ae2c",
+      "x": 14.0,
+      "y": 3.5,
+      "deps": [
+        "4ead2c0c1a1c3fb8"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "3e341ca9a20a52b5",
+      "x": -4.5,
+      "y": 5.5,
+      "deps": [
+        "2dd5da63b677ec1b"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "link_1a2444fd0c5676b5",
+      "x": -6.5,
+      "y": 3.5,
+      "optional": true,
+      "tasks": [
+        {
+          "type": "quest",
+          "quest": "25e91d4e103a707c/1a2444fd0c5676b5"
+        }
+      ],
+      "silent": true
+    }
+  ]
+}

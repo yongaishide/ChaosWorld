@@ -1,0 +1,46 @@
+{
+  "type": "ufo:universal_multiblock",
+  "energy": 960000000,
+  "fluid_inputs": [
+    {
+      "amount": 128000,
+      "fluid": {
+        "amount": 1,
+        "id": "ufo:source_pulsar_fragment_fluid"
+      }
+    }
+  ],
+  "item_inputs": [
+    {
+      "amount": 64,
+      "ingredient": {
+        "item": "ufo:corporeal_matter"
+      }
+    },
+    {
+      "amount": 64,
+      "ingredient": {
+        "item": "ufo:uu_matter_crystal"
+      }
+    },
+    {
+      "amount": 1024,
+      "ingredient": {
+        "item": "ufo:dimensional_processor"
+      }
+    },
+    {
+      "amount": 64,
+      "ingredient": {
+        "item": "ufo:pulsar_fragment_block"
+      }
+    }
+  ],
+  "item_output": {
+    "count": 64,
+    "id": "ufo:pulsar_matter"
+  },
+  "machine": "qmf",
+  "recipe_name": "universal/qmf/pulsar_matter_batch",
+  "time": 1800
+}

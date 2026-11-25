@@ -1,0 +1,44 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "extendedae:machine_frame"
+    }
+  ],
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+    {
+      "item": "extendedae:entro_ingot"
+    },
+    {
+      "item": "ae2:quartz_glass"
+    },
+    {
+      "item": "extendedae:entro_ingot"
+    },
+    {
+      "item": "chaosworld_core:plate_tech_3"
+    },
+    {
+      "item": "chaosworld_core:plate_tech_3"
+    },
+    {
+      "item": "extendedae:entro_ingot"
+    },
+    {
+      "item": "ae2:quartz_glass"
+    },
+    {
+      "item": "extendedae:entro_ingot"
+    }
+  ],
+  "inputFluid": {
+    "amount": 500,
+    "fluid": "industrialforegoing:latex"
+  },
+  "output": {
+    "count": 1,
+    "id": "extendedae:machine_frame"
+  },
+  "processingTime": 300
+}

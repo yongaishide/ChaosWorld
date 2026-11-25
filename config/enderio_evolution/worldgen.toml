@@ -1,0 +1,9 @@
+[WorldGen]
+	#Whether silver ore (and deepslate silver ore) generates in the Overworld.
+	#Main veins: 4 attempts per chunk, Y -64~32 (trapezoid). Deep bonus: 0-1 attempts per chunk, Y -64~-48.
+	#Only affects newly generated chunks.
+	generateSilverOre = true
+	#Whether badlands biomes get the silver high-altitude bonus generation.
+	#50 attempts per chunk at Y 32~256 (mirrors vanilla gold's badlands bonus).
+	#Only affects newly generated chunks.
+	generateSilverBadlandsBonus = true

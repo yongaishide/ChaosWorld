@@ -1,0 +1,15 @@
+#The maximum teleportation distance of the Neutronium Sword
+# Default: 64
+# Range: 0 ~ 64
+neutron_sword_max_range = 64
+
+#Avaritia Expand Common Config
+[blocks]
+	#Recommended setting is 2000-8000
+	# Default: 8000
+	# Range: > 0
+	infinity_tnt_max_explosion_time = 8000
+	#Hey,I don't recommend this value to be greater than 256
+	# Default: 128
+	# Range: 0 ~ 9223372036854775807
+	infinity_tnt_max_range = 128

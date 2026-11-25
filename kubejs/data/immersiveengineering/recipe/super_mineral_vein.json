@@ -1,0 +1,41 @@
+{
+  "type": "immersiveengineering:mineral_mix",
+  "biome_predicates": [
+    [
+      "minecraft:is_overworld"
+    ],
+    [
+      "minecraft:is_river"
+    ]
+  ],
+  "fail_chance": 0.2,
+  "ores": [
+    {
+      "chance": 0.2,
+      "output": {
+        "tag": "c:gems/emerald"
+      }
+    },
+    {
+      "chance": 0.4,
+      "output": {
+        "id": "minecraft:terracotta"
+      }
+    },
+    {
+      "chance": 0.4,
+      "output": {
+        "id": "minecraft:sand"
+      }
+    }
+  ],
+  "spoils": [
+    {
+      "chance": 0.6,
+      "output": {
+        "id": "minecraft:tuff"
+      }
+    }
+  ],
+  "weight": 15
+}

@@ -1,0 +1,656 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "cataclysm:abyss_blast"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:abyss_blast_only_charge"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:abyss_blast_only_shoot"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:aptrgangr_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:aptrgangr_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:aptrgangr_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:axe_swing"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:black_hole_closing"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:black_hole_loop"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:black_hole_opening"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:cindaria_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:cindaria_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:clawdian_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:clawdian_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:clawdian_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:coral_golem_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:coral_golem_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:coralssus_ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:coralssus_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:coralssus_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:coralssus_roar"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:crab_bite"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:crab_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:crab_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:death_laser"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:deepling_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:deepling_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:deepling_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:deepling_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:deepling_swing"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:door_of_seal_open"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:draugr_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:draugr_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:draugr_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:emp_activated"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:enderguardianattack"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:enderguardiandeath"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:enderguardianhurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:endermaptera_ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:endermaptera_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:endermaptera_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:endermaptera_step"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:explosion"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:flame_burst"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:flame_trap"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:flamethrower"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:golemattack"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:golemdeath"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:golemhurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:guardianfistattack"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:hammertime"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:harbinger_charge"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:harbinger_charge_prepare"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:harbinger_deathlaser_prepare"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:harbinger_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:harbinger_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:harbinger_laser"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:harbinger_mode_change"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:harbinger_prepare"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:harbinger_stun"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:heavy_smash"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:hippocamtus_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:hippocamtus_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:hippocamtus_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:ignis_ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:ignis_armor_break"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:ignis_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:ignis_earthquake"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:ignis_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:ignis_impact"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:ignis_poke"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:ignisshieldbreak"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:kobolediator_ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:kobolediator_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:kobolediator_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:koboleton_ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:koboleton_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:koboleton_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:koboleton_step"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:lacerton_ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:lacerton_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:lacerton_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:leviathan_bite"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:leviathan_defeat"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:leviathan_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:leviathan_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:leviathan_roar"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:leviathan_stun_roar"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:leviathan_tentacle_strike"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:maledictus_battle_cry"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:maledictus_bow_pull"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:maledictus_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:maledictus_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:maledictus_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:maledictus_jump"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:maledictus_leap"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:maledictus_mace_swing"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:maledictus_short_roar"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:maledictus_spear"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:ministrosity_fill_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:ministrosity_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:modern_remnant_bite"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:modern_remnant_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:modern_remnant_fill_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:monstrosityawaken"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:monstrositydeath"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:monstrositygrowl"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:monstrosityhurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:monstrosityland"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:monstrosityshoot"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:monstrositystep"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:note_block_imitate_aptrgangr"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:note_block_imitate_draugr"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:note_block_imitate_kobolediator"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:parry"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:portal_abyss_blast"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:prowler_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:prowler_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:prowler_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:prowler_saw_attack"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:prowler_saw_spin_attack"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:remnant_bite"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:remnant_breathing"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:remnant_charge_prepare"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:remnant_charge_roar"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:remnant_charge_step"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:remnant_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:remnant_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:remnant_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:remnant_roar"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:remnant_shockwave"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:remnant_stomp"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:remnant_tail_slam"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:remnant_tail_slam_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:remnant_tail_slam_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:remnant_tail_slam_3"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:remnant_tail_swing"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:revenant_breath"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:revenant_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:revenant_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:revenant_idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:rocket_launch"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:sandstorm"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:scylla_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:scylla_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:scylla_roar"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:shredder_end"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:shredder_loop"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:shredder_start"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:strongswing"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:super_lightning_strike"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:swing"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:sword_stomp"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:the_cataclysmfarer"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:tidal_hook_hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:tidal_hook_loop"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:tidal_tentacle"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:voidrunerising"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:wadjet_ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:wadjet_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:wadjet_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:watcher_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "cataclysm:watcher_hurt"
+		}
+	]
+}

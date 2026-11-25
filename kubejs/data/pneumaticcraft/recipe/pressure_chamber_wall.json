@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "pneumaticcraft:reinforced_bricks"
+    },
+    "P": {
+      "item": "industrialforegoing:machine_frame_pity"
+    }
+  },
+  "pattern": [
+    "III",
+    "IPI",
+    "III"
+  ],
+  "result": {
+    "count": 16,
+    "id": "pneumaticcraft:pressure_chamber_wall"
+  }
+}

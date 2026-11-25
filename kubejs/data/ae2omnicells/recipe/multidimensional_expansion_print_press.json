@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "ae2:engineering_processor_press"
+    },
+    "B": {
+      "item": "ae2:logic_processor_press"
+    },
+    "C": {
+      "item": "ae2:silicon_press"
+    },
+    "D": {
+      "item": "ae2:calculation_processor_press"
+    },
+    "E": {
+      "item": "ae2:singularity"
+    },
+    "F": {
+      "item": "ae2omnicells:charged_ender_ingot"
+    }
+  },
+  "pattern": [
+    "EAE",
+    "DFB",
+    "ECE"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ae2omnicells:multidimensional_expansion_print_press"
+  }
+}

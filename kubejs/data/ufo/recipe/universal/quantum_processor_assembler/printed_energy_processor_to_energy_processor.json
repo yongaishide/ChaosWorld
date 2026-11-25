@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "appflux"
+    }
+  ],
+  "type": "ufo:universal_multiblock",
+  "machine": "quantum_processor_assembler",
+  "recipe_name": "universal/quantum_processor_assembler/printed_energy_processor_to_energy_processor",
+  "item_inputs": [
+    {
+      "ingredient": {
+        "item": "appflux:printed_energy_processor"
+      },
+      "amount": 32768
+    },
+    {
+      "ingredient": {
+        "item": "ae2:printed_silicon"
+      },
+      "amount": 32768
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:redstone"
+      },
+      "amount": 32768
+    }
+  ],
+  "item_output": {
+    "id": "appflux:energy_processor",
+    "count": 32768
+  },
+  "energy": 6000000,
+  "time": 100,
+  "required_tier": 1
+}

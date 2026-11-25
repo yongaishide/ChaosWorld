@@ -1,0 +1,3910 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_alloying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_alloying_factory/me_absolute_alloying_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_centrifuging_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_combining_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_compressing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_crushing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_crystallizing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_dissolving_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_enriching_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_infusing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_injecting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_lathing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_liquifying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_alloying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_alloying_factory/me_absolute_overclocked_alloying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_centrifuging_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_centrifuging_factory/me_absolute_overclocked_centrifuging_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_combining_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_combining_factory/me_absolute_overclocked_combining_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_compressing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_compressing_factory/me_absolute_overclocked_compressing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_crushing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_crushing_factory/me_absolute_overclocked_crushing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_crystallizing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_crystallizing_factory/me_absolute_overclocked_crystallizing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_dissolving_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_dissolving_factory/me_absolute_overclocked_dissolving_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_enriching_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_enriching_factory/me_absolute_overclocked_enriching_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_infusing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_infusing_factory/me_absolute_overclocked_infusing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_injecting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_injecting_factory/me_absolute_overclocked_injecting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_lathing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_lathing_factory/me_absolute_overclocked_lathing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_liquifying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_liquifying_factory/me_absolute_overclocked_liquifying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_oxidizing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_oxidizing_factory/me_absolute_overclocked_oxidizing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_painting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_painting_factory/me_absolute_overclocked_painting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_pigment_extracting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_pigment_extracting_factory/me_absolute_overclocked_pigment_extracting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_planting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_planting_factory/me_absolute_overclocked_planting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_pressurised_reacting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_pressurised_reacting_factory/me_absolute_overclocked_pressurised_reacting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_purifying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_purifying_factory/me_absolute_overclocked_purifying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_recycling_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_recycling_factory/me_absolute_overclocked_recycling_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_replicating_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_replicating_factory/me_absolute_overclocked_replicating_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_rolling_mill_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_rolling_mill_factory/me_absolute_overclocked_rolling_mill_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_sawing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_sawing_factory/me_absolute_overclocked_sawing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_smelting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_smelting_factory/me_absolute_overclocked_smelting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_stamping_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_stamping_factory/me_absolute_overclocked_stamping_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_washing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_overclocked_washing_factory/me_absolute_overclocked_washing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_oxidizing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_painting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_pigment_extracting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_planting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_pressing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_pressurised_reacting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_purifying_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_recycling_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_replicating_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_rolling_mill_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_sawing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_smelting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_stamping_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_absolute_washing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_advanced_alloying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_advanced_alloying_factory/me_advanced_alloying_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_advanced_centrifuging_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_advanced_combining_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_advanced_compressing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_advanced_crushing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_advanced_crystallizing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_advanced_dissolving_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_advanced_enriching_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_advanced_infusing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_advanced_injecting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_advanced_lathing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_advanced_liquifying_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_advanced_oxidizing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_advanced_painting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_advanced_pigment_extracting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_advanced_planting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_advanced_pressurised_reacting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_advanced_purifying_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_advanced_recycling_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_advanced_replicating_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_advanced_rolling_mill_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_advanced_sawing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_advanced_smelting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_advanced_stamping_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_advanced_washing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_alloyer"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_alloyer/me_alloyer"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_antiprotonic_nucleosynthesizer"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_basic_alloying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_basic_alloying_factory/me_basic_alloying_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_basic_centrifuging_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_basic_combining_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_basic_compressing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_basic_crushing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_basic_crystallizing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_basic_dissolving_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_basic_enriching_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_basic_infusing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_basic_injecting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_basic_lathing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_basic_liquifying_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_basic_oxidizing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_basic_painting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_basic_pigment_extracting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_basic_planting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_basic_pressurised_reacting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_basic_purifying_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_basic_recycling_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_basic_replicating_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_basic_rolling_mill_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_basic_sawing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_basic_smelting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_basic_stamping_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_basic_washing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_chemical_crystallizer"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_chemical_dissolution_chamber"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_chemical_infuser"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_chemical_injection_chamber"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_chemical_oxidizer"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_chemical_replicator"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_chemical_washer"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_chemixer"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_chemixer/me_chemixer"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cnc_lathe"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cnc_rolling_mill"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cnc_stamper"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_combiner"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_alloying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_alloying_factory/me_cosmic_alloying_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_centrifuging_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_combining_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_compressing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_crushing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_crystallizing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_alloying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_alloying_factory/me_cosmic_dense_alloying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_centrifuging_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_centrifuging_factory/me_cosmic_dense_centrifuging_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_combining_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_combining_factory/me_cosmic_dense_combining_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_compressing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_compressing_factory/me_cosmic_dense_compressing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_crushing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_crushing_factory/me_cosmic_dense_crushing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_crystallizing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_crystallizing_factory/me_cosmic_dense_crystallizing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_dissolving_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_dissolving_factory/me_cosmic_dense_dissolving_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_enriching_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_enriching_factory/me_cosmic_dense_enriching_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_infusing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_infusing_factory/me_cosmic_dense_infusing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_injecting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_injecting_factory/me_cosmic_dense_injecting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_lathing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_lathing_factory/me_cosmic_dense_lathing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_liquifying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_liquifying_factory/me_cosmic_dense_liquifying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_oxidizing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_oxidizing_factory/me_cosmic_dense_oxidizing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_painting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_painting_factory/me_cosmic_dense_painting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_pigment_extracting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_pigment_extracting_factory/me_cosmic_dense_pigment_extracting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_planting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_planting_factory/me_cosmic_dense_planting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_pressurised_reacting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_pressurised_reacting_factory/me_cosmic_dense_pressurised_reacting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_purifying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_purifying_factory/me_cosmic_dense_purifying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_recycling_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_recycling_factory/me_cosmic_dense_recycling_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_replicating_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_replicating_factory/me_cosmic_dense_replicating_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_rolling_mill_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_rolling_mill_factory/me_cosmic_dense_rolling_mill_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_sawing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_sawing_factory/me_cosmic_dense_sawing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_smelting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_smelting_factory/me_cosmic_dense_smelting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_stamping_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_stamping_factory/me_cosmic_dense_stamping_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_washing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dense_washing_factory/me_cosmic_dense_washing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_dissolving_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_enriching_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_infusing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_injecting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_lathing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_liquifying_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_oxidizing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_painting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_pigment_extracting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_planting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_pressing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_pressurised_reacting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_purifying_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_recycling_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_replicating_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_rolling_mill_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_sawing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_smelting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_stamping_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_cosmic_washing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_creative_alloying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_creative_alloying_factory/me_creative_alloying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_creative_combining_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_creative_combining_factory/me_creative_combining_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_creative_compressing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_creative_compressing_factory/me_creative_compressing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_creative_crushing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_creative_crushing_factory/me_creative_crushing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_creative_enriching_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_creative_enriching_factory/me_creative_enriching_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_creative_infusing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_creative_infusing_factory/me_creative_infusing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_creative_injecting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_creative_injecting_factory/me_creative_injecting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_creative_purifying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_creative_purifying_factory/me_creative_purifying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_creative_sawing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_creative_sawing_factory/me_creative_sawing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_creative_smelting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_creative_smelting_factory/me_creative_smelting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_crusher"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_dense_alloying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_dense_alloying_factory/me_dense_alloying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_dense_combining_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_dense_combining_factory/me_dense_combining_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_dense_compressing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_dense_compressing_factory/me_dense_compressing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_dense_crushing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_dense_crushing_factory/me_dense_crushing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_dense_enriching_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_dense_enriching_factory/me_dense_enriching_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_dense_infusing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_dense_infusing_factory/me_dense_infusing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_dense_injecting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_dense_injecting_factory/me_dense_injecting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_dense_purifying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_dense_purifying_factory/me_dense_purifying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_dense_sawing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_dense_sawing_factory/me_dense_sawing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_dense_smelting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_dense_smelting_factory/me_dense_smelting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_electrolytic_separator"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_elite_alloying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_elite_alloying_factory/me_elite_alloying_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_elite_centrifuging_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_elite_combining_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_elite_compressing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_elite_crushing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_elite_crystallizing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_elite_dissolving_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_elite_enriching_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_elite_infusing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_elite_injecting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_elite_lathing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_elite_liquifying_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_elite_oxidizing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_elite_painting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_elite_pigment_extracting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_elite_planting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_elite_pressurised_reacting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_elite_purifying_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_elite_recycling_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_elite_replicating_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_elite_rolling_mill_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_elite_sawing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_elite_smelting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_elite_stamping_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_elite_washing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_energized_smelter"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_enrichment_chamber"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_fluid_replicator"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_formulaic_assemblicator"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_alloying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_alloying_factory/me_infinite_alloying_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_centrifuging_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_combining_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_compressing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_crushing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_crystallizing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_dissolving_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_enriching_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_infusing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_injecting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_lathing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_liquifying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_alloying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_alloying_factory/me_infinite_multiversal_alloying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_centrifuging_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_centrifuging_factory/me_infinite_multiversal_centrifuging_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_combining_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_combining_factory/me_infinite_multiversal_combining_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_compressing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_compressing_factory/me_infinite_multiversal_compressing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_crushing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_crushing_factory/me_infinite_multiversal_crushing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_crystallizing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_crystallizing_factory/me_infinite_multiversal_crystallizing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_dissolving_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_dissolving_factory/me_infinite_multiversal_dissolving_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_enriching_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_enriching_factory/me_infinite_multiversal_enriching_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_infusing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_infusing_factory/me_infinite_multiversal_infusing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_injecting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_injecting_factory/me_infinite_multiversal_injecting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_lathing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_lathing_factory/me_infinite_multiversal_lathing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_liquifying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_liquifying_factory/me_infinite_multiversal_liquifying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_oxidizing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_oxidizing_factory/me_infinite_multiversal_oxidizing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_painting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_painting_factory/me_infinite_multiversal_painting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_pigment_extracting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_pigment_extracting_factory/me_infinite_multiversal_pigment_extracting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_planting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_planting_factory/me_infinite_multiversal_planting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_pressurised_reacting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_pressurised_reacting_factory/me_infinite_multiversal_pressurised_reacting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_purifying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_purifying_factory/me_infinite_multiversal_purifying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_recycling_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_recycling_factory/me_infinite_multiversal_recycling_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_replicating_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_replicating_factory/me_infinite_multiversal_replicating_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_rolling_mill_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_rolling_mill_factory/me_infinite_multiversal_rolling_mill_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_sawing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_sawing_factory/me_infinite_multiversal_sawing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_smelting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_smelting_factory/me_infinite_multiversal_smelting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_stamping_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_stamping_factory/me_infinite_multiversal_stamping_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_washing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_multiversal_washing_factory/me_infinite_multiversal_washing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_oxidizing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_painting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_pigment_extracting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_planting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_pressing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_pressurised_reacting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_purifying_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_recycling_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_replicating_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_rolling_mill_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_sawing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_smelting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_stamping_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_infinite_washing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_isotopic_centrifuge"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_large_antiprotonic_nucleosynthesizer"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_large_chemical_infuser"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_large_electrolytic_separator"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_large_rotary_condensentrator"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_large_solar_neutron_activator"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_metallurgic_infuser"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_multiversal_alloying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_multiversal_alloying_factory/me_multiversal_alloying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_multiversal_combining_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_multiversal_combining_factory/me_multiversal_combining_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_multiversal_compressing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_multiversal_compressing_factory/me_multiversal_compressing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_multiversal_crushing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_multiversal_crushing_factory/me_multiversal_crushing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_multiversal_enriching_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_multiversal_enriching_factory/me_multiversal_enriching_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_multiversal_infusing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_multiversal_infusing_factory/me_multiversal_infusing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_multiversal_injecting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_multiversal_injecting_factory/me_multiversal_injecting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_multiversal_purifying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_multiversal_purifying_factory/me_multiversal_purifying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_multiversal_sawing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_multiversal_sawing_factory/me_multiversal_sawing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_multiversal_smelting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_multiversal_smelting_factory/me_multiversal_smelting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_nutritional_liquifier"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_osmium_compressor"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_overclocked_alloying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_overclocked_alloying_factory/me_overclocked_alloying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_overclocked_combining_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_overclocked_combining_factory/me_overclocked_combining_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_overclocked_compressing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_overclocked_compressing_factory/me_overclocked_compressing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_overclocked_crushing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_overclocked_crushing_factory/me_overclocked_crushing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_overclocked_enriching_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_overclocked_enriching_factory/me_overclocked_enriching_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_overclocked_infusing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_overclocked_infusing_factory/me_overclocked_infusing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_overclocked_injecting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_overclocked_injecting_factory/me_overclocked_injecting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_overclocked_purifying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_overclocked_purifying_factory/me_overclocked_purifying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_overclocked_sawing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_overclocked_sawing_factory/me_overclocked_sawing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_overclocked_smelting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_overclocked_smelting_factory/me_overclocked_smelting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_painting_machine"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_pigment_extractor"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_pigment_mixer"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_planting_station"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_precision_sawmill"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_pressurized_reaction_chamber"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_purification_chamber"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_quantum_alloying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_quantum_alloying_factory/me_quantum_alloying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_quantum_combining_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_quantum_combining_factory/me_quantum_combining_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_quantum_compressing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_quantum_compressing_factory/me_quantum_compressing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_quantum_crushing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_quantum_crushing_factory/me_quantum_crushing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_quantum_enriching_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_quantum_enriching_factory/me_quantum_enriching_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_quantum_infusing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_quantum_infusing_factory/me_quantum_infusing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_quantum_injecting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_quantum_injecting_factory/me_quantum_injecting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_quantum_purifying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_quantum_purifying_factory/me_quantum_purifying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_quantum_sawing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_quantum_sawing_factory/me_quantum_sawing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_quantum_smelting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_quantum_smelting_factory/me_quantum_smelting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_recycler"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_replicator"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_rotary_condensentrator"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_solar_neutron_activator"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_solidification_chamber"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_solidification_chamber/me_solidification_chamber"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_alloying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_alloying_factory/me_supreme_alloying_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_centrifuging_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_combining_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_compressing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_crushing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_crystallizing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_dissolving_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_enriching_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_infusing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_injecting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_lathing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_liquifying_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_oxidizing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_painting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_pigment_extracting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_planting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_pressing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_pressurised_reacting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_purifying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_alloying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_alloying_factory/me_supreme_quantum_alloying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_centrifuging_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_centrifuging_factory/me_supreme_quantum_centrifuging_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_combining_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_combining_factory/me_supreme_quantum_combining_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_compressing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_compressing_factory/me_supreme_quantum_compressing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_crushing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_crushing_factory/me_supreme_quantum_crushing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_crystallizing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_crystallizing_factory/me_supreme_quantum_crystallizing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_dissolving_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_dissolving_factory/me_supreme_quantum_dissolving_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_enriching_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_enriching_factory/me_supreme_quantum_enriching_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_infusing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_infusing_factory/me_supreme_quantum_infusing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_injecting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_injecting_factory/me_supreme_quantum_injecting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_lathing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_lathing_factory/me_supreme_quantum_lathing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_liquifying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_liquifying_factory/me_supreme_quantum_liquifying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_oxidizing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_oxidizing_factory/me_supreme_quantum_oxidizing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_painting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_painting_factory/me_supreme_quantum_painting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_pigment_extracting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_pigment_extracting_factory/me_supreme_quantum_pigment_extracting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_planting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_planting_factory/me_supreme_quantum_planting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_pressurised_reacting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_pressurised_reacting_factory/me_supreme_quantum_pressurised_reacting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_purifying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_purifying_factory/me_supreme_quantum_purifying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_recycling_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_recycling_factory/me_supreme_quantum_recycling_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_replicating_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_replicating_factory/me_supreme_quantum_replicating_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_rolling_mill_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_rolling_mill_factory/me_supreme_quantum_rolling_mill_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_sawing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_sawing_factory/me_supreme_quantum_sawing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_smelting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_smelting_factory/me_supreme_quantum_smelting_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_stamping_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_stamping_factory/me_supreme_quantum_stamping_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_washing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_quantum_washing_factory/me_supreme_quantum_washing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_recycling_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_replicating_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_rolling_mill_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_sawing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_smelting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_stamping_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_supreme_washing_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_thermalizer"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_thermalizer/me_thermalizer"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_ultimate_alloying_factory"
+		},
+		{
+			"data": {
+				"Type": "empty"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_ultimate_alloying_factory/me_ultimate_alloying_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_ultimate_centrifuging_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_ultimate_combining_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_ultimate_compressing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_ultimate_crushing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_ultimate_crystallizing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_ultimate_dissolving_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_ultimate_enriching_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_ultimate_infusing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_ultimate_injecting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_ultimate_lathing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_ultimate_liquifying_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_ultimate_oxidizing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_ultimate_painting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_ultimate_pigment_extracting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_ultimate_planting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_ultimate_pressurised_reacting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_ultimate_purifying_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_ultimate_recycling_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_ultimate_replicating_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_ultimate_rolling_mill_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_ultimate_sawing_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_ultimate_smelting_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_ultimate_stamping_factory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "mekenergistics:blocks/me_ultimate_washing_factory"
+		}
+	]
+}

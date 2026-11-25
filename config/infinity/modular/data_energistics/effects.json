@@ -1,0 +1,58 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 2221790,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "data_energistics:data_overload"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 10424346,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "data_energistics:life_reduction"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 6680297,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "data_energistics:radix_reboot"
+		},
+		{
+			"data": {
+				"Category": "neutral",
+				"Color": 6680297,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "data_energistics:radix_reboot_cooldown"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 5217233,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "data_energistics:radix_redundancy"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 3594193,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "data_energistics:radix_stasis"
+		}
+	]
+}

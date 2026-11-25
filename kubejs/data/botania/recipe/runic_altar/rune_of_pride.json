@@ -1,0 +1,30 @@
+{
+  "type": "botania:runic_altar",
+  "catalysts": [
+    {
+      "item": "botania:rune_of_summer"
+    },
+    {
+      "item": "botania:rune_of_fire"
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "c:gems/mana_diamond"
+    },
+    {
+      "tag": "c:gems/mana_diamond"
+    },
+    {
+      "tag": "c:gems/mana_quartz"
+    }
+  ],
+  "mana": 12000,
+  "output": {
+    "count": 1,
+    "id": "botania:rune_of_pride"
+  },
+  "reagent": {
+    "item": "botania:livingrock"
+  }
+}

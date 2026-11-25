@@ -1,0 +1,914 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:ash_desert"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:breath_vapour"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:ceres_craters"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:ceres_faculae"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:ceres_occator"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:ceres_plains"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:charon_craters"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:charon_faculae"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:charon_occator"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:charon_plains"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:crab"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:cygnus"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:depths_bone"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:depths_cold_geode"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:depths_fungus"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:depths_geode"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:depths_magma"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:depths_obsidian"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:depths_open"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:depths_rock"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:depths_slag"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:depths_soul"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:depths_weep"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:drift_cluster"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:enceladus_organ"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:enceladus_plains"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:enceladus_sulci"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:europa_bands"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:europa_chaos"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:europa_plains"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:eye_iris_groove"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:eye_iris_ridge"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:eye_pupil"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:eye_sclera"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:facet_planes"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:facet_spires"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:forge_isles"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:forge_sea"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:helix"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:hive_combs"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:hive_wells"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:interrift_breath"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:interrift_comb"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:interrift_eye"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:interrift_facet"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:interrift_isle"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:interrift_open"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:interrift_skein"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:interrift_void"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:io_loki"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:io_patera"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:io_plains"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:jupiter_belt"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:jupiter_red_spot"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:jupiter_zone"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:kuiper_belt"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:lament_shards"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:low_sun_groves"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:low_sun_hearth"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:low_sun_meadows"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:magnetar"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:main_belt"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:mars_canyons"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:mars_dunes"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:mars_plains"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:mars_polar_cap"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:mercury_hollows"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:mercury_plains"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:mercury_scorched_plains"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:miranda_coronae"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:miranda_inverness"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:miranda_leap"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:miranda_plains"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:miranda_verona"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:moon_crater"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:moon_highlands"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:moon_maria"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:mycelium_crimson"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:mycelium_warped"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:neptune_bright"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:neptune_dark_spot"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:neptune_deep"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:orion"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:overlook"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:pleiades"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:pluto_blades"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:pluto_cthulhu"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:pluto_ring"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:pluto_sputnik"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:pluto_uplands"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:saturn_belt"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:saturn_hexagon"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:saturn_zone"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:sgr_a"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:ship_deck"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:solar_void"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:stellar_void"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:tabby"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:titan_dunes"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:titan_huygens"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:titan_kraken"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:titan_plains"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:titan_sea"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:triton_anchor"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:triton_cantaloupe"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:triton_cap"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:triton_plains"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:trojan_swarm"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:underdeep"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:underdeep_buried"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:underdeep_core"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:underdeep_halls"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:underdeep_iron"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:underdeep_sea"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:underweave"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:underweave_eye"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:underweave_first_thread"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:underweave_sampler"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:underweave_sargasso"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:underweave_scarfield"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:underweave_sheer"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:uranus_bright"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:uranus_calm"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:venus_lava_fields"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:venus_tessera_highlands"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:venus_volcanic_plains"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:wanderer_basalt"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:wanderer_crystal"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:wanderer_hydrogen"
+		},
+		{
+			"data": {
+				"Color": -7888045
+			},
+			"weight": 1.0,
+			"key": "unbound:wanderer_ice"
+		}
+	]
+}

@@ -1,0 +1,102 @@
+{
+	"elements": [
+		{
+			"data": {
+				"fluidName": "ufo:source_bose_einstein_condensate"
+			},
+			"weight": 1.0,
+			"key": "ufo:bose_einstein_condensate_block"
+		},
+		{
+			"data": {
+				"fluidName": "ufo:source_gelid_cryotheum"
+			},
+			"weight": 1.0,
+			"key": "ufo:gelid_cryotheum_block"
+		},
+		{
+			"data": {
+				"fluidName": "ufo:source_liquid_starlight_fluid"
+			},
+			"weight": 1.0,
+			"key": "ufo:liquid_starlight_fluid_block"
+		},
+		{
+			"data": {
+				"fluidName": "ufo:source_neutron_star_fragment_fluid"
+			},
+			"weight": 1.0,
+			"key": "ufo:neutron_star_fragment_fluid_block"
+		},
+		{
+			"data": {
+				"fluidName": "ufo:source_primordial_matter_fluid"
+			},
+			"weight": 1.0,
+			"key": "ufo:primordial_matter_fluid_block"
+		},
+		{
+			"data": {
+				"fluidName": "ufo:source_pulsar_fragment_fluid"
+			},
+			"weight": 1.0,
+			"key": "ufo:pulsar_fragment_fluid_block"
+		},
+		{
+			"data": {
+				"fluidName": "ufo:raw_star_matter_plasma"
+			},
+			"weight": 1.0,
+			"key": "ufo:raw_star_matter_plasma_fluid_block"
+		},
+		{
+			"data": {
+				"fluidName": "ufo:source_spatial_fluid"
+			},
+			"weight": 1.0,
+			"key": "ufo:spatial_fluid_block"
+		},
+		{
+			"data": {
+				"fluidName": "ufo:source_stable_coolant"
+			},
+			"weight": 1.0,
+			"key": "ufo:stable_coolant_block"
+		},
+		{
+			"data": {
+				"fluidName": "ufo:source_temporal_fluid"
+			},
+			"weight": 1.0,
+			"key": "ufo:temporal_fluid_block"
+		},
+		{
+			"data": {
+				"fluidName": "ufo:transcending_matter"
+			},
+			"weight": 1.0,
+			"key": "ufo:transcending_matter_fluid_block"
+		},
+		{
+			"data": {
+				"fluidName": "ufo:source_uu_amplifier_fluid"
+			},
+			"weight": 1.0,
+			"key": "ufo:uu_amplifier_fluid_block"
+		},
+		{
+			"data": {
+				"fluidName": "ufo:uu_matter"
+			},
+			"weight": 1.0,
+			"key": "ufo:uu_matter_fluid_block"
+		},
+		{
+			"data": {
+				"fluidName": "ufo:source_white_dwarf_fragment_fluid"
+			},
+			"weight": 1.0,
+			"key": "ufo:white_dwarf_fragment_fluid_block"
+		}
+	]
+}

@@ -1,0 +1,68 @@
+#Allowed Values: OFF, DEFENSE_ONLY, FULL
+pvpMode = "OFF"
+#Allowed Values: BOTH, NATIVE_ONLY, TECH_ONLY, PACK_DEFINED
+normalMaterialMode = "BOTH"
+#Allowed Values: STANDARD, REDUCED, DISABLED
+rareIngredientMode = "STANDARD"
+personalFlightEnabled = true
+#Allowed Values: NORMAL, I, II, III, ULTIMATE
+personalFlightMinimumBodyStage = "NORMAL"
+personalFlightAllowedDimensions = []
+# Default: 0
+# Range: 0 ~ 9223372036854775807
+personalFlightTier1FePerTick = 0
+# Default: 400
+# Range: 0 ~ 9223372036854775807
+personalFlightTier2FePerTick = 400
+# Default: 2000
+# Range: 0 ~ 9223372036854775807
+personalFlightTier3FePerTick = 2000
+personalFlightDisableInCombat = true
+personalFlightAllowedInPvp = false
+personalFlightRequireClaimPermission = true
+bodyGeneratorEnabled = true
+ultimateBodyEnabled = true
+creativeUtilitiesEnabled = true
+crossDimensionalRelayEnabled = true
+# Default: 5000000
+# Range: 0 ~ 9223372036854775807
+quantumReturnCrossDimensionExtraFe = 5000000
+# Default: 4.0
+# Range: 1.0 ~ 64.0
+machineMaximumSpeed = 4.0
+# Default: 8
+# Range: 1 ~ 64
+machineMaximumParallel = 8
+# Default: 4.0
+# Range: 1.0 ~ 64.0
+machineMaximumBufferMultiplier = 4.0
+# Default: 4.0
+# Range: 1.0 ~ 64.0
+machineMaximumTransferMultiplier = 4.0
+# Default: 81920000
+# Range: 1 ~ 200000000
+stellarHydrogenBaseOutput = 81920000
+# Default: 200000000
+# Range: 1 ~ 200000000
+stellarFuelBaseOutput = 200000000
+# Default: 10
+# Range: 1 ~ 214748264
+stellarHydrogenFuelPerCycle = 10
+# Default: 5
+# Range: 1 ~ 214748264
+stellarFuelFuelPerCycle = 5
+# Default: 32
+# Range: 1 ~ 256
+stellarBuildBlocksPerTick = 32
+smartWeaponTargetingEnabled = true
+smartWeaponPvpAssist = false
+# Default: 500000
+# Range: 0 ~ 9223372036854775807
+neuralFireControlTier1Fe = 500000
+# Default: 400000
+# Range: 0 ~ 9223372036854775807
+neuralFireControlTier2Fe = 400000
+# Default: 300000
+# Range: 0 ~ 9223372036854775807
+neuralFireControlTier3Fe = 300000
+massCannonTerrainDamage = false

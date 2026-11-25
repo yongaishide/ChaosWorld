@@ -1,0 +1,182 @@
+{
+  "title": "6ba913128151b1ab",
+  "icon": "unbound:black_greatsword",
+  "quests": [
+    {
+      "id": "316feb856376dcfa",
+      "tasks": [
+        {
+          "type": "advancement",
+          "advancement": "minecraft:story/form_obsidian"
+        }
+      ],
+      "x": 0.0,
+      "y": 0.0
+    },
+    {
+      "id": "44191d665c0fb443",
+      "x": 2.0,
+      "size": 2.0625,
+      "deps": [
+        "316feb856376dcfa"
+      ],
+      "tasks": [
+        {
+          "type": "advancement",
+          "icon": "texture:unbound:textures/block/gate/portal_nether.png",
+          "advancement": "minecraft:story/enter_the_nether"
+        }
+      ],
+      "y": 0.0
+    },
+    {
+      "id": "702ffa09c7b2a48d",
+      "x": 4.0,
+      "deps": [
+        "44191d665c0fb443"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ],
+      "y": 0.0
+    },
+    {
+      "id": "671b0e5f948560b8",
+      "x": 4.0,
+      "y": 2.0,
+      "size": 1.5,
+      "deps": [
+        "702ffa09c7b2a48d"
+      ],
+      "tasks": [
+        {
+          "type": "advancement",
+          "icon": "texture:aether:textures/gui/menu_api/menu_icon_aether.png",
+          "advancement": "aether:enter_aether"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "item",
+          "item": "aether:golden_parachute"
+        }
+      ]
+    },
+    {
+      "id": "4dd6c49e6d2777dc",
+      "x": 2.0,
+      "y": -2.5,
+      "deps": [
+        "44191d665c0fb443"
+      ],
+      "tasks": [
+        {
+          "type": "advancement",
+          "advancement": "minecraft:nether/find_fortress"
+        }
+      ]
+    },
+    {
+      "id": "5173263cce0ae19f",
+      "y": -4.0,
+      "deps": [
+        "4dd6c49e6d2777dc"
+      ],
+      "tasks": [
+        {
+          "type": "advancement",
+          "advancement": "minecraft:nether/obtain_blaze_rod"
+        }
+      ],
+      "x": 0.0
+    },
+    {
+      "id": "5c40e8061d6350d4",
+      "x": 4.0,
+      "y": -4.0,
+      "deps": [
+        "4dd6c49e6d2777dc"
+      ],
+      "tasks": [
+        {
+          "type": "advancement",
+          "advancement": "minecraft:nether/get_wither_skull"
+        }
+      ]
+    },
+    {
+      "id": "42a0d1f16e6a0ecc",
+      "x": 6.0,
+      "y": -4.0,
+      "deps": [
+        "ii/63c55110f142aa1a",
+        "5c40e8061d6350d4"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "chaosworld_core:cryptid_core"
+        }
+      ]
+    },
+    {
+      "id": "2b13452c3def2d24",
+      "x": 8.0,
+      "y": -4.0,
+      "deps": [
+        "42a0d1f16e6a0ecc"
+      ],
+      "tasks": [
+        {
+          "type": "advancement",
+          "advancement": "minecraft:nether/summon_wither"
+        }
+      ]
+    },
+    {
+      "id": "0b61dd63637923c6",
+      "x": 10.0,
+      "y": -4.0,
+      "deps": [
+        "2b13452c3def2d24"
+      ],
+      "tasks": [
+        {
+          "type": "advancement",
+          "advancement": "minecraft:nether/create_beacon"
+        }
+      ]
+    },
+    {
+      "id": "55f28c6235dc2884",
+      "x": 4.0,
+      "y": -2.0,
+      "deps": [
+        "44191d665c0fb443"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "666ebb55b52c6377",
+      "x": 6.0,
+      "y": -2.0,
+      "deps": [
+        "55f28c6235dc2884"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    }
+  ]
+}

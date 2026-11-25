@@ -1,0 +1,358 @@
+{
+	"biomes": [
+		"unbound:jupiter_red_spot"
+	],
+	"rule": {
+		"sequence": [
+			{
+				"sequence": [
+					{
+						"type": "minecraft:condition",
+						"if_true": {
+							"min_threshold": 0.3,
+							"max_threshold": 3.0E7,
+							"noise": "unbound:jupiter/tint",
+							"type": "minecraft:noise_threshold"
+						},
+						"then_run": {
+							"result_state": {
+								"Name": "unbound:jupiter_cloud_amber"
+							},
+							"type": "minecraft:block"
+						}
+					},
+					{
+						"type": "minecraft:condition",
+						"if_true": {
+							"min_threshold": 0.45,
+							"max_threshold": 3.0E7,
+							"noise": "unbound:jupiter/streak",
+							"type": "minecraft:noise_threshold"
+						},
+						"then_run": {
+							"result_state": {
+								"Name": "unbound:jupiter_cloud_rust"
+							},
+							"type": "minecraft:block"
+						}
+					},
+					{
+						"result_state": {
+							"Name": "unbound:jupiter_cloud_crimson"
+						},
+						"type": "minecraft:block"
+					}
+				],
+				"type": "minecraft:sequence"
+			},
+			{
+				"type": "minecraft:condition",
+				"if_true": {
+					"invert": {
+						"surface_depth_multiplier": 0,
+						"anchor": {
+							"absolute": 46
+						},
+						"type": "minecraft:y_above",
+						"add_stone_depth": false
+					},
+					"type": "minecraft:not"
+				},
+				"then_run": {
+					"result_state": {
+						"Name": "unbound:jupiter_haze"
+					},
+					"type": "minecraft:block"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"if_true": {
+					"invert": {
+						"surface_depth_multiplier": 0,
+						"anchor": {
+							"absolute": 108
+						},
+						"type": "minecraft:y_above",
+						"add_stone_depth": false
+					},
+					"type": "minecraft:not"
+				},
+				"then_run": {
+					"type": "minecraft:condition",
+					"if_true": {
+						"min_threshold": 0.35,
+						"max_threshold": 3.0E7,
+						"noise": "unbound:jupiter/tint",
+						"type": "minecraft:noise_threshold"
+					},
+					"then_run": {
+						"result_state": {
+							"Name": "unbound:jupiter_cloud_rust"
+						},
+						"type": "minecraft:block"
+					}
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"if_true": {
+					"invert": {
+						"surface_depth_multiplier": 0,
+						"anchor": {
+							"absolute": 108
+						},
+						"type": "minecraft:y_above",
+						"add_stone_depth": false
+					},
+					"type": "minecraft:not"
+				},
+				"then_run": {
+					"result_state": {
+						"Name": "unbound:jupiter_cloud_storm"
+					},
+					"type": "minecraft:block"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"if_true": {
+					"surface_depth_multiplier": 0,
+					"anchor": {
+						"absolute": 186
+					},
+					"type": "minecraft:y_above",
+					"add_stone_depth": false
+				},
+				"then_run": {
+					"type": "minecraft:condition",
+					"if_true": {
+						"min_threshold": 0.0,
+						"max_threshold": 3.0E7,
+						"noise": "unbound:jupiter/tint",
+						"type": "minecraft:noise_threshold"
+					},
+					"then_run": {
+						"result_state": {
+							"Name": "unbound:jupiter_cloud_amber"
+						},
+						"type": "minecraft:block"
+					}
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"if_true": {
+					"surface_depth_multiplier": 0,
+					"anchor": {
+						"absolute": 186
+					},
+					"type": "minecraft:y_above",
+					"add_stone_depth": false
+				},
+				"then_run": {
+					"result_state": {
+						"Name": "unbound:jupiter_cloud_cream"
+					},
+					"type": "minecraft:block"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"if_true": {
+					"min_threshold": 0.25,
+					"max_threshold": 3.0E7,
+					"noise": "unbound:jupiter/streak",
+					"type": "minecraft:noise_threshold"
+				},
+				"then_run": {
+					"result_state": {
+						"Name": "unbound:jupiter_cloud_amber"
+					},
+					"type": "minecraft:block"
+				}
+			},
+			{
+				"result_state": {
+					"Name": "unbound:jupiter_cloud_rust"
+				},
+				"type": "minecraft:block"
+			},
+			{
+				"sequence": [
+					{
+						"type": "minecraft:condition",
+						"if_true": {
+							"min_threshold": 0.3,
+							"max_threshold": 3.0E7,
+							"noise": "unbound:jupiter/tint",
+							"type": "minecraft:noise_threshold"
+						},
+						"then_run": {
+							"result_state": {
+								"Name": "unbound:jupiter_cloud_amber"
+							},
+							"type": "minecraft:block"
+						}
+					},
+					{
+						"type": "minecraft:condition",
+						"if_true": {
+							"min_threshold": 0.45,
+							"max_threshold": 3.0E7,
+							"noise": "unbound:jupiter/streak",
+							"type": "minecraft:noise_threshold"
+						},
+						"then_run": {
+							"result_state": {
+								"Name": "unbound:jupiter_cloud_rust"
+							},
+							"type": "minecraft:block"
+						}
+					},
+					{
+						"result_state": {
+							"Name": "unbound:jupiter_cloud_crimson"
+						},
+						"type": "minecraft:block"
+					}
+				],
+				"type": "minecraft:sequence"
+			},
+			{
+				"type": "minecraft:condition",
+				"if_true": {
+					"invert": {
+						"surface_depth_multiplier": 0,
+						"anchor": {
+							"absolute": 46
+						},
+						"type": "minecraft:y_above",
+						"add_stone_depth": false
+					},
+					"type": "minecraft:not"
+				},
+				"then_run": {
+					"result_state": {
+						"Name": "unbound:jupiter_haze"
+					},
+					"type": "minecraft:block"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"if_true": {
+					"invert": {
+						"surface_depth_multiplier": 0,
+						"anchor": {
+							"absolute": 108
+						},
+						"type": "minecraft:y_above",
+						"add_stone_depth": false
+					},
+					"type": "minecraft:not"
+				},
+				"then_run": {
+					"type": "minecraft:condition",
+					"if_true": {
+						"min_threshold": 0.35,
+						"max_threshold": 3.0E7,
+						"noise": "unbound:jupiter/tint",
+						"type": "minecraft:noise_threshold"
+					},
+					"then_run": {
+						"result_state": {
+							"Name": "unbound:jupiter_cloud_rust"
+						},
+						"type": "minecraft:block"
+					}
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"if_true": {
+					"invert": {
+						"surface_depth_multiplier": 0,
+						"anchor": {
+							"absolute": 108
+						},
+						"type": "minecraft:y_above",
+						"add_stone_depth": false
+					},
+					"type": "minecraft:not"
+				},
+				"then_run": {
+					"result_state": {
+						"Name": "unbound:jupiter_cloud_storm"
+					},
+					"type": "minecraft:block"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"if_true": {
+					"surface_depth_multiplier": 0,
+					"anchor": {
+						"absolute": 186
+					},
+					"type": "minecraft:y_above",
+					"add_stone_depth": false
+				},
+				"then_run": {
+					"type": "minecraft:condition",
+					"if_true": {
+						"min_threshold": 0.0,
+						"max_threshold": 3.0E7,
+						"noise": "unbound:jupiter/tint",
+						"type": "minecraft:noise_threshold"
+					},
+					"then_run": {
+						"result_state": {
+							"Name": "unbound:jupiter_cloud_amber"
+						},
+						"type": "minecraft:block"
+					}
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"if_true": {
+					"surface_depth_multiplier": 0,
+					"anchor": {
+						"absolute": 186
+					},
+					"type": "minecraft:y_above",
+					"add_stone_depth": false
+				},
+				"then_run": {
+					"result_state": {
+						"Name": "unbound:jupiter_cloud_cream"
+					},
+					"type": "minecraft:block"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"if_true": {
+					"min_threshold": 0.25,
+					"max_threshold": 3.0E7,
+					"noise": "unbound:jupiter/streak",
+					"type": "minecraft:noise_threshold"
+				},
+				"then_run": {
+					"result_state": {
+						"Name": "unbound:jupiter_cloud_amber"
+					},
+					"type": "minecraft:block"
+				}
+			},
+			{
+				"result_state": {
+					"Name": "unbound:jupiter_cloud_rust"
+				},
+				"type": "minecraft:block"
+			}
+		],
+		"type": "minecraft:sequence"
+	}
+}

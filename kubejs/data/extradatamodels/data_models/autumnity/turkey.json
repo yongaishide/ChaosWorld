@@ -1,0 +1,35 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "autumnity"
+        }
+    ],
+    "entity": "autumnity:turkey",
+    "name": {
+        "translate": "entity.autumnity.turkey",
+        "color": "#653B36"
+    },
+    "sim_cost": 64,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+	"trivia": "custom.trivia.turkey",
+    "fabricator_drops": [
+		{
+            "id": "minecraft:feather",
+            "count": 32
+        },
+        {
+            "id": "autumnity:turkey",
+            "count": 4
+        },
+		{
+            "id": "autumnity:turkey_egg",
+            "count": 8
+        }
+    ]
+}

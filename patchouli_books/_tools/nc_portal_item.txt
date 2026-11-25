@@ -1,0 +1,93 @@
+### recipes referencing dimensional_blend
+--- data/nuclearcraftneohaul/recipe/dimensional_blend.json
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:dusts/end_stone"
+    },
+    {
+      "tag": "c:dusts/obsidian"
+    },
+    {
+      "tag": "c:dusts/obsidian"
+    },
+    {
+      "tag": "c:dusts/obsidian"
+    },
+    {
+      "tag": "c:dusts/obsidian"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "id": "nuclearcraftneohaul:dimensional_blend"
+  }
+}
+--- data/nuclearcraftneohaul/recipe/music_disc_hyperspace.json
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:music_discs"
+    },
+    {
+      "item": "nuclearcraftneohaul:dimensional_blend"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "nuclearcraftneohaul:music_disc_hyperspace"
+  }
+}
+--- data/nuclearcraftneohaul/recipe/fluid_enricher/mysterious_soul_from_soul.json
+{
+  "type": "nuclearcraftneohaul:enricher_recipe",
+  "fluidIngredients": [
+    {
+      "amount": 100,
+      "ingredient": {
+        "fluid": "nuclearcraftneohaul:soul"
+      }
+    }
+  ],
+  "fluidProducts": [
+    {
+      "amount": 100,
+      "ingredient": {
+        "fluid": "nuclearcraftneohaul:mysterious_soul"
+      }
+    }
+  ],
+  "itemIngredients": [
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "nuclearcraftneohaul:dimensional_blend"
+      }
+    }
+  ],
+  "powerModifier": 1.0,
+ 
+### class files containing 'wasteland_portal' string
+--- com/nred/nuclearcraft/registration/BlockRegistration.class
+wasteland_earth
+wasteland_portal
+--- com/nred/nuclearcraft/worldgen/ModConfiguredFeatures.class
+lake_wasteland_portal
+--- com/nred/nuclearcraft/worldgen/ModPlacedFeatures.class
+lake_wasteland_portal
+### data files referencing wasteland_portal
+assets/nuclearcraftneohaul/blockstates/wasteland_portal.json
+assets/nuclearcraftneohaul/models/block/wasteland_portal.json
+assets/nuclearcraftneohaul/models/item/wasteland_portal.json
+data/nuclearcraftneohaul/worldgen/configured_feature/lake_wasteland_portal.json
+data/nuclearcraftneohaul/worldgen/placed_feature/lake_wasteland_portal.json
+### nc creative tab lang keys
+nuclearcraftneohaul.creative_tab.title.machines = NuclearCraft Machines
+nuclearcraftneohaul.creative_tab.title.materials = NuclearCraft Materials
+nuclearcraftneohaul.creative_tab.title.miscellaneous = NuclearCraft Miscellaneous
+nuclearcraftneohaul.creative_tab.title.multiblocks = NuclearCraft Multiblocks
+nuclearcraftneohaul.creative_tab.title.radiation = NuclearCraft Radiation

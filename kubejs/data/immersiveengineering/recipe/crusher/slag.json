@@ -1,0 +1,10 @@
+{
+  "type": "immersiveengineering:crusher",
+  "energy": 1600,
+  "input": {
+    "tag": "c:slag"
+  },
+  "result": {
+    "id": "immersiveengineering:slag_gravel"
+  }
+}

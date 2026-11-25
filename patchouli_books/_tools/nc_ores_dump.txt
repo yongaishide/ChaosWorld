@@ -1,0 +1,92 @@
+=== data/nuclearcraftneohaul/neoforge/biome_modifier/uranium_large.json ===
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": "nuclearcraftneohaul:uranium_placed_large",
+  "step": "underground_ores"
+}
+=== data/nuclearcraftneohaul/neoforge/biome_modifier/uranium_small.json ===
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": "nuclearcraftneohaul:uranium_placed_small",
+  "step": "underground_ores"
+}
+=== data/nuclearcraftneohaul/neoforge/biome_modifier/thorium_large.json ===
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": "nuclearcraftneohaul:thorium_placed_large",
+  "step": "underground_ores"
+}
+=== data/nuclearcraftneohaul/neoforge/biome_modifier/lead_large.json ===
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": "nuclearcraftneohaul:lead_placed_large",
+  "step": "underground_ores"
+}
+=== data/nuclearcraftneohaul/neoforge/biome_modifier/add_glowing_mushroom.json ===
+{
+  "type": "neoforge:add_features",
+  "biomes": "nuclearcraftneohaul:nuclear_wasteland",
+  "features": "nuclearcraftneohaul:glowing_mushroom_placed",
+  "step": "vegetal_decoration"
+}
+=== data/nuclearcraftneohaul/worldgen/placed_feature/uranium_placed_large.json ===
+{
+  "feature": "nuclearcraftneohaul:uranium_large",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 6
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:trapezoid",
+        "max_inclusive": {
+          "absolute": 32
+        },
+        "min_inclusive": {
+          "absolute": -32
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}
+=== data/nuclearcraftneohaul/worldgen/placed_feature/uranium_placed_small.json ===
+{
+  "feature": "nuclearcraftneohaul:uranium_small",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 9
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "max_inclusive": {
+          "absolute": 32
+        },
+        "min_inclusive": {
+          "absolute": -32
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}
+=== biome tags in jar ===

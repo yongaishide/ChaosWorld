@@ -1,0 +1,41 @@
+{
+  "type": "ufo:dimensional_assembly",
+  "energy": 1000000,
+  "fluid_inputs": [
+    {
+      "amount": 1200,
+      "ingredient": {
+        "fluid": "ufo:source_liquid_starlight_fluid"
+      }
+    }
+  ],
+  "fluid_outputs": [],
+  "item_inputs": [
+    {
+      "amount": 4,
+      "ingredient": {
+        "item": "chaosworld_core:ingot_tech_9"
+      }
+    },
+    {
+      "amount": 64,
+      "ingredient": {
+        "item": "enderio:pulsating_crystal"
+      }
+    },
+    {
+      "amount": 64,
+      "ingredient": {
+        "item": "ufo:corporeal_matter"
+      }
+    }
+  ],
+  "item_outputs": [
+    {
+      "#": 4,
+      "#t": "ae2:i",
+      "id": "ufo:pulsar_fragment_ingot"
+    }
+  ],
+  "time": 800
+}

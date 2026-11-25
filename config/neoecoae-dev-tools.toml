@@ -1,0 +1,8 @@
+[devTools]
+	#Show the development generator and enable its commands and resource/FE workloads.
+	#Default off in normal installations; runClient defaults on. Restart the client after changing visibility.
+	#Commands and workloads update immediately. Commands require cheats enabled or operator permission level 2.
+	#The server must also enable this setting to execute workloads in multiplayer.
+	#显示开发发生器并启用命令及资源/FE压测。普通安装默认关闭，runClient默认开启。修改显示后重启客户端；联机运行还需要服务端开启。
+	#命令及压测开关即时生效；命令需要允许作弊或2级OP权限。
+	enabled = false

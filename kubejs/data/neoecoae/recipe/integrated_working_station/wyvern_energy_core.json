@@ -1,0 +1,26 @@
+{
+  "type": "neoecoae:integrated_working_station",
+  "energy": 144000,
+  "inputItems": [
+    { 
+      "count": 1,
+      "item": "draconicevolution:draconium_core"
+    },
+    {
+      "count": 2,
+      "item": "ae2lt:overload_alloy_plate"
+    },
+    {
+      "count": 8,
+      "item": "enderio:redstone_alloy_ingot"
+    },
+    {
+      "count": 2,
+      "item": "chaosworld_core:ingot_wyvern_metal"
+    }
+  ],
+  "itemOutput": {
+    "count": 1,
+    "id": "draconicevolution:wyvern_energy_core"
+  }
+}

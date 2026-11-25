@@ -1,0 +1,42 @@
+{
+  "name": "gearsaw_palace:yellow_tower",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gearsaw_palace:yellow_tower_1",
+        "projection": "rigid",
+        "processors": "gearsaw_palace:compat"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gearsaw_palace:yellow_tower_2",
+        "projection": "rigid",
+        "processors": "gearsaw_palace:compat"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gearsaw_palace:yellow_tower_3",
+        "projection": "rigid",
+        "processors": "gearsaw_palace:compat"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gearsaw_palace:yellow_tower_4",
+        "projection": "rigid",
+        "processors": "gearsaw_palace:compat"
+      }
+    }
+  ]
+}

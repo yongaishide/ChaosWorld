@@ -1,0 +1,32 @@
+{
+	"elements": [
+		{
+			"data": {
+				"fluidName": "allthemodium:molten_allthemodium"
+			},
+			"weight": 1.0,
+			"key": "allthemodium:molten_allthemodium_block"
+		},
+		{
+			"data": {
+				"fluidName": "allthemodium:molten_unobtainium"
+			},
+			"weight": 1.0,
+			"key": "allthemodium:molten_unobtainium_block"
+		},
+		{
+			"data": {
+				"fluidName": "allthemodium:molten_vibranium"
+			},
+			"weight": 1.0,
+			"key": "allthemodium:molten_vibranium_block"
+		},
+		{
+			"data": {
+				"fluidName": "allthemodium:soul_lava"
+			},
+			"weight": 1.0,
+			"key": "allthemodium:soul_lava"
+		}
+	]
+}

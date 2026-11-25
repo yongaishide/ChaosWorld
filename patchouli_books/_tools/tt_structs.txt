@@ -1,0 +1,159 @@
+### data/thaumaturge/tags/worldgen/biome/has_structure/eldritch_obelisk.json
+{
+  "remove": [
+    "minecraft:grove"
+  ],
+  "values": [
+    "minecraft:plains",
+    "minecraft:sunflower_plains",
+    "minecraft:desert",
+    "minecraft:savanna",
+    "minecraft:taiga",
+    "minecraft:snowy_plains",
+    "minecraft:snowy_taiga",
+    "minecraft:swamp",
+    "minecraft:forest",
+    "minecraft:dark_forest",
+    {
+      "id": "#c:is_plains",
+      "required": false
+    },
+    {
+      "id": "#c:is_desert",
+      "required": false
+    },
+    {
+      "id": "#minecraft:is_savanna",
+      "required": false
+    },
+    {
+      "id": "#minecraft:is_taiga",
+      "required": false
+    },
+    {
+      "id": "#c:is_swamp",
+      "required": false
+    },
+    {
+      "id": "#minecraft:is_forest",
+      "required": false
+    }
+  ]
+}
+### data/thaumaturge/worldgen/structure/mound.json
+{
+  "type": "thaumaturge:mound",
+  "biomes": "#thaumaturge:has_structure/mound",
+  "spawn_overrides": {},
+  "step": "surface_structures"
+}
+### data/thaumaturge/worldgen/structure_set/eldritch_obelisks.json
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 46186246,
+    "separation": 7,
+    "spacing": 20
+  },
+  "structures": [
+    {
+      "structure": "thaumaturge:eldritch_obelisk",
+      "weight": 1
+    }
+  ]
+}
+### data/thaumaturge/worldgen/structure_set/mounds.json
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 41626157,
+    "separation": 10,
+    "spacing": 20
+  },
+  "structures": [
+    {
+      "structure": "thaumaturge:mound",
+      "weight": 1
+    }
+  ]
+}
+### thaumaturge tags/worldgen/biome listing
+data/thaumaturge/tags/worldgen/biome/
+data/thaumaturge/tags/worldgen/biome/has_cinderpearl.json
+data/thaumaturge/tags/worldgen/biome/has_greatwood.json
+data/thaumaturge/tags/worldgen/biome/has_greatwood_rare.json
+data/thaumaturge/tags/worldgen/biome/has_silverwood.json
+data/thaumaturge/tags/worldgen/biome/has_silverwood_abundant.json
+data/thaumaturge/tags/worldgen/biome/is_magical.json
+data/thaumaturge/tags/worldgen/biome/is_spooky.json
+data/thaumaturge/tags/worldgen/biome/is_tainted.json
+data/thaumaturge/tags/worldgen/biome/has_spawn/
+data/thaumaturge/tags/worldgen/biome/has_spawn/brainy_husk.json
+data/thaumaturge/tags/worldgen/biome/has_spawn/pech.json
+data/thaumaturge/tags/worldgen/biome/has_structure/
+data/thaumaturge/tags/worldgen/biome/has_structure/eldritch_obelisk.json
+data/thaumaturge/tags/worldgen/biome/has_structure/mound.json
+### tt models/item matching key names
+assets/thaumaturge/models/item/eldritch_altar.json
+assets/thaumaturge/models/item/eldritch_capstone.json
+assets/thaumaturge/models/item/eldritch_crust.json
+assets/thaumaturge/models/item/eldritch_eye.json
+assets/thaumaturge/models/item/eldritch_obelisk.json
+assets/thaumaturge/models/item/eldritch_stone.json
+assets/thaumaturge/models/item/primordial_pearl.json
+assets/thaumaturge/models/item/runed_tablet.json
+assets/thaumaturge/models/item/salis_mundus.json
+assets/thaumaturge/models/item/void_seed.json
+### tt item model dir sample (first 40)
+assets/thaumaturge/models/item/
+assets/thaumaturge/models/item/activator_rail.json
+assets/thaumaturge/models/item/advanced_alchemical_construct.json
+assets/thaumaturge/models/item/advanced_alchemical_furnace.json
+assets/thaumaturge/models/item/alchemical_construct.json
+assets/thaumaturge/models/item/alembic.json
+assets/thaumaturge/models/item/alumentum.json
+assets/thaumaturge/models/item/amber.json
+assets/thaumaturge/models/item/amber_block.json
+assets/thaumaturge/models/item/amber_brick.json
+assets/thaumaturge/models/item/amulet_fancy.json
+assets/thaumaturge/models/item/amulet_mundane.json
+assets/thaumaturge/models/item/amulet_vis.json
+assets/thaumaturge/models/item/amulet_vis_crafted.json
+assets/thaumaturge/models/item/arcane_armor_trim_smithing_template.json
+assets/thaumaturge/models/item/arcane_bore.json
+assets/thaumaturge/models/item/arcane_door.json
+assets/thaumaturge/models/item/arcane_ear.json
+assets/thaumaturge/models/item/arcane_ear_toggle.json
+assets/thaumaturge/models/item/arcane_grindstone.json
+assets/thaumaturge/models/item/arcane_key_gold.json
+assets/thaumaturge/models/item/arcane_key_iron.json
+assets/thaumaturge/models/item/arcane_pressure_plate.json
+assets/thaumaturge/models/item/arcane_workbench.json
+assets/thaumaturge/models/item/arcane_workbench_charger.json
+assets/thaumaturge/models/item/banner_black.json
+assets/thaumaturge/models/item/banner_blue.json
+assets/thaumaturge/models/item/banner_brown.json
+assets/thaumaturge/models/item/banner_crimson_cult.json
+assets/thaumaturge/models/item/banner_cultist.json
+assets/thaumaturge/models/item/banner_cyan.json
+assets/thaumaturge/models/item/banner_dyed.json
+assets/thaumaturge/models/item/banner_gray.json
+assets/thaumaturge/models/item/banner_green.json
+assets/thaumaturge/models/item/banner_light_blue.json
+assets/thaumaturge/models/item/banner_light_gray.json
+assets/thaumaturge/models/item/banner_lime.json
+assets/thaumaturge/models/item/banner_magenta.json
+assets/thaumaturge/models/item/banner_orange.json
+assets/thaumaturge/models/item/banner_pink.json
+### tt items/ definitions (1.21 item model defs)
+### nc models/item matching
+assets/nuclearcraftneohaul/models/item/dimensional_blend.json
+assets/nuclearcraftneohaul/models/item/feral_ghoul_spawn_egg.json
+assets/nuclearcraftneohaul/models/item/geiger_counter.json
+assets/nuclearcraftneohaul/models/item/glowing_mushroom.json
+assets/nuclearcraftneohaul/models/item/radiation_badge.json
+assets/nuclearcraftneohaul/models/item/radiation_scrubber.json
+assets/nuclearcraftneohaul/models/item/wasteland_earth.json
+assets/nuclearcraftneohaul/models/item/wasteland_portal.json
+### nc items/ definitions matching
+### nc items/ sample (first 15)

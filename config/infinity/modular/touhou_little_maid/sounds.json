@@ -1,0 +1,176 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "touhou_little_maid:block.altar_craft"
+		},
+		{
+			"weight": 1.0,
+			"key": "touhou_little_maid:block.gomoku"
+		},
+		{
+			"weight": 1.0,
+			"key": "touhou_little_maid:block.gomoku_reset"
+		},
+		{
+			"weight": 1.0,
+			"key": "touhou_little_maid:entity.box"
+		},
+		{
+			"weight": 1.0,
+			"key": "touhou_little_maid:entity.fairy.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "touhou_little_maid:entity.fairy.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "touhou_little_maid:entity.fairy.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "touhou_little_maid:item.camera_use"
+		},
+		{
+			"weight": 1.0,
+			"key": "touhou_little_maid:item.compass"
+		},
+		{
+			"weight": 1.0,
+			"key": "touhou_little_maid:maid.ai.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "touhou_little_maid:maid.ai.find_target"
+		},
+		{
+			"weight": 1.0,
+			"key": "touhou_little_maid:maid.ai.game_lost"
+		},
+		{
+			"weight": 1.0,
+			"key": "touhou_little_maid:maid.ai.game_win"
+		},
+		{
+			"weight": 1.0,
+			"key": "touhou_little_maid:maid.ai.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "touhou_little_maid:maid.ai.hurt_fire"
+		},
+		{
+			"weight": 1.0,
+			"key": "touhou_little_maid:maid.ai.hurt_player"
+		},
+		{
+			"weight": 1.0,
+			"key": "touhou_little_maid:maid.ai.item_get"
+		},
+		{
+			"weight": 1.0,
+			"key": "touhou_little_maid:maid.ai.tamed"
+		},
+		{
+			"weight": 1.0,
+			"key": "touhou_little_maid:maid.ai_chat"
+		},
+		{
+			"weight": 1.0,
+			"key": "touhou_little_maid:maid.credit"
+		},
+		{
+			"weight": 1.0,
+			"key": "touhou_little_maid:maid.environment.cold"
+		},
+		{
+			"weight": 1.0,
+			"key": "touhou_little_maid:maid.environment.hot"
+		},
+		{
+			"weight": 1.0,
+			"key": "touhou_little_maid:maid.environment.morning"
+		},
+		{
+			"weight": 1.0,
+			"key": "touhou_little_maid:maid.environment.night"
+		},
+		{
+			"weight": 1.0,
+			"key": "touhou_little_maid:maid.environment.rain"
+		},
+		{
+			"weight": 1.0,
+			"key": "touhou_little_maid:maid.environment.snow"
+		},
+		{
+			"weight": 1.0,
+			"key": "touhou_little_maid:maid.mode.attack"
+		},
+		{
+			"weight": 1.0,
+			"key": "touhou_little_maid:maid.mode.break"
+		},
+		{
+			"weight": 1.0,
+			"key": "touhou_little_maid:maid.mode.brewing"
+		},
+		{
+			"weight": 1.0,
+			"key": "touhou_little_maid:maid.mode.danmaku_attack"
+		},
+		{
+			"weight": 1.0,
+			"key": "touhou_little_maid:maid.mode.extinguishing"
+		},
+		{
+			"weight": 1.0,
+			"key": "touhou_little_maid:maid.mode.farm"
+		},
+		{
+			"weight": 1.0,
+			"key": "touhou_little_maid:maid.mode.feed"
+		},
+		{
+			"weight": 1.0,
+			"key": "touhou_little_maid:maid.mode.feed_animal"
+		},
+		{
+			"weight": 1.0,
+			"key": "touhou_little_maid:maid.mode.furnace"
+		},
+		{
+			"weight": 1.0,
+			"key": "touhou_little_maid:maid.mode.idle"
+		},
+		{
+			"weight": 1.0,
+			"key": "touhou_little_maid:maid.mode.milk"
+		},
+		{
+			"weight": 1.0,
+			"key": "touhou_little_maid:maid.mode.range_attack"
+		},
+		{
+			"weight": 1.0,
+			"key": "touhou_little_maid:maid.mode.shears"
+		},
+		{
+			"weight": 1.0,
+			"key": "touhou_little_maid:maid.mode.snow"
+		},
+		{
+			"weight": 1.0,
+			"key": "touhou_little_maid:maid.mode.torch"
+		},
+		{
+			"weight": 1.0,
+			"key": "touhou_little_maid:ui.recording_end"
+		},
+		{
+			"weight": 1.0,
+			"key": "touhou_little_maid:ui.recording_start"
+		}
+	]
+}

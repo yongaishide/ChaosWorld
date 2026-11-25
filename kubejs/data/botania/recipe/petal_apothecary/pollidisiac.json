@@ -1,0 +1,33 @@
+{
+  "type": "botania:petal_apothecary",
+  "ingredients": [
+    {
+      "tag": "botania:petals/red"
+    },
+    {
+      "tag": "botania:petals/red"
+    },
+    {
+      "tag": "botania:petals/pink"
+    },
+    {
+      "tag": "botania:petals/pink"
+    },
+    {
+      "tag": "botania:petals/orange"
+    },
+    {
+      "item": "botania:rune_of_lust"
+    },
+    {
+      "item": "botania:rune_of_fire"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "id": "botania:pollidisiac"
+  },
+  "reagent": {
+    "tag": "botania:seed_apothecary_reagent"
+  }
+}

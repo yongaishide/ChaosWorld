@@ -1,0 +1,40 @@
+{
+  "title": "044d9b95b2dbf2f4",
+  "icon": "minecraft:player_head",
+  "order": 2,
+  "quests": [
+    {
+      "id": "4cc6b9b8dfd6525e",
+      "tasks": [
+        {
+          "type": "item",
+          "item": "iceandfire:ice_dragon_heart"
+        }
+      ],
+      "x": 0.0,
+      "y": 0.0
+    },
+    {
+      "id": "01aa30ddb5c87965",
+      "x": 2.0,
+      "tasks": [
+        {
+          "type": "item",
+          "item": "iceandfire:fire_dragon_heart"
+        }
+      ],
+      "y": 0.0
+    },
+    {
+      "id": "154a65ee62af4116",
+      "x": 4.0,
+      "tasks": [
+        {
+          "type": "item",
+          "item": "iceandfire:lightning_dragon_heart"
+        }
+      ],
+      "y": 0.0
+    }
+  ]
+}

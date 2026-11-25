@@ -1,0 +1,19 @@
+{
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "minecraft:peony"
+  },
+  "render": {
+    "type": "immersiveengineering:doubleflower",
+    "block": "minecraft:peony"
+  },
+  "results": [
+    {
+      "id": "minecraft:peony"
+    }
+  ],
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 480
+}

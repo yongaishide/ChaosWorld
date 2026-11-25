@@ -1,0 +1,36 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "upgrade_aquatic"
+        }
+    ],
+    "entity": "upgrade_aquatic:lionfish",
+    "name": {
+        "translate": "entity.upgrade_aquatic.lionfish",
+        "color": "#CE0A00"
+    },
+    "sim_cost": 32,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.lionfish",
+    "fabricator_drops": [
+        {
+            "optional": true,
+            "id": "croptopia:roe",
+            "count": 32
+        },
+        {
+            "id": "upgrade_aquatic:lionfish",
+            "count": 32
+        },
+        {
+            "id": "minecraft:bone_meal",
+            "count": 2
+        }
+    ]
+}

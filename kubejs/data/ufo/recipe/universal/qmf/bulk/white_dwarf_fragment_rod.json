@@ -1,0 +1,28 @@
+{
+  "type": "ufo:universal_multiblock",
+  "energy": 640000,
+  "fluid_inputs": [
+    {
+      "amount": 3200,
+      "fluid": {
+        "amount": 1,
+        "id": "ufo:source_liquid_starlight_fluid"
+      }
+    }
+  ],
+  "item_inputs": [
+    {
+      "amount": 64,
+      "ingredient": {
+        "item": "ufo:white_dwarf_fragment_ingot"
+      }
+    }
+  ],
+  "item_output": {
+    "count": 128,
+    "id": "ufo:white_dwarf_fragment_rod"
+  },
+  "machine": "qmf",
+  "recipe_name": "universal/qmf/bulk/white_dwarf_fragment_rod",
+  "time": 60
+}

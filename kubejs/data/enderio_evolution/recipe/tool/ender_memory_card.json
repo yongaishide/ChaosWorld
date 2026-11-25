@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "enderio_evolution:capacitor_grainy"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "P": {
+      "item": "enderio:conduit_probe"
+    },
+    "S": {
+      "item": "enderio_evolution:energetic_silver_ingot"
+    }
+  },
+  "pattern": [
+    " P ",
+    "SES",
+    " C "
+  ],
+  "result": {
+    "count": 1,
+    "id": "enderio_evolution:ender_memory_card"
+  }
+}

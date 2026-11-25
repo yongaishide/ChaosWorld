@@ -1,0 +1,231 @@
+=== data/thaumaturge/loot_table/entities/eldritch_hierophant.json ===
+{
+  "type": "minecraft:entity",
+  "random_sequence": "thaumaturge:entities/eldritch_hierophant"
+}
+=== data/thaumaturge/loot_table/entities/eldritch_warden.json ===
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "thaumaturge:labyrinth_bound"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "thaumaturge:primordial_pearl"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "thaumaturge:labyrinth_bound"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "thaumaturge:loot_bag_rare"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "thaumaturge:entities/eldritch_warden"
+}
+=== data/thaumaturge/loot_table/entities/eldritch_golem.json ===
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "thaumaturge:labyrinth_bound"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "thaumaturge:primordial_pearl"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "thaumaturge:labyrinth_bound"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "thaumaturge:loot_bag_rare"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "thaumaturge:entities/eldritch_golem"
+}
+=== data/thaumaturge/loot_table/entities/eldritch_guardian.json ===
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "condition": "minecraft:random_chance_with_enchanted_bonus",
+          "enchanted_chance": {
+            "type": "minecraft:linear",
+            "base": 0.07,
+            "per_level_above_first": 0.02
+          },
+          "enchantment": "minecraft:looting",
+          "unenchanted_chance": 0.05
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "thaumaturge:eldritch_eye"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "thaumaturge:entities/eldritch_guardian"
+}
+=== data/thaumaturge/loot_table/entities/cultist_portal_greater.json ===
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "thaumaturge:labyrinth_bound"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "thaumaturge:primordial_pearl"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "thaumaturge:entities/cultist_portal_greater"
+}
+=== data/thaumaturge/loot_table/entities/inhabited_zombie.json ===
+{
+  "type": "minecraft:entity",
+  "random_sequence": "thaumaturge:entities/inhabited_zombie"
+}
+=== data/thaumaturge/loot_table/entities/eldritch_crab.json ===
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "condition": "minecraft:random_chance_with_enchanted_bonus",
+          "enchanted_chance": {
+            "type": "minecraft:linear",
+            "base": 0.58000004,
+            "per_level_above_first": 0.25
+          },
+          "enchantment": "minecraft:looting",
+          "unenchanted_chance": 0.33
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_pearl"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "thaumaturge:entities/eldritch_crab"
+}
+=== data/thaumaturge/loot_table/entities/taintacle_giant.json ===
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "thaumaturge:labyrinth_bound"
+          }
+        },
+        {
+          "condition": "thaumaturge:no_nearby_kin",
+          "radius": 48.0
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "thaumaturge:primordial_pearl"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "thaumaturge:entities/taintacle_giant"
+}
+=== data/thaumaturge/loot_table/labyrinth/primordial_pearl.json ===
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "thaumaturge:primordial_pearl"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "thaumaturge:labyrinth/primordial_pearl"
+}

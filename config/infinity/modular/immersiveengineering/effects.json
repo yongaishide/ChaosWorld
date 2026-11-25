@@ -1,0 +1,76 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 6441624,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "immersiveengineering:concrete_feet"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 6881280,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "immersiveengineering:conductive"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 9387807,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "immersiveengineering:flammable"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 6441624,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "immersiveengineering:flashed"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 6441624,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "immersiveengineering:incognito"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 1511427,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "immersiveengineering:slippery"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 10250240,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "immersiveengineering:sticky"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 6441624,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "immersiveengineering:stunned"
+		}
+	]
+}

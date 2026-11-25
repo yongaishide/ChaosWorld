@@ -1,0 +1,7 @@
+#Color scheme used by Mekanism Magic machine GUIs.
+#Allowed Values: DARK, LIGHT
+guiTheme = "LIGHT"
+#Render animated machine mechanisms, Drygmy displays, and Source inside magic pipes. Disabling this does not affect machine operation or Source transfer.
+animationsEnabled = true
+#Client-side visual test option. When enabled, show working animations on idle machines and empty Source pipes without changing recipes, energy, or networks.
+forceWorkingAnimations = false

@@ -1,0 +1,31 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "irons_spellbooks"
+        }
+    ],
+    "entity": "irons_spellbooks:archevoker",
+    "name": {
+        "translate": "entity.irons_spellbooks.archevoker",
+        "color": "#7DBD48"
+    },
+    "sim_cost": 128,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.archevoker",
+    "fabricator_drops": [
+        {
+            "id": "irons_spellbooks:arcane_essence",
+            "count": 8
+        },
+        {
+            "id": "irons_spellbooks:evocation_rune",
+            "count": 1
+        }
+    ]
+}

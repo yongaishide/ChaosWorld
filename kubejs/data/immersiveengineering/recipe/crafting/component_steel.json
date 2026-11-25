@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "tag": "c:ingots/copper"
+    },
+    "i": {
+      "tag": "c:plates/steel"
+    }
+  },
+  "pattern": [
+    "i i",
+    " c ",
+    "i i"
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersiveengineering:component_steel"
+  }
+}

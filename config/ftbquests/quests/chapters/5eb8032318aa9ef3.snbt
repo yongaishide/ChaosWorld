@@ -1,0 +1,288 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5eb8032318aa9ef3"
+	group: "6B9CFFEE5CD53D67"
+	icon: {
+		id: "botania:lexica_botania"
+	}
+	id: "5EB8032318AA9EF3"
+	images: [ ]
+	order_index: 4
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [
+		{
+			id: "2803CDB4702966BA"
+			linked_quest: "0719DB4503937E00"
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			id: "5910836DE177FA30"
+			linked_quest: "70975056077B1395"
+			x: 13.5d
+			y: 1.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["64A7388DD2553CA7"]
+			id: "71CE00E96EACF464"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17C8276E39F64E6B"
+				table_id: 4573962579176233858L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				amount: 1L
+				id: "1BED4079396A8EBD"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "botania:petal_apothecary"
+				tag: "botania:petal_apothecaries"
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["71CE00E96EACF464"]
+			id: "445553337D91A097"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34DC2EA31A449A62"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
+			tasks: [{
+				amount: 1L
+				id: "4F346017BE1E0241"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "botania:endoflame"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["71CE00E96EACF464"]
+			id: "7088C36290044DBD"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "502E1FA1A3E6160D"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
+			tasks: [{
+				amount: 1L
+				id: "67F250FEEFB53B95"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "botania:pure_daisy"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7088C36290044DBD"]
+			id: "0DAA6C8ED7B28A93"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3ED55F740583236E"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
+			tasks: [{
+				amount: 1L
+				id: "397C9C9BD8376CB4"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "botania:livingwood_log"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"768F3B7C575F10BB"
+				"7088C36290044DBD"
+			]
+			id: "6F8BCBDEC4BF8F1A"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33BF6FB3B196800A"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
+			tasks: [{
+				amount: 1L
+				id: "48DDE84EBAD4283A"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "botania:livingrock"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0DAA6C8ED7B28A93"]
+			id: "01D123BC929CDAA8"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "664E04371516C710"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
+			tasks: [{
+				amount: 1L
+				id: "3B9BEF58ACF1682A"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "botania:mana_spreader"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6F8BCBDEC4BF8F1A"]
+			id: "59583EE91129E434"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F66C49D4E2537BF"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
+			tasks: [{
+				amount: 1L
+				id: "4E1A1F91D6863078"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "botania:mana_pool"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["59583EE91129E434"]
+			id: "6B2E8C02546F0DCD"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "682E0CD31AA3F027"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "botania:mana_diamond"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6B2E8C02546F0DCD"]
+			id: "600DE114F5A1735C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "0585F8DE9FBC5F7F"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "botania:runic_altar"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"600DE114F5A1735C"
+				"46DD5D748E3D4B4D"
+			]
+			id: "2D0C5920AB7FD484"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "21A8549E7B9BB0D3"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "botania:terrestrial_agglomeration_plate"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2D0C5920AB7FD484"]
+			id: "12494723DCE12B36"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "77D2577E83737CCF"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "botania:terrasteel_ingot"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["600DE114F5A1735C"]
+			id: "043815E7F918B9FE"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "0FA6D81B2CB17C9D"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "chaosworld_core:runes_1"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["043815E7F918B9FE"]
+			id: "0D9BD0BC9032C53F"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "1226FE7F893ADF0A"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "botania:mana_pylon"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+	]
+}

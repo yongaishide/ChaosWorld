@@ -1,0 +1,20 @@
+{
+  "type": "ufo:universal_multiblock",
+  "machine": "quantum_slicer",
+  "recipe_name": "universal/quantum_slicer/certus_quartz_block_to_printed_calculation_processor",
+  "item_inputs": [
+    {
+      "ingredient": {
+        "item": "ae2:quartz_block"
+      },
+      "amount": 8192
+    }
+  ],
+  "item_output": {
+    "id": "ae2:printed_calculation_processor",
+    "count": 32768
+  },
+  "energy": 8000000,
+  "time": 200,
+  "required_tier": 1
+}

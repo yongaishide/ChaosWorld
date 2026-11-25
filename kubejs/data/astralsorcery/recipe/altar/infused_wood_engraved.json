@@ -1,0 +1,46 @@
+{
+  "type": "astralsorcery:altar_crafting",
+  "base_focus_shatter_chance": 0.0,
+  "duration": 100,
+  "effects": [
+    "astralsorcery:default_central_beam",
+    "astralsorcery:default_lumen_input",
+    "astralsorcery:default_relay_input"
+  ],
+  "grid": {
+    "key": {
+      "W": {
+        "type": "item",
+        "ingredient": {
+          "item": "astralsorcery:infused_wood_planks"
+        }
+      }
+    },
+    "pattern": [
+      " W ",
+      "W W",
+      " W "
+    ],
+    "relay_pattern": [
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "     "
+    ]
+  },
+  "may_chain": true,
+  "only_night": true,
+  "output_modifiers": [],
+  "outputs": [
+    {
+      "count": 4,
+      "id": "astralsorcery:infused_wood_engraved"
+    }
+  ],
+  "required_additional_inputs": [],
+  "required_fluid": [],
+  "required_lumen": [],
+  "required_starlight": [],
+  "required_type": "illumination"
+}

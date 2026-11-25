@@ -1,0 +1,24 @@
+{
+  "name": "patchouli.chaosworld.entry.worldgen.dim_outerlands",
+  "icon": "thaumaturge:eldritch_eye",
+  "category": "patchouli:worldgen",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "patchouli.chaosworld.entry.worldgen.dim_outerlands.page1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "patchouli.chaosworld.entry.worldgen.dim_outerlands.page2"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "patchouli.chaosworld.entry.worldgen.dim_outerlands.page3"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "patchouli.chaosworld.entry.worldgen.dim_outerlands.page4"
+    }
+  ]
+}

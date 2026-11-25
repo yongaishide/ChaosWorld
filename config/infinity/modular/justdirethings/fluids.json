@@ -1,0 +1,81 @@
+{
+	"elements": [
+		{
+			"data": {
+				"fluidName": "justdirethings:polymorphic_fluid_source"
+			},
+			"weight": 1.0,
+			"key": "justdirethings:polymorphic_fluid_block"
+		},
+		{
+			"data": {
+				"fluidName": "justdirethings:portal_fluid_source"
+			},
+			"weight": 1.0,
+			"key": "justdirethings:portal_fluid_block"
+		},
+		{
+			"data": {
+				"fluidName": "justdirethings:refined_t2_fluid_source"
+			},
+			"weight": 1.0,
+			"key": "justdirethings:refined_t2_fluid_block"
+		},
+		{
+			"data": {
+				"fluidName": "justdirethings:refined_t3_fluid_source"
+			},
+			"weight": 1.0,
+			"key": "justdirethings:refined_t3_fluid_block"
+		},
+		{
+			"data": {
+				"fluidName": "justdirethings:refined_t4_fluid_source"
+			},
+			"weight": 1.0,
+			"key": "justdirethings:refined_t4_fluid_block"
+		},
+		{
+			"data": {
+				"fluidName": "justdirethings:time_fluid_source"
+			},
+			"weight": 1.0,
+			"key": "justdirethings:time_fluid_block"
+		},
+		{
+			"data": {
+				"fluidName": "justdirethings:unrefined_t2_fluid_source"
+			},
+			"weight": 1.0,
+			"key": "justdirethings:unrefined_t2_fluid_block"
+		},
+		{
+			"data": {
+				"fluidName": "justdirethings:unrefined_t3_fluid_source"
+			},
+			"weight": 1.0,
+			"key": "justdirethings:unrefined_t3_fluid_block"
+		},
+		{
+			"data": {
+				"fluidName": "justdirethings:unrefined_t4_fluid_source"
+			},
+			"weight": 1.0,
+			"key": "justdirethings:unrefined_t4_fluid_block"
+		},
+		{
+			"data": {
+				"fluidName": "justdirethings:unstable_portal_fluid_source"
+			},
+			"weight": 1.0,
+			"key": "justdirethings:unstable_portal_fluid_block"
+		},
+		{
+			"data": {
+				"fluidName": "justdirethings:xp_fluid_source"
+			},
+			"weight": 1.0,
+			"key": "justdirethings:xp_fluid_block"
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "A": {
+      "item": "botania:pure_ender_essence"
+    },
+    "C": {
+      "item": "botania:corporea_block"
+    },
+    "D": {
+      "tag": "c:gems/dragonstone"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "pattern": [
+    "AOA",
+    "OCO",
+    "DOD"
+  ],
+  "result": {
+    "count": 1,
+    "id": "botania:corporea_index"
+  }
+}

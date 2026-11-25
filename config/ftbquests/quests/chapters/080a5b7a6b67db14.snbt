@@ -1,0 +1,97 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "080a5b7a6b67db14"
+	group: "6B9CFFEE5CD53D67"
+	icon: {
+		id: "astralsorcery:tome"
+	}
+	id: "080A5B7A6B67DB14"
+	images: [ ]
+	order_index: 6
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1654A6808790B6F2"]
+			id: "16CE49AEA5C7016B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "37A5556B9A7BDF41"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "astralsorcery:aquamarine"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["16CE49AEA5C7016B"]
+			id: "161FB8122D8615C4"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "2B0E249731FF930C"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "astralsorcery:tome"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50ACBB56BC134B81"]
+			id: "0511CD75941352CE"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "33A2E99D32C2B9F9"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "astralsorcery:altar_illumination"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["16CE49AEA5C7016B"]
+			id: "77DAD68232671DA0"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "3031ABC7B2AD111F"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "astralsorcery:astrolabe"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["16CE49AEA5C7016B"]
+			id: "50ACBB56BC134B81"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "766165088A2D6919"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "astralsorcery:marble_raw"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+	]
+}

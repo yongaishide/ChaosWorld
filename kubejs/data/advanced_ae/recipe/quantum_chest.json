@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "advanced_ae:quantum_alloy_plate"
+    },
+    "N": {
+      "item": "minecraft:netherite_chestplate"
+    },
+    "P": {
+      "item": "ae2omnicells:multidimensional_expansion_processor"
+    },
+    "Q": {
+      "item": "ae2omnicells:multidimensional_expansion_processor"
+    },
+    "W": {
+      "item": "ae2:wireless_access_point"
+    }
+  },
+  "pattern": ["PWP", "PNP", "AQA"],
+  "result": {
+    "count": 1,
+    "id": "advanced_ae:quantum_chestplate"
+  }
+}

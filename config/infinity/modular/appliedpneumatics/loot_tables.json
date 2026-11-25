@@ -1,0 +1,32 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "appliedpneumatics:blocks/me_amadron_extended_process_station"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "appliedpneumatics:blocks/me_amadron_process_station"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "appliedpneumatics:blocks/me_pressure_interface_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "appliedpneumatics:blocks/me_temperature_interface"
+		}
+	]
+}

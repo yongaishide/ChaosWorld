@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "tag": "c:ingots/star_ether_alloy"
+    },
+    "B": {
+      "tag": "c:rods/star_ether_alloy"
+    }
+  },
+  "pattern": [
+    "AAA",
+    " B ",
+    " B "
+  ],
+  "result": {
+    "count": 1,
+    "id": "ifmup:star_ether_alloy_pickaxe"
+  }
+}

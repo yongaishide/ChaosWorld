@@ -1,0 +1,175 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 16384000,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "ars_nouveau:blasting"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 2039587,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "ars_nouveau:bounce"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 2039587,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "ars_nouveau:flight"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 250,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "ars_nouveau:freezing"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 8080895,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "ars_nouveau:glide"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 2039587,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "ars_nouveau:gravity"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 8080895,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "ars_nouveau:hex"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 16384000,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "ars_nouveau:immolate"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 7158556,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "ars_nouveau:looting"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 2017480,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "ars_nouveau:magic_find"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 8080895,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "ars_nouveau:mana_regen"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 51240,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "ars_nouveau:recovery"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 2039587,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "ars_nouveau:scrying"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 9830550,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "ars_nouveau:shielding"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 2039587,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "ars_nouveau:shocked"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 2039587,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "ars_nouveau:snared"
+		},
+		{
+			"data": {
+				"Category": "neutral",
+				"Color": 255,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "ars_nouveau:soaked"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 2017480,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "ars_nouveau:spell_damage"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 2039587,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "ars_nouveau:summoning_sickness"
+		}
+	]
+}

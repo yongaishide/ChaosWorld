@@ -1,0 +1,5 @@
+[powder_snow]
+	#If true, registers Mantle's powder snow as the fluid for the vanilla powder snow cauldron. May conflict with another mod doing the same but shouldn't crash.
+	cauldron_fluid = true
+	#If true, registers Mantle's powder snow as the fluid for the vanilla bucket. May conflict with another mod doing the same but shouldn't crash.
+	bucket = true

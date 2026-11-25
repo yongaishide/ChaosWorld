@@ -1,0 +1,65 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7536b34264078ab1"
+	group: "386E09813A08A672"
+	icon: {
+		id: "minecraft:furnace"
+	}
+	id: "7536B34264078AB1"
+	images: [{
+		click_action: "none:quest_enhance:text_v3:1.0:17:minecraft:default一倍矿"
+		height: 0.6111111111111112d
+		id: "5059AA55AEB9446E"
+		image: ""
+		quest_enhance_exclude_from_box_selection: 0b
+		rotation: 0.0d
+		width: 1.4444444444444444d
+		x: -12.5d
+		y: 2.0d
+	}]
+	order_index: 0
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["14DBDED46A2851A5"]
+			id: "00E83B6632AB5EBD"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "422C393898A8299F"
+				type: "checkmark"
+			}]
+			x: -12.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["44B1D89C5D74BE65"]
+			id: "14DBDED46A2851A5"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "0514DD4606AC35D6"
+				type: "checkmark"
+			}]
+			x: -14.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["00E83B6632AB5EBD"]
+			id: "4D390C9A5120143D"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "4481BA8E5319E2D6"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "minecraft:furnace"
+				tag: "c:furnaces"
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -12.5d
+			y: 5.0d
+		}
+	]
+}

@@ -1,0 +1,40 @@
+{
+  "type": "advanced_ae:reaction",
+  "input_energy": 200000,
+  "input_fluid": {
+    "amount": 100,
+    "ingredient": {
+      "fluid": "advanced_ae:quantum_infusion_source"
+    }
+  },
+  "input_items": [
+    {
+      "ingredient": {
+        "item": "ae2omnicells:omni_cell_component_256k"
+      }
+    },
+    {
+      "amount": 4,
+      "ingredient": {
+        "item": "mekanism:induction_casing"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "data_energistics:data_carrier"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "chaosworld_core:assembly"
+      }
+    }
+  ],
+  "output": {
+    "#": 1,
+    "#t": "ae2:i",
+    "id": "data_energistics:radix_containment_sphere", "components": {"ae2:stored_energy": 50000.0}
+  }
+}

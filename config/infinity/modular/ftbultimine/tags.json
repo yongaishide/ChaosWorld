@@ -1,0 +1,24 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "ftbultimine:block_whitelist"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftbultimine:excluded_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftbultimine:farmland_tillable"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftbultimine:shovel_flattenable"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftbultimine:single_crop_harvesting_blacklist"
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "gearsaw_palace:boss",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gearsaw_palace:boss_1",
+        "projection": "rigid",
+        "processors": "gearsaw_palace:compat_and_ice"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gearsaw_palace:boss_2",
+        "projection": "rigid",
+        "processors": "gearsaw_palace:compat_and_ice"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gearsaw_palace:boss_3",
+        "projection": "rigid",
+        "processors": "gearsaw_palace:compat_and_ice"
+      }
+    }
+  ]
+}

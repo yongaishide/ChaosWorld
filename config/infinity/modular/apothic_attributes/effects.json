@@ -1,0 +1,67 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 9109504,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "apothic_attributes:bleeding"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 16766976,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "apothic_attributes:detonation"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 16733525,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "apothic_attributes:flying"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 11141120,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "apothic_attributes:grievous"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 16051778,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "apothic_attributes:knowledge"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 10000536,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "apothic_attributes:sundering"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 16733525,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "apothic_attributes:vitality"
+		}
+	]
+}

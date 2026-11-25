@@ -1,0 +1,22 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 5319035,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "aether:inebriation"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 5031241,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "aether:remedy"
+		}
+	]
+}

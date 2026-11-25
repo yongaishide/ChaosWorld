@@ -1,0 +1,21 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "additives": [
+    {
+      "tag": "c:ingots/silver"
+    }
+  ],
+  "energy": 51200,
+  "input": {
+    "tag": "c:ingots/gold"
+  },
+  "results": [
+    {
+      "basePredicate": {
+        "tag": "c:ingots/electrum"
+      },
+      "count": 2
+    }
+  ],
+  "time": 100
+}

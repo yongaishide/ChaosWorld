@@ -1,0 +1,130 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ii_2f0189c5a397f1ca"
+	group: "3349C1ACA6519635"
+	icon: {
+		components: {
+			"botania:elven_unlock": { }
+			"minecraft:rarity": "uncommon"
+		}
+		id: "botania:lexica_botania"
+	}
+	id: "2F0189C5A397F1CA"
+	images: [ ]
+	order_index: 3
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["44EA7134084E9361"]
+			id: "0F4A002B62832ED9"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [
+				{
+					amount: 1L
+					id: "1D7395D6095DE73B"
+					key_type: "ae2:i"
+					match_components: "strict"
+					resource: "minecraft:beacon"
+					tag: ""
+					type: "chaosworld_core:ae_resource"
+				}
+				{
+					amount: 4L
+					id: "24653CA40A0D6017"
+					key_type: "ae2:i"
+					match_components: "strict"
+					resource: "botania:gaia_pylon"
+					tag: ""
+					type: "chaosworld_core:ae_resource"
+				}
+			]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["70975056077B1395"]
+			id: "44EA7134084E9361"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [
+				{
+					amount: 1L
+					id: "1115906BB067D5EA"
+					key_type: "ae2:i"
+					match_components: "strict"
+					resource: "botania:elementium_ingot"
+					tag: ""
+					type: "chaosworld_core:ae_resource"
+				}
+				{
+					amount: 1L
+					id: "6423768443BEC73F"
+					key_type: "ae2:i"
+					match_components: "strict"
+					resource: "botania:pixie_dust"
+					tag: ""
+					type: "chaosworld_core:ae_resource"
+				}
+			]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"12494723DCE12B36"
+				"6074DDB2B5E924D5"
+				"005C7CC487843492"
+			]
+			id: "70975056077B1395"
+			quest_enhance_disable_scroll_paging: false
+			quest_enhance_quest_background: "botania:block/alfheim_portal_swirl"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				amount: 1L
+				id: "00D4576CD2147786"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "botania:elven_gateway_core"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12494723DCE12B36"]
+			id: "005C7CC487843492"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "17F3C737C514FC62"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "botania:natura_pylon"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0DAA6C8ED7B28A93"]
+			id: "6074DDB2B5E924D5"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 3L
+				id: "5D6A4B69F1F49C1E"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "botania:glimmering_livingwood"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+	]
+}

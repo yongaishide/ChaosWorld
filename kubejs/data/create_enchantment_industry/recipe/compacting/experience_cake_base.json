@@ -1,0 +1,19 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "tag": "c:eggs"
+        },
+        {
+            "item": "minecraft:sugar"
+        },
+        {
+            "item": "minecraft:lapis_lazuli"
+        }
+    ],
+    "results": [
+        {
+            "id": "enderio:fluid_xp_juice_still_cake_base"
+        }
+    ]
+}

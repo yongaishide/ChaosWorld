@@ -1,0 +1,31 @@
+{
+  "type": "ae2lt:lightning_simulation",
+  "priority": 0,
+  "inputs": [
+    {
+      "ingredient": {
+        "item": "chaosworld_core:plate_tech_5"
+      },
+      "count": 2
+    },
+    {
+      "ingredient": {
+        "item": "ae2lt:overload_processor"
+      },
+      "count": 2
+    },
+    {
+      "ingredient": {
+        "item": "draconicevolution:draconium_ingot"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "id": "ae2lt:overload_alloy_plate",
+    "count": 1
+  },
+  "totalEnergy": 500000,
+  "lightningCost": 4,
+  "lightningTier": "high_voltage"
+}

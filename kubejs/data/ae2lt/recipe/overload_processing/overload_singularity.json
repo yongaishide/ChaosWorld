@@ -1,0 +1,27 @@
+{
+  "type": "ae2lt:overload_processing",
+  "priority": 0,
+  "inputs": [
+    {
+      "ingredient": {
+        "item": "extendedae_plus:oblivion_singularity"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "ae2cs:purified_redstone_crystal"
+      },
+      "count": 16
+    }
+  ],
+  "results": [
+    {
+      "id": "ae2lt:overload_singularity",
+      "count": 1
+    }
+  ],
+  "totalEnergy": 2000000,
+  "lightningCost": 1,
+  "lightningTier": "high_voltage"
+}

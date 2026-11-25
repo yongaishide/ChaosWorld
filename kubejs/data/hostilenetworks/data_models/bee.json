@@ -1,0 +1,31 @@
+{
+    "entity": "minecraft:bee",
+    "variants": [
+		"occultism:possessed_bee"
+	],
+    "name": {
+		"translate": "entity.minecraft.bee",
+		"color": "#7D6933"
+    },
+    "display": {
+        "scale": 1
+    },
+    "sim_cost": 48,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.bee",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:honeycomb",
+            "count": 8
+        },
+        {
+            "id": "minecraft:honey_block",
+            "count": 1
+        }
+    ]
+}

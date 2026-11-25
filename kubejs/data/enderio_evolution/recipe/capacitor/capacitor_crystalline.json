@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": [
+      {
+        "item": "enderio_evolution:capacitor_vivid"
+      },
+      {
+        "item": "enderio:octadic_capacitor"
+      }
+    ],
+    "H": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "J": {
+      "item": "enderio_evolution:crystalline_alloy_ingot"
+    }
+  },
+  "pattern": [
+    " J ",
+    "DHD",
+    " J "
+  ],
+  "result": {
+    "count": 1,
+    "id": "enderio_evolution:capacitor_crystalline"
+  }
+}

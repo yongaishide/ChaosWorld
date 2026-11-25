@@ -1,0 +1,479 @@
+ServerEvents.recipes(event => {
+  event.shaped(
+    Item.of('minecraft:furnace'),
+    [
+      'AAA',
+      'ABA',
+      'AAA'
+    ],
+    {
+      A: 'minecraft:cobblestone',
+      B: 'minecraft:coal_block'
+    }
+  );//添加有序合成"熔炉"配方
+  event.shaped(
+    Item.of("pneumaticcraft:pressure_chamber_interface"),
+    [
+      ' B ',
+      'BCB',
+      ' B '
+    ],
+    {
+      B: "pneumaticcraft:pressure_chamber_wall",
+      C: "industrialforegoing:machine_frame_pity"
+    }
+  );//添加有序合成"压力室接口"配方
+  event.shaped(
+    Item.of('actuallyadditions:iron_casing'),
+    [
+      'ABA',
+      'BCB',
+      'ABA'
+    ],
+    {
+      A: 'alltheores:iron_plate',
+      B: 'immersiveengineering:stick_treated',
+      C: 'actuallyadditions:black_quartz'
+    }
+  );//添加有序合成"铁制外壳"配方
+  event.shaped(
+    Item.of('immersiveengineering:blastbrick', 4),
+    ['ABA', 'BCB', 'ABA'],
+    {
+      A: 'immersiveengineering:hempcrete',
+      B: 'minecraft:nether_brick',
+      C: 'minecraft:blaze_powder'
+    }
+  );//添加有序合成"高炉砖"配方
+  event.shaped(
+    Item.of('immersiveengineering:hempcrete', 4),
+    ['ABA', 'BCB', 'ABA'],
+    {
+      A: 'minecraft:sand',
+      B: 'immersiveengineering:hemp_fiber',
+      C: 'minecraft:clay'
+    }
+  );//添加有序合成"汉麻混凝土"配方
+  event.shaped(
+    Item.of('immersiveengineering:cokebrick', 3),
+    ['ABA', 'BCB', 'ABA'],
+    {
+      A: 'immersiveengineering:hempcrete',
+      B: 'minecraft:brick',
+      C: 'minecraft:blaze_powder'
+    }
+  );//添加有序合成"焦炉砖"配方
+  event.shaped(
+    Item.of('immersiveengineering:rs_engineering', 2),
+    ['ABA', 'BCB', 'ABA'],
+    {
+      A: 'actuallyadditions:iron_casing',
+      B: 'enderio:redstone_alloy_ingot',
+      C: 'enderio_evolution:simple_machine_frame'
+    }
+  );//添加有序合成"红石工程块"配方
+  event.shaped(
+    Item.of('immersiveengineering:alloybrick', 8),
+    ['ABA', 'BCB', 'ABA'],
+    {
+      A: 'minecraft:bricks',
+      B: 'minecraft:sandstone',
+      C: 'immersiveengineering:coke'
+    }
+  );//添加有序合成"窑砖"配方
+  event.shaped(
+    Item.of('ae2cs:crystal_growth_chamber'),
+    [
+      'ABA',
+      'CDC',
+      'ABA'
+    ],
+    {
+      A: 'ae2:growth_accelerator',
+      B: 'enderio:conduit[enderio:conduit="enderio:me"]',
+      C: 'ae2:quartz_glass',
+      D: 'industrialforegoing:machine_frame_pity'
+    }
+  );//添加有序合成"晶体催生仓"配方
+  event.shaped(
+    Item.of('enderio:soul_binder'),
+    [
+      'ABA',
+      'CDC',
+      'AEA'
+    ],
+    {
+      A: 'enderio:soularium_ingot',
+      B: 'enderio:soul_vial',
+      C: 'enderio:energized_gear',
+      D: 'industrialforegoing:machine_frame_simple',
+      E: 'enderio:z_logic_controller'
+    }
+  );//添加有序合成"灵魂绑定器"配方
+  event.shaped(
+    Item.of('extendedae:crystal_assembler'),
+    [
+      ' A ',
+      'BCB',
+      'DED'
+    ],
+    {
+      A: 'ae2:crafting_terminal',
+      B: 'ae2:logic_processor',
+      C: 'industrialforegoing:machine_frame_pity',
+      D: 'extendedae:machine_frame',
+      E: 'mekanism:basic_fluid_tank'
+    }
+  );//添加有序合成"水晶装配器"配方
+  event.shaped(
+    Item.of('extendedcrafting:flux_alternator', 2),
+    [
+      ' A ',
+      ' B ',
+      'BBB'
+    ],
+    {
+      A: 'enderio:energetic_alloy_ingot',
+      B: 'extendedcrafting:enhanced_redstone_ingot'
+    }
+  );//添加有序合成"通量发电机"配方
+  event.shaped(
+    Item.of('extendedcrafting:flux_crafter'),
+    [
+      'AAA',
+      'BCB',
+      'BBB'
+    ],
+    {
+      A: 'enderio:energetic_alloy_ingot',
+      B: 'extendedcrafting:enhanced_redstone_ingot',
+      C: 'industrialforegoing:machine_frame_simple'
+    }
+  );//添加有序合成"通量合成器"配方
+  event.shaped(
+    Item.of('industrialforegoing:mob_slaughter_factory'),
+    [
+      'ABA',
+      'CDC',
+      'EFE'
+    ],
+    {
+      A: 'industrialforegoing:plastic',
+      B: 'enderio:energized_gear',
+      C: 'minecraft:diamond_sword',
+      D: 'industrialforegoing:machine_frame_simple',
+      E: 'minecraft:diamond_axe',
+      F: 'ae2cs:redstone_crystal_block'
+    }
+  );//添加有序合成"生物屠宰厂"配方
+  event.shaped(
+    Item.of('ae2:crafting_terminal'),
+    [
+      'ABA',
+      'CDE',
+      'AFA'
+    ],
+    {
+      A: 'minecraft:crafting_table',
+      B: 'ae2:logic_processor',
+      C: 'ae2:annihilation_core',
+      D: '#ae2:illuminated_panel',
+      E: 'ae2:formation_core',
+      F: 'ae2:calculation_processor'
+    }
+  );//添加有序合成"ME合成终端"配方
+  event.shapeless(
+    Item.of('ae2cs:rose_quartz_seed', 2),
+    [
+      'create:polished_rose_quartz',
+      'minecraft:sand'
+    ]
+  );//添加无序合成"玫瑰石英种子"配方
+  event.shaped(
+    Item.of('mekanism:basic_universal_cable', 64),
+    [
+      'AAA',
+      'BCB',
+      'AAA'
+    ],
+    {
+      A: 'enderio:conduit_binder',
+      B: 'alltheores:steel_ingot',
+      C: 'extendedcrafting:redstone_ingot'
+    }
+  );//添加有序合成"基础通用线缆"配方
+  event.shaped(
+    Item.of('mekanismgenerators:heat_generator'),
+    [
+      'AAA',
+      'BCB',
+      'DED'
+    ],
+    {
+      A: 'alltheores:iron_plate',
+      B: 'mekanism:basic_universal_cable',
+      C: 'immersiveengineering:light_engineering',
+      D: 'immersiveengineering:component_iron',
+      E: 'ironfurnaces:iron_furnace'
+    }
+  );//添加有序合成"热力发电机"配方
+  // alloy_smelter 模组已从整合包里移除（锻造控制器 tier1~3 这三个物品不存在了），
+  // 对应多方块机器已由 mmcr 的砖制合金炉（mmcr_kubejs:brick_alloy_furnace）取代，
+  // 控制器 mmcr:brick_alloy_furnace_controller 的合成配方见 kubejsstudio/recipes.js
+  event.shaped(
+    Item.of('minecraft:blast_furnace'),
+    [
+      'AAA',
+      'ABA',
+      'CCC'
+    ],
+    {
+      A: 'minecraft:iron_ingot',
+      B: ['minecraft:furnace', 'quark:deepslate_furnace', 'quark:blackstone_furnace'],
+      C: 'minecraft:smooth_stone'
+    }
+  );//添加有序合成"高炉"配方
+  event.shaped(
+    Item.of('mekanism:basic_fluid_tank'),
+    [
+      'ABA',
+      'C C',
+      'ABA'
+    ],
+    {
+      A: 'alltheores:iron_plate',
+      B: 'extendedcrafting:redstone_ingot',
+      C: 'immersiveengineering:insulating_glass'
+    }
+  );//添加有序合成"基础流体储罐"配方
+  event.shaped(
+    Item.of('pneumaticcraft:refinery'),
+    [
+      'AAA',
+      'BCB',
+      'DDD'
+    ],
+    {
+      A: 'pneumaticcraft:reinforced_stone_slab',
+      B: 'mekanism:basic_fluid_tank',
+      C: 'industrialforegoing:machine_frame_pity',
+      D: 'pneumaticcraft:reinforced_bricks'
+    }
+  );//添加有序合成"精炼厂控制器"配方
+  event.shaped(
+    Item.of('data_energistics:data_carrier'),
+    [
+      ' AB',
+      'ACA',
+      'BA '
+    ],
+    {
+      A: 'alltheores:iron_plate',
+      B: 'industrialforegoing:plastic',
+      C: 'ae2omnicells:omni_link_processor'
+    }
+  );//添加有序合成"数据载体"配方
+  event.shaped(
+    Item.of('avaritia:crystal_matrix_ingot', 3),
+    [
+      'AAA',
+      'BBB',
+      'AAA'
+    ],
+    {
+      A: 'avaritia:diamond_lattice',
+      B: 'extendedcrafting:crystaltine_ingot'
+    }
+  );//添加有序合成"水晶矩阵锭"配方
+  event.shaped(
+    Item.of('avaritia:diamond_lattice'),
+    [
+      'A A',
+      ' B ',
+      'A A'
+    ],
+    {
+      A: 'minecraft:diamond',
+      B: 'minecraft:netherite_scrap'
+    }
+  );//添加有序合成"钻石晶格"配方
+  event.shaped(
+    Item.of('enderio_evolution:capacitor_melodic'),
+    [
+      'A A',
+      'ABA',
+      'C C'
+    ],
+    {
+      A: 'enderio_evolution:melodic_alloy_ingot',
+      B: 'powah:capacitor_basic',
+      C: 'immersiveengineering:wire_copper'
+    }
+  );//添加有序合成"旋律合金电容"配方
+  event.shapeless(
+    Item.of('extendedcrafting:the_ultimate_ingot'),
+    [
+      'chaosworld_core:ingot_tech_1',
+      'chaosworld_core:ingot_tech_2',
+      'chaosworld_core:ingot_tech_3',
+      'chaosworld_core:ingot_tech_4',
+      'chaosworld_core:ingot_tech_5',
+      'chaosworld_core:ingot_tech_6',
+      'chaosworld_core:ingot_tech_7',
+      'chaosworld_core:ingot_tech_8',
+      'chaosworld_core:ingot_tech_9'
+    ]
+  );//添加无序合成"终极锭"配方
+  event.shaped(
+    Item.of('mekanismgenerators:fission_reactor_port', 4),
+    [
+      'ABA',
+      'BCB',
+      'ABA'
+    ],
+    {
+      A: 'mekanismgenerators:fission_reactor_casing',
+      B: 'mekanism_extras:absolute_control_circuit',
+      C: "ifeu:ultimate_machine_frame"
+    }
+  );//添加有序合成"裂变反应堆端口"配方
+  event.shaped(
+    Item.of('mekanism:energized_smelter'),
+    [
+      'ABA',
+      'CDC',
+      'ABA'
+    ],
+    {
+      A: 'industrialforegoing:plastic',
+      B: 'alltheores:zinc_gear',
+      C: 'ironfurnaces:netherite_furnace',
+      D: 'industrialforegoing:machine_frame_simple'
+    }
+  );//添加有序合成"电力熔炼炉"配方
+  event.shaped(
+    Item.of('mekanism:metallurgic_infuser'),
+    [
+      'ABA',
+      'CDE',
+      'FGF'
+    ],
+    {
+      A: 'industrialforegoing:plastic',
+      B: 'alltheores:steel_ingot',
+      C: 'mekanism:basic_chemical_tank',
+      D: 'industrialforegoing:machine_frame_simple',
+      E: '#c:chests',
+      F: 'alltheores:bronze_gear',
+      G: 'immersiveengineering:rs_engineering'
+    }
+  );//添加有序合成"冶金灌注机"配方
+  event.shaped(
+    Item.of('mekanism:enrichment_chamber'),
+    [
+      'ABA',
+      'CDC',
+      'EBE'
+    ],
+    {
+      A: 'industrialforegoing:plastic',
+      B: 'mekanism:advanced_control_circuit',
+      C: 'mekanism:basic_chemical_tank',
+      D: 'industrialforegoing:machine_frame_simple',
+      E: 'alltheores:lumium_gear'
+    }
+  );//添加有序合成"富集仓"配方
+  event.shaped(
+    Item.of('chaosworld_core:mechanical_assembler'),
+    [
+      'ABA',
+      'CDE',
+      'FBF'
+    ],
+    {
+      A: 'industrialforegoing:plastic',
+      B: 'mekanism:basic_control_circuit',
+      C: 'mekanism:basic_chemical_tank',
+      D: 'industrialforegoing:machine_frame_simple',
+      E: 'mekanism:basic_fluid_tank',
+      F: 'alltheores:lumium_gear'
+    }
+  );//添加有序合成"电路组装机"配方
+  event.shaped(
+    Item.of('mmcr:heat_input_hatch'),
+    [
+      'ABA',
+      'BCB',
+      'ABA'
+    ],
+    {
+      A: 'mmcr:modularium',
+      B: 'immersiveengineering:wirecoil_copper',
+      C: 'mekanism:energy_tablet'
+    }
+  );//添加有序合成"热量输入仓"配方
+  event.shaped(
+    Item.of('mmcr:heat_output_hatch'),
+    [
+      'ABA',
+      'BCB',
+      'ABA'
+    ],
+    {
+      A: 'mmcr:modularium',
+      B: 'immersiveengineering:wirecoil_copper',
+      C: 'immersiveengineering:coil_lv'
+    }
+  );//添加有序合成"热量输出仓"配方
+  event.shaped(
+    Item.of('immersiveengineering:blueprint[immersiveengineering:blueprint="automatons"]'),
+    [
+      ' A ',
+      'BBB',
+      'CCC'
+    ],
+    {
+      A: 'immersiveengineering:hammer',
+      B: 'minecraft:blue_dye',
+      C: 'minecraft:paper'
+    }
+  );//添加有序合成"工程师蓝图"配方
+  event.shaped(
+    Item.of('mekanism:isotopic_centrifuge'),
+    [
+      'AAA',
+      'BCB',
+      'AAA'
+    ],
+    {
+      A: 'enderio_evolution:stellar_alloy_ingot',
+      B: 'mekanism_extras:absolute_control_circuit',
+      C: 'mekanism:ultimate_chemical_tank'
+    }
+  );//添加有序合成"同位素离心机"配方
+  event.shaped(
+    Item.of('mekanism:fuelwood_heater'),
+    [
+      'AAA',
+      'BCB',
+      'AAA'
+    ],
+    {
+      A: 'alltheores:steel_ingot',
+      B: 'ironfurnaces:iron_furnace',
+      C: 'actuallyadditions:coal_generator'
+    }
+  );//添加有序合成"固体燃料加热器"配方
+  event.shaped(
+    Item.of("minecraft:smithing_table"),
+    [
+      'BB',
+      'AA',
+      'AA'
+    ],
+    {
+      A: '#minecraft:planks',
+      B: "alltheores:iron_plate"
+    }
+  );//添加有序合成"锻造台"配方
+});

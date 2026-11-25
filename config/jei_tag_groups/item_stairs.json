@@ -1,0 +1,11 @@
+{
+  "description": "折叠楼梯",
+  "type": "item",
+  "tag": "minecraft:stairs",
+  "icon": "minecraft:stone_stairs",
+  "display_name": "jei_tag_groups.group.stairs.name",
+  "tooltip": [
+    "jei_tag_groups.group.stairs.tooltip"
+  ],
+  "border_color": "#55AAFF"
+}

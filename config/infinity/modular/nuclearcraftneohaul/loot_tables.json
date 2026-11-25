@@ -1,0 +1,2573 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/advanced_lithium_ion_battery"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/advanced_voltaic_pile"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/alloy_furnace"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/aluminum_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/aluminum_fission_coolant_heater"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/aluminum_fission_coolant_heater_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/aluminum_fission_heat_sink"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/aluminum_turbine_dynamo_coil"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/ammonia_fission_gas_cooler"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/ammonia_fission_gas_cooler_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/arsenic_fission_coolant_heater"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/arsenic_fission_coolant_heater_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/arsenic_fission_heat_sink"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/assembler"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/basic_lithium_ion_battery"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/basic_voltaic_pile"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/beryllium_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/beryllium_carbon_reflector"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/beryllium_turbine_dynamo_coil"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/boron_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/boron_deepslate_ore"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/boron_fission_coolant_heater"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/boron_fission_coolant_heater_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/boron_fission_heat_sink"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/boron_ore"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/boron_silver_shield"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/californium_source"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/carbon_dioxide_fission_gas_cooler"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/carbon_dioxide_fission_gas_cooler_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/carbon_monoxide_fission_gas_cooler"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/carbon_monoxide_fission_gas_cooler_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/carobbiite_fission_coolant_heater"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/carobbiite_fission_coolant_heater_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/carobbiite_fission_heat_sink"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/centrifuge"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/chemical_reactor"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/cobalt_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/cobalt_oxide_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/cobblestone_generator"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/cobblestone_generator_compact"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/cobblestone_generator_dense"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/condenser_controller"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/copper_fission_coolant_heater"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/copper_fission_coolant_heater_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/copper_fission_heat_sink"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/copper_heat_exchanger_tube"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/copper_oxide_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/copper_turbine_dynamo_coil"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/create_turbine_rotor_bearing"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/cryotheum_fission_coolant_heater"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/cryotheum_fission_coolant_heater_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/cryotheum_fission_heat_sink"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/crystallizer"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/decay_generator"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/decay_hastener"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/decay_pool_container"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/decay_pool_controller"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/diamond_fission_coolant_heater"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/diamond_fission_coolant_heater_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/diamond_fission_heat_sink"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/diborane_fission_gas_cooler"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/diborane_fission_gas_cooler_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/distiller_controller"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/distiller_liquid_distributor"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/distiller_reboiling_unit"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/distiller_reflux_unit"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/distiller_sieve_tray"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/distributor_buffer"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/distributor_inlet"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/distributor_outlet"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/du_lithium_ion_battery"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/du_voltaic_pile"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/dysprosium_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/electric_furnace"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/electrolyzer"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/electrolyzer_anode_terminal"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/electrolyzer_cathode_terminal"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/electrolyzer_controller"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/elite_lithium_ion_battery"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/elite_voltaic_pile"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/emerald_fission_coolant_heater"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/emerald_fission_coolant_heater_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/emerald_fission_heat_sink"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/end_stone_fission_coolant_heater"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/end_stone_fission_coolant_heater_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/end_stone_fission_heat_sink"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/enderium_fission_coolant_heater"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/enderium_fission_coolant_heater_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/enderium_fission_heat_sink"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/ethene_fission_gas_cooler"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/ethene_fission_gas_cooler_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/ethyne_fission_gas_cooler"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/ethyne_fission_gas_cooler_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/extreme_alloy_turbine_rotor_blade"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/fertile_isotope_americium_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/fertile_isotope_berkelium_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/fertile_isotope_californium_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/fertile_isotope_curium_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/fertile_isotope_neptunium_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/fertile_isotope_plutonium_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/fertile_isotope_uranium_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/fission_computer_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/fission_conductor"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/fission_fuel_cell"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/fission_fuel_cell_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/fission_fuel_chamber"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/fission_fuel_chamber_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/fission_fuel_vessel"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/fission_fuel_vessel_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/fission_glass"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/fission_irradiator"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/fission_irradiator_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/fission_monitor"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/fission_power_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/fission_reactor_casing"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/fission_shield_manager"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/fission_source_manager"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/fission_vent"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/fluid_enricher"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/fluid_extractor"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/fluid_infuser"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/fluid_mixer"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/fluorine_fission_gas_cooler"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/fluorine_fission_gas_cooler_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/fluorite_fission_coolant_heater"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/fluorite_fission_coolant_heater_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/fluorite_fission_heat_sink"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/fluoromethane_fission_gas_cooler"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/fluoromethane_fission_gas_cooler_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/fuel_reprocessor"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/gadolinium_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/gadolinium_samarium_shield"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/glowing_mushroom"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/glowing_mushroom_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/glowing_mushroom_stem_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/glowstone_fission_coolant_heater"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/glowstone_fission_coolant_heater_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/glowstone_fission_heat_sink"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/gold_fission_coolant_heater"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/gold_fission_coolant_heater_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/gold_fission_heat_sink"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/gold_turbine_dynamo_coil"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/graphite_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/hard_carbon_heat_exchanger_tube"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/hastelloy_sieve_assembly"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/heat_exchanger_casing"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/heat_exchanger_computer_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/heat_exchanger_controller"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/heat_exchanger_glass"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/heat_exchanger_inlet"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/heat_exchanger_outlet"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/heat_exchanger_redstone_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/heat_exchanger_shell_baffle"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/heavy_water_moderator"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/helium_fission_gas_cooler"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/helium_fission_gas_cooler_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/holmium_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/hydrogen_fission_gas_cooler"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/hydrogen_fission_gas_cooler_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/infiltrator_controller"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/infiltrator_heating_unit"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/infiltrator_pressure_chamber"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/ingot_former"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/iridium_oxide_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/iron_fission_coolant_heater"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/iron_fission_coolant_heater_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/iron_fission_heat_sink"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/lapis_fission_coolant_heater"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/lapis_fission_coolant_heater_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/lapis_fission_heat_sink"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/lead_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/lead_deepslate_ore"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/lead_fission_coolant_heater"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/lead_fission_coolant_heater_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/lead_fission_heat_sink"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/lead_ore"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/lead_steel_reflector"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/liquid_helium_fission_coolant_heater"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/liquid_helium_fission_coolant_heater_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/liquid_helium_fission_heat_sink"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/liquid_nitrogen_fission_coolant_heater"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/liquid_nitrogen_fission_coolant_heater_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/liquid_nitrogen_fission_heat_sink"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/lithium_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/lithium_deepslate_ore"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/lithium_fission_coolant_heater"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/lithium_fission_coolant_heater_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/lithium_fission_heat_sink"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/lithium_ore"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/machine_casing"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/machine_computer_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/machine_glass"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/machine_interface"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/machine_power_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/machine_process_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/machine_redstone_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/machine_reservoir_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/magnesium_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/magnesium_deepslate_ore"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/magnesium_fission_coolant_heater"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/magnesium_fission_coolant_heater_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/magnesium_fission_heat_sink"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/magnesium_ore"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/magnesium_turbine_dynamo_coil"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/manganese_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/manganese_dioxide_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/manganese_fission_coolant_heater"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/manganese_fission_coolant_heater_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/manganese_fission_heat_sink"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/manganese_oxide_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/manufactory"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/melter"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/methane_fission_gas_cooler"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/methane_fission_gas_cooler_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/molten_salt_fission_controller"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/molybdenum_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/nether_brick_fission_coolant_heater"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/nether_brick_fission_coolant_heater_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/nether_brick_fission_heat_sink"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/nickel_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/nickel_oxide_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/nitrogen_collector"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/nitrogen_collector_compact"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/nitrogen_collector_dense"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/nitrogen_fission_gas_cooler"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/nitrogen_fission_gas_cooler_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/nuclear_furnace"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/obsidian_fission_coolant_heater"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/obsidian_fission_coolant_heater_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/obsidian_fission_heat_sink"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/oxygen_fission_gas_cooler"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/oxygen_fission_gas_cooler_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/palladium_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/pebble_bed_fission_controller"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/platinum_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/polonium_beryllium_source"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/polyethersulfone_diaphragm"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/polytetrafluoroethene_sieve_assembly"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/pressurizer"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/prismarine_fission_coolant_heater"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/prismarine_fission_coolant_heater_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/prismarine_fission_heat_sink"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/purpur_fission_coolant_heater"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/purpur_fission_coolant_heater_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/purpur_fission_heat_sink"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/quantum_computer_ch"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/quantum_computer_code_generator_qasm"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/quantum_computer_code_generator_qiskit"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/quantum_computer_connector"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/quantum_computer_controller"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/quantum_computer_cp"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/quantum_computer_crx"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/quantum_computer_cry"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/quantum_computer_crz"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/quantum_computer_cs"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/quantum_computer_csdg"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/quantum_computer_cswap"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/quantum_computer_ct"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/quantum_computer_ctdg"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/quantum_computer_cx"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/quantum_computer_cy"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/quantum_computer_cz"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/quantum_computer_h"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/quantum_computer_p"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/quantum_computer_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/quantum_computer_qubit"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/quantum_computer_rx"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/quantum_computer_ry"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/quantum_computer_rz"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/quantum_computer_s"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/quantum_computer_sdg"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/quantum_computer_swap"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/quantum_computer_t"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/quantum_computer_tdg"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/quantum_computer_x"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/quantum_computer_y"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/quantum_computer_z"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/quartz_fission_coolant_heater"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/quartz_fission_coolant_heater_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/quartz_fission_heat_sink"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/radium_beryllium_source"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/raw_boron_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/raw_lead_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/raw_lithium_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/raw_magnesium_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/raw_thorium_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/raw_tin_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/raw_uranium_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/redstone_fission_coolant_heater"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/redstone_fission_coolant_heater_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/redstone_fission_heat_sink"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/rock_crusher"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/rtg_americium"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/rtg_californium"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/rtg_plutonium"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/rtg_uranium"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/ruthenium_oxide_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/separator"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/sic_turbine_rotor_blade"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/silver_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/silver_fission_coolant_heater"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/silver_fission_coolant_heater_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/silver_fission_heat_sink"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/silver_turbine_dynamo_coil"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/sintered_steel_diaphragm"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/slime_fission_coolant_heater"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/slime_fission_coolant_heater_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/slime_fission_heat_sink"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/solar_panel_advanced"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/solar_panel_basic"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/solar_panel_du"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/solar_panel_elite"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/solid_fuel_fission_controller"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/solidified_corium"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/soulless_sand"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/soulless_sandstone"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/standard_fission_coolant_heater"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/standard_fission_coolant_heater_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/standard_turbine_rotor_stator"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/steel_sieve_assembly"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/steel_turbine_rotor_blade"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/sulfur_dioxide_fission_gas_cooler"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/sulfur_dioxide_fission_gas_cooler_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/sulfur_hexafluoride_fission_gas_cooler"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/sulfur_hexafluoride_fission_gas_cooler_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/sulfur_trioxide_fission_gas_cooler"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/sulfur_trioxide_fission_gas_cooler_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/supercold_ice"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/supercooler"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/thermoconducting_alloy_heat_exchanger_tube"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/thorium_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/thorium_deepslate_ore"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/thorium_ore"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/tin_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/tin_deepslate_ore"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/tin_fission_coolant_heater"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/tin_fission_coolant_heater_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/tin_fission_heat_sink"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/tin_ore"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/tin_oxide_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/tritium_lamp"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/turbine_casing"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/turbine_coil_connector"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/turbine_computer_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/turbine_controller"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/turbine_glass"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/turbine_inlet"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/turbine_outlet"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/turbine_redstone_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/turbine_rotor_bearing"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/turbine_rotor_shaft"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/universal_bin"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/uranium_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/uranium_deepslate_ore"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/uranium_ore"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/villiaumite_fission_coolant_heater"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/villiaumite_fission_coolant_heater_port"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/villiaumite_fission_heat_sink"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/wasteland_earth"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/water_fission_heat_sink"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/water_source"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/water_source_compact"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/water_source_dense"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/zirconia_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/zirconium_block"
+		},
+		{
+			"data": {
+				"Type": "block"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:blocks/zirfon_diaphragm"
+		},
+		{
+			"data": {
+				"Type": "entity"
+			},
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:entities/feral_ghoul"
+		}
+	]
+}

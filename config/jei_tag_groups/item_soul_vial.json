@@ -1,0 +1,11 @@
+{
+  "description": "折叠灵魂瓶",
+  "type": "item",
+  "item": "enderio:soul_vial",
+  "icon": "enderio:soul_vial",
+  "display_name": "jei_tag_groups.group.soul_vial.name",
+  "tooltip": [
+    "jei_tag_groups.group.soul_vial.tooltip"
+  ],
+  "border_color": "#AA55FF"
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "botania:metamorphic_apothecary",
+  "key": {
+    "C": {
+      "item": "botania:cobbled_talc"
+    },
+    "P": {
+      "tag": "botania:petals"
+    },
+    "D": {
+      "item": "chaosworld_core:iron_golem_core"
+    }
+  },
+  "pattern": [
+    "CPC",
+    " C ",
+    "CDC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "botania:talc_petal_apothecary"
+  }
+}

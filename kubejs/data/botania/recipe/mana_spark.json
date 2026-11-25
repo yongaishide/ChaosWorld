@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:blaze_powder"
+    },
+    "N": {
+      "tag": "c:nuggets/gold"
+    },
+    "P": {
+      "tag": "botania:petals"
+    }
+  },
+  "pattern": [
+    " P ",
+    "BNB",
+    " P "
+  ],
+  "result": {
+    "count": 1,
+    "id": "botania:mana_spark"
+  }
+}

@@ -1,0 +1,212 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "modularrouters:activator_module"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:augment_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:blank_module"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:blank_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:blast_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:breaker_module"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:bulk_item_filter"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:camouflage_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:creative_module"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:detector_module"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:distributor_module"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:dropper_module"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:energy_distributor_module"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:energy_output_module"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:energy_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:extruder_module_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:extruder_module_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:fast_pickup_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:filter_round_robin_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:flinger_module"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:fluid_module"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:fluid_module_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:fluid_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:inspection_filter"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:mimic_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:mod_filter"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:modular_router"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:muffler_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:override_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:pickup_delay_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:placer_module"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:player_module"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:puller_module_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:puller_module_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:pushing_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:range_down_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:range_up_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:redstone_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:regex_filter"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:regulator_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:security_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:sender_module_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:sender_module_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:sender_module_3"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:speed_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:stack_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:stack_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:sync_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:tag_filter"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:vacuum_module"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:void_module"
+		},
+		{
+			"weight": 1.0,
+			"key": "modularrouters:xp_vacuum_augment"
+		}
+	]
+}

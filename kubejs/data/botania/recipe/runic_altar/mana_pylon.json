@@ -1,0 +1,42 @@
+{
+  "type": "botania:runic_altar",
+  "catalysts": [
+    {
+      "item": "chaosworld_core:runes_1"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "botania:manasteel_ingot"
+    },
+    {
+      "item": "botania:managlass"
+    },
+    {
+      "item": "botania:manasteel_ingot"
+    },
+    {
+      "item": "botania:managlass"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "botania:managlass"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "botania:managlass"
+    }
+  ],
+  "mana": 6000,
+  "output": {
+    "count": 1,
+    "id": "botania:mana_pylon"
+  },
+  "reagent": {
+    "item": "chaosworld_core:crystal_core_2"
+  }
+}

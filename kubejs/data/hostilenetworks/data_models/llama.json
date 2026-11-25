@@ -1,0 +1,29 @@
+{
+    "entity": "minecraft:llama",
+    "variants": [
+		"minecraft:trader_llama"
+	],
+    "name": {
+        "translate": "entity.minecraft.llama",
+        "color": "#998967"
+    },
+    "sim_cost": 64,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.llama",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:leather",
+            "count": 16
+        },
+        {
+            "optional": true,
+            "id": "hexerei:animal_fat",
+            "count": 16
+        }
+    ]
+}

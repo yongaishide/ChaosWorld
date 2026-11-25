@@ -1,0 +1,612 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "mmcr:ae2_me_async_output_interface"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:ae2_me_input_interface"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:ae2_me_output_interface"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:ae2_me_pattern_interface"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:ae2_me_stocking_input_interface"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:appflux_me_flux_input_interface"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:appflux_me_flux_output_interface"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:ars_source_input_interface"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:ars_source_output_interface"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:artificial_star_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:basic_casing"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:blueprint"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:botania_mana_input_pool"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:botania_mana_output_pool"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:brick_alloy_furnace_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:casting_machine_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:chemical_input_hatch_advanced"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:chemical_input_hatch_basic"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:chemical_input_hatch_elite"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:chemical_input_hatch_ultimate"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:chemical_output_hatch_advanced"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:chemical_output_hatch_basic"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:chemical_output_hatch_elite"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:chemical_output_hatch_ultimate"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:combined_input_advanced"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:combined_input_basic"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:combined_input_reinforced"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:combined_input_ultimate"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:combined_output_advanced"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:combined_output_basic"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:combined_output_reinforced"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:combined_output_ultimate"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:create_stress_input_interface"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:create_stress_output_interface"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:data_storage"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:eae_me_extended_input_interface"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:eae_me_extended_output_interface"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:eae_me_extended_pattern_interface"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:eae_me_extended_stocking_input_interface"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:eae_me_oversize_input_interface"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:eae_me_oversize_output_interface"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:eae_me_oversize_stocking_input_interface"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:eaep_me_mirror_pattern_interface"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:energy_input_hatch"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:energy_input_hatch_big"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:energy_input_hatch_huge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:energy_input_hatch_ludicrous"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:energy_input_hatch_reinforced"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:energy_input_hatch_small"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:energy_input_hatch_tiny"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:energy_input_hatch_ultimate"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:energy_output_hatch"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:energy_output_hatch_big"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:energy_output_hatch_huge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:energy_output_hatch_ludicrous"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:energy_output_hatch_reinforced"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:energy_output_hatch_small"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:energy_output_hatch_tiny"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:energy_output_hatch_ultimate"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:extended_combined_input_advanced"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:extended_combined_input_reinforced"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:extended_combined_input_ultimate"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:extended_combined_output_advanced"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:extended_combined_output_reinforced"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:extended_combined_output_ultimate"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:extended_energy_input_hatch_reinforced"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:extended_energy_input_hatch_ultimate"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:extended_energy_output_hatch_reinforced"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:extended_energy_output_hatch_ultimate"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:extended_fluid_input_hatch_advanced"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:extended_fluid_input_hatch_basic"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:extended_fluid_input_hatch_reinforced"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:extended_fluid_input_hatch_ultimate"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:extended_fluid_output_hatch_advanced"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:extended_fluid_output_hatch_basic"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:extended_fluid_output_hatch_reinforced"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:extended_fluid_output_hatch_ultimate"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:extended_item_input_bus_advanced"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:extended_item_input_bus_basic"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:extended_item_input_bus_reinforced"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:extended_item_input_bus_ultimate"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:extended_item_output_bus_advanced"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:extended_item_output_bus_basic"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:extended_item_output_bus_reinforced"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:extended_item_output_bus_ultimate"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:factory_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:fluid_input_hatch"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:fluid_input_hatch_big"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:fluid_input_hatch_huge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:fluid_input_hatch_ludicrous"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:fluid_input_hatch_reinforced"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:fluid_input_hatch_small"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:fluid_input_hatch_tiny"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:fluid_input_hatch_vacuum"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:fluid_output_hatch"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:fluid_output_hatch_big"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:fluid_output_hatch_huge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:fluid_output_hatch_ludicrous"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:fluid_output_hatch_reinforced"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:fluid_output_hatch_small"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:fluid_output_hatch_tiny"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:fluid_output_hatch_vacuum"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:fluxnetworks_energy_input_interface"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:fluxnetworks_energy_output_interface"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:heat_input_hatch"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:heat_output_hatch"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:item_input_bus"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:item_input_bus_big"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:item_input_bus_huge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:item_input_bus_ludicrous"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:item_input_bus_reinforced"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:item_input_bus_small"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:item_input_bus_tiny"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:item_output_bus"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:item_output_bus_big"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:item_output_bus_huge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:item_output_bus_ludicrous"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:item_output_bus_reinforced"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:item_output_bus_small"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:item_output_bus_tiny"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:key_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:kubejs_blast_furnace_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:kubejs_space_elevator_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:kubejs_space_reassembler_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:machine_circuit_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:modularium"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:module_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:multiblock_detector"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:network_interface"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:parallel_controller_elite"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:parallel_controller_fantasy"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:parallel_controller_max"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:parallel_controller_normal"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:parallel_controller_plus"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:parallel_controller_pro"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:parallel_controller_reinforced"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:parallel_controller_ultimate"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:pneumaticcraft_air_input_interface"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:pneumaticcraft_air_output_interface"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:radioactive_chemical_input_hatch"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:radioactive_chemical_output_hatch"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:small_assembler_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:smart_interface"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:smelting_furnace_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:spirit_fire_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:terminal"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:thread_disperser"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:upgrade_bus_elite"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:upgrade_bus_normal"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:upgrade_bus_reinforced"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:upgrade_bus_super"
+		},
+		{
+			"weight": 1.0,
+			"key": "mmcr:upgrade_bus_ultimate"
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "immersiveengineering:metal_press",
+  "energy": 2400,
+  "input": {
+    "item": "allthemodium:allthemodium_ingot"
+  },
+  "mold": "immersiveengineering:mold_plate",
+  "result": {
+    "item": "allthemodium:allthemodium_plate"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "immersiveengineering:crusher",
+  "energy": 6000,
+  "input": {
+    "tag": "c:ores/copper"
+  },
+  "result": {
+    "basePredicate": {
+      "tag": "c:dusts/copper"
+    },
+    "count": 2
+  },
+  "secondaries": [
+    {
+      "chance": 0.1,
+      "conditions": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "tag": "c:dusts/gold"
+          }
+        }
+      ],
+      "output": {
+        "tag": "c:dusts/gold"
+      }
+    }
+  ]
+}

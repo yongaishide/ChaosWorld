@@ -1,0 +1,61 @@
+{
+  "type": "astralsorcery:altar_crafting",
+  "base_focus_shatter_chance": 0.0,
+  "duration": 100,
+  "effects": [
+    "astralsorcery:default_central_beam",
+    "astralsorcery:default_lumen_input",
+    "astralsorcery:default_relay_input"
+  ],
+  "grid": {
+    "key": {
+      "A": {
+        "type": "item",
+        "ingredient": {
+          "tag": "c:gems/aquamarine"
+        }
+      },
+      "G": {
+        "type": "item",
+        "ingredient": {
+          "tag": "c:dusts/glowstone"
+        }
+      },
+      "L": {
+        "type": "fluid",
+        "ingredient": {
+          "amount": 1000,
+          "ingredient": {
+            "fluid": "astralsorcery:liquid_starlight"
+          }
+        }
+      }
+    },
+    "pattern": [
+      " G ",
+      "GLG",
+      " A "
+    ],
+    "relay_pattern": [
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "     "
+    ]
+  },
+  "may_chain": true,
+  "only_night": true,
+  "output_modifiers": [],
+  "outputs": [
+    {
+      "count": 16,
+      "id": "astralsorcery:illumination_powder"
+    }
+  ],
+  "required_additional_inputs": [],
+  "required_fluid": [],
+  "required_lumen": [],
+  "required_starlight": [],
+  "required_type": "illumination"
+}

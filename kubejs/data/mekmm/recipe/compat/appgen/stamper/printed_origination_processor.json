@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "appgen"
+    }
+  ],
+  "type": "mekmm:stamper",
+  "input": {
+    "count": 1,
+    "tag": "c:gems/ember"
+  },
+  "mold": {
+    "count": 1,
+    "item": "appgen:origination_processor_press"
+  },
+  "output": {
+    "count": 1,
+    "id": "appgen:printed_origination_processor"
+  }
+}

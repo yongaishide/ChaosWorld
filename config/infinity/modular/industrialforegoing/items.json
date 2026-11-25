@@ -1,0 +1,580 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:animal_baby_separator"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:animal_feeder"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:animal_rancher"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:biofuel_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:biofuel_generator"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:bioreactor"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:black_laser_lens"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:block_breaker"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:block_placer"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:blue_laser_lens"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:brown_laser_lens"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:conveyor"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:conveyor_blinking_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:conveyor_bouncing_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:conveyor_detection_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:conveyor_dropping_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:conveyor_extraction_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:conveyor_insertion_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:conveyor_splitting_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:cyan_laser_lens"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:diamond_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:dissolution_chamber"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:dryrubber"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:dye_mixer"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:efficiency_addon_tier_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:efficiency_addon_tier_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:enchantment_applicator"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:enchantment_extractor"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:enchantment_factory"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:enchantment_sorter"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:essence_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:ether_gas_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:fermentation_station"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:fermented_ore_meat_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:fertilizer"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:fluid_collector"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:fluid_extractor"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:fluid_laser_base"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:fluid_placer"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:fluid_sieving_machine"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:fluid_transporter_type"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:gold_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:gray_laser_lens"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:green_laser_lens"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:hydroponic_bed"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:hydroponic_simulation_processor"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:infinity_backpack"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:infinity_charger"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:infinity_drill"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:infinity_hammer"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:infinity_launcher"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:infinity_nuke"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:infinity_saw"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:infinity_trident"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:iron_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:item_transporter_type"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:laser_drill"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:latex_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:latex_processing_unit"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:light_blue_laser_lens"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:light_gray_laser_lens"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:lime_laser_lens"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:machine_frame_advanced"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:machine_frame_pity"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:machine_frame_simple"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:machine_frame_supreme"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:machine_settings_copier"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:magenta_laser_lens"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:marine_fisher"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:material_stonework_factory"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:meat_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:meat_feeder"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:mechanical_dirt"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:mob_crusher"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:mob_detector"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:mob_duplicator"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:mob_imprisonment_tool"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:mob_slaughter_factory"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:mycelial_crimed"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:mycelial_culinary"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:mycelial_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:mycelial_disenchantment"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:mycelial_ender"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:mycelial_explosive"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:mycelial_frosty"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:mycelial_furnace"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:mycelial_halitosis"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:mycelial_magma"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:mycelial_meatallurgic"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:mycelial_netherstar"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:mycelial_pink"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:mycelial_potion"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:mycelial_reactor"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:mycelial_rocket"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:mycelial_slimey"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:orange_laser_lens"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:ore_laser_base"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:pink_laser_lens"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:pink_slime"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:pink_slime_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:pink_slime_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:pink_slime_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:pitiful_generator"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:plant_fertilizer"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:plant_gatherer"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:plant_sower"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:plastic"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:potion_brewer"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:processing_addon_tier_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:processing_addon_tier_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:purple_laser_lens"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:range_addon_tier_0"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:range_addon_tier_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:range_addon_tier_10"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:range_addon_tier_11"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:range_addon_tier_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:range_addon_tier_3"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:range_addon_tier_4"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:range_addon_tier_5"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:range_addon_tier_6"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:range_addon_tier_7"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:range_addon_tier_8"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:range_addon_tier_9"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:raw_ore_meat_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:red_laser_lens"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:resourceful_furnace"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:sewage_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:sewage_composter"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:sewer"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:simulated_hydroponic_bed"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:sludge_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:sludge_refiner"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:speed_addon_tier_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:speed_addon_tier_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:spores_recreator"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:stasis_chamber"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:straw"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:transporter"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:washing_factory"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:water_condensator"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:white_laser_lens"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:wither_builder"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:world_transporter_type"
+		},
+		{
+			"weight": 1.0,
+			"key": "industrialforegoing:yellow_laser_lens"
+		}
+	]
+}

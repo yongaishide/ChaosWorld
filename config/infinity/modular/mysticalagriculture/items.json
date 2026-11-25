@@ -1,0 +1,2344 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:absorption_i_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:absorption_ii_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:absorption_iii_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:absorption_iv_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:absorption_v_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:air_agglomeratio"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:air_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:air_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:aluminum_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:aluminum_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:amethyst_bronze_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:amethyst_bronze_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:amethyst_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:amethyst_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:apatite_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:apatite_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:aquamarine_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:aquamarine_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:armadillo_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:armadillo_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:attack_aoe_i_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:attack_aoe_ii_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:attack_aoe_iii_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:awakened_draconium_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:awakened_draconium_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:awakened_supremium_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:awakened_supremium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:awakened_supremium_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:awakened_supremium_bow"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:awakened_supremium_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:awakened_supremium_crossbow"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:awakened_supremium_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:awakened_supremium_fishing_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:awakened_supremium_gemstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:awakened_supremium_gemstone_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:awakened_supremium_growth_accelerator"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:awakened_supremium_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:awakened_supremium_hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:awakened_supremium_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:awakened_supremium_ingot_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:awakened_supremium_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:awakened_supremium_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:awakened_supremium_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:awakened_supremium_scythe"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:awakened_supremium_shears"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:awakened_supremium_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:awakened_supremium_sickle"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:awakened_supremium_staff"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:awakened_supremium_sword"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:awakened_supremium_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:awakened_supremium_watering_can"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:awakening_altar"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:awakening_pedestal"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:basalt_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:basalt_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:basalz_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:basalz_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:blank_record"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:blank_skull"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:blaze_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:blaze_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:blazing_crystal_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:blazing_crystal_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:blindness_resistance_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:blitz_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:blitz_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:blizz_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:blizz_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:brass_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:brass_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:breeze_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:breeze_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:bronze_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:bronze_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:certus_quartz_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:certus_quartz_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:chicken_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:chicken_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:coal_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:coal_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:cobalt_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:cobalt_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:cognizant_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:compressed_iron_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:compressed_iron_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:conductive_alloy_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:conductive_alloy_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:constantan_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:constantan_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:copper_alloy_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:copper_alloy_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:copper_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:copper_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:coral_agglomeratio"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:coral_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:coral_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:cow_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:cow_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:creative_soulium_dagger"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:creeper_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:creeper_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:cyanite_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:cyanite_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:dark_steel_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:dark_steel_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:deepslate_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:deepslate_inferium_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:deepslate_prosperity_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:deepslate_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:diamond_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:diamond_scythe"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:diamond_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:diamond_sickle"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:dirt_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:dirt_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:draconium_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:draconium_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:dragon_egg_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:dragon_egg_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:dye_agglomeratio"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:dye_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:dye_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:earth_agglomeratio"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:earth_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:earth_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:electrum_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:electrum_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:elementium_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:elementium_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:emerald_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:emerald_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:enchanter"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:end_agglomeratio"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:end_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:end_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:end_steel_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:end_steel_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:enderium_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:enderium_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:enderman_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:enderman_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:energetic_alloy_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:energetic_alloy_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:energized_steel_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:energized_steel_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:essence_vessel"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:experience_capsule"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:experience_droplet"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:experience_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:experience_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:fertilized_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:fiery_ingot_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:fiery_ingot_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:fire_agglomeratio"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:fire_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:fire_resistance_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:fire_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:fish_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:fish_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:flight_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:fluix_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:fluix_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:fluorite_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:fluorite_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:flux_infused_gem_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:flux_infused_gem_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:flux_infused_ingot_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:flux_infused_ingot_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:furnace"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:gaia_spirit_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:gaia_spirit_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:ghast_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:ghast_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:glowstone_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:glowstone_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:gold_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:gold_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:grains_of_infinity_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:grains_of_infinity_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:graphite_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:graphite_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:harvester"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:haste_i_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:haste_ii_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:haste_iii_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:health_boost_i_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:health_boost_ii_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:health_boost_iii_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:health_boost_iv_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:health_boost_v_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:hepatizon_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:hepatizon_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:honey_agglomeratio"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:honey_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:honey_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:hop_graphite_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:hop_graphite_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:hostile_soulium_dagger"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:hunger_resistance_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:ice_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:ice_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:imperium_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:imperium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:imperium_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:imperium_bow"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:imperium_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:imperium_crossbow"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:imperium_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:imperium_farmland"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:imperium_fishing_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:imperium_gemstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:imperium_gemstone_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:imperium_growth_accelerator"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:imperium_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:imperium_hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:imperium_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:imperium_ingot_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:imperium_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:imperium_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:imperium_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:imperium_scythe"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:imperium_shears"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:imperium_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:imperium_sickle"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:imperium_staff"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:imperium_sword"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:imperium_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:imperium_watering_can"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:inferium_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:inferium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:inferium_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:inferium_bow"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:inferium_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:inferium_crossbow"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:inferium_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:inferium_farmland"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:inferium_fishing_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:inferium_gemstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:inferium_gemstone_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:inferium_growth_accelerator"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:inferium_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:inferium_hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:inferium_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:inferium_ingot_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:inferium_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:inferium_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:inferium_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:inferium_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:inferium_scythe"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:inferium_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:inferium_shears"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:inferium_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:inferium_sickle"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:inferium_staff"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:inferium_sword"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:inferium_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:inferium_watering_can"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:infusion_altar"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:infusion_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:infusion_pedestal"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:invar_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:invar_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:iridium_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:iridium_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:iron_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:iron_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:ironwood_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:ironwood_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:jump_boost_i_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:jump_boost_ii_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:jump_boost_iii_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:knightmetal_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:knightmetal_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:lapis_lazuli_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:lapis_lazuli_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:lead_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:lead_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:limestone_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:limestone_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:luck_i_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:luck_ii_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:luck_iii_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:lumium_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:lumium_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:machine_frame"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:manasteel_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:manasteel_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:manyullyn_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:manyullyn_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:marble_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:marble_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:master_infusion_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:menril_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:menril_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:mining_aoe_i_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:mining_aoe_ii_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:mining_aoe_iii_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:mining_aoe_iv_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:mining_fatigue_resistance_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:mystical_fertilizer"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:mystical_flower_agglomeratio"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:mystical_flower_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:mystical_flower_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:nature_agglomeratio"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:nature_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:nature_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:nausea_resistance_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:nether_agglomeratio"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:nether_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:nether_quartz_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:nether_quartz_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:nether_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:nether_star_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:nether_star_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:netherite_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:netherite_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:neutronium_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:neutronium_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:nickel_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:nickel_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:night_vision_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:niotic_crystal_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:niotic_crystal_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:nitro_crystal_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:nitro_crystal_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:no_fall_damage_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:obsidian_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:obsidian_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:osmium_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:osmium_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:passive_soulium_dagger"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:pathing_aoe_i_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:pathing_aoe_ii_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:pathing_aoe_iii_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:pathing_aoe_iv_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:peridot_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:peridot_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:phantom_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:phantom_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:pig_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:pig_iron_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:pig_iron_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:pig_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:platinum_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:platinum_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:poison_resistance_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:prismarine_agglomeratio"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:prismarine_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:prismarine_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:prosperity_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:prosperity_gemstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:prosperity_gemstone_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:prosperity_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:prosperity_ingot_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:prosperity_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:prosperity_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:prosperity_seed_base"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:prosperity_shard"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:prudentium_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:prudentium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:prudentium_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:prudentium_bow"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:prudentium_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:prudentium_crossbow"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:prudentium_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:prudentium_farmland"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:prudentium_fishing_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:prudentium_gemstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:prudentium_gemstone_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:prudentium_growth_accelerator"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:prudentium_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:prudentium_hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:prudentium_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:prudentium_ingot_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:prudentium_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:prudentium_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:prudentium_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:prudentium_scythe"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:prudentium_shears"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:prudentium_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:prudentium_sickle"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:prudentium_staff"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:prudentium_sword"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:prudentium_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:prudentium_watering_can"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:pulsating_alloy_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:pulsating_alloy_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:quartz_enriched_iron_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:quartz_enriched_iron_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:queens_slime_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:queens_slime_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:rabbit_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:rabbit_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:redstone_alloy_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:redstone_alloy_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:redstone_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:redstone_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:refined_glowstone_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:refined_glowstone_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:refined_obsidian_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:refined_obsidian_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:rock_crystal_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:rock_crystal_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:rose_gold_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:rose_gold_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:rubber_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:rubber_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:ruby_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:ruby_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:saltpeter_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:saltpeter_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:sapphire_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:sapphire_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:sculk_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:sculk_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:seed_reprocessor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:sheep_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:sheep_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:signalum_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:signalum_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:silicon_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:silicon_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:silver_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:silver_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:skeleton_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:skeleton_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:sky_stone_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:sky_stone_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:slime_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:slime_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:slimesteel_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:slimesteel_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:slow_falling_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:slowness_resistance_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:soul_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:soul_extractor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:soul_glass"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:soul_jar"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:soularium_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:soularium_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:soulium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:soulium_dagger"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:soulium_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:soulium_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:soulium_gemstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:soulium_gemstone_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:soulium_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:soulium_ingot_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:soulium_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:soulium_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:soulium_seed_base"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:soulium_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:soulium_spawner"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:soulstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:soulstone_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:soulstone_bricks_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:soulstone_bricks_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:soulstone_bricks_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:soulstone_chiseled_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:soulstone_cobble"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:soulstone_cobble_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:soulstone_cobble_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:soulstone_cobble_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:soulstone_cracked_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:soulstone_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:soulstone_smooth"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:soulstone_smooth_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:soulstone_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:speed_i_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:speed_ii_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:speed_iii_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:spider_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:spider_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:spirited_crystal_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:spirited_crystal_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:squid_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:squid_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:starmetal_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:starmetal_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:steel_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:steel_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:steeleaf_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:steeleaf_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:step_assist_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:stone_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:stone_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:strength_i_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:strength_ii_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:strength_iii_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:sulfur_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:sulfur_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:supremium_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:supremium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:supremium_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:supremium_bow"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:supremium_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:supremium_crossbow"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:supremium_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:supremium_farmland"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:supremium_fishing_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:supremium_gemstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:supremium_gemstone_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:supremium_growth_accelerator"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:supremium_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:supremium_hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:supremium_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:supremium_ingot_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:supremium_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:supremium_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:supremium_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:supremium_scythe"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:supremium_shears"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:supremium_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:supremium_sickle"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:supremium_staff"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:supremium_sword"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:supremium_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:supremium_watering_can"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:terrasteel_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:terrasteel_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:tertium_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:tertium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:tertium_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:tertium_bow"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:tertium_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:tertium_crossbow"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:tertium_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:tertium_farmland"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:tertium_fishing_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:tertium_gemstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:tertium_gemstone_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:tertium_growth_accelerator"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:tertium_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:tertium_hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:tertium_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:tertium_ingot_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:tertium_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:tertium_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:tertium_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:tertium_scythe"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:tertium_shears"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:tertium_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:tertium_sickle"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:tertium_staff"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:tertium_sword"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:tertium_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:tertium_watering_can"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:tilling_aoe_i_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:tilling_aoe_ii_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:tilling_aoe_iii_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:tilling_aoe_iv_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:tin_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:tin_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:tinkering_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:turtle_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:turtle_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:unattuned_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:upgrade_base"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:uraninite_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:uraninite_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:uranium_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:uranium_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:vibrant_alloy_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:vibrant_alloy_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:wand"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:water_agglomeratio"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:water_breathing_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:water_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:water_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:watering_can"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:weakness_resistance_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:wither_resistance_augment"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:wither_skeleton_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:wither_skeleton_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:witherproof_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:witherproof_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:witherproof_glass"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:wood_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:wood_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:yellorium_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:yellorium_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:zinc_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:zinc_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:zombie_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mysticalagriculture:zombie_seeds"
+		}
+	]
+}

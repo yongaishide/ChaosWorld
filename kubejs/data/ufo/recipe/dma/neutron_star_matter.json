@@ -1,0 +1,33 @@
+{
+  "type": "ufo:dimensional_assembly",
+  "energy": 10000000,
+  "fluid_inputs": [
+    {
+      "amount": 2000,
+      "ingredient": {
+        "fluid": "ufo:source_neutron_star_fragment_fluid"
+      }
+    }
+  ],
+  "fluid_outputs": [],
+  "item_inputs": [
+    {
+      "ingredient": {
+        "item": "ufo:corporeal_matter"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ufo:uu_matter_crystal"
+      }
+    }
+  ],
+  "item_outputs": [
+    {
+      "#": 1,
+      "#t": "ae2:i",
+      "id": "ufo:neutron_star_matter"
+    }
+  ],
+  "time": 1200
+}

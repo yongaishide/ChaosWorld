@@ -1,0 +1,11 @@
+{
+  "description": "折叠栅栏",
+  "type": "item",
+  "tag": "minecraft:fences",
+  "icon": "minecraft:oak_fence",
+  "display_name": "jei_tag_groups.group.fences.name",
+  "tooltip": [
+    "jei_tag_groups.group.fences.tooltip"
+  ],
+  "border_color": "#55AAFF"
+}

@@ -1,0 +1,56 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:block.distiller_run"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:block.electrolyzer_run"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:block.fusion_run"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:block.infiltrator_run"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:block.turbine_run"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:entity.feral_ghoul_ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:entity.feral_ghoul_charge"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:entity.feral_ghoul_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:player.chems_wear_off"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:player.geiger_tick"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:player.rad_poisoning"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:player.rad_x"
+		},
+		{
+			"weight": 1.0,
+			"key": "nuclearcraftneohaul:player.radaway"
+		}
+	]
+}

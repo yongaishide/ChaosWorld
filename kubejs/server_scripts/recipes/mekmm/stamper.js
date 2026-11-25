@@ -1,0 +1,20 @@
+ServerEvents.recipes((event) => {
+    event.custom(
+        {"type":"mekmm:stamper",
+            "input":{"count":1,"item":"allthemodium:allthemodium_ingot"},
+            "mold":{"count":1,"item":"immersiveengineering:mold_rod"},
+            "output":{"count":2,"id":"allthemodium:allthemodium_rod"}}
+    )
+    event.custom(
+        {"type":"mekmm:stamper",
+            "input":{"count":1,"item":"allthemodium:vibranium_ingot"},
+            "mold":{"count":1,"item":"immersiveengineering:mold_rod"},
+            "output":{"count":2,"id":"allthemodium:vibranium_rod"}}
+    )
+    event.custom(
+        {"type":"mekmm:stamper",
+            "input":{"count":1,"item":"allthemodium:unobtainium_ingot"},
+            "mold":{"count":1,"item":"immersiveengineering:mold_rod"},
+            "output":{"count":2,"id":"allthemodium:unobtainium_rod"}}
+    )
+})

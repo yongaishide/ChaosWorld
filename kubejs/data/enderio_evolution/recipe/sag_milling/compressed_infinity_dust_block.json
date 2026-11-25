@@ -1,0 +1,30 @@
+{
+  "type": "enderio:sag_milling",
+  "bonus": "chance_only",
+  "energy": 2400,
+  "input": {
+    "item": "enderio_evolution:compressed_infinity_dust_block"
+  },
+  "outputs": [
+    {
+      "item": {
+        "count": 9,
+        "id": "enderio_evolution:infinity_dust_block"
+      }
+    },
+    {
+      "chance": 0.05,
+      "item": {
+        "count": 1,
+        "id": "enderio_evolution:compressed_infinity_dust_block"
+      }
+    },
+    {
+      "chance": 0.1,
+      "item": {
+        "count": 1,
+        "id": "enderio:grains_of_infinity"
+      }
+    }
+  ]
+}

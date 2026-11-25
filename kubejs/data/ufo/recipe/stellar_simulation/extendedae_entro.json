@@ -1,0 +1,100 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedae"
+    }
+  ],
+  "type": "ufo:stellar_simulation",
+  "coolant_amount": 850000,
+  "cooling_level": 3,
+  "energy": 3200000000,
+  "field_tier": 3,
+  "fluid_inputs": [
+    {
+      "amount": 3200000,
+      "ingredient": {
+        "fluid": "ufo:transcending_matter"
+      }
+    },
+    {
+      "amount": 5000000,
+      "ingredient": {
+        "fluid": "ufo:raw_star_matter_plasma"
+      }
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "#": 3000000,
+      "#t": "ae2:f",
+      "id": "ufo:source_liquid_starlight_fluid"
+    },
+    {
+      "#": 2000000,
+      "#t": "ae2:f",
+      "id": "ufo:uu_matter"
+    },
+    {
+      "#": 1200000,
+      "#t": "ae2:f",
+      "id": "ufo:source_spatial_fluid"
+    },
+    {
+      "#": 1200000,
+      "#t": "ae2:f",
+      "id": "ufo:source_temporal_fluid"
+    }
+  ],
+  "fuel_amount": 650000,
+  "fuel_fluid": "ufo:raw_star_matter_plasma",
+  "item_inputs": [
+    {
+      "amount": 4096,
+      "ingredient": {
+        "item": "extendedae:entro_dust"
+      }
+    },
+    {
+      "amount": 512,
+      "ingredient": {
+        "item": "ufo:quantum_anomaly"
+      }
+    },
+    {
+      "amount": 1024,
+      "ingredient": {
+        "item": "ufo:dimensional_processor"
+      }
+    }
+  ],
+  "item_outputs": [
+    {
+      "#": 18000000,
+      "#t": "ae2:i",
+      "id": "extendedae:entro_crystal"
+    },
+    {
+      "#": 15000000,
+      "#t": "ae2:i",
+      "id": "extendedae:concurrent_processor_print"
+    },
+    {
+      "#": 7500000,
+      "#t": "ae2:i",
+      "id": "extendedae:concurrent_processor"
+    },
+    {
+      "#": 1500000,
+      "#t": "ae2:i",
+      "id": "ae2:singularity"
+    },
+    {
+      "#": 750000,
+      "#t": "ae2:i",
+      "id": "ufo:quantum_anomaly"
+    }
+  ],
+  "simulation_name": "Entro Crystal Synthesis",
+  "time": 10800
+}

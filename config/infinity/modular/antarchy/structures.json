@@ -1,0 +1,224 @@
+{
+	"elements": [
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "antarchy:apple_cow_orchard"
+			},
+			"weight": 1.0,
+			"key": "antarchy:apple_cow_orchard"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "antarchy:basilisk_lair"
+			},
+			"weight": 1.0,
+			"key": "antarchy:basilisk_lair"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "antarchy:fallen_kingdom_castle"
+			},
+			"weight": 1.0,
+			"key": "antarchy:fallen_kingdom_castle"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "antarchy:glimmering_falls_castle"
+			},
+			"weight": 1.0,
+			"key": "antarchy:glimmering_falls_castle"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "antarchy:greenhouse"
+			},
+			"weight": 1.0,
+			"key": "antarchy:greenhouse"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "antarchy:kings_tree"
+			},
+			"weight": 1.0,
+			"key": "antarchy:kings_tree"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "antarchy:magical_castle"
+			},
+			"weight": 1.0,
+			"key": "antarchy:magical_castle"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "antarchy:royal_shrine"
+			},
+			"weight": 1.0,
+			"key": "antarchy:royal_shrine"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "antarchy:ruined_arena"
+			},
+			"weight": 1.0,
+			"key": "antarchy:ruined_arena"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "antarchy:ruined_prison"
+			},
+			"weight": 1.0,
+			"key": "antarchy:ruined_prison"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "antarchy:sign"
+			},
+			"weight": 1.0,
+			"key": "antarchy:sign"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "antarchy:sky_isle_fallen_kingdom_castle"
+			},
+			"weight": 1.0,
+			"key": "antarchy:sky_isle_fallen_kingdom_castle"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "antarchy:sky_isle_magical_castle"
+			},
+			"weight": 1.0,
+			"key": "antarchy:sky_isle_magical_castle"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "antarchy:stampys_house"
+			},
+			"weight": 1.0,
+			"key": "antarchy:stampys_house"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "antarchy:temple_of_technoblade"
+			},
+			"weight": 1.0,
+			"key": "antarchy:temple_of_technoblade"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "underground_structures",
+				"id": "antarchy:tigers_eye_shrine"
+			},
+			"weight": 1.0,
+			"key": "antarchy:tigers_eye_shrine"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "antarchy:toreterror_arena"
+			},
+			"weight": 1.0,
+			"key": "antarchy:toreterror_arena"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "antarchy:trayaurus_lab"
+			},
+			"weight": 1.0,
+			"key": "antarchy:trayaurus_lab"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "underground_structures",
+				"id": "antarchy:underside_castle"
+			},
+			"weight": 1.0,
+			"key": "antarchy:underside_castle"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "underground_structures",
+				"id": "antarchy:underside_ruins"
+			},
+			"weight": 1.0,
+			"key": "antarchy:underside_ruins"
+		}
+	]
+}

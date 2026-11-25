@@ -1,0 +1,324 @@
+self_sacrifice_conversion = 100
+default_upgrade_points = 100
+evolution_upgrade_points = 300
+
+#Spiritus System Configuration
+#These values define the base maximum spiritus that can be stored per chunk.
+#Different aspects can have different maximum capacities.
+#Rituals and other effects can add bonuses on top of these base values.
+[spiritus]
+	#Base maximum Raw Spiritus per chunk
+	# Default: 100.0
+	# Range: 1.0 ~ 10000.0
+	max_raw = 100.0
+	#Base maximum Spiritus Ruina per chunk
+	# Default: 100.0
+	# Range: 1.0 ~ 10000.0
+	max_ruina = 100.0
+	#Base maximum Spiritus Nihilum per chunk
+	# Default: 100.0
+	# Range: 1.0 ~ 10000.0
+	max_nihilum = 100.0
+	#Base maximum Spiritus Vindicta per chunk
+	# Default: 100.0
+	# Range: 1.0 ~ 10000.0
+	max_vindicta = 100.0
+	#Base maximum Spiritus Invictus per chunk
+	# Default: 100.0
+	# Range: 1.0 ~ 10000.0
+	max_invictus = 100.0
+	#Spiritus a Spiritus Gem spends to capture a spawner or trial spawner via sneak + right-click
+	# Default: 200.0
+	# Range: 0.0 ~ 100000.0
+	spawner_capture_cost = 200.0
+
+#Spiritus Crystal Growth Configuration
+#These values control how spiritus crystals form and grow.
+#Crystals are created by Crystallarium Maleficums and grow based on chunk spiritus.
+[spiritus_crystal]
+	#Amount of spiritus required to form a new crystal
+	# Default: 99.0
+	# Range: 1.0 ~ 1000.0
+	spiritus_to_form = 99.0
+	#Total time (in ticks) for crystal formation in the Crystallizer
+	# Default: 1000.0
+	# Range: 100.0 ~ 10000.0
+	formation_time = 1000.0
+	#Spiritus consumption rate when crystal type matches chunk dominant aspect
+	# Default: 45.0
+	# Range: 1.0 ~ 500.0
+	same_spiritus_rate = 45.0
+	#Spiritus consumption rate when crystal type differs from chunk dominant aspect
+	# Default: 90.0
+	# Range: 1.0 ~ 500.0
+	different_spiritus_rate = 90.0
+	#Growth speed multiplier when consuming non-matching aspect (0.0-1.0, lower = slower)
+	# Default: 0.6
+	# Range: 0.0 ~ 1.0
+	wrong_spiritus_delay = 0.6
+	#Base growth speed multiplier (higher = faster crystal growth)
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	growth_speed = 1.0
+	#Reference saturation for the crystal growth rate curve. This is NOT a minimum:
+	#a cluster grows in any chunk holding more than 0.5 spiritus of its aspect.
+	#Rate is (1 / this) * sqrt(spiritus / this) progress per second and a segment
+	#completes at 1.0, so a segment takes roughly this many seconds in a chunk sitting
+	#at exactly this saturation, longer below it and shorter above.
+	#Raise to slow all crystal growth, lower to speed it up.
+	# Default: 200.0
+	# Range: 1.0 ~ 1000.0
+	growth_threshold = 200.0
+	#Maximum number of crystal segments per cluster
+	# Default: 7
+	# Range: 1 ~ 20
+	max_count = 7
+
+#Blood Mending Configuration
+#Controls costs for repairing items through Blood Mending.
+[blood_mending]
+	#EV cost per point of durability restored
+	# Default: 100
+	# Range: 1 ~ 100000
+	repair_cost_per_durability = 100
+
+[lanterns]
+	#Allow Blood and Demon Lanterns to suppress non-monster spawns.
+	#Disable to bypass lantern indexing and spawn suppression. Demon Lantern hostile spawning is unaffected.
+	spawn_suppression = true
+
+#Demon Lantern Configuration
+[demon_lantern]
+	#EV drained from the bound player's network each second while the Demon Lantern is running
+	# Default: 20
+	# Range: 0 ~ 1000000
+	upkeep_per_second = 20
+
+#Athanor Configuration
+[athanor]
+	#EV drawn from the bound player's network each time a Deus tool completes an Athanor or Tabula Vitae operation
+	# Default: 50
+	# Range: 0 ~ 1000000
+	deus_tool_ev_per_use = 50
+
+#Blood Attribute Configuration
+#Configure EV multipliers for Blood Siphon and Blood Shield attributes.
+[blood_attributes]
+	#EV per point of damage converted by Blood Siphon against a player target, also drained from that player
+	# Default: 250
+	# Range: 1 ~ 10000
+	siphon_player_multiplier = 250
+	#EV per point of damage converted by Blood Siphon against a non-player target
+	# Default: 50
+	# Range: 1 ~ 10000
+	siphon_mob_multiplier = 50
+	#Highest percentage of damage dealt that Blood Siphon can convert into EV. Each point of Blood Siphon is 1%.
+	# Default: 95.0
+	# Range: 0.0 ~ 100.0
+	siphon_cap = 95.0
+	#Highest percentage of incoming damage that Blood Shield can prevent, from any source. Each point of Blood Shield is 1%.
+	# Default: 95.0
+	# Range: 0.0 ~ 100.0
+	shield_cap = 95.0
+	#Ticks between training credits for the Deus Sanguinis upgrade.
+	# Default: 200
+	# Range: 1 ~ 72000
+	deus_sanguinis_cooldown = 200
+	#EV the network must spend between credits for Deus Sanguinis to earn one.
+	# Default: 500
+	# Range: 0 ~ 100000000
+	deus_sanguinis_min_ev = 500
+	#Experience Deus Sanguinis gains per training credit.
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	deus_sanguinis_exp_per_credit = 1.0
+	#EV cost per point of damage prevented by Blood Shield
+	# Default: 100
+	# Range: 1 ~ 10000
+	shield_lp_cost_multiplier = 100
+	#EV drained per second while the Sanguine Ward is active
+	# Default: 50
+	# Range: 0 ~ 10000
+	sanguine_ward_drain_per_second = 50
+	#Minimum EV required to activate the Sanguine Ward
+	# Default: 200
+	# Range: 0 ~ 100000
+	sanguine_ward_min_ev = 200
+
+#Torment Nexus Configuration
+#Controls the EV upkeep and EV-yield modifier for the Torment Nexus ritual,
+#which simulates kills from caged spawners and trial spawners in its area.
+#Array of Liquified Experience: moves experience between Tomes of Peritia
+#in the container below the array and an adjacent tank holding a #c:experience fluid.
+[liquified_experience]
+	#Fluid the array reads and writes, as modid:fluid_id.
+	#Leave empty to use Neo Vitae's own Liquified Experience.
+	#Set this if another mod in your pack provides the experience fluid you would rather use,
+	#for example 'industrialforegoing:essence'. Unknown ids fall back to Neo Vitae's fluid.
+	preferred_fluid = ""
+	#Millibuckets of experience fluid produced per point of stored experience.
+	#Set this to match whichever mod provides the #c:experience fluid.
+	# Default: 20
+	# Range: 1 ~ 10000
+	mb_per_point = 20
+
+[sigil_of_necromancy]
+	#Maximum summons a single player may have alive at once. 0 removes the per-player limit.
+	# Default: 10
+	# Range: 0 ~ 1024
+	max_summons_per_player = 10
+
+[torment_nexus]
+	#EV cost charged per simulated mob kill (paid out of the network each kill).
+	# Default: 75
+	# Range: 0 ~ 1000000
+	ev_per_kill = 75
+	#Maximum total EV cost charged from the network to run the ritual in a single operation.
+	#Kills are never capped: once this cost ceiling is reached the remaining kills run free,
+	#still producing loot, experience, and EV yield. 0 disables the cap.
+	# Default: 8000
+	# Range: 0 ~ 100000000
+	max_ev_per_operation = 8000
+	#Percent modifier on the EV produced per simulated kill.
+	#1 = 1% of the mob's natural sacrifice value, 100 = unchanged, 1000 = 10x.
+	# Default: 100
+	# Range: 1 ~ 1000
+	ev_modifier_percent = 100
+	#Maximum loot table rolls per spawner per ritual operation. When more kills than this
+	#occur in one operation, the sampled drops are scaled up to match the full kill count,
+	#so total loot stays the same while loot tables (and other mods' loot modifiers) run
+	#far less often. Higher values give more variety per operation at a performance cost.
+	# Default: 5
+	# Range: 1 ~ 1024
+	max_loot_rolls_per_spawner = 5
+	#Default horizontal radius (in blocks) of the spawner-scan area centered on the Master Ritual Stone.
+	#5 produces an 11x11 area on the XZ plane.
+	# Default: 5
+	# Range: 1 ~ 64
+	horizontal_range = 5
+	#Default vertical radius (in blocks) of the spawner-scan area centered on the Master Ritual Stone.
+	#5 produces an 11-block-tall area.
+	# Default: 5
+	# Range: 1 ~ 64
+	vertical_range = 5
+
+#Sanguine Crafter Configuration
+[sanguine_crafter]
+	#EV drawn from the owner's network for every item crafted, on top of any Tabula Vitae recipe cost.
+	# Default: 20
+	# Range: 0 ~ 1000000
+	ev_per_craft = 20
+	#Ticks one crafting table recipe takes before Swift Sanguine Casings are applied.
+	# Default: 20
+	# Range: 1 ~ 72000
+	crafting_ticks = 20
+	#Ticks one Hellfire Forge recipe takes before Swift Sanguine Casings are applied.
+	#Tabula Vitae recipes use their own crafting time.
+	# Default: 100
+	# Range: 1 ~ 72000
+	forge_ticks = 100
+	#Speed multiplier on every craft. 5.0 crafts five times faster than the base times above.
+	# Default: 5.0
+	# Range: 0.1 ~ 100.0
+	base_speed = 5.0
+	#Extra crafting speed per Swift Sanguine Casing. 0.25 means each casing adds 25% speed.
+	# Default: 0.25
+	# Range: 0.0 ~ 10.0
+	speed_per_swift_casing = 0.25
+	#Most crafts one Sanguine Crafter performs at once. Each Hellforged Sanguine Casing adds one, up to this cap.
+	# Default: 16
+	# Range: 1 ~ 64
+	max_parallel = 16
+	#Whether a formed, running Sanguine Crafter keeps the chunks it stands in loaded.
+	chunk_loading = true
+	#Only keep a crafter's chunks loaded while the player who built it is online.
+	#Set to false to let crafters keep their chunks loaded while their owner is offline.
+	chunk_loading_owner_online_only = true
+	#Most Sanguine Crafters a single player may have keeping chunks loaded at once. 0 removes the limit.
+	# Default: 10
+	# Range: 0 ~ 1024
+	chunk_loading_max_per_player = 10
+
+#Ritual Anchor Configuration
+[ritual_anchor]
+	#Furthest a Ritual Anchor may be from the Master Ritual Stone it is linked to, in blocks.
+	# Default: 64
+	# Range: 1 ~ 128
+	range = 64
+
+#Hellforged Equipment Configuration
+#Applies to Sentient Armor, Sentient tools and the Lex Vitae upgraded by the Ritual of Hellforging.
+[hellforged]
+	#Upgrade Points of capacity a Hellforged chestplate gains on top of the Deus Sentient Evolution cap.
+	# Default: 100
+	# Range: 0 ~ 10000
+	upgrade_points = 100
+	#Multiplier on experience a Hellforged chestplate gains from training. Tomes and rituals are not affected.
+	# Default: 1.5
+	# Range: 0.0 ~ 100.0
+	training_multiplier = 1.5
+	#Armor added to a Hellforged Sentient helmet.
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	armor_helmet = 1.0
+	#Armor added to a Hellforged Sentient chestplate.
+	# Default: 2.0
+	# Range: 0.0 ~ 100.0
+	armor_chestplate = 2.0
+	#Armor added to Hellforged Sentient leggings.
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	armor_leggings = 1.0
+	#Armor added to Hellforged Sentient boots.
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	armor_boots = 1.0
+	#Armor toughness added to each Hellforged Sentient armor piece.
+	# Default: 3.0
+	# Range: 0.0 ~ 100.0
+	armor_toughness = 3.0
+	#Knockback resistance added to each Hellforged Sentient armor piece.
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	knockback_resistance = 0.1
+	#Multiplier on attack damage while holding a Hellforged Sentient tool or Lex Vitae.
+	# Default: 1.3
+	# Range: 0.0 ~ 100.0
+	damage_multiplier = 1.3
+	#Flat attack damage added to Hellforged Sentient tools, before the damage multiplier. Requires netherite_floor.
+	# Default: 2.0
+	# Range: 0.0 ~ 100.0
+	floor_damage = 2.0
+	#Multiplier on the Spiritus a Hellforged Sentient tool or Lex Vitae drains per swing.
+	# Default: 0.75
+	# Range: 0.0 ~ 100.0
+	drain_multiplier = 0.75
+	#Hellforged Sentient tools mine, drop and last like Netherite even without Spiritus. Applied when the ritual runs.
+	netherite_floor = true
+	#Hellforged items do not burn in fire or lava. Applied when the ritual runs.
+	fire_resistant = true
+	#Multiplier on growth experience a Hellforged Lex Vitae gains.
+	# Default: 1.5
+	# Range: 0.0 ~ 100.0
+	lex_growth_multiplier = 1.5
+	#A Hellforged Lex Vitae can switch between Fortune and Silk Touch with sneak and the Cycle Mode key.
+	lex_silk_toggle = true
+
+#Hellforged Sentient Tool Overcharge
+#Above the soft cap, Hellforged Sentient tool and Lex Vitae bonuses keep growing with diminishing returns until the maximum.
+#Each doubling of carried Spiritus adds the same amount.
+[sentient_tools]
+	#Carried Spiritus where overcharge scaling begins.
+	# Default: 4000.0
+	# Range: 1.0 ~ 1.0E9
+	spiritus_soft_cap = 4000.0
+	#Carried Spiritus where overcharge scaling stops.
+	# Default: 32000.0
+	# Range: 1.0 ~ 1.0E9
+	spiritus_max = 32000.0
+	#Extra fraction of each bonus gained at the maximum. 0.5 means +50% of the top bracket's value.
+	# Default: 0.5
+	# Range: 0.0 ~ 100.0
+	overcharge_bonus = 0.5
+	#Spiritus drain per swing rises with overcharge too.
+	overcharge_drain = true

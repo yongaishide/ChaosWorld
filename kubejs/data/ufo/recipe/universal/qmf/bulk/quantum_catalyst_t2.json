@@ -1,0 +1,46 @@
+{
+  "type": "ufo:universal_multiblock",
+  "energy": 51200000,
+  "fluid_inputs": [
+    {
+      "amount": 128000,
+      "fluid": {
+        "amount": 1,
+        "id": "ufo:source_spatial_fluid"
+      }
+    }
+  ],
+  "item_inputs": [
+    {
+      "amount": 128,
+      "ingredient": {
+        "item": "ufo:quantum_catalyst_t1"
+      }
+    },
+    {
+      "amount": 128,
+      "ingredient": {
+        "item": "ufo:corporeal_matter"
+      }
+    },
+    {
+      "amount": 128,
+      "ingredient": {
+        "item": "ae2:quartz_vibrant_glass"
+      }
+    },
+    {
+      "amount": 128,
+      "ingredient": {
+        "item": "ufo:dimensional_processor"
+      }
+    }
+  ],
+  "item_output": {
+    "count": 64,
+    "id": "ufo:quantum_catalyst_t2"
+  },
+  "machine": "qmf",
+  "recipe_name": "universal/qmf/bulk/quantum_catalyst_t2",
+  "time": 500
+}

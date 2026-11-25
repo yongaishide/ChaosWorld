@@ -1,0 +1,42 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "cataclysm"
+		}
+    ],
+    "entity": "cataclysm:clawdian",
+    "name": {
+        "translate": "entity.cataclysm.clawdian",
+        "color": "#8F2B23"
+    },
+	"display": {
+        "scale": 0.42
+    },
+    "sim_cost": 512,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.clawdian",
+    "fabricator_drops": [
+        {
+            "id": "cataclysm:lacrima",
+            "count": 16
+        }
+    ],
+    "tier_data": {
+        "basic": 96,
+        "advanced": 384,
+        "superior": 1536,
+        "self_aware": 6144
+    },
+    "data_per_kill": {
+        "faulty": 24,
+        "basic": 48,
+        "advanced": 96,
+        "superior": 192
+    }
+}

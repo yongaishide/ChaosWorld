@@ -1,0 +1,43 @@
+thaumaturge-1.21.1-NeoForge-1.1.0.jar :: data/thaumaturge/tags/worldgen/biome/has_silverwood.json
+{
+  "remove": [
+    "thaumaturge:magical_forest",
+    "thaumaturge:tainted_lands",
+    "thaumaturge:eldritch",
+    "minecraft:grove"
+  ],
+  "values": [
+    "minecraft:forest",
+    "minecraft:birch_forest",
+    "#thaumaturge:is_magical",
+    {
+      "id": "#c:is_magical",
+      "required": false
+    },
+    {
+      "id": "#minecraft:is_forest",
+      "required": false
+    }
+  ]
+}
+
+thaumaturge-1.21.1-NeoForge-1.1.0.jar :: data/thaumaturge/tags/worldgen/biome/is_magical.json
+{
+  "values": [
+    "thaumaturge:magical_forest",
+    "thaumaturge:magical_forest_caves",
+    "thaumaturge:eerie",
+    "thaumaturge:eldritch",
+    "thaumaturge:tainted_lands"
+  ]
+}
+
+thaumaturge-1.21.1-NeoForge-1.1.0.jar :: data/thaumaturge/tags/worldgen/biome/has_spawn/pech.json
+{
+  "remove": [
+    "thaumaturge:eldritch"
+  ],
+  "values": [
+    "#thaumaturge:is_magical"
+  ]
+}

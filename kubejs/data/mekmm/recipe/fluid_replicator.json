@@ -1,0 +1,30 @@
+{
+  "type": "mekanism:mek_data",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "mekmm:uu_matter"
+    },
+    "A": {
+      "tag": "mekanism:alloys/atomic"
+    },
+    "B": {
+      "item": "minecraft:bucket"
+    },
+    "C": {
+      "tag": "c:circuits/ultimate"
+    },
+    "X": {
+      "item": "mekanism:steel_casing"
+    }
+  },
+  "pattern": [
+    "A#A",
+    "CXC",
+    "ABA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mekmm:fluid_replicator"
+  }
+}

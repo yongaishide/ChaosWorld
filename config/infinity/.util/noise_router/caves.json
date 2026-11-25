@@ -1,0 +1,67 @@
+{
+  "infinity_version": 2004002,
+  "barrier": 0.0,
+  "continents": "minecraft:overworld/continents",
+  "depth": "minecraft:overworld/depth",
+  "erosion": "minecraft:overworld/erosion",
+  "final_density": {
+    "type": "minecraft:squeeze",
+    "argument": {
+      "type": "minecraft:mul",
+      "argument1": 0.64,
+      "argument2": {
+        "type": "minecraft:interpolated",
+        "argument": {
+          "type": "minecraft:blend_density",
+          "argument": {
+            "type": "minecraft:add",
+            "argument1": 2.5,
+            "argument2": {
+              "type": "minecraft:mul",
+              "argument1": {
+                "type": "minecraft:y_clamped_gradient",
+                "from_value": 0.0,
+                "from_y": %d,
+                "to_value": 1.0,
+                "to_y": %d
+              },
+              "argument2": {
+                "type": "minecraft:add",
+                "argument1": -2.5,
+                "argument2": {
+                  "type": "minecraft:add",
+                  "argument1": 0.9375,
+                  "argument2": {
+                    "type": "minecraft:mul",
+                    "argument1": {
+                      "type": "minecraft:y_clamped_gradient",
+                      "from_value": 1.0,
+                      "from_y": %d,
+                      "to_value": 0.0,
+                      "to_y": %d
+                    },
+                    "argument2": {
+                      "type": "minecraft:add",
+                      "argument1": -0.9375,
+                      "argument2": "minecraft:nether/base_3d_noise"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "fluid_level_floodedness": 0.0,
+  "fluid_level_spread": 0.0,
+  "initial_density_without_jaggedness": 0.0,
+  "lava": 0.0,
+  "ridges": "minecraft:overworld/ridges",
+  "temperature": "infinity:temperature",
+  "vegetation": "infinity:vegetation",
+  "vein_gap": "infinity:vein_gap",
+  "vein_ridged": "infinity:vein_ridged",
+  "vein_toggle": "infinity:vein_toggle"
+}

@@ -1,0 +1,28 @@
+{
+  "type": "ufo:dimensional_assembly",
+  "energy": 6000000,
+  "fluid_inputs": [
+    {
+      "amount": 2000,
+      "ingredient": {
+        "fluid": "ufo:source_primordial_matter_fluid"
+      }
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "#": 5000,
+      "#t": "ae2:f",
+      "id": "ufo:source_spatial_fluid"
+    }
+  ],
+  "item_inputs": [
+    {
+      "ingredient": {
+        "item": "ufo:nuclear_star"
+      }
+    }
+  ],
+  "item_outputs": [],
+  "time": 400
+}

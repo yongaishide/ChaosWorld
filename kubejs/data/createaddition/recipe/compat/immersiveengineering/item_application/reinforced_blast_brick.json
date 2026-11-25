@@ -1,0 +1,22 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "immersiveengineering:blastbrick"
+    },
+    {
+      "tag": "c:plates/steel"
+    }
+  ],
+  "results": [
+    {
+      "id": "immersiveengineering:blastbrick_reinforced"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ]
+}

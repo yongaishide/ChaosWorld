@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "i": {
+      "tag": "c:ingots/steel"
+    },
+    "s": {
+      "tag": "c:rods/treated_wood"
+    }
+  },
+  "pattern": [
+    "ii",
+    " s",
+    " s"
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersiveengineering:hoe_steel"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "advanced_ae"
+    }
+  ],
+  "type": "ufo:universal_multiblock",
+  "machine": "quantum_slicer",
+  "recipe_name": "universal/quantum_slicer/quantum_alloy_block_to_printed_quantum_processor",
+  "item_inputs": [
+    {
+      "ingredient": {
+        "item": "advanced_ae:quantum_alloy_block"
+      },
+      "amount": 8192
+    }
+  ],
+  "item_output": {
+    "id": "advanced_ae:printed_quantum_processor",
+    "count": 73728
+  },
+  "energy": 12000000,
+  "time": 200,
+  "required_tier": 1
+}

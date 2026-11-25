@@ -1,0 +1,3 @@
+#Hide redundant ME machine variants from JEI.
+#When enabled, JEI keeps the basic ME machine as the recipe catalyst and hides ME factory variants from the item list.
+hideJeiMachineVariants = true

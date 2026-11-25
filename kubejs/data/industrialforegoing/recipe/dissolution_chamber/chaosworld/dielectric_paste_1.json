@@ -1,0 +1,38 @@
+{
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+    {
+      "item": "enderio:conduit_binder"
+    },
+    {
+      "item": "immersiveengineering:dust_coke"
+    },
+    {
+      "item": "enderio:conduit_binder"
+    },
+    {
+      "item": "immersiveengineering:dust_coke"
+    },
+    {
+      "item": "immersiveengineering:dust_coke"
+    },
+    {
+      "item": "enderio:conduit_binder"
+    },
+    {
+      "item": "immersiveengineering:dust_coke"
+    },
+    {
+      "item": "enderio:conduit_binder"
+    }
+  ],
+  "inputFluid": {
+    "amount": 1000,
+    "fluid": "minecraft:lava"
+  },
+  "output": {
+    "count": 8,
+    "id": "powah:dielectric_paste"
+  },
+  "processingTime": 300
+}

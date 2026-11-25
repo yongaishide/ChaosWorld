@@ -1,0 +1,47 @@
+{
+  "type": "ufo:dimensional_assembly",
+  "energy": 20000,
+  "fluid_inputs": [
+    {
+      "amount": 500,
+      "ingredient": {
+        "fluid": "ufo:source_liquid_starlight_fluid"
+      }
+    }
+  ],
+  "fluid_outputs": [],
+  "item_inputs": [
+    {
+      "amount": 8,
+      "ingredient": {
+        "item": "chaosworld_core:ingot_tech_7"
+      }
+    },
+    {
+      "amount": 4,
+      "ingredient": {
+        "item": "ae2lt:overload_singularity"
+      }
+    },
+    {
+      "amount": 8,
+      "ingredient": {
+        "item": "ae2cs:meteor_crystal_block"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "avaritia:singularity"
+      }
+    }
+  ],
+  "item_outputs": [
+    {
+      "#": 4,
+      "#t": "ae2:i",
+      "id": "ufo:white_dwarf_fragment_ingot"
+    }
+  ],
+  "time": 220
+}

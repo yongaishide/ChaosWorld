@@ -1,0 +1,35 @@
+{
+  "type": "ufo:dimensional_assembly",
+  "energy": 4000000,
+  "fluid_inputs": [
+    {
+      "amount": 10000,
+      "ingredient": {
+        "fluid": "ufo:source_primordial_matter_fluid"
+      }
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "#": 1000,
+      "#t": "ae2:f",
+      "id": "ufo:transcending_matter"
+    }
+  ],
+  "item_inputs": [
+    {
+      "amount": 1 ,
+      "ingredient": {
+        "item": "mekanism:pellet_antimatter"
+      }
+    },
+    {
+      "amount": 1 ,
+      "ingredient": {
+        "item": "chaosworld_core:ingot_xuancai"
+      }
+    }
+  ],
+  "item_outputs": [],
+  "time": 1800
+}

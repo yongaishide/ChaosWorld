@@ -1,0 +1,112 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 6619391,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "cataclysm:abyssal_burn"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 9060095,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "cataclysm:abyssal_curse"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 7609087,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "cataclysm:abyssal_fear"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 14423100,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "cataclysm:blazing_brand"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 16698342,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "cataclysm:blessing_of_amethyst"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 11381677,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "cataclysm:bone_fracture"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 16773835,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "cataclysm:curse_of_desert"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 3789490,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "cataclysm:ghost_form"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 9722673,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "cataclysm:ghost_sickness"
+		},
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 8803127,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "cataclysm:monstrous"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 16747520,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "cataclysm:stun"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": 5928654,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "cataclysm:wetness"
+		}
+	]
+}

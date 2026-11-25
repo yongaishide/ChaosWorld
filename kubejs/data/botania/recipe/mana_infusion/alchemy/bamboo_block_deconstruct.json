@@ -1,0 +1,16 @@
+{
+  "type": "botania:mana_infusion",
+  "catalyst": {
+    "type": "botania:block",
+    "block": "botania:alchemy_catalyst"
+  },
+  "group": "botania:lossy_deconstruction",
+  "input": {
+    "item": "minecraft:bamboo_block"
+  },
+  "mana": 164,
+  "output": {
+    "count": 8,
+    "id": "minecraft:bamboo"
+  }
+}

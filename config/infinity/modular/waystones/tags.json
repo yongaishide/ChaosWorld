@@ -1,0 +1,20 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "waystones:is_teleport_target"
+		},
+		{
+			"weight": 1.0,
+			"key": "waystones:portstones"
+		},
+		{
+			"weight": 1.0,
+			"key": "waystones:sharestones"
+		},
+		{
+			"weight": 1.0,
+			"key": "waystones:waystones"
+		}
+	]
+}

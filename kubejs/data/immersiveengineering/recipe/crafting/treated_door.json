@@ -1,0 +1,18 @@
+{
+  "type": "immersiveengineering:shaped_fluid",
+  "category": "misc",
+  "key": {
+    "w": {
+      "tag": "immersiveengineering:treated_wood"
+    }
+  },
+  "pattern": [
+    "ww",
+    "ww",
+    "ww"
+  ],
+  "result": {
+    "count": 3,
+    "id": "immersiveengineering:treated_door"
+  }
+}

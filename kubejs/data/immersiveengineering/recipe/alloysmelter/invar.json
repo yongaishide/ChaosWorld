@@ -1,0 +1,27 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/invar"
+      }
+    }
+  ],
+  "type": "immersiveengineering:alloy",
+  "input0": {
+    "basePredicate": {
+      "tag": "c:ingots/iron"
+    },
+    "count": 2
+  },
+  "input1": {
+    "tag": "c:ingots/nickel"
+  },
+  "result": {
+    "basePredicate": {
+      "tag": "c:ingots/invar"
+    },
+    "count": 3
+  }
+}

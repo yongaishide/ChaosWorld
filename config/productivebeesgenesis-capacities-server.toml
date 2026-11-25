@@ -1,0 +1,40 @@
+#通用机械离心机容量矩阵
+[mek_centrifuge]
+
+	#输出槽堆叠倍率（按离心机等级）
+	#基础堆叠 64/槽；单槽容量 = 64 × 倍率；工厂总容量按进程数和输出槽数量计算
+	#输出槽倍率默认为输入槽的 4 倍（蜜脾处理成倍产出）
+	[mek_centrifuge.stack_multiplier]
+		mekanism = [65536, 327680, 458752, 589824]
+		mekanism_extras = [720896, 851968, 983040, 1114112]
+		evolved_mekanism = [720896, 851968, 983040, 1114112, 1245184]
+		evolved_mekanism_extras = [786432, 917504, 1048576, 1179648]
+
+	#输入槽堆叠倍率（按离心机等级）
+	#基础堆叠 64/槽；单槽容量 = 64 × 倍率；工厂总容量按进程数计算
+	#蜜脾处理成倍产出，输入槽倍率默认为输出槽的 1/4
+	[mek_centrifuge.input_stack_multiplier]
+		mekanism = [16384, 81920, 114688, 147456]
+		mekanism_extras = [180224, 212992, 245760, 278528]
+		evolved_mekanism = [180224, 212992, 245760, 278528, 311296]
+		evolved_mekanism_extras = [196608, 229376, 262144, 294912]
+
+	#流体罐倍率（按离心机等级）
+	#基础容量 256K mB/进程；总容量 = 256K × 倍率 × 进程数
+	#超过 Integer.MAX_VALUE 时截断
+	[mek_centrifuge.fluid_tank_multiplier]
+		mekanism = [1, 2, 4, 8]
+		mekanism_extras = [16, 32, 64, 128]
+		evolved_mekanism = [256, 512, 1024, 2048, 4096]
+		evolved_mekanism_extras = [4096, 8192, 16384, 32768]
+
+#通用机械蜂箱容量矩阵
+[mek_apiary]
+
+	#输出槽堆叠倍率（按工厂等级，仅作用于产物输出槽）
+	#单槽容量 = 64 × 倍率；工厂总容量按进程数和输出槽数量计算
+	[mek_apiary.stack_multiplier]
+		mekanism = [1, 2, 4, 8]
+		mekanism_extras = [16, 32, 64, 128]
+		evolved_mekanism = [16, 32, 64, 128, 256]
+		evolved_mekanism_extras = [256, 512, 1024, 4096]

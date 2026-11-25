@@ -1,0 +1,42 @@
+{
+  "type": "botania:runic_altar",
+  "catalysts": [
+    {
+      "item": "botania:rune_of_mana"
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "minecraft:leaves"
+    },
+    {
+      "item": "botania:mana_powder"
+    },
+    {
+      "tag": "minecraft:leaves"
+    },
+    {
+      "item": "botania:mana_powder"
+    },
+    {
+      "tag": "minecraft:leaves"
+    },
+    {
+      "item": "botania:mana_powder"
+    },
+    {
+      "tag": "minecraft:leaves"
+    },
+    {
+      "item": "botania:mana_powder"
+    }
+  ],
+  "mana": 8000,
+  "output": {
+    "count": 4,
+    "id": "naturesaura:gold_fiber"
+  },
+  "reagent": {
+    "item": "minecraft:short_grass"
+  }
+}

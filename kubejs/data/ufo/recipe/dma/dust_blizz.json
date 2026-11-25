@@ -1,0 +1,34 @@
+{
+  "type": "ufo:dimensional_assembly",
+  "energy": 20000,
+  "fluid_inputs": [
+    {
+      "amount": 50,
+      "ingredient": {
+        "fluid": "ufo:source_liquid_starlight_fluid"
+      }
+    }
+  ],
+  "fluid_outputs": [],
+  "item_inputs": [
+    {
+      "amount": 4,
+      "ingredient": {
+        "item": "minecraft:snowball"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:redstone"
+      }
+    }
+  ],
+  "item_outputs": [
+    {
+      "#": 4,
+      "#t": "ae2:i",
+      "id": "ufo:dust_blizz"
+    }
+  ],
+  "time": 80
+}

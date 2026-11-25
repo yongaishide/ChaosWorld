@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ae2"
+    }
+  ],
+  "type": "mekmm:stamper",
+  "input": {
+    "count": 1,
+    "tag": "c:silicon"
+  },
+  "mold": {
+    "count": 1,
+    "item": "ae2:silicon_press"
+  },
+  "output": {
+    "count": 1,
+    "id": "ae2:printed_silicon"
+  }
+}

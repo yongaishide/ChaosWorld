@@ -1,0 +1,233 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "491071d288816a76"
+	group: "6B9CFFEE5CD53D67"
+	icon: {
+		id: "minecraft:grass_block"
+	}
+	id: "491071D288816A76"
+	images: [ ]
+	order_index: 0
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [
+		{
+			id: "168937C78974D34D"
+			linked_quest: "71CE00E96EACF464"
+			x: 11.0d
+			y: -1.5d
+		}
+		{
+			id: "0241B98B0D35E820"
+			linked_quest: "16CE49AEA5C7016B"
+			x: 3.0d
+			y: 2.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["27DC15286A159651"]
+			id: "7BE82C704232E651"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "minecraft:story/root"
+				criterion: ""
+				icon: {
+					id: "minecraft:crafting_table"
+				}
+				id: "418B17D5CA5820B8"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0E72C4512313573F"]
+			id: "27DC15286A159651"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "69CEF2AB0BFA0EDA"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "minecraft:oak_planks"
+				tag: "minecraft:planks"
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["44B1D89C5D74BE65"]
+			id: "0E72C4512313573F"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "603F2A1E6CDEC91D"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "minecraft:dark_oak_log"
+				tag: "minecraft:logs"
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1654A6808790B6F2"]
+			id: "71BFFF7AA0E57C2E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "7466FE2248FA533B"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "minecraft:iron_pickaxe"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7BE82C704232E651"]
+			id: "1654A6808790B6F2"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "minecraft:story/mine_stone"
+				criterion: ""
+				id: "40545CF17834F969"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1654A6808790B6F2"]
+			id: "4D4F9DF8431F5A24"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "7B4C170F6D79C68D"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "minecraft:raw_iron"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4D4F9DF8431F5A24"]
+			id: "7AC9208FA7636531"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "minecraft:story/smelt_iron"
+				criterion: ""
+				id: "6EEDA80598AAE8A7"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7AC9208FA7636531"]
+			id: "64A7388DD2553CA7"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "0770B7554B96887C"
+				item: {
+					count: 1
+					id: "chaosworld_core:iron_golem_core"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:iron_golem"
+				id: "343AC1EA283F07C9"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7BE82C704232E651"]
+			id: "525A4058005E568C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "553A9B7E22ABF4AA"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "immersiveengineering:seed"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["525A4058005E568C"]
+			id: "5C37E68B0948402D"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F29DB002B24CA10"
+				table_id: 5798946034287369178L
+				type: "random"
+			}]
+			tasks: [{
+				id: "244D245BF4937773"
+				item: { count: 1, id: "immersiveengineering:hemp_fiber" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["55900702DE18C401"]
+			id: "3381F43D606859DF"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "minecraft:story/mine_diamond"
+				criterion: ""
+				id: "041744226E41138C"
+				type: "advancement"
+			}]
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7AC9208FA7636531"]
+			id: "55900702DE18C401"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "minecraft:story/iron_tools"
+				criterion: ""
+				id: "02985AC120EE1971"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["55900702DE18C401"]
+			id: "5E899FDCE554B9CC"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "08FF7F4D07CB6AF6"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "minecraft:redstone"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+	]
+}

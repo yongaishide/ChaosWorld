@@ -1,0 +1,30 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "galosphere"
+        }
+    ],
+    "entity": "galosphere:preserved",
+    "name": {
+        "translate": "entity.galosphere.preserved",
+        "color": "#E8B0A4"
+    },
+    "display": {
+        "scale": 1
+    },
+    "sim_cost": 512,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.preserved",
+    "fabricator_drops": [
+        {
+            "id": "galosphere:salted_jerky",
+            "count": 8
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+	icon: {
+		components: {
+			"ftbquests:icon": "integrateddynamics:aspect/read/boolean/inventory/full"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "4154C0E9E7248650"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			command: "/gamerule keepInventory true"
+			id: "4DDA7BC0AE5D362E"
+			type: "command"
+		}
+		{
+			command: "/gamerule keepInventory false"
+			id: "3667A0272FF43553"
+			type: "command"
+		}
+	]
+}

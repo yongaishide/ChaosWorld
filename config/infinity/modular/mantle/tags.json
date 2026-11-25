@@ -1,0 +1,24 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "mantle:gauge_blacklist"
+		},
+		{
+			"weight": 1.0,
+			"key": "mantle:gauges"
+		},
+		{
+			"weight": 1.0,
+			"key": "mantle:gauges/attached"
+		},
+		{
+			"weight": 1.0,
+			"key": "mantle:gauges/tank"
+		},
+		{
+			"weight": 1.0,
+			"key": "mantle:hides_gauge_amount"
+		}
+	]
+}

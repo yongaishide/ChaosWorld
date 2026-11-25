@@ -1,0 +1,41 @@
+{
+  "type": "advanced_ae:reaction",
+  "input_energy": 1000000,
+  "input_fluid": {
+    "amount": 5000,
+    "ingredient": {
+      "fluid": "advanced_ae:quantum_infusion_source"
+    }
+  },
+  "input_items": [
+    {
+      "ingredient": {
+        "item": "neoecoae:crystal_matrix"
+      },
+      "amount": 10
+    },
+    {
+      "ingredient": {
+        "item": "advanced_ae:quantum_alloy"
+      },
+      "amount": 10
+    },
+    {
+      "ingredient": {
+        "item": "chaosworld_core:plate_tech_5"
+      },
+      "amount": 10
+    },
+    {
+      "ingredient": {
+        "item": "powah:crystal_nitro"
+      },
+      "amount": 1
+    }
+  ],
+  "output": {
+    "#": 5,
+    "#t": "ae2:i",
+    "id": "advanced_ae:quantum_alloy_plate"
+  }
+}

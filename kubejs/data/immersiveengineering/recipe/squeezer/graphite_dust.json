@@ -1,0 +1,13 @@
+{
+  "type": "immersiveengineering:squeezer",
+  "energy": 19200,
+  "input": {
+    "basePredicate": {
+      "tag": "c:dusts/coal_coke"
+    },
+    "count": 8
+  },
+  "result": {
+    "tag": "c:dusts/hop_graphite"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "category": "bannerpatterns",
+  "inputs": [
+    {
+      "tag": "c:paper"
+    },
+    {
+      "item": "immersiveengineering:windmill"
+    }
+  ],
+  "result": {
+    "id": "immersiveengineering:bannerpattern_windmill"
+  }
+}

@@ -1,0 +1,37 @@
+{
+	"elements": [
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "top_layer_modification",
+				"id": "data_energistics:ae2_meteorite"
+			},
+			"weight": 1.0,
+			"key": "data_energistics:ae2_meteorite"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "top_layer_modification",
+				"id": "data_energistics:meteorite"
+			},
+			"weight": 1.0,
+			"key": "data_energistics:meteorite"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "top_layer_modification",
+				"id": "data_energistics:meteorite_cluster"
+			},
+			"weight": 1.0,
+			"key": "data_energistics:meteorite_cluster"
+		}
+	]
+}

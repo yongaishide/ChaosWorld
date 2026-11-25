@@ -1,0 +1,22 @@
+{
+  "type": "powah:energizing",
+  "energy": 120000,
+  "ingredients": [
+    {
+      "item": "minecraft:redstone_block"
+    },
+    {
+      "item": "minecraft:redstone_block"
+    },
+    {
+      "item": "minecraft:redstone_block"
+    },
+    {
+      "item": "minecraft:redstone_block"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "actuallyadditions:restonia_crystal_block"
+  }
+}

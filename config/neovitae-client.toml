@@ -1,0 +1,11 @@
+#Visual Effects Configuration
+[effects]
+	#Replace custom stream and particle effects with vanilla-style particles.
+	#Enable this for better performance or if you prefer simpler visuals.
+	use_simple_effects = false
+	#Which Blood Siphon streams to draw.
+	#ORB_ONLY: only kills siphoned into an Orb of Vitae held in the offhand.
+	#ALL: also the Blood Siphon attribute, from any source.
+	#NEVER: draw no Blood Siphon streams.
+	#Allowed Values: ORB_ONLY, ALL, NEVER
+	blood_siphon_streams = "ORB_ONLY"

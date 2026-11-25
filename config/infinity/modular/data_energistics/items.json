@@ -1,0 +1,736 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "data_energistics:adaptive_pattern_provider"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:adaptive_pattern_provider_part"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:adaptive_pattern_provider_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:advanced_digital_annihilation_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:amethyst_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:amethyst_tuning_fork"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:astronomical_mirror"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:astronomical_mirror_panel"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:astronomical_observatory"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:beam_binding_tool"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:budding_data_crystal_0"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:budding_data_crystal_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:budding_data_crystal_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:budding_data_crystal_3"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:budding_data_crystal_4"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:card_saber_energy"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:celestial_waveguide"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:complexified_biochips"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:composite_input_warehouse"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:composite_output_warehouse"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:concentrated_silicon_carbon_meteorite_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:crop_data_carrier"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_asynchronous_processing_factory"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_carrier"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_cell_infinity"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_charger"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_circuit_board"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_corrosion_liquid_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_crystal_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_crystal_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_crystal_cluster"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_crystal_cutting_knife"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_crystal_hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_crystal_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_crystal_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_crystal_sword"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_distribution_connector"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_distribution_tower"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_energy_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_extractor"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_flow_component_housing"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_framework"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_inscriber_template"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_integrated_charger"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_io_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_light_saber"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_meteorite_0"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_meteorite_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_meteorite_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_meteorite_compass"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_mimetic_field"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_mysterious_cube"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_processor"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_reassembler"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_residual_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_ripper"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_sanctifier"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_sanctum"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_sanctum_interface"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_sanctum_interface_part"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_sanctum_interface_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_storage_component_16k"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_storage_component_16m"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_storage_component_1k"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_storage_component_1m"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_storage_component_256k"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_storage_component_256m"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_storage_component_4k"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_storage_component_4m"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_storage_component_64k"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_storage_component_64m"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_teleport_anchor"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_trident"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:data_tuning_fork"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:digisidian_memorize_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:digital_annihilator"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:digital_floating_gun"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:digital_packaged_pattern_provider"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:digital_storage_cell_16k"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:digital_storage_cell_16m"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:digital_storage_cell_1k"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:digital_storage_cell_1m"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:digital_storage_cell_256k"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:digital_storage_cell_256m"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:digital_storage_cell_4k"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:digital_storage_cell_4m"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:digital_storage_cell_64k"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:digital_storage_cell_64m"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:digital_storage_depot"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:digital_supply_interface"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:digital_transformation_research_station"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:digital_weapon_platform"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:empty_trinity_unit"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:ender_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:extended_data_charger"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:extended_me_digital_pattern_processing_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:extremely_large_annihilation_plane"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:extremely_large_formation_plane"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:fish_dan_"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:fluix_aggregate_crystal_processor"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:interference_array_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:large_annihilation_plane"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:large_data_crystal_bud"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:large_formation_plane"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:large_resonance_crystal_bud"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:me_beam_former"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:me_beam_former_part"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:me_composite_input_warehouse"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:me_composite_output_warehouse"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:me_data_solar_panel"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:me_data_solar_panel_part"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:me_digital_anvil"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:me_digital_merged_storage_core_16k"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:me_digital_merged_storage_core_16m"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:me_digital_merged_storage_core_1k"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:me_digital_merged_storage_core_1m"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:me_digital_merged_storage_core_256k"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:me_digital_merged_storage_core_256m"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:me_digital_merged_storage_core_4k"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:me_digital_merged_storage_core_4m"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:me_digital_merged_storage_core_64k"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:me_digital_merged_storage_core_64m"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:me_digital_pattern_processing_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:me_digital_storage_core_16k"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:me_digital_storage_core_16m"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:me_digital_storage_core_1k"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:me_digital_storage_core_1m"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:me_digital_storage_core_256k"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:me_digital_storage_core_256m"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:me_digital_storage_core_4k"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:me_digital_storage_core_4m"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:me_digital_storage_core_64k"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:me_digital_storage_core_64m"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:me_omni_beam_former"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:me_pattern_buffer"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:me_solar_panel"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:me_solar_panel_part"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:me_vacuum"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:medium_data_crystal_bud"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:medium_resonance_crystal_bud"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:mob_data_carrier"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:multiplication_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:obsidian_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:orbital_control_console"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:orbital_control_terminal"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:orbital_uplink_beacon"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:order_package"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:ore_data_carrier"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:overlimit_me_digital_pattern_processing_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:packaged_recovery"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:portable_digital_storage_cell_16k"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:portable_digital_storage_cell_16m"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:portable_digital_storage_cell_1k"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:portable_digital_storage_cell_1m"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:portable_digital_storage_cell_256k"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:portable_digital_storage_cell_256m"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:portable_digital_storage_cell_4k"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:portable_digital_storage_cell_4m"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:portable_digital_storage_cell_64k"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:portable_digital_storage_cell_64m"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:qiuyeqaq2024"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:radix_containment_sphere"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:redstone_tuning_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:residual_data_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:resonance_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:resonance_crystal_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:resonance_crystal_cluster"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:resonance_digitalization_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:resonance_tuning_fork"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:singularity_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:small_data_crystal_bud"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:small_resonance_crystal_bud"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:solidified_obsidian"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:star_shard"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:tedxenon"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:time_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:tnt_configurable"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:trinity_data_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:trinity_information_exchange_depot"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:tuning_fork_base"
+		},
+		{
+			"weight": 1.0,
+			"key": "data_energistics:universal_terminal"
+		}
+	]
+}

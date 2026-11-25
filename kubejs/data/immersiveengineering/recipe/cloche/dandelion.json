@@ -1,0 +1,19 @@
+{
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "minecraft:dandelion"
+  },
+  "render": {
+    "type": "immersiveengineering:generic",
+    "block": "minecraft:dandelion"
+  },
+  "results": [
+    {
+      "id": "minecraft:dandelion"
+    }
+  ],
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 480
+}

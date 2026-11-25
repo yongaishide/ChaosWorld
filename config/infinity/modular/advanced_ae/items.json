@@ -1,0 +1,272 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:adv_pattern_encoder"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:adv_pattern_provider"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:adv_pattern_provider_capacity_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:adv_pattern_provider_part"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:adv_pattern_provider_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:adv_processing_pattern"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:advanced_io_bus_part"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:attack_speed_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:auto_feeding_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:auto_stock_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:camo_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:data_entangler"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:evasion_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:flight_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:flight_drift_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:hp_buffer_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:import_export_bus_part"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:jump_height_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:lava_immunity_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:luck_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:magnet_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:night_vision_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:pick_craft_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:portable_workbench_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:printed_quantum_processor"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:quantum_accelerator"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:quantum_alloy"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:quantum_alloy_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:quantum_alloy_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:quantum_alloy_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:quantum_alloy_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:quantum_alloy_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:quantum_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:quantum_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:quantum_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:quantum_crafter"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:quantum_crafter_terminal"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:quantum_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:quantum_infused_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:quantum_infusion_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:quantum_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:quantum_multi_threader"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:quantum_processor"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:quantum_processor_press"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:quantum_storage_128"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:quantum_storage_256"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:quantum_storage_component"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:quantum_structure"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:quantum_unit"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:quantum_upgrade_base"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:reach_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:reaction_chamber"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:recharging_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:regeneration_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:shattered_singularity"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:small_adv_pattern_provider"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:small_adv_pattern_provider_part"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:sprint_speed_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:step_assist_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:stock_export_bus_part"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:strength_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:swim_speed_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:throughput_monitor"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:throughput_monitor_configurator"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:walk_speed_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:water_breathing_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "advanced_ae:wireless_quantum_crafter_terminal"
+		}
+	]
+}

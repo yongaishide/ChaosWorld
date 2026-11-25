@@ -1,0 +1,60 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "hostilenetworks:blank_data_model"
+		},
+		{
+			"weight": 1.0,
+			"key": "hostilenetworks:data_center"
+		},
+		{
+			"weight": 1.0,
+			"key": "hostilenetworks:data_center_io_port"
+		},
+		{
+			"weight": 1.0,
+			"key": "hostilenetworks:data_model"
+		},
+		{
+			"weight": 1.0,
+			"key": "hostilenetworks:deep_learner"
+		},
+		{
+			"weight": 1.0,
+			"key": "hostilenetworks:end_prediction"
+		},
+		{
+			"weight": 1.0,
+			"key": "hostilenetworks:fab_directive"
+		},
+		{
+			"weight": 1.0,
+			"key": "hostilenetworks:loot_fabricator"
+		},
+		{
+			"weight": 1.0,
+			"key": "hostilenetworks:nether_prediction"
+		},
+		{
+			"weight": 1.0,
+			"key": "hostilenetworks:overworld_prediction"
+		},
+		{
+			"weight": 1.0,
+			"key": "hostilenetworks:prediction"
+		},
+		{
+			"weight": 1.0,
+			"key": "hostilenetworks:prediction_matrix"
+		},
+		{
+			"weight": 1.0,
+			"key": "hostilenetworks:sim_chamber"
+		},
+		{
+			"weight": 1.0,
+			"key": "hostilenetworks:twilight_prediction"
+		}
+	]
+}

@@ -1,0 +1,20 @@
+#Daytime AE generation per tick for the ME Solar Panel.
+#ME太阳能板白天每 tick 生成的 AE。
+# Default: 3000.0
+# Range: 0.0 ~ 1.7976931348623157E308
+dayGenerationAEPerTick = 3000.0
+#Nighttime AE generation per tick for the ME Solar Panel.
+#ME太阳能板夜晚每 tick 生成的 AE。
+# Default: 1000.0
+# Range: 0.0 ~ 1.7976931348623157E308
+nightGenerationAEPerTick = 1000.0
+#Additional generation ratio provided by each installed speed card. 0.75 = +75%.
+#每张已安装速度卡提供的额外发电倍率。0.75 表示 +75%。
+# Default: 0.75
+# Range: 0.0 ~ 1000.0
+speedCardBonusRatio = 0.75
+#Additional internal AE storage provided by each installed energy card.
+#每张已安装能量卡提供的额外内部 AE 存储容量。
+# Default: 80000.0
+# Range: 0.0 ~ 1.7976931348623157E308
+energyCardCapacityBonusAE = 80000.0

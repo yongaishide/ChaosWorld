@@ -1,0 +1,44 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "ifmup:star_ether_alloy_ingot"
+    }
+  ],
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+    {
+      "tag": "c:nether_stars"
+    },
+    {
+      "item": "astralsorcery:shifting_star_armara"
+    },
+    {
+      "item": "astralsorcery:starmetal_ingot"
+    },
+    {
+      "item": "astralsorcery:resonating_gem"
+    },
+    {
+      "item": "astralsorcery:resonating_gem"
+    },
+    {
+      "item": "astralsorcery:starmetal_ingot"
+    },
+    {
+      "item": "avaritia:diamond_lattice"
+    },
+    {
+      "item": "avaritia:diamond_lattice"
+    }
+  ],
+  "inputFluid": {
+    "amount": 1000,
+    "fluid": "industrialforegoing:ether_gas"
+  },
+  "output": {
+    "count": 1,
+    "id": "ifmup:star_ether_alloy_ingot"
+  },
+  "processingTime": 300
+}

@@ -1,0 +1,40 @@
+{
+  "type": "ae2lt:lightning_transform",
+  "priority": 0,
+  "inputs": [
+    {
+      "ingredient": {
+        "item": "ae2:charger"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "ae2lt:overload_processor"
+      },
+      "count": 8
+    },
+    {
+      "ingredient": {
+        "item": "chaosworld_core:ingot_tech_5"
+      },
+      "count": 8
+    },
+    {
+      "ingredient": {
+        "item": "chaosworld_core:circuit_processor"
+      },
+      "count": 2
+    },
+    {
+      "ingredient": {
+        "item": "enderio_evolution:capacitor_crystalline"
+      },
+      "count": 4
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "ae2lt:lightning_simulation_room"
+  }
+}

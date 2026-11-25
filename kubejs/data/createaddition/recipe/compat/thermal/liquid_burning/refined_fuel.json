@@ -1,0 +1,16 @@
+{
+	"type":"createaddition:liquid_burning",
+	"input": {
+		"type": "fluid_stack",
+		"fluid_tag": "thermal:refined_fuel",
+		"amount": 1000
+	},
+	"burnTime": 24000,
+	"superheated": true,
+	"neoforge:conditions": [
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "thermal"
+		}
+	]
+}

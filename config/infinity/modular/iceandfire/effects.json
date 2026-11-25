@@ -1,0 +1,31 @@
+{
+	"elements": [
+		{
+			"data": {
+				"Category": "beneficial",
+				"Color": 1588523,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "iceandfire:depetrification"
+		},
+		{
+			"data": {
+				"Category": "neutral",
+				"Color": -4600330,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "iceandfire:frozen"
+		},
+		{
+			"data": {
+				"Category": "harmful",
+				"Color": -16181,
+				"Instant": false
+			},
+			"weight": 1.0,
+			"key": "iceandfire:siren_charm"
+		}
+	]
+}

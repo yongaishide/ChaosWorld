@@ -1,0 +1,653 @@
+{
+  "title": "1bb3fc91ada402e3",
+  "icon": "data_energistics:trinity_data_core",
+  "order": 1,
+  "quests": [
+    {
+      "id": "5fb3495ebeceeeb6",
+      "x": 10.0,
+      "y": -1.0,
+      "deps": [
+        "54db997063249fca",
+        "3fa96083bb011f0d"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "data_energistics:data_reassembler"
+        }
+      ]
+    },
+    {
+      "id": "100a7c29203926b1",
+      "x": -4.0,
+      "y": -3.0,
+      "deps": [
+        "5ef61b17bb761862/61d2edc385adad2c"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "ifeu:arcane_dragon_egg_forging"
+        }
+      ]
+    },
+    {
+      "id": "0c3fea608831610b",
+      "x": 14.0,
+      "y": -3.0,
+      "deps": [
+        "2244bf4160ffa1a3"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "data_energistics:data_crystal"
+        }
+      ]
+    },
+    {
+      "id": "54db997063249fca",
+      "x": 10.0,
+      "y": 1.0,
+      "deps": [
+        "36ba5182e5481cff"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "draconicevolution:wyvern_core"
+        }
+      ]
+    },
+    {
+      "id": "573d97270eb7f700",
+      "y": 1.0,
+      "deps": [
+        "605e84ae528915d2",
+        "18a2f9a33ea2a601"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "chaosworld_core:ingot_wyvern_metal"
+        }
+      ],
+      "x": 0.0
+    },
+    {
+      "id": "3aff4e106c61b8ee",
+      "x": 2.0,
+      "y": 1.0,
+      "deps": [
+        "573d97270eb7f700"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "draconicevolution:wyvern_energy_core"
+        }
+      ]
+    },
+    {
+      "id": "2a5484c83e4cab3c",
+      "x": 4.0,
+      "y": 1.0,
+      "deps": [
+        "3aff4e106c61b8ee"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "draconicevolution:wyvern_crafting_injector"
+        }
+      ]
+    },
+    {
+      "id": "21cfb774a10dae02",
+      "x": -2.0,
+      "y": 3.0,
+      "deps": [
+        "044d9b95b2dbf2f4/4cc6b9b8dfd6525e",
+        "044d9b95b2dbf2f4/01aa30ddb5c87965",
+        "044d9b95b2dbf2f4/154a65ee62af4116"
+      ],
+      "depMode": "any",
+      "tasks": [
+        {
+          "type": "item",
+          "item": "iceandfire:dragonforge_fire_core_disabled | iceandfire:dragonforge_ice_core_disabled | iceandfire:dragonforge_lightning_core_disabled"
+        },
+        {
+          "type": "item",
+          "item": "iceandfire:dragonforge_fire_input | iceandfire:dragonforge_ice_input | iceandfire:dragonforge_lightning_input"
+        }
+      ]
+    },
+    {
+      "id": "605e84ae528915d2",
+      "y": 3.0,
+      "deps": [
+        "21cfb774a10dae02"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "iceandfire:dragonsteel_fire_ingot | iceandfire:dragonsteel_ice_ingot | iceandfire:dragonsteel_lightning_ingot"
+        }
+      ],
+      "x": 0.0
+    },
+    {
+      "id": "1b8f2125e13b0ac8",
+      "x": -2.0,
+      "y": -3.0,
+      "deps": [
+        "100a7c29203926b1"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "ae2cs:purified_data_crystal"
+        }
+      ]
+    },
+    {
+      "id": "18a2f9a33ea2a601",
+      "y": -1.0,
+      "deps": [
+        "126d81b10c87d402",
+        "6af6b3c5604d94bf"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "ifeu:dragon_star"
+        }
+      ],
+      "x": 0.0
+    },
+    {
+      "id": "126d81b10c87d402",
+      "x": -2.0,
+      "y": -1.0,
+      "deps": [
+        "100a7c29203926b1",
+        "4836578290f995d6",
+        "4040ab5c4479c610"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "ifeu:rough_dragon_star"
+        }
+      ]
+    },
+    {
+      "id": "3984be88f6828281",
+      "x": 14.0,
+      "y": -1.0,
+      "deps": [
+        "689c2efa7be3a544"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "chaosworld_core:ingot_tech_7"
+        }
+      ]
+    },
+    {
+      "id": "5ccca915916790e6",
+      "x": 18.0,
+      "y": -1.0,
+      "deps": [
+        "79fa49303b3f9ab2",
+        "67c0a6788e6904f4"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "ifeu:ultimate_machine_frame"
+        }
+      ]
+    },
+    {
+      "id": "6af6b3c5604d94bf",
+      "x": -2.0,
+      "y": 1.0,
+      "deps": [
+        "21cfb774a10dae02"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "chaosworld_core:dragon_soul_forge"
+        }
+      ]
+    },
+    {
+      "id": "79fa49303b3f9ab2",
+      "x": 16.0,
+      "y": -1.0,
+      "deps": [
+        "31b49787b72c14a5",
+        "3984be88f6828281"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "enderio_evolution:stellar_alloy_ingot"
+        }
+      ]
+    },
+    {
+      "id": "4836578290f995d6",
+      "x": -3.5,
+      "y": -1.0,
+      "deps": [
+        "1baacfa517b8336c"
+      ],
+      "tasks": [
+        {
+          "type": "fluid",
+          "count": 1000,
+          "consume": true,
+          "fluid": "ifeu:liquid_malic_acid"
+        }
+      ]
+    },
+    {
+      "id": "4040ab5c4479c610",
+      "x": -4.0,
+      "y": 1.0,
+      "deps": [
+        "6aa7560207dce57e"
+      ],
+      "tasks": [
+        {
+          "type": "fluid",
+          "count": 1000,
+          "consume": true,
+          "fluid": "modularbees:dragon_breath"
+        }
+      ]
+    },
+    {
+      "id": "6aa7560207dce57e",
+      "x": -6.0,
+      "y": 1.0,
+      "deps": [
+        "06e54fb6ddd47113"
+      ],
+      "tasks": [
+        {
+          "type": "fluid",
+          "count": 1000,
+          "consume": true,
+          "fluid": "ifeu:liquid_sculk_matter"
+        }
+      ]
+    },
+    {
+      "id": "06e54fb6ddd47113",
+      "x": -6.5,
+      "y": -1.0,
+      "deps": [
+        "5ef61b17bb761862/61d2edc385adad2c"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "industrialforegoing:fluid_laser_base"
+        }
+      ]
+    },
+    {
+      "id": "1baacfa517b8336c",
+      "x": -5.0,
+      "y": -1.0,
+      "deps": [
+        "06e54fb6ddd47113"
+      ],
+      "tasks": [
+        {
+          "type": "fluid",
+          "count": 1000,
+          "consume": true,
+          "fluid": "industrialforegoing:ether_gas"
+        }
+      ]
+    },
+    {
+      "id": "36ba5182e5481cff",
+      "x": 8.0,
+      "y": 1.0,
+      "deps": [
+        "5ef61b17bb761862/43934b282c484bac",
+        "1fbe995c40104612"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "chaosworld_core:quantum_processor"
+        }
+      ]
+    },
+    {
+      "id": "4cd088d2ada39885",
+      "x": -4.0,
+      "y": -5.0,
+      "deps": [
+        "100a7c29203926b1"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "mysticalagradditions:dragon_scale"
+        }
+      ]
+    },
+    {
+      "id": "689c2efa7be3a544",
+      "x": 12.0,
+      "y": -1.0,
+      "deps": [
+        "5fb3495ebeceeeb6"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "data_energistics:digisidian_memorize_ingot"
+        }
+      ]
+    },
+    {
+      "id": "1fbe995c40104612",
+      "x": 6.0,
+      "y": 1.0,
+      "deps": [
+        "2a5484c83e4cab3c"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "chaosworld_core:ingot_quantum"
+        }
+      ]
+    },
+    {
+      "id": "45227715f7040289",
+      "y": -3.0,
+      "deps": [
+        "1b8f2125e13b0ac8"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "data_energistics:data_framework"
+        }
+      ],
+      "x": 0.0
+    },
+    {
+      "id": "0ea6cb2e3292af3f",
+      "x": 2.0,
+      "y": -3.0,
+      "deps": [
+        "45227715f7040289"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "data_energistics:empty_trinity_unit"
+        }
+      ]
+    },
+    {
+      "id": "023e61a35c5dfc71",
+      "x": 2.0,
+      "y": -1.0,
+      "deps": [
+        "0ea6cb2e3292af3f"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "extendedcrafting:ultimate_catalyst"
+        },
+        {
+          "type": "item",
+          "item": "extendedcrafting:ultimate_table"
+        }
+      ]
+    },
+    {
+      "id": "47a14267b9ceb3c3",
+      "x": 4.0,
+      "y": -1.0,
+      "deps": [
+        "023e61a35c5dfc71",
+        "3aff4e106c61b8ee"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "avaritia:neutron_collector"
+        }
+      ]
+    },
+    {
+      "id": "498c50ec73835a6b",
+      "x": 6.0,
+      "y": -1.0,
+      "deps": [
+        "47a14267b9ceb3c3"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "avaritia:neutron_pile"
+        }
+      ]
+    },
+    {
+      "id": "3fa96083bb011f0d",
+      "x": 8.0,
+      "y": -1.0,
+      "deps": [
+        "498c50ec73835a6b"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "data_energistics:singularity_block"
+        }
+      ]
+    },
+    {
+      "id": "29be863587f05f54",
+      "x": 16.0,
+      "y": -3.0,
+      "deps": [
+        "0c3fea608831610b"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "data_energistics:data_processor"
+        }
+      ]
+    },
+    {
+      "id": "67c0a6788e6904f4",
+      "x": 18.0,
+      "y": -3.0,
+      "deps": [
+        "29be863587f05f54"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "chaosworld_core:nano_mainframe"
+        }
+      ]
+    },
+    {
+      "id": "20f9f9213599dc89",
+      "x": 20.0,
+      "y": -3.0,
+      "deps": [
+        "67c0a6788e6904f4"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "data_energistics:data_sanctum"
+        }
+      ]
+    },
+    {
+      "id": "64a787509ae9d7d6",
+      "x": 6.0,
+      "y": -3.0,
+      "deps": [
+        "498c50ec73835a6b"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "data_energistics:me_vacuum"
+        }
+      ]
+    },
+    {
+      "id": "3621765a616719bd",
+      "x": 10.0,
+      "y": -3.0,
+      "deps": [
+        "5fb3495ebeceeeb6",
+        "6949746d16f8b723"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "data_energistics:data_extractor"
+        }
+      ]
+    },
+    {
+      "id": "2244bf4160ffa1a3",
+      "x": 12.0,
+      "y": -3.0,
+      "deps": [
+        "3621765a616719bd"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "6949746d16f8b723",
+      "x": 8.0,
+      "y": -3.0,
+      "deps": [
+        "64a787509ae9d7d6"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "31b49787b72c14a5",
+      "x": 16.0,
+      "y": 1.0,
+      "deps": [
+        "155d2b577792ab45"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "ifmup:star_ether_alloy_ingot"
+        }
+      ]
+    },
+    {
+      "id": "155d2b577792ab45",
+      "x": 14.0,
+      "y": 1.0,
+      "deps": [
+        "44a9ba1c407a2a32"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "astralsorcery:shifting_star_armara"
+        }
+      ]
+    },
+    {
+      "id": "44a9ba1c407a2a32",
+      "x": 12.0,
+      "y": 1.0,
+      "deps": [
+        "54db997063249fca"
+      ],
+      "tasks": [
+        {
+          "type": "item",
+          "item": "astralsorcery:shifting_star"
+        }
+      ]
+    },
+    {
+      "id": "256909d07318ac5b",
+      "x": 20.0,
+      "y": 1.0,
+      "deps": [
+        "17df9381dca9098a"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "17df9381dca9098a",
+      "x": 18.0,
+      "y": 1.0,
+      "deps": [
+        "79fa49303b3f9ab2"
+      ],
+      "tasks": [
+        {
+          "type": "custom",
+          "value": "chaosworld_core:ae_resource"
+        }
+      ]
+    },
+    {
+      "id": "link_61d2edc385adad2c",
+      "x": -6.0,
+      "y": -3.0,
+      "shape": "gear",
+      "size": 2.0,
+      "optional": true,
+      "tasks": [
+        {
+          "type": "quest",
+          "quest": "5ef61b17bb761862/61d2edc385adad2c"
+        }
+      ],
+      "silent": true
+    }
+  ]
+}

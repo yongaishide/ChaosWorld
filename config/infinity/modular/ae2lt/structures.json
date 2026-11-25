@@ -1,0 +1,26 @@
+{
+	"elements": [
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "ae2lt:alien_starship"
+			},
+			"weight": 1.0,
+			"key": "ae2lt:alien_starship"
+		},
+		{
+			"data": {
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"step": "surface_structures",
+				"id": "ae2lt:firmament_starship"
+			},
+			"weight": 1.0,
+			"key": "ae2lt:firmament_starship"
+		}
+	]
+}

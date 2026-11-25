@@ -1,0 +1,128 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "create:brittle"
+		},
+		{
+			"weight": 1.0,
+			"key": "create:casing"
+		},
+		{
+			"weight": 1.0,
+			"key": "create:chest_mounted_storage"
+		},
+		{
+			"weight": 1.0,
+			"key": "create:copycat_allow"
+		},
+		{
+			"weight": 1.0,
+			"key": "create:copycat_deny"
+		},
+		{
+			"weight": 1.0,
+			"key": "create:corals"
+		},
+		{
+			"weight": 1.0,
+			"key": "create:fan_processing_catalysts/blasting"
+		},
+		{
+			"weight": 1.0,
+			"key": "create:fan_processing_catalysts/haunting"
+		},
+		{
+			"weight": 1.0,
+			"key": "create:fan_processing_catalysts/smoking"
+		},
+		{
+			"weight": 1.0,
+			"key": "create:fan_transparent"
+		},
+		{
+			"weight": 1.0,
+			"key": "create:girdable_tracks"
+		},
+		{
+			"weight": 1.0,
+			"key": "create:movable_empty_collider"
+		},
+		{
+			"weight": 1.0,
+			"key": "create:non_harvestable"
+		},
+		{
+			"weight": 1.0,
+			"key": "create:non_movable"
+		},
+		{
+			"weight": 1.0,
+			"key": "create:passive_boiler_heaters"
+		},
+		{
+			"weight": 1.0,
+			"key": "create:plough_blacklist"
+		},
+		{
+			"weight": 1.0,
+			"key": "create:plough_whitelist"
+		},
+		{
+			"weight": 1.0,
+			"key": "create:postboxes"
+		},
+		{
+			"weight": 1.0,
+			"key": "create:roots"
+		},
+		{
+			"weight": 1.0,
+			"key": "create:safe_nbt"
+		},
+		{
+			"weight": 1.0,
+			"key": "create:seats"
+		},
+		{
+			"weight": 1.0,
+			"key": "create:simple_mounted_storage"
+		},
+		{
+			"weight": 1.0,
+			"key": "create:single_block_inventories"
+		},
+		{
+			"weight": 1.0,
+			"key": "create:sugar_cane_variants"
+		},
+		{
+			"weight": 1.0,
+			"key": "create:table_cloths"
+		},
+		{
+			"weight": 1.0,
+			"key": "create:toolboxes"
+		},
+		{
+			"weight": 1.0,
+			"key": "create:tracks"
+		},
+		{
+			"weight": 1.0,
+			"key": "create:tree_attachments"
+		},
+		{
+			"weight": 1.0,
+			"key": "create:valve_handles"
+		},
+		{
+			"weight": 1.0,
+			"key": "create:windmill_sails"
+		},
+		{
+			"weight": 1.0,
+			"key": "create:wrench_pickup"
+		}
+	]
+}

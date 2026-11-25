@@ -1,0 +1,20 @@
+{
+  "enabled": false,
+  "mode": "FULL",
+  "corner": "TOP_LEFT",
+  "scale": 0.75,
+  "opacity": 85,
+  "position": true,
+  "chunk": false,
+  "facing": true,
+  "biome": true,
+  "dimension": true,
+  "light": true,
+  "time": true,
+  "speed": false,
+  "fps": true,
+  "graph": true,
+  "latency": true,
+  "memory": true,
+  "videoMemory": true
+}

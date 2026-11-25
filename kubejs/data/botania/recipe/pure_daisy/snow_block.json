@@ -1,0 +1,14 @@
+{
+  "type": "botania:pure_daisy",
+  "input": {
+    "type": "botania:block",
+    "block": "minecraft:water"
+  },
+  "output": {
+    "type": "botania:state",
+    "state": {
+      "Name": "minecraft:snow_block"
+    }
+  },
+  "time": 150
+}

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "powah:capacitor_niotic"
+    },
+    "d": {
+      "item": "powah:dielectric_casing"
+    },
+    "g": {
+      "item": "powah:crystal_niotic"
+    },
+    "i": {
+      "item": "powah:dielectric_paste"
+    },
+    "p": {
+      "item": "powah:thermoelectric_plate"
+    },
+    "t": {
+      "item": "powah:thermo_generator_blazing"
+    }
+  },
+  "pattern": [
+    "igi",
+    "cdc",
+    "ptp"
+  ],
+  "result": {
+    "count": 1,
+    "id": "powah:thermo_generator_niotic"
+  }
+}

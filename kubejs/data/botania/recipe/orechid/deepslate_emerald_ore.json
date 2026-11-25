@@ -1,0 +1,16 @@
+{
+  "type": "botania:orechid",
+  "biome_bonus_tag": "botania:orechid_deepslate_emerald_bonus",
+  "biome_bonus_weight": 10,
+  "cooldown": 100,
+  "input": {
+    "type": "botania:block",
+    "block": "minecraft:deepslate"
+  },
+  "mana": 17500,
+  "output": {
+    "type": "botania:block",
+    "block": "minecraft:deepslate_emerald_ore"
+  },
+  "weight": 1
+}

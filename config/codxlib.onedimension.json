@@ -1,0 +1,29 @@
+{
+  "voidDamageEnabled": true,
+  "voidDeathBandEnabled": true,
+  "voidFallFromEndSafe": true,
+  "worldWrapEnabled": true,
+  "waterInNether": false,
+  "commandWaterInNether": false,
+  "overworldOnlySpawners": true,
+  "blockBuildingAboveOverworld": false,
+  "preselectWorldType": true,
+  "stacking": {
+    "bands": [
+      {
+        "dimension": "minecraft:the_nether",
+        "gap": 0
+      },
+      {
+        "dimension": "minecraft:overworld",
+        "gap": 0
+      },
+      {
+        "dimension": "minecraft:the_end",
+        "gap": 688
+      }
+    ],
+    "worldHeight": "normal",
+    "barrierThickness": 0
+  }
+}

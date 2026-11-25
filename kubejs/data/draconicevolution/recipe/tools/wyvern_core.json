@@ -1,0 +1,22 @@
+{
+  "type": "draconicevolution:fusion_crafting",
+  "catalyst": {
+    "item": "draconicevolution:draconium_core"
+  },
+  "ingredients": [
+    {"consume": true,"ingredient": {"item": "chaosworld_core:ingot_wyvern_metal"}},
+    {"consume": true,"ingredient": {"item": "chaosworld_core:ingot_wyvern_metal"}},
+    {"consume": true,"ingredient": {"item": "chaosworld_core:quantum_processor"}},
+    {"consume": true,"ingredient": {"item": "chaosworld_core:quantum_processor"}},
+    {"consume": true,"ingredient": {"item": "draconicevolution:wyvern_energy_core"}},
+    {"consume": true,"ingredient": {"item": "draconicevolution:wyvern_energy_core"}},
+    {"consume": true,"ingredient": {"item": "chaosworld_core:ingot_wyvern_metal"}},
+    {"consume": true,"ingredient": {"item": "chaosworld_core:ingot_wyvern_metal"}}
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:wyvern_core"
+  },
+  "techLevel": "wyvern",
+  "totalEnergy": 8000000
+}
