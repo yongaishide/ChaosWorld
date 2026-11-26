@@ -1,7 +1,3 @@
-// MMCR 官方示例：太空电梯结构（HOST）+ 太空重组机结构（MODULE）
-// 来源：example/server_scripts/structure/A_Module_Machine.js
-// 两台机器都用 api.coupler() 声明耦合器位置，必须共享同一个世界坐标上的耦合器。
-
 MMCREvents.server(event => {
     const api = event.getAPI()
 

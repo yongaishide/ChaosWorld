@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_block"
+    },
+    "S": {
+      "item": "neovitae:tabula_animata"
+    },
+    "f": {
+      "item": "minecraft:furnace"
+    },
+    "o": {
+      "type": "neovitae:orb_tier",
+      "tier": 2
+    },
+    "s": {
+      "tag": "neovitae:vitae_stone"
+    }
+  },
+  "pattern": [
+    "sss",
+    "SoS",
+    "IfI"
+  ],
+  "result": {
+    "count": 1,
+    "id": "neovitae:athanor"
+  }
+}

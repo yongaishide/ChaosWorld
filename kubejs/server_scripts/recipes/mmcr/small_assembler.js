@@ -1,11 +1,3 @@
-// ============================================================
-// 小型组装机 —— 配方（服务端，/reload 生效）
-// 机器：mmcr_kubejs:small_assembler   配方池：mmcr_kubejs:small_assembler
-//
-// 结构里只有：能量输入仓（微型）+ 物品输入总线（小型）+ 物品输出总线（Ludicrous）
-// 所以配方形态是「物品进 + 电 → 物品出」，没有流体、没有温度门槛。
-// ============================================================
-
 ServerEvents.recipes(event => {
     const POOL = 'mmcr_kubejs:small_assembler'
 

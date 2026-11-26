@@ -1,0 +1,32 @@
+{
+  "type": "neovitae:athanor",
+  "guaranteed_outputs": [
+    {
+      "count": 1,
+      "id": "neovitae:sigil_necromancy"
+    }
+  ],
+  "input_fluid": {
+    "amount": 1000,
+    "ingredient": {
+      "fluid": "neovitae:essentia_vitae_source"
+    }
+  },
+  "inputs": [
+    {
+      "item": "neovitae:tabula_robur"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "minecraft:bone"
+    }
+  ],
+  "spiritus_costs": {
+    "raw": 20.0
+  },
+  "tool": {
+    "tag": "neovitae:athanor_tool/resonator"
+  }
+}

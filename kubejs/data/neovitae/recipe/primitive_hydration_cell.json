@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "minecraft:water_bucket"
+    },
+    "c": {
+      "tag": "c:cobblestones"
+    },
+    "o": {
+      "type": "neovitae:orb_tier",
+      "tier": 2
+    },
+    "s": {
+      "item": "neovitae:tabula_rasa"
+    }
+  },
+  "pattern": [
+    "csc",
+    "cBc",
+    "coc"
+  ],
+  "result": {
+    "count": 1,
+    "id": "neovitae:primitive_hydration_cell"
+  }
+}

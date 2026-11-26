@@ -1,0 +1,20 @@
+{
+  "type": "neovitae:array",
+  "addedinput": {
+    "item": "minecraft:elytra"
+  },
+  "baseinput": {
+    "item": "neovitae:reagent_binding"
+  },
+  "output": {
+    "components": {
+      "neovitae:upgrade_tome_data": {
+        "exp": 1.0,
+        "upgrade": "neovitae:elytra"
+      }
+    },
+    "count": 1,
+    "id": "neovitae:upgrade_tome"
+  },
+  "texture": "neovitae:textures/models/alchemyarrays/bindingarray.png"
+}

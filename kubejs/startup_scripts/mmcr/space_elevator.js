@@ -1,8 +1,3 @@
-// MMCR 官方示例：太空电梯（HOST + MODULE 模式）
-// 来源：example/startup_scripts/A_Module_Machine.js
-// 灵感来自 GTL 的太空电梯：主机（电梯）通过 .host(...) 接受模块（重组机），
-// 模块通过 .module() 标记自己可被主机接纳。
-
 MMCREvents.startup(event => {
     const space_elevator = event
         .createMachine("mmcr_kubejs:kubejs_space_elevator")

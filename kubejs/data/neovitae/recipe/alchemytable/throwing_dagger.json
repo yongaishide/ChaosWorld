@@ -1,0 +1,21 @@
+{
+  "type": "neovitae:alchemytable",
+  "input": [
+    {
+      "tag": "c:ingots/iron"
+    },
+    {
+      "tag": "c:ingots/iron"
+    },
+    {
+      "tag": "c:strings"
+    }
+  ],
+  "output": {
+    "count": 16,
+    "id": "neovitae:throwing_dagger"
+  },
+  "syphon": 500,
+  "ticks": 200,
+  "upgradeLevel": 1
+}

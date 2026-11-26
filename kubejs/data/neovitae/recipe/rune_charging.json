@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "G": {
+      "tag": "c:dusts/glowstone"
+    },
+    "R": {
+      "tag": "c:dusts/redstone"
+    },
+    "e": {
+      "type": "neovitae:orb_tier",
+      "tier": 3
+    },
+    "r": {
+      "item": "neovitae:rune_blank"
+    },
+    "s": {
+      "item": "neovitae:tabula_spiritus"
+    }
+  },
+  "pattern": [
+    "RsR",
+    "GrG",
+    "ReR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "neovitae:rune_charging"
+  }
+}

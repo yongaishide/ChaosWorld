@@ -1,23 +1,3 @@
-// ============================================================
-// 灵火 —— 阶段 4/4：配方（服务端，/reload 生效）
-// 机器：mmcr_kubejs:spirit_fire   配方池：mmcr_kubejs:spirit_fire
-//
-// 全部配方都是神秘学（Occultism）里「灵火」这个东西本来就有的转换，
-// 原数据在 occultism 的 data/occultism/recipe/spirit_fire/*.json（共 27 条）。
-// 这里把「把物品丢在灵火上烧一下」搬进多方块机器，所以：
-//   · 每条都是 1 进 1 出，不耗电、不要流体、不要温度 —— 灵火本来就不烧燃料；
-//   · 结构里只有 A（物品输入总线）和 D（物品输出总线），没有能量仓，见 structure 脚本；
-//   · 时间统一 40 tick（2 秒），烧宝石那条给 60 tick。
-//
-// 有 6 条原配方用的是**标签**（比如 c:gems/diamond = 任意钻石），
-// MMCR 的 item 需求里 item 字段就是原版 Ingredient，所以直接写 { tag: '...' } 即可，
-// 不要把它拆成某个具体物品，否则别的模组的同标签物品就烧不了。
-//
-// 并行：每条都写了 parallelized: true。这一位只是「允许批量」，
-// 真正并行几份由结构里的 mmcr:parallel_controller_* 决定（一块普通 = 4 份），
-// 机器定义里的 maxParallelAmount(64) 再往上封顶。不开并行器时并行数就是 1，行为与以前一样。
-// ============================================================
-
 ServerEvents.recipes(event => {
     const POOL = 'mmcr_kubejs:spirit_fire'
     const TICKS = 10

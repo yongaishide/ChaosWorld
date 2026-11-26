@@ -1,25 +1,3 @@
-// ============================================================
-// 超精电路蚀刻机 —— MMCR 多方块结构（服务端，/reload 热重载）
-// 结构直接来自游戏内导出：mmcr_structure_export/2026-11-04-10-40-02-多方块导出-1.js
-// 尺寸：x 13 格、行 7 格、层 11 层（每个 .pattern() 是一层，层里每行沿 x，行沿 y）
-//
-// 端口位（导出里的 N/O/P/Q 四种仓）统一换成 R：
-//   = 任意物品仓 / 任意流体仓 / 任意能量仓 / 任意化学品仓（输入、输出都算）/ 任意并行控制器，
-//     或者用 mmcr:basic_casing 封死
-// 配方按「能力」判定仓，所以每个位置放哪种仓由你决定；但配方本身要的
-// 物品进、物品出、能量进、流体进 四种能力，机器上至少各要有一个对应仓。
-// 并行控制器（普通/进阶/专业）放在 R 位上就能开并行，机器上限 16（启动脚本里的 maxParallelAmount）。
-//
-// 图例：
-//   C = 控制器     R = 端口位（见上）     X = mmcr:basic_casing 基础机器框架
-//   A = mekanism:structural_glass        B = mekanismgenerators:electromagnetic_coil
-//   D = pneumaticcraft:reinforced_stone  E = enderio:energetic_alloy_block
-//   F = powah:energized_steel_block      G = alltheores:silver_block
-//   H/I/J = extendedae:assembler_matrix_frame（block / column_y / column_x）
-//   K = mekanismsun:tungstensteel_casing L = astralsorcery:marble_bricks
-//   M = pneumaticcraft:compressed_brick_slab
-// ============================================================
-
 MMCREvents.server(event => {
     const api = event.getAPI()
 

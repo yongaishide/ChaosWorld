@@ -1,33 +1,3 @@
-// ============================================================
-// 冶炼炉 —— 配方（服务端，/reload 生效）
-// 机器：mmcr_kubejs:smelting_furnace   配方池：mmcr_kubejs:smelting_furnace
-//
-// 内容：熔炼成熔融金属
-//   · 金属锭     -> 1 锭      144 mB
-//   · 粗矿 item  -> 1.5 锭   216 mB
-//   · 粗矿块     -> 13.5 锭 1944 mB（就是一个块里的 9 个粗矿）
-//   · 矿石方块   -> 2 锭      288 mB
-//     （AllTheOres 的金属有石 / 深板岩 / 下界 / 末地 / other 五种变体；
-//       原版的铁/金/铜只有原版那几种矿石，见文件末尾的「原版金属」段）
-//   输出流体 id：NC 有的金属用 nuclearcraftneohaul:<金属>（铁/金/铜/铝/铅/镍/银/锡/铀/
-//   钢/末影），其余用 alltheores:molten_<金属>；见下面的 fluidOf()。
-//   文件末尾另有 NC 自己的 18 种锭（钆/铍/硼/镝/钬/锂/镁/锰/二氧化锰/氧化镍/钯/钍/锆等）
-//   -> nuclearcraftneohaul:<金属>，这些金属 AllTheOres 没有。
-//   Allthemodium 的 3 种金属锭 -> allthemodium:molten_*（同样 144 mB）。
-//   3 种合金锭没有对应的熔融液：Allthemodium 3.2.1 只注册了 molten_allthemodium /
-//   molten_vibranium / molten_unobtainium，molten_atmvib / molten_vibunob / molten_atmunob
-//   是 TiC 时代的遗留数据（只剩语言键和 tconstruct:alloy 文件，流体未注册），所以跳过。
-//   1 锭 = 144 mB（熔融金属通用换算，1 个块的 9 锭 = 1296 mB）
-//
-// 只做「物品进 -> 流体出」：结构的 D/E 位可以装任意档位的物品输入仓 / 流体输出仓，
-// 没有能量仓，也不加能量需求，免得机器缺仓永远跑不起来。
-//
-// 每条配方额外要求 1373 K 的温度（mekanism:temperature / io:input / value:1373）：
-// 机器必须装热量输入仓（结构里的 A 位 mmcr:heat_input_hatch）才会跑。
-// 注意 mekanism:heat 是「输出热量」，消耗侧要用 mekanism:temperature。
-// 宝石类（cinnabar/fluorite/ruby/sapphire/salt/sulfur/peridot）没有熔融物，跳过。
-// ============================================================
-
 ServerEvents.recipes(event => {
     const POOL = 'mmcr_kubejs:smelting_furnace'
     const INGOT = 144

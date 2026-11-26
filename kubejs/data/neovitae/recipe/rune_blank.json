@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "a": {
+      "tag": "neovitae:vitae_stone"
+    },
+    "o": {
+      "type": "neovitae:orb_tier",
+      "tier": 0
+    },
+    "s": {
+      "item": "neovitae:tabula_rasa"
+    }
+  },
+  "pattern": [
+    "asa",
+    "aoa",
+    "aaa"
+  ],
+  "result": {
+    "count": 1,
+    "id": "neovitae:rune_blank"
+  }
+}

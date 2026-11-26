@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "5ecf131d718c7f03"
-	group: "6B9CFFEE5CD53D67"
+	group: "3349C1ACA6519635"
 	icon: {
 		id: "neovitae:ara_vitae"
 	}
 	id: "5ECF131D718C7F03"
 	images: [ ]
-	order_index: 5
+	order_index: 6
 	quest_enhance_decorative_lines: [ ]
 	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
@@ -329,8 +329,8 @@
 				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
-			x: 0.0d
-			y: -6.0d
+			x: -2.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["4A13A95D6B03F09D"]
@@ -348,8 +348,8 @@
 				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
-			x: 2.0d
-			y: -6.0d
+			x: 0.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["23627899CCC0927E"]
@@ -426,6 +426,22 @@
 			}]
 			x: 6.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["37CDE9146AA1C9FC"]
+			id: "554FA96679D08519"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "20339985AFA45A1C"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "neovitae:arcane_scribe_tool"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 0.0d
+			y: -6.0d
 		}
 	]
 }

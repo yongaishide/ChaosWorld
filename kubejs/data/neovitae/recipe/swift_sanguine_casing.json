@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "T": {
+      "item": "neovitae:tabula_animata"
+    },
+    "c": {
+      "item": "neovitae:sanguine_casing"
+    },
+    "s": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "pattern": [
+    " T ",
+    "scs",
+    " T "
+  ],
+  "result": {
+    "count": 1,
+    "id": "neovitae:swift_sanguine_casing"
+  }
+}

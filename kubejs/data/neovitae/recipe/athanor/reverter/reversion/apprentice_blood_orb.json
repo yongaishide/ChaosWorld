@@ -1,0 +1,17 @@
+{
+  "type": "neovitae:athanor",
+  "guaranteed_outputs": [
+    {
+      "count": 1,
+      "id": "minecraft:redstone_block"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "neovitae:blood_orb_apprentice"
+    }
+  ],
+  "tool": {
+    "tag": "neovitae:athanor_tool/reverter"
+  }
+}

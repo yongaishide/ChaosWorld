@@ -1,0 +1,23 @@
+{
+  "type": "neovitae:athanor",
+  "guaranteed_outputs": [
+    {
+      "count": 1,
+      "id": "neovitae:weak_blood_shard"
+    }
+  ],
+  "input_fluid": {
+    "amount": 3200,
+    "ingredient": {
+      "fluid": "neovitae:essentia_vitae_source"
+    }
+  },
+  "inputs": [
+    {
+      "item": "neovitae:strong_tau"
+    }
+  ],
+  "tool": {
+    "tag": "neovitae:athanor_tool/hydration"
+  }
+}

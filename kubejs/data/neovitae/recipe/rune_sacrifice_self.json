@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "a": {
+      "tag": "neovitae:vitae_stone"
+    },
+    "b": {
+      "item": "neovitae:tabula_robur"
+    },
+    "c": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "d": {
+      "item": "neovitae:rune_blank"
+    },
+    "e": {
+      "type": "neovitae:orb_tier",
+      "tier": 1
+    }
+  },
+  "pattern": [
+    "aba",
+    "cdc",
+    "aea"
+  ],
+  "result": {
+    "count": 1,
+    "id": "neovitae:rune_sacrifice_self"
+  }
+}

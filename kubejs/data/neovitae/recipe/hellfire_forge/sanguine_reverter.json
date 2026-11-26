@@ -1,0 +1,23 @@
+{
+  "type": "neovitae:hellfire_forge",
+  "drain": 30.0,
+  "inputs": [
+    {
+      "item": "minecraft:shears"
+    },
+    {
+      "tag": "neovitae:vitae_stone"
+    },
+    {
+      "item": "neovitae:tabula_animata"
+    },
+    {
+      "tag": "c:ingots/iron"
+    }
+  ],
+  "minDrain": 350.0,
+  "output": {
+    "count": 1,
+    "id": "neovitae:sanguine_reverter"
+  }
+}

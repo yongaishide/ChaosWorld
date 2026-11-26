@@ -1,0 +1,14 @@
+{
+  "type": "neovitae:ara_vitae_recipe",
+  "bloodNeeded": 50,
+  "craftSpeed": 5,
+  "drainSpeed": 0,
+  "input": {
+    "tag": "c:cobblestones/normal"
+  },
+  "minTier": 0,
+  "output": {
+    "count": 1,
+    "id": "minecraft:cobbled_deepslate"
+  }
+}

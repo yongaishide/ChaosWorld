@@ -2,7 +2,7 @@
 #基础、悖论无限或自定义。配置文件中的 BASIC、PARADOX_INFINITY、CUSTOM 是兼容存档所需的固定标识。
 #切换预设不会删除机器中已经安装的升级。
 #Allowed Values: BASIC, PARADOX_INFINITY, CUSTOM
-balanceProfile = "CUSTOM"
+balanceProfile = "BASIC"
 #启用万象创世蜜蜂
 #false 时只停止万象创世蜜蜂的获取、繁殖、采蜜、蜂箱生产及专属蜜脾转化；其它蜜蜂和通用机器照常工作。
 #已有蜜蜂、物品和已付周期保留；重新启用后重载配方或重启服务器可恢复。
@@ -68,13 +68,13 @@ myriadCreationsEnabled = true
 [balance]
 	#禁止产量升级 α/β/γ/Ω 在同一台机器中混装
 	#受基础/悖论无限预设约束；请先将玩法配置中的 balanceProfile 改为 CUSTOM 并保存，再修改此项。
-	productivityUpgradeTiersExclusive = false
+	productivityUpgradeTiersExclusive = true
 	#禁止时间 I 与时间 II 两种速度升级在同一台机器中混装
 	#受基础/悖论无限预设约束；请先将玩法配置中的 balanceProfile 改为 CUSTOM 并保存，再修改此项。
-	speedUpgradeTiersExclusive = false
+	speedUpgradeTiersExclusive = true
 	#离心机产量升级是否额外增加单次产出；无论此项如何，资源蜜蜂原版并行能力始终保留
 	#受基础/悖论无限预设约束；请先将玩法配置中的 balanceProfile 改为 CUSTOM 并保存，再修改此项。
-	centrifugeProductivityAffectsOutput = true
+	centrifugeProductivityAffectsOutput = false
 	#机械蜂箱是否根据蜜蜂的昼夜行为与天气耐受基因暂停工作
 	#受基础/悖论无限预设约束；请先将玩法配置中的 balanceProfile 改为 CUSTOM 并保存，再修改此项。
 	apiaryBeeGenesAffectWork = true
@@ -92,7 +92,7 @@ myriadCreationsEnabled = true
 	#转化目标蜜蜂（注册名，如 productivebees:myriadcreations）
 	result = "productivebees:myriadcreations"
 	#转化所需物品ID（如 minecraft:stick）
-	item = "minecraft:stick"
+	item = "useless_mod:useful_ingot"
 	#转化概率（0.0~1.0）
 	# Default: 1.0
 	# Range: 0.0 ~ 1.0

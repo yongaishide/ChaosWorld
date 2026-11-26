@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "h": {
+      "tag": "minecraft:coals"
+    },
+    "l": {
+      "tag": "minecraft:logs"
+    },
+    "o": {
+      "type": "neovitae:orb_tier",
+      "tier": 0
+    },
+    "s": {
+      "tag": "neovitae:vitae_stone"
+    }
+  },
+  "pattern": [
+    "s s",
+    "shs",
+    "lol"
+  ],
+  "result": {
+    "count": 1,
+    "id": "neovitae:incense_altar"
+  }
+}

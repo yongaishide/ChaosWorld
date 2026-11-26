@@ -1,0 +1,23 @@
+{
+  "type": "neovitae:athanor",
+  "guaranteed_outputs": [
+    {
+      "count": 1,
+      "id": "minecraft:glass_pane"
+    }
+  ],
+  "input_fluid": {
+    "amount": 200,
+    "ingredient": {
+      "fluid": "minecraft:water"
+    }
+  },
+  "inputs": [
+    {
+      "tag": "c:glass_panes"
+    }
+  ],
+  "tool": {
+    "tag": "neovitae:athanor_tool/hydration"
+  }
+}

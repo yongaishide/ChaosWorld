@@ -8,7 +8,7 @@
 	}
 	id: "06788BB43D01BFA3"
 	images: [ ]
-	order_index: 7
+	order_index: 5
 	quest_enhance_decorative_lines: [ ]
 	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
@@ -117,6 +117,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["0D4CF808B1178264"]
 			id: "1DAF8360DED0EA6C"
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
@@ -130,6 +131,22 @@
 			}]
 			x: 2.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["7B2E89060E15CDC2"]
+			id: "353AFB188BA1D713"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "66B6C25C14C23D3B"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "thaumaturge:nitor_yellow"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 4.0d
+			y: -1.5d
 		}
 	]
 }

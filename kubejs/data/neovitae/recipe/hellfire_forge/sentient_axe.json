@@ -1,0 +1,17 @@
+{
+  "type": "neovitae:hellfire_forge_transform",
+  "catalysts": [
+    {
+      "item": "neovitae:spiritus_gem_petty"
+    }
+  ],
+  "drain": 0.0,
+  "minDrain": 0.0,
+  "output": {
+    "count": 1,
+    "id": "neovitae:sentient_axe"
+  },
+  "transformInput": {
+    "item": "minecraft:iron_axe"
+  }
+}

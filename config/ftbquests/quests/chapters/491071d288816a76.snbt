@@ -229,5 +229,36 @@
 			x: 9.0d
 			y: 2.5d
 		}
+		{
+			dependencies: ["4D4F9DF8431F5A24"]
+			id: "2619647F1B2B6A1A"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "22083AF74D7DAA5B"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "astralsorcery:raw_starmetal"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			id: "24447E059F16DCE3"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "3D19BF3A6BCD0195"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "astralsorcery:starmetal_ingot"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
 	]
 }

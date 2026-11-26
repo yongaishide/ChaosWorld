@@ -1,0 +1,24 @@
+{
+  "type": "neovitae:alchemytable",
+  "input": [
+    {
+      "item": "neovitae:weak_filling_agent"
+    },
+    {
+      "item": "neovitae:strengthened_catalyst"
+    },
+    {
+      "tag": "c:dusts/glowstone"
+    },
+    {
+      "item": "minecraft:chorus_fruit"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "id": "neovitae:standard_filling_agent"
+  },
+  "syphon": 4000,
+  "ticks": 200,
+  "upgradeLevel": 3
+}

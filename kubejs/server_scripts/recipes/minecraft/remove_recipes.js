@@ -117,7 +117,8 @@ ServerEvents.recipes(event => {
         'coinsje:gold_coin',
         'coinsje:diamond_coin',
         'coinsje:netherite_coin',
-        "draconicevolution:draconium_ingot"
+        "draconicevolution:draconium_ingot",
+        "astralsorcery:starmetal_ingot"
     ]
     coinItems.forEach((item) => {
         event.remove({ output: item, type: 'minecraft:smelting' })

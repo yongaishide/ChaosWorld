@@ -1,0 +1,12 @@
+{
+  "type": "neovitae:array",
+  "addedinput": {
+    "item": "neovitae:blood_pearl"
+  },
+  "baseinput": {
+    "item": "neovitae:tabula_robur"
+  },
+  "effect_type": "vortex",
+  "ev_cost": 1,
+  "texture": "neovitae:textures/models/alchemyarrays/vortexsigil.png"
+}

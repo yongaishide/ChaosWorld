@@ -62,7 +62,8 @@ ServerEvents.recipes(event => {
         'allthecompressed:energizing/blazing_crystal_block/x0',
         'data_energistics:crafting/data_reassembler',
         'extendedae_plus:transform/lattra_crystal',
-        'nuclearcraftneohaul:alloy_furnace/pulsating_crystal'
+        'nuclearcraftneohaul:alloy_furnace/pulsating_crystal',
+        'tconstruct:common/materials/steel_ingot_from_nuggets'
         
     ]
     recipeTypeshapeless.forEach((item) => {

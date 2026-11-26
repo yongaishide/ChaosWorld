@@ -1,0 +1,14 @@
+{
+  "type": "neovitae:flask_length",
+  "effect": "minecraft:poison",
+  "exampleBaseDuration": 900,
+  "input": [
+    {
+      "item": "neovitae:mundane_lengthening_catalyst"
+    }
+  ],
+  "lengthDurationMod": 2.6667,
+  "syphon": 200,
+  "ticks": 100,
+  "upgradeLevel": 1
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "a": {
+      "tag": "neovitae:vitae_stone"
+    },
+    "b": {
+      "item": "minecraft:bucket"
+    },
+    "c": {
+      "item": "neovitae:rune_blank"
+    },
+    "d": {
+      "item": "neovitae:tabula_animata"
+    }
+  },
+  "pattern": [
+    "aba",
+    "bcb",
+    "ada"
+  ],
+  "result": {
+    "count": 1,
+    "id": "neovitae:rune_capacity"
+  }
+}

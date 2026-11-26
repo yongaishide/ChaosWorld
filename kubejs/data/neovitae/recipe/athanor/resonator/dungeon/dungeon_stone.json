@@ -1,0 +1,20 @@
+{
+  "type": "neovitae:athanor",
+  "guaranteed_outputs": [
+    {
+      "count": 16,
+      "id": "neovitae:dungeon_stone"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "minecraft:smooth_stone"
+    },
+    {
+      "item": "neovitae:raw_crystal_shard"
+    }
+  ],
+  "tool": {
+    "tag": "neovitae:athanor_tool/resonator"
+  }
+}

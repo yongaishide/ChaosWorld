@@ -1,16 +1,3 @@
-// ============================================================
-// 超精电路蚀刻机 —— 配方（服务端，/reload 生效）
-// 机器：mmcr_kubejs:machine_circuit   配方池：mmcr_kubejs:machine_circuit
-//
-// 移植说明（相对 1.12.2 的 scripts/modularmachinery/machines/modular_main.zs）：
-//   · circuit1/2/3 是「掩膜」，原脚本 .setChance(0) 表示不消耗 -> consume_chance: 0
-//   · 原来的 immersiveengineering:material:27 = immersiveengineering:circuit_board
-//   · plustic:osmiridiumingot 换成 mekanism:ingot_osmium（锇合金，同为锇系贵金属）
-//   · 终极/大师配方里的 environmentaltech:pladium_crystal 在 1.21.1 无对应，已取消
-//   · 终极配方里的液体液钠（liquid:nak）无对应流体，已取消；只保留固体输入
-//   · 其它 ContentTweaker 物品由 startup_scripts/mmcr/machine_circuit.js 重建为 kubejs:*
-// ============================================================
-
 ServerEvents.recipes(event => {
     const POOL = 'mmcr_kubejs:machine_circuit'
 

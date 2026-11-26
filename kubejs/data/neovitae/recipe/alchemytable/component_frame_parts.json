@@ -1,0 +1,21 @@
+{
+  "type": "neovitae:alchemytable",
+  "input": [
+    {
+      "tag": "c:glass_blocks"
+    },
+    {
+      "tag": "neovitae:vitae_stone"
+    },
+    {
+      "item": "neovitae:tabula_rasa"
+    }
+  ],
+  "output": {
+    "count": 2,
+    "id": "neovitae:component_frame_parts"
+  },
+  "syphon": 1000,
+  "ticks": 100,
+  "upgradeLevel": 3
+}

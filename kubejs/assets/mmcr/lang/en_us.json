@@ -34,6 +34,12 @@
     "item.mmcr.brick_alloy_furnace_controller": "Brick Alloy Furnace Controller",
     "recipe_pool.mmcr_kubejs.brick_alloy_furnace": "Brick Alloy Furnace",
 
+    "machine.mmcr_kubejs.industrial_blast_furnace": "Industrial Blast Furnace",
+    "block.mmcr.industrial_blast_furnace_controller": "Industrial Blast Furnace Controller",
+    "item.mmcr.industrial_blast_furnace_controller": "Industrial Blast Furnace Controller",
+    "recipe_pool.mmcr_kubejs.industrial_blast_furnace": "Industrial Blast Furnace",
+    "info.mmcr_kubejs.industrial_blast_furnace.min_coil_tier": "Requires tier %s coils or higher",
+
     "machine.mmcr_kubejs.small_assembler": "Small Assembler",
     "block.mmcr.small_assembler_controller": "Small Assembler Controller",
     "item.mmcr.small_assembler_controller": "Small Assembler Controller",

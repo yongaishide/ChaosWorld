@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "g": {
+      "tag": "c:glass_blocks"
+    },
+    "i": {
+      "tag": "c:ingots/gold"
+    },
+    "o": {
+      "type": "neovitae:orb_tier",
+      "tier": 3
+    },
+    "s": {
+      "item": "neovitae:tabula_spiritus"
+    }
+  },
+  "pattern": [
+    "gog",
+    "isi",
+    " s "
+  ],
+  "result": {
+    "count": 1,
+    "id": "neovitae:ritual_reader"
+  }
+}

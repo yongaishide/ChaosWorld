@@ -1,0 +1,20 @@
+{
+  "type": "neovitae:hellfire_forge",
+  "drain": 4000.0,
+  "inputs": [
+    {
+      "item": "neovitae:advanced_cutting_fluid"
+    },
+    {
+      "item": "neovitae:prismatic_spiritus_gem"
+    },
+    {
+      "item": "neovitae:tabula_aetherea"
+    }
+  ],
+  "minDrain": 5000.0,
+  "output": {
+    "count": 1,
+    "id": "neovitae:deus_cutting_fluid"
+  }
+}

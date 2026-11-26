@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "c": {
+      "type": "neovitae:orb_tier",
+      "tier": 1
+    },
+    "o": {
+      "tag": "c:obsidians"
+    },
+    "s": {
+      "item": "neovitae:tabula_robur"
+    }
+  },
+  "pattern": [
+    "oso",
+    "scs",
+    "oso"
+  ],
+  "result": {
+    "count": 4,
+    "id": "neovitae:ritual_stone"
+  }
+}

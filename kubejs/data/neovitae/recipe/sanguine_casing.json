@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "T": {
+      "item": "neovitae:tabula_animata"
+    },
+    "b": {
+      "item": "neovitae:bloodstone"
+    },
+    "d": {
+      "tag": "c:gems/diamond"
+    },
+    "i": {
+      "tag": "c:ingots/iron"
+    }
+  },
+  "pattern": [
+    "bdb",
+    "iTi",
+    "bib"
+  ],
+  "result": {
+    "count": 4,
+    "id": "neovitae:sanguine_casing"
+  }
+}

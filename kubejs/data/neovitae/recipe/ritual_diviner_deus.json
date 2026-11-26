@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "neovitae:tabula_aetherea"
+    },
+    "G": {
+      "item": "neovitae:prismatic_spiritus_gem"
+    },
+    "d": {
+      "item": "neovitae:ritual_diviner_tenebrae"
+    },
+    "t": {
+      "item": "neovitae:deus_scribe_tool"
+    }
+  },
+  "pattern": [
+    " G ",
+    "tdt",
+    " A "
+  ],
+  "result": {
+    "count": 1,
+    "id": "neovitae:ritual_diviner_deus"
+  }
+}

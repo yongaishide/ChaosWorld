@@ -1,36 +1,3 @@
-// ============================================================
-// MMCR 高炉 —— 阶段 3/3：数据驱动配方（服务期，可用 /reload 热重载）
-//
-// 配方 1：铁锭 x1 --100t--> 铁粒 x10（允许并行）
-// 配方 2：金锭 x1 --100t--> 金粒 x10（不允许并行）
-// 配方 3：燃料（mmcr_kubejs:blast_furnace_fuel，升温专用，无产出）
-//
-// —— 关于电与热：两个冶炼配方都不消耗 FE，也自己不产热。炉温改用 MMCR 自带的
-//   （Mekanism）热量系统：冶炼配方要求最低炉温 mekanism:temperature（单位 K），
-//   热量由机器的热量端口提供；燃料配方反过来把热量“输出”到机器里（mekanism:heat）。
-//   单位：K = 开尔文（1 °C = 273.15 K），J = 焦耳，J/t = 每 tick 焦耳。
-//   热量需求的字段名是 value，不是 heat！（从 LoadedHeatRequirement 的 codec 字节码读出：
-//   fieldOf("type") + optionalFieldOf("io") + fieldOf("value") + optionalFieldOf("tags")；
-//   写成 heat 会报 JsonParseException: No key value in MapLike[...]。）
-//
-// —— 关于燃料配方：
-//   * 输入是一个由所有在装 data map 合并出来的大 Ingredient（具体物品 + 原版
-//     标签），所以“任何有燃烧值的物品”都能塞进输入总线当燃料烧。
-//   * 为了让同一个配方对不同的燃料给出不同时长，这里的 tick_time 只写占位值
-//     100；真正的时长在 startup_scripts 的 beforeStart 里按
-//       燃烧值 / 10   （燃烧值 = ItemStack.getBurnTime(null)）
-//     改写，见 kubejs/startup_scripts/mmcr/kubejs_blast_furnace.js。
-//   * 它没有任何物品产出：烧燃料只为了把热量灌进机器、顶起炉温。
-//     注意它需要一个「热量输出仓」才能跑，否则会 heat_output_blocked。
-//
-// 注意：1.21.1 的 Ingredient 必须是对象或对象数组，不能用裸字符串。
-//   item  -> {"item": "命名空间:ID"} 或 {"tag": "标签"}，或它们的数组
-//   stack -> {"id": "命名空间:ID", "count": n}
-//   维基示例写的是 item: 'minecraft:iron_ingot'，在已装的 0.1.1 上会解析失败：
-//   JsonParseException: Failed to parse either. First: Not a json array: ...;
-//                       Second: Not a JSON object: "minecraft:iron_ingot"
-// ============================================================
-
 ServerEvents.recipes(event => {
     // ------------------------------------------------------------
     // 燃料白名单：合并自 12 个 jar 的 data_maps/item/furnace_fuels.json

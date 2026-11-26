@@ -4,7 +4,10 @@
 	filename: "6ba913128151b1ab"
 	group: "3349C1ACA6519635"
 	icon: {
-		id: "unbound:black_greatsword"
+		components: {
+			"ftbquests:icon": "data_energistics:block/data_sanctum/portal"
+		}
+		id: "ftbquests:custom_icon"
 	}
 	id: "6BA913128151B1AB"
 	images: [ ]
@@ -35,7 +38,7 @@
 				criterion: ""
 				icon: {
 					components: {
-						"ftbquests:icon": "unbound:block/gate/portal_nether"
+						"ftbquests:icon": "minecraft:block/nether_portal"
 					}
 					id: "ftbquests:custom_icon"
 				}
@@ -79,7 +82,7 @@
 				criterion: ""
 				icon: {
 					components: {
-						"ftbquests:icon": "aether:textures/gui/menu_api/menu_icon_aether.png"
+						"ftbquests:icon": "aether:block/miscellaneous/aether_portal"
 					}
 					id: "ftbquests:custom_icon"
 				}

@@ -1,29 +1,3 @@
-// ============================================================
-// MMCR 浇筑机 —— 熔融金属冷却成锭
-//
-// 配方池：mmcr_kubejs:casting_machine（与启动脚本里的机器 ID 一致）
-// 阶段：服务端配方，游戏里 /reload 生效，不用重启。
-//
-// 规则：
-//   <熔融金属> 144 mB  ->  <金属>锭 × 1
-//   熔融液 id：NC 有的用 nuclearcraftneohaul:<金属>，其余 alltheores:molten_<金属>（见 fluidOf()）。
-//   144 mB = 1 锭，和冶炼炉的换算一致（1 块 = 9 锭 = 1296 mB）。
-//   每条配方额外要求 immersiveengineering:mold_bullet_casing 模具 ×1，
-//   但 consume_chance: 0 —— 模具只是催化剂，不会被吃掉，放一次一直管用。
-//   模具必须放在结构里的 D 位（mmcr:item_input_bus_tiny 物品输入总线）里。
-//
-// 金属和锭的来源：
-//   19 种用 AllTheOres 自己的锭（alltheores:<金属>_ingot）
-//   铜/金/铁/下界合金用原版锭（minecraft:*_ingot），AllTheOres 没有这四种的独立锭
-//   NC 独有的 13 种金属（钆/铍/硼/镝/钬/锂/镁/锰/二氧化锰/氧化镍/钯/钍/锆）用
-//   nuclearcraftneohaul:<金属>_ingot，它们的熔融液也只有 NC 有
-//   Allthemodium 的 3 种金属（allthemodium:*_ingot）用它自己的熔融液 allthemodium:molten_*
-//   注意：3 种合金锭没有熔融液。Allthemodium 3.2.1 的 FluidRegistry 只注册了
-//   molten_allthemodium / molten_vibranium / molten_unobtainium（+ soul_lava），
-//   molten_atmvib / molten_vibunob / molten_atmunob 只剩语言键和 TiC 时代的 data 文件，
-//   流体本身没有注册，写进来会让整条配方解析失败，所以这里不生成合金浇筑配方。
-// ============================================================
-
 ServerEvents.recipes(event => {
     const POOL = 'mmcr_kubejs:casting_machine'
     const INGOT = 144          // 1 锭 = 144 mB

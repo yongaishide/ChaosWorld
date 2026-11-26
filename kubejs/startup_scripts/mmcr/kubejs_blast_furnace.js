@@ -1,37 +1,3 @@
-// ===========================================================================
-// MMCR 高炉 · 机器定义（启动期）+ 燃料驱动 + 控制器界面信息
-//
-// 本文件属于 startup_scripts：改完必须重启游戏才生效，/reload 无效。
-// 结构见 server_scripts/mmcr/structure/kubejs_blast_furnace.js
-// 配方见 server_scripts/recipes/mmcr/kubejs_blast_furnace.js
-//
-// 炉温不再由脚本模拟，改用 MMCR 自带的（Mekanism）热量系统：
-//   * 热量端口（mmcr:heat_input_hatch / mmcr:heat_output_hatch）自己存热量、
-//     自己向环境散热，热容 300 J/K；温度用开尔文 K（MMCR 界面本来就用 K）。
-//   * 冶炼配方带 mekanism:temperature 需求（单位 K），炉温不到就不启动，
-//     由 MMCR 原生报「温度不足」，脚本管不着也不用管。
-//   * 燃料配方带 mekanism:heat 输出（J/t），烧燃料 = 往机器里灌热。
-//   * 热量分「输入向 / 输出向」两套端口，中间没有内部通道：
-//     温度需求只认热量输入仓（炉温的出处），热量输出只进热量输出仓（烧燃料的落点）；
-//     热量输出仓每 tick 只会把热传给「紧挨着」的热量处理器，所以两个仓必须相邻，
-//     燃料烧出来的热才能变成炉温（结构里第 1 层的 (1,0)/(1,1) 就是为此留的相邻位）。
-//   脚本只负责三件事：
-//     ① 按燃烧值给燃料配方定长（燃烧值 / 10）；
-//     ② 炉温高时把冶炼配方的 tick_time 缩短（最多 3 倍速）；
-//     ③ 把这些数字写到控制器界面。
-//
-// 已经踩过的坑，写在最上面免得重犯：
-//   1. tick 回调里的 ctx.dataStorage() 是 null —— 这台机器的结构里没有「数据存储」方块，
-//      MMCR 只有在结构里带数据存储时才给 DataStorage，所以状态存脚本内存即可。
-//   2. KubeJS 的 Rhino 对「嵌套块里的 const/let」会抛 TypeError: redeclaration of var xxx，
-//      所以本文件一律用 var 并在函数顶部声明，循环也只用 var。
-//   3. 文本必须用 Text.string(...)；Text.of(...) 的参数是 Component，直接喂字符串会炸。
-//   4. ctx.ioView() 在结构没成形时可能是 null，读之前必须判空。
-//   5. 千万不要用 ctx.cancel() 挡「温度不够」的配方：不启动就永不升温，永远死锁。
-//      温度门槛交给原生需求，脚本只在没挡住时降速兜底。
-//   6. 温度需求看不见热量输出仓 —— 只有「热量输入仓」的温度才算炉温。如果机器里
-//      只有热量输出仓（没输入仓），或者两个仓不挨着，炉温永远是常温，界面要明说。
-// ===========================================================================
 MMCREvents.startup(event => {
     var api = event.getAPI()
     var SCOPE = api.screenScope()          // .CONTROLLER / .OPERATION

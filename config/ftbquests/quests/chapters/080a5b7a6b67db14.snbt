@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "080a5b7a6b67db14"
-	group: "6B9CFFEE5CD53D67"
+	group: "3349C1ACA6519635"
 	icon: {
 		id: "astralsorcery:tome"
 	}
 	id: "080A5B7A6B67DB14"
 	images: [ ]
-	order_index: 6
+	order_index: 4
 	quest_enhance_decorative_lines: [ ]
 	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
@@ -92,6 +92,85 @@
 			}]
 			x: 0.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["50ACBB56BC134B81"]
+			id: "5B5B39FF988A188B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "138983C484415DEC"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "astralsorcery:wand"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0511CD75941352CE"]
+			id: "1A3147A5F16D58CE"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "2B690D06B83B2BD3"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "astralsorcery:lightwell"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A3147A5F16D58CE"]
+			id: "597F754E2C4C0460"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1000L
+				id: "400ED029536CDDB9"
+				key_type: "ae2:f"
+				match_components: "strict"
+				resource: "astralsorcery:liquid_starlight"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["597F754E2C4C0460"]
+			id: "13C06E81C0337594"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "379BC70FCD5FA55A"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "astralsorcery:infused_wood"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			id: "4F990B77F58D3BC0"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "450F3AA5F91A0F52"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "astralsorcery:starmetal_ingot"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 4.5d
+			y: -2.0d
 		}
 	]
 }

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "tag": "c:ingots/iron"
+    },
+    "g": {
+      "tag": "c:ingots/gold"
+    },
+    "o": {
+      "item": "neovitae:tabula_rasa"
+    },
+    "s": {
+      "tag": "neovitae:vitae_stone"
+    },
+    "w": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "sss",
+    "wbw",
+    "gog"
+  ],
+  "result": {
+    "count": 1,
+    "id": "neovitae:tabula_vitae"
+  }
+}

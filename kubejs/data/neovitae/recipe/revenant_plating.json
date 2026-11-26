@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "h": {
+      "item": "neovitae:hellforged_parts"
+    },
+    "p": {
+      "item": "neovitae:revenant_plate"
+    }
+  },
+  "pattern": [
+    "ppp",
+    "php",
+    "ppp"
+  ],
+  "result": {
+    "count": 1,
+    "id": "neovitae:revenant_plating"
+  }
+}

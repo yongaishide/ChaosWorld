@@ -1,0 +1,17 @@
+{
+  "type": "neovitae:athanor",
+  "guaranteed_outputs": [
+    {
+      "count": 1,
+      "id": "neovitae:weak_blood_shard"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "neovitae:blood_orb_master"
+    }
+  ],
+  "tool": {
+    "tag": "neovitae:athanor_tool/reverter"
+  }
+}

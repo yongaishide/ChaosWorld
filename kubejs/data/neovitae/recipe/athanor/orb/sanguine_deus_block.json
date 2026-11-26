@@ -1,0 +1,30 @@
+{
+  "type": "neovitae:athanor",
+  "guaranteed_outputs": [
+    {
+      "count": 1,
+      "id": "neovitae:sanguine_deus_block"
+    }
+  ],
+  "input_fluid": {
+    "amount": 10000,
+    "ingredient": {
+      "fluid": "neovitae:essentia_vitae_source"
+    }
+  },
+  "inputs": [
+    {
+      "item": "neovitae:hellforged_block"
+    }
+  ],
+  "spiritus_costs": {
+    "invictus": 40.0,
+    "nihilum": 40.0,
+    "raw": 40.0,
+    "ruina": 40.0,
+    "vindicta": 40.0
+  },
+  "tool": {
+    "tag": "neovitae:athanor_tool/orb"
+  }
+}

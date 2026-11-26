@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "c": {
+      "item": "neovitae:sanguine_casing"
+    },
+    "h": {
+      "tag": "c:ingots/hellforged"
+    }
+  },
+  "pattern": [
+    " h ",
+    "hch",
+    " h "
+  ],
+  "result": {
+    "count": 1,
+    "id": "neovitae:hellforged_sanguine_casing"
+  }
+}

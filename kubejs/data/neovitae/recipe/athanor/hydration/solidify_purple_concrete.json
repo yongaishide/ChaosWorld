@@ -1,0 +1,23 @@
+{
+  "type": "neovitae:athanor",
+  "guaranteed_outputs": [
+    {
+      "count": 1,
+      "id": "minecraft:purple_concrete"
+    }
+  ],
+  "input_fluid": {
+    "amount": 200,
+    "ingredient": {
+      "fluid": "minecraft:water"
+    }
+  },
+  "inputs": [
+    {
+      "item": "minecraft:purple_concrete_powder"
+    }
+  ],
+  "tool": {
+    "tag": "neovitae:athanor_tool/hydration"
+  }
+}

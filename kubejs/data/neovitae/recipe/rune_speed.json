@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "a": {
+      "tag": "neovitae:vitae_stone"
+    },
+    "b": {
+      "item": "neovitae:tabula_rasa"
+    },
+    "c": {
+      "item": "minecraft:sugar"
+    },
+    "d": {
+      "item": "neovitae:rune_blank"
+    }
+  },
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "result": {
+    "count": 1,
+    "id": "neovitae:rune_speed"
+  }
+}

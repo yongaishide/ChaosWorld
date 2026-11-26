@@ -1,0 +1,11 @@
+{
+  "type": "neovitae:array",
+  "addedinput": {
+    "item": "minecraft:ender_eye"
+  },
+  "baseinput": {
+    "item": "neovitae:tabula_robur"
+  },
+  "effect_type": "ender_sever",
+  "texture": "neovitae:textures/models/alchemyarrays/enderseverarray.png"
+}

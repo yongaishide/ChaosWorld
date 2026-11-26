@@ -90,6 +90,14 @@
 		#Allow batch transfers of crafting materials. When disabled, transfer one craft at a time.
 		#允许批量推送合成材料。关闭后每次只推送一份。
 		omni_batch_dispatch_enabled = true
+		#Ticks before adaptive dispatch probes above the learned rate after a provider becomes busy or rejects a push.
+		#供应器变忙或拒收后，自适应发料再次尝试提高速率前等待的 tick 数。
+		# Default: 20
+		# Range: 1 ~ 1200
+		omni_dispatch_reprobe_interval_ticks = 20
+		#Enforce per-controller work and call limits and the server-wide single-craft time budget.
+		#启用每个核心的工作单元和单份推送次数上限，以及全服共享的单份派发时间预算。
+		omni_dispatch_limits_enabled = true
 		#Maximum single-craft dispatch calls per Omni-Computation Core per tick.
 		#每个万物演算核心每 tick 的单份配方推送次数上限。
 		# Default: 2147483647
@@ -111,14 +119,6 @@
 		#Return UselessMod intermediate outputs directly to their bound CPU on the same network.
 		#将 UselessMod 中间产物直接返回同一网络中绑定的 CPU。
 		omni_direct_native_output_return = true
-		#Ticks before adaptive dispatch probes above the learned rate after a provider becomes busy or rejects a push.
-		#供应器变忙或拒收后，自适应发料再次尝试提高速率前等待的 tick 数。
-		# Default: 20
-		# Range: 1 ~ 1200
-		omni_dispatch_reprobe_interval_ticks = 20
-		#Enforce per-controller work and call limits and the server-wide single-craft time budget.
-		#启用每个核心的工作单元和单份推送次数上限，以及全服共享的单份派发时间预算。
-		omni_dispatch_limits_enabled = true
 
 #Transfinite Compute Nexus power settings.
 #超限算枢耗电设置。

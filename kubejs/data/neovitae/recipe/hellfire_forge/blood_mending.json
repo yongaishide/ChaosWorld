@@ -1,0 +1,16 @@
+{
+  "type": "neovitae:hellfire_forge_upgrade",
+  "catalysts": [
+    {
+      "item": "neovitae:tabula_robur"
+    },
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    }
+  ],
+  "drain": 200.0,
+  "minDrain": 400.0
+}

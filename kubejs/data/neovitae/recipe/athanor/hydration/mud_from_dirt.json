@@ -1,0 +1,23 @@
+{
+  "type": "neovitae:athanor",
+  "guaranteed_outputs": [
+    {
+      "count": 1,
+      "id": "minecraft:mud"
+    }
+  ],
+  "input_fluid": {
+    "amount": 200,
+    "ingredient": {
+      "fluid": "minecraft:water"
+    }
+  },
+  "inputs": [
+    {
+      "item": "minecraft:dirt"
+    }
+  ],
+  "tool": {
+    "tag": "neovitae:athanor_tool/hydration"
+  }
+}
