@@ -12,19 +12,400 @@
 	quest_enhance_decorative_lines: [ ]
 	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
-	quests: [{
-		id: "0C9A409A468F748A"
-		quest_enhance_disable_scroll_paging: false
-		tasks: [{
-			amount: 1L
-			id: "7F6186443326BE7F"
-			key_type: "ae2:i"
-			match_components: "strict"
-			resource: "avaritia:eternal_singularity"
-			tag: ""
-			type: "chaosworld_core:ae_resource"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: [
+				"189889AAAAD50616"
+				"1AA79DC9264F2C12"
+				"5BCA7709A68047A5"
+				"771D4BD8A94A4059"
+				"5207BB60B29A4E6A"
+				"20D15D71001626FE"
+				"0541B74609A083FD"
+				"77D44F1CDDA3F940"
+				"4368AC30F52D5EBE"
+				"7B076BC0014F9875"
+				"2AEC5D579BBB1FBE"
+			]
+			id: "0C9A409A468F748A"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "276BB6040FD6DD5D"
+					table_id: 4424396896501974822L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "70B955EE59F2BEE1"
+					table_id: 8533947004007360142L
+					type: "random"
+				}
+			]
+			tasks: [{
+				amount: 1L
+				id: "7F6186443326BE7F"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "avaritia:eternal_singularity"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "189889AAAAD50616"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3428A295B278DC33"
+				table_id: 8533947004007360142L
+				type: "random"
+			}]
+			tasks: [{
+				amount: 1L
+				components: {
+					"avaritia:singularity_id": "chaosworld_core:runes_1"
+				}
+				id: "4425CAF04D1D1233"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "avaritia:singularity"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			id: "77D44F1CDDA3F940"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "396B0FF930058A8F"
+				table_id: 8533947004007360142L
+				type: "random"
+			}]
+			tasks: [{
+				amount: 1L
+				components: {
+					"avaritia:singularity_id": "chaosworld_core:plastic"
+				}
+				id: "640BBA5DDEDA027C"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "avaritia:singularity"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			id: "20D15D71001626FE"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C9FCC27431B2FAF"
+				table_id: 8533947004007360142L
+				type: "random"
+			}]
+			tasks: [{
+				amount: 1L
+				components: {
+					"avaritia:singularity_id": "chaosworld_core:redstone_alloy"
+				}
+				id: "3949DF47547F877C"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "avaritia:singularity"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			id: "5BCA7709A68047A5"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1065F0C3AADAA006"
+				table_id: 8533947004007360142L
+				type: "random"
+			}]
+			tasks: [{
+				amount: 1L
+				components: {
+					"avaritia:singularity_id": "chaosworld_core:infinite_runes"
+				}
+				id: "3C4A7B78C4C2210B"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "avaritia:singularity"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "2AEC5D579BBB1FBE"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37A6A7334581EDAD"
+				table_id: 8533947004007360142L
+				type: "random"
+			}]
+			tasks: [{
+				amount: 1L
+				components: {
+					"avaritia:singularity_id": "chaosworld_core:twilight_alloy"
+				}
+				id: "358DCAE04233916A"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "avaritia:singularity"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "0541B74609A083FD"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5232F0CD14BDCC7B"
+				table_id: 8533947004007360142L
+				type: "random"
+			}]
+			tasks: [{
+				amount: 1L
+				components: {
+					"avaritia:singularity_id": "chaosworld_core:crystal_matrix_ingot"
+				}
+				id: "0B6B9450B7702D7D"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "avaritia:singularity"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			id: "4368AC30F52D5EBE"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "16D63A6D218D5DF6"
+				table_id: 8533947004007360142L
+				type: "random"
+			}]
+			tasks: [{
+				amount: 1L
+				components: {
+					"avaritia:singularity_id": "chaosworld_core:awakened_draconium"
+				}
+				id: "32FB17DBCDE06B7C"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "avaritia:singularity"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "7B076BC0014F9875"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D226889E1B5AA52"
+				table_id: 8533947004007360142L
+				type: "random"
+			}]
+			tasks: [{
+				amount: 1L
+				components: {
+					"avaritia:singularity_id": "chaosworld_core:allthemodium"
+				}
+				id: "5BA32A42C7A84E5C"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "avaritia:singularity"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "5207BB60B29A4E6A"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3648C9B9659098F4"
+				table_id: 8533947004007360142L
+				type: "random"
+			}]
+			tasks: [{
+				amount: 1L
+				components: {
+					"avaritia:singularity_id": "chaosworld_core:unobtainium"
+				}
+				id: "4F2D0A7B3E352113"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "avaritia:singularity"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "1AA79DC9264F2C12"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13A6E9847AFACCCF"
+				table_id: 8533947004007360142L
+				type: "random"
+			}]
+			tasks: [{
+				amount: 1L
+				components: {
+					"avaritia:singularity_id": "chaosworld_core:data_crystal"
+				}
+				id: "090ADB582E4A19B1"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "avaritia:singularity"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			id: "771D4BD8A94A4059"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2930AC204DAB554A"
+				table_id: 8533947004007360142L
+				type: "random"
+			}]
+			tasks: [{
+				amount: 1L
+				components: {
+					"avaritia:singularity_id": "chaosworld_core:vibranium"
+				}
+				id: "568387B8CDAA5BA4"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "avaritia:singularity"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			id: "370B02BB90DE22C8"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "568BBC1E1FB38992"
+				table_id: 8533947004007360142L
+				type: "random"
+			}]
+			tasks: [{
+				amount: 1L
+				components: {
+					"avaritia:singularity_id": "chaosworld_core:quantum_alloy"
+				}
+				id: "3A26836E6CC4A058"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "avaritia:singularity"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5CCCA915916790E6"]
+			id: "3A2F9F1137099761"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "159AFFCFFCC346D0"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "avaritia:neutron_compressor"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3A2F9F1137099761"]
+			id: "0DAE38760B04C64E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "7B05718C5C9ED43C"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "avaritia:dense_neutron_compressor"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0DAE38760B04C64E"]
+			id: "33CA8942EBC37FCD"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "7B06697DCD6CC830"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "avaritia:denser_neutron_compressor"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["33CA8942EBC37FCD"]
+			id: "66239222AC846161"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "588BF2314A2E9BED"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "avaritia:densest_neutron_compressor"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+	]
 }

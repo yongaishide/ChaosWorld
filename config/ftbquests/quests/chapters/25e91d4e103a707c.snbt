@@ -11,12 +11,20 @@
 	order_index: 0
 	quest_enhance_decorative_lines: [ ]
 	quest_enhance_hidden_dependency_lines: [ ]
-	quest_links: [{
-		id: "28934F7FF2F9DFEA"
-		linked_quest: "5CCCA915916790E6"
-		x: -7.5d
-		y: 2.0d
-	}]
+	quest_links: [
+		{
+			id: "28934F7FF2F9DFEA"
+			linked_quest: "5CCCA915916790E6"
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			id: "597BFE8490AB3746"
+			linked_quest: "3A2F9F1137099761"
+			x: -5.5d
+			y: 2.0d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["5E69566DF786692A"]
@@ -383,22 +391,6 @@
 				type: "checkmark"
 			}]
 			x: -3.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["5CCCA915916790E6"]
-			id: "3A2F9F1137099761"
-			quest_enhance_disable_scroll_paging: false
-			tasks: [{
-				amount: 1L
-				id: "159AFFCFFCC346D0"
-				key_type: "ae2:i"
-				match_components: "none"
-				resource: "avaritia:neutron_compressor"
-				tag: ""
-				type: "chaosworld_core:ae_resource"
-			}]
-			x: -5.5d
 			y: 2.0d
 		}
 		{

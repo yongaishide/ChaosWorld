@@ -8,6 +8,18 @@ donator_cape = true
 [graphics]
 	#When true, aspect tag amount and bonus counters render at full font size. When false, they render half-scale to fit narrow GUIs.
 	large_tag_text = false
+	#Show the short mist caused by nearby Eldritch Guardians.
+	eldritch_guardian_fog = true
+	#Show the mist caused by Warp events.
+	warp_mist_fog = true
+	#Show dense fog in heavily tainted areas.
+	taint_environment_fog = true
+	#Show the purple underwater fog in Tainted Lands.
+	tainted_lands_water_fog = true
+	#Show the pink fog while submerged in Flux Goo.
+	flux_goo_fog = true
+	#Show the dark fog in the Outer Lands.
+	outer_lands_fog = true
 
 [hud]
 	#When true, the caster vis dial renders at the bottom left of the screen instead of the top left.

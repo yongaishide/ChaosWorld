@@ -931,3 +931,30 @@
 		# Default: 64
 		# Range: 1 ~ 512
 		extendedMaxEntitiesPerTick = 64
+
+	#Tiered Solar Panel Settings
+	[jdte.solarPanel]
+		# Default: 46080
+		# Range: > 1
+		concentratedGeneration = 46080
+		# Default: 4608000
+		# Range: > 1
+		concentratedCapacity = 4608000
+		# Default: 184320
+		# Range: > 1
+		singularityGeneration = 184320
+		# Default: 18432000
+		# Range: > 1
+		singularityCapacity = 18432000
+		# Default: 737280
+		# Range: > 1
+		stellarFusionGeneration = 737280
+		# Default: 73728000
+		# Range: > 1
+		stellarFusionCapacity = 73728000
+		# Default: 2949120
+		# Range: > 1
+		dimensionalCollapseGeneration = 2949120
+		# Default: 294912000
+		# Range: > 1
+		dimensionalCollapseCapacity = 294912000

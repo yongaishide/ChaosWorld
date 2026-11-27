@@ -24,6 +24,10 @@
 	#Whether idle cultists occasionally relieve themselves of a harmless illusory mind spider on April 1st.
 	aprilFools = true
 
+[labyrinth]
+	#Allow entry to and generation of new labyrinths. Existing occupants can still leave.
+	enabled = true
+
 	[labyrinth.generation]
 		#Multiplier on the maze size rolled from the labyrinth definition. The result is clamped to 9..41 cells and kept odd.
 		# Default: 1.0
@@ -243,3 +247,7 @@
 		# Default: 16
 		# Range: 4 ~ 64
 		crabVentActivationRange = 16
+
+[cultists]
+	#Whether cultist fireballs set blocks on fire. Disabling this still allows them to damage and ignite living targets.
+	fireballsIgniteBlocks = true

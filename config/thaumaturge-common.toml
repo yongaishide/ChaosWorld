@@ -34,14 +34,14 @@
 	# Range: 20 ~ 1000000
 	taintStarveTicks = 12000
 	#Flux a freshly generated Tainted Lands chunk starts with, as a multiple of its base aura. The tainted nodes and seeds there feed on it. 0 leaves Tainted Lands dormant until flux reaches them.
-	# Default: 1.0
+	# Default: 0.35
 	# Range: 0.0 ~ 10.0
 	taintedLandsStartingFlux = 1.0
 	#Allows deep, exposed Flux Goo to fester into a taint seed.
 	taintFromFlux = true
-	#Allows physical Flux Goo and Gas to sustain a capped minimum Aura Flux in their chunk. Disabling this does not remove physical Flux.
+	#Allows physical Flux Goo and Gas to slowly turn into Aura Flux below a cap in their chunk, consuming the converted waste.
 	physicalFluxAuraFloor = true
-	#Allows large accumulations of Flux Goo and Gas to sprout a taint seed independently of individual Goo blocks.
+	#Allows large accumulations of Flux Goo and Gas to consume part of a pocket to sprout a taint seed.
 	physicalFluxTaintOutbreaks = true
 	#Allows high Aura Flux to trigger Flux-pressure events. Disabling this does not affect Flux Rifts.
 	fluxPressureEvents = true
@@ -103,6 +103,12 @@
 	allowChampionMobs = true
 	#Setting this to true will make you get the recipe book for salis mundus without having to sleep first.
 	noSleep = false
+	#Generate Magical Forest biomes. Takes effect when world data is loaded; existing chunks are unchanged.
+	generateMagicalForest = true
+	#Generate Magical Forest Caves biomes. Takes effect when world data is loaded; existing chunks are unchanged.
+	generateMagicalForestCaves = true
+	#Generate natural Tainted Lands biomes. Does not disable taint spread. Takes effect when world data is loaded; existing chunks are unchanged.
+	generateTaintedLands = true
 
 	[world.nodes]
 		#Chance (%) of a wild node placement attempt per Overworld chunk. Default: ~2.7778% (1 in 36 chunks). 0 disables wild node generation.

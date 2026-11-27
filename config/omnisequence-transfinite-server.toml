@@ -90,21 +90,13 @@
 		#Allow batch transfers of crafting materials. When disabled, transfer one craft at a time.
 		#允许批量推送合成材料。关闭后每次只推送一份。
 		omni_batch_dispatch_enabled = true
-		#Ticks before adaptive dispatch probes above the learned rate after a provider becomes busy or rejects a push.
-		#供应器变忙或拒收后，自适应发料再次尝试提高速率前等待的 tick 数。
-		# Default: 20
-		# Range: 1 ~ 1200
-		omni_dispatch_reprobe_interval_ticks = 20
-		#Enforce per-controller work and call limits and the server-wide single-craft time budget.
-		#启用每个核心的工作单元和单份推送次数上限，以及全服共享的单份派发时间预算。
-		omni_dispatch_limits_enabled = true
 		#Maximum single-craft dispatch calls per Omni-Computation Core per tick.
 		#每个万物演算核心每 tick 的单份配方推送次数上限。
 		# Default: 2147483647
 		# Range: > 256
 		omni_compat_dispatch_max_calls_per_tick = 2147483647
 		#Maximum single-craft dispatch time per tick in microseconds, shared by all active Omni-Computation Cores. The budget shrinks as average server MSPT approaches 45.
-		#所有活跃万物演算核心共享的每 tick 单份配方派发时间预算（微秒），平均 MSPT 接近 45 时自动收缩。
+		#所有活跃万物演算核心共享的每 tick 单份配方派发时间预算（微秒）；平均 MSPT 接近 45 时自动收缩。
 		# Default: 50000
 		# Range: 250 ~ 50000
 		omni_compat_dispatch_max_time_us = 50000
@@ -128,3 +120,22 @@
 	# Default: 16384
 	# Range: > 1
 	idle_power = 16384
+
+#Star Sea Calculation Mainframe production and power settings.
+#星海解算主楼的产出与耗能设置。
+[star_sea_calculation]
+	#Base Star Signal output per operating local tick, in bits. Default: 128.
+	#每个有效本地工作刻的基础星讯产量（bit），默认 128。
+	# Default: 128
+	# Range: 1 ~ 1000000
+	output_bits_per_tick = 128
+	#AE consumed per operating local tick. The dimension output bonus does not increase this cost. Set 0 for free operation. Default: 1024.
+	#每个有效本地工作刻的 AE 消耗，维度产出加成不增加此能耗；设为 0 可免耗能运行。默认 1024。
+	# Default: 1024.0
+	# Range: 0.0 ~ 2.147483647E9
+	energy_per_tick = 1024.0
+	#Output multiplier in the Detached Signal Realm. Its half-speed/double-speed simulation applies separately. Default: 8.
+	#离讯之境中的产出倍率，默认 8；该维度的半速／双速时间另外影响每秒工作次数。
+	# Default: 8
+	# Range: 1 ~ 1000000
+	detached_signal_output_multiplier = 8
