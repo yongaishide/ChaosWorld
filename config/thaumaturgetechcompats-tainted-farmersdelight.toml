@@ -1,0 +1,220 @@
+[tainted_food]
+	#Turns the tainted Farmer's Delight foods off completely: no items, no recipes. Needs a game restart.
+	enabled = true
+	#Tainted Farmer's Delight foods that exist, by item id. Remove an entry to remove that food and its recipe. Needs a game restart.
+	foods = ["tainted_beef_stew", "tainted_chicken_soup", "tainted_vegetable_soup", "tainted_fish_stew", "tainted_baked_cod_stew", "tainted_noodle_soup", "tainted_fried_rice", "tainted_ratatouille", "tainted_steak_and_potatoes", "tainted_hamburger", "tainted_bacon_sandwich", "tainted_cooked_bacon", "tainted_beef_patty", "tainted_dumplings"]
+	#Multiplies the hunger that the original food restores. Needs a game restart.
+	# Default: 1.5
+	# Range: 0.1 ~ 20.0
+	hunger_multiplier = 1.5
+	#Multiplies the saturation that the original food restores. Needs a game restart.
+	# Default: 1.5
+	# Range: 0.0 ~ 20.0
+	saturation_multiplier = 1.5
+
+[food_effect]
+	#Effect applied by every tainted Farmer's Delight food. The default is the Flux Taint of Thaumaturge.
+	id = "thaumaturge:flux_taint"
+	#Base duration of the effect, in ticks.
+	# Default: 200
+	# Range: 0 ~ 1000000
+	duration_ticks = 200
+	#Multiplies the duration of the effect. 0 removes the effect from the tainted foods. Needs a game restart.
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	duration_multiplier = 1.0
+	#Amplifier of the effect. 0 is level one.
+	# Default: 0
+	# Range: 0 ~ 255
+	amplifier = 0
+	#Chance that eating a tainted food applies the effect. Needs a game restart.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	chance = 1.0
+
+[knives]
+	#Turns the thaumium, alchemical brass and void metal knives off completely: no items, no recipes. Needs a game restart.
+	enabled = true
+	#Knives that exist, by item id. Remove an entry to remove that knife and its recipe. Needs a game restart.
+	knives = ["thaumium_knife", "alchemical_brass_knife", "void_metal_knife"]
+
+	#Stats of the thaumium_knife. Needs a game restart.
+	[knives.thaumium_knife]
+		#Durability. The iron knife of Farmer's Delight has 375.
+		# Default: 450
+		# Range: 1 ~ 100000
+		durability = 450
+		#Attack damage added to the 0.5 base of every Farmer's Delight knife. The iron knife adds 2.0.
+		# Default: 2.5
+		# Range: 0.0 ~ 1000.0
+		damage_bonus = 2.5
+		#Attack speed modifier. The knives of Farmer's Delight use -2.0, and higher is faster.
+		# Default: -1.9
+		# Range: -3.9 ~ 10.0
+		attack_speed = -1.9
+		#Mining speed on the blocks a knife is good at. The iron knife uses 6.0.
+		# Default: 6.5
+		# Range: 0.1 ~ 1000.0
+		mining_speed = 6.5
+		#Enchantability. The iron knife has 14.
+		# Default: 16
+		# Range: 0 ~ 100
+		enchantability = 16
+		#Chance that a hit applies the knife effect.
+		# Default: 0.0
+		# Range: 0.0 ~ 1.0
+		taint_chance = 0.0
+		#Duration of the knife effect, in ticks. 0 removes the effect from this knife.
+		# Default: 0
+		# Range: 0 ~ 1000000
+		taint_duration_ticks = 0
+
+	#Stats of the alchemical_brass_knife. Needs a game restart.
+	[knives.alchemical_brass_knife]
+		#Durability. The iron knife of Farmer's Delight has 375.
+		# Default: 800
+		# Range: 1 ~ 100000
+		durability = 800
+		#Attack damage added to the 0.5 base of every Farmer's Delight knife. The iron knife adds 2.0.
+		# Default: 3.0
+		# Range: 0.0 ~ 1000.0
+		damage_bonus = 3.0
+		#Attack speed modifier. The knives of Farmer's Delight use -2.0, and higher is faster.
+		# Default: -1.8
+		# Range: -3.9 ~ 10.0
+		attack_speed = -1.8
+		#Mining speed on the blocks a knife is good at. The iron knife uses 6.0.
+		# Default: 7.5
+		# Range: 0.1 ~ 1000.0
+		mining_speed = 7.5
+		#Enchantability. The iron knife has 14.
+		# Default: 20
+		# Range: 0 ~ 100
+		enchantability = 20
+		#Chance that a hit applies the knife effect.
+		# Default: 0.0
+		# Range: 0.0 ~ 1.0
+		taint_chance = 0.0
+		#Duration of the knife effect, in ticks. 0 removes the effect from this knife.
+		# Default: 0
+		# Range: 0 ~ 1000000
+		taint_duration_ticks = 0
+
+	#Stats of the void_metal_knife. Needs a game restart.
+	[knives.void_metal_knife]
+		#Durability. The iron knife of Farmer's Delight has 375.
+		# Default: 1300
+		# Range: 1 ~ 100000
+		durability = 1300
+		#Attack damage added to the 0.5 base of every Farmer's Delight knife. The iron knife adds 2.0.
+		# Default: 4.0
+		# Range: 0.0 ~ 1000.0
+		damage_bonus = 4.0
+		#Attack speed modifier. The knives of Farmer's Delight use -2.0, and higher is faster.
+		# Default: -1.7
+		# Range: -3.9 ~ 10.0
+		attack_speed = -1.7
+		#Mining speed on the blocks a knife is good at. The iron knife uses 6.0.
+		# Default: 9.0
+		# Range: 0.1 ~ 1000.0
+		mining_speed = 9.0
+		#Enchantability. The iron knife has 14.
+		# Default: 24
+		# Range: 0 ~ 100
+		enchantability = 24
+		#Chance that a hit applies the knife effect.
+		# Default: 0.35
+		# Range: 0.0 ~ 1.0
+		taint_chance = 0.35
+		#Duration of the knife effect, in ticks. 0 removes the effect from this knife.
+		# Default: 100
+		# Range: 0 ~ 1000000
+		taint_duration_ticks = 100
+
+[knife_effect]
+	#Effect that a knife applies to what it hits when its chance and duration allow it. The default is the Flux Taint of Thaumaturge.
+	id = "thaumaturge:flux_taint"
+	#Amplifier of the effect. 0 is level one.
+	# Default: 0
+	# Range: 0 ~ 255
+	amplifier = 0
+
+[flux_knife]
+	#Turns the Flux Knife off completely: no item, no recipe. Needs a game restart.
+	enabled = true
+	#Durability of the Flux Knife. Needs a game restart.
+	# Default: 700
+	# Range: 1 ~ 100000
+	durability = 700
+	#Attack damage that the Flux Knife adds to the 0.5 base of every Farmer's Delight knife. Needs a game restart.
+	# Default: 3.5
+	# Range: 0.0 ~ 1000.0
+	damage_bonus = 3.5
+	#Attack speed modifier of the Flux Knife. Needs a game restart.
+	# Default: -1.8
+	# Range: -3.9 ~ 10.0
+	attack_speed = -1.8
+	#Mining speed of the Flux Knife on the blocks a knife is good at. Needs a game restart.
+	# Default: 8.0
+	# Range: 0.1 ~ 1000.0
+	mining_speed = 8.0
+	#Enchantability of the Flux Knife. Needs a game restart.
+	# Default: 22
+	# Range: 0 ~ 100
+	enchantability = 22
+
+	[flux_knife.rift]
+		#Lets the Flux Knife open a flux rift on the block it is used on.
+		enabled = true
+		#The rift only opens while sneaking, so the knife keeps working as a normal knife on every other block.
+		require_sneak = true
+		#Initial size of the rift. Thaumaturge caps rifts at 100.
+		# Default: 5
+		# Range: 1 ~ 100
+		initial_size = 5
+		#What opening a rift costs in the aura of the chunk where it opens. none: nothing. drain_flux: the flux of that chunk, and it fails if there is not enough. drain_vis: the vis of that chunk, and it fails if there is not enough.
+		cost_mode = "drain_flux"
+		#Multiplies the aura cost. At 1.0 a rift costs size squared divided by 3, which is how Thaumaturge turns flux into rift size.
+		# Default: 1.0
+		# Range: 0.0 ~ 1000.0
+		cost_factor = 1.0
+		#Durability that opening a rift wears off the knife.
+		# Default: 10
+		# Range: 0 ~ 10000
+		durability_cost = 10
+		#Ticks before the knife can open another rift.
+		# Default: 200
+		# Range: 0 ~ 1000000
+		cooldown_ticks = 200
+		#Sound played when a rift opens. An empty or unknown id plays nothing.
+		sound = "minecraft:block.portal.trigger"
+		#Volume of that sound.
+		# Default: 1.0
+		# Range: 0.0 ~ 10.0
+		sound_volume = 1.0
+		#Particle sent where a rift opens. It has to be a particle without parameters. An empty or unknown id sends nothing.
+		particle = "minecraft:portal"
+		#How many of those particles.
+		# Default: 48
+		# Range: 0 ~ 1000
+		particle_count = 48
+
+	[flux_knife.cutting]
+		#Food cut with the Flux Knife on the Cutting Board turns into flux in the aura.
+		enabled = true
+		#flux_and_item: the cut gives its normal result and adds flux to the aura. flux_only: the food results of the cut are not given, only the flux.
+		mode = "flux_and_item"
+		#Only cuts of food make flux. When off, every recipe cut with the knife adds the base flux.
+		food_only = true
+		#Flux that every cut adds before counting the nutrition of the food.
+		# Default: 0.5
+		# Range: 0.0 ~ 1000.0
+		base_flux = 0.5
+		#Flux added per point of nutrition of the item that is cut. If the cut item has no nutrition, the food results of the recipe are counted.
+		# Default: 0.25
+		# Range: 0.0 ~ 1000.0
+		flux_per_nutrition = 0.25
+		#Most flux that one cut can add.
+		# Default: 6.0
+		# Range: 0.0 ~ 10000.0
+		max_flux = 6.0

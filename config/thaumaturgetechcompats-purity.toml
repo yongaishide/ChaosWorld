@@ -1,0 +1,33 @@
+[purification_potion]
+	#Lets the Purification Splash Potion cure anything when it breaks.
+	enabled = true
+	#Horizontal radius, in blocks, of the area the potion purifies.
+	# Default: 4.0
+	# Range: 0.5 ~ 32.0
+	radius = 4.0
+	#Chance, from 0 to 1, that each infected creature in the area is cured.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	cure_chance = 1.0
+	#Cures tamed creatures that have an owner.
+	cure_pets = true
+	#Cures animals, villagers and any other creature that is not hostile and not a pet.
+	cure_peaceful_mobs = true
+	#Cures hostile creatures.
+	cure_monsters = true
+	#Removes the flux effects from players in the area.
+	cure_players = true
+	#Also removes the flux taint effect, so a creature cannot be infected when it is about to die.
+	remove_flux_effects = true
+	#Health points restored to a creature when it is cured. 0 disables it.
+	# Default: 4.0
+	# Range: 0.0 ~ 1024.0
+	heal_amount = 4.0
+	#Ticks a player has to wait before throwing another potion. 0 disables it.
+	# Default: 0
+	# Range: 0 ~ 72000
+	use_cooldown_ticks = 0
+	#Shows happy villager particles over every cured creature.
+	particles = true
+	#Entity type ids that the potion never cures, for example minecraft:cow.
+	blacklist = []

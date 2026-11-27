@@ -1,0 +1,71 @@
+[node_stabilizers]
+	#Gives the Avaritia node stabilizers their own lock levels. When false they behave exactly like the Advanced Node Stabilizer.
+	enabled = true
+	#How many times slower a node above the matrix stabilizer feeds on the aura. The basic stabilizer uses 2 and the advanced one 20.
+	# Default: 50
+	# Range: 1 ~ 1000000
+	matrix_feeding_interval_factor = 50
+	#How many times slower a node above the neutronium stabilizer feeds on the aura. The basic stabilizer uses 2 and the advanced one 20.
+	# Default: 200
+	# Range: 1 ~ 1000000
+	neutronium_feeding_interval_factor = 200
+	#How many times slower a node above the infinity stabilizer feeds on the aura. The basic stabilizer uses 2 and the advanced one 20.
+	# Default: 1000
+	# Range: 1 ~ 1000000
+	infinity_feeding_interval_factor = 1000
+
+[node_transducers]
+	#Gives the Avaritia node transducers their faster charging. When false they behave exactly like the Node Transducer.
+	enabled = true
+	#Charge points the matrix transducer adds each tick instead of 1. A node is energized at 1000 points.
+	# Default: 2
+	# Range: 1 ~ 1000
+	matrix_charge_per_tick = 2
+	#The matrix transducer only loses a charge point once every this many ticks while it has no redstone signal.
+	# Default: 2
+	# Range: 1 ~ 1000
+	matrix_decay_interval = 2
+	#Charge points the neutronium transducer adds each tick instead of 1. A node is energized at 1000 points.
+	# Default: 4
+	# Range: 1 ~ 1000
+	neutronium_charge_per_tick = 4
+	#The neutronium transducer only loses a charge point once every this many ticks while it has no redstone signal.
+	# Default: 4
+	# Range: 1 ~ 1000
+	neutronium_decay_interval = 4
+	#Charge points the infinity transducer adds each tick instead of 1. A node is energized at 1000 points.
+	# Default: 10
+	# Range: 1 ~ 1000
+	infinity_charge_per_tick = 10
+	#The infinity transducer only loses a charge point once every this many ticks while it has no redstone signal.
+	# Default: 10
+	# Range: 1 ~ 1000
+	infinity_decay_interval = 10
+
+[alchemical_furnaces]
+	#Gives the Avaritia alchemical furnaces their speed and savings. When false they behave exactly like the Advanced Alchemical Furnace.
+	enabled = true
+	#The pause between two items of the matrix furnace is divided by this number.
+	# Default: 2
+	# Range: 1 ~ 1000
+	matrix_speed = 2
+	#Percentage of heat, perditio and aqua the matrix furnace gives back after smelting an item.
+	# Default: 25
+	# Range: 0 ~ 100
+	matrix_savings_percent = 25
+	#The pause between two items of the neutronium furnace is divided by this number.
+	# Default: 4
+	# Range: 1 ~ 1000
+	neutronium_speed = 4
+	#Percentage of heat, perditio and aqua the neutronium furnace gives back after smelting an item.
+	# Default: 50
+	# Range: 0 ~ 100
+	neutronium_savings_percent = 50
+	#The pause between two items of the infinity furnace is divided by this number.
+	# Default: 10
+	# Range: 1 ~ 1000
+	infinity_speed = 10
+	#Percentage of heat, perditio and aqua the infinity furnace gives back after smelting an item.
+	# Default: 90
+	# Range: 0 ~ 100
+	infinity_savings_percent = 90

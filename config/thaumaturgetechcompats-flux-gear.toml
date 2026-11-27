@@ -1,0 +1,73 @@
+[portable_void_siphon]
+	#Dimensional Flux a Portable Void Siphon can hold.
+	# Default: 2000000
+	# Range: 1 ~ 2305843009213693951
+	capacity = 2000000
+	#Dimensional Flux the siphon uses every second while it is held down.
+	# Default: 2000
+	# Range: 1 ~ 2305843009213693951
+	cost_per_second = 2000
+	#Ticks between two payments of the cost and two draws of residual flux.
+	# Default: 5
+	# Range: 1 ~ 20
+	interval = 5
+	#Radius in blocks in which the siphon pulls items and experience towards the player.
+	# Default: 8.0
+	# Range: 1.0 ~ 64.0
+	radius = 8.0
+	#Blocks per tick at which pulled items and experience travel.
+	# Default: 0.5
+	# Range: 0.05 ~ 4.0
+	pull_speed = 0.5
+	#The siphon pulls the items lying on the ground.
+	absorb_items = true
+	#The siphon pulls experience orbs.
+	absorb_experience = true
+	#While held down, the siphon draws the flux of the aura of the chunk and turns it into its own Dimensional Flux, which also cleans the aura a little.
+	residual_enabled = true
+	#Most aura flux the siphon draws every second.
+	# Default: 0.5
+	# Range: 0.0 ~ 1000.0
+	residual_flux_per_second = 0.5
+	#Dimensional Flux the siphon gets for every unit of aura flux it draws.
+	# Default: 2000
+	# Range: 1 ~ 1000000000
+	residual_df_per_flux = 2000
+
+[discharge_cannon]
+	#Dimensional Flux a Discharge Cannon can hold.
+	# Default: 5000000
+	# Range: 1 ~ 2305843009213693951
+	capacity = 5000000
+	#Dimensional Flux every shot costs.
+	# Default: 1000000
+	# Range: 1 ~ 2305843009213693951
+	cost_per_shot = 1000000
+	#Damage of a shot to the target it hits.
+	# Default: 30.0
+	# Range: 0.0 ~ 10000.0
+	damage = 30.0
+	#Blocks a shot travels at most.
+	# Default: 64.0
+	# Range: 1.0 ~ 256.0
+	range = 64.0
+	#Ticks before the cannon can be used again after a shot.
+	# Default: 30
+	# Range: 0 ~ 72000
+	cooldown = 30
+	#Ticks the use button must be held before releasing it fires a shot.
+	# Default: 15
+	# Range: 0 ~ 200
+	charge_ticks = 15
+	#Radius in blocks around the impact in which other creatures are also hurt. 0 turns the area damage off.
+	# Default: 3.0
+	# Range: 0.0 ~ 32.0
+	splash_radius = 3.0
+	#Fraction of the damage that creatures around the impact take.
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	splash_fraction = 0.5
+	#Knockback of the creature that is hit.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	knockback = 1.0

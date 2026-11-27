@@ -1,0 +1,39 @@
+[transmission_link]
+	#Ticks between two transfers of a Transmission Link. Every transfer moves the rate of the tier multiplied by this number, so a higher value costs less performance and moves the same flux.
+	# Default: 1
+	# Range: 1 ~ 20
+	transfer_interval = 1
+	#Ticks of transfer a Transmission Link can hold in its internal buffer. The buffer holds the rate of the tier multiplied by this number.
+	# Default: 20
+	# Range: 1 ~ 72000
+	buffer_ticks = 20
+
+[rift_extractor]
+	#Dimensional Flux a Rift Extractor can hold. It stops extracting while there is no room for one more extraction.
+	# Default: 50000
+	# Range: 1 ~ 2305843009213693951
+	capacity = 50000
+	#Dimensional Flux a Rift Extractor pushes every tick to the storages and Transmission Links around it.
+	# Default: 2000
+	# Range: 1 ~ 2305843009213693951
+	push_rate_per_tick = 2000
+	#A Rift Extractor sends a few particles from the rift to itself on every extraction.
+	particles = true
+
+[beam]
+	#Linked Transmission Links draw a beam of particles between them. The server sends it, so it also costs bandwidth: turn it off on busy servers.
+	enabled = true
+	#Draw the beam even while no flux is moving between the two links.
+	idle = false
+	#Ticks between two beams.
+	# Default: 10
+	# Range: 1 ~ 200
+	interval = 10
+	#Particles of the beam for every block of distance.
+	# Default: 0.5
+	# Range: 0.05 ~ 8.0
+	points_per_block = 0.5
+	#Most particles a single beam can have, whatever the distance.
+	# Default: 24
+	# Range: 2 ~ 256
+	max_points = 24

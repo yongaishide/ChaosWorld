@@ -1,0 +1,263 @@
+[copper]
+	#Highest maximum health of a creature this crucifix can bind. Creatures above it are treated as immune and the binding fails. 0 means no limit.
+	# Default: 30
+	# Range: 0 ~ 1000000
+	max_health = 30
+	#Distance in blocks at which this crucifix can be used on a creature you are aiming at.
+	# Default: 6.0
+	# Range: 2.0 ~ 128.0
+	range = 6.0
+	#Ticks a bound creature hangs in the air before it is dragged underground. Lower is faster. The chains need at least 20 ticks to close.
+	# Default: 150
+	# Range: 20 ~ 1200
+	bind_ticks = 150
+	#Whether creatures of the crucifix_immune tag (bosses) are bound and killed instead of resisting and breaking the crucifix.
+	kills_bosses = false
+	#Uses of the crucifix. Every activation wears one point and the crucifix breaks with the last one. Needs a game restart.
+	# Default: 3
+	# Range: 1 ~ 100000
+	durability = 3
+
+[iron]
+	#Highest maximum health of a creature this crucifix can bind. Creatures above it are treated as immune and the binding fails. 0 means no limit.
+	# Default: 60
+	# Range: 0 ~ 1000000
+	max_health = 60
+	#Distance in blocks at which this crucifix can be used on a creature you are aiming at.
+	# Default: 7.0
+	# Range: 2.0 ~ 128.0
+	range = 7.0
+	#Ticks a bound creature hangs in the air before it is dragged underground. Lower is faster. The chains need at least 20 ticks to close.
+	# Default: 130
+	# Range: 20 ~ 1200
+	bind_ticks = 130
+	#Whether creatures of the crucifix_immune tag (bosses) are bound and killed instead of resisting and breaking the crucifix.
+	kills_bosses = false
+	#Uses of the crucifix. Every activation wears one point and the crucifix breaks with the last one. Needs a game restart.
+	# Default: 5
+	# Range: 1 ~ 100000
+	durability = 5
+
+[gold]
+	#Highest maximum health of a creature this crucifix can bind. Creatures above it are treated as immune and the binding fails. 0 means no limit.
+	# Default: 100
+	# Range: 0 ~ 1000000
+	max_health = 100
+	#Distance in blocks at which this crucifix can be used on a creature you are aiming at.
+	# Default: 8.0
+	# Range: 2.0 ~ 128.0
+	range = 8.0
+	#Ticks a bound creature hangs in the air before it is dragged underground. Lower is faster. The chains need at least 20 ticks to close.
+	# Default: 115
+	# Range: 20 ~ 1200
+	bind_ticks = 115
+	#Whether creatures of the crucifix_immune tag (bosses) are bound and killed instead of resisting and breaking the crucifix.
+	kills_bosses = false
+	#Uses of the crucifix. Every activation wears one point and the crucifix breaks with the last one. Needs a game restart.
+	# Default: 8
+	# Range: 1 ~ 100000
+	durability = 8
+
+[diamond]
+	#Highest maximum health of a creature this crucifix can bind. Creatures above it are treated as immune and the binding fails. 0 means no limit.
+	# Default: 200
+	# Range: 0 ~ 1000000
+	max_health = 200
+	#Distance in blocks at which this crucifix can be used on a creature you are aiming at.
+	# Default: 9.0
+	# Range: 2.0 ~ 128.0
+	range = 9.0
+	#Ticks a bound creature hangs in the air before it is dragged underground. Lower is faster. The chains need at least 20 ticks to close.
+	# Default: 100
+	# Range: 20 ~ 1200
+	bind_ticks = 100
+	#Whether creatures of the crucifix_immune tag (bosses) are bound and killed instead of resisting and breaking the crucifix.
+	kills_bosses = false
+	#Uses of the crucifix. Every activation wears one point and the crucifix breaks with the last one. Needs a game restart.
+	# Default: 12
+	# Range: 1 ~ 100000
+	durability = 12
+
+[emerald]
+	#Highest maximum health of a creature this crucifix can bind. Creatures above it are treated as immune and the binding fails. 0 means no limit.
+	# Default: 300
+	# Range: 0 ~ 1000000
+	max_health = 300
+	#Distance in blocks at which this crucifix can be used on a creature you are aiming at.
+	# Default: 10.0
+	# Range: 2.0 ~ 128.0
+	range = 10.0
+	#Ticks a bound creature hangs in the air before it is dragged underground. Lower is faster. The chains need at least 20 ticks to close.
+	# Default: 90
+	# Range: 20 ~ 1200
+	bind_ticks = 90
+	#Whether creatures of the crucifix_immune tag (bosses) are bound and killed instead of resisting and breaking the crucifix.
+	kills_bosses = false
+	#Uses of the crucifix. Every activation wears one point and the crucifix breaks with the last one. Needs a game restart.
+	# Default: 16
+	# Range: 1 ~ 100000
+	durability = 16
+
+[netherite]
+	#Highest maximum health of a creature this crucifix can bind. Creatures above it are treated as immune and the binding fails. 0 means no limit.
+	# Default: 0
+	# Range: 0 ~ 1000000
+	max_health = 0
+	#Distance in blocks at which this crucifix can be used on a creature you are aiming at.
+	# Default: 12.0
+	# Range: 2.0 ~ 128.0
+	range = 12.0
+	#Ticks a bound creature hangs in the air before it is dragged underground. Lower is faster. The chains need at least 20 ticks to close.
+	# Default: 80
+	# Range: 20 ~ 1200
+	bind_ticks = 80
+	#Whether creatures of the crucifix_immune tag (bosses) are bound and killed instead of resisting and breaking the crucifix.
+	kills_bosses = true
+
+[thaumium]
+	#Highest maximum health of a creature this crucifix can bind. Creatures above it are treated as immune and the binding fails. 0 means no limit.
+	# Default: 500
+	# Range: 0 ~ 1000000
+	max_health = 500
+	#Distance in blocks at which this crucifix can be used on a creature you are aiming at.
+	# Default: 12.0
+	# Range: 2.0 ~ 128.0
+	range = 12.0
+	#Ticks a bound creature hangs in the air before it is dragged underground. Lower is faster. The chains need at least 20 ticks to close.
+	# Default: 75
+	# Range: 20 ~ 1200
+	bind_ticks = 75
+	#Whether creatures of the crucifix_immune tag (bosses) are bound and killed instead of resisting and breaking the crucifix.
+	kills_bosses = false
+	#Uses of the crucifix. Every activation wears one point and the crucifix breaks with the last one. Needs a game restart.
+	# Default: 32
+	# Range: 1 ~ 100000
+	durability = 32
+
+[alchemical_brass]
+	#Highest maximum health of a creature this crucifix can bind. Creatures above it are treated as immune and the binding fails. 0 means no limit.
+	# Default: 800
+	# Range: 0 ~ 1000000
+	max_health = 800
+	#Distance in blocks at which this crucifix can be used on a creature you are aiming at.
+	# Default: 14.0
+	# Range: 2.0 ~ 128.0
+	range = 14.0
+	#Ticks a bound creature hangs in the air before it is dragged underground. Lower is faster. The chains need at least 20 ticks to close.
+	# Default: 65
+	# Range: 20 ~ 1200
+	bind_ticks = 65
+	#Whether creatures of the crucifix_immune tag (bosses) are bound and killed instead of resisting and breaking the crucifix.
+	kills_bosses = false
+	#Uses of the crucifix. Every activation wears one point and the crucifix breaks with the last one. Needs a game restart.
+	# Default: 64
+	# Range: 1 ~ 100000
+	durability = 64
+
+[void_metal]
+	#Highest maximum health of a creature this crucifix can bind. Creatures above it are treated as immune and the binding fails. 0 means no limit.
+	# Default: 0
+	# Range: 0 ~ 1000000
+	max_health = 0
+	#Distance in blocks at which this crucifix can be used on a creature you are aiming at.
+	# Default: 16.0
+	# Range: 2.0 ~ 128.0
+	range = 16.0
+	#Ticks a bound creature hangs in the air before it is dragged underground. Lower is faster. The chains need at least 20 ticks to close.
+	# Default: 55
+	# Range: 20 ~ 1200
+	bind_ticks = 55
+	#Whether creatures of the crucifix_immune tag (bosses) are bound and killed instead of resisting and breaking the crucifix.
+	kills_bosses = true
+
+[blaze_cube]
+	#Highest maximum health of a creature this crucifix can bind. Creatures above it are treated as immune and the binding fails. 0 means no limit.
+	# Default: 1500
+	# Range: 0 ~ 1000000
+	max_health = 1500
+	#Distance in blocks at which this crucifix can be used on a creature you are aiming at.
+	# Default: 18.0
+	# Range: 2.0 ~ 128.0
+	range = 18.0
+	#Ticks a bound creature hangs in the air before it is dragged underground. Lower is faster. The chains need at least 20 ticks to close.
+	# Default: 45
+	# Range: 20 ~ 1200
+	bind_ticks = 45
+	#Whether creatures of the crucifix_immune tag (bosses) are bound and killed instead of resisting and breaking the crucifix.
+	kills_bosses = false
+	#Uses of the crucifix. Every activation wears one point and the crucifix breaks with the last one. Needs a game restart.
+	# Default: 128
+	# Range: 1 ~ 100000
+	durability = 128
+
+[matrix]
+	#Highest maximum health of a creature this crucifix can bind. Creatures above it are treated as immune and the binding fails. 0 means no limit.
+	# Default: 3000
+	# Range: 0 ~ 1000000
+	max_health = 3000
+	#Distance in blocks at which this crucifix can be used on a creature you are aiming at.
+	# Default: 20.0
+	# Range: 2.0 ~ 128.0
+	range = 20.0
+	#Ticks a bound creature hangs in the air before it is dragged underground. Lower is faster. The chains need at least 20 ticks to close.
+	# Default: 36
+	# Range: 20 ~ 1200
+	bind_ticks = 36
+	#Whether creatures of the crucifix_immune tag (bosses) are bound and killed instead of resisting and breaking the crucifix.
+	kills_bosses = false
+	#Uses of the crucifix. Every activation wears one point and the crucifix breaks with the last one. Needs a game restart.
+	# Default: 256
+	# Range: 1 ~ 100000
+	durability = 256
+
+[neutronium]
+	#Highest maximum health of a creature this crucifix can bind. Creatures above it are treated as immune and the binding fails. 0 means no limit.
+	# Default: 6000
+	# Range: 0 ~ 1000000
+	max_health = 6000
+	#Distance in blocks at which this crucifix can be used on a creature you are aiming at.
+	# Default: 24.0
+	# Range: 2.0 ~ 128.0
+	range = 24.0
+	#Ticks a bound creature hangs in the air before it is dragged underground. Lower is faster. The chains need at least 20 ticks to close.
+	# Default: 28
+	# Range: 20 ~ 1200
+	bind_ticks = 28
+	#Whether creatures of the crucifix_immune tag (bosses) are bound and killed instead of resisting and breaking the crucifix.
+	kills_bosses = false
+	#Uses of the crucifix. Every activation wears one point and the crucifix breaks with the last one. Needs a game restart.
+	# Default: 512
+	# Range: 1 ~ 100000
+	durability = 512
+
+[infinity]
+	#Highest maximum health of a creature this crucifix can bind. Creatures above it are treated as immune and the binding fails. 0 means no limit.
+	# Default: 0
+	# Range: 0 ~ 1000000
+	max_health = 0
+	#Distance in blocks at which this crucifix can be used on a creature you are aiming at.
+	# Default: 32.0
+	# Range: 2.0 ~ 128.0
+	range = 32.0
+	#Ticks a bound creature hangs in the air before it is dragged underground. Lower is faster. The chains need at least 20 ticks to close.
+	# Default: 20
+	# Range: 20 ~ 1200
+	bind_ticks = 20
+	#Whether creatures of the crucifix_immune tag (bosses) are bound and killed instead of resisting and breaking the crucifix.
+	kills_bosses = true
+
+[creative]
+	#Highest maximum health of a creature this crucifix can bind. Creatures above it are treated as immune and the binding fails. 0 means no limit.
+	# Default: 0
+	# Range: 0 ~ 1000000
+	max_health = 0
+	#Distance in blocks at which this crucifix can be used on a creature you are aiming at.
+	# Default: 48.0
+	# Range: 2.0 ~ 128.0
+	range = 48.0
+	#Ticks a bound creature hangs in the air before it is dragged underground. Lower is faster. The chains need at least 20 ticks to close.
+	# Default: 20
+	# Range: 20 ~ 1200
+	bind_ticks = 20
+	#Whether creatures of the crucifix_immune tag (bosses) are bound and killed instead of resisting and breaking the crucifix.
+	kills_bosses = true

@@ -1,0 +1,49 @@
+[magical_laser_drill]
+	#Turns the Magical Laser Drill on or off.
+	enabled = true
+	#Vis the drill spends on every operation. The Laser Drill of Industrial Foregoing spends 1000 FE per operation and one vis is worth 1000 units here.
+	# Default: 1.0
+	# Range: 0.0 ~ 1000.0
+	operation_vis = 1.0
+	#Vis the drill can hold inside. It is the purple bar of its screen.
+	# Default: 10.0
+	# Range: 0.001 ~ 100000.0
+	buffer_vis = 10.0
+	#Ticks the drill takes to do one operation. Industrial Foregoing's Laser Drill uses 50.
+	# Default: 50
+	# Range: 1 ~ 12000
+	operation_interval_ticks = 50
+	#The drill fills its buffer with the vis of the aura of its own chunk.
+	use_aura = true
+	#When the aura cannot pay an operation, the drill takes power from a node, a jarred node, a Flux Jar, a Rift Jar or a flux rift within reach. A hungry node is never a valid source.
+	use_nodes = true
+	#Distance in blocks within which the drill looks for a node or any other power source.
+	# Default: 8.0
+	# Range: 1.0 ~ 64.0
+	node_radius = 8.0
+	#Units of power taken from a node source to pay one whole operation.
+	# Default: 1
+	# Range: 1 ~ 1000
+	node_units_per_operation = 1
+	#The drill keeps its buffer full from the aura even while it has no laser base in its area.
+	refill_when_idle = false
+
+[magical_ore_laser_base]
+	#Turns the Magical Ore Laser Base on or off.
+	enabled = true
+	#Steps of work the base needs to produce one item. Industrial Foregoing's Ore Laser Base uses 100.
+	# Default: 100
+	# Range: 1 ~ 100000
+	max_progress = 100
+	#Weight added to an ore for every lens of its color placed in the base. Industrial Foregoing's Ore Laser Base uses 8.
+	# Default: 8
+	# Range: 0 ~ 10000
+	lens_weight_bonus = 8
+
+[magical_fluid_laser_base]
+	#Turns the Magical Fluid Laser Base on or off.
+	enabled = true
+	#Steps of work the base needs to produce one batch of fluid. Industrial Foregoing's Fluid Laser Base uses 20.
+	# Default: 20
+	# Range: 1 ~ 100000
+	max_progress = 20

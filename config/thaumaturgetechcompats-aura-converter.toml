@@ -1,0 +1,57 @@
+[general]
+	#Flux added to the aura of the chunk for every vis converted. 0 makes the conversion free of pollution.
+	# Default: 0.1
+	# Range: 0.0 ~ 100.0
+	flux_per_vis = 0.1
+	#Fraction of the base aura of the chunk that is never drained. A converter stops while the vis of the chunk is at or under base * this value.
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	min_aura_fraction = 0.25
+	#Most vis per tick that all the Aura Converters of one chunk can drain together. At 1.0 a converter that makes N FE per vis converts up to N FE per tick.
+	# Default: 1.0
+	# Range: 0.0 ~ 1000.0
+	max_vis_per_chunk_per_tick = 1.0
+	#A redstone signal stops the conversion. The stored energy can still be taken out.
+	redstone_pauses = true
+
+[thaumium]
+	#FE that every vis drained from the aura is converted into.
+	# Default: 250000
+	# Range: 1 ~ 1000000000000000
+	convert_fe_per_vis = 250000
+	#Most FE per tick that the converter gives out, whether pushed to its neighbours or pulled from it. The FE capability of NeoForge is an int, so a single call never moves more than 2147483647 FE.
+	# Default: 250000
+	# Range: 1 ~ 1000000000000000
+	extract_fe_per_tick = 250000
+	#Capacity of the internal FE buffer.
+	# Default: 10000000
+	# Range: 1 ~ 1000000000000000
+	buffer_capacity = 10000000
+
+[alchemical_brass]
+	#FE that every vis drained from the aura is converted into.
+	# Default: 1000000
+	# Range: 1 ~ 1000000000000000
+	convert_fe_per_vis = 1000000
+	#Most FE per tick that the converter gives out, whether pushed to its neighbours or pulled from it. The FE capability of NeoForge is an int, so a single call never moves more than 2147483647 FE.
+	# Default: 1000000
+	# Range: 1 ~ 1000000000000000
+	extract_fe_per_tick = 1000000
+	#Capacity of the internal FE buffer.
+	# Default: 100000000
+	# Range: 1 ~ 1000000000000000
+	buffer_capacity = 100000000
+
+[void_metal]
+	#FE that every vis drained from the aura is converted into.
+	# Default: 560000000
+	# Range: 1 ~ 1000000000000000
+	convert_fe_per_vis = 560000000
+	#Most FE per tick that the converter gives out, whether pushed to its neighbours or pulled from it. The FE capability of NeoForge is an int, so a single call never moves more than 2147483647 FE.
+	# Default: 500000000
+	# Range: 1 ~ 1000000000000000
+	extract_fe_per_tick = 500000000
+	#Capacity of the internal FE buffer.
+	# Default: 10000000000
+	# Range: 1 ~ 1000000000000000
+	buffer_capacity = 10000000000

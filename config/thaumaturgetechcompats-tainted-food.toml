@@ -1,0 +1,33 @@
+[tainted_food]
+	#Turns the tainted foods off completely: no items, no recipes. Needs a game restart.
+	enabled = true
+	#Tainted foods that exist, by item id. Remove an entry to remove that food and its recipe. Needs a game restart.
+	foods = ["tainted_bread", "tainted_apple", "tainted_carrot", "tainted_baked_potato", "tainted_cooked_beef", "tainted_cooked_porkchop", "tainted_pumpkin_pie", "tainted_mushroom_stew", "tainted_ultimate_stew", "tainted_cosmic_meatballs"]
+	#Multiplies the hunger that the original food restores. Needs a game restart.
+	# Default: 1.5
+	# Range: 0.1 ~ 20.0
+	hunger_multiplier = 1.5
+	#Multiplies the saturation that the original food restores. Needs a game restart.
+	# Default: 1.5
+	# Range: 0.0 ~ 20.0
+	saturation_multiplier = 1.5
+
+[effect]
+	#Effect applied by every tainted food. The default is the Flux Taint of Thaumaturge.
+	id = "thaumaturge:flux_taint"
+	#Base duration of the effect, in ticks.
+	# Default: 200
+	# Range: 0 ~ 1000000
+	duration_ticks = 200
+	#Multiplies the duration of the effect. 0 removes the effect from the tainted foods. Needs a game restart.
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	duration_multiplier = 1.0
+	#Amplifier of the effect. 0 is level one.
+	# Default: 0
+	# Range: 0 ~ 255
+	amplifier = 0
+	#Chance that eating a tainted food applies the effect. Needs a game restart.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	chance = 1.0

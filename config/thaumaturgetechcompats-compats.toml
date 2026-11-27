@@ -1,0 +1,365 @@
+[compats]
+	#Recipes for the Thaumaturge clusters in Create.
+	create = true
+	#The node power base: machines of other mods that use nodes, node jars, flux jars and flux rifts as a power source, the Flux Jar and its research. Needs a game restart.
+	node_power = true
+	#The devices of the Dimensional Flux network of this tier. Needs a game restart.
+	flux_network_thaumium = true
+	#The devices of the Dimensional Flux network of this tier. Needs a game restart.
+	flux_network_alchemical_brass = true
+	#The devices of the Dimensional Flux network of this tier. Needs a game restart.
+	flux_network_void_metal = true
+	#A piece of the Dimensional Flux Storage Core. Needs a game restart.
+	flux_storage_core = true
+	#A piece of the Dimensional Flux Storage Core. Needs a game restart.
+	flux_capacity_cell = true
+	#The Portable Void Siphon. Needs a game restart.
+	flux_gear_portable_void_siphon = true
+	#The Discharge Cannon. Needs a game restart.
+	flux_gear_discharge_cannon = true
+	#A feature of the Sophisticated Backpacks and Sophisticated Storage compat. Needs a game restart.
+	sophisticated_stack_upgrades = true
+	#A feature of the Sophisticated Backpacks and Sophisticated Storage compat. Needs a game restart.
+	sophisticated_arcane_upgrade = true
+	#A feature of the Sophisticated Backpacks and Sophisticated Storage compat. Needs a game restart.
+	sophisticated_backpack_tiers = true
+	#A feature of the Sophisticated Backpacks and Sophisticated Storage compat. Needs a game restart.
+	sophisticated_storage_tiers = true
+	#A feature of the Sophisticated Backpacks and Sophisticated Storage compat. Needs a game restart.
+	sophisticated_wide_gui = true
+	#ProjectE integration: EMC for Thaumaturge recipes and base values. Recipes apply when data packs reload; base values need a game restart.
+	projecte_emc = true
+	#The Tech Compats essences (sol, nuclear, cosmic and terminus) on base items, inherited through recipes. Needs a game restart.
+	own_essences = true
+	#The Salis Mundus variants made of Avaritia materials. Needs a game restart.
+	salis_mundus_variants = true
+	#The Planetary Endest Pearl of this tier. Needs a game restart.
+	planetary_pearl_copper = true
+	#The Star Crucifix of this tier. Needs a game restart.
+	star_crucifix_copper = true
+	#The Planetary Endest Pearl of this tier. Needs a game restart.
+	planetary_pearl_iron = true
+	#The Star Crucifix of this tier. Needs a game restart.
+	star_crucifix_iron = true
+	#The Planetary Endest Pearl of this tier. Needs a game restart.
+	planetary_pearl_gold = true
+	#The Star Crucifix of this tier. Needs a game restart.
+	star_crucifix_gold = true
+	#The Planetary Endest Pearl of this tier. Needs a game restart.
+	planetary_pearl_diamond = true
+	#The Star Crucifix of this tier. Needs a game restart.
+	star_crucifix_diamond = true
+	#The Planetary Endest Pearl of this tier. Needs a game restart.
+	planetary_pearl_emerald = true
+	#The Star Crucifix of this tier. Needs a game restart.
+	star_crucifix_emerald = true
+	#The Planetary Endest Pearl of this tier. Needs a game restart.
+	planetary_pearl_netherite = true
+	#The Star Crucifix of this tier. Needs a game restart.
+	star_crucifix_netherite = true
+	#The Planetary Endest Pearl of this tier. Needs a game restart.
+	planetary_pearl_thaumium = true
+	#The Star Crucifix of this tier. Needs a game restart.
+	star_crucifix_thaumium = true
+	#The Planetary Endest Pearl of this tier. Needs a game restart.
+	planetary_pearl_alchemical_brass = true
+	#The Star Crucifix of this tier. Needs a game restart.
+	star_crucifix_alchemical_brass = true
+	#The Planetary Endest Pearl of this tier. Needs a game restart.
+	planetary_pearl_void_metal = true
+	#The Star Crucifix of this tier. Needs a game restart.
+	star_crucifix_void_metal = true
+	#The Planetary Endest Pearl of this tier. Needs a game restart.
+	planetary_pearl_blaze_cube = true
+	#The Star Crucifix of this tier. Needs a game restart.
+	star_crucifix_blaze_cube = true
+	#The Planetary Endest Pearl of this tier. Needs a game restart.
+	planetary_pearl_matrix = true
+	#The Star Crucifix of this tier. Needs a game restart.
+	star_crucifix_matrix = true
+	#The Planetary Endest Pearl of this tier. Needs a game restart.
+	planetary_pearl_neutronium = true
+	#The Star Crucifix of this tier. Needs a game restart.
+	star_crucifix_neutronium = true
+	#The Planetary Endest Pearl of this tier. Needs a game restart.
+	planetary_pearl_infinity = true
+	#The Star Crucifix of this tier. Needs a game restart.
+	star_crucifix_infinity = true
+	#The Planetary Endest Pearl of this tier. Needs a game restart.
+	planetary_pearl_creative = true
+	#The Star Crucifix of this tier. Needs a game restart.
+	star_crucifix_creative = true
+	#The machines, stations and tools of this addon appear as catalysts in the JEI categories of the machines they match. Needs a game restart.
+	jei_catalysts = true
+	#Every block and item of this addon has an information page in JEI. Needs a game restart.
+	jei_info = true
+	#Botania Revived integration: higher tiers of mana spreaders, the Botania wand rods and caps and the aspects of Botania items. Needs a game restart.
+	botania = true
+	#Botania Revived integration: higher tiers of mana spreaders, the Botania wand rods and caps and the aspects of Botania items. Needs a game restart.
+	botania_spreaders = true
+	#Botania Revived integration: higher tiers of mana spreaders, the Botania wand rods and caps and the aspects of Botania items. Needs a game restart.
+	botania_spreader_thaumium = true
+	#Botania Revived integration: higher tiers of mana spreaders, the Botania wand rods and caps and the aspects of Botania items. Needs a game restart.
+	botania_spreader_alchemical_brass = true
+	#Botania Revived integration: higher tiers of mana spreaders, the Botania wand rods and caps and the aspects of Botania items. Needs a game restart.
+	botania_spreader_void_metal = true
+	#Botania Revived integration: higher tiers of mana spreaders, the Botania wand rods and caps and the aspects of Botania items. Needs a game restart.
+	botania_wand = true
+	#Botania Revived integration: higher tiers of mana spreaders, the Botania wand rods and caps and the aspects of Botania items. Needs a game restart.
+	botania_aspects = true
+	#The Crystal Matrix, Neutronium and Infinity variants of the Runic Matrix, with their own instability, recipes and research. Needs a game restart.
+	infusion_matrix_variants = true
+	#The Crystal Matrix, Neutronium and Infinity variants of the Infusion Cost and Speed Stones, with their recipes and research. Needs a game restart.
+	infusion_stone_variants = true
+	#The Crystal Matrix, Neutronium and Infinity pillars and pedestals of the infusion altar, with their recipes and research. Needs a game restart.
+	infusion_altar_variants = true
+	#The Thaumic Miner for Void Miners Remastered, which only works while it has a magical power source. Needs a game restart.
+	voidminers_magical_miner = true
+	#The Thaumic Solar Panel for Void Miners Remastered, which only generates energy while it has a magical power source. Needs a game restart.
+	voidminers_magical_solar = true
+	#A tier of the Thaumic Miner or Thaumic Solar Panel for Void Miners Remastered, with its recipe, frame and research. Needs a game restart.
+	voidminers_magical_miner_thaumium = true
+	#A tier of the Thaumic Miner or Thaumic Solar Panel for Void Miners Remastered, with its recipe, frame and research. Needs a game restart.
+	voidminers_magical_solar_thaumium = true
+	#A tier of the Thaumic Miner or Thaumic Solar Panel for Void Miners Remastered, with its recipe, frame and research. Needs a game restart.
+	voidminers_magical_miner_upgrades_thaumium = true
+	#A tier of the Thaumic Miner or Thaumic Solar Panel for Void Miners Remastered, with its recipe, frame and research. Needs a game restart.
+	voidminers_magical_solar_upgrades_thaumium = true
+	#A tier of the Thaumic Miner or Thaumic Solar Panel for Void Miners Remastered, with its recipe, frame and research. Needs a game restart.
+	voidminers_magical_miner_alchemical_brass = true
+	#A tier of the Thaumic Miner or Thaumic Solar Panel for Void Miners Remastered, with its recipe, frame and research. Needs a game restart.
+	voidminers_magical_solar_alchemical_brass = true
+	#A tier of the Thaumic Miner or Thaumic Solar Panel for Void Miners Remastered, with its recipe, frame and research. Needs a game restart.
+	voidminers_magical_miner_upgrades_alchemical_brass = true
+	#A tier of the Thaumic Miner or Thaumic Solar Panel for Void Miners Remastered, with its recipe, frame and research. Needs a game restart.
+	voidminers_magical_solar_upgrades_alchemical_brass = true
+	#A tier of the Thaumic Miner or Thaumic Solar Panel for Void Miners Remastered, with its recipe, frame and research. Needs a game restart.
+	voidminers_magical_miner_void_metal = true
+	#A tier of the Thaumic Miner or Thaumic Solar Panel for Void Miners Remastered, with its recipe, frame and research. Needs a game restart.
+	voidminers_magical_solar_void_metal = true
+	#A tier of the Thaumic Miner or Thaumic Solar Panel for Void Miners Remastered, with its recipe, frame and research. Needs a game restart.
+	voidminers_magical_miner_upgrades_void_metal = true
+	#A tier of the Thaumic Miner or Thaumic Solar Panel for Void Miners Remastered, with its recipe, frame and research. Needs a game restart.
+	voidminers_magical_solar_upgrades_void_metal = true
+	#Energy tools for Mekanism: Thaumium, Alchemical Brass and Void Metal tools that run on Mekanism energy, with their infusion recipes and research. Needs a game restart.
+	mekanism_energy_tools = true
+	#The energized tools of this tier for Mekanism. Needs a game restart.
+	mekanism_energy_tools_thaumium = true
+	#The energized tools of this tier for Mekanism. Needs a game restart.
+	mekanism_energy_tools_alchemical_brass = true
+	#The energized tools of this tier for Mekanism. Needs a game restart.
+	mekanism_energy_tools_void = true
+	#Higher tiers of the Avaritia Neutron Collector and Neutronium Compressor, with their infusion recipes and research. Needs a game restart.
+	avaritia_machine_tiers = true
+	#Tainted versions of vanilla and Avaritia foods, brewed in the crucible, with their research. Needs a game restart.
+	tainted_food = true
+	#Edible copies of tools, weapons, ingots, gems, doors and the Goggles of Revealing, crafted with sugar; eating them gives status effects by item class and tier. Needs a game restart.
+	edible_items = true
+	#Tainted Farmers Delight foods or knives, with their crucible and infusion recipes and research. Needs a game restart.
+	tainted_food_farmersdelight = true
+	#Tainted Farmers Delight foods or knives, with their crucible and infusion recipes and research. Needs a game restart.
+	tainted_knives = true
+	#Tainted Farmers Delight foods or knives, with their crucible and infusion recipes and research. Needs a game restart.
+	tainted_flux_knife = true
+	#Recipes for the Thaumaturge clusters in Mekanism.
+	mekanism = true
+	#Laser Drill ores for the Thaumaturge clusters and ores in Industrial Foregoing.
+	industrialforegoing = true
+	#Mekanism x2 route: Enrichment Chamber, ore to 2 clusters. Off by default: it shares machine and input with Mekanism own ore recipes.
+	mekanism_x2 = false
+	#Mekanism x3 route: Purification Chamber with oxygen, ore to 3 clusters. Off by default: it shares machine and input with Mekanism own ore recipes.
+	mekanism_x3 = false
+	#Mekanism x4 route: Chemical Injection Chamber with hydrogen chloride, ore to 4 clusters. Off by default: it shares machine and input with Mekanism own ore recipes.
+	mekanism_x4 = false
+	#Mekanism x5 route: dissolution, washing and crystallization, then every crystal becomes a cluster in the Enrichment Chamber.
+	mekanism_x5 = true
+	#Mekanism Salis Mundus route: Salis Mundus as bio infusion in the Metallurgic Infuser, ore to 2 clusters.
+	mekanism_salis = true
+	#The Osmium and Uranium clusters, their smelting and crucible recipes. Needs a game restart.
+	mekanism_clusters = true
+	#The brass, thaumium and void metal brushes for FTB Unearthed, their research and the Thaumaturge loot they unearth. Needs a game restart.
+	ftbunearthed = true
+	#A crafting table recipe for the Unearther of FTB Unearthed, which has none of its own: iron, glass, hoppers, a brush and a piston. Applies when data packs reload.
+	ftbunearthed_core_recipe = true
+	#The brass brush for FTB Unearthed, its recipe, research and loot. Needs a game restart.
+	ftbunearthed_brush_brass = true
+	#The thaumium brush for FTB Unearthed, its recipe, research and loot. Needs the brass brush. Needs a game restart.
+	ftbunearthed_brush_thaumium = true
+	#The void metal brush for FTB Unearthed, its recipe, research and loot. Needs the thaumium brush. Needs a game restart.
+	ftbunearthed_brush_void = true
+	#The primal vis crystals that the Thaumaturge brushes unearth from sand and gravel in FTB Unearthed.
+	ftbunearthed_loot_vis_crystals = true
+	#The amber that the Thaumaturge brushes unearth from sand and gravel in FTB Unearthed.
+	ftbunearthed_loot_amber = true
+	#The raw cinnabar that the Thaumaturge brushes unearth from sand and gravel in FTB Unearthed.
+	ftbunearthed_loot_raw_cinnabar = true
+	#A magical Unearther tier for FTB Unearthed that runs on node power instead of food, with its recipe and research. Needs a game restart.
+	ftbunearthed_magical_thaumium = true
+	#A magical Unearther tier for FTB Unearthed that runs on node power instead of food, with its recipe and research. Needs a game restart.
+	ftbunearthed_magical_brass = true
+	#A magical Unearther tier for FTB Unearthed that runs on node power instead of food, with its recipe and research. Needs a game restart.
+	ftbunearthed_magical_void = true
+	#Everything the addon adds for ForceCraft: the Repair infusion, the aspects of its items and mobs and the Force Flask rules. Needs a game restart.
+	forcecraft = true
+	#Aspects for every item of a common c: tag (ingots, ores, gems, dusts and so on), so any mod gets them by material. Applies when data packs reload.
+	tag_aspects = true
+	#Tag aspects for c:ingots/*.
+	tag_aspects_ingots = true
+	#Tag aspects for c:nuggets/*.
+	tag_aspects_nuggets = true
+	#Tag aspects for c:ores/*.
+	tag_aspects_ores = true
+	#Tag aspects for c:raw_materials/*.
+	tag_aspects_raw_materials = true
+	#Tag aspects for c:gems/*.
+	tag_aspects_gems = true
+	#Tag aspects for c:dusts/*.
+	tag_aspects_dusts = true
+	#Tag aspects for c:storage_blocks/*, raw blocks included.
+	tag_aspects_storage_blocks = true
+	#Tag aspects for c:plates/*, c:rods/*, c:gears/* and c:wires/*.
+	tag_aspects_parts = true
+	#Tag aspects for c:clumps/*, c:dirty_dusts/*, c:shards/* and c:crystals/*.
+	tag_aspects_intermediates = true
+	#Tag aspects for crops, seeds, mushrooms, fruits, vegetables, meats and fish.
+	tag_aspects_foods = true
+	#Aspects for the items and blocks of Oritech. Applies when data packs reload.
+	oritech_aspects = true
+	#Oritech Pulverizer and Grinder recipes for the Thaumaturge clusters and ores. Applies when data packs reload.
+	oritech_processing = true
+	#Everything the addon adds for Ender IO. Turning it off turns every Ender IO feature off. Needs a game restart.
+	enderio = true
+	#Thaumcraft aspects for the items and machines of Ender IO.
+	enderio_aspects = true
+	#The brass, thaumium and void metal grinding balls for the SAG Mill of Ender IO. Needs a game restart.
+	enderio_grinding_balls = true
+	#The thaumium, alchemical brass and void metal energy, item and fluid conduits for Ender IO. Needs a game restart.
+	enderio_conduits = true
+	#The thaumium, alchemical brass and void metal capacitors for Ender IO machines. Needs a game restart.
+	enderio_capacitors = true
+	#The thaumium, alchemical brass and void metal capacitor banks for Ender IO. Needs a game restart.
+	enderio_capacitor_banks = true
+	#The wand caps and wand rods made of Ender IO materials. Needs a game restart.
+	enderio_wand_parts = true
+	#The Oritech Pulverizer recipes for the Thaumaturge clusters and ores.
+	oritech_processing_pulverizer = true
+	#The Oritech Grinder recipes for the Thaumaturge clusters and ores.
+	oritech_processing_grinder = true
+	#One extra raw material from every Thaumaturge cluster or ore in the Oritech Pulverizer and Grinder. Off gives the same yield as Oritech ores.
+	oritech_processing_bonus = true
+	#The Magical Laser Drill, Ore Laser Base and Fluid Laser Base of Industrial Foregoing, their research and their recipes.
+	magic_laser_drill = true
+	#The Magical Infinity Drill of Industrial Foregoing, its research and its recipe. Needs a game restart.
+	magic_infinity_drill = true
+	#Everything the addon adds for Oritech: tiered ores, machine addons, their recipes and research. Needs a game restart.
+	oritech = true
+	#Molten Crystal Matrix, Neutronium and Infinity for the Hephaestus Forge smeltery, with melting and casting recipes. Needs a game restart.
+	hephaestus_smeltery = true
+	#The Thaumcraft solar panels for Solar Flux Reborn. Needs a game restart.
+	solarflux = true
+
+[industrial_foregoing_addons]
+	#The brass, thaumium and void metal addons for Industrial Foregoing machines. Needs a game restart.
+	industrialforegoing_addons = true
+	#This Industrial Foregoing addon and its recipe. Needs a game restart.
+	industrialforegoing_addon_brass_speed = true
+	#This Industrial Foregoing addon and its recipe. Needs a game restart.
+	industrialforegoing_addon_brass_efficiency = true
+	#This Industrial Foregoing addon and its recipe. Needs a game restart.
+	industrialforegoing_addon_brass_processing = true
+	#This Industrial Foregoing addon and its recipe. Needs a game restart.
+	industrialforegoing_addon_brass_range = true
+	#This Industrial Foregoing addon and its recipe. Needs a game restart.
+	industrialforegoing_addon_thaumium_speed = true
+	#This Industrial Foregoing addon and its recipe. Needs a game restart.
+	industrialforegoing_addon_thaumium_efficiency = true
+	#This Industrial Foregoing addon and its recipe. Needs a game restart.
+	industrialforegoing_addon_thaumium_processing = true
+	#This Industrial Foregoing addon and its recipe. Needs a game restart.
+	industrialforegoing_addon_thaumium_range = true
+	#This Industrial Foregoing addon and its recipe. Needs a game restart.
+	industrialforegoing_addon_void_speed = true
+	#This Industrial Foregoing addon and its recipe. Needs a game restart.
+	industrialforegoing_addon_void_efficiency = true
+	#This Industrial Foregoing addon and its recipe. Needs a game restart.
+	industrialforegoing_addon_void_processing = true
+	#This Industrial Foregoing addon and its recipe. Needs a game restart.
+	industrialforegoing_addon_void_range = true
+
+[oritech]
+	#Oritech integration feature. Needs a game restart.
+	oritech_nodes = true
+	#Oritech integration feature. Needs a game restart.
+	oritech_addons = true
+	#Oritech integration feature. Needs a game restart.
+	oritech_unholy_intelligence = true
+	#Oritech integration feature. Needs a game restart.
+	oritech_node_cinnabar = true
+	#Oritech integration feature. Needs a game restart.
+	oritech_node_amber = true
+	#Oritech integration feature. Needs a game restart.
+	oritech_node_quartz = true
+	#Oritech integration feature. Needs a game restart.
+	oritech_brass_speed_addon = true
+	#Oritech integration feature. Needs a game restart.
+	oritech_brass_efficiency_addon = true
+	#Oritech integration feature. Needs a game restart.
+	oritech_brass_capacitor_addon = true
+	#Oritech integration feature. Needs a game restart.
+	oritech_thaumium_speed_addon = true
+	#Oritech integration feature. Needs a game restart.
+	oritech_thaumium_efficiency_addon = true
+	#Oritech integration feature. Needs a game restart.
+	oritech_thaumium_capacitor_addon = true
+	#Oritech integration feature. Needs a game restart.
+	oritech_void_speed_addon = true
+	#Oritech integration feature. Needs a game restart.
+	oritech_void_efficiency_addon = true
+	#Oritech integration feature. Needs a game restart.
+	oritech_void_capacitor_addon = true
+
+[purity]
+	#The Purification Splash Potion that cures infected creatures, with its recipe and research.
+	purification_potion = true
+	#The Biome Purification Splash Potion, which cleans flux-corrupted biomes and blocks, with its recipe and research. Needs the Purification Splash Potion.
+	biome_purification_potion = true
+	#The Potion of Clarity, which removes temporary warp, with its recipe and research.
+	clarity_potion = true
+	#The Potion of Absolution, which removes permanent warp, with its recipe and research. Needs the Potion of Clarity.
+	absolution_potion = true
+
+[forcecraft]
+	#The Repair infusion of the Force Infuser: Order Shard as reagent, tools, armor and rods repair themselves with vis from the aura. Needs a game restart.
+	forcecraft_repair = true
+	#Thaumaturge aspects for the items, blocks and mobs of ForceCraft.
+	forcecraft_aspects = true
+	#Keeps the bosses and tainted anchors of Thaumaturge out of the Force Flask.
+	forcecraft_flask = true
+
+[aura_converter]
+	#The Aura Converters: machines that turn vis from the aura of the chunk into FE, with their recipes and research.
+	aura_converter = true
+	#The alchemical brass Aura Converter, its recipe and research. Needs the thaumium Aura Converter.
+	aura_converter_brass = true
+	#The thaumium Aura Converter, its recipe and research.
+	aura_converter_thaumium = true
+	#The void metal Aura Converter, its recipe and research. Needs the alchemical brass Aura Converter.
+	aura_converter_void = true
+
+[solar_panels]
+	#The alchemical solar panel. Needs a game restart.
+	solar_alchemical = true
+	#The brass solar panel, which replaced the alchemical brass solar panel, and its recipe and research. Needs a game restart.
+	solar_alchemical_brass = true
+	#The thaumium solar panel. Needs a game restart.
+	solar_thaumium = true
+	#The void metal solar panel. Needs a game restart.
+	solar_void_metal = true
+	#The brass andesite solar panel. Needs Create. Needs a game restart.
+	solar_brass_andesite = true
+	#The thaumium zinc solar panel. Needs Create or All The Ores. Needs a game restart.
+	solar_thaumium_zinc = true
+	#The alchemical cobalt solar panel. Needs Hephaestus Forge. Needs a game restart.
+	solar_alchemical_cobalt = true
+	#The void uranium solar panel. Needs All The Ores, and irradiates players that carry it when Mekanism is installed. Needs a game restart.
+	solar_void_uranium = true

@@ -1,0 +1,141 @@
+[structure]
+	#Ticks between two scans of the structure, the pedestals and the stabilizers around a Storage Core.
+	# Default: 40
+	# Range: 5 ~ 1200
+	scan_interval = 40
+	#The core needs a ring of eight metal blocks of its tier around it, on its own level.
+	require_ring = true
+	#The core needs a metal block of its tier right above it and another right below it.
+	require_caps = true
+	#Metal blocks of a higher tier also count for the structure of a core.
+	accept_higher_tier_blocks = true
+
+[cells]
+	#Blocks, as the side of a cube around the core, in which a pedestal holding a Capacity Cell counts.
+	# Default: 6
+	# Range: 1 ~ 16
+	radius = 6
+	#Most Capacity Cells a single core takes into account.
+	# Default: 16
+	# Range: 1 ~ 256
+	max_cells = 16
+	#When the capacity of a core drops under what it holds, the excess is released as flux into the aura. When false the excess is lost.
+	spill_excess_as_flux = true
+	#Dimensional Flux that make one point of flux in the aura when a core releases them.
+	# Default: 100000
+	# Range: 1 ~ 2305843009213693951
+	df_per_flux = 100000
+
+	[cells.thaumium]
+		#Dimensional Flux a Capacity Cell of this tier adds to the capacity of the core.
+		# Default: 500000
+		# Range: 1 ~ 2305843009213693951
+		capacity = 500000
+
+	[cells.alchemical_brass]
+		#Dimensional Flux a Capacity Cell of this tier adds to the capacity of the core.
+		# Default: 12500000
+		# Range: 1 ~ 2305843009213693951
+		capacity = 12500000
+
+	[cells.void_metal]
+		#Dimensional Flux a Capacity Cell of this tier adds to the capacity of the core.
+		# Default: 500000000
+		# Range: 1 ~ 2305843009213693951
+		capacity = 500000000
+
+[stabilizers]
+	#Blocks, as the side of a cube around the core, in which a node stabilizer counts.
+	# Default: 8
+	# Range: 1 ~ 16
+	radius = 8
+
+	[stabilizers.thaumium]
+		#Stabilizer points a core of this tier needs when it is completely full. It needs a share of them as full as it is.
+		# Default: 4
+		# Range: 0 ~ 10000
+		points_for_full = 4
+
+	[stabilizers.alchemical_brass]
+		#Stabilizer points a core of this tier needs when it is completely full. It needs a share of them as full as it is.
+		# Default: 8
+		# Range: 0 ~ 10000
+		points_for_full = 8
+
+	[stabilizers.void_metal]
+		#Stabilizer points a core of this tier needs when it is completely full. It needs a share of them as full as it is.
+		# Default: 12
+		# Range: 0 ~ 10000
+		points_for_full = 12
+
+	[stabilizers.weights]
+		#Stabilizer points of a Thaumaturge node stabilizer.
+		# Default: 1
+		# Range: 0 ~ 1000
+		node_stabilizer = 1
+		#Stabilizer points of an advanced Thaumaturge node stabilizer.
+		# Default: 2
+		# Range: 0 ~ 1000
+		advanced_node_stabilizer = 2
+		#Stabilizer points of a matrix node stabilizer.
+		# Default: 3
+		# Range: 0 ~ 1000
+		matrix_node_stabilizer = 3
+		#Stabilizer points of a neutronium node stabilizer.
+		# Default: 4
+		# Range: 0 ~ 1000
+		neutronium_node_stabilizer = 4
+		#Stabilizer points of a infinity node stabilizer.
+		# Default: 6
+		# Range: 0 ~ 1000
+		infinity_node_stabilizer = 6
+
+[overload]
+	#A core that is too full for the stabilizers around it overloads. When false it never does.
+	enabled = true
+	#Share of its capacity, from 0 to 1, above which a core without enough stabilizers overloads.
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	threshold = 0.5
+	#Ticks between two pulses of an overloaded core.
+	# Default: 40
+	# Range: 1 ~ 12000
+	interval = 40
+	#Flux released into the aura by every pulse of an overload, at the worst lack of stabilizers. It shrinks as the lack does.
+	# Default: 2.0
+	# Range: 0.0 ~ 10000.0
+	flux_per_pulse = 2.0
+	#Percent of the capacity that leaks out of the core on every pulse, at the worst lack of stabilizers. It shrinks as the lack does.
+	# Default: 0.25
+	# Range: 0.0 ~ 100.0
+	leak_percent = 0.25
+	#An overloaded core throws sparks on every pulse.
+	particles = true
+	#Players near an overloaded core get a warning above the hotbar on every pulse.
+	warn_players = true
+	#Every pulse of an overload hurts the living things around the core.
+	damage_enabled = true
+	#Magic damage dealt by a pulse at the worst lack of stabilizers. It shrinks as the lack does.
+	# Default: 1.0
+	# Range: 0.0 ~ 1000.0
+	damage = 1.0
+	#Blocks around the core in which a pulse hurts and warns.
+	# Default: 5
+	# Range: 1 ~ 64
+	damage_radius = 5
+	#A core that keeps overloading while almost full explodes. Off by default.
+	explosion_enabled = false
+	#Share of its capacity, from 0 to 1, that a core must hold for the explosion to be possible.
+	# Default: 0.95
+	# Range: 0.0 ~ 1.0
+	explosion_threshold = 0.95
+	#Pulses in a row that a core must overload before it explodes.
+	# Default: 10
+	# Range: 1 ~ 10000
+	explosion_pulses = 10
+	#Power of the explosion.
+	# Default: 3.0
+	# Range: 0.1 ~ 64.0
+	explosion_power = 3.0
+	#The explosion breaks blocks. When false it only hurts.
+	explosion_breaks_blocks = true

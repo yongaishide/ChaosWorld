@@ -1,0 +1,53 @@
+	[rods.livingwood]
+		#Vis capacity of the rod, in the same units as the rods of Thaumaturge. A wooden rod has 25, a greatwood rod 50 and a silverwood rod 100.
+		# Default: 60
+		# Range: 1 ~ 10000000
+		capacity = 60
+		#Craft cost factor of the rod. The vis an assembled wand costs to make is this times the craft cost of its cap.
+		# Default: 6
+		# Range: 1 ~ 100000
+		craft_cost = 6
+
+	[rods.dreamwood]
+		#Vis capacity of the rod, in the same units as the rods of Thaumaturge. A wooden rod has 25, a greatwood rod 50 and a silverwood rod 100.
+		# Default: 120
+		# Range: 1 ~ 10000000
+		capacity = 120
+		#Craft cost factor of the rod. The vis an assembled wand costs to make is this times the craft cost of its cap.
+		# Default: 9
+		# Range: 1 ~ 100000
+		craft_cost = 9
+
+	[caps.manasteel]
+		#Multiplier of the vis every spell costs. 1.0 is the full price, 0.5 is half and 0.0 is free.
+		# Default: 0.8999999761581421
+		# Range: 0.0 ~ 10.0
+		cost_modifier = 0.8999999761581421
+		#Craft cost factor of the cap. The vis an assembled wand costs to make is this times the craft cost of its rod.
+		# Default: 6
+		# Range: 1 ~ 100000
+		craft_cost = 6
+
+	[caps.elementium]
+		#Multiplier of the vis every spell costs. 1.0 is the full price, 0.5 is half and 0.0 is free.
+		# Default: 1.0
+		# Range: 0.0 ~ 10.0
+		cost_modifier = 1.0
+		#Multiplier of the vis cost for the primal aspects aer, aqua, terra and ignis, instead of the cost modifier.
+		# Default: 0.800000011920929
+		# Range: 0.0 ~ 10.0
+		special_cost_modifier = 0.800000011920929
+		#Craft cost factor of the cap. The vis an assembled wand costs to make is this times the craft cost of its rod.
+		# Default: 8
+		# Range: 1 ~ 100000
+		craft_cost = 8
+
+	[caps.terrasteel]
+		#Multiplier of the vis every spell costs. 1.0 is the full price, 0.5 is half and 0.0 is free.
+		# Default: 0.800000011920929
+		# Range: 0.0 ~ 10.0
+		cost_modifier = 0.800000011920929
+		#Craft cost factor of the cap. The vis an assembled wand costs to make is this times the craft cost of its rod.
+		# Default: 10
+		# Range: 1 ~ 100000
+		craft_cost = 10

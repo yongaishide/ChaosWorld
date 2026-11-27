@@ -6,7 +6,7 @@
   "fluid_consumption_chance": 0.03,
   "fluid_input": "astralsorcery:liquid_starlight",
   "item_input": {
-    "tag": "c:gems/aquamarine"
+    "item": "chaosworld_core:starlight_gemstone"
   },
   "output": {
     "count": 1,

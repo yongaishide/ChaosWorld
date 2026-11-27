@@ -1,0 +1,225 @@
+[shield_generator]
+	#Shield Generators project their barrier. Off turns every Shield Generator into an inert block.
+	enabled = true
+	#Ticks between two sweeps of the shield bubble for projectiles and monsters. Lower is safer against fast projectiles and costs more performance.
+	# Default: 1
+	# Range: 1 ~ 20
+	scan_interval_ticks = 1
+	#The bubble destroys projectiles fired by hostile mobs, such as arrows, fireballs and shulker bullets.
+	block_projectiles = true
+	#The bubble also destroys projectiles that have no owner, such as those fired by dispensers.
+	block_ownerless_projectiles = false
+	#The bubble pushes hostile mobs out of its radius. Bosses are never pushed.
+	push_monsters = true
+	#Horizontal push in blocks per tick that a hostile mob inside the bubble receives on every sweep.
+	# Default: 0.35
+	# Range: 0.0 ~ 5.0
+	push_strength = 0.35
+	#Explosions that go off inside the bubble do not destroy the blocks inside it.
+	explosion_protect_blocks = true
+	#Fraction of the explosion damage that entities inside the bubble do not receive. 1.0 cancels it completely, 0.0 gives no protection to entities.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	explosion_damage_reduction = 1.0
+	#A Shield Generator that ran out of Dimensional Flux starts again once it holds the flux of this many ticks of operation, or its whole capacity if that is less.
+	# Default: 100
+	# Range: 1 ~ 72000
+	restart_ticks = 100
+	#Radius in blocks around a Shield Generator in which players get the message that it ran out of Dimensional Flux.
+	# Default: 32
+	# Range: 0 ~ 256
+	shutdown_message_radius = 32
+	#A shell of particles marks the edge of the bubble. Only players nearby see it.
+	particles = true
+	#Particles of the shell spawned every time the shell is refreshed.
+	# Default: 8
+	# Range: 1 ~ 128
+	particle_count = 8
+	#Ticks between two refreshes of the particle shell.
+	# Default: 4
+	# Range: 1 ~ 200
+	particle_interval_ticks = 4
+	#Size of the particles of the shell.
+	# Default: 1.0
+	# Range: 0.1 ~ 4.0
+	particle_scale = 1.0
+
+	[shield_generator.thaumium]
+		#Radius in blocks of the bubble of a Shield Generator of this tier.
+		# Default: 8
+		# Range: 1 ~ 64
+		radius = 8
+		#Dimensional Flux a Shield Generator of this tier can hold.
+		# Default: 100000
+		# Range: 1 ~ 2305843009213693951
+		capacity = 100000
+		#Dimensional Flux a Shield Generator of this tier uses every tick while its bubble is up.
+		# Default: 10
+		# Range: 0 ~ 2305843009213693951
+		cost_per_tick = 10
+		#Extra Dimensional Flux for every projectile the bubble destroys.
+		# Default: 100
+		# Range: 0 ~ 2305843009213693951
+		projectile_cost = 100
+		#Extra Dimensional Flux for every explosion the bubble absorbs. Without that much flux the explosion goes through and the shield shuts down.
+		# Default: 5000
+		# Range: 0 ~ 2305843009213693951
+		explosion_cost = 5000
+
+	[shield_generator.alchemical_brass]
+		#Radius in blocks of the bubble of a Shield Generator of this tier.
+		# Default: 16
+		# Range: 1 ~ 64
+		radius = 16
+		#Dimensional Flux a Shield Generator of this tier can hold.
+		# Default: 1000000
+		# Range: 1 ~ 2305843009213693951
+		capacity = 1000000
+		#Dimensional Flux a Shield Generator of this tier uses every tick while its bubble is up.
+		# Default: 40
+		# Range: 0 ~ 2305843009213693951
+		cost_per_tick = 40
+		#Extra Dimensional Flux for every projectile the bubble destroys.
+		# Default: 100
+		# Range: 0 ~ 2305843009213693951
+		projectile_cost = 100
+		#Extra Dimensional Flux for every explosion the bubble absorbs. Without that much flux the explosion goes through and the shield shuts down.
+		# Default: 5000
+		# Range: 0 ~ 2305843009213693951
+		explosion_cost = 5000
+
+	[shield_generator.void_metal]
+		#Radius in blocks of the bubble of a Shield Generator of this tier.
+		# Default: 32
+		# Range: 1 ~ 64
+		radius = 32
+		#Dimensional Flux a Shield Generator of this tier can hold.
+		# Default: 10000000
+		# Range: 1 ~ 2305843009213693951
+		capacity = 10000000
+		#Dimensional Flux a Shield Generator of this tier uses every tick while its bubble is up.
+		# Default: 160
+		# Range: 0 ~ 2305843009213693951
+		cost_per_tick = 160
+		#Extra Dimensional Flux for every projectile the bubble destroys.
+		# Default: 100
+		# Range: 0 ~ 2305843009213693951
+		projectile_cost = 100
+		#Extra Dimensional Flux for every explosion the bubble absorbs. Without that much flux the explosion goes through and the shield shuts down.
+		# Default: 5000
+		# Range: 0 ~ 2305843009213693951
+		explosion_cost = 5000
+
+[arcane_terraformer]
+	#Arcane Terraformers change biomes. Off turns every Arcane Terraformer into an inert block.
+	enabled = true
+	#Ticks between two work cycles of an Arcane Terraformer.
+	# Default: 20
+	# Range: 1 ~ 72000
+	cycle_interval_ticks = 20
+	#Most columns a Terraformer looks at in a single cycle, including those it skips for being already the target biome, blacklisted or in an unloaded chunk.
+	# Default: 2048
+	# Range: 1 ~ 100000
+	max_scanned_per_cycle = 2048
+	#Biome baits: an item and the biome it makes a Terraformer paint, as item_id=biome_id. Right-click the Terraformer with the item to load it.
+	baits = ["minecraft:sand=minecraft:desert", "minecraft:cactus=minecraft:desert", "minecraft:red_sand=minecraft:badlands", "minecraft:terracotta=minecraft:badlands", "minecraft:snowball=minecraft:snowy_plains", "minecraft:snow_block=minecraft:snowy_plains", "minecraft:packed_ice=minecraft:ice_spikes", "minecraft:grass_block=minecraft:plains", "minecraft:wheat_seeds=minecraft:plains", "minecraft:sunflower=minecraft:sunflower_plains", "minecraft:cornflower=minecraft:flower_forest", "minecraft:oak_sapling=minecraft:forest", "minecraft:birch_sapling=minecraft:birch_forest", "minecraft:dark_oak_sapling=minecraft:dark_forest", "minecraft:spruce_sapling=minecraft:taiga", "minecraft:jungle_sapling=minecraft:jungle", "minecraft:bamboo=minecraft:bamboo_jungle", "minecraft:acacia_sapling=minecraft:savanna", "minecraft:cherry_sapling=minecraft:cherry_grove", "minecraft:mangrove_propagule=minecraft:mangrove_swamp", "minecraft:lily_pad=minecraft:swamp", "minecraft:red_mushroom=minecraft:mushroom_fields", "minecraft:brown_mushroom=minecraft:mushroom_fields", "minecraft:mycelium=minecraft:mushroom_fields", "minecraft:stone=minecraft:windswept_hills", "minecraft:kelp=minecraft:ocean", "minecraft:sea_pickle=minecraft:warm_ocean", "minecraft:dripstone_block=minecraft:dripstone_caves", "minecraft:glow_berries=minecraft:lush_caves", "minecraft:sculk=minecraft:deep_dark", "minecraft:netherrack=minecraft:nether_wastes", "minecraft:crimson_nylium=minecraft:crimson_forest", "minecraft:warped_nylium=minecraft:warped_forest", "minecraft:soul_sand=minecraft:soul_sand_valley", "minecraft:basalt=minecraft:basalt_deltas", "minecraft:end_stone=minecraft:the_end"]
+	#Biomes that a Terraformer never overwrites and never paints.
+	biome_blacklist = ["thaumaturge:tainted_lands", "thaumaturge:eldritch", "thaumaturge:eerie"]
+	#Dimensions in which a Terraformer does nothing.
+	dimension_blacklist = ["minecraft:the_end", "thaumaturge:outer_lands"]
+	#A Terraformer at work gives out particles.
+	particles = true
+
+	[arcane_terraformer.thaumium]
+		#Radius in blocks of the area an Arcane Terraformer of this tier repaints.
+		# Default: 16
+		# Range: 1 ~ 256
+		radius = 16
+		#Dimensional Flux an Arcane Terraformer of this tier can hold.
+		# Default: 200000
+		# Range: 1 ~ 2305843009213693951
+		capacity = 200000
+		#Dimensional Flux an Arcane Terraformer of this tier uses for every 4x4 column it repaints.
+		# Default: 2000
+		# Range: 0 ~ 2305843009213693951
+		cost_per_column = 2000
+		#Columns an Arcane Terraformer of this tier repaints in every work cycle.
+		# Default: 2
+		# Range: 1 ~ 4096
+		columns_per_cycle = 2
+
+	[arcane_terraformer.alchemical_brass]
+		#Radius in blocks of the area an Arcane Terraformer of this tier repaints.
+		# Default: 32
+		# Range: 1 ~ 256
+		radius = 32
+		#Dimensional Flux an Arcane Terraformer of this tier can hold.
+		# Default: 2000000
+		# Range: 1 ~ 2305843009213693951
+		capacity = 2000000
+		#Dimensional Flux an Arcane Terraformer of this tier uses for every 4x4 column it repaints.
+		# Default: 1500
+		# Range: 0 ~ 2305843009213693951
+		cost_per_column = 1500
+		#Columns an Arcane Terraformer of this tier repaints in every work cycle.
+		# Default: 6
+		# Range: 1 ~ 4096
+		columns_per_cycle = 6
+
+	[arcane_terraformer.void_metal]
+		#Radius in blocks of the area an Arcane Terraformer of this tier repaints.
+		# Default: 64
+		# Range: 1 ~ 256
+		radius = 64
+		#Dimensional Flux an Arcane Terraformer of this tier can hold.
+		# Default: 20000000
+		# Range: 1 ~ 2305843009213693951
+		capacity = 20000000
+		#Dimensional Flux an Arcane Terraformer of this tier uses for every 4x4 column it repaints.
+		# Default: 1000
+		# Range: 0 ~ 2305843009213693951
+		cost_per_column = 1000
+		#Columns an Arcane Terraformer of this tier repaints in every work cycle.
+		# Default: 16
+		# Range: 1 ~ 4096
+		columns_per_cycle = 16
+
+[flight_thruster]
+	#The Flight Thruster lifts its wearer. Off turns it into a plain chest piece.
+	enabled = true
+	#Dimensional Flux a Flight Thruster can hold.
+	# Default: 200000
+	# Range: 1 ~ 2305843009213693951
+	capacity = 200000
+	#Upward speed in blocks per tick added every tick of thrust.
+	# Default: 0.12
+	# Range: 0.0 ~ 2.0
+	thrust_per_tick = 0.12
+	#Highest upward speed in blocks per tick that the thrust alone can reach.
+	# Default: 0.45
+	# Range: 0.0 ~ 3.0
+	max_vertical_speed = 0.45
+	#Horizontal speed in blocks per tick added every tick of thrust while the forward key is held.
+	# Default: 0.04
+	# Range: 0.0 ~ 2.0
+	forward_thrust_per_tick = 0.04
+	#Highest horizontal speed in blocks per tick that the forward thrust can reach.
+	# Default: 0.7
+	# Range: 0.0 ~ 3.0
+	max_horizontal_speed = 0.7
+	#Dimensional Flux used for every second of thrust.
+	# Default: 800
+	# Range: 0 ~ 2305843009213693951
+	cost_per_second = 800
+	#Ticks of continuous thrust before the thruster overheats. Keep it under 60: servers kick players that rise for more than 80 ticks in a row.
+	# Default: 50
+	# Range: 1 ~ 600
+	burst_ticks = 50
+	#Ticks the thruster stays off after overheating.
+	# Default: 10
+	# Range: 0 ~ 600
+	cooldown_ticks = 10
+	#The wearer takes no fall damage while the thruster holds any Dimensional Flux.
+	cancel_fall_damage = true
+	#The thruster gives out particles from the back of its wearer.
+	particles = true

@@ -1,0 +1,51 @@
+[akashic_record]
+	#Lets the Akashic Record grant aspects when used.
+	enabled = true
+	#Points of every aspect the Akashic Record adds to the player's aspect pool.
+	# Default: 999
+	# Range: 1 ~ 32767
+	amount = 999
+	#Consume the Akashic Record when a creative player uses it.
+	consumed_in_creative = false
+
+[extremely_primordial_pearl]
+	#The pearl stays in the crafting grid instead of being consumed.
+	kept_in_crafting = true
+
+[infinity_rod]
+	#A wand with the Infinity rod refills every primal aspect to the maximum.
+	refills_vis = true
+
+[ponder]
+	#Registers the Ponder scenes of this mod. When false none of them is registered.
+	enabled = true
+	#Registers the Ponder scene "Infusion Altar".
+	infusion_altar_arcane = true
+	#Registers the Ponder scene "Infusion Altar: Ancient Stone".
+	infusion_altar_ancient = true
+	#Registers the Ponder scene "Infusion Altar: Eldritch Stone".
+	infusion_altar_eldritch = true
+	#Registers the Ponder scene "Advanced Alchemical Furnace".
+	advanced_alchemical_furnace = true
+	#Registers the Ponder scene "Infernal Furnace".
+	infernal_furnace = true
+	#Registers the Ponder scene "Golem Press".
+	golem_press = true
+	#Registers the Ponder scene "Thaumatorium".
+	thaumatorium = true
+	#Registers the Ponder scene "Stabilizing and Energizing Nodes".
+	node_energizing = true
+	#Registers the Ponder scene "Research Table".
+	research_table = true
+	#Registers the Ponder scene "Workbench Charger".
+	workbench_charger = true
+	#Registers the Ponder scene "Avaritia Node Stabilizers".
+	tiered_node_stabilizers = true
+	#Registers the Ponder scene "Avaritia Node Transducers".
+	tiered_node_transducers = true
+	#Registers the Ponder scene "Avaritia Alchemical Furnaces".
+	tiered_alchemical_furnaces = true
+	#Registers the Ponder scene "Avaritia Mnemonic Matrices".
+	tiered_mnemonic_matrices = true
+	#Registers the Ponder scene "Avaritia Workbench Chargers".
+	tiered_workbench_chargers = true

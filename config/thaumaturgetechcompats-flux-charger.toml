@@ -1,0 +1,37 @@
+[general]
+	#Ticks between two recharge passes of an Environmental Charger. Every pass gives each item the Dimensional Flux of that many ticks of the rate of its tier.
+	# Default: 5
+	# Range: 1 ~ 200
+	interval = 5
+	#An Environmental Charger that is recharging something gives out soft particles.
+	particles = true
+
+[capacity]
+	#Dimensional Flux the internal store of an Environmental Charger of this tier can hold.
+	# Default: 1000000
+	# Range: 1 ~ 2305843009213693951
+	thaumium = 1000000
+	#Dimensional Flux the internal store of an Environmental Charger of this tier can hold.
+	# Default: 10000000
+	# Range: 1 ~ 2305843009213693951
+	alchemical_brass = 10000000
+	#Dimensional Flux the internal store of an Environmental Charger of this tier can hold.
+	# Default: 100000000
+	# Range: 1 ~ 2305843009213693951
+	void_metal = 100000000
+
+[wands]
+	#The charger also recharges the wands, staves and sceptres of Thaumaturge, converting Dimensional Flux into vis of their primal aspects.
+	enabled = true
+	#Dimensional Flux that every hundredth of a vis in a wand costs.
+	# Default: 20
+	# Range: 1 ~ 1000000000
+	flux_per_centivis = 20
+
+[vis_items]
+	#The charger also recharges the other vis rechargeable items of Thaumaturge and its addons.
+	enabled = true
+	#Dimensional Flux that every vis in such an item costs.
+	# Default: 2000
+	# Range: 1 ~ 1000000000
+	flux_per_vis = 2000

@@ -1,8 +1,4 @@
 {
-  "unbound": {
-    "block": true,
-    "entity": true
-  },
   "astralsorcery": {
     "lumen": true
   },
@@ -114,7 +110,6 @@
     "waystone": true
   },
   "jdte": {
-    "solar_panel_status": true,
     "advanced_energy_transmitter_status": true,
     "greenhouse_status": true,
     "installed_upgrades": true,

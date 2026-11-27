@@ -1,0 +1,89 @@
+[toggles]
+	#The whole Create integration of the Tech category: Create Seal, node casings and the node-quickened machine variants. Needs a game restart for the creative tab.
+	create_tech = true
+	#The Create Seal that lets golems feed, empty and operate Create machines.
+	create_seal = true
+	#The alchemical brass node casing and the alchemical brass machine variants.
+	create_casing_brass = true
+	#The thaumium node casing and the thaumium machine variants.
+	create_casing_thaumium = true
+	#The void metal node casing and the void metal machine variants.
+	create_casing_void = true
+	#Machine variants run faster near an aura node. When off they behave like the plain Create machines.
+	create_node_boost = true
+	#All the casing variants of Create machines and blocks: recipes, research and creative tab. Needs a game restart for the creative tab.
+	create_variants = true
+	#The machine variants appear as catalysts in the JEI categories of their plain machine.
+	create_jei = true
+	#The Thaummotor, a Create generator that gives stress while it has a node, a jarred node, a flux jar, a rift jar or a flux rift near it. Needs a game restart.
+	create_thaummotor = true
+	#The Mechanical Press variants.
+	create_variant_press = true
+	#The Mechanical Mixer variants.
+	create_variant_mixer = true
+	#The Mechanical Saw variants.
+	create_variant_saw = true
+	#The Mechanical Drill variants.
+	create_variant_drill = true
+	#The Deployer variants.
+	create_variant_deployer = true
+	#The Millstone variants.
+	create_variant_millstone = true
+	#The Basin variants.
+	create_variant_basin = true
+	#The Spout variants.
+	create_variant_spout = true
+	#The Item Drain variants.
+	create_variant_item_drain = true
+	#The Depot variants.
+	create_variant_depot = true
+
+[seal]
+	#Ticks between the moments the Create Seal looks for items to insert or extract.
+	# Default: 20
+	# Range: 5 ~ 200
+	scan_interval_ticks = 20
+	#Ticks between two clicks of a golem operating a Create block, for example a hand crank.
+	# Default: 8
+	# Range: 2 ~ 200
+	operate_interval_ticks = 8
+	#When true the Create Seal can be placed on any block, not only on blocks of Create.
+	place_on_any_block = false
+
+[node_boost]
+	#Ticks between two searches for a node near a machine variant.
+	# Default: 20
+	# Range: 5 ~ 200
+	probe_interval_ticks = 20
+	#Show particles over a machine variant while it is quickened.
+	particles = true
+
+	[node_boost.alchemical_brass_casing]
+		#How many times faster the machine variant runs while a node is near.
+		# Default: 15
+		# Range: 1 ~ 64
+		speed_multiplier = 15
+		#Distance in blocks to the nearest aura node that quickens the machine variant.
+		# Default: 6.0
+		# Range: 1.0 ~ 128.0
+		node_radius = 6.0
+
+	[node_boost.thaumium_casing]
+		#How many times faster the machine variant runs while a node is near.
+		# Default: 15
+		# Range: 1 ~ 64
+		speed_multiplier = 15
+		#Distance in blocks to the nearest aura node that quickens the machine variant.
+		# Default: 10.0
+		# Range: 1.0 ~ 128.0
+		node_radius = 10.0
+
+	[node_boost.void_metal_casing]
+		#How many times faster the machine variant runs while a node is near.
+		# Default: 15
+		# Range: 1 ~ 64
+		speed_multiplier = 15
+		#Distance in blocks to the nearest aura node that quickens the machine variant.
+		# Default: 16.0
+		# Range: 1.0 ~ 128.0
+		node_radius = 16.0

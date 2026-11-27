@@ -645,5 +645,21 @@
 			x: 0.5d
 			y: -6.0d
 		}
+		{
+			dependencies: ["72D3E36C4197A53D"]
+			id: "1D3CB53247B13FD7"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "7942BCFB6CE56533"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "useless_mod:useless_coil_tier_4"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
 	]
 }

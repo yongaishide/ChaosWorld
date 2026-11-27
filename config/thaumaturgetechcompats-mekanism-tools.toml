@@ -1,0 +1,89 @@
+[thaumium]
+	#Energy the tools of this tier can hold, in Mekanism joules. The Atomic Disassembler holds 1000000. Needs a game restart for the charge bar and the creative tab.
+	# Default: 250000
+	# Range: 1 ~ 1000000000000
+	capacity = 250000
+	#Energy spent on every block mined, in Mekanism joules. 0 makes mining free.
+	# Default: 600
+	# Range: 0 ~ 1000000000
+	block_cost = 600
+	#Energy spent on every hit on a creature, in Mekanism joules. 0 makes fighting free.
+	# Default: 1000
+	# Range: 0 ~ 1000000000
+	attack_cost = 1000
+	#Energy spent on every right click that strips, flattens or tills a block, in Mekanism joules. 0 makes it free.
+	# Default: 500
+	# Range: 0 ~ 1000000000
+	use_cost = 500
+	#Mining speed against every block the tool is meant for while it holds energy. Iron tools use 6, and Thaumaturge's own tools use 7 for thaumium and 8 for void metal. Needs a game restart.
+	# Default: 6.0
+	# Range: 1.0 ~ 1000.0
+	mining_speed = 6.0
+	#Attack damage bonus of the tier, added to the base damage of each tool. Needs a game restart.
+	# Default: 2.0
+	# Range: 0.0 ~ 1000.0
+	attack_damage = 2.0
+	#Enchantability of the tools of this tier. Needs a game restart.
+	# Default: 14
+	# Range: 0 ~ 100
+	enchantability = 14
+
+[alchemical_brass]
+	#Energy the tools of this tier can hold, in Mekanism joules. The Atomic Disassembler holds 1000000. Needs a game restart for the charge bar and the creative tab.
+	# Default: 1000000
+	# Range: 1 ~ 1000000000000
+	capacity = 1000000
+	#Energy spent on every block mined, in Mekanism joules. 0 makes mining free.
+	# Default: 500
+	# Range: 0 ~ 1000000000
+	block_cost = 500
+	#Energy spent on every hit on a creature, in Mekanism joules. 0 makes fighting free.
+	# Default: 800
+	# Range: 0 ~ 1000000000
+	attack_cost = 800
+	#Energy spent on every right click that strips, flattens or tills a block, in Mekanism joules. 0 makes it free.
+	# Default: 400
+	# Range: 0 ~ 1000000000
+	use_cost = 400
+	#Mining speed against every block the tool is meant for while it holds energy. Iron tools use 6, and Thaumaturge's own tools use 7 for thaumium and 8 for void metal. Needs a game restart.
+	# Default: 8.0
+	# Range: 1.0 ~ 1000.0
+	mining_speed = 8.0
+	#Attack damage bonus of the tier, added to the base damage of each tool. Needs a game restart.
+	# Default: 3.0
+	# Range: 0.0 ~ 1000.0
+	attack_damage = 3.0
+	#Enchantability of the tools of this tier. Needs a game restart.
+	# Default: 18
+	# Range: 0 ~ 100
+	enchantability = 18
+
+[void]
+	#Energy the tools of this tier can hold, in Mekanism joules. The Atomic Disassembler holds 1000000. Needs a game restart for the charge bar and the creative tab.
+	# Default: 4000000
+	# Range: 1 ~ 1000000000000
+	capacity = 4000000
+	#Energy spent on every block mined, in Mekanism joules. 0 makes mining free.
+	# Default: 400
+	# Range: 0 ~ 1000000000
+	block_cost = 400
+	#Energy spent on every hit on a creature, in Mekanism joules. 0 makes fighting free.
+	# Default: 600
+	# Range: 0 ~ 1000000000
+	attack_cost = 600
+	#Energy spent on every right click that strips, flattens or tills a block, in Mekanism joules. 0 makes it free.
+	# Default: 300
+	# Range: 0 ~ 1000000000
+	use_cost = 300
+	#Mining speed against every block the tool is meant for while it holds energy. Iron tools use 6, and Thaumaturge's own tools use 7 for thaumium and 8 for void metal. Needs a game restart.
+	# Default: 10.0
+	# Range: 1.0 ~ 1000.0
+	mining_speed = 10.0
+	#Attack damage bonus of the tier, added to the base damage of each tool. Needs a game restart.
+	# Default: 3.5
+	# Range: 0.0 ~ 1000.0
+	attack_damage = 3.5
+	#Enchantability of the tools of this tier. Needs a game restart.
+	# Default: 22
+	# Range: 0 ~ 100
+	enchantability = 22

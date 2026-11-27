@@ -1,0 +1,41 @@
+[biome_purification_potion]
+	#Lets the Biome Purification Potion clean the land when it breaks.
+	enabled = true
+	#Horizontal radius, in blocks, of the area the potion cleans.
+	# Default: 12
+	# Range: 1 ~ 48
+	radius = 12
+	#Vertical radius, in blocks, of the area the potion cleans.
+	# Default: 8
+	# Range: 1 ~ 32
+	vertical_radius = 8
+	#Restores the biome of every tainted column in the area. A column that taint painted over goes back to the biome the world generated; a column of natural tainted land takes the nearest clean biome, or plains if there is none.
+	restore_biome = true
+	#Also restores columns of natural tainted land. Off restores only columns that taint painted over a different biome.
+	restore_natural_tainted_biome = true
+	#Makes every tainted block in the area decay the way it does when taint dies: soil and geysers become dirt, porous rock becomes porous stone, and fibres, crust, logs, growths and spore stalks disappear.
+	clean_blocks = true
+	#Chance, from 0 to 1, that each tainted block in the area is cleaned.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	block_clean_chance = 1.0
+	#Removes flux goo and flux gas from the area.
+	clean_physical_flux = true
+	#Destroys the taint seeds in the area, which otherwise grow the taint back.
+	remove_taint_seeds = true
+	#Also destroys prime taint seeds.
+	remove_prime_taint_seeds = false
+	#Taint saturation, from 0 to 1, removed from every chunk the area touches. A chunk counts as tainted above 0.2. 0 disables it.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	ecology_clean_amount = 1.0
+	#Flux removed from the aura of every chunk the area touches. 0 disables it.
+	# Default: 15.0
+	# Range: 0.0 ~ 10000.0
+	aura_flux_drain_per_chunk = 15.0
+	#Ticks a player has to wait before throwing another potion. 0 disables it.
+	# Default: 40
+	# Range: 0 ~ 72000
+	use_cooldown_ticks = 40
+	#Shows happy villager particles over the cleaned area.
+	particles = true

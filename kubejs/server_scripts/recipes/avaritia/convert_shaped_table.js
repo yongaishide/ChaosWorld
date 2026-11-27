@@ -2525,9 +2525,9 @@
         "key": {
             "A": {"item": "ars_nouveau:source_gem"},
             "B": {"item": "extendedcrafting:luminessence"},
-            "C": {"item": "minecraft:diamond"},
+            "C": {"item": "astralsorcery:resonating_gem"},
             "D": {"item": "minecraft:ender_eye"},
-            "E": {"item": "actuallyadditions:emeradic_crystal"}
+            "E": {"item": "chaosworld_core:charging_magic_emerald_crystal"}
         },
         "result": {"id": "chaosworld_core:twilight_catalyst"}
     })
@@ -2545,9 +2545,9 @@
         key: ({
             "A": {"item": "ars_nouveau:source_gem"},
             "B": {"item": "extendedcrafting:luminessence"},
-            "C": {"item": "minecraft:diamond"},
+            "C": {"item": "astralsorcery:resonating_gem"},
             "D": {"item": "minecraft:ender_eye"},
-            "E": {"item": "actuallyadditions:emeradic_crystal"}
+            "E": {"item": "chaosworld_core:charging_magic_emerald_crystal"}
         }),
         result: { id: "chaosworld_core:twilight_catalyst" },
         show_notification: false

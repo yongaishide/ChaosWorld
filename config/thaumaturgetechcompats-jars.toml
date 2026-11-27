@@ -1,0 +1,13 @@
+[jars]
+	#Units of essentia the matrix_jar can hold. The warded jar of Thaumaturge holds 250.
+	# Default: 500
+	# Range: 1 ~ 1000000
+	matrix_capacity = 500
+	#Units of essentia the neutronium_jar can hold. The warded jar of Thaumaturge holds 250.
+	# Default: 1000
+	# Range: 1 ~ 1000000
+	neutronium_capacity = 1000
+	#Units of essentia the infinity_jar can hold. The warded jar of Thaumaturge holds 250.
+	# Default: 2500
+	# Range: 1 ~ 1000000
+	infinity_capacity = 2500

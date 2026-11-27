@@ -111,7 +111,11 @@ MMCREvents.startup(event => {
         .allowMultithreading()
         .allowParallelism()
         .maxParallelAmount(2147483647)
-        .allowModifiers()
+
+    // 0.2.0 起按 id 逐个许可结构修饰符（0.1.8 的 allowModifiers() 已移除）
+    for (var t = 2; t <= 9; t++) {
+        builder.allowModifier('mmcr_kubejs:coil_tier_' + t)
+    }
 
     builder.preServerTick(onServerTick)
     builder.recipeBehavior(b => {

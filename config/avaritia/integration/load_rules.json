@@ -1,0 +1,157 @@
+{
+  "avaritia_integration_thermal_expansion_data": {
+    "dependencies": [
+      {
+        "modid": "thermal_expansion",
+        "minVersion": "",
+        "maxVersion": ""
+      }
+    ]
+  },
+  "avaritia_integration_refinedstorage": {
+    "dependencies": [
+      {
+        "modid": "refinedstorage",
+        "minVersion": "",
+        "maxVersion": ""
+      }
+    ]
+  },
+  "avaritia_integration_botania": {
+    "dependencies": [
+      {
+        "modid": "botania",
+        "minVersion": "455-SNAPSHOT",
+        "maxVersion": ""
+      }
+    ]
+  },
+  "avaritia_integration_mekanism_generators": {
+    "dependencies": [
+      {
+        "modid": "mekanism",
+        "minVersion": "",
+        "maxVersion": ""
+      },
+      {
+        "modid": "mekanismgenerators",
+        "minVersion": "",
+        "maxVersion": ""
+      },
+      {
+        "modid": "avaritia_integration_mekanism",
+        "minVersion": "",
+        "maxVersion": ""
+      }
+    ]
+  },
+  "avaritia_integration_ifeu": {
+    "dependencies": [
+      {
+        "modid": "ifeu",
+        "minVersion": "",
+        "maxVersion": ""
+      },
+      {
+        "modid": "avaritia_integration_industrialforegoing",
+        "minVersion": "",
+        "maxVersion": ""
+      }
+    ]
+  },
+  "avaritia_integration_pneumaticcraft": {
+    "dependencies": [
+      {
+        "modid": "pneumaticcraft",
+        "minVersion": "",
+        "maxVersion": ""
+      }
+    ]
+  },
+  "avaritia_integration_ae2": {
+    "dependencies": [
+      {
+        "modid": "ae2",
+        "minVersion": "",
+        "maxVersion": ""
+      }
+    ]
+  },
+  "avaritia_integration_slashblade": {
+    "dependencies": [
+      {
+        "modid": "slashblade",
+        "minVersion": "",
+        "maxVersion": ""
+      }
+    ]
+  },
+  "avaritia_integration_industrialforegoing": {
+    "dependencies": [
+      {
+        "modid": "industrialforegoing",
+        "minVersion": "",
+        "maxVersion": ""
+      }
+    ]
+  },
+  "avaritia_integration_enderio": {
+    "dependencies": [
+      {
+        "modid": "enderio",
+        "minVersion": "",
+        "maxVersion": ""
+      }
+    ]
+  },
+  "avaritia_integration_gregtech": {
+    "dependencies": [
+      {
+        "modid": "gtceu",
+        "minVersion": "",
+        "maxVersion": ""
+      }
+    ]
+  },
+  "avaritia_integration_create": {
+    "dependencies": [
+      {
+        "modid": "create",
+        "minVersion": "",
+        "maxVersion": ""
+      }
+    ]
+  },
+  "avaritia_integration_tconstruct_data": {
+    "dependencies": [
+      {
+        "modid": "tconstruct",
+        "minVersion": "",
+        "maxVersion": ""
+      }
+    ]
+  },
+  "avaritia_integration_mysticalagriculture": {
+    "dependencies": [
+      {
+        "modid": "mysticalagriculture",
+        "minVersion": "",
+        "maxVersion": ""
+      },
+      {
+        "modid": "mysticalagradditions",
+        "minVersion": "",
+        "maxVersion": ""
+      }
+    ]
+  },
+  "avaritia_integration_mekanism": {
+    "dependencies": [
+      {
+        "modid": "mekanism",
+        "minVersion": "",
+        "maxVersion": ""
+      }
+    ]
+  }
+}

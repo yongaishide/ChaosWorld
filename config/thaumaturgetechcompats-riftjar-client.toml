@@ -1,0 +1,61 @@
+[rift_jar]
+	#Draw the flux rift inside the Rift Jar, in the world and as an item.
+	enabled = true
+	#Radius in blocks of the sphere that contains the rift when the jar is full. The glass interior has a radius of about 0.31.
+	# Default: 0.22
+	# Range: 0.02 ~ 0.3
+	max_size = 0.22
+	#Fraction of max_size drawn as a spark while the jar holds no power. 0 draws nothing.
+	# Default: 0.35
+	# Range: 0.0 ~ 1.0
+	empty_spark_size = 0.35
+	#Exponent applied to the fill fraction before it becomes a size. Below 1 the rift looks bigger at low fill levels.
+	# Default: 0.5
+	# Range: 0.1 ~ 4.0
+	growth_curve = 0.5
+	#How fast the drawn size follows the fill level, per second. Higher is snappier.
+	# Default: 4.0
+	# Range: 0.1 ~ 60.0
+	grow_speed = 4.0
+	#Radius of the thickest part of the rift, relative to max_size.
+	# Default: 0.1
+	# Range: 0.01 ~ 0.5
+	thickness = 0.1
+	#Multiplier of the wobble of the rift.
+	# Default: 1.0
+	# Range: 0.0 ~ 5.0
+	sway = 1.0
+	#Multiplier of the pulsing of the thickness of the rift.
+	# Default: 1.0
+	# Range: 0.0 ~ 5.0
+	throb = 1.0
+	#Degrees per second the rift turns around the vertical axis. Negative turns the other way.
+	# Default: 14.0
+	# Range: -720.0 ~ 720.0
+	spin_degrees_per_second = 14.0
+	#Degrees the rift is tilted away from lying flat. 90 leaves its long axis vertical on average.
+	# Default: 65.0
+	# Range: -90.0 ~ 90.0
+	tilt_degrees = 65.0
+	#Height in blocks, from the base of the jar, of the centre of the rift.
+	# Default: 0.38
+	# Range: 0.0 ~ 0.75
+	height = 0.38
+	#Blocks the rift floats up and down. 0 keeps it still.
+	# Default: 0.012
+	# Range: 0.0 ~ 0.1
+	bob_amplitude = 0.012
+	#Radians per tick of the floating movement.
+	# Default: 0.07
+	# Range: 0.0 ~ 1.0
+	bob_speed = 0.07
+	#Strength of the glow around the rift. 0 removes it.
+	# Default: 1.0
+	# Range: 0.0 ~ 4.0
+	glow_intensity = 1.0
+	#Fill fraction used to size the rift when the jar is shown as an item.
+	# Default: 0.7
+	# Range: 0.0 ~ 1.0
+	item_fill = 0.7
+	#Draw the item outside the inventory with the same starfield shader as the entity. It can look wrong with some shader packs. The inventory always uses plain colours.
+	item_use_ender_shader = false

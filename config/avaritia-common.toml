@@ -75,7 +75,7 @@
 
 		[emc.config.avaritia]
 			#config.avaritia.enable_projecte_singularity_count_boost.tooltip
-			enable_projecte_singularity_count_boost = true
+			enable_projecte_singularity_count_boost = false
 
 [channel]
 	#

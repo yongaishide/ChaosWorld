@@ -1,0 +1,57 @@
+[clarity_potion]
+	#Lets this potion remove temporary warp when it is drunk.
+	enabled = true
+	#Removes all of the temporary warp in one drink instead of a fixed amount.
+	remove_all = true
+	#Points of temporary warp removed by one drink when remove_all is off.
+	# Default: 10
+	# Range: 1 ~ 1000
+	amount = 10
+	#Also removes ordinary (sticky) warp, using the same amount rule, after the temporary warp.
+	also_remove_normal_warp = false
+	#Applies the side effect below to the player after drinking.
+	side_effect_enabled = true
+	#Mob effect id of the side effect.
+	side_effect_id = "minecraft:nausea"
+	#Duration of the side effect, in ticks.
+	# Default: 100
+	# Range: 1 ~ 1000000
+	side_effect_duration_ticks = 100
+	#Amplifier of the side effect, 0 is level one.
+	# Default: 0
+	# Range: 0 ~ 255
+	side_effect_amplifier = 0
+	#Ticks a player has to wait before drinking another one. 0 disables it.
+	# Default: 20
+	# Range: 0 ~ 72000
+	use_cooldown_ticks = 20
+	#Gives back a glass bottle after drinking.
+	return_glass_bottle = true
+
+[absolution_potion]
+	#Lets this potion remove permanent warp when it is drunk.
+	enabled = true
+	#Removes all of the permanent warp in one drink instead of a fixed amount.
+	remove_all = false
+	#Points of permanent warp removed by one drink when remove_all is off.
+	# Default: 1
+	# Range: 1 ~ 100
+	amount = 1
+	#Applies the side effect below to the player after drinking.
+	side_effect_enabled = true
+	#Mob effect id of the side effect.
+	side_effect_id = "minecraft:weakness"
+	#Duration of the side effect, in ticks.
+	# Default: 1200
+	# Range: 1 ~ 1000000
+	side_effect_duration_ticks = 1200
+	#Amplifier of the side effect, 0 is level one.
+	# Default: 1
+	# Range: 0 ~ 255
+	side_effect_amplifier = 1
+	#Ticks a player has to wait before drinking another one. 0 disables it.
+	# Default: 100
+	# Range: 0 ~ 72000
+	use_cooldown_ticks = 100
+	#Gives back a glass bottle after drinking.
+	return_glass_bottle = true

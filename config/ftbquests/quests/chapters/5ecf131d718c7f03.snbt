@@ -8,7 +8,7 @@
 	}
 	id: "5ECF131D718C7F03"
 	images: [ ]
-	order_index: 6
+	order_index: 4
 	quest_enhance_decorative_lines: [ ]
 	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
@@ -73,7 +73,7 @@
 				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
-			x: -4.0d
+			x: -6.0d
 			y: -6.0d
 		}
 		{
@@ -313,7 +313,7 @@
 				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
-			x: -2.0d
+			x: -4.0d
 			y: -6.0d
 		}
 		{
@@ -329,7 +329,7 @@
 				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
-			x: -2.0d
+			x: -4.0d
 			y: -8.0d
 		}
 		{
@@ -348,7 +348,7 @@
 				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
-			x: 0.0d
+			x: -2.0d
 			y: -8.0d
 		}
 		{
@@ -440,8 +440,136 @@
 				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["554FA96679D08519"]
+			id: "7D2D3D97C8840B70"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "78FFF2B498531DF2"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "neovitae:sigil_water"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
 			x: 0.0d
 			y: -6.0d
+		}
+		{
+			dependencies: ["478E3D0BA26D4997"]
+			id: "1F958B6D2EB9E70E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "744A2BF994968DFB"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "neovitae:blood_orb_apprentice"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["478E3D0BA26D4997"]
+			id: "6A7EBD9278AF808E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "041F30852EFF115D"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "neovitae:blood_orb_magician"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -6.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["478E3D0BA26D4997"]
+			id: "2E95239CA56E5BFF"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "55491E23CA372DD8"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "neovitae:blood_orb_master"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -6.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["478E3D0BA26D4997"]
+			id: "01C6BE595FB22F07"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "745C2A4F3D1150B3"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "neovitae:blood_orb_archmage"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -6.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["478E3D0BA26D4997"]
+			id: "613474EC5C8AD93E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "39CB7706B1C08F9A"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "neovitae:blood_orb_transcendent"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: -6.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["7D2D3D97C8840B70"]
+			id: "531EF83B79B50DB9"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "3894BF72DC2A4918"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "neovitae:basic_cutting_fluid"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["531EF83B79B50DB9"]
+			id: "5ECC077366247E1C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "4EED3E573EC5FB49"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "neovitae:starmetal_dust"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 2.0d
+			y: -8.0d
 		}
 	]
 }

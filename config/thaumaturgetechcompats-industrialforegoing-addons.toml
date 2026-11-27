@@ -1,0 +1,47 @@
+#Work speed multiplier of the speed addons (Industrial Foregoing uses 2 and 3). Applied as whole ticks of progress per tick.
+[speed]
+	# Default: 4.0
+	# Range: 1.0 ~ 64.0
+	brass = 4.0
+	# Default: 6.0
+	# Range: 1.0 ~ 64.0
+	thaumium = 6.0
+	# Default: 8.0
+	# Range: 1.0 ~ 64.0
+	void = 8.0
+
+#Multiplier of the time between machine operations (Industrial Foregoing uses 0.9 and 0.8). Lower is faster.
+[efficiency]
+	# Default: 0.7
+	# Range: 0.05 ~ 1.0
+	brass = 0.7
+	# Default: 0.55
+	# Range: 0.05 ~ 1.0
+	thaumium = 0.55
+	# Default: 0.4
+	# Range: 0.05 ~ 1.0
+	void = 0.4
+
+#Operations performed per machine cycle (Industrial Foregoing uses 2 and 3).
+[processing]
+	# Default: 4.0
+	# Range: 1.0 ~ 64.0
+	brass = 4.0
+	# Default: 6.0
+	# Range: 1.0 ~ 64.0
+	thaumium = 6.0
+	# Default: 8.0
+	# Range: 1.0 ~ 64.0
+	void = 8.0
+
+#Extra working range of the range addons, in blocks minus one (Industrial Foregoing goes from 0 to 11).
+[range]
+	# Default: 12.0
+	# Range: 0.0 ~ 64.0
+	brass = 12.0
+	# Default: 14.0
+	# Range: 0.0 ~ 64.0
+	thaumium = 14.0
+	# Default: 16.0
+	# Range: 0.0 ~ 64.0
+	void = 16.0

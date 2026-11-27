@@ -12,7 +12,7 @@
       "C": {
         "type": "item",
         "ingredient": {
-          "tag": "astralsorcery:crystal"
+          "item": "neoecoae:crystal_matrix"
         }
       },
       "L": {
@@ -27,7 +27,7 @@
       "P": {
         "type": "item",
         "ingredient": {
-          "item": "astralsorcery:marble_pillar"
+          "item": "mekanism:advanced_control_circuit"
         }
       },
       "R": {
@@ -35,10 +35,22 @@
         "ingredient": {
           "item": "astralsorcery:marble_runed"
         }
+      },
+      "E": {
+        "type": "item",
+        "ingredient": {
+          "item": "naturesaura:sky_ingot"
+        }
+      },
+      "A": {
+        "type": "item",
+        "ingredient": {
+          "item": "astralsorcery:celestial_crystal"
+        }
       }
     },
     "pattern": [
-      "P P",
+      "EAE",
       "PCP",
       "RLR"
     ],

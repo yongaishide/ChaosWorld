@@ -1,0 +1,49 @@
+[power]
+	#Ticks between two moments in which the Thaummotor looks for its power source and takes power from it. The Thaummotor keeps generating until the next check.
+	# Default: 20
+	# Range: 1 ~ 12000
+	check_interval_ticks = 20
+	#Units of power taken from the source on every check. If the source cannot give this much, the Thaummotor stops generating.
+	# Default: 1
+	# Range: 1 ~ 1000
+	drain_units = 1
+	#Distance in blocks within which the Thaummotor looks for a power source. A hungry node is never a valid source.
+	# Default: 8.0
+	# Range: 1.0 ~ 64.0
+	source_radius = 8.0
+
+[kinetics]
+	#Default rotation speed in RPM of a new Thaummotor and the reference speed its stress capacity is calculated for. The speed of each Thaummotor can then be changed with its selector.
+	# Default: 64
+	# Range: 1 ~ 256
+	speed_rpm = 64
+	#Highest rotation speed in RPM that the selector of a Thaummotor allows, in both directions.
+	# Default: 256
+	# Range: 1 ~ 256
+	max_speed_rpm = 256
+	#Stress capacity in su that the Thaummotor provides at its speed, before the multiplier of its power source.
+	# Default: 1024.0
+	# Range: 1.0 ~ 1.0E7
+	base_stress_capacity = 1024.0
+
+	[kinetics.source_multipliers]
+		#Multiplier of the stress capacity while the power source is: jar_node.
+		# Default: 1.0
+		# Range: 0.0 ~ 1000.0
+		jar_node = 1.0
+		#Multiplier of the stress capacity while the power source is: flux_jar.
+		# Default: 1.5
+		# Range: 0.0 ~ 1000.0
+		flux_jar = 1.5
+		#Multiplier of the stress capacity while the power source is: rift_jar.
+		# Default: 2.5
+		# Range: 0.0 ~ 1000.0
+		rift_jar = 2.5
+		#Multiplier of the stress capacity while the power source is: rift.
+		# Default: 3.0
+		# Range: 0.0 ~ 1000.0
+		rift = 3.0
+		#Multiplier of the stress capacity while the power source is: world_node.
+		# Default: 2.0
+		# Range: 0.0 ~ 1000.0
+		world_node = 2.0

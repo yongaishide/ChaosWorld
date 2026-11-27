@@ -1,0 +1,43 @@
+[mnemonic_matrices]
+	#Lets the Avaritia mnemonic matrices raise the number of formulas a Thaumatorium can work on at once.
+	enabled = true
+	#Simultaneous formulas added by one matrix_brain_box. The Thaumaturge mnemonic matrix adds 2. Odd values are rounded up to the next even number.
+	# Default: 4
+	# Range: 1 ~ 1000
+	matrix_formulas = 4
+	#Simultaneous formulas added by one neutronium_brain_box. The Thaumaturge mnemonic matrix adds 2. Odd values are rounded up to the next even number.
+	# Default: 6
+	# Range: 1 ~ 1000
+	neutronium_formulas = 6
+	#Simultaneous formulas added by one infinity_brain_box. The Thaumaturge mnemonic matrix adds 2. Odd values are rounded up to the next even number.
+	# Default: 10
+	# Range: 1 ~ 1000
+	infinity_formulas = 10
+
+[workbench_chargers]
+	#Lets the Avaritia workbench chargers use their own range and vis discount.
+	enabled = true
+	#Percentage of the vis cost of an arcane craft that the matrix_workbench_charger does not charge.
+	# Default: 30
+	# Range: 0 ~ 100
+	matrix_discount_percent = 30
+	#Radius in chunks around the workbench from which the matrix_workbench_charger draws vis. The Thaumaturge charger uses 1.
+	# Default: 2
+	# Range: 1 ~ 8
+	matrix_radius_chunks = 2
+	#Percentage of the vis cost of an arcane craft that the neutronium_workbench_charger does not charge.
+	# Default: 60
+	# Range: 0 ~ 100
+	neutronium_discount_percent = 60
+	#Radius in chunks around the workbench from which the neutronium_workbench_charger draws vis. The Thaumaturge charger uses 1.
+	# Default: 3
+	# Range: 1 ~ 8
+	neutronium_radius_chunks = 3
+	#Percentage of the vis cost of an arcane craft that the infinity_workbench_charger does not charge.
+	# Default: 90
+	# Range: 0 ~ 100
+	infinity_discount_percent = 90
+	#Radius in chunks around the workbench from which the infinity_workbench_charger draws vis. The Thaumaturge charger uses 1.
+	# Default: 4
+	# Range: 1 ~ 8
+	infinity_radius_chunks = 4

@@ -161,5 +161,75 @@
 			x: 7.5d
 			y: 2.5d
 		}
+		{
+			dependencies: ["6D3442B0C5348B64"]
+			id: "00D6CACD595C241E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [
+				{
+					amount: 1L
+					id: "348C0D94DB6C1550"
+					key_type: "ae2:i"
+					match_components: "strict"
+					resource: "naturesaura:infused_iron"
+					tag: ""
+					type: "chaosworld_core:ae_resource"
+				}
+				{
+					amount: 1L
+					id: "06A7138ED4BDC966"
+					key_type: "ae2:i"
+					match_components: "strict"
+					resource: "naturesaura:tainted_gold"
+					tag: ""
+					type: "chaosworld_core:ae_resource"
+				}
+			]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["00D6CACD595C241E"]
+			id: "00A7C66D0403DC31"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [
+				{
+					amount: 1L
+					id: "6A9D311F61575B86"
+					key_type: "ae2:i"
+					match_components: "strict"
+					resource: "naturesaura:calling_spirit"
+					tag: ""
+					type: "chaosworld_core:ae_resource"
+				}
+				{
+					amount: 1L
+					id: "5B40B2AF6B3150B1"
+					key_type: "ae2:i"
+					match_components: "strict"
+					resource: "naturesaura:offering_table"
+					tag: ""
+					type: "chaosworld_core:ae_resource"
+				}
+			]
+			x: 11.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["00A7C66D0403DC31"]
+			id: "77952001F08E1CBB"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "0DF3563294743A29"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "naturesaura:sky_ingot"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 13.5d
+			y: 2.5d
+		}
 	]
 }

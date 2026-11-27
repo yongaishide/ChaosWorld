@@ -1,0 +1,59 @@
+	[collector.thaumium]
+		#Times the Densest Neutronium Collector works on every tick. 1 is the speed of the Densest Neutronium Collector.
+		# Default: 2
+		# Range: 1 ~ 64
+		speed_multiplier = 2
+		#Items produced every time the collector finishes a cycle. 1 is what the Densest Neutronium Collector gives.
+		# Default: 1
+		# Range: 1 ~ 64
+		production_multiplier = 1
+
+	[collector.alchemical_brass]
+		#Times the Densest Neutronium Collector works on every tick. 1 is the speed of the Densest Neutronium Collector.
+		# Default: 4
+		# Range: 1 ~ 64
+		speed_multiplier = 4
+		#Items produced every time the collector finishes a cycle. 1 is what the Densest Neutronium Collector gives.
+		# Default: 2
+		# Range: 1 ~ 64
+		production_multiplier = 2
+
+	[collector.void_metal]
+		#Times the Densest Neutronium Collector works on every tick. 1 is the speed of the Densest Neutronium Collector.
+		# Default: 8
+		# Range: 1 ~ 64
+		speed_multiplier = 8
+		#Items produced every time the collector finishes a cycle. 1 is what the Densest Neutronium Collector gives.
+		# Default: 4
+		# Range: 1 ~ 64
+		production_multiplier = 4
+
+	[compressor.thaumium]
+		#Times the Densest Neutronium Compressor works on every tick. 1 is the speed of the Densest Neutronium Compressor.
+		# Default: 2
+		# Range: 1 ~ 64
+		speed_multiplier = 2
+		#Multiplier of the items the compressor gives every time it finishes a recipe, with the same materials. 1 is what the Densest Neutronium Compressor gives.
+		# Default: 1
+		# Range: 1 ~ 64
+		production_multiplier = 1
+
+	[compressor.alchemical_brass]
+		#Times the Densest Neutronium Compressor works on every tick. 1 is the speed of the Densest Neutronium Compressor.
+		# Default: 4
+		# Range: 1 ~ 64
+		speed_multiplier = 4
+		#Multiplier of the items the compressor gives every time it finishes a recipe, with the same materials. 1 is what the Densest Neutronium Compressor gives.
+		# Default: 2
+		# Range: 1 ~ 64
+		production_multiplier = 2
+
+	[compressor.void_metal]
+		#Times the Densest Neutronium Compressor works on every tick. 1 is the speed of the Densest Neutronium Compressor.
+		# Default: 8
+		# Range: 1 ~ 64
+		speed_multiplier = 8
+		#Multiplier of the items the compressor gives every time it finishes a recipe, with the same materials. 1 is what the Densest Neutronium Compressor gives.
+		# Default: 4
+		# Range: 1 ~ 64
+		production_multiplier = 4

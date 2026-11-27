@@ -1,0 +1,7 @@
+[item_preview]
+	#Show an enlarged picture of the item in the tooltip of every item, vanilla and modded.
+	enabled = true
+	#Size of the picture in multiples of a normal item icon (16 px).
+	# Default: 3
+	# Range: 1 ~ 8
+	scale = 3

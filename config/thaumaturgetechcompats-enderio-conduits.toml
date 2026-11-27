@@ -1,0 +1,65 @@
+	[energy.thaumium]
+		#Energy the conduit moves every tick, in RF. The vibrant energy conduit of Ender IO moves 192000.
+		# Default: 750000
+		# Range: > 1
+		transfer_rate = 750000
+
+	[energy.alchemical_brass]
+		#Energy the conduit moves every tick, in RF. The vibrant energy conduit of Ender IO moves 192000.
+		# Default: 3000000
+		# Range: > 1
+		transfer_rate = 3000000
+
+	[energy.void_metal]
+		#Energy the conduit moves every tick, in RF. The vibrant energy conduit of Ender IO moves 192000.
+		# Default: 12000000
+		# Range: > 1
+		transfer_rate = 12000000
+
+	[item.thaumium]
+		#Items the conduit moves every transfer cycle. The vibrant item conduit of Ender IO moves 64.
+		# Default: 64
+		# Range: > 1
+		transfer_rate = 64
+		#Ticks between two transfer cycles. Lower is faster. Ender IO uses 20 for the basic item conduit and 10 for the vibrant one.
+		# Default: 5
+		# Range: 1 ~ 20
+		ticks_per_cycle = 5
+
+	[item.alchemical_brass]
+		#Items the conduit moves every transfer cycle. The vibrant item conduit of Ender IO moves 64.
+		# Default: 128
+		# Range: > 1
+		transfer_rate = 128
+		#Ticks between two transfer cycles. Lower is faster. Ender IO uses 20 for the basic item conduit and 10 for the vibrant one.
+		# Default: 4
+		# Range: 1 ~ 20
+		ticks_per_cycle = 4
+
+	[item.void_metal]
+		#Items the conduit moves every transfer cycle. The vibrant item conduit of Ender IO moves 64.
+		# Default: 256
+		# Range: > 1
+		transfer_rate = 256
+		#Ticks between two transfer cycles. Lower is faster. Ender IO uses 20 for the basic item conduit and 10 for the vibrant one.
+		# Default: 2
+		# Range: 1 ~ 20
+		ticks_per_cycle = 2
+
+	[fluid.thaumium]
+		#Fluid the conduit moves every tick, in mB. The vibrant fluid conduit of Ender IO moves 8000.
+		# Default: 32000
+		# Range: > 1
+		transfer_rate = 32000
+
+	[fluid.alchemical_brass]
+		#Fluid the conduit moves every tick, in mB. The vibrant fluid conduit of Ender IO moves 8000.
+		# Default: 128000
+		# Range: > 1
+		transfer_rate = 128000
+
+	[fluid.void_metal]
+		#Fluid the conduit moves every tick, in mB. The vibrant fluid conduit of Ender IO moves 8000.
+		# Default: 512000
+		# Range: > 1
+		transfer_rate = 512000

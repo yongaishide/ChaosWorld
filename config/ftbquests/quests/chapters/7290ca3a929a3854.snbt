@@ -1,0 +1,30 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7290ca3a929a3854"
+	group: "594C594928EE3D88"
+	icon: {
+		id: "avaritia:eternal_singularity"
+	}
+	id: "7290CA3A929A3854"
+	images: [ ]
+	order_index: 2
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [{
+		id: "0C9A409A468F748A"
+		quest_enhance_disable_scroll_paging: false
+		tasks: [{
+			amount: 1L
+			id: "7F6186443326BE7F"
+			key_type: "ae2:i"
+			match_components: "strict"
+			resource: "avaritia:eternal_singularity"
+			tag: ""
+			type: "chaosworld_core:ae_resource"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

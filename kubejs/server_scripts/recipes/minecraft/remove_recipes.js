@@ -104,7 +104,8 @@ ServerEvents.recipes(event => {
         "projecte:red_matter",
         "neoecoae:crystal_matrix",
         "botania:glimmering_livingwood",
-        "botania:elven_gateway_core"
+        "botania:elven_gateway_core",
+        "appliedas:lumen_cell_housing"
         
     ]
     recipeTypeshaped.forEach((item) => {

@@ -1,0 +1,239 @@
+	[rods.redstone_alloy]
+		#Vis capacity of the rod, in the same units as the rods of Thaumaturge. A wooden rod has 25, a greatwood rod 50 and a silverwood rod 100.
+		# Default: 40
+		# Range: 1 ~ 10000000
+		capacity = 40
+		#Craft cost factor of the rod. The vis an assembled wand costs to make is this times the craft cost of its cap.
+		# Default: 4
+		# Range: 1 ~ 100000
+		craft_cost = 4
+
+	[rods.conductive_alloy]
+		#Vis capacity of the rod, in the same units as the rods of Thaumaturge. A wooden rod has 25, a greatwood rod 50 and a silverwood rod 100.
+		# Default: 55
+		# Range: 1 ~ 10000000
+		capacity = 55
+		#Craft cost factor of the rod. The vis an assembled wand costs to make is this times the craft cost of its cap.
+		# Default: 5
+		# Range: 1 ~ 100000
+		craft_cost = 5
+
+	[rods.pulsating_alloy]
+		#Vis capacity of the rod, in the same units as the rods of Thaumaturge. A wooden rod has 25, a greatwood rod 50 and a silverwood rod 100.
+		# Default: 70
+		# Range: 1 ~ 10000000
+		capacity = 70
+		#Craft cost factor of the rod. The vis an assembled wand costs to make is this times the craft cost of its cap.
+		# Default: 6
+		# Range: 1 ~ 100000
+		craft_cost = 6
+
+	[rods.energetic_alloy]
+		#Vis capacity of the rod, in the same units as the rods of Thaumaturge. A wooden rod has 25, a greatwood rod 50 and a silverwood rod 100.
+		# Default: 85
+		# Range: 1 ~ 10000000
+		capacity = 85
+		#Craft cost factor of the rod. The vis an assembled wand costs to make is this times the craft cost of its cap.
+		# Default: 7
+		# Range: 1 ~ 100000
+		craft_cost = 7
+
+	[rods.dark_steel]
+		#Vis capacity of the rod, in the same units as the rods of Thaumaturge. A wooden rod has 25, a greatwood rod 50 and a silverwood rod 100.
+		# Default: 100
+		# Range: 1 ~ 10000000
+		capacity = 100
+		#Craft cost factor of the rod. The vis an assembled wand costs to make is this times the craft cost of its cap.
+		# Default: 8
+		# Range: 1 ~ 100000
+		craft_cost = 8
+
+	[rods.soularium]
+		#Vis capacity of the rod, in the same units as the rods of Thaumaturge. A wooden rod has 25, a greatwood rod 50 and a silverwood rod 100.
+		# Default: 115
+		# Range: 1 ~ 10000000
+		capacity = 115
+		#Craft cost factor of the rod. The vis an assembled wand costs to make is this times the craft cost of its cap.
+		# Default: 9
+		# Range: 1 ~ 100000
+		craft_cost = 9
+
+	[rods.pulsating_crystal]
+		#Vis capacity of the rod, in the same units as the rods of Thaumaturge. A wooden rod has 25, a greatwood rod 50 and a silverwood rod 100.
+		# Default: 130
+		# Range: 1 ~ 10000000
+		capacity = 130
+		#Craft cost factor of the rod. The vis an assembled wand costs to make is this times the craft cost of its cap.
+		# Default: 10
+		# Range: 1 ~ 100000
+		craft_cost = 10
+
+	[rods.vibrant_alloy]
+		#Vis capacity of the rod, in the same units as the rods of Thaumaturge. A wooden rod has 25, a greatwood rod 50 and a silverwood rod 100.
+		# Default: 145
+		# Range: 1 ~ 10000000
+		capacity = 145
+		#Craft cost factor of the rod. The vis an assembled wand costs to make is this times the craft cost of its cap.
+		# Default: 11
+		# Range: 1 ~ 100000
+		craft_cost = 11
+
+	[rods.vibrant_crystal]
+		#Vis capacity of the rod, in the same units as the rods of Thaumaturge. A wooden rod has 25, a greatwood rod 50 and a silverwood rod 100.
+		# Default: 160
+		# Range: 1 ~ 10000000
+		capacity = 160
+		#Craft cost factor of the rod. The vis an assembled wand costs to make is this times the craft cost of its cap.
+		# Default: 12
+		# Range: 1 ~ 100000
+		craft_cost = 12
+
+	[rods.end_steel]
+		#Vis capacity of the rod, in the same units as the rods of Thaumaturge. A wooden rod has 25, a greatwood rod 50 and a silverwood rod 100.
+		# Default: 175
+		# Range: 1 ~ 10000000
+		capacity = 175
+		#Craft cost factor of the rod. The vis an assembled wand costs to make is this times the craft cost of its cap.
+		# Default: 13
+		# Range: 1 ~ 100000
+		craft_cost = 13
+
+	[caps.redstone_alloy]
+		#Multiplier of the vis every spell costs. 1.0 is the full price, 0.5 is half and 0.0 is free. The thaumium cap is 0.9 and the void cap 0.8.
+		# Default: 1.0
+		# Range: 0.0 ~ 10.0
+		cost_modifier = 1.0
+		#Multiplier of the vis cost for the special aspects of this cap, instead of the cost modifier.
+		# Default: 0.8999999761581421
+		# Range: 0.0 ~ 10.0
+		special_cost_modifier = 0.8999999761581421
+		#Craft cost factor of the cap. The vis an assembled wand costs to make is this times the craft cost of its rod.
+		# Default: 3
+		# Range: 1 ~ 100000
+		craft_cost = 3
+
+	[caps.conductive_alloy]
+		#Multiplier of the vis every spell costs. 1.0 is the full price, 0.5 is half and 0.0 is free. The thaumium cap is 0.9 and the void cap 0.8.
+		# Default: 0.9800000190734863
+		# Range: 0.0 ~ 10.0
+		cost_modifier = 0.9800000190734863
+		#Multiplier of the vis cost for the special aspects of this cap, instead of the cost modifier.
+		# Default: 0.8799999952316284
+		# Range: 0.0 ~ 10.0
+		special_cost_modifier = 0.8799999952316284
+		#Craft cost factor of the cap. The vis an assembled wand costs to make is this times the craft cost of its rod.
+		# Default: 4
+		# Range: 1 ~ 100000
+		craft_cost = 4
+
+	[caps.pulsating_alloy]
+		#Multiplier of the vis every spell costs. 1.0 is the full price, 0.5 is half and 0.0 is free. The thaumium cap is 0.9 and the void cap 0.8.
+		# Default: 0.9599999785423279
+		# Range: 0.0 ~ 10.0
+		cost_modifier = 0.9599999785423279
+		#Multiplier of the vis cost for the special aspects of this cap, instead of the cost modifier.
+		# Default: 0.8600000143051147
+		# Range: 0.0 ~ 10.0
+		special_cost_modifier = 0.8600000143051147
+		#Craft cost factor of the cap. The vis an assembled wand costs to make is this times the craft cost of its rod.
+		# Default: 5
+		# Range: 1 ~ 100000
+		craft_cost = 5
+
+	[caps.energetic_alloy]
+		#Multiplier of the vis every spell costs. 1.0 is the full price, 0.5 is half and 0.0 is free. The thaumium cap is 0.9 and the void cap 0.8.
+		# Default: 0.9399999976158142
+		# Range: 0.0 ~ 10.0
+		cost_modifier = 0.9399999976158142
+		#Multiplier of the vis cost for the special aspects of this cap, instead of the cost modifier.
+		# Default: 0.8399999737739563
+		# Range: 0.0 ~ 10.0
+		special_cost_modifier = 0.8399999737739563
+		#Craft cost factor of the cap. The vis an assembled wand costs to make is this times the craft cost of its rod.
+		# Default: 6
+		# Range: 1 ~ 100000
+		craft_cost = 6
+
+	[caps.dark_steel]
+		#Multiplier of the vis every spell costs. 1.0 is the full price, 0.5 is half and 0.0 is free. The thaumium cap is 0.9 and the void cap 0.8.
+		# Default: 0.9200000166893005
+		# Range: 0.0 ~ 10.0
+		cost_modifier = 0.9200000166893005
+		#Multiplier of the vis cost for the special aspects of this cap, instead of the cost modifier.
+		# Default: 0.8199999928474426
+		# Range: 0.0 ~ 10.0
+		special_cost_modifier = 0.8199999928474426
+		#Craft cost factor of the cap. The vis an assembled wand costs to make is this times the craft cost of its rod.
+		# Default: 7
+		# Range: 1 ~ 100000
+		craft_cost = 7
+
+	[caps.soularium]
+		#Multiplier of the vis every spell costs. 1.0 is the full price, 0.5 is half and 0.0 is free. The thaumium cap is 0.9 and the void cap 0.8.
+		# Default: 0.8999999761581421
+		# Range: 0.0 ~ 10.0
+		cost_modifier = 0.8999999761581421
+		#Multiplier of the vis cost for the special aspects of this cap, instead of the cost modifier.
+		# Default: 0.800000011920929
+		# Range: 0.0 ~ 10.0
+		special_cost_modifier = 0.800000011920929
+		#Craft cost factor of the cap. The vis an assembled wand costs to make is this times the craft cost of its rod.
+		# Default: 8
+		# Range: 1 ~ 100000
+		craft_cost = 8
+
+	[caps.pulsating_crystal]
+		#Multiplier of the vis every spell costs. 1.0 is the full price, 0.5 is half and 0.0 is free. The thaumium cap is 0.9 and the void cap 0.8.
+		# Default: 0.8799999952316284
+		# Range: 0.0 ~ 10.0
+		cost_modifier = 0.8799999952316284
+		#Multiplier of the vis cost for the special aspects of this cap, instead of the cost modifier.
+		# Default: 0.7799999713897705
+		# Range: 0.0 ~ 10.0
+		special_cost_modifier = 0.7799999713897705
+		#Craft cost factor of the cap. The vis an assembled wand costs to make is this times the craft cost of its rod.
+		# Default: 9
+		# Range: 1 ~ 100000
+		craft_cost = 9
+
+	[caps.vibrant_alloy]
+		#Multiplier of the vis every spell costs. 1.0 is the full price, 0.5 is half and 0.0 is free. The thaumium cap is 0.9 and the void cap 0.8.
+		# Default: 0.8600000143051147
+		# Range: 0.0 ~ 10.0
+		cost_modifier = 0.8600000143051147
+		#Multiplier of the vis cost for the special aspects of this cap, instead of the cost modifier.
+		# Default: 0.7599999904632568
+		# Range: 0.0 ~ 10.0
+		special_cost_modifier = 0.7599999904632568
+		#Craft cost factor of the cap. The vis an assembled wand costs to make is this times the craft cost of its rod.
+		# Default: 10
+		# Range: 1 ~ 100000
+		craft_cost = 10
+
+	[caps.vibrant_crystal]
+		#Multiplier of the vis every spell costs. 1.0 is the full price, 0.5 is half and 0.0 is free. The thaumium cap is 0.9 and the void cap 0.8.
+		# Default: 0.8399999737739563
+		# Range: 0.0 ~ 10.0
+		cost_modifier = 0.8399999737739563
+		#Multiplier of the vis cost for the special aspects of this cap, instead of the cost modifier.
+		# Default: 0.7400000095367432
+		# Range: 0.0 ~ 10.0
+		special_cost_modifier = 0.7400000095367432
+		#Craft cost factor of the cap. The vis an assembled wand costs to make is this times the craft cost of its rod.
+		# Default: 11
+		# Range: 1 ~ 100000
+		craft_cost = 11
+
+	[caps.end_steel]
+		#Multiplier of the vis every spell costs. 1.0 is the full price, 0.5 is half and 0.0 is free. The thaumium cap is 0.9 and the void cap 0.8.
+		# Default: 0.800000011920929
+		# Range: 0.0 ~ 10.0
+		cost_modifier = 0.800000011920929
+		#Multiplier of the vis cost for the special aspects of this cap, instead of the cost modifier.
+		# Default: 0.699999988079071
+		# Range: 0.0 ~ 10.0
+		special_cost_modifier = 0.699999988079071
+		#Craft cost factor of the cap. The vis an assembled wand costs to make is this times the craft cost of its rod.
+		# Default: 12
+		# Range: 1 ~ 100000
+		craft_cost = 12

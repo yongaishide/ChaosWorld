@@ -1,0 +1,17 @@
+[jade]
+	#Master switch for the Jade tooltips of the Avaritia blocks. When false none of them is sent.
+	enabled = true
+	#Shows the tier line information in Jade.
+	tier_line = true
+	#Shows the node stabilizers information in Jade.
+	node_stabilizers = true
+	#Shows the essentia smelters information in Jade.
+	essentia_smelters = true
+	#Shows the node transducers information in Jade.
+	node_transducers = true
+	#Shows the alchemical furnaces information in Jade.
+	alchemical_furnaces = true
+	#Shows the mnemonic matrices information in Jade.
+	mnemonic_matrices = true
+	#Shows the workbench chargers information in Jade.
+	workbench_chargers = true

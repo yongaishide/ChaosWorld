@@ -29,7 +29,7 @@ ServerEvents.recipes(event => {
     event.custom({
         type: 'mmcr:machine_recipe',
         recipe_pool: POOL,
-        tick_time: 1000,        // 20 tick = 1 秒
+        tick_time: 200,        // 20 tick = 1 秒
         parallelized: true,    // 允许批量；实际并行倍率由结构里的并行控制器决定
         requirements: [
             power(256, 2),                                   // 256 FE/t，需要二阶及以上线圈
@@ -41,7 +41,7 @@ ServerEvents.recipes(event => {
     event.custom({
         type: 'mmcr:machine_recipe',
         recipe_pool: POOL,
-        tick_time: 100,        // 20 tick = 1 秒
+        tick_time: 200,        // 20 tick = 1 秒
         parallelized: true,    // 允许批量；实际并行倍率由结构里的并行控制器决定
         requirements: [
             power(256, 1),                                   // 256 FE/t，需要二阶及以上线圈
@@ -53,7 +53,7 @@ ServerEvents.recipes(event => {
     event.custom({
         type: 'mmcr:machine_recipe',
         recipe_pool: POOL,
-        tick_time: 100,        // 20 tick = 1 秒
+        tick_time: 200,        // 20 tick = 1 秒
         parallelized: true,    // 允许批量；实际并行倍率由结构里的并行控制器决定
         requirements: [
             power(256, 1),                                   // 256 FE/t，需要二阶及以上线圈
@@ -65,7 +65,7 @@ ServerEvents.recipes(event => {
     event.custom({
         type: 'mmcr:machine_recipe',
         recipe_pool: POOL,
-        tick_time: 100,        // 20 tick = 1 秒
+        tick_time: 200,        // 20 tick = 1 秒
         parallelized: true,    // 允许批量；实际并行倍率由结构里的并行控制器决定
         requirements: [
             power(512, 3),                                   // 256 FE/t，需要二阶及以上线圈

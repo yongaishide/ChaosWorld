@@ -28,6 +28,7 @@ ServerEvents.recipes(event => {
         "industrialforegoing:mob_crusher",
         "industrialforegoing:mob_slaughter_factory",
         "data_energistics:data_carrier",
+        "appliedas:lumen_cell_housing"
     ]
 
     // 注意：不能只写 { output: item }。

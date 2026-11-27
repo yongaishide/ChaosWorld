@@ -1,0 +1,79 @@
+[thaumium]
+	#Blocks between two Transmission Links of this tier.
+	# Default: 16
+	# Range: 1 ~ 1024
+	link_range = 16
+	#Dimensional Flux a Transmission Link of this tier moves every tick.
+	# Default: 2000
+	# Range: 1 ~ 2305843009213693951
+	link_rate_per_tick = 2000
+	#Base Dimensional Flux a Storage Core of this tier can hold, before Capacity Cells.
+	# Default: 1000000
+	# Range: 1 ~ 2305843009213693951
+	core_base_capacity = 1000000
+	#Radius in blocks in which an Environmental Charger of this tier recharges items.
+	# Default: 8
+	# Range: 1 ~ 64
+	charger_radius = 8
+	#Dimensional Flux an Environmental Charger of this tier gives to each item every tick.
+	# Default: 200
+	# Range: 1 ~ 2305843009213693951
+	charger_rate_per_tick = 200
+
+[alchemical_brass]
+	#Blocks between two Transmission Links of this tier.
+	# Default: 48
+	# Range: 1 ~ 1024
+	link_range = 48
+	#Dimensional Flux a Transmission Link of this tier moves every tick.
+	# Default: 20000
+	# Range: 1 ~ 2305843009213693951
+	link_rate_per_tick = 20000
+	#Base Dimensional Flux a Storage Core of this tier can hold, before Capacity Cells.
+	# Default: 25000000
+	# Range: 1 ~ 2305843009213693951
+	core_base_capacity = 25000000
+	#Radius in blocks in which an Environmental Charger of this tier recharges items.
+	# Default: 12
+	# Range: 1 ~ 64
+	charger_radius = 12
+	#Dimensional Flux an Environmental Charger of this tier gives to each item every tick.
+	# Default: 2000
+	# Range: 1 ~ 2305843009213693951
+	charger_rate_per_tick = 2000
+
+[void_metal]
+	#Blocks between two Transmission Links of this tier.
+	# Default: 128
+	# Range: 1 ~ 1024
+	link_range = 128
+	#Dimensional Flux a Transmission Link of this tier moves every tick.
+	# Default: 200000
+	# Range: 1 ~ 2305843009213693951
+	link_rate_per_tick = 200000
+	#Base Dimensional Flux a Storage Core of this tier can hold, before Capacity Cells.
+	# Default: 1000000000
+	# Range: 1 ~ 2305843009213693951
+	core_base_capacity = 1000000000
+	#Radius in blocks in which an Environmental Charger of this tier recharges items.
+	# Default: 16
+	# Range: 1 ~ 64
+	charger_radius = 16
+	#Dimensional Flux an Environmental Charger of this tier gives to each item every tick.
+	# Default: 20000
+	# Range: 1 ~ 2305843009213693951
+	charger_rate_per_tick = 20000
+
+[rift_extractor]
+	#Ticks between two extractions of a Rift Extractor. Every extraction shrinks the rift by one point.
+	# Default: 40
+	# Range: 1 ~ 72000
+	interval = 40
+	#Dimensional Flux a Rift Extractor gets for every point of size it takes from a rift.
+	# Default: 5000
+	# Range: 1 ~ 2305843009213693951
+	flux_per_size = 5000
+	#Blocks around the Rift Extractor in which it reaches a flux rift.
+	# Default: 6
+	# Range: 1 ~ 32
+	radius = 6

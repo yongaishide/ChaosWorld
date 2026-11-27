@@ -1,0 +1,351 @@
+[tier_rule]
+	#Everything of the Avaritia tiers that is made by infusion can only be infused on an altar whose center is the Runic Matrix of its own tier, so it suffers that matrix's instability. This is the master switch of that rule.
+	enabled = true
+	#Items of this tier that are made by infusion need the Runic Matrix of this tier at the center of the altar. The matrices and the infusion stones keep following the tier before them.
+	require_own_matrix = true
+
+	[matrix.matrix]
+		#Multiplier of the stability this matrix loses every cycle. The faster it loses stability, the sooner the instability of the craft in progress starts to trigger events. 1 is the loss of the Runic Matrix.
+		# Default: 1.0
+		# Range: 0.0 ~ 1000.0
+		instability_multiplier = 1.0
+		#Every unit of essentia that enters the matrix counts as this many units of the recipe. 1 is what the Runic Matrix does.
+		# Default: 1
+		# Range: 1 ~ 10000
+		essentia_multiplier = 1
+		#Turns every instability event of this matrix on or off.
+		effects_enabled = true
+		#Every this many points of stability below zero add one more level of intensity to the events of this matrix.
+		# Default: 25.0
+		# Range: 1.0 ~ 1000.0
+		intensity_stability_scale = 25.0
+		#Radius in blocks around the matrix reached by its instability events.
+		# Default: 6
+		# Range: 1 ~ 64
+		effect_radius = 6
+		#Extra multiplier of the instability while it is day. 2 means twice as unstable by day.
+		# Default: 2.0
+		# Range: 1.0 ~ 100.0
+		day_multiplier = 2.0
+		#When on, the day multiplier only applies if the matrix can see the sky.
+		day_requires_sky = false
+		#Solar flares set the ground around the altar on fire.
+		fire_enabled = true
+		#Chance that an event sets fires.
+		# Default: 0.6
+		# Range: 0.0 ~ 1.0
+		fire_chance = 0.6
+		#Fires tried per event, multiplied by the intensity.
+		# Default: 4
+		# Range: 1 ~ 64
+		fire_attempts = 4
+		#Solar flares call lightning near the altar.
+		lightning_enabled = true
+		#Chance that an event calls lightning.
+		# Default: 0.25
+		# Range: 0.0 ~ 1.0
+		lightning_chance = 0.25
+		#Solar flares burn everything alive near the altar.
+		burn_enabled = true
+		#Chance that an event burns the creatures around.
+		# Default: 0.7
+		# Range: 0.0 ~ 1.0
+		burn_chance = 0.7
+		#Seconds on fire per event, multiplied by the intensity.
+		# Default: 4
+		# Range: 1 ~ 600
+		burn_seconds = 4
+		#Fire damage per event, multiplied by the intensity.
+		# Default: 2.0
+		# Range: 0.0 ~ 1000.0
+		burn_damage = 2.0
+
+	[matrix.neutronium]
+		#Multiplier of the stability this matrix loses every cycle. The faster it loses stability, the sooner the instability of the craft in progress starts to trigger events. 1 is the loss of the Runic Matrix.
+		# Default: 1.5
+		# Range: 0.0 ~ 1000.0
+		instability_multiplier = 1.5
+		#Every unit of essentia that enters the matrix counts as this many units of the recipe. 1 is what the Runic Matrix does.
+		# Default: 1
+		# Range: 1 ~ 10000
+		essentia_multiplier = 1
+		#Turns every instability event of this matrix on or off.
+		effects_enabled = true
+		#Every this many points of stability below zero add one more level of intensity to the events of this matrix.
+		# Default: 25.0
+		# Range: 1.0 ~ 1000.0
+		intensity_stability_scale = 25.0
+		#Radius in blocks around the matrix reached by its instability events.
+		# Default: 8
+		# Range: 1 ~ 64
+		effect_radius = 8
+		#The altar gives off radiation that hurts and weakens everything alive near it.
+		radiation_enabled = true
+		#Chance that an event gives off radiation.
+		# Default: 0.8
+		# Range: 0.0 ~ 1.0
+		radiation_chance = 0.8
+		#Radiation damage per event, multiplied by the intensity.
+		# Default: 2.0
+		# Range: 0.0 ~ 1000.0
+		radiation_damage = 2.0
+		#Seconds of weakness, hunger and wither per event, multiplied by the intensity.
+		# Default: 10
+		# Range: 1 ~ 3600
+		radiation_effect_seconds = 10
+		#The altar can melt down and explode.
+		meltdown_enabled = true
+		#Chance that an event ends in an explosion.
+		# Default: 0.08
+		# Range: 0.0 ~ 1.0
+		meltdown_chance = 0.08
+		#Explosion power, multiplied by the intensity up to three times.
+		# Default: 3.0
+		# Range: 0.0 ~ 50.0
+		meltdown_power = 3.0
+		#When off, the explosion hurts but does not break blocks.
+		meltdown_breaks_blocks = true
+		#The altar pours flux into the aura around it.
+		contamination_enabled = true
+		#Chance that an event pours flux.
+		# Default: 0.5
+		# Range: 0.0 ~ 1.0
+		contamination_chance = 0.5
+		#Flux poured per event, multiplied by the intensity.
+		# Default: 8.0
+		# Range: 0.0 ~ 100000.0
+		contamination_flux = 8.0
+
+	[matrix.infinity]
+		#Multiplier of the stability this matrix loses every cycle. The faster it loses stability, the sooner the instability of the craft in progress starts to trigger events. 1 is the loss of the Runic Matrix.
+		# Default: 3.0
+		# Range: 0.0 ~ 1000.0
+		instability_multiplier = 3.0
+		#Every unit of essentia that enters the matrix counts as this many units of the recipe. 1 is what the Runic Matrix does.
+		# Default: 20
+		# Range: 1 ~ 10000
+		essentia_multiplier = 20
+		#Turns every instability event of this matrix on or off.
+		effects_enabled = true
+		#Every this many points of stability below zero add one more level of intensity to the events of this matrix.
+		# Default: 25.0
+		# Range: 1.0 ~ 1000.0
+		intensity_stability_scale = 25.0
+		#Radius in blocks around the matrix reached by its instability events.
+		# Default: 12
+		# Range: 1 ~ 64
+		effect_radius = 12
+		#Cosmic tears pour flux into the aura around the altar.
+		flux_enabled = true
+		#Chance that an event pours flux.
+		# Default: 0.7
+		# Range: 0.0 ~ 1.0
+		flux_chance = 0.7
+		#Flux poured per event, multiplied by the intensity.
+		# Default: 15.0
+		# Range: 0.0 ~ 100000.0
+		flux_amount = 15.0
+		#The cosmos gives warp to the players near the altar.
+		warp_enabled = true
+		#Chance that an event gives warp.
+		# Default: 0.6
+		# Range: 0.0 ~ 1.0
+		warp_chance = 0.6
+		#Warp given per event, multiplied by the intensity.
+		# Default: 2
+		# Range: 1 ~ 1000
+		warp_amount = 2
+		#Chance that the warp is the kind that fades slowly instead of the temporary kind.
+		# Default: 0.2
+		# Range: 0.0 ~ 1.0
+		warp_normal_chance = 0.2
+		#Creatures from beyond come through next to the altar.
+		summon_enabled = true
+		#Chance that an event summons creatures.
+		# Default: 0.4
+		# Range: 0.0 ~ 1.0
+		summon_chance = 0.4
+		#Creatures summoned per event, multiplied by the intensity up to three times.
+		# Default: 3
+		# Range: 1 ~ 64
+		summon_count = 3
+		#Ids of the creatures the cosmic instability can summon around the altar.
+		summon_entities = ["minecraft:endermite", "minecraft:vex", "minecraft:silverfish"]
+		#Everything alive near the altar is thrown somewhere else.
+		teleport_enabled = true
+		#Chance that an event teleports the creatures around.
+		# Default: 0.5
+		# Range: 0.0 ~ 1.0
+		teleport_chance = 0.5
+		#Furthest distance in blocks a creature is thrown.
+		# Default: 16
+		# Range: 1 ~ 256
+		teleport_distance = 16
+
+		[stones.matrix.cost]
+			#Added to the cost multiplier of the altar for every stone of this kind under a pillar. The Infusion Cost Stone gives -0.02 and the Infusion Speed Stone gives 0.01. The altar never goes below 0.5.
+			# Default: -0.03
+			# Range: -1.0 ~ 1.0
+			cost_modifier = -0.03
+			#Added to the cycle time of the altar for every stone of this kind under a pillar. The Infusion Cost Stone gives 1 and the Infusion Speed Stone gives -1.
+			# Default: 0
+			# Range: -10 ~ 10
+			cycle_time_modifier = 0
+			#Added to the stability the altar recovers for every stone of this kind. Matrix variants ignore it, since they have no stability recovery.
+			# Default: 0.0
+			# Range: -10.0 ~ 10.0
+			stability_modifier = 0.0
+
+		[stones.matrix.speed]
+			#Added to the cost multiplier of the altar for every stone of this kind under a pillar. The Infusion Cost Stone gives -0.02 and the Infusion Speed Stone gives 0.01. The altar never goes below 0.5.
+			# Default: 0.0
+			# Range: -1.0 ~ 1.0
+			cost_modifier = 0.0
+			#Added to the cycle time of the altar for every stone of this kind under a pillar. The Infusion Cost Stone gives 1 and the Infusion Speed Stone gives -1.
+			# Default: -2
+			# Range: -10 ~ 10
+			cycle_time_modifier = -2
+			#Added to the stability the altar recovers for every stone of this kind. Matrix variants ignore it, since they have no stability recovery.
+			# Default: 0.0
+			# Range: -10.0 ~ 10.0
+			stability_modifier = 0.0
+
+		[stones.neutronium.cost]
+			#Added to the cost multiplier of the altar for every stone of this kind under a pillar. The Infusion Cost Stone gives -0.02 and the Infusion Speed Stone gives 0.01. The altar never goes below 0.5.
+			# Default: -0.05
+			# Range: -1.0 ~ 1.0
+			cost_modifier = -0.05
+			#Added to the cycle time of the altar for every stone of this kind under a pillar. The Infusion Cost Stone gives 1 and the Infusion Speed Stone gives -1.
+			# Default: 0
+			# Range: -10 ~ 10
+			cycle_time_modifier = 0
+			#Added to the stability the altar recovers for every stone of this kind. Matrix variants ignore it, since they have no stability recovery.
+			# Default: 0.0
+			# Range: -10.0 ~ 10.0
+			stability_modifier = 0.0
+
+		[stones.neutronium.speed]
+			#Added to the cost multiplier of the altar for every stone of this kind under a pillar. The Infusion Cost Stone gives -0.02 and the Infusion Speed Stone gives 0.01. The altar never goes below 0.5.
+			# Default: 0.0
+			# Range: -1.0 ~ 1.0
+			cost_modifier = 0.0
+			#Added to the cycle time of the altar for every stone of this kind under a pillar. The Infusion Cost Stone gives 1 and the Infusion Speed Stone gives -1.
+			# Default: -3
+			# Range: -10 ~ 10
+			cycle_time_modifier = -3
+			#Added to the stability the altar recovers for every stone of this kind. Matrix variants ignore it, since they have no stability recovery.
+			# Default: 0.0
+			# Range: -10.0 ~ 10.0
+			stability_modifier = 0.0
+
+		[stones.infinity.cost]
+			#Added to the cost multiplier of the altar for every stone of this kind under a pillar. The Infusion Cost Stone gives -0.02 and the Infusion Speed Stone gives 0.01. The altar never goes below 0.5.
+			# Default: -0.125
+			# Range: -1.0 ~ 1.0
+			cost_modifier = -0.125
+			#Added to the cycle time of the altar for every stone of this kind under a pillar. The Infusion Cost Stone gives 1 and the Infusion Speed Stone gives -1.
+			# Default: 0
+			# Range: -10 ~ 10
+			cycle_time_modifier = 0
+			#Added to the stability the altar recovers for every stone of this kind. Matrix variants ignore it, since they have no stability recovery.
+			# Default: 0.0
+			# Range: -10.0 ~ 10.0
+			stability_modifier = 0.0
+
+		[stones.infinity.speed]
+			#Added to the cost multiplier of the altar for every stone of this kind under a pillar. The Infusion Cost Stone gives -0.02 and the Infusion Speed Stone gives 0.01. The altar never goes below 0.5.
+			# Default: -0.01
+			# Range: -1.0 ~ 1.0
+			cost_modifier = -0.01
+			#Added to the cycle time of the altar for every stone of this kind under a pillar. The Infusion Cost Stone gives 1 and the Infusion Speed Stone gives -1.
+			# Default: -4
+			# Range: -10 ~ 10
+			cycle_time_modifier = -4
+			#Added to the stability the altar recovers for every stone of this kind. Matrix variants ignore it, since they have no stability recovery.
+			# Default: 0.0
+			# Range: -10.0 ~ 10.0
+			stability_modifier = 0.0
+
+		[altar.matrix.infusion_pillar]
+			#Added to the cost multiplier of the altar when the four pillars are of this tier. The Ancient Infusion Pillar gives -0.1 and the Eldritch one gives 0.05. The altar never goes below 0.5.
+			# Default: -0.1
+			# Range: -1.0 ~ 1.0
+			cost_modifier = -0.1
+			#Added to the cycle time of the altar when the four pillars are of this tier. The Ancient Infusion Pillar gives -1 and the Eldritch one gives -3.
+			# Default: -1
+			# Range: -10 ~ 10
+			cycle_time_modifier = -1
+			#Added to the stability the altar recovers. Matrix variants ignore it, since they have no stability recovery, so it only matters with the plain Runic Matrix.
+			# Default: 0.25
+			# Range: -10.0 ~ 10.0
+			stability_modifier = 0.25
+
+		[altar.matrix.infusion_pedestal]
+			#Added to the cost multiplier of the altar for every pedestal of this tier around it. The Ancient Pedestal gives -0.01. The altar never goes below 0.5.
+			# Default: -0.01
+			# Range: -1.0 ~ 1.0
+			cost_modifier = -0.01
+			#Added to the cycle time of the altar for every pedestal of this tier around it.
+			# Default: 0
+			# Range: -10 ~ 10
+			cycle_time_modifier = 0
+			#Added to the stability the altar recovers. Matrix variants ignore it, since they have no stability recovery, so it only matters with the plain Runic Matrix.
+			# Default: 0.0
+			# Range: -10.0 ~ 10.0
+			stability_modifier = 0.0
+
+		[altar.neutronium.infusion_pillar]
+			#Added to the cost multiplier of the altar when the four pillars are of this tier. The Ancient Infusion Pillar gives -0.1 and the Eldritch one gives 0.05. The altar never goes below 0.5.
+			# Default: -0.15
+			# Range: -1.0 ~ 1.0
+			cost_modifier = -0.15
+			#Added to the cycle time of the altar when the four pillars are of this tier. The Ancient Infusion Pillar gives -1 and the Eldritch one gives -3.
+			# Default: -2
+			# Range: -10 ~ 10
+			cycle_time_modifier = -2
+			#Added to the stability the altar recovers. Matrix variants ignore it, since they have no stability recovery, so it only matters with the plain Runic Matrix.
+			# Default: 0.35
+			# Range: -10.0 ~ 10.0
+			stability_modifier = 0.35
+
+		[altar.neutronium.infusion_pedestal]
+			#Added to the cost multiplier of the altar for every pedestal of this tier around it. The Ancient Pedestal gives -0.01. The altar never goes below 0.5.
+			# Default: -0.015
+			# Range: -1.0 ~ 1.0
+			cost_modifier = -0.015
+			#Added to the cycle time of the altar for every pedestal of this tier around it.
+			# Default: 0
+			# Range: -10 ~ 10
+			cycle_time_modifier = 0
+			#Added to the stability the altar recovers. Matrix variants ignore it, since they have no stability recovery, so it only matters with the plain Runic Matrix.
+			# Default: 0.0
+			# Range: -10.0 ~ 10.0
+			stability_modifier = 0.0
+
+		[altar.infinity.infusion_pillar]
+			#Added to the cost multiplier of the altar when the four pillars are of this tier. The Ancient Infusion Pillar gives -0.1 and the Eldritch one gives 0.05. The altar never goes below 0.5.
+			# Default: -0.2
+			# Range: -1.0 ~ 1.0
+			cost_modifier = -0.2
+			#Added to the cycle time of the altar when the four pillars are of this tier. The Ancient Infusion Pillar gives -1 and the Eldritch one gives -3.
+			# Default: -3
+			# Range: -10 ~ 10
+			cycle_time_modifier = -3
+			#Added to the stability the altar recovers. Matrix variants ignore it, since they have no stability recovery, so it only matters with the plain Runic Matrix.
+			# Default: 0.5
+			# Range: -10.0 ~ 10.0
+			stability_modifier = 0.5
+
+		[altar.infinity.infusion_pedestal]
+			#Added to the cost multiplier of the altar for every pedestal of this tier around it. The Ancient Pedestal gives -0.01. The altar never goes below 0.5.
+			# Default: -0.02
+			# Range: -1.0 ~ 1.0
+			cost_modifier = -0.02
+			#Added to the cycle time of the altar for every pedestal of this tier around it.
+			# Default: 0
+			# Range: -10 ~ 10
+			cycle_time_modifier = 0
+			#Added to the stability the altar recovers. Matrix variants ignore it, since they have no stability recovery, so it only matters with the plain Runic Matrix.
+			# Default: 0.0
+			# Range: -10.0 ~ 10.0
+			stability_modifier = 0.0

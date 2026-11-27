@@ -1,0 +1,125 @@
+[general]
+	#Turns the Magical Infinity Drill off completely: it mines like a plain tool, without area, speed or level.
+	enabled = true
+	#Vis the drill can hold. The levels are unlocked by the vis it holds, like the Infinity Drill unlocks them with the power it holds.
+	# Default: 5000
+	# Range: 1 ~ 1000000
+	max_vis = 5000
+	#Vis spent on every mined block, the one that was hit included. 0 makes mining free. The Infinity Drill spends 10000 FE per block and one vis is worth 1000 FE, but a drill that holds vis is far smaller than one that holds FE.
+	# Default: 1
+	# Range: 0 ~ 100000
+	vis_per_block = 1
+	#The drill keeps its speed and its area even when it holds no vis, without spending anything.
+	works_without_vis = false
+	#Mining speed against every block a pickaxe or a shovel can mine while the drill has vis or liquid. The Infinity Drill uses 10.
+	# Default: 10.0
+	# Range: 0.0 ~ 1000.0
+	mining_speed = 10.0
+	#The Artifact level also digs as deep as it is wide, a cube, instead of a single layer. The Infinity Drill does the same.
+	artifact_depth = true
+	#The area skips blocks that hold data, like chests and machines, so their contents are never lost. The Infinity Drill does not skip them.
+	skip_block_entities = true
+	#Unbreaking makes the drill spend vis or liquid on fewer blocks.
+	unbreaking_saves_vis = true
+	#Enchantability of the drill. 0 makes it impossible to enchant.
+	# Default: 15
+	# Range: 0 ~ 100
+	enchantability = 15
+	#Attack damage added by the drill. The Infinity Drill adds 3.
+	# Default: 3.0
+	# Range: -100.0 ~ 1000.0
+	attack_damage = 3.0
+	#Attack speed added by the drill. The Infinity Drill adds -2.5.
+	# Default: -2.5
+	# Range: -100.0 ~ 100.0
+	attack_speed = -2.5
+
+[charging]
+	#New drills start with charging turned on. Right click on air toggles it.
+	enabled_by_default = true
+	#Ticks between two charges from the aura around the player while charging is on.
+	# Default: 20
+	# Range: 1 ~ 12000
+	interval_ticks = 20
+	#Vis drawn from the aura into the drill on every charge. A Recharge Pedestal or any other way to recharge an item also works.
+	# Default: 5
+	# Range: 0 ~ 10000
+	amount = 5
+
+[liquid_death]
+	#The drill has a tank for Liquid Death. While it holds enough, it is spent instead of vis, like the Infinity Drill spends Bio Fuel instead of power. The level is still given by the vis.
+	enabled = true
+	#Capacity of the tank, in mB. The Infinity Drill holds 1000000.
+	# Default: 10000
+	# Range: 1 ~ 1000000000
+	capacity_mb = 10000
+	#Liquid Death spent on every mined block, in mB. The Infinity Drill spends 30 of Bio Fuel.
+	# Default: 5
+	# Range: 0 ~ 100000
+	mb_per_block = 5
+
+	[levels.poor]
+		#Blocks the area reaches around the mined block. 0 is one block, 1 is 3x3, 6 is 13x13.
+		# Default: 0
+		# Range: 0 ~ 12
+		radius = 0
+
+	[levels.common]
+		#Blocks the area reaches around the mined block. 0 is one block, 1 is 3x3, 6 is 13x13.
+		# Default: 1
+		# Range: 0 ~ 12
+		radius = 1
+		#Vis the drill must hold for this level to be available.
+		# Default: 100
+		# Range: 0 ~ 1000000
+		min_vis = 100
+
+	[levels.uncommon]
+		#Blocks the area reaches around the mined block. 0 is one block, 1 is 3x3, 6 is 13x13.
+		# Default: 2
+		# Range: 0 ~ 12
+		radius = 2
+		#Vis the drill must hold for this level to be available.
+		# Default: 400
+		# Range: 0 ~ 1000000
+		min_vis = 400
+
+	[levels.rare]
+		#Blocks the area reaches around the mined block. 0 is one block, 1 is 3x3, 6 is 13x13.
+		# Default: 3
+		# Range: 0 ~ 12
+		radius = 3
+		#Vis the drill must hold for this level to be available.
+		# Default: 1000
+		# Range: 0 ~ 1000000
+		min_vis = 1000
+
+	[levels.epic]
+		#Blocks the area reaches around the mined block. 0 is one block, 1 is 3x3, 6 is 13x13.
+		# Default: 4
+		# Range: 0 ~ 12
+		radius = 4
+		#Vis the drill must hold for this level to be available.
+		# Default: 2000
+		# Range: 0 ~ 1000000
+		min_vis = 2000
+
+	[levels.legendary]
+		#Blocks the area reaches around the mined block. 0 is one block, 1 is 3x3, 6 is 13x13.
+		# Default: 5
+		# Range: 0 ~ 12
+		radius = 5
+		#Vis the drill must hold for this level to be available.
+		# Default: 3500
+		# Range: 0 ~ 1000000
+		min_vis = 3500
+
+	[levels.artifact]
+		#Blocks the area reaches around the mined block. 0 is one block, 1 is 3x3, 6 is 13x13.
+		# Default: 6
+		# Range: 0 ~ 12
+		radius = 6
+		#Vis the drill must hold for this level to be available.
+		# Default: 4500
+		# Range: 0 ~ 1000000
+		min_vis = 4500

@@ -1,0 +1,79 @@
+[sources]
+	#Order in which a machine looks for a power source. A machine uses only the first one it finds. Valid values: jar_node, flux_jar, rift_jar, rift, world_node. Hungry nodes are never a valid source.
+	order = ["jar_node", "flux_jar", "rift_jar", "rift", "world_node"]
+
+[nodes]
+	#Fraction of the power a machine draws from a node or a jarred node that is really removed from its aspects. 0 makes nodes an inexhaustible power source, 1 makes them a tank that empties.
+	# Default: 0.0
+	# Range: 0.0 ~ 1.0
+	consume_ratio = 0.0
+
+[flux_jar]
+	#Units of flux the flux_jar can hold.
+	# Default: 100.0
+	# Range: 1.0 ~ 1000000.0
+	flux_jar_capacity = 100.0
+	#Flux the flux_jar pulls from the aura of its chunk on every fill.
+	# Default: 0.25
+	# Range: 0.001 ~ 10000.0
+	flux_jar_fill_amount = 0.25
+	#Units of flux the matrix_flux_jar can hold.
+	# Default: 250.0
+	# Range: 1.0 ~ 1000000.0
+	matrix_flux_jar_capacity = 250.0
+	#Flux the matrix_flux_jar pulls from the aura of its chunk on every fill.
+	# Default: 0.75
+	# Range: 0.001 ~ 10000.0
+	matrix_flux_jar_fill_amount = 0.75
+	#Units of flux the neutronium_flux_jar can hold.
+	# Default: 600.0
+	# Range: 1.0 ~ 1000000.0
+	neutronium_flux_jar_capacity = 600.0
+	#Flux the neutronium_flux_jar pulls from the aura of its chunk on every fill.
+	# Default: 2.0
+	# Range: 0.001 ~ 10000.0
+	neutronium_flux_jar_fill_amount = 2.0
+	#Units of flux the infinity_flux_jar can hold.
+	# Default: 1500.0
+	# Range: 1.0 ~ 1000000.0
+	infinity_flux_jar_capacity = 1500.0
+	#Flux the infinity_flux_jar pulls from the aura of its chunk on every fill.
+	# Default: 6.0
+	# Range: 0.001 ~ 10000.0
+	infinity_flux_jar_fill_amount = 6.0
+	#Ticks between two fills of any Flux Jar.
+	# Default: 20
+	# Range: 1 ~ 72000
+	fill_interval = 20
+
+[rift]
+	#Chance that a flux rift shrinks by one point for every unit of power taken from it.
+	# Default: 0.33
+	# Range: 0.0 ~ 1.0
+	shrink_chance = 0.33
+	#A flux rift at or below this size stops being a power source.
+	# Default: 1
+	# Range: 1 ~ 100
+	min_size = 1
+
+[rift_jar]
+	#Units of power the Rift Jar can hold.
+	# Default: 200.0
+	# Range: 1.0 ~ 1000000.0
+	capacity = 200.0
+	#Blocks around the Rift Jar in which it absorbs a flux rift.
+	# Default: 4.0
+	# Range: 1.0 ~ 32.0
+	capture_radius = 4.0
+	#Ticks between two absorptions of the Rift Jar. Every absorption shrinks the rift by one point.
+	# Default: 40
+	# Range: 1 ~ 72000
+	capture_interval = 40
+	#Units of power the Rift Jar gains for every point of size it takes from a rift.
+	# Default: 20.0
+	# Range: 0.001 ~ 100000.0
+	power_per_size = 20.0
+	#Flux poured into the aura for every unit of power left in a Rift Jar that is broken.
+	# Default: 0.05
+	# Range: 0.0 ~ 1000.0
+	release_ratio = 0.05

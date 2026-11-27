@@ -1,0 +1,249 @@
+[stack_upgrades]
+	#How many stack upgrades of any kind, the ones of Sophisticated included, a storage accepts. Sophisticated Backpacks and Sophisticated Storage use 3 by default. Needs a game restart.
+	# Default: 3
+	# Range: 1 ~ 64
+	max_per_storage = 3
+
+	[stack_upgrades.thaumium]
+		#Times the number of items that fit in one slot. The Stack Upgrade Tier 4 of Sophisticated Backpacks multiplies by 16 and the Stack Upgrade Tier 5 of Sophisticated Storage by 32. Needs a game restart.
+		# Default: 8.0E12
+		# Range: 1.0 ~ 1.0E15
+		multiplier = 8.0E12
+
+	[stack_upgrades.alchemical_brass]
+		#Times the number of items that fit in one slot. The Stack Upgrade Tier 4 of Sophisticated Backpacks multiplies by 16 and the Stack Upgrade Tier 5 of Sophisticated Storage by 32. Needs a game restart.
+		# Default: 1.6E13
+		# Range: 1.0 ~ 1.0E15
+		multiplier = 1.6E13
+
+	[stack_upgrades.void_metal]
+		#Times the number of items that fit in one slot. The Stack Upgrade Tier 4 of Sophisticated Backpacks multiplies by 16 and the Stack Upgrade Tier 5 of Sophisticated Storage by 32. Needs a game restart.
+		# Default: 3.2E13
+		# Range: 1.0 ~ 1.0E15
+		multiplier = 3.2E13
+
+[arcane_workbench_upgrade]
+	#Chunks around the chunk of the player that the upgrade may also draw vis from after the chunk of the player has run dry. 0 draws only from the chunk of the player.
+	# Default: 0
+	# Range: 0 ~ 2
+	aura_chunk_radius = 0
+	#Whether a wand in the wand slot of the upgrade pays the vis of the crafts and applies its discount, like the wand in the Arcane Workbench.
+	wand_slot_enabled = true
+	#Whether a workbench charger item in the charger slot of the upgrade gives its vis discount and vis radius to the crafts of the upgrade.
+	charger_slot_enabled = true
+	#Radius in chunks around the player from which the Arcane Workbench Charger of Thaumaturge draws vis when it is in the charger slot. The charger beside a workbench uses 1.
+	# Default: 1
+	# Range: 1 ~ 8
+	thaumaturge_charger_radius_chunks = 1
+	#Percentage of the vis cost that the Arcane Workbench Charger of Thaumaturge does not charge when it is in the charger slot.
+	# Default: 0
+	# Range: 0 ~ 100
+	thaumaturge_charger_discount_percent = 0
+
+	[backpacks.thaumium]
+		#Number of inventory slots in the backpack. The Netherite Backpack has 120.
+		# Default: 700
+		# Range: 1 ~ 5000
+		inventory_slots = 700
+		#Number of upgrade slots in the backpack. The Netherite Backpack has 7.
+		# Default: 8
+		# Range: 0 ~ 10
+		upgrade_slots = 8
+
+	[backpacks.alchemical_brass]
+		#Number of inventory slots in the backpack. The Netherite Backpack has 120.
+		# Default: 850
+		# Range: 1 ~ 5000
+		inventory_slots = 850
+		#Number of upgrade slots in the backpack. The Netherite Backpack has 7.
+		# Default: 9
+		# Range: 0 ~ 10
+		upgrade_slots = 9
+
+	[backpacks.void_metal]
+		#Number of inventory slots in the backpack. The Netherite Backpack has 120.
+		# Default: 1000
+		# Range: 1 ~ 5000
+		inventory_slots = 1000
+		#Number of upgrade slots in the backpack. The Netherite Backpack has 7.
+		# Default: 10
+		# Range: 0 ~ 10
+		upgrade_slots = 10
+
+[storage]
+	#Whether the creative tab lists the barrels, limited barrels and chests of every tier in every wood type, the ones added by other mods included, as Sophisticated Storage does for its own. If false it lists only the acacia variant.
+	creative_all_wood_variants = true
+
+	[storage.thaumium]
+		#Number of inventory slots in the barrel. The Netherite Barrel has 132.
+		# Default: 144
+		# Range: 1 ~ 360
+		barrel_inventory_slots = 144
+		#Number of upgrade slots in the barrel. The Netherite Barrel has 5.
+		# Default: 6
+		# Range: 0 ~ 10
+		barrel_upgrade_slots = 6
+		#Number of inventory slots in the chest. The Netherite Chest has 132.
+		# Default: 144
+		# Range: 1 ~ 360
+		chest_inventory_slots = 144
+		#Number of upgrade slots in the chest. The Netherite Chest has 5.
+		# Default: 6
+		# Range: 0 ~ 10
+		chest_upgrade_slots = 6
+		#Number of inventory slots in the shulker box. The Netherite Shulker Box has 132.
+		# Default: 144
+		# Range: 1 ~ 360
+		shulker_box_inventory_slots = 144
+		#Number of upgrade slots in the shulker box. The Netherite Shulker Box has 5.
+		# Default: 6
+		# Range: 0 ~ 10
+		shulker_box_upgrade_slots = 6
+		#Multiplier used to calculate the base slot limit of limited barrel 1. The Limited Netherite Barrel 1 gives 160.
+		# Default: 192
+		# Range: 1 ~ 8192
+		limited_barrel_1_slot_limit_multiplier = 192
+		#Number of upgrade slots in limited barrel 1. The Limited Netherite Barrel 1 has 5.
+		# Default: 6
+		# Range: 0 ~ 10
+		limited_barrel_1_upgrade_slots = 6
+		#Multiplier used to calculate the base slot limit of limited barrel 2. The Limited Netherite Barrel 2 gives 80.
+		# Default: 96
+		# Range: 1 ~ 8192
+		limited_barrel_2_slot_limit_multiplier = 96
+		#Number of upgrade slots in limited barrel 2. The Limited Netherite Barrel 2 has 5.
+		# Default: 6
+		# Range: 0 ~ 10
+		limited_barrel_2_upgrade_slots = 6
+		#Multiplier used to calculate the base slot limit of limited barrel 3. The Limited Netherite Barrel 3 gives 50.
+		# Default: 60
+		# Range: 1 ~ 8192
+		limited_barrel_3_slot_limit_multiplier = 60
+		#Number of upgrade slots in limited barrel 3. The Limited Netherite Barrel 3 has 5.
+		# Default: 6
+		# Range: 0 ~ 10
+		limited_barrel_3_upgrade_slots = 6
+		#Multiplier used to calculate the base slot limit of limited barrel 4. The Limited Netherite Barrel 4 gives 40.
+		# Default: 48
+		# Range: 1 ~ 8192
+		limited_barrel_4_slot_limit_multiplier = 48
+		#Number of upgrade slots in limited barrel 4. The Limited Netherite Barrel 4 has 5.
+		# Default: 6
+		# Range: 0 ~ 10
+		limited_barrel_4_upgrade_slots = 6
+
+	[storage.alchemical_brass]
+		#Number of inventory slots in the barrel. The Netherite Barrel has 132.
+		# Default: 162
+		# Range: 1 ~ 360
+		barrel_inventory_slots = 162
+		#Number of upgrade slots in the barrel. The Netherite Barrel has 5.
+		# Default: 7
+		# Range: 0 ~ 10
+		barrel_upgrade_slots = 7
+		#Number of inventory slots in the chest. The Netherite Chest has 132.
+		# Default: 162
+		# Range: 1 ~ 360
+		chest_inventory_slots = 162
+		#Number of upgrade slots in the chest. The Netherite Chest has 5.
+		# Default: 7
+		# Range: 0 ~ 10
+		chest_upgrade_slots = 7
+		#Number of inventory slots in the shulker box. The Netherite Shulker Box has 132.
+		# Default: 162
+		# Range: 1 ~ 360
+		shulker_box_inventory_slots = 162
+		#Number of upgrade slots in the shulker box. The Netherite Shulker Box has 5.
+		# Default: 7
+		# Range: 0 ~ 10
+		shulker_box_upgrade_slots = 7
+		#Multiplier used to calculate the base slot limit of limited barrel 1. The Limited Netherite Barrel 1 gives 160.
+		# Default: 224
+		# Range: 1 ~ 8192
+		limited_barrel_1_slot_limit_multiplier = 224
+		#Number of upgrade slots in limited barrel 1. The Limited Netherite Barrel 1 has 5.
+		# Default: 7
+		# Range: 0 ~ 10
+		limited_barrel_1_upgrade_slots = 7
+		#Multiplier used to calculate the base slot limit of limited barrel 2. The Limited Netherite Barrel 2 gives 80.
+		# Default: 112
+		# Range: 1 ~ 8192
+		limited_barrel_2_slot_limit_multiplier = 112
+		#Number of upgrade slots in limited barrel 2. The Limited Netherite Barrel 2 has 5.
+		# Default: 7
+		# Range: 0 ~ 10
+		limited_barrel_2_upgrade_slots = 7
+		#Multiplier used to calculate the base slot limit of limited barrel 3. The Limited Netherite Barrel 3 gives 50.
+		# Default: 70
+		# Range: 1 ~ 8192
+		limited_barrel_3_slot_limit_multiplier = 70
+		#Number of upgrade slots in limited barrel 3. The Limited Netherite Barrel 3 has 5.
+		# Default: 7
+		# Range: 0 ~ 10
+		limited_barrel_3_upgrade_slots = 7
+		#Multiplier used to calculate the base slot limit of limited barrel 4. The Limited Netherite Barrel 4 gives 40.
+		# Default: 56
+		# Range: 1 ~ 8192
+		limited_barrel_4_slot_limit_multiplier = 56
+		#Number of upgrade slots in limited barrel 4. The Limited Netherite Barrel 4 has 5.
+		# Default: 7
+		# Range: 0 ~ 10
+		limited_barrel_4_upgrade_slots = 7
+
+	[storage.void_metal]
+		#Number of inventory slots in the barrel. The Netherite Barrel has 132.
+		# Default: 180
+		# Range: 1 ~ 360
+		barrel_inventory_slots = 180
+		#Number of upgrade slots in the barrel. The Netherite Barrel has 5.
+		# Default: 8
+		# Range: 0 ~ 10
+		barrel_upgrade_slots = 8
+		#Number of inventory slots in the chest. The Netherite Chest has 132.
+		# Default: 180
+		# Range: 1 ~ 360
+		chest_inventory_slots = 180
+		#Number of upgrade slots in the chest. The Netherite Chest has 5.
+		# Default: 8
+		# Range: 0 ~ 10
+		chest_upgrade_slots = 8
+		#Number of inventory slots in the shulker box. The Netherite Shulker Box has 132.
+		# Default: 180
+		# Range: 1 ~ 360
+		shulker_box_inventory_slots = 180
+		#Number of upgrade slots in the shulker box. The Netherite Shulker Box has 5.
+		# Default: 8
+		# Range: 0 ~ 10
+		shulker_box_upgrade_slots = 8
+		#Multiplier used to calculate the base slot limit of limited barrel 1. The Limited Netherite Barrel 1 gives 160.
+		# Default: 256
+		# Range: 1 ~ 8192
+		limited_barrel_1_slot_limit_multiplier = 256
+		#Number of upgrade slots in limited barrel 1. The Limited Netherite Barrel 1 has 5.
+		# Default: 8
+		# Range: 0 ~ 10
+		limited_barrel_1_upgrade_slots = 8
+		#Multiplier used to calculate the base slot limit of limited barrel 2. The Limited Netherite Barrel 2 gives 80.
+		# Default: 128
+		# Range: 1 ~ 8192
+		limited_barrel_2_slot_limit_multiplier = 128
+		#Number of upgrade slots in limited barrel 2. The Limited Netherite Barrel 2 has 5.
+		# Default: 8
+		# Range: 0 ~ 10
+		limited_barrel_2_upgrade_slots = 8
+		#Multiplier used to calculate the base slot limit of limited barrel 3. The Limited Netherite Barrel 3 gives 50.
+		# Default: 80
+		# Range: 1 ~ 8192
+		limited_barrel_3_slot_limit_multiplier = 80
+		#Number of upgrade slots in limited barrel 3. The Limited Netherite Barrel 3 has 5.
+		# Default: 8
+		# Range: 0 ~ 10
+		limited_barrel_3_upgrade_slots = 8
+		#Multiplier used to calculate the base slot limit of limited barrel 4. The Limited Netherite Barrel 4 gives 40.
+		# Default: 64
+		# Range: 1 ~ 8192
+		limited_barrel_4_slot_limit_multiplier = 64
+		#Number of upgrade slots in limited barrel 4. The Limited Netherite Barrel 4 has 5.
+		# Default: 8
+		# Range: 0 ~ 10
+		limited_barrel_4_upgrade_slots = 8

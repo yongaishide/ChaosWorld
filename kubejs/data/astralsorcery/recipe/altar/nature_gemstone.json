@@ -1,0 +1,115 @@
+{
+  "type": "astralsorcery:altar_crafting",
+  "base_focus_shatter_chance": 0.0,
+  "duration": 100,
+  "effects": [
+    "astralsorcery:default_altar_sparkle",
+    "astralsorcery:default_central_beam",
+    "astralsorcery:default_lumen_input",
+    "astralsorcery:default_relay_input"
+  ],
+  "grid": {
+    "key": {
+      "L": {
+        "type": "item",
+        "ingredient": {
+          "item": "neovitae:tabula_spiritus"
+        }
+      },
+      "M": {
+        "type": "item",
+        "ingredient": {
+          "item": "botania:rune_of_spring"
+        }
+      },
+      "O": {
+        "type": "item",
+        "ingredient": {
+          "type": "neoforge:components",
+          "components": {
+            "naturesaura:effect_powder_data": {
+              "effect": "naturesaura:plant_boost"
+            }
+          },
+          "items": "naturesaura:effect_powder"
+        }
+      },
+      "S": {
+        "type": "item",
+        "ingredient": {
+          "item": "botania:terrasteel_ingot"
+        }
+      },
+      "T": {
+        "type": "item",
+        "ingredient": {
+          "item": "astralsorcery:resonating_gem"
+        }
+      },
+      "E": {
+        "type": "item",
+        "ingredient": {
+          "item": "astralsorcery:vivid_powder"
+        }
+      }
+    },
+    "pattern": [
+      " S ",
+      "STS",
+      " S "
+    ],
+    "relay_pattern": [
+      "E O E",
+      "  L  ",
+      "OM MO",
+      "  L  ",
+      "E O E"
+    ]
+  },
+  "may_chain": false,
+  "only_night": true,
+  "output_modifiers": [],
+  "outputs": [
+    {
+      "count": 1,
+      "id": "chaosworld_core:nature_gemstone"
+    }
+  ],
+  "required_additional_inputs": [
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "astralsorcery:stardust"
+      }
+    },
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "astralsorcery:stardust"
+      }
+    },
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "astralsorcery:stardust"
+      }
+    }
+  ],
+  "required_fluid": [
+    {
+      "amount": 1000,
+      "id": "astralsorcery:liquid_starlight"
+    },
+    {
+      "amount": 1000,
+      "id": "astralsorcery:liquid_starlight"
+    }],
+  "required_lumen": [
+    {
+      "amount": 200,
+      "lumen": "astralsorcery:aevitas"
+    }
+  ],
+  "required_starlight": [],
+  "required_type": "luminance"
+}

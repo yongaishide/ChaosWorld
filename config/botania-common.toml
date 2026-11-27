@@ -1,7 +1,5 @@
 #Set this to false to disable the animation when an item is charging on top of a mana pool
 chargeAnimation = true
-#Set this to false to disable the animation for a flower 'picking up' an item
-flowerItemPickupAnimations = true
 #Turn this off ONLY IF you're on an extremely large world with an exaggerated count of Mana Spreaders/Mana Pools and are experiencing TPS lag. This toggles whether flowers are strict with their checking for connecting to pools/spreaders or just check whenever possible.
 flowerBindingForceCheck = true
 #Set to false to disable the ability for the Hand of Ender to pickpocket other players' ender chests
@@ -12,6 +10,8 @@ manaEnchanter = true
 relics = true
 #Set this to true to invert the Ring of Magnetization's controls (from shift to stop to shift to work)
 invertMagnetRing = false
+#Set this to false to disable the animation for a flower 'picking up' an item
+flowerItemPickupAnimations = true
 
 [blockBreakingParticles]
 	#Set this to false to remove the block breaking particles from the flowers and other items in the mod.

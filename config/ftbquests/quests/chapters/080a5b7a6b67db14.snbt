@@ -8,7 +8,7 @@
 	}
 	id: "080A5B7A6B67DB14"
 	images: [ ]
-	order_index: 4
+	order_index: 6
 	quest_enhance_decorative_lines: [ ]
 	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
@@ -158,6 +158,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["5ECC077366247E1C"]
 			id: "4F990B77F58D3BC0"
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
@@ -169,7 +170,280 @@
 				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"0511CD75941352CE"
+				"4F990B77F58D3BC0"
+			]
+			id: "2D396E91F2444A6C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "22244162A042E75C"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "astralsorcery:chisel"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2D396E91F2444A6C"]
+			id: "41C80FD4E546A85B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "2531815F2E65179C"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "astralsorcery:stardust"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
 			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"41C80FD4E546A85B"
+				"597F754E2C4C0460"
+			]
+			id: "64FB89775378EFE2"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				icon: {
+					components: {
+						"minecraft:damage": 0
+					}
+					id: "astralsorcery:celestial_crystal_cluster"
+				}
+				id: "7BCCA8D981EC75D6"
+				observation_type: "block"
+				observe_type: 0
+				timer: 0L
+				to_observe: "观察 天辉水晶簇"
+				type: "observation"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["64FB89775378EFE2"]
+			id: "147864BE929BE4E5"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "69D3430B2EEE2D15"
+				key_type: "ae2:i"
+				match_components: "none"
+				resource: "astralsorcery:celestial_crystal"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"13C06E81C0337594"
+				"147864BE929BE4E5"
+			]
+			id: "3633BCF87150AA0E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "495ADA68E4BF7C14"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "astralsorcery:altar_resonance"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["60A506FA11B8E26C"]
+			id: "707BBA4AFB09EDFE"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "19E7B9CB238F5D3C"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "astralsorcery:resonating_gem"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 14.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3633BCF87150AA0E"]
+			id: "60A506FA11B8E26C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "07DE9D2A5DC105B6"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "astralsorcery:infuser"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 12.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["707BBA4AFB09EDFE"]
+			id: "105E0F340C6F7AF2"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "591EB05FE0236CEB"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "astralsorcery:altar_luminance"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 16.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"105E0F340C6F7AF2"
+				"12DD35FADC43F4B0"
+			]
+			id: "0BB65FB72EE83CA1"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "117071023D6D8E21"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "chaosworld_core:nature_gemstone"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3633BCF87150AA0E"]
+			id: "366484D83BA709C2"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "6EFB0523D24A4BC5"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "astralsorcery:lumen_array"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3633BCF87150AA0E"]
+			id: "737306CF12450D59"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "6E2F72C4FA32B71A"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "astralsorcery:lumen_crystallizer"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["366484D83BA709C2"]
+			id: "12DD35FADC43F4B0"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "0626FD8AB8E96D44"
+				key_type: "appliedas:lumen"
+				match_components: "strict"
+				resource: "astralsorcery:aevitas"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50ACBB56BC134B81"]
+			id: "3ECD4F9AC9FB0A75"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "1C116852FA9D0CC0"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "astralsorcery:sooty_marble_raw"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["597F754E2C4C0460"]
+			id: "008B6EC1EAD7C4EF"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "69759638D6231ACB"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "astralsorcery:illumination_powder"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["13C06E81C0337594"]
+			id: "6AA28575C817E96F"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "1D143B4CC9D23F0E"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "astralsorcery:focus_relay"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3633BCF87150AA0E"]
+			id: "0967709832044888"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "717BDCCA1612A784"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "astralsorcery:lumen_filament"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 10.5d
 			y: -2.0d
 		}
 	]

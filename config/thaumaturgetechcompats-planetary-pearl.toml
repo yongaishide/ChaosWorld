@@ -1,0 +1,517 @@
+[general]
+	#Turns the Planetary Endest Pearls off. They stay registered but do nothing when used.
+	enabled = true
+	#The planets may also pick the thrower as the creature to orbit and hurt.
+	include_thrower = false
+	#Radius in blocks around a block impact in which the closest creature is picked to be orbited.
+	# Default: 6.0
+	# Range: 0.5 ~ 64.0
+	search_radius = 6.0
+	#The planets hurt other players.
+	hit_players = true
+	#The planets never pick the tamed animals of the thrower.
+	spare_pets = true
+	#Every planet hit ignores the short invulnerability a creature gets after being hurt, so many planets can hurt together.
+	reset_invulnerability = true
+	#Fraction of the normal knockback a planet hit applies.
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	knockback_scale = 0.1
+	#Radius in blocks around a planet in which it hurts creatures when it orbits a point instead of a creature.
+	# Default: 1.2
+	# Range: 0.1 ~ 8.0
+	point_hit_radius = 1.2
+	#Most planets that can exist in a dimension at once. A throw is cut short when the limit is reached.
+	# Default: 256
+	# Range: 1 ~ 100000
+	max_active_planets = 256
+	#Tiers that kill bosses finish a creature that survives a hit that should have been lethal, such as a boss that is protected while it spawns.
+	execute_bosses = true
+	#Entity ids that count as bosses besides the c:bosses tag, the Wither and the Ender Dragon.
+	extra_boss_entities = []
+
+[visuals]
+	#Soft trail particles every planet leaves every tick. 0 turns the trail off.
+	# Default: 1
+	# Range: 0 ~ 8
+	trail_particles = 1
+	#Particles when a planet hits.
+	hit_particles = true
+	#Sounds when planets appear, hit and fade.
+	sounds = true
+	#Volume of the planet sounds.
+	# Default: 0.6
+	# Range: 0.0 ~ 4.0
+	sound_volume = 0.6
+	#Multiplier of the orbital speed of the planets.
+	# Default: 1.0
+	# Range: 0.1 ~ 8.0
+	orbit_speed = 1.0
+	#How much the colour of the tier tints the planets. 0 keeps the texture of every planet.
+	# Default: 0.55
+	# Range: 0.0 ~ 1.0
+	tint_strength = 0.55
+	#Size multiplier of the planets when they are drawn.
+	# Default: 1.0
+	# Range: 0.1 ~ 4.0
+	planet_scale = 1.0
+
+[copper]
+	#Planets a throw summons.
+	# Default: 1
+	# Range: 1 ~ 12
+	planets = 1
+	#Damage of every planet hit.
+	# Default: 1.0
+	# Range: 0.0 ~ 100000.0
+	damage = 1.0
+	#Ticks between two hits of the same planet.
+	# Default: 30
+	# Range: 1 ~ 1200
+	interval = 30
+	#Ticks the planets stay in orbit.
+	# Default: 100
+	# Range: 20 ~ 72000
+	duration = 100
+	#Radius in blocks of the orbits, counted from the body of the creature.
+	# Default: 1.5
+	# Range: 0.5 ~ 32.0
+	orbit_radius = 1.5
+	#Ticks before the pearl can be thrown again.
+	# Default: 60
+	# Range: 0 ~ 72000
+	cooldown = 60
+	#Most damage a planet hit does to a boss. Tiers that kill bosses ignore it.
+	# Default: 0.5
+	# Range: 0.0 ~ 100000.0
+	boss_damage_cap = 0.5
+	#Throws the pearl survives. Every throw wears one point and the pearl breaks with the last one.
+	# Default: 3
+	# Range: 1 ~ 100000
+	durability = 3
+
+[iron]
+	#Planets a throw summons.
+	# Default: 2
+	# Range: 1 ~ 12
+	planets = 2
+	#Damage of every planet hit.
+	# Default: 1.5
+	# Range: 0.0 ~ 100000.0
+	damage = 1.5
+	#Ticks between two hits of the same planet.
+	# Default: 28
+	# Range: 1 ~ 1200
+	interval = 28
+	#Ticks the planets stay in orbit.
+	# Default: 120
+	# Range: 20 ~ 72000
+	duration = 120
+	#Radius in blocks of the orbits, counted from the body of the creature.
+	# Default: 1.6
+	# Range: 0.5 ~ 32.0
+	orbit_radius = 1.6
+	#Ticks before the pearl can be thrown again.
+	# Default: 56
+	# Range: 0 ~ 72000
+	cooldown = 56
+	#Most damage a planet hit does to a boss. Tiers that kill bosses ignore it.
+	# Default: 0.75
+	# Range: 0.0 ~ 100000.0
+	boss_damage_cap = 0.75
+	#Throws the pearl survives. Every throw wears one point and the pearl breaks with the last one.
+	# Default: 5
+	# Range: 1 ~ 100000
+	durability = 5
+
+[gold]
+	#Planets a throw summons.
+	# Default: 3
+	# Range: 1 ~ 12
+	planets = 3
+	#Damage of every planet hit.
+	# Default: 2.0
+	# Range: 0.0 ~ 100000.0
+	damage = 2.0
+	#Ticks between two hits of the same planet.
+	# Default: 26
+	# Range: 1 ~ 1200
+	interval = 26
+	#Ticks the planets stay in orbit.
+	# Default: 140
+	# Range: 20 ~ 72000
+	duration = 140
+	#Radius in blocks of the orbits, counted from the body of the creature.
+	# Default: 1.8
+	# Range: 0.5 ~ 32.0
+	orbit_radius = 1.8
+	#Ticks before the pearl can be thrown again.
+	# Default: 52
+	# Range: 0 ~ 72000
+	cooldown = 52
+	#Most damage a planet hit does to a boss. Tiers that kill bosses ignore it.
+	# Default: 1.0
+	# Range: 0.0 ~ 100000.0
+	boss_damage_cap = 1.0
+	#Throws the pearl survives. Every throw wears one point and the pearl breaks with the last one.
+	# Default: 8
+	# Range: 1 ~ 100000
+	durability = 8
+
+[diamond]
+	#Planets a throw summons.
+	# Default: 4
+	# Range: 1 ~ 12
+	planets = 4
+	#Damage of every planet hit.
+	# Default: 3.0
+	# Range: 0.0 ~ 100000.0
+	damage = 3.0
+	#Ticks between two hits of the same planet.
+	# Default: 24
+	# Range: 1 ~ 1200
+	interval = 24
+	#Ticks the planets stay in orbit.
+	# Default: 160
+	# Range: 20 ~ 72000
+	duration = 160
+	#Radius in blocks of the orbits, counted from the body of the creature.
+	# Default: 2.0
+	# Range: 0.5 ~ 32.0
+	orbit_radius = 2.0
+	#Ticks before the pearl can be thrown again.
+	# Default: 48
+	# Range: 0 ~ 72000
+	cooldown = 48
+	#Most damage a planet hit does to a boss. Tiers that kill bosses ignore it.
+	# Default: 1.5
+	# Range: 0.0 ~ 100000.0
+	boss_damage_cap = 1.5
+	#Throws the pearl survives. Every throw wears one point and the pearl breaks with the last one.
+	# Default: 12
+	# Range: 1 ~ 100000
+	durability = 12
+
+[emerald]
+	#Planets a throw summons.
+	# Default: 5
+	# Range: 1 ~ 12
+	planets = 5
+	#Damage of every planet hit.
+	# Default: 3.5
+	# Range: 0.0 ~ 100000.0
+	damage = 3.5
+	#Ticks between two hits of the same planet.
+	# Default: 22
+	# Range: 1 ~ 1200
+	interval = 22
+	#Ticks the planets stay in orbit.
+	# Default: 180
+	# Range: 20 ~ 72000
+	duration = 180
+	#Radius in blocks of the orbits, counted from the body of the creature.
+	# Default: 2.2
+	# Range: 0.5 ~ 32.0
+	orbit_radius = 2.2
+	#Ticks before the pearl can be thrown again.
+	# Default: 44
+	# Range: 0 ~ 72000
+	cooldown = 44
+	#Most damage a planet hit does to a boss. Tiers that kill bosses ignore it.
+	# Default: 1.5
+	# Range: 0.0 ~ 100000.0
+	boss_damage_cap = 1.5
+	#Throws the pearl survives. Every throw wears one point and the pearl breaks with the last one.
+	# Default: 16
+	# Range: 1 ~ 100000
+	durability = 16
+
+[netherite]
+	#Planets a throw summons.
+	# Default: 6
+	# Range: 1 ~ 12
+	planets = 6
+	#Damage of every planet hit.
+	# Default: 5.0
+	# Range: 0.0 ~ 100000.0
+	damage = 5.0
+	#Ticks between two hits of the same planet.
+	# Default: 20
+	# Range: 1 ~ 1200
+	interval = 20
+	#Ticks the planets stay in orbit.
+	# Default: 240
+	# Range: 20 ~ 72000
+	duration = 240
+	#Radius in blocks of the orbits, counted from the body of the creature.
+	# Default: 2.4
+	# Range: 0.5 ~ 32.0
+	orbit_radius = 2.4
+	#Ticks before the pearl can be thrown again.
+	# Default: 40
+	# Range: 0 ~ 72000
+	cooldown = 40
+	#Most damage a planet hit does to a boss. Tiers that kill bosses ignore it.
+	# Default: 5.0
+	# Range: 0.0 ~ 100000.0
+	boss_damage_cap = 5.0
+
+[thaumium]
+	#Planets a throw summons.
+	# Default: 7
+	# Range: 1 ~ 12
+	planets = 7
+	#Damage of every planet hit.
+	# Default: 6.0
+	# Range: 0.0 ~ 100000.0
+	damage = 6.0
+	#Ticks between two hits of the same planet.
+	# Default: 18
+	# Range: 1 ~ 1200
+	interval = 18
+	#Ticks the planets stay in orbit.
+	# Default: 240
+	# Range: 20 ~ 72000
+	duration = 240
+	#Radius in blocks of the orbits, counted from the body of the creature.
+	# Default: 2.6
+	# Range: 0.5 ~ 32.0
+	orbit_radius = 2.6
+	#Ticks before the pearl can be thrown again.
+	# Default: 36
+	# Range: 0 ~ 72000
+	cooldown = 36
+	#Most damage a planet hit does to a boss. Tiers that kill bosses ignore it.
+	# Default: 3.0
+	# Range: 0.0 ~ 100000.0
+	boss_damage_cap = 3.0
+	#Throws the pearl survives. Every throw wears one point and the pearl breaks with the last one.
+	# Default: 32
+	# Range: 1 ~ 100000
+	durability = 32
+
+[alchemical_brass]
+	#Planets a throw summons.
+	# Default: 8
+	# Range: 1 ~ 12
+	planets = 8
+	#Damage of every planet hit.
+	# Default: 7.0
+	# Range: 0.0 ~ 100000.0
+	damage = 7.0
+	#Ticks between two hits of the same planet.
+	# Default: 16
+	# Range: 1 ~ 1200
+	interval = 16
+	#Ticks the planets stay in orbit.
+	# Default: 280
+	# Range: 20 ~ 72000
+	duration = 280
+	#Radius in blocks of the orbits, counted from the body of the creature.
+	# Default: 2.8
+	# Range: 0.5 ~ 32.0
+	orbit_radius = 2.8
+	#Ticks before the pearl can be thrown again.
+	# Default: 32
+	# Range: 0 ~ 72000
+	cooldown = 32
+	#Most damage a planet hit does to a boss. Tiers that kill bosses ignore it.
+	# Default: 3.5
+	# Range: 0.0 ~ 100000.0
+	boss_damage_cap = 3.5
+	#Throws the pearl survives. Every throw wears one point and the pearl breaks with the last one.
+	# Default: 64
+	# Range: 1 ~ 100000
+	durability = 64
+
+[void_metal]
+	#Planets a throw summons.
+	# Default: 9
+	# Range: 1 ~ 12
+	planets = 9
+	#Damage of every planet hit.
+	# Default: 9.0
+	# Range: 0.0 ~ 100000.0
+	damage = 9.0
+	#Ticks between two hits of the same planet.
+	# Default: 14
+	# Range: 1 ~ 1200
+	interval = 14
+	#Ticks the planets stay in orbit.
+	# Default: 320
+	# Range: 20 ~ 72000
+	duration = 320
+	#Radius in blocks of the orbits, counted from the body of the creature.
+	# Default: 3.0
+	# Range: 0.5 ~ 32.0
+	orbit_radius = 3.0
+	#Ticks before the pearl can be thrown again.
+	# Default: 30
+	# Range: 0 ~ 72000
+	cooldown = 30
+	#Most damage a planet hit does to a boss. Tiers that kill bosses ignore it.
+	# Default: 9.0
+	# Range: 0.0 ~ 100000.0
+	boss_damage_cap = 9.0
+
+[blaze_cube]
+	#Planets a throw summons.
+	# Default: 9
+	# Range: 1 ~ 12
+	planets = 9
+	#Damage of every planet hit.
+	# Default: 11.0
+	# Range: 0.0 ~ 100000.0
+	damage = 11.0
+	#Ticks between two hits of the same planet.
+	# Default: 12
+	# Range: 1 ~ 1200
+	interval = 12
+	#Ticks the planets stay in orbit.
+	# Default: 360
+	# Range: 20 ~ 72000
+	duration = 360
+	#Radius in blocks of the orbits, counted from the body of the creature.
+	# Default: 3.2
+	# Range: 0.5 ~ 32.0
+	orbit_radius = 3.2
+	#Ticks before the pearl can be thrown again.
+	# Default: 28
+	# Range: 0 ~ 72000
+	cooldown = 28
+	#Most damage a planet hit does to a boss. Tiers that kill bosses ignore it.
+	# Default: 5.0
+	# Range: 0.0 ~ 100000.0
+	boss_damage_cap = 5.0
+	#Throws the pearl survives. Every throw wears one point and the pearl breaks with the last one.
+	# Default: 128
+	# Range: 1 ~ 100000
+	durability = 128
+
+[matrix]
+	#Planets a throw summons.
+	# Default: 10
+	# Range: 1 ~ 12
+	planets = 10
+	#Damage of every planet hit.
+	# Default: 14.0
+	# Range: 0.0 ~ 100000.0
+	damage = 14.0
+	#Ticks between two hits of the same planet.
+	# Default: 10
+	# Range: 1 ~ 1200
+	interval = 10
+	#Ticks the planets stay in orbit.
+	# Default: 400
+	# Range: 20 ~ 72000
+	duration = 400
+	#Radius in blocks of the orbits, counted from the body of the creature.
+	# Default: 3.4
+	# Range: 0.5 ~ 32.0
+	orbit_radius = 3.4
+	#Ticks before the pearl can be thrown again.
+	# Default: 26
+	# Range: 0 ~ 72000
+	cooldown = 26
+	#Most damage a planet hit does to a boss. Tiers that kill bosses ignore it.
+	# Default: 6.0
+	# Range: 0.0 ~ 100000.0
+	boss_damage_cap = 6.0
+	#Throws the pearl survives. Every throw wears one point and the pearl breaks with the last one.
+	# Default: 256
+	# Range: 1 ~ 100000
+	durability = 256
+
+[neutronium]
+	#Planets a throw summons.
+	# Default: 11
+	# Range: 1 ~ 12
+	planets = 11
+	#Damage of every planet hit.
+	# Default: 18.0
+	# Range: 0.0 ~ 100000.0
+	damage = 18.0
+	#Ticks between two hits of the same planet.
+	# Default: 8
+	# Range: 1 ~ 1200
+	interval = 8
+	#Ticks the planets stay in orbit.
+	# Default: 440
+	# Range: 20 ~ 72000
+	duration = 440
+	#Radius in blocks of the orbits, counted from the body of the creature.
+	# Default: 3.6
+	# Range: 0.5 ~ 32.0
+	orbit_radius = 3.6
+	#Ticks before the pearl can be thrown again.
+	# Default: 24
+	# Range: 0 ~ 72000
+	cooldown = 24
+	#Most damage a planet hit does to a boss. Tiers that kill bosses ignore it.
+	# Default: 8.0
+	# Range: 0.0 ~ 100000.0
+	boss_damage_cap = 8.0
+	#Throws the pearl survives. Every throw wears one point and the pearl breaks with the last one.
+	# Default: 512
+	# Range: 1 ~ 100000
+	durability = 512
+
+[infinity]
+	#Planets a throw summons.
+	# Default: 12
+	# Range: 1 ~ 12
+	planets = 12
+	#Damage of every planet hit.
+	# Default: 25.0
+	# Range: 0.0 ~ 100000.0
+	damage = 25.0
+	#Ticks between two hits of the same planet.
+	# Default: 6
+	# Range: 1 ~ 1200
+	interval = 6
+	#Ticks the planets stay in orbit.
+	# Default: 600
+	# Range: 20 ~ 72000
+	duration = 600
+	#Radius in blocks of the orbits, counted from the body of the creature.
+	# Default: 4.0
+	# Range: 0.5 ~ 32.0
+	orbit_radius = 4.0
+	#Ticks before the pearl can be thrown again.
+	# Default: 20
+	# Range: 0 ~ 72000
+	cooldown = 20
+	#Most damage a planet hit does to a boss. Tiers that kill bosses ignore it.
+	# Default: 25.0
+	# Range: 0.0 ~ 100000.0
+	boss_damage_cap = 25.0
+
+[creative]
+	#Planets a throw summons.
+	# Default: 12
+	# Range: 1 ~ 12
+	planets = 12
+	#Damage of every planet hit.
+	# Default: 40.0
+	# Range: 0.0 ~ 100000.0
+	damage = 40.0
+	#Ticks between two hits of the same planet.
+	# Default: 4
+	# Range: 1 ~ 1200
+	interval = 4
+	#Ticks the planets stay in orbit.
+	# Default: 1200
+	# Range: 20 ~ 72000
+	duration = 1200
+	#Radius in blocks of the orbits, counted from the body of the creature.
+	# Default: 4.5
+	# Range: 0.5 ~ 32.0
+	orbit_radius = 4.5
+	#Ticks before the pearl can be thrown again.
+	# Default: 10
+	# Range: 0 ~ 72000
+	cooldown = 10
+	#Most damage a planet hit does to a boss. Tiers that kill bosses ignore it.
+	# Default: 40.0
+	# Range: 0.0 ~ 100000.0
+	boss_damage_cap = 40.0

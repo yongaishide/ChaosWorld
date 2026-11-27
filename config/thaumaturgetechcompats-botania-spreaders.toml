@@ -1,0 +1,77 @@
+[thaumium]
+	#Mana carried by every burst this spreader shoots. The spreader fires as soon as it holds this much. A Gaia Spreader shoots 640.
+	# Default: 1280
+	# Range: 1 ~ 100000000
+	burst_mana = 1280
+	#Mana the spreader can hold. A Gaia Spreader holds 6400.
+	# Default: 12800
+	# Range: 1 ~ 2000000000
+	mana_capacity = 12800
+	#Ticks a burst flies before it starts losing mana. A Gaia Spreader burst flies 120.
+	# Default: 140
+	# Range: 0 ~ 100000
+	ticks_before_loss = 140
+	#Mana a burst loses on every tick after that. A Gaia Spreader burst loses 20.
+	# Default: 24.0
+	# Range: 0.0 ~ 1000000.0
+	loss_per_tick = 24.0
+	#Multiplier of the speed of the burst. A Gaia Spreader burst moves at 2.0.
+	# Default: 2.5
+	# Range: 0.1 ~ 64.0
+	speed_multiplier = 2.5
+	#Colour of the burst as a 24 bit RGB number, 0 to 16777215.
+	# Default: 6973152
+	# Range: 0 ~ 16777215
+	burst_color = 6973152
+
+[alchemical_brass]
+	#Mana carried by every burst this spreader shoots. The spreader fires as soon as it holds this much. A Gaia Spreader shoots 640.
+	# Default: 2560
+	# Range: 1 ~ 100000000
+	burst_mana = 2560
+	#Mana the spreader can hold. A Gaia Spreader holds 6400.
+	# Default: 25600
+	# Range: 1 ~ 2000000000
+	mana_capacity = 25600
+	#Ticks a burst flies before it starts losing mana. A Gaia Spreader burst flies 120.
+	# Default: 160
+	# Range: 0 ~ 100000
+	ticks_before_loss = 160
+	#Mana a burst loses on every tick after that. A Gaia Spreader burst loses 20.
+	# Default: 28.0
+	# Range: 0.0 ~ 1000000.0
+	loss_per_tick = 28.0
+	#Multiplier of the speed of the burst. A Gaia Spreader burst moves at 2.0.
+	# Default: 3.0
+	# Range: 0.1 ~ 64.0
+	speed_multiplier = 3.0
+	#Colour of the burst as a 24 bit RGB number, 0 to 16777215.
+	# Default: 14854202
+	# Range: 0 ~ 16777215
+	burst_color = 14854202
+
+[void_metal]
+	#Mana carried by every burst this spreader shoots. The spreader fires as soon as it holds this much. A Gaia Spreader shoots 640.
+	# Default: 10240
+	# Range: 1 ~ 100000000
+	burst_mana = 10240
+	#Mana the spreader can hold. A Gaia Spreader holds 6400.
+	# Default: 102400
+	# Range: 1 ~ 2000000000
+	mana_capacity = 102400
+	#Ticks a burst flies before it starts losing mana. A Gaia Spreader burst flies 120.
+	# Default: 200
+	# Range: 0 ~ 100000
+	ticks_before_loss = 200
+	#Mana a burst loses on every tick after that. A Gaia Spreader burst loses 20.
+	# Default: 32.0
+	# Range: 0.0 ~ 1000000.0
+	loss_per_tick = 32.0
+	#Multiplier of the speed of the burst. A Gaia Spreader burst moves at 2.0.
+	# Default: 4.0
+	# Range: 0.1 ~ 64.0
+	speed_multiplier = 4.0
+	#Colour of the burst as a 24 bit RGB number, 0 to 16777215.
+	# Default: 10178016
+	# Range: 0 ~ 16777215
+	burst_color = 10178016
