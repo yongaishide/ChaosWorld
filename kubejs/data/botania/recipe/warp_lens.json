@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "botania:mana_lens"
+      "item": "botania:lens_normal"
     },
     {
       "tag": "c:dusts/pixie"
@@ -11,6 +11,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "botania:warp_lens"
+    "id": "botania:lens_warp"
   }
 }

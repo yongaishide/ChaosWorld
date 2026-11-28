@@ -1,0 +1,39 @@
+{
+  "type": "botania:apothecary_default",
+  "ingredients": [
+    {
+      "tag": "botania:petals/white"
+    },
+    {
+      "tag": "botania:petals/white"
+    },
+    {
+      "tag": "botania:petals/light_gray"
+    },
+    {
+      "tag": "botania:petals/light_gray"
+    },
+    {
+      "tag": "botania:petals/cyan"
+    },
+    {
+      "item": "botania:rune_envy"
+    },
+    {
+      "item": "botania:rune_water"
+    },
+    {
+      "item": "botania:redstone_root"
+    },
+    {
+      "tag": "botania:ender_essences"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "id": "botania:spectranthemum"
+  },
+  "reagent": {
+    "tag": "botania:seed_apothecary_reagent"
+  }
+}

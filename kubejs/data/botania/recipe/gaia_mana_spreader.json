@@ -4,17 +4,17 @@
   "group": "botania:spreader",
   "ingredients": [
     {
-      "item": "botania:elven_mana_spreader"
+      "item": "botania:elven_spreader"
     },
     {
       "tag": "c:gems/dragonstone"
     },
     {
-      "item": "botania:gaia_spirit"
+      "item": "botania:life_essence"
     }
   ],
   "result": {
     "count": 1,
-    "id": "botania:gaia_mana_spreader"
+    "id": "botania:gaia_spreader"
   }
 }

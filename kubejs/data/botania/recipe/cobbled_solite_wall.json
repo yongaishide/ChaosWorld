@@ -4,7 +4,7 @@
   "group": "botania:metamorphic_cobble_wall",
   "key": {
     "B": {
-      "item": "botania:cobbled_solite"
+      "item": "botania:metamorphic_desert_cobblestone"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 6,
-    "id": "botania:cobbled_solite_wall"
+    "id": "botania:metamorphic_desert_cobblestone_wall"
   }
 }

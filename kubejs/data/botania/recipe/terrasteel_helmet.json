@@ -1,12 +1,12 @@
 {
-  "type": "botania:crafting_shaped_armor_upgrade",
+  "type": "botania:armor_upgrade",
   "category": "equipment",
   "key": {
     "A": {
       "item": "botania:manasteel_helmet"
     },
     "R": {
-      "item": "botania:rune_of_spring"
+      "item": "botania:rune_spring"
     },
     "S": {
       "tag": "c:ingots/terrasteel"

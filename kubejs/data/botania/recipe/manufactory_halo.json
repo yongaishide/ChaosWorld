@@ -3,7 +3,7 @@
   "category": "equipment",
   "ingredients": [
     {
-      "item": "botania:assembly_halo"
+      "item": "botania:crafting_halo"
     },
     {
       "tag": "c:gems/mana_diamond"
@@ -11,6 +11,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "botania:manufactory_halo"
+    "id": "botania:auto_crafting_halo"
   }
 }

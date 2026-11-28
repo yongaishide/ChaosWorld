@@ -1,10 +1,10 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "botania:elven_quartz_block"
+    "item": "botania:elf_quartz"
   },
   "result": {
     "count": 2,
-    "id": "botania:elven_quartz_slab"
+    "id": "botania:elf_quartz_slab"
   }
 }

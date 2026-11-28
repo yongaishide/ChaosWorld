@@ -4,7 +4,7 @@
   "group": "botania:metamorphic_brick_stairs",
   "key": {
     "Q": {
-      "item": "botania:talc_bricks"
+      "item": "botania:metamorphic_plains_bricks"
     }
   },
   "pattern": [
@@ -14,6 +14,6 @@
   ],
   "result": {
     "count": 4,
-    "id": "botania:talc_brick_stairs"
+    "id": "botania:metamorphic_plains_bricks_stairs"
   }
 }

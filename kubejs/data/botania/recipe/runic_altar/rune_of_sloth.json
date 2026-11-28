@@ -2,10 +2,10 @@
   "type": "botania:runic_altar",
   "catalysts": [
     {
-      "item": "botania:rune_of_autumn"
+      "item": "botania:rune_autumn"
     },
     {
-      "item": "botania:rune_of_air"
+      "item": "botania:rune_air"
     }
   ],
   "ingredients": [
@@ -22,7 +22,7 @@
   "mana": 12000,
   "output": {
     "count": 1,
-    "id": "botania:rune_of_sloth"
+    "id": "botania:rune_sloth"
   },
   "reagent": {
     "item": "botania:livingrock"

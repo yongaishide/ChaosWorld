@@ -1,12 +1,12 @@
 {
-  "type": "botania:crafting_shaped_armor_upgrade",
+  "type": "botania:armor_upgrade",
   "category": "equipment",
   "key": {
     "A": {
       "item": "botania:manasteel_leggings"
     },
     "R": {
-      "item": "botania:rune_of_autumn"
+      "item": "botania:rune_autumn"
     },
     "S": {
       "tag": "c:ingots/terrasteel"

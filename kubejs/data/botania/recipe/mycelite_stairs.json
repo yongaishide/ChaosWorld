@@ -4,7 +4,7 @@
   "group": "botania:metamorphic_stone_stairs",
   "key": {
     "Q": {
-      "item": "botania:mycelite"
+      "item": "botania:metamorphic_fungal_stone"
     }
   },
   "pattern": [
@@ -14,6 +14,6 @@
   ],
   "result": {
     "count": 4,
-    "id": "botania:mycelite_stairs"
+    "id": "botania:metamorphic_fungal_stone_stairs"
   }
 }

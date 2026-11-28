@@ -6,13 +6,13 @@
       "tag": "c:ingots/manasteel"
     },
     "R": {
-      "item": "botania:rune_of_water"
+      "item": "botania:rune_water"
     },
     "S": {
       "item": "botania:mana_string"
     },
     "W": {
-      "item": "botania:rune_of_winter"
+      "item": "botania:rune_winter"
     }
   },
   "pattern": [
@@ -22,6 +22,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "botania:snowflake_pendant"
+    "id": "botania:ice_pendant"
   }
 }

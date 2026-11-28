@@ -4,7 +4,7 @@
   "group": "diluted_pool_dyeing",
   "ingredients": [
     {
-      "item": "botania:diluted_mana_pool"
+      "item": "botania:diluted_pool"
     },
     {
       "tag": "botania:petals/white"
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "botania:white_diluted_mana_pool"
+    "id": "botania:diluted_pool"
   }
 }

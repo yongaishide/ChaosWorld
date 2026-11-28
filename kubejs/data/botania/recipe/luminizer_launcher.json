@@ -6,7 +6,7 @@
       "tag": "botania:dreamwood_logs"
     },
     "L": {
-      "item": "botania:luminizer"
+      "item": "botania:light_relay"
     }
   },
   "pattern": [
@@ -15,6 +15,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "botania:luminizer_launcher"
+    "id": "botania:light_launcher"
   }
 }

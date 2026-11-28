@@ -3,14 +3,14 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "botania:mana_lens"
+      "item": "botania:lens_normal"
     },
     {
-      "item": "botania:force_relay"
+      "item": "botania:piston_relay"
     }
   ],
   "result": {
     "count": 1,
-    "id": "botania:force_lens"
+    "id": "botania:lens_piston"
   }
 }

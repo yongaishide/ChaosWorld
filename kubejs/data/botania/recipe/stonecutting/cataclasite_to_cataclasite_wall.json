@@ -1,10 +1,10 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "botania:cataclasite"
+    "item": "botania:metamorphic_swamp_stone"
   },
   "result": {
     "count": 1,
-    "id": "botania:cataclasite_wall"
+    "id": "botania:metamorphic_swamp_stone_wall"
   }
 }

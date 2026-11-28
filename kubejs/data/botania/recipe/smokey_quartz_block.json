@@ -4,7 +4,7 @@
   "group": "botania:quartz_block",
   "key": {
     "Q": {
-      "item": "botania:smokey_quartz"
+      "item": "botania:shimmer_quartz"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "botania:smokey_quartz_block"
+    "id": "botania:dark_quartz"
   }
 }

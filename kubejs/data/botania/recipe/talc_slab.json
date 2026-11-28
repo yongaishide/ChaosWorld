@@ -4,7 +4,7 @@
   "group": "botania:metamorphic_stone_slab",
   "key": {
     "Q": {
-      "item": "botania:talc"
+      "item": "botania:metamorphic_plains_stone"
     }
   },
   "pattern": [
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 6,
-    "id": "botania:talc_slab"
+    "id": "botania:metamorphic_plains_stone_slab"
   }
 }

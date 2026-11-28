@@ -1,10 +1,10 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "botania:mycelite"
+    "item": "botania:metamorphic_fungal_stone"
   },
   "result": {
     "count": 1,
-    "id": "botania:mycelite_wall"
+    "id": "botania:metamorphic_fungal_stone_wall"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "type": "botania:petal_apothecary",
+  "type": "botania:apothecary_default",
   "ingredients": [
     {
       "tag": "botania:petals/lime"
@@ -17,7 +17,7 @@
       "tag": "botania:petals/green"
     },
     {
-      "item": "botania:rune_of_gluttony"
+      "item": "botania:rune_gluttony"
     }
   ],
   "output": {

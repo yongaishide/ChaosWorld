@@ -4,7 +4,7 @@
   "group": "botania:seeds",
   "ingredients": [
     {
-      "item": "botania:pasture_seeds"
+      "item": "botania:grass_seeds"
     },
     {
       "item": "minecraft:dead_bush"
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "botania:dry_pasture_seeds"
+    "id": "botania:dry_seeds"
   }
 }

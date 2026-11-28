@@ -4,7 +4,7 @@
   "group": "botania:quartz_chiseled",
   "key": {
     "Q": {
-      "item": "botania:elven_quartz_slab"
+      "item": "botania:elf_quartz_slab"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "botania:chiseled_elven_quartz_block"
+    "id": "botania:chiseled_elf_quartz"
   }
 }

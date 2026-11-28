@@ -4,7 +4,7 @@
   "group": "botania:metamorphic_apothecary",
   "key": {
     "C": {
-      "item": "botania:cobbled_lunite"
+      "item": "botania:metamorphic_taiga_cobblestone"
     },
     "P": {
       "tag": "botania:petals"
@@ -20,6 +20,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "botania:lunite_petal_apothecary"
+    "id": "botania:apothecary_taiga"
   }
 }

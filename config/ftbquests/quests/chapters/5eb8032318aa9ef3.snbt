@@ -4,7 +4,7 @@
 	filename: "5eb8032318aa9ef3"
 	group: "6B9CFFEE5CD53D67"
 	icon: {
-		id: "botania:lexica_botania"
+		id: "botania:lexicon"
 	}
 	id: "5EB8032318AA9EF3"
 	images: [ ]
@@ -38,15 +38,6 @@
 			}]
 			shape: "gear"
 			size: 2.0d
-			tasks: [{
-				amount: 1L
-				id: "1BED4079396A8EBD"
-				key_type: "ae2:i"
-				match_components: "none"
-				resource: "botania:petal_apothecary"
-				tag: "botania:petal_apothecaries"
-				type: "chaosworld_core:ae_resource"
-			}]
 			x: -2.5d
 			y: 1.5d
 		}

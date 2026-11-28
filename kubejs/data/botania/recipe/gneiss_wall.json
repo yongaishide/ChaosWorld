@@ -4,7 +4,7 @@
   "group": "botania:metamorphic_stone_wall",
   "key": {
     "B": {
-      "item": "botania:gneiss"
+      "item": "botania:metamorphic_mountain_stone"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 6,
-    "id": "botania:gneiss_wall"
+    "id": "botania:metamorphic_mountain_stone_wall"
   }
 }

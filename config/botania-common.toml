@@ -10,8 +10,6 @@ manaEnchanter = true
 relics = true
 #Set this to true to invert the Ring of Magnetization's controls (from shift to stop to shift to work)
 invertMagnetRing = false
-#Set this to false to disable the animation for a flower 'picking up' an item
-flowerItemPickupAnimations = true
 
 [blockBreakingParticles]
 	#Set this to false to remove the block breaking particles from the flowers and other items in the mod.
@@ -50,7 +48,484 @@ flowerItemPickupAnimations = true
 
 [rannuncarpus]
 	#List of item registry names that will be ignored by rannuncarpuses when placing blocks.
-	ignoredItems = []
+	itemBlacklist = []
 	#List of mod names for rannuncarpuses to ignore.
 	#Ignores Storage Drawers by default due to crashes with placing drawer blocks without player involvement.
-	excludedMods = ["storagedrawers"]
+	modBlacklist = ["storagedrawers"]
+
+[witherManaRose]
+	enabled = true
+	# Default: 200000
+	# Range: > 1
+	manaPerStar = 200000
+	# Default: 1
+	# Range: 1 ~ 1200
+	generationInterval = 1
+	# Default: 850
+	# Range: > 1
+	generationPerCycle = 850
+	# Default: 8500
+	# Range: > 1
+	bufferSize = 8500
+	# Default: 850
+	# Range: > 1
+	outputPerTick = 850
+	# Default: 1600
+	# Range: > 0
+	cooldown = 1600
+
+[loonium]
+	#LOOT: the Loonium drops dungeon and structure loot directly as items (Botania 1.7.10 behavior). MOBS: the Loonium spawns monsters that carry the loot and drop it when killed.
+	#Allowed Values: LOOT, MOBS
+	mode = "LOOT"
+	#Mana spent per cycle in LOOT mode.
+	# Default: 35000
+	# Range: 1 ~ 10000000
+	lootManaCost = 35000
+	#Ticks between cycles in LOOT mode.
+	# Default: 200
+	# Range: 1 ~ 1200000
+	lootCooldown = 200
+	#Items dropped per cycle in LOOT mode.
+	# Default: 1
+	# Range: 1 ~ 64
+	lootItemsPerCycle = 1
+	#Drop radius in blocks in LOOT mode.
+	# Default: 3
+	# Range: 1 ~ 16
+	lootRange = 3
+
+[asgardandelion]
+	enabled = true
+	# Default: 1000000
+	# Range: 1 ~ 100000000
+	manaPerTick = 1000000
+
+[terraShatterer]
+	#Highest level the Terra Shatterer can reach. Level 0 = rank D (0 mana), 1 = rank C (10,000 mana), 2 = rank B (1,000,000 mana), 3 = rank A (10,000,000 mana), 4 = rank S (100,000,000 mana), 5 = rank SS (1,000,000,000 mana).
+	# Default: 5
+	# Range: 0 ~ 5
+	maxLevel = 5
+
+	[balance.mana_pool]
+		# Default: 100000000
+		# Range: > 1
+		fabulous_capacity = 100000000
+
+	[balance.mana_spark]
+		batch_transfer = true
+		# Default: 20000
+		# Range: > 1
+		batch_amount = 20000
+
+	[balance.flowers]
+		# Default: 100
+		# Range: > 1
+		orechid_cost = 100
+		# Default: 3
+		# Range: 0 ~ 64
+		orechid_range = 3
+		# Default: 1
+		# Range: 0 ~ 64
+		orechid_range_y = 1
+		# Default: 120
+		# Range: > 1
+		orechid_ignem_cost = 120
+		# Default: 3
+		# Range: 0 ~ 64
+		orechid_ignem_range = 3
+		# Default: 1
+		# Range: 0 ~ 64
+		orechid_ignem_range_y = 1
+		orechid_ignem_any_dimension = true
+		# Default: 25
+		# Range: 1 ~ 1000
+		marimorphosis_cost = 25
+		# Default: 10
+		# Range: 1 ~ 1200
+		marimorphosis_interval = 10
+		# Default: 4
+		# Range: 0 ~ 64
+		marimorphosis_range = 4
+		# Default: 2
+		# Range: 0 ~ 64
+		marimorphosis_range_y = 2
+		entropinnyum_accept_overflow = true
+
+	[balance.gaia_guardian]
+		# Default: 10000
+		# Range: > 1
+		damage_cap = 10000
+
+[performance]
+	reduced_update_frequency = true
+	# Default: 40
+	# Range: 1 ~ 1200
+	hopperhock_interval = 40
+	# Default: 20
+	# Range: 1 ~ 1200
+	functional_flower_redstone_interval = 20
+
+		[integrations.ars_nouveau.source_containers]
+			# Default: 15.0
+			# Range: 0.001 ~ 1000000.0
+			mana_per_source = 15.0
+			# Default: 1000
+			# Range: 1 ~ 1000000
+			max_transfer_rate = 1000
+
+		[integrations.ars_nouveau.player_mana]
+			botania_pays_spells = true
+			# Default: 0.006
+			# Range: 1.0E-6 ~ 1000000.0
+			botania_to_ars = 0.006
+			ars_powers_botania_items = true
+			# Default: 4.0
+			# Range: 1.0E-6 ~ 1000000.0
+			ars_to_botania = 4.0
+			overflow_charges_botania_items = false
+
+		[integrations.ars_nouveau.items]
+			mana_cookie_regen = true
+
+		[integrations.sophisticated.mana_pile]
+			# Default: 1000000
+			# Range: > 1
+			base_capacity = 1000000
+			migrate_defaults = true
+			capacity_migrated = true
+			# Default: 0.5
+			# Range: 0.0 ~ 1000.0
+			stack_upgrade_ratio = 0.5
+			# Default: 1
+			# Range: 1 ~ 64
+			max_per_storage = 1
+			absorb_from_items = true
+			# Default: 20
+			# Range: 1 ~ 1200
+			absorb_interval_ticks = 20
+			# Default: 10000
+			# Range: > 1
+			absorb_amount_per_interval = 10000
+			absorb_from_slot = true
+			pull_from_player_items = true
+			receive_from_world = true
+			charge_items = true
+			# Default: 20
+			# Range: 1 ~ 1200
+			charge_interval_ticks = 20
+			# Default: 10000
+			# Range: > 1
+			charge_rate = 10000
+			# Default: 20
+			# Range: 1 ~ 1200
+			infusion_interval_ticks = 20
+			# Default: 4
+			# Range: 1 ~ 64
+			infusion_max_per_interval = 4
+			infusion_auto_feed = true
+			infusion_auto_output = true
+
+		[integrations.sophisticated.mana_link]
+			enabled = true
+			# Default: 1
+			# Range: 1 ~ 64
+			max_per_storage = 1
+
+		[integrations.sophisticated.backpacks]
+			enabled = true
+
+			[integrations.sophisticated.backpacks.manasteel]
+				# Default: 280
+				# Range: 1 ~ 1000
+				inventory_slots = 280
+				# Default: 8
+				# Range: 0 ~ 10
+				upgrade_slots = 8
+
+			[integrations.sophisticated.backpacks.elementium]
+				# Default: 380
+				# Range: 1 ~ 1000
+				inventory_slots = 380
+				# Default: 9
+				# Range: 0 ~ 10
+				upgrade_slots = 9
+
+			[integrations.sophisticated.backpacks.terrasteel]
+				# Default: 480
+				# Range: 1 ~ 1000
+				inventory_slots = 480
+				# Default: 10
+				# Range: 0 ~ 10
+				upgrade_slots = 10
+
+			[integrations.sophisticated.backpacks.gaia]
+				# Default: 595
+				# Range: 1 ~ 1000
+				inventory_slots = 595
+				# Default: 10
+				# Range: 0 ~ 10
+				upgrade_slots = 10
+
+			[integrations.sophisticated.backpacks.alfsteel]
+				# Default: 695
+				# Range: 1 ~ 1000
+				inventory_slots = 695
+				# Default: 10
+				# Range: 0 ~ 10
+				upgrade_slots = 10
+
+		[integrations.sophisticated.storage]
+			enabled = true
+
+			[integrations.sophisticated.storage.manasteel]
+				# Default: 280
+				# Range: 1 ~ 1000
+				inventory_slots = 280
+				# Default: 6
+				# Range: 0 ~ 10
+				upgrade_slots = 6
+
+			[integrations.sophisticated.storage.elementium]
+				# Default: 380
+				# Range: 1 ~ 1000
+				inventory_slots = 380
+				# Default: 7
+				# Range: 0 ~ 10
+				upgrade_slots = 7
+
+			[integrations.sophisticated.storage.terrasteel]
+				# Default: 480
+				# Range: 1 ~ 1000
+				inventory_slots = 480
+				# Default: 8
+				# Range: 0 ~ 10
+				upgrade_slots = 8
+
+			[integrations.sophisticated.storage.gaia]
+				# Default: 595
+				# Range: 1 ~ 1000
+				inventory_slots = 595
+				# Default: 10
+				# Range: 0 ~ 10
+				upgrade_slots = 10
+
+			[integrations.sophisticated.storage.alfsteel]
+				# Default: 695
+				# Range: 1 ~ 1000
+				inventory_slots = 695
+				# Default: 10
+				# Range: 0 ~ 10
+				upgrade_slots = 10
+
+				#Manasteel Tank Settings
+				[integrations.sophisticated.storage.tanks.ManasteelTank]
+					#Fluid capacity in mB per tank block; tank height and stack upgrades multiply this capacity
+					# Default: 192000
+					# Range: > 1
+					capacity = 192000
+					#Number of upgrade slots in the tank
+					# Default: 6
+					# Range: 0 ~ 10
+					upgradeSlotCount = 6
+
+				#Elementium Tank Settings
+				[integrations.sophisticated.storage.tanks.ElementiumTank]
+					#Fluid capacity in mB per tank block; tank height and stack upgrades multiply this capacity
+					# Default: 256000
+					# Range: > 1
+					capacity = 256000
+					#Number of upgrade slots in the tank
+					# Default: 7
+					# Range: 0 ~ 10
+					upgradeSlotCount = 7
+
+				#Terrasteel Tank Settings
+				[integrations.sophisticated.storage.tanks.TerrasteelTank]
+					#Fluid capacity in mB per tank block; tank height and stack upgrades multiply this capacity
+					# Default: 384000
+					# Range: > 1
+					capacity = 384000
+					#Number of upgrade slots in the tank
+					# Default: 8
+					# Range: 0 ~ 10
+					upgradeSlotCount = 8
+
+				#Gaia Tank Settings
+				[integrations.sophisticated.storage.tanks.GaiaTank]
+					#Fluid capacity in mB per tank block; tank height and stack upgrades multiply this capacity
+					# Default: 512000
+					# Range: > 1
+					capacity = 512000
+					#Number of upgrade slots in the tank
+					# Default: 10
+					# Range: 0 ~ 10
+					upgradeSlotCount = 10
+
+				#Alfsteel Tank Settings
+				[integrations.sophisticated.storage.tanks.AlfsteelTank]
+					#Fluid capacity in mB per tank block; tank height and stack upgrades multiply this capacity
+					# Default: 768000
+					# Range: > 1
+					capacity = 768000
+					#Number of upgrade slots in the tank
+					# Default: 10
+					# Range: 0 ~ 10
+					upgradeSlotCount = 10
+
+		[integrations.sophisticated.runic_altar]
+			enabled = true
+			# Default: 1
+			# Range: 1 ~ 64
+			max_per_storage = 1
+			# Default: 20
+			# Range: 1 ~ 1200
+			interval_ticks = 20
+			# Default: 100
+			# Range: 0 ~ 10000
+			cost_percent = 100
+			require_wand = true
+
+		[integrations.sophisticated.elven_portal]
+			enabled = true
+			# Default: 1
+			# Range: 1 ~ 64
+			max_per_storage = 1
+			# Default: 20
+			# Range: 1 ~ 1200
+			interval_ticks = 20
+			# Default: 500
+			# Range: 0 ~ 1000000
+			cost_per_trade = 500
+			require_pylons = true
+
+		[integrations.sophisticated.brewery]
+			enabled = true
+			# Default: 1
+			# Range: 1 ~ 64
+			max_per_storage = 1
+			# Default: 20
+			# Range: 1 ~ 1200
+			interval_ticks = 20
+			# Default: 100
+			# Range: 0 ~ 10000
+			cost_percent = 100
+
+		[integrations.sophisticated.petal_apothecary]
+			enabled = true
+			# Default: 1
+			# Range: 1 ~ 64
+			max_per_storage = 1
+			# Default: 20
+			# Range: 1 ~ 1200
+			interval_ticks = 20
+			auto_feed = true
+			consume_water = true
+
+		[integrations.sophisticated.terra_plate]
+			enabled = true
+			# Default: 1
+			# Range: 1 ~ 64
+			max_per_storage = 1
+			# Default: 20
+			# Range: 1 ~ 1200
+			interval_ticks = 20
+			# Default: 100
+			# Range: 0 ~ 10000
+			cost_percent = 100
+			auto_feed = true
+			require_spark = true
+
+		[integrations.sophisticated.stations]
+			auto_feed = true
+			# Default: 1
+			# Range: 1 ~ 64
+			max_per_interval = 1
+
+		[integrations.create.mana_motor]
+			#Enables the Mana Motor. When false it accepts no mana and generates no rotation.
+			enabled = true
+			#Internal mana buffer of the Mana Motor.
+			# Default: 100000
+			# Range: > 1
+			mana_capacity = 100000
+			#RPM generated by a newly placed Mana Motor (adjustable in game with the value panel, like the Creative Motor).
+			# Default: 32
+			# Range: 1 ~ 256
+			default_rpm = 32
+			#Minimum RPM the Mana Motor can be set to.
+			# Default: 1
+			# Range: 1 ~ 256
+			min_rpm = 1
+			#Maximum RPM the Mana Motor can be set to.
+			# Default: 256
+			# Range: 1 ~ 256
+			max_rpm = 256
+			#Stress capacity produced per RPM (su/RPM). Total stress produced = stress_per_rpm * RPM.
+			# Default: 64.0
+			# Range: 0.0 ~ 1000000.0
+			stress_per_rpm = 64.0
+			#Amount of stress (su) actually consumed by the network that counts as one stress unit for the mana cost.
+			# Default: 256.0
+			# Range: 0.001 ~ 1000000.0
+			stress_unit = 256.0
+			#Mana consumed per tick for each stress_unit of stress actually consumed by the network.
+			# Default: 1.0
+			# Range: 0.0 ~ 1000000.0
+			mana_per_stress_unit = 1.0
+			#Flat mana consumed per tick while the motor is running, regardless of the stress consumed.
+			# Default: 0.0
+			# Range: 0.0 ~ 1000000.0
+			base_mana_per_tick = 0.0
+
+	[integrations.masterful_botany]
+		#Speed multiplier of the Alfsteel Mana Spreader (only exists when Masterful Botany is installed) relative to the Gaia Mana Spreader. Its mana throughput per second, internal capacity and burst mana scale with this value.
+		# Default: 4.0
+		# Range: 1.0 ~ 1000.0
+		alfsteel_spreader_speed_multiplier = 4.0
+
+		[integrations.thaumaturge.node_boost]
+			#Only used when Thaumaturge is installed. An aura node near a generating flower, a functional flower or a mana spreader makes it work faster.
+			enabled = true
+			#Speed multiplier applied while an aura node is within range. Flowers run their whole logic this many times per tick (fuel, items and mana costs follow the same pace). Spreaders carry this many times more mana per burst and hold this many times more mana.
+			# Default: 20.0
+			# Range: 1.0 ~ 1000.0
+			speed_multiplier = 20.0
+			#Maximum distance in blocks between the aura node and the flower or spreader.
+			# Default: 8
+			# Range: 1 ~ 64
+			range = 8
+			#Whether aura nodes speed up generating flowers.
+			affect_generating_flowers = true
+			#Whether aura nodes speed up functional flowers.
+			affect_functional_flowers = true
+			#Whether aura nodes speed up mana spreaders.
+			affect_spreaders = true
+			#Whether aura nodes speed up the Botanical Brewery.
+			affect_brewery = true
+			#Whether aura nodes speed up the Alfheim Portal trades.
+			affect_elven_portal = true
+			#Whether aura nodes speed up the Runic Altar.
+			affect_runic_altar = true
+			#Whether aura nodes speed up the Mana Enchanter.
+			affect_mana_enchanter = true
+			#Whether aura nodes speed up the mana transfer of Mana Sparks.
+			affect_sparks = true
+			#Performance cap: maximum number of extra updates run per game tick for a single flower, brewery, portal, altar, enchanter or spark, whatever the multiplier is. 0 disables the extra updates.
+			# Default: 20
+			# Range: 0 ~ 1000
+			max_extra_ticks_per_tick = 20
+
+[modules]
+	#Set this to false to disable the Botania Extras module. A disabled module registers no blocks, items, recipes, Lexicon entries or client rendering. Requires a game restart.
+	botania_extras = true
+	#Set this to true to enable the Skybox module. A disabled module registers no blocks, items, recipes, Lexicon entries or client rendering. Requires a game restart.
+	skybox = false
+	#Set this to false to disable the Exploration module. A disabled module registers no blocks, items, recipes, Lexicon entries or client rendering. Requires a game restart.
+	exploration = true
+	#Set this to false to disable the Creative Crafting module. A disabled module registers no blocks, items, recipes, Lexicon entries or client rendering. Requires a game restart.
+	creative = true
+	#Set this to false to disable the Asgard module. A disabled module registers no blocks, items, recipes, Lexicon entries or client rendering. Requires a game restart.
+	asg = true
+	#Set this to false to disable the Sophisticated module. A disabled module registers no blocks, items, recipes, Lexicon entries or client rendering. Requires a game restart.
+	sophisticated = true

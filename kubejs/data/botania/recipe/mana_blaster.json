@@ -6,10 +6,10 @@
       "tag": "c:gems/mana_diamond"
     },
     "M": {
-      "item": "botania:rune_of_mana"
+      "item": "botania:rune_mana"
     },
     "S": {
-      "item": "botania:pulse_mana_spreader"
+      "item": "botania:redstone_spreader"
     },
     "T": {
       "item": "minecraft:tnt"
@@ -25,6 +25,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "botania:mana_blaster"
+    "id": "botania:mana_gun"
   }
 }

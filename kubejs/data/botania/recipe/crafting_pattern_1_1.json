@@ -4,7 +4,7 @@
   "group": "botania:craft_pattern",
   "key": {
     "P": {
-      "item": "botania:crafting_placeholder"
+      "item": "botania:placeholder"
     },
     "R": {
       "tag": "c:dusts/redstone"
@@ -17,6 +17,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "botania:crafting_pattern_1_1"
+    "id": "botania:pattern_1_1"
   }
 }

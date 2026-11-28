@@ -5,10 +5,11 @@
 	group: "0ECD69559C70EBEB"
 	icon: {
 		components: {
-			"botania:elven_unlock": { }
-			"minecraft:rarity": "uncommon"
+			"minecraft:custom_data": {
+				"botania:elven_unlock": 1b
+			}
 		}
-		id: "botania:lexica_botania"
+		id: "botania:lexicon"
 	}
 	id: "2F0189C5A397F1CA"
 	images: [ ]
@@ -84,10 +85,10 @@
 			size: 1.5d
 			tasks: [{
 				amount: 1L
-				id: "00D4576CD2147786"
+				id: "4C7A845DF6C6BBB9"
 				key_type: "ae2:i"
 				match_components: "strict"
-				resource: "botania:elven_gateway_core"
+				resource: "botania:alfheim_portal"
 				tag: ""
 				type: "chaosworld_core:ae_resource"
 			}]

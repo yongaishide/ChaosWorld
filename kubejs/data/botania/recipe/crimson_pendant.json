@@ -6,13 +6,13 @@
       "item": "minecraft:blaze_rod"
     },
     "G": {
-      "item": "botania:gaia_spirit"
+      "item": "botania:life_essence"
     },
     "N": {
       "tag": "c:bricks/nether"
     },
     "P": {
-      "item": "botania:pyroclast_pendant"
+      "item": "botania:lava_pendant"
     }
   },
   "pattern": [
@@ -22,6 +22,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "botania:crimson_pendant"
+    "id": "botania:super_lava_pendant"
   }
 }

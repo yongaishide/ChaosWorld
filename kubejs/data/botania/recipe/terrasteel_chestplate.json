@@ -1,12 +1,12 @@
 {
-  "type": "botania:crafting_shaped_armor_upgrade",
+  "type": "botania:armor_upgrade",
   "category": "equipment",
   "key": {
     "A": {
       "item": "botania:manasteel_chestplate"
     },
     "R": {
-      "item": "botania:rune_of_summer"
+      "item": "botania:rune_summer"
     },
     "S": {
       "tag": "c:ingots/terrasteel"

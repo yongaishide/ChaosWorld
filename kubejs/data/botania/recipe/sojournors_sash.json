@@ -3,10 +3,10 @@
   "category": "equipment",
   "key": {
     "A": {
-      "item": "botania:rune_of_air"
+      "item": "botania:rune_air"
     },
     "E": {
-      "item": "botania:rune_of_earth"
+      "item": "botania:rune_earth"
     },
     "L": {
       "item": "minecraft:leather"
@@ -22,6 +22,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "botania:sojournors_sash"
+    "id": "botania:travel_belt"
   }
 }

@@ -4,7 +4,7 @@
   "group": "botania:quartz_stairs",
   "key": {
     "Q": {
-      "item": "botania:smokey_quartz_block"
+      "item": "botania:dark_quartz"
     }
   },
   "pattern": [
@@ -14,6 +14,6 @@
   ],
   "result": {
     "count": 4,
-    "id": "botania:smokey_quartz_stairs"
+    "id": "botania:shimmer_quartz_stairs"
   }
 }

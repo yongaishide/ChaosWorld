@@ -1,0 +1,30 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ii_5f25b26595ab66dc"
+	group: "0ECD69559C70EBEB"
+	icon: {
+		id: "astralsorcery:shifting_star_vicio"
+	}
+	id: "5F25B26595AB66DC"
+	images: [ ]
+	order_index: 4
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [{
+		id: "4F3F9C3736BA2543"
+		quest_enhance_disable_scroll_paging: false
+		tasks: [{
+			amount: 1L
+			id: "5F9EE1941F9E7181"
+			key_type: "ae2:i"
+			match_components: "strict"
+			resource: "astralsorcery:altar_radiance"
+			tag: ""
+			type: "chaosworld_core:ae_resource"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

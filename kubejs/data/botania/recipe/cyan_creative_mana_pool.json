@@ -4,7 +4,7 @@
   "group": "creative_pool_dyeing",
   "ingredients": [
     {
-      "item": "botania:creative_mana_pool"
+      "item": "botania:creative_pool"
     },
     {
       "tag": "botania:petals/cyan"
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "botania:cyan_creative_mana_pool"
+    "id": "botania:creative_pool"
   }
 }

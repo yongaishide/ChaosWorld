@@ -3,14 +3,14 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "botania:mana_lens"
+      "item": "botania:lens_normal"
     },
     {
-      "item": "botania:rune_of_water"
+      "item": "botania:rune_water"
     }
   ],
   "result": {
     "count": 1,
-    "id": "botania:efficiency_lens"
+    "id": "botania:lens_efficiency"
   }
 }

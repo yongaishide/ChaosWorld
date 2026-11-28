@@ -3,13 +3,13 @@
   "category": "equipment",
   "key": {
     "B": {
-      "item": "botania:sojournors_sash"
+      "item": "botania:travel_belt"
     },
     "M": {
       "item": "minecraft:map"
     },
     "P": {
-      "item": "botania:pasture_seeds"
+      "item": "botania:grass_seeds"
     },
     "S": {
       "item": "minecraft:sugar"
@@ -22,6 +22,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "botania:planestriders_sash"
+    "id": "botania:speed_up_belt"
   }
 }

@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "group": "botania:mana_lens",
+  "group": "botania:lens_normal",
   "key": {
     "G": {
       "tag": "c:glass_panes/colorless"
@@ -17,6 +17,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "botania:mana_lens"
+    "id": "botania:lens_normal"
   }
 }

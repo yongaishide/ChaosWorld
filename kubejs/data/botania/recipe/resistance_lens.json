@@ -3,14 +3,14 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "botania:mana_lens"
+      "item": "botania:lens_normal"
     },
     {
-      "item": "botania:rune_of_earth"
+      "item": "botania:rune_earth"
     }
   ],
   "result": {
     "count": 1,
-    "id": "botania:resistance_lens"
+    "id": "botania:lens_time"
   }
 }

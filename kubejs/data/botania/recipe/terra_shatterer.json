@@ -1,5 +1,5 @@
 {
-  "type": "botania:crafting_shaped_mana_upgrade",
+  "type": "botania:mana_upgrade",
   "category": "equipment",
   "key": {
     "I": {
@@ -19,6 +19,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "botania:terra_shatterer"
+    "id": "botania:terra_pick"
   }
 }

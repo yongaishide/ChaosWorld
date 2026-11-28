@@ -1,5 +1,5 @@
 {
-  "type": "botania:petal_apothecary",
+  "type": "botania:apothecary_default",
   "ingredients": [
     {
       "tag": "botania:petals/black"
@@ -22,7 +22,7 @@
   ],
   "output": {
     "count": 1,
-    "id": "botania:dreadthorne"
+    "id": "botania:dreadthorn"
   },
   "reagent": {
     "tag": "botania:seed_apothecary_reagent"

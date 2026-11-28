@@ -4,7 +4,7 @@
   "group": "botania:metamorphic_cobble_stairs",
   "key": {
     "Q": {
-      "item": "botania:cobbled_fuchsite"
+      "item": "botania:metamorphic_forest_cobblestone"
     }
   },
   "pattern": [
@@ -14,6 +14,6 @@
   ],
   "result": {
     "count": 4,
-    "id": "botania:cobbled_fuchsite_stairs"
+    "id": "botania:metamorphic_forest_cobblestone_stairs"
   }
 }

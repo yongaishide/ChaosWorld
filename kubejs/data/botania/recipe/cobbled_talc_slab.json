@@ -4,7 +4,7 @@
   "group": "botania:metamorphic_cobble_slab",
   "key": {
     "Q": {
-      "item": "botania:cobbled_talc"
+      "item": "botania:metamorphic_plains_cobblestone"
     }
   },
   "pattern": [
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 6,
-    "id": "botania:cobbled_talc_slab"
+    "id": "botania:metamorphic_plains_cobblestone_slab"
   }
 }

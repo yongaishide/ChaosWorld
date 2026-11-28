@@ -365,13 +365,10 @@
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: 0.0d
-			y: -2.0d
+			y: -4.0d
 		}
 		{
-			dependencies: [
-				"63DAEFA65D73118D"
-				"3A70CFD885CB63B4"
-			]
+			dependencies: ["63DAEFA65D73118D"]
 			id: "14BC9B8A4FB3501A"
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
@@ -387,13 +384,10 @@
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: 2.0d
-			y: 0.0d
+			y: -4.0d
 		}
 		{
-			dependencies: [
-				"14BC9B8A4FB3501A"
-				"003ECD9DC12F3543"
-			]
+			dependencies: ["14BC9B8A4FB3501A"]
 			id: "15E2035328B4C6D6"
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
@@ -406,13 +400,10 @@
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: 4.0d
-			y: 2.0d
+			y: -4.0d
 		}
 		{
-			dependencies: [
-				"15E2035328B4C6D6"
-				"408F0BD05B5FE3EB"
-			]
+			dependencies: ["15E2035328B4C6D6"]
 			id: "166AB78F3D3EC6BD"
 			quest_enhance_disable_scroll_paging: false
 			tasks: [{
@@ -425,7 +416,7 @@
 				type: "chaosworld_core:ae_resource"
 			}]
 			x: 6.0d
-			y: 4.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["37CDE9146AA1C9FC"]
@@ -570,6 +561,38 @@
 			}]
 			x: 2.0d
 			y: -8.0d
+		}
+		{
+			dependencies: ["131B2A1EA20A7D2D"]
+			id: "4018C8D5E909098D"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "0CD80A21EB870E5F"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "neovitae:weak_blood_shard"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A70CFD885CB63B4"]
+			id: "131B2A1EA20A7D2D"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				amount: 1L
+				id: "5B9C0C698880C082"
+				key_type: "ae2:i"
+				match_components: "strict"
+				resource: "neovitae:athanor"
+				tag: ""
+				type: "chaosworld_core:ae_resource"
+			}]
+			x: 2.0d
+			y: 0.0d
 		}
 	]
 }

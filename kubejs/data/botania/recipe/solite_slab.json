@@ -4,7 +4,7 @@
   "group": "botania:metamorphic_stone_slab",
   "key": {
     "Q": {
-      "item": "botania:solite"
+      "item": "botania:metamorphic_desert_stone"
     }
   },
   "pattern": [
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 6,
-    "id": "botania:solite_slab"
+    "id": "botania:metamorphic_desert_stone_slab"
   }
 }

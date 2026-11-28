@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    },
+    [
+      {
+        "item": "botania:spark_upgrade_dispersive"
+      },
+      {
+        "item": "botania:spark_upgrade_dominant"
+      },
+      {
+        "item": "botania:spark_upgrade_isolated"
+      },
+      {
+        "item": "botania:spark_upgrade_recessive"
+      }
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "botania:spark_augments_banner_pattern"
+  }
+}

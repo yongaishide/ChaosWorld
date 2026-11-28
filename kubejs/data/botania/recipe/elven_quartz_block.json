@@ -4,7 +4,7 @@
   "group": "botania:quartz_block",
   "key": {
     "Q": {
-      "item": "botania:elven_quartz"
+      "item": "botania:quartz_elven"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "botania:elven_quartz_block"
+    "id": "botania:elf_quartz"
   }
 }

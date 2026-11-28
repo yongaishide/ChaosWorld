@@ -6,10 +6,10 @@
       "tag": "c:ingots/elementium"
     },
     "L": {
-      "item": "botania:gaia_spirit"
+      "item": "botania:life_essence"
     },
     "S": {
-      "item": "botania:sojournors_sash"
+      "item": "botania:travel_belt"
     }
   },
   "pattern": [
@@ -19,6 +19,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "botania:globetrotters_sash"
+    "id": "botania:super_travel_belt"
   }
 }

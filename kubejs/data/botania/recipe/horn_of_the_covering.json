@@ -3,7 +3,7 @@
   "category": "equipment",
   "ingredients": [
     {
-      "item": "botania:horn_of_the_wild"
+      "item": "botania:horn_grass"
     },
     {
       "item": "minecraft:snowball"
@@ -11,6 +11,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "botania:horn_of_the_covering"
+    "id": "botania:horn_snow"
   }
 }

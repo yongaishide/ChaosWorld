@@ -4,7 +4,7 @@
   "group": "botania:metamorphic_stone_wall",
   "key": {
     "B": {
-      "item": "botania:cataclasite"
+      "item": "botania:metamorphic_swamp_stone"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 6,
-    "id": "botania:cataclasite_wall"
+    "id": "botania:metamorphic_swamp_stone_wall"
   }
 }

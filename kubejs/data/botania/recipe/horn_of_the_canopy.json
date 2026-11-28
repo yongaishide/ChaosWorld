@@ -3,7 +3,7 @@
   "category": "equipment",
   "ingredients": [
     {
-      "item": "botania:horn_of_the_wild"
+      "item": "botania:horn_grass"
     },
     {
       "tag": "minecraft:leaves"
@@ -11,6 +11,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "botania:horn_of_the_canopy"
+    "id": "botania:horn_leaves"
   }
 }

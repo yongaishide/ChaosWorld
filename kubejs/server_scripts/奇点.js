@@ -97,4 +97,12 @@ AvaritiaEvents.singularity(event => {
          .setTimeCost(200)
          .setIngredient('advanced_ae:quantum_alloy')
     })
+    //终极锭奇点
+    event.register('chaosworld_core:the_ultimate_ingot', s => {
+        s.setDisplayName('singularity.chaos.the_ultimate_ingot')
+         .setColors(0xE4E4E4, 0x6E6E6E)
+         .setCount(256)
+         .setTimeCost(200)
+         .setIngredient('extendedcrafting:the_ultimate_ingot')
+    })
 })

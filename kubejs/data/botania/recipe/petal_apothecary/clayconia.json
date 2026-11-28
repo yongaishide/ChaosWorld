@@ -1,5 +1,5 @@
 {
-  "type": "botania:petal_apothecary",
+  "type": "botania:apothecary_default",
   "ingredients": [
     {
       "tag": "botania:petals/light_gray"
@@ -14,7 +14,7 @@
       "tag": "botania:petals/cyan"
     },
     {
-      "item": "botania:rune_of_earth"
+      "item": "botania:rune_earth"
     }
   ],
   "output": {

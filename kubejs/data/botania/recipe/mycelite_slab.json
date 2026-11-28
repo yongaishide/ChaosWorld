@@ -4,7 +4,7 @@
   "group": "botania:metamorphic_stone_slab",
   "key": {
     "Q": {
-      "item": "botania:mycelite"
+      "item": "botania:metamorphic_fungal_stone"
     }
   },
   "pattern": [
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 6,
-    "id": "botania:mycelite_slab"
+    "id": "botania:metamorphic_fungal_stone_slab"
   }
 }

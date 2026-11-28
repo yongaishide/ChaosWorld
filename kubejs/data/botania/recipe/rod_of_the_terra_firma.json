@@ -3,25 +3,25 @@
   "category": "equipment",
   "key": {
     "A": {
-      "item": "botania:rune_of_autumn"
+      "item": "botania:rune_autumn"
     },
     "G": {
-      "item": "botania:pasture_seeds"
+      "item": "botania:grass_seeds"
     },
     "M": {
-      "item": "botania:rune_of_summer"
+      "item": "botania:rune_summer"
     },
     "R": {
-      "item": "botania:rod_of_the_lands"
+      "item": "botania:dirt_rod"
     },
     "S": {
-      "item": "botania:rune_of_spring"
+      "item": "botania:rune_spring"
     },
     "T": {
       "tag": "c:ingots/terrasteel"
     },
     "W": {
-      "item": "botania:rune_of_winter"
+      "item": "botania:rune_winter"
     }
   },
   "pattern": [
@@ -31,6 +31,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "botania:rod_of_the_terra_firma"
+    "id": "botania:terraform_rod"
   }
 }

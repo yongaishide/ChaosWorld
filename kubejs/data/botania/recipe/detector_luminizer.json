@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "botania:luminizer"
+      "item": "botania:light_relay"
     },
     {
       "tag": "c:dusts/redstone"
@@ -11,6 +11,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "botania:detector_luminizer"
+    "id": "botania:detector_light_relay"
   }
 }

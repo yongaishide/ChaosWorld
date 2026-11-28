@@ -317,6 +317,29 @@
     "jade_chamber": true,
     "jade_wireless": true
   },
+  "botania": {
+    "alfheim_portal": true,
+    "mana_storage": true,
+    "mana_spreader": true,
+    "show_numbers": true,
+    "compact_numbers": false,
+    "progress_bar_color": "#2ECC71",
+    "terra_plate": true,
+    "mana_pool": true,
+    "petal_apothecary": true,
+    "enabled": true,
+    "mana_enchanter": true,
+    "mana_spark": true,
+    "generating_flower": true,
+    "native_colors": false,
+    "brewery": true,
+    "show_binding": true,
+    "runic_altar": true,
+    "mana_pool.recipe": true,
+    "generating_flower.timers": true,
+    "functional_flower": true,
+    "mana_bar_color": "#0095FF"
+  },
   "enderio": {
     "soul_bound": true
   },

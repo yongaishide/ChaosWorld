@@ -4,7 +4,7 @@
   "group": "botania:metamorphic_stone_wall",
   "key": {
     "B": {
-      "item": "botania:lunite"
+      "item": "botania:metamorphic_taiga_stone"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 6,
-    "id": "botania:lunite_wall"
+    "id": "botania:metamorphic_taiga_stone_wall"
   }
 }

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "botania:dark_quartz"
+  },
+  "result": {
+    "id": "botania:smooth_smokey_quartz_block"
+  }
+}

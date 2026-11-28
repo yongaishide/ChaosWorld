@@ -1,5 +1,5 @@
 {
-  "type": "botania:petal_apothecary",
+  "type": "botania:apothecary_default",
   "ingredients": [
     {
       "tag": "botania:petals/lime"
@@ -17,10 +17,10 @@
       "tag": "botania:petals/black"
     },
     {
-      "item": "botania:rune_of_summer"
+      "item": "botania:rune_summer"
     },
     {
-      "item": "botania:rune_of_water"
+      "item": "botania:rune_water"
     }
   ],
   "output": {

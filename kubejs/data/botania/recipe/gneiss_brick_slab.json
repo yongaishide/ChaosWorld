@@ -4,7 +4,7 @@
   "group": "botania:metamorphic_brick_slab",
   "key": {
     "Q": {
-      "item": "botania:gneiss_bricks"
+      "item": "botania:metamorphic_mountain_bricks"
     }
   },
   "pattern": [
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 6,
-    "id": "botania:gneiss_brick_slab"
+    "id": "botania:metamorphic_mountain_bricks_slab"
   }
 }

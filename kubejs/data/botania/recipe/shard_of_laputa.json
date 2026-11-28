@@ -3,13 +3,13 @@
   "category": "equipment",
   "key": {
     "A": {
-      "item": "botania:rune_of_air"
+      "item": "botania:rune_air"
     },
     "D": {
       "tag": "c:gems/dragonstone"
     },
     "E": {
-      "item": "botania:rune_of_earth"
+      "item": "botania:rune_earth"
     },
     "F": {
       "tag": "botania:mundane_floating_flowers"
@@ -18,7 +18,7 @@
       "tag": "c:gems/prismarine"
     },
     "S": {
-      "item": "botania:gaia_spirit"
+      "item": "botania:life_essence"
     }
   },
   "pattern": [
@@ -28,6 +28,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "botania:shard_of_laputa"
+    "id": "botania:laputa_shard"
   }
 }

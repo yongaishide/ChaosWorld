@@ -4,7 +4,7 @@
   "group": "botania:seeds",
   "ingredients": [
     {
-      "item": "botania:pasture_seeds"
+      "item": "botania:grass_seeds"
     },
     {
       "item": "minecraft:blaze_powder"
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "botania:scorched_pasture_seeds"
+    "id": "botania:scorched_seeds"
   }
 }

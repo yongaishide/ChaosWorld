@@ -4,7 +4,7 @@
   "group": "botania:metamorphic_brick_wall",
   "key": {
     "B": {
-      "item": "botania:mycelite_bricks"
+      "item": "botania:metamorphic_fungal_bricks"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 6,
-    "id": "botania:mycelite_brick_wall"
+    "id": "botania:metamorphic_fungal_bricks_wall"
   }
 }

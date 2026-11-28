@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "botania:mana_lens"
+      "item": "botania:lens_normal"
     },
     {
       "item": "minecraft:firework_rocket"
@@ -14,6 +14,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "botania:celebratory_lens"
+    "id": "botania:lens_firework"
   }
 }

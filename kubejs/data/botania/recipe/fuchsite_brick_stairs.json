@@ -4,7 +4,7 @@
   "group": "botania:metamorphic_brick_stairs",
   "key": {
     "Q": {
-      "item": "botania:fuchsite_bricks"
+      "item": "botania:metamorphic_forest_bricks"
     }
   },
   "pattern": [
@@ -14,6 +14,6 @@
   ],
   "result": {
     "count": 4,
-    "id": "botania:fuchsite_brick_stairs"
+    "id": "botania:metamorphic_forest_bricks_stairs"
   }
 }

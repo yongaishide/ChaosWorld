@@ -4,7 +4,7 @@
   "group": "botania:metamorphic_stone_wall",
   "key": {
     "B": {
-      "item": "botania:fuchsite"
+      "item": "botania:metamorphic_forest_stone"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 6,
-    "id": "botania:fuchsite_wall"
+    "id": "botania:metamorphic_forest_stone_wall"
   }
 }

@@ -70,7 +70,7 @@ ServerEvents.recipes(event => {
         "mekanism:isotopic_centrifuge",
         "mekanism:fuelwood_heater",
         "minecraft:smithing_table",
-        "botania:terrestrial_agglomeration_plate",
+        "botania:terra_plate",
         "naturesaura:gold_fiber",
         "botania:mana_pylon"
     ]
@@ -104,7 +104,7 @@ ServerEvents.recipes(event => {
         "projecte:red_matter",
         "neoecoae:crystal_matrix",
         "botania:glimmering_livingwood",
-        "botania:elven_gateway_core",
+        "botania:alfheim_portal",
         "appliedas:lumen_cell_housing"
         
     ]

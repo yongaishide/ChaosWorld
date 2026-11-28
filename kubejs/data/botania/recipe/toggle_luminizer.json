@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "botania:luminizer"
+      "item": "botania:light_relay"
     },
     {
       "item": "minecraft:lever"
@@ -11,6 +11,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "botania:toggle_luminizer"
+    "id": "botania:toggle_light_relay"
   }
 }

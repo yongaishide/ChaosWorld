@@ -44,7 +44,7 @@ ServerEvents.recipes(event => {
         tick_time: 200,        // 20 tick = 1 秒
         parallelized: true,    // 允许批量；实际并行倍率由结构里的并行控制器决定
         requirements: [
-            power(256, 1),                                   // 256 FE/t，需要二阶及以上线圈
+            power(256, 1),                                   // 256 FE/t
             item("alltheores:iron_dust", 1),             // 铁粉
             out("minecraft:iron_ingot", 1)              // 铁锭
         ]
@@ -56,7 +56,7 @@ ServerEvents.recipes(event => {
         tick_time: 200,        // 20 tick = 1 秒
         parallelized: true,    // 允许批量；实际并行倍率由结构里的并行控制器决定
         requirements: [
-            power(256, 1),                                   // 256 FE/t，需要二阶及以上线圈
+            power(256, 1),                                   // 256 FE/t
             item("alltheores:gold_dust", 1),             // 金粉
             out("minecraft:gold_ingot", 1)              // 金锭
         ]
@@ -68,9 +68,9 @@ ServerEvents.recipes(event => {
         tick_time: 200,        // 20 tick = 1 秒
         parallelized: true,    // 允许批量；实际并行倍率由结构里的并行控制器决定
         requirements: [
-            power(512, 3),                                   // 256 FE/t，需要二阶及以上线圈
-            item("neovitae:starmetal_dust", 1),             // 金粉
-            out("astralsorcery:starmetal_ingot", 1)              // 金锭
+            power(512, 3),                                   // 512 FE/t，需要三阶及以上线圈
+            item("neovitae:starmetal_dust", 1),             // 星辉矿粉
+            out("astralsorcery:starmetal_ingot", 1)              // 星辉金属锭
         ]
     }).id('mmcr_kubejs:industrial_blast_furnace_starmetal')
 })

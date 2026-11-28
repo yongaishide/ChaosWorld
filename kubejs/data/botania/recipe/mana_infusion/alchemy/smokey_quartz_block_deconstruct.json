@@ -6,11 +6,11 @@
   },
   "group": "botania:lossy_deconstruction",
   "input": {
-    "item": "botania:smokey_quartz_block"
+    "item": "botania:dark_quartz"
   },
   "mana": 100,
   "output": {
     "count": 3,
-    "id": "botania:smokey_quartz"
+    "id": "botania:shimmer_quartz"
   }
 }

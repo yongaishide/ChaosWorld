@@ -4,7 +4,7 @@
   "group": "botania:metamorphic_brick_slab",
   "key": {
     "Q": {
-      "item": "botania:lunite_bricks"
+      "item": "botania:metamorphic_taiga_bricks"
     }
   },
   "pattern": [
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 6,
-    "id": "botania:lunite_brick_slab"
+    "id": "botania:metamorphic_taiga_bricks_slab"
   }
 }

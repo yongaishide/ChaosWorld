@@ -4,7 +4,7 @@
   "group": "botania:metamorphic_stone_wall",
   "key": {
     "B": {
-      "item": "botania:rosy_talc"
+      "item": "botania:metamorphic_mesa_stone"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 6,
-    "id": "botania:rosy_talc_wall"
+    "id": "botania:metamorphic_mesa_stone_wall"
   }
 }

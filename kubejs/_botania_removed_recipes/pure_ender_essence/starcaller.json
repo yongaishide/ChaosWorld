@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "botania:pure_ender_essence"
+    },
+    "D": {
+      "tag": "c:gems/dragonstone"
+    },
+    "I": {
+      "tag": "c:ingots/elementium"
+    },
+    "T": {
+      "item": "botania:terra_sword"
+    }
+  },
+  "pattern": [
+    "  I",
+    "AD ",
+    "TA "
+  ],
+  "result": {
+    "count": 1,
+    "id": "botania:star_sword"
+  }
+}

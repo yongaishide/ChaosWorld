@@ -3,7 +3,7 @@
   "category": "equipment",
   "key": {
     "A": {
-      "item": "botania:rune_of_air"
+      "item": "botania:rune_air"
     },
     "T": {
       "item": "botania:livingwood_twig"
@@ -16,6 +16,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "botania:livingwood_slingshot"
+    "id": "botania:slingshot"
   }
 }

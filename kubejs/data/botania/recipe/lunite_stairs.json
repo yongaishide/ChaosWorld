@@ -4,7 +4,7 @@
   "group": "botania:metamorphic_stone_stairs",
   "key": {
     "Q": {
-      "item": "botania:lunite"
+      "item": "botania:metamorphic_taiga_stone"
     }
   },
   "pattern": [
@@ -14,6 +14,6 @@
   ],
   "result": {
     "count": 4,
-    "id": "botania:lunite_stairs"
+    "id": "botania:metamorphic_taiga_stone_stairs"
   }
 }

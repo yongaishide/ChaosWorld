@@ -9,13 +9,13 @@
       "tag": "c:ingots/elementium"
     },
     "G": {
-      "item": "botania:gaia_spirit"
+      "item": "botania:life_essence"
     },
     "N": {
       "item": "minecraft:white_wool"
     },
     "P": {
-      "item": "botania:cirrus_amulet"
+      "item": "botania:cloud_pendant"
     }
   },
   "pattern": [
@@ -25,6 +25,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "botania:nimbus_amulet"
+    "id": "botania:super_cloud_pendant"
   }
 }

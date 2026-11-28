@@ -4,7 +4,7 @@
   "group": "botania:metamorphic_apothecary",
   "key": {
     "C": {
-      "item": "botania:cobbled_fuchsite"
+      "item": "botania:metamorphic_forest_cobblestone"
     },
     "P": {
       "tag": "botania:petals"
@@ -20,6 +20,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "botania:fuchsite_petal_apothecary"
+    "id": "botania:apothecary_forest"
   }
 }

@@ -10,3 +10,9 @@ patternProviderActiveRefresh = true
 # Default: 1024
 # Range: 64 ~ 8192
 maxSyncedSlotsPerProvider = 1024
+#Max non-empty pattern slots synced to the client across all providers in one list.
+#Patterns beyond this limit are hidden in the terminal (a warning is logged once).
+#Keeps the provider list packet under Minecraft's packet size limit on very large networks.
+# Default: 8192
+# Range: 256 ~ 65536
+maxSyncedSlotsTotal = 8192

@@ -9,7 +9,7 @@
       "item": "minecraft:glowstone"
     },
     "L": {
-      "item": "botania:mana_lens"
+      "item": "botania:lens_normal"
     }
   },
   "pattern": [
@@ -19,6 +19,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "botania:flash_lens"
+    "id": "botania:lens_light"
   }
 }
